@@ -46,7 +46,7 @@ ul.commenti{
 			margin-top:15px;
 			margin-bottom:10px;
 			float:left;
-			@include box-shadow(grey,2px,2px,10px);
+			@include single-box-shadow;
 		}
 		.text{
 			float:left;
