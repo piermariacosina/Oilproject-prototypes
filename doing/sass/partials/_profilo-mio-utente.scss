@@ -6,7 +6,7 @@ background: image-url("background-profilo.png") no-repeat left top;
 width: 618px;
 height: 371px;
 position: absolute;
-margin-top: 50px;
+margin-top: 20px;
       
       
       .profilo{
@@ -78,8 +78,8 @@ margin-top: 50px;
       }
    
      .number{
-     	color: $white;
-     	background-color:  $dark-green;
+     	color: $input-field-border-green;
+     	background-color:$fluo-blue;
      	width: 19px;
      	height: 19px;
         font-weight: bold;
@@ -105,17 +105,30 @@ margin-top: 50px;
        width: 115px;
        height: 121px;
        margin-left: 511px;
-       margin-top: -93px;
+       margin-top: -108px;
        
        
        }
-   
+     .bio{
+     	position: absolute;
+     	margin-top: 152px;
+     	margin-left: 40px;
+     	width: 277px;
+     	
+     	  p{
+     	  color: $white;
+     	  font-family: 'Droid Sans';
+     	  font-weight: normal;
+     	  font-size: 13px;
+     	  line-height: 15px;
+     	  
+     	  }
+     }
        
        #social{
        margin-left: 470px;
        margin-top: -170px;
-       position: absolute;
-       margin-top: -35px;
+       margin-top: -60px;
        	
        	
        	.facebook{
@@ -131,7 +144,7 @@ margin-top: 50px;
        	width: 41px;
        	height: 41px;
        	position: absolute;
-       	margin-left: 40px;
+       	margin-left: 53px;
        	}
        }
        	

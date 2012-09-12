@@ -1,4 +1,4 @@
-	.container-corsi{
+.container-corsi{
 		width: 968px;
 		height: auto;
 		margin: 10px 0 30px 10px;
@@ -101,6 +101,7 @@
 					.tipologie-lezioni{
 						list-style-type: none;
 						margin-left: 18px;
+						margin-top: -8px;
 
 
 						li{
@@ -114,11 +115,13 @@
 								position: relative;
 								float: left;
 								font-size: 21px;
+								
 
 							}
 							span{
 								position: relative;
 								float: left;
+								margin-top: 5px;
 							}
 						}
 					}
