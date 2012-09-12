@@ -1,0 +1,4314 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,400italic);
+@font-face {
+  font-family: "header11-webfont";
+  src: url('../fonts/header11-webfont');
+  src: url('../fonts/header11-webfont?#iefix') format('eot'), url('../fonts/header11-webfont.woff') format('woff'), url('../fonts/header11-webfont.ttf') format('truetype'), url('../fonts/header11-webfont.otf') format('opentype'), url('../fonts/header11-webfont.svg') format('svg');
+  font-weight: 400;
+  font-style: regular;
+}
+
+/* line 79, ../sass/screen.scss */
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+  margin-bottom: 0 !important;
+}
+
+/* line 84, ../sass/screen.scss */
+div.corner.left {
+  background: url('../images/corner-left.png?1346400986') no-repeat left top;
+  height: 6px;
+  width: 6px;
+  margin-left: -6px;
+  display: inline;
+  float: left;
+}
+/* line 91, ../sass/screen.scss */
+div.corner.right {
+  background: url('../images/corner-right.png?1346403824') no-repeat left top;
+  height: 6px;
+  width: 6px;
+  margin-right: -6px;
+  display: inline;
+  float: right;
+}
+/* line 98, ../sass/screen.scss */
+div.corner.left.striped {
+  background: url('../images/corner-left-striped.png?1346409153') no-repeat left top;
+  height: 21px;
+  width: 20px;
+  margin-left: -20px;
+  display: inline;
+  float: left;
+}
+
+/* 960 Grid System ~ Text CSS.
+ * Learn more ~ http://960.gs/
+ * *
+ * Licensed under GPL and MIT. */
+/* line 4, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+body {
+  font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+a:focus {
+  outline: 1px dotted invert;
+}
+
+/* line 8, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+hr {
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+}
+
+/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h1 {
+  font-size: 25px;
+}
+
+/* line 16, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h2 {
+  font-size: 23px;
+}
+
+/* line 18, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h3 {
+  font-size: 21px;
+}
+
+/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h4 {
+  font-size: 19px;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h5 {
+  font-size: 17px;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h6 {
+  font-size: 15px;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+ol {
+  list-style: decimal;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+ul {
+  list-style: square;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+li {
+  margin-left: 30px;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+  margin-bottom: 20px;
+}
+
+/* 960 Grid System ~ Core CSS.
+ * Learn more ~ http://960.gs/
+ * *
+ * Licensed under GPL and MIT. */
+/* line 17, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/partials/_grid.scss */
+.two-column {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+/* line 16, ../sass/partials/_grid.scss */
+.two-column #header, .two-column #footer {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+}
+/* line 18, ../sass/partials/_grid.scss */
+.two-column #sidebar {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 160px;
+}
+/* line 20, ../sass/partials/_grid.scss */
+.two-column #main-content {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 760px;
+}
+
+/*  Font Awesome
+    the iconic font designed for use with Twitter Bootstrap
+    -------------------------------------------------------
+    The full suite of pictographic icons, examples, and documentation
+    can be found at: http://fortawesome.github.com/Font-Awesome/
+
+    License
+    -------------------------------------------------------
+    The Font Awesome webfont, CSS, and LESS files are licensed under CC BY 3.0:
+    http://creativecommons.org/licenses/by/3.0/ A mention of
+    'Font Awesome - http://fortawesome.github.com/Font-Awesome' in human-readable
+    source code is considered acceptable attribution (most common on the web).
+    If human readable source code is not available to the end user, a mention in
+    an 'About' or 'Credits' screen is considered acceptable (most common in desktop
+    or mobile software).
+
+    Contact
+    -------------------------------------------------------
+    Email: dave@davegandy.com
+    Twitter: http://twitter.com/fortaweso_me
+    Work: Lead Product Designer @ http://kyruus.com
+
+    */
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/../fonts/fontawesome-webfont.eot');
+  src: url('../fonts/../fonts/fontawesome-webfont.eot?#iefix') format('eot'), url('../fonts/../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/../fonts/fontawesome-webfont.svg#FontAwesomeRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*  Font Awesome styles
+    ------------------------------------------------------- */
+/* line 41, ../sass/partials/_font-awesome.scss */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+/* line 50, ../sass/partials/_font-awesome.scss */
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 56, ../sass/partials/_font-awesome.scss */
+.icon-large:before {
+  vertical-align: middle;
+  font-size: 4/3em;
+}
+
+/* line 63, ../sass/partials/_font-awesome.scss */
+.btn [class^="icon-"],
+.btn [class*=" icon-"], .nav-tabs [class^="icon-"], .nav-tabs [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+  line-height: .9em;
+}
+
+/* line 71, ../sass/partials/_font-awesome.scss */
+li [class^="icon-"],
+li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+}
+/* line 77, ../sass/partials/_font-awesome.scss */
+li .icon-large:before,
+li .icon-large:before {
+  /* 1.5 increased font size for icon-large * 1.25 width */
+  width: 1.875em;
+}
+
+/* line 83, ../sass/partials/_font-awesome.scss */
+ul.icons {
+  list-style-type: none;
+  margin-left: 2em;
+  text-indent: -0.8em;
+}
+/* line 90, ../sass/partials/_font-awesome.scss */
+ul.icons li [class^="icon-"],
+ul.icons li [class*=" icon-"] {
+  width: .8em;
+}
+/* line 94, ../sass/partials/_font-awesome.scss */
+ul.icons li .icon-large:before,
+ul.icons li .icon-large:before {
+  /* 1.5 increased font size for icon-large * 1.25 width */
+  vertical-align: initial;
+}
+
+/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
+/* line 104, ../sass/partials/_font-awesome.scss */
+.icon-glass:before {
+  content: "\f000";
+}
+
+/* line 105, ../sass/partials/_font-awesome.scss */
+.icon-music:before {
+  content: "\f001";
+}
+
+/* line 106, ../sass/partials/_font-awesome.scss */
+.icon-search:before {
+  content: "\f002";
+}
+
+/* line 107, ../sass/partials/_font-awesome.scss */
+.icon-envelope:before {
+  content: "\f003";
+}
+
+/* line 108, ../sass/partials/_font-awesome.scss */
+.icon-heart:before {
+  content: "\f004";
+}
+
+/* line 109, ../sass/partials/_font-awesome.scss */
+.icon-star:before {
+  content: "\f005";
+}
+
+/* line 110, ../sass/partials/_font-awesome.scss */
+.icon-star-empty:before {
+  content: "\f006";
+}
+
+/* line 111, ../sass/partials/_font-awesome.scss */
+.icon-user:before {
+  content: "\f007";
+}
+
+/* line 112, ../sass/partials/_font-awesome.scss */
+.icon-film:before {
+  content: "\f008";
+}
+
+/* line 113, ../sass/partials/_font-awesome.scss */
+.icon-th-large:before {
+  content: "\f009";
+}
+
+/* line 114, ../sass/partials/_font-awesome.scss */
+.icon-th:before {
+  content: "\f00a";
+}
+
+/* line 115, ../sass/partials/_font-awesome.scss */
+.icon-th-list:before {
+  content: "\f00b";
+}
+
+/* line 116, ../sass/partials/_font-awesome.scss */
+.icon-ok:before {
+  content: "\f00c";
+}
+
+/* line 117, ../sass/partials/_font-awesome.scss */
+.icon-remove:before {
+  content: "\f00d";
+}
+
+/* line 118, ../sass/partials/_font-awesome.scss */
+.icon-zoom-in:before {
+  content: "\f00e";
+}
+
+/* line 120, ../sass/partials/_font-awesome.scss */
+.icon-zoom-out:before {
+  content: "\f010";
+}
+
+/* line 121, ../sass/partials/_font-awesome.scss */
+.icon-off:before {
+  content: "\f011";
+}
+
+/* line 122, ../sass/partials/_font-awesome.scss */
+.icon-signal:before {
+  content: "\f012";
+}
+
+/* line 123, ../sass/partials/_font-awesome.scss */
+.icon-cog:before {
+  content: "\f013";
+}
+
+/* line 124, ../sass/partials/_font-awesome.scss */
+.icon-trash:before {
+  content: "\f014";
+}
+
+/* line 125, ../sass/partials/_font-awesome.scss */
+.icon-home:before {
+  content: "\f015";
+}
+
+/* line 126, ../sass/partials/_font-awesome.scss */
+.icon-file:before {
+  content: "\f016";
+}
+
+/* line 127, ../sass/partials/_font-awesome.scss */
+.icon-time:before {
+  content: "\f017";
+}
+
+/* line 128, ../sass/partials/_font-awesome.scss */
+.icon-road:before {
+  content: "\f018";
+}
+
+/* line 129, ../sass/partials/_font-awesome.scss */
+.icon-download-alt:before {
+  content: "\f019";
+}
+
+/* line 130, ../sass/partials/_font-awesome.scss */
+.icon-download:before {
+  content: "\f01a";
+}
+
+/* line 131, ../sass/partials/_font-awesome.scss */
+.icon-upload:before {
+  content: "\f01b";
+}
+
+/* line 132, ../sass/partials/_font-awesome.scss */
+.icon-inbox:before {
+  content: "\f01c";
+}
+
+/* line 133, ../sass/partials/_font-awesome.scss */
+.icon-play-circle:before {
+  content: "\f01d";
+}
+
+/* line 134, ../sass/partials/_font-awesome.scss */
+.icon-repeat:before {
+  content: "\f01e";
+}
+
+/* \f020 doesn't work in Safari. all shifted one down */
+/* line 137, ../sass/partials/_font-awesome.scss */
+.icon-refresh:before {
+  content: "\f021";
+}
+
+/* line 138, ../sass/partials/_font-awesome.scss */
+.icon-list-alt:before {
+  content: "\f022";
+}
+
+/* line 139, ../sass/partials/_font-awesome.scss */
+.icon-lock:before {
+  content: "\f023";
+}
+
+/* line 140, ../sass/partials/_font-awesome.scss */
+.icon-flag:before {
+  content: "\f024";
+}
+
+/* line 141, ../sass/partials/_font-awesome.scss */
+.icon-headphones:before {
+  content: "\f025";
+}
+
+/* line 142, ../sass/partials/_font-awesome.scss */
+.icon-volume-off:before {
+  content: "\f026";
+}
+
+/* line 143, ../sass/partials/_font-awesome.scss */
+.icon-volume-down:before {
+  content: "\f027";
+}
+
+/* line 144, ../sass/partials/_font-awesome.scss */
+.icon-volume-up:before {
+  content: "\f028";
+}
+
+/* line 145, ../sass/partials/_font-awesome.scss */
+.icon-qrcode:before {
+  content: "\f029";
+}
+
+/* line 146, ../sass/partials/_font-awesome.scss */
+.icon-barcode:before {
+  content: "\f02a";
+}
+
+/* line 147, ../sass/partials/_font-awesome.scss */
+.icon-tag:before {
+  content: "\f02b";
+}
+
+/* line 148, ../sass/partials/_font-awesome.scss */
+.icon-tags:before {
+  content: "\f02c";
+}
+
+/* line 149, ../sass/partials/_font-awesome.scss */
+.icon-book:before {
+  content: "\f02d";
+}
+
+/* line 150, ../sass/partials/_font-awesome.scss */
+.icon-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 151, ../sass/partials/_font-awesome.scss */
+.icon-print:before {
+  content: "\f02f";
+}
+
+/* line 153, ../sass/partials/_font-awesome.scss */
+.icon-camera:before {
+  content: "\f030";
+}
+
+/* line 154, ../sass/partials/_font-awesome.scss */
+.icon-font:before {
+  content: "\f031";
+}
+
+/* line 155, ../sass/partials/_font-awesome.scss */
+.icon-bold:before {
+  content: "\f032";
+}
+
+/* line 156, ../sass/partials/_font-awesome.scss */
+.icon-italic:before {
+  content: "\f033";
+}
+
+/* line 157, ../sass/partials/_font-awesome.scss */
+.icon-text-height:before {
+  content: "\f034";
+}
+
+/* line 158, ../sass/partials/_font-awesome.scss */
+.icon-text-width:before {
+  content: "\f035";
+}
+
+/* line 159, ../sass/partials/_font-awesome.scss */
+.icon-align-left:before {
+  content: "\f036";
+}
+
+/* line 160, ../sass/partials/_font-awesome.scss */
+.icon-align-center:before {
+  content: "\f037";
+}
+
+/* line 161, ../sass/partials/_font-awesome.scss */
+.icon-align-right:before {
+  content: "\f038";
+}
+
+/* line 162, ../sass/partials/_font-awesome.scss */
+.icon-align-justify:before {
+  content: "\f039";
+}
+
+/* line 163, ../sass/partials/_font-awesome.scss */
+.icon-list:before {
+  content: "\f03a";
+}
+
+/* line 164, ../sass/partials/_font-awesome.scss */
+.icon-indent-left:before {
+  content: "\f03b";
+}
+
+/* line 165, ../sass/partials/_font-awesome.scss */
+.icon-indent-right:before {
+  content: "\f03c";
+}
+
+/* line 166, ../sass/partials/_font-awesome.scss */
+.icon-facetime-video:before {
+  content: "\f03d";
+}
+
+/* line 167, ../sass/partials/_font-awesome.scss */
+.icon-picture:before {
+  content: "\f03e";
+}
+
+/* line 169, ../sass/partials/_font-awesome.scss */
+.icon-pencil:before {
+  content: "\f040";
+}
+
+/* line 170, ../sass/partials/_font-awesome.scss */
+.icon-map-marker:before {
+  content: "\f041";
+}
+
+/* line 171, ../sass/partials/_font-awesome.scss */
+.icon-adjust:before {
+  content: "\f042";
+}
+
+/* line 172, ../sass/partials/_font-awesome.scss */
+.icon-tint:before {
+  content: "\f043";
+}
+
+/* line 173, ../sass/partials/_font-awesome.scss */
+.icon-edit:before {
+  content: "\f044";
+}
+
+/* line 174, ../sass/partials/_font-awesome.scss */
+.icon-share:before {
+  content: "\f045";
+}
+
+/* line 175, ../sass/partials/_font-awesome.scss */
+.icon-check:before {
+  content: "\f046";
+}
+
+/* line 176, ../sass/partials/_font-awesome.scss */
+.icon-move:before {
+  content: "\f047";
+}
+
+/* line 177, ../sass/partials/_font-awesome.scss */
+.icon-step-backward:before {
+  content: "\f048";
+}
+
+/* line 178, ../sass/partials/_font-awesome.scss */
+.icon-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 179, ../sass/partials/_font-awesome.scss */
+.icon-backward:before {
+  content: "\f04a";
+}
+
+/* line 180, ../sass/partials/_font-awesome.scss */
+.icon-play:before {
+  content: "\f04b";
+}
+
+/* line 181, ../sass/partials/_font-awesome.scss */
+.icon-pause:before {
+  content: "\f04c";
+}
+
+/* line 182, ../sass/partials/_font-awesome.scss */
+.icon-stop:before {
+  content: "\f04d";
+}
+
+/* line 183, ../sass/partials/_font-awesome.scss */
+.icon-forward:before {
+  content: "\f04e";
+}
+
+/* line 185, ../sass/partials/_font-awesome.scss */
+.icon-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 186, ../sass/partials/_font-awesome.scss */
+.icon-step-forward:before {
+  content: "\f051";
+}
+
+/* line 187, ../sass/partials/_font-awesome.scss */
+.icon-eject:before {
+  content: "\f052";
+}
+
+/* line 188, ../sass/partials/_font-awesome.scss */
+.icon-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 189, ../sass/partials/_font-awesome.scss */
+.icon-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 190, ../sass/partials/_font-awesome.scss */
+.icon-plus-sign:before {
+  content: "\f055";
+}
+
+/* line 191, ../sass/partials/_font-awesome.scss */
+.icon-minus-sign:before {
+  content: "\f056";
+}
+
+/* line 192, ../sass/partials/_font-awesome.scss */
+.icon-remove-sign:before {
+  content: "\f057";
+}
+
+/* line 193, ../sass/partials/_font-awesome.scss */
+.icon-ok-sign:before {
+  content: "\f058";
+}
+
+/* line 194, ../sass/partials/_font-awesome.scss */
+.icon-question-sign:before {
+  content: "\f059";
+}
+
+/* line 195, ../sass/partials/_font-awesome.scss */
+.icon-info-sign:before {
+  content: "\f05a";
+}
+
+/* line 196, ../sass/partials/_font-awesome.scss */
+.icon-screenshot:before {
+  content: "\f05b";
+}
+
+/* line 197, ../sass/partials/_font-awesome.scss */
+.icon-remove-circle:before {
+  content: "\f05c";
+}
+
+/* line 198, ../sass/partials/_font-awesome.scss */
+.icon-ok-circle:before {
+  content: "\f05d";
+}
+
+/* line 199, ../sass/partials/_font-awesome.scss */
+.icon-ban-circle:before {
+  content: "\f05e";
+}
+
+/* line 201, ../sass/partials/_font-awesome.scss */
+.icon-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 202, ../sass/partials/_font-awesome.scss */
+.icon-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 203, ../sass/partials/_font-awesome.scss */
+.icon-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 204, ../sass/partials/_font-awesome.scss */
+.icon-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 205, ../sass/partials/_font-awesome.scss */
+.icon-share-alt:before {
+  content: "\f064";
+}
+
+/* line 206, ../sass/partials/_font-awesome.scss */
+.icon-resize-full:before {
+  content: "\f065";
+}
+
+/* line 207, ../sass/partials/_font-awesome.scss */
+.icon-resize-small:before {
+  content: "\f066";
+}
+
+/* line 208, ../sass/partials/_font-awesome.scss */
+.icon-plus:before {
+  content: "\f067";
+}
+
+/* line 209, ../sass/partials/_font-awesome.scss */
+.icon-minus:before {
+  content: "\f068";
+}
+
+/* line 210, ../sass/partials/_font-awesome.scss */
+.icon-asterisk:before {
+  content: "\f069";
+}
+
+/* line 211, ../sass/partials/_font-awesome.scss */
+.icon-exclamation-sign:before {
+  content: "\f06a";
+}
+
+/* line 212, ../sass/partials/_font-awesome.scss */
+.icon-gift:before {
+  content: "\f06b";
+}
+
+/* line 213, ../sass/partials/_font-awesome.scss */
+.icon-leaf:before {
+  content: "\f06c";
+}
+
+/* line 214, ../sass/partials/_font-awesome.scss */
+.icon-fire:before {
+  content: "\f06d";
+}
+
+/* line 215, ../sass/partials/_font-awesome.scss */
+.icon-eye-open:before {
+  content: "\f06e";
+}
+
+/* line 217, ../sass/partials/_font-awesome.scss */
+.icon-eye-close:before {
+  content: "\f070";
+}
+
+/* line 218, ../sass/partials/_font-awesome.scss */
+.icon-warning-sign:before {
+  content: "\f071";
+}
+
+/* line 219, ../sass/partials/_font-awesome.scss */
+.icon-plane:before {
+  content: "\f072";
+}
+
+/* line 220, ../sass/partials/_font-awesome.scss */
+.icon-calendar:before {
+  content: "\f073";
+}
+
+/* line 221, ../sass/partials/_font-awesome.scss */
+.icon-random:before {
+  content: "\f074";
+}
+
+/* line 222, ../sass/partials/_font-awesome.scss */
+.icon-comment:before {
+  content: "\f075";
+}
+
+/* line 223, ../sass/partials/_font-awesome.scss */
+.icon-magnet:before {
+  content: "\f076";
+}
+
+/* line 224, ../sass/partials/_font-awesome.scss */
+.icon-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 225, ../sass/partials/_font-awesome.scss */
+.icon-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 226, ../sass/partials/_font-awesome.scss */
+.icon-retweet:before {
+  content: "\f079";
+}
+
+/* line 227, ../sass/partials/_font-awesome.scss */
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 228, ../sass/partials/_font-awesome.scss */
+.icon-folder-close:before {
+  content: "\f07b";
+}
+
+/* line 229, ../sass/partials/_font-awesome.scss */
+.icon-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 230, ../sass/partials/_font-awesome.scss */
+.icon-resize-vertical:before {
+  content: "\f07d";
+}
+
+/* line 231, ../sass/partials/_font-awesome.scss */
+.icon-resize-horizontal:before {
+  content: "\f07e";
+}
+
+/* line 233, ../sass/partials/_font-awesome.scss */
+.icon-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 234, ../sass/partials/_font-awesome.scss */
+.icon-twitter-sign:before {
+  content: "\f081";
+}
+
+/* line 235, ../sass/partials/_font-awesome.scss */
+.icon-facebook-sign:before {
+  content: "\f082";
+}
+
+/* line 236, ../sass/partials/_font-awesome.scss */
+.icon-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 237, ../sass/partials/_font-awesome.scss */
+.icon-key:before {
+  content: "\f084";
+}
+
+/* line 238, ../sass/partials/_font-awesome.scss */
+.icon-cogs:before {
+  content: "\f085";
+}
+
+/* line 239, ../sass/partials/_font-awesome.scss */
+.icon-comments:before {
+  content: "\f086";
+}
+
+/* line 240, ../sass/partials/_font-awesome.scss */
+.icon-thumbs-up:before {
+  content: "\f087";
+}
+
+/* line 241, ../sass/partials/_font-awesome.scss */
+.icon-thumbs-down:before {
+  content: "\f088";
+}
+
+/* line 242, ../sass/partials/_font-awesome.scss */
+.icon-star-half:before {
+  content: "\f089";
+}
+
+/* line 243, ../sass/partials/_font-awesome.scss */
+.icon-heart-empty:before {
+  content: "\f08a";
+}
+
+/* line 244, ../sass/partials/_font-awesome.scss */
+.icon-signout:before {
+  content: "\f08b";
+}
+
+/* line 245, ../sass/partials/_font-awesome.scss */
+.icon-linkedin-sign:before {
+  content: "\f08c";
+}
+
+/* line 246, ../sass/partials/_font-awesome.scss */
+.icon-pushpin:before {
+  content: "\f08d";
+}
+
+/* line 247, ../sass/partials/_font-awesome.scss */
+.icon-external-link:before {
+  content: "\f08e";
+}
+
+/* line 249, ../sass/partials/_font-awesome.scss */
+.icon-signin:before {
+  content: "\f090";
+}
+
+/* line 250, ../sass/partials/_font-awesome.scss */
+.icon-trophy:before {
+  content: "\f091";
+}
+
+/* line 251, ../sass/partials/_font-awesome.scss */
+.icon-github-sign:before {
+  content: "\f092";
+}
+
+/* line 252, ../sass/partials/_font-awesome.scss */
+.icon-upload-alt:before {
+  content: "\f093";
+}
+
+/* line 253, ../sass/partials/_font-awesome.scss */
+.icon-lemon:before {
+  content: "\f094";
+}
+
+/* line 254, ../sass/partials/_font-awesome.scss */
+.icon-phone:before {
+  content: "\f095";
+}
+
+/* line 255, ../sass/partials/_font-awesome.scss */
+.icon-check-empty:before {
+  content: "\f096";
+}
+
+/* line 256, ../sass/partials/_font-awesome.scss */
+.icon-bookmark-empty:before {
+  content: "\f097";
+}
+
+/* line 257, ../sass/partials/_font-awesome.scss */
+.icon-phone-sign:before {
+  content: "\f098";
+}
+
+/* line 258, ../sass/partials/_font-awesome.scss */
+.icon-twitter:before {
+  content: "\f099";
+}
+
+/* line 259, ../sass/partials/_font-awesome.scss */
+.icon-facebook:before {
+  content: "\f09a";
+}
+
+/* line 260, ../sass/partials/_font-awesome.scss */
+.icon-github:before {
+  content: "\f09b";
+}
+
+/* line 261, ../sass/partials/_font-awesome.scss */
+.icon-unlock:before {
+  content: "\f09c";
+}
+
+/* line 262, ../sass/partials/_font-awesome.scss */
+.icon-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 263, ../sass/partials/_font-awesome.scss */
+.icon-rss:before {
+  content: "\f09e";
+}
+
+/* line 265, ../sass/partials/_font-awesome.scss */
+.icon-hdd:before {
+  content: "\f0a0";
+}
+
+/* line 266, ../sass/partials/_font-awesome.scss */
+.icon-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 267, ../sass/partials/_font-awesome.scss */
+.icon-bell:before {
+  content: "\f0a2";
+}
+
+/* line 268, ../sass/partials/_font-awesome.scss */
+.icon-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 269, ../sass/partials/_font-awesome.scss */
+.icon-hand-right:before {
+  content: "\f0a4";
+}
+
+/* line 270, ../sass/partials/_font-awesome.scss */
+.icon-hand-left:before {
+  content: "\f0a5";
+}
+
+/* line 271, ../sass/partials/_font-awesome.scss */
+.icon-hand-up:before {
+  content: "\f0a6";
+}
+
+/* line 272, ../sass/partials/_font-awesome.scss */
+.icon-hand-down:before {
+  content: "\f0a7";
+}
+
+/* line 273, ../sass/partials/_font-awesome.scss */
+.icon-circle-arrow-left:before {
+  content: "\f0a8";
+}
+
+/* line 274, ../sass/partials/_font-awesome.scss */
+.icon-circle-arrow-right:before {
+  content: "\f0a9";
+}
+
+/* line 275, ../sass/partials/_font-awesome.scss */
+.icon-circle-arrow-up:before {
+  content: "\f0aa";
+}
+
+/* line 276, ../sass/partials/_font-awesome.scss */
+.icon-circle-arrow-down:before {
+  content: "\f0ab";
+}
+
+/* line 277, ../sass/partials/_font-awesome.scss */
+.icon-globe:before {
+  content: "\f0ac";
+}
+
+/* line 278, ../sass/partials/_font-awesome.scss */
+.icon-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 279, ../sass/partials/_font-awesome.scss */
+.icon-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 281, ../sass/partials/_font-awesome.scss */
+.icon-filter:before {
+  content: "\f0b0";
+}
+
+/* line 282, ../sass/partials/_font-awesome.scss */
+.icon-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 283, ../sass/partials/_font-awesome.scss */
+.icon-fullscreen:before {
+  content: "\f0b2";
+}
+
+/* line 285, ../sass/partials/_font-awesome.scss */
+.icon-group:before {
+  content: "\f0c0";
+}
+
+/* line 286, ../sass/partials/_font-awesome.scss */
+.icon-link:before {
+  content: "\f0c1";
+}
+
+/* line 287, ../sass/partials/_font-awesome.scss */
+.icon-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 288, ../sass/partials/_font-awesome.scss */
+.icon-beaker:before {
+  content: "\f0c3";
+}
+
+/* line 289, ../sass/partials/_font-awesome.scss */
+.icon-cut:before {
+  content: "\f0c4";
+}
+
+/* line 290, ../sass/partials/_font-awesome.scss */
+.icon-copy:before {
+  content: "\f0c5";
+}
+
+/* line 291, ../sass/partials/_font-awesome.scss */
+.icon-paper-clip:before {
+  content: "\f0c6";
+}
+
+/* line 292, ../sass/partials/_font-awesome.scss */
+.icon-save:before {
+  content: "\f0c7";
+}
+
+/* line 293, ../sass/partials/_font-awesome.scss */
+.icon-sign-blank:before {
+  content: "\f0c8";
+}
+
+/* line 294, ../sass/partials/_font-awesome.scss */
+.icon-reorder:before {
+  content: "\f0c9";
+}
+
+/* line 295, ../sass/partials/_font-awesome.scss */
+.icon-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 296, ../sass/partials/_font-awesome.scss */
+.icon-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 297, ../sass/partials/_font-awesome.scss */
+.icon-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 298, ../sass/partials/_font-awesome.scss */
+.icon-underline:before {
+  content: "\f0cd";
+}
+
+/* line 299, ../sass/partials/_font-awesome.scss */
+.icon-table:before {
+  content: "\f0ce";
+}
+
+/* line 301, ../sass/partials/_font-awesome.scss */
+.icon-magic:before {
+  content: "\f0d0";
+}
+
+/* line 302, ../sass/partials/_font-awesome.scss */
+.icon-truck:before {
+  content: "\f0d1";
+}
+
+/* line 303, ../sass/partials/_font-awesome.scss */
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 304, ../sass/partials/_font-awesome.scss */
+.icon-pinterest-sign:before {
+  content: "\f0d3";
+}
+
+/* line 305, ../sass/partials/_font-awesome.scss */
+.icon-google-plus-sign:before {
+  content: "\f0d4";
+}
+
+/* line 306, ../sass/partials/_font-awesome.scss */
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 307, ../sass/partials/_font-awesome.scss */
+.icon-money:before {
+  content: "\f0d6";
+}
+
+/* line 308, ../sass/partials/_font-awesome.scss */
+.icon-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 309, ../sass/partials/_font-awesome.scss */
+.icon-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 310, ../sass/partials/_font-awesome.scss */
+.icon-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 311, ../sass/partials/_font-awesome.scss */
+.icon-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 312, ../sass/partials/_font-awesome.scss */
+.icon-columns:before {
+  content: "\f0db";
+}
+
+/* line 313, ../sass/partials/_font-awesome.scss */
+.icon-sort:before {
+  content: "\f0dc";
+}
+
+/* line 314, ../sass/partials/_font-awesome.scss */
+.icon-sort-down:before {
+  content: "\f0dd";
+}
+
+/* line 315, ../sass/partials/_font-awesome.scss */
+.icon-sort-up:before {
+  content: "\f0de";
+}
+
+/* line 317, ../sass/partials/_font-awesome.scss */
+.icon-envelope-alt:before {
+  content: "\f0e0";
+}
+
+/* line 318, ../sass/partials/_font-awesome.scss */
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 319, ../sass/partials/_font-awesome.scss */
+.icon-undo:before {
+  content: "\f0e2";
+}
+
+/* line 320, ../sass/partials/_font-awesome.scss */
+.icon-legal:before {
+  content: "\f0e3";
+}
+
+/* line 321, ../sass/partials/_font-awesome.scss */
+.icon-dashboard:before {
+  content: "\f0e4";
+}
+
+/* line 322, ../sass/partials/_font-awesome.scss */
+.icon-comment-alt:before {
+  content: "\f0e5";
+}
+
+/* line 323, ../sass/partials/_font-awesome.scss */
+.icon-comments-alt:before {
+  content: "\f0e6";
+}
+
+/* line 324, ../sass/partials/_font-awesome.scss */
+.icon-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 325, ../sass/partials/_font-awesome.scss */
+.icon-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 326, ../sass/partials/_font-awesome.scss */
+.icon-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 327, ../sass/partials/_font-awesome.scss */
+.icon-paste:before {
+  content: "\f0ea";
+}
+
+/* line 329, ../sass/partials/_font-awesome.scss */
+.icon-user-md:before {
+  content: "\f200";
+}
+
+/* 960 Grid System ~ Core CSS.
+ * Learn more ~ http://960.gs/
+ * *
+ * Licensed under GPL and MIT. */
+/* line 17, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/partials/_grid.scss */
+.two-column {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+/* line 16, ../sass/partials/_grid.scss */
+.two-column #header, .two-column #footer {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+}
+/* line 18, ../sass/partials/_grid.scss */
+.two-column #sidebar {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 160px;
+}
+/* line 20, ../sass/partials/_grid.scss */
+.two-column #main-content {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 760px;
+}
+
+/* 960 Grid System ~ Text CSS.
+ * Learn more ~ http://960.gs/
+ * *
+ * Licensed under GPL and MIT. */
+/* line 4, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+body {
+  font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+a:focus {
+  outline: 1px dotted invert;
+}
+
+/* line 8, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+hr {
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+}
+
+/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h1 {
+  font-size: 25px;
+}
+
+/* line 16, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h2 {
+  font-size: 23px;
+}
+
+/* line 18, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h3 {
+  font-size: 21px;
+}
+
+/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h4 {
+  font-size: 19px;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h5 {
+  font-size: 17px;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+h6 {
+  font-size: 15px;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+ol {
+  list-style: decimal;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+ul {
+  list-style: square;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+li {
+  margin-left: 30px;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+  margin-bottom: 20px;
+}
+
+/* line 6, ../sass/partials/_template.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 10, ../sass/partials/_template.scss */
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+}
+
+/* line 16, ../sass/partials/_template.scss */
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+/* line 21, ../sass/partials/_template.scss */
+div.row {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  *zoom: 1;
+  min-height: 1px;
+}
+
+/* line 28, ../sass/partials/_template.scss */
+.contenitore {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+/* line 30, ../sass/partials/_template.scss */
+.contenitore div.content {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 640px;
+  min-height: 1px;
+}
+/* line 34, ../sass/partials/_template.scss */
+.contenitore div.sidebar {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+}
+
+/* line 3, ../sass/partials/_header.scss */
+header#main p {
+  font-family: 'Droid Sans' !important;
+  color: white;
+}
+/* line 7, ../sass/partials/_header.scss */
+header#main p b {
+  font-weight: bold;
+}
+/* line 10, ../sass/partials/_header.scss */
+header#main p i {
+  font-style: italic;
+  font-family: 'Droid Serif';
+}
+/* line 17, ../sass/partials/_header.scss */
+header#main a {
+  text-decoration: none;
+}
+/* line 20, ../sass/partials/_header.scss */
+header#main section#menu {
+  background-color: #057c79;
+}
+/* line 22, ../sass/partials/_header.scss */
+header#main section#menu .contenitore {
+  height: 65px;
+  width: 980px !important;
+}
+/* line 25, ../sass/partials/_header.scss */
+header#main section#menu .contenitore h1 {
+  width: 280px;
+  float: left;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+/* line 31, ../sass/partials/_header.scss */
+header#main section#menu .contenitore h1 a {
+  color: white;
+  font-family: "header11-webfont";
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 65px;
+}
+/* line 39, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav {
+  display: inline;
+  float: left;
+}
+/* line 41, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  margin-left: 10px;
+}
+/* line 44, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative;
+  width: 92px;
+  height: 65px;
+  border-right: 1px solid white;
+  text-align: center;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header#main section#menu .contenitore nav ul li:first-child, header#main section#menu .contenitore nav ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header#main section#menu .contenitore nav ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+header#main section#menu .contenitore nav ul li.last {
+  padding-right: 0;
+}
+/* line 54, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li:first-child {
+  border-left: 1px solid white;
+}
+/* line 57, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+}
+/* line 60, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li a span {
+  display: block;
+  margin-top: 16px;
+  color: white;
+}
+/* line 66, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li .underline {
+  height: 8px;
+  background: url('../images/diagonal-white-bg.png?1345650194') repeat left top;
+  margin: 0 18px;
+}
+/* line 76, ../sass/partials/_header.scss */
+header#main section#menu .contenitore #search {
+  width: 355px;
+  height: 65px;
+  display: inline;
+  float: left;
+  border-right: 1px solid white;
+}
+/* line 82, ../sass/partials/_header.scss */
+header#main section#menu .contenitore #search form {
+  display: inline;
+  float: right;
+  margin-right: 10px;
+}
+/* line 87, ../sass/partials/_header.scss */
+header#main section#menu .contenitore #search form label {
+  display: none;
+}
+/* line 91, ../sass/partials/_header.scss */
+header#main section#menu .contenitore #search input#search-field {
+  background-color: #027771;
+  border: 1px #166059 solid;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
+  border-radius: 28px;
+  display: inline;
+  float: left;
+  width: 226px;
+  height: 28px;
+  margin-top: 18.5px;
+  -webkit-box-shadow: 0 1px 1px #48ada8;
+  -moz-box-shadow: 0 1px 1px #48ada8;
+  box-shadow: 0 1px 1px #48ada8;
+  color: white;
+  font-family: 'Droid Sans';
+  font-size: 12px;
+  margin-bottom: 0;
+  padding: 0 0 0 10px;
+}
+/* line 106, ../sass/partials/_header.scss */
+header#main section#menu .contenitore #search input#search-submit {
+  position: absolute;
+  display: inline;
+  float: left;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/search.png?1346397180');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 28px;
+  height: 29px;
+  background-color: transparent;
+  border: none;
+  margin-left: -33px;
+  margin-top: 21px;
+}
+/* line 115, ../sass/partials/_header.scss */
+header#main section#menu .contenitore #search input#search-field:focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px #48ada8;
+  -moz-box-shadow: inset 0 1px 1px #48ada8;
+  box-shadow: inset 0 1px 1px #48ada8;
+}
+/* line 120, ../sass/partials/_header.scss */
+header#main section#menu .contenitore #social {
+  width: 89px;
+  height: 65px;
+  margin-right: -10px;
+  display: inline;
+  float: left;
+}
+/* line 129, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedout {
+  height: 69px;
+  margin-top: 1px;
+  width: 980px !important;
+}
+/* line 130, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedout.hide {
+  display: none;
+}
+/* line 137, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedout #vision {
+  display: inline;
+  float: left;
+  width: 870px;
+  height: 69px;
+  background: url('../images/diagonal-white-bg.png?1345650194') repeat left top;
+}
+/* line 143, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedout #vision p {
+  color: #49ada8;
+  display: inline;
+  float: left;
+  width: 753px;
+  margin-top: 11px;
+  line-height: 15px;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-right: 20px;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+/* line 153, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedout #vision p b, header#main section#dashboard-loggedout #vision p i {
+  color: #29776e;
+}
+/* line 159, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedout #vision .icon {
+  background: url('../images/icon-vision.png?1346409156') repeat left top;
+  width: 62px;
+  height: 45px;
+  margin-top: 12px;
+  margin-left: 20px;
+  display: inline;
+  float: left;
+}
+/* line 169, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedout .login {
+  display: inline;
+  float: left;
+  width: 109px;
+  margin-left: 1px;
+  background-color: #057c79;
+}
+/* line 174, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedout .login p {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 0px;
+}
+/* line 185, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin {
+  height: 30px;
+  background-color: #057c79;
+  margin-top: 1px;
+}
+/* line 186, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin.hide {
+  display: none;
+}
+/* line 193, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .user {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  padding-left: 10px;
+}
+/* line 196, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .user .avatar.small {
+  width: 24px;
+  height: 24px;
+  background-color: #48ada8;
+  border: 1px #48ada8 solid;
+  display: inline;
+  float: left;
+  margin-top: 2px;
+}
+/* line 204, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .user .avatar.small img {
+  width: 24px;
+  height: 24px;
+}
+/* line 210, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .user .name {
+  float: left;
+  margin-left: 8px;
+  width: 80%;
+}
+/* line 214, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .user .name p {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 30px;
+  height: 30px;
+}
+/* line 226, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .corsi {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+}
+/* line 229, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .read-it-later {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+  margin-right: 0;
+  width: 250px;
+}
+/* line 234, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .num {
+  display: inline;
+  float: left;
+  width: 21px;
+  height: 21px;
+  background-color: #48ada8;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  -ms-border-radius: 17px;
+  -o-border-radius: 17px;
+  border-radius: 17px;
+  margin-top: 5px;
+}
+/* line 241, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .num p {
+  padding-top: 4px;
+  text-align: center;
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 250, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .text {
+  margin-left: 8px;
+  display: inline;
+  float: left;
+  width: 80%;
+}
+/* line 254, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .text p {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 30px;
+  height: 30px;
+  text-transform: uppercase;
+}
+/* line 262, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .logout {
+  display: inline;
+  float: left;
+  width: 109px;
+  border-left: 1px solid white;
+}
+/* line 266, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .logout p {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 0px;
+}
+
+/* line 1, ../sass/partials/_container-corsi.scss */
+.container-corsi {
+  width: 968px;
+  height: auto;
+  margin: 10px 0 30px 10px;
+  padding: 0;
+  overflow: hidden;
+  *zoom: 1;
+  list-style-type: none;
+  position: relative;
+  left: -8px;
+}
+/* line 11, ../sass/partials/_container-corsi.scss */
+.container-corsi li {
+  position: relative;
+  float: left;
+  margin: 0 7px 0 0;
+  padding: 0;
+}
+/* line 16, ../sass/partials/_container-corsi.scss */
+.container-corsi li a {
+  text-decoration: none;
+  overflow: visible;
+}
+/* line 19, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso {
+  width: 312px;
+  height: 363px;
+  background: url('../images/corsi-bg.png?1346685154') no-repeat left top;
+  font-family: 'Droid Sans';
+  color: #084936;
+}
+/* line 26, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso h2 {
+  width: 282px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding: 15px 0 0 20px;
+  margin: 0;
+}
+/* line 35, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso h1 {
+  width: 282px;
+  height: 77px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin: 10px 0 0 0;
+  padding: 0 0 0 20px;
+}
+/* line 46, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso .posted-by {
+  font-weight: bold;
+  font-size: 10px;
+  padding: 0 0 0 20px;
+  margin: 10px 0 0 0;
+  position: relative;
+  float: left;
+}
+/* line 54, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso .numero-lezioni {
+  position: relative;
+  float: right;
+  padding: 0 10px 0 0;
+  margin: 10px 0 8px 0;
+}
+/* line 59, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso .numero-lezioni .number {
+  width: 19px;
+  height: 19px;
+  background: #084936;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: -2px;
+  line-height: 18px;
+}
+/* line 74, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso .numero-lezioni span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+  font-size: 10px;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+/* line 84, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso .cover-corso {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+/* line 90, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso p {
+  color: #084936;
+  width: 282px;
+  height: 60px;
+  font-weight: 400px;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 0 0 0 20px;
+  margin: 10px 0 0 0;
+  overflow: hidden;
+}
+/* line 101, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso .tipologie-lezioni {
+  list-style-type: none;
+  margin-left: 18px;
+  margin-top: -8px;
+}
+/* line 107, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso .tipologie-lezioni li {
+  position: relative;
+  float: left;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 12px 20px 0 0;
+  padding: 0;
+}
+/* line 114, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso .tipologie-lezioni li .icon {
+  position: relative;
+  float: left;
+  font-size: 21px;
+}
+/* line 121, ../sass/partials/_container-corsi.scss */
+.container-corsi li a .box-corso .tipologie-lezioni li span {
+  position: relative;
+  float: left;
+  margin-top: 5px;
+}
+/* line 132, ../sass/partials/_container-corsi.scss */
+.container-corsi li a:hover .box-corso, .container-corsi li a:visited .box-corso {
+  background: url('../images/corsi-bg-hover.png?1346685153') no-repeat left top;
+}
+/* line 141, ../sass/partials/_container-corsi.scss */
+.container-corsi li:first-child a .box-corso {
+  background: url('../images/corsi-bg-linguetta.png?1346685155') no-repeat left top;
+  position: relative;
+  width: 330px;
+}
+/* line 145, ../sass/partials/_container-corsi.scss */
+.container-corsi li:first-child a .box-corso h2 {
+  padding-left: 38px;
+}
+/* line 148, ../sass/partials/_container-corsi.scss */
+.container-corsi li:first-child a .box-corso h1 {
+  padding-left: 38px;
+}
+/* line 151, ../sass/partials/_container-corsi.scss */
+.container-corsi li:first-child a .box-corso .posted-by {
+  padding-left: 38px;
+}
+/* line 154, ../sass/partials/_container-corsi.scss */
+.container-corsi li:first-child a .box-corso .cover-corso {
+  padding-left: 38px;
+}
+/* line 157, ../sass/partials/_container-corsi.scss */
+.container-corsi li:first-child a .box-corso p {
+  padding-left: 38px;
+}
+/* line 160, ../sass/partials/_container-corsi.scss */
+.container-corsi li:first-child a .box-corso .tipologie-lezioni {
+  padding-left: 20px;
+}
+/* line 166, ../sass/partials/_container-corsi.scss */
+.container-corsi li:first-child a:hover .box-corso, .container-corsi li:first-child a:visited .box-corso {
+  background: url('../images/corsi-bg-linguetta-hover.png?1346694646') no-repeat left top;
+}
+/* line 172, ../sass/partials/_container-corsi.scss */
+.container-corsi li:last-child {
+  margin: 0;
+}
+
+/* line 1, ../sass/partials/_featured-corso.scss */
+.featured-corso {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 4, ../sass/partials/_featured-corso.scss */
+.featured-corso .video {
+  background: url('../images/foto-video-home.png?1346930954') no-repeat left top;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  margin-right: 0;
+  height: 285px;
+}
+/* line 12, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 400px;
+  height: 285px;
+  background: url('../images/home-video-linguetta.png?1346930778') no-repeat left top;
+  font-family: 'Droid Sans';
+  color: #084936;
+  overflow: visible;
+  margin-left: 0;
+  margin-right: 0;
+  margin-left: -10px;
+  margin-right: -60px;
+  padding-left: 30px;
+}
+/* line 25, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo h2 {
+  width: 282px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  margin: 0;
+}
+/* line 35, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo h1 {
+  width: 282px;
+  height: 77px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin: 5px 0 0 0;
+}
+/* line 46, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo .divisore {
+  margin-right: 90px;
+  margin-top: 10px;
+  clear: both;
+}
+/* line 50, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo .divisore .top {
+  height: 1px;
+  background-color: #0AEA9C;
+}
+/* line 54, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo .divisore .bottom {
+  height: 1px;
+  background-color: #ACFFE3;
+}
+/* line 61, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo .posted-by {
+  font-weight: bold;
+  font-size: 10px;
+  margin: 10px 0 0 0;
+  position: relative;
+  float: left;
+}
+/* line 70, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo .numero-lezioni {
+  position: relative;
+  float: right;
+  padding: 0 100px 0 0;
+  margin: 10px 0 8px 0;
+}
+/* line 79, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo .number {
+  width: 19px;
+  height: 19px;
+  background: #084936;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: -2px;
+  line-height: 18px;
+}
+/* line 95, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+  font-size: 10px;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+/* line 105, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo p {
+  width: 282px;
+  height: 70px;
+  font-weight: 400px;
+  font-size: 13px;
+  line-height: 15px;
+  margin: 10px 0 0 0;
+  overflow: hidden;
+  color: #084936;
+}
+/* line 119, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo .bottone-corso {
+  background-color: #084936;
+  width: 101px;
+  height: 20px;
+  border-radius: 30px;
+}
+/* line 128, ../sass/partials/_featured-corso.scss */
+.featured-corso .box-testo .testo-bottone {
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: lowercase;
+  margin-left: 18px;
+  line-height: 20px;
+}
+
+/* line 1, ../sass/partials/_banner.scss */
+.banner {
+  position: relative;
+  height: 282px;
+  clear: both;
+}
+/* line 5, ../sass/partials/_banner.scss */
+.banner .crea-il-tuo-corso {
+  width: 718px;
+  height: 282px;
+  background: url('../images/crea-il-tuo-corso.png?1346681062') no-repeat left top;
+  position: relative;
+  left: -110px;
+  top: 20px;
+  z-index: 2;
+}
+/* line 14, ../sass/partials/_banner.scss */
+.banner .squared {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 50%;
+  height: 282px;
+  background: url('../images/crea-il-tuo-corso-bg.png?1346681063') repeat-x left top;
+}
+
+/* line 1, ../sass/partials/_footer.scss */
+footer#footer {
+  background-color: #c9f7f5;
+}
+/* line 4, ../sass/partials/_footer.scss */
+footer#footer .barra-top {
+  position: relative;
+  background: url('../images/diagonal-dark-green.png?1347031632') repeat left top;
+  height: 10px;
+  border-top: 1px solid #8be5e1;
+}
+/* line 12, ../sass/partials/_footer.scss */
+footer#footer .info-progetto {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+  margin-left: 0;
+  float: left;
+  padding-top: 30px;
+}
+/* line 19, ../sass/partials/_footer.scss */
+footer#footer .info-progetto h1 {
+  font-size: 25px;
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-weight: 700;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 1px white;
+  padding-bottom: 10px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+}
+/* line 37, ../sass/partials/_footer.scss */
+footer#footer .info-progetto p {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  color: #3d635f;
+  font-size: 13px;
+  font-weight: regular;
+  line-height: 18px;
+  font-family: 'Droid Sans';
+  padding-bottom: 20px;
+}
+/* line 48, ../sass/partials/_footer.scss */
+footer#footer .info-progetto .divisore {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  clear: both;
+}
+/* line 51, ../sass/partials/_footer.scss */
+footer#footer .info-progetto .divisore .top {
+  height: 1px;
+  background-color: #8be5e1;
+}
+/* line 55, ../sass/partials/_footer.scss */
+footer#footer .info-progetto .divisore .bottom {
+  height: 1px;
+  background-color: white;
+}
+/* line 62, ../sass/partials/_footer.scss */
+footer#footer .info-progetto h2 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  font-size: 16px;
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-weight: 700;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 1px white;
+  margin-top: 30px;
+}
+/* line 83, ../sass/partials/_footer.scss */
+footer#footer .info-progetto ul {
+  clear: left;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+}
+/* line 88, ../sass/partials/_footer.scss */
+footer#footer .info-progetto ul li {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  margin-right: 22px;
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding: 0;
+}
+/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .info-progetto ul li:first-child, footer#footer .info-progetto ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .info-progetto ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .info-progetto ul li.last {
+  padding-right: 0;
+}
+/* line 96, ../sass/partials/_footer.scss */
+footer#footer .info-progetto ul li:last-child {
+  margin-right: 0px;
+}
+/* line 101, ../sass/partials/_footer.scss */
+footer#footer .social {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+  height: 280px;
+  margin-top: 30px;
+  background-color: white;
+  float: left;
+  margin-right: 0;
+}
+/* line 110, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom {
+  margin-top: 30px;
+  clear: both;
+  position: relative;
+  background: url('../images/diagonal-dark-green.png?1347031632') repeat left top;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 116, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .creative-commons {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 340px;
+  margin-left: 0;
+  margin-top: 20px;
+  border-right: 2px #c9f7f5 solid;
+}
+/* line 123, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .creative-commons h1 {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/cc.png?1347037527');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 130px;
+  height: 32px;
+  margin-bottom: 20px;
+}
+/* line 128, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .creative-commons p {
+  color: #3d635f;
+  font-size: 13px;
+  font-weight: regular;
+  line-height: 18px;
+  font-family: 'Droid Sans';
+  padding-right: 60px;
+}
+/* line 138, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .creative-commons h6 {
+  text-transform: uppercase;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  font-size: 13px;
+  color: #3d635f;
+  margin: 0;
+}
+/* line 148, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  float: left;
+  width: auto;
+}
+/* line 152, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: auto;
+}
+/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .barra-bottom ul li:first-child, footer#footer .barra-bottom ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .barra-bottom ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .barra-bottom ul li.last {
+  padding-right: 0;
+}
+/* line 159, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .legal-menu {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+  margin-bottom: 20px;
+}
+/* line 162, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .legal-menu ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  display: inline;
+  float: right;
+}
+/* line 165, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .legal-menu ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px #3d635f solid;
+}
+/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .barra-bottom .legal-menu ul li:first-child, footer#footer .barra-bottom .legal-menu ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .barra-bottom .legal-menu ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .barra-bottom .legal-menu ul li.last {
+  padding-right: 0;
+}
+/* line 167, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .legal-menu ul li a {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-weight: bold;
+  color: #3d635f;
+}
+/* line 174, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .legal-menu ul li:last-child {
+  border: none;
+  margin-right: 10px;
+}
+/* line 183, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .footer-menu {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  margin-right: 0;
+  text-align: center;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 192, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .footer-menu ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  display: inline;
+  float: right;
+}
+/* line 196, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .footer-menu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px #c9f7f5 solid;
+}
+/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .barra-bottom .footer-menu li:first-child, footer#footer .barra-bottom .footer-menu li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .barra-bottom .footer-menu li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+footer#footer .barra-bottom .footer-menu li.last {
+  padding-right: 0;
+}
+/* line 202, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .footer-menu a {
+  padding-top: 16px;
+  display: block;
+  cursor: pointer;
+  font-size: 16px;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 1px white;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+footer#footer .barra-bottom .footer-menu a:visited {
+  color: #036863;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+footer#footer .barra-bottom .footer-menu a:hover {
+  color: #036863;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+footer#footer .barra-bottom .footer-menu a:active {
+  color: #036863;
+}
+/* line 220, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .footer-menu .icon {
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 8px;
+  background: url('../images/diagonal-green-darker.png?1347036888') repeat left top;
+  margin: auto;
+}
+
+/* line 1, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni {
+  margin: 30px auto;
+  width: 942px;
+  height: auto;
+  background: #f7fcfb;
+  border: 1px solid #daede9;
+}
+/* line 7, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni h3 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  padding: 12px;
+}
+/* line 16, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer {
+  width: 935px;
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0 0 10px 4px;
+  list-style-type: none;
+}
+/* line 22, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a {
+  text-decoration: none;
+}
+/* line 24, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a .box-video {
+  width: 170px;
+  height: 167px;
+  background: #057c79;
+  font-family: 'Droid Sans';
+  padding: 8px;
+  float: left;
+  margin-right: 1px;
+}
+/* line 32, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a .box-video .img-video {
+  width: 171px;
+  height: 100px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  -moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+}
+/* line 41, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a .box-video .icon {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 8px 0 0 4px;
+}
+/* line 47, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a .box-video h1 {
+  width: 130px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  padding-left: 40px;
+  padding-top: 6px;
+}
+/* line 56, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a .box-video .posted-by {
+  width: 130px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #4cc1b8;
+  padding-left: 40px;
+}
+/* line 68, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a:hover, .featured-videolezioni .box-video-spacer a:visited {
+  text-decoration: none;
+}
+/* line 70, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a:hover .box-video, .featured-videolezioni .box-video-spacer a:visited .box-video {
+  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
+}
+/* line 72, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a:hover .box-video h1, .featured-videolezioni .box-video-spacer a:visited .box-video h1 {
+  color: #057c79;
+}
+/* line 75, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a:hover .box-video .posted-by, .featured-videolezioni .box-video-spacer a:visited .box-video .posted-by {
+  color: #084936;
+}
+
+/* line 1, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio {
+  background: url('../images/box-singolo-esercizio.png?1347367734') no-repeat left top;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 640px;
+  height: 183px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 7, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .title {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+  margin-left: 40px;
+}
+/* line 10, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .title h4 {
+  color: #084936;
+  font-weight: 700;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* line 18, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .title h2 {
+  color: #084936;
+  font-weight: bold;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  font-size: 25px;
+  text-shadow: 0px 1px 0px white;
+}
+/* line 32, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info {
+  position: relative;
+  left: 60px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+}
+/* line 35, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info p {
+  color: #084936;
+  font-weight: 400;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  float: left;
+}
+/* line 44, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info .number {
+  background-color: #084936;
+  width: 19px;
+  height: 19px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: -2px;
+}
+/* line 59, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info p.data-commento {
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  color: #084936;
+}
+/* line 67, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info p.data-commento span {
+  text-transform: capitalize;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-weight: 400;
+}
+/* line 76, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio p.description {
+  margin-top: 10px;
+}
+
+/* line 81, ../sass/partials/_box-singolo-esercizio.scss */
+.comm {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+}
+/* line 85, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments {
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right: 1px solid #C5FFEA;
+  float: left;
+}
+/* line 93, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments.first {
+  padding-right: 10px;
+}
+/* line 97, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments.center {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80px;
+}
+/* line 102, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments.last {
+  border-right: none;
+  float: right;
+}
+/* line 106, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments .box-number-comments {
+  float: left;
+  border-bottom: 1px solid #02967a;
+  border-left: 1px solid #05d6c6;
+  border-right: 1px solid #05d6c6;
+  border-top: 1px solid #05d6c6;
+}
+/* line 112, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments .box-number-comments .number-comments {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #084936;
+  background: #00f2a1;
+  border-bottom: 1px solid #c7ffec;
+  border-left: 1px solid #7dfed5;
+  border-top: 1px solid #7dfed5;
+  border-right: 1px solid #7dfed5;
+  padding: 2px;
+  text-align: center;
+}
+/* line 126, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments .comments {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #084936;
+  text-transform: lowercase;
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+/* line 2, ../sass/partials/_prefooter.scss */
+#prefooter hr {
+  width: 948px;
+  height: 1px;
+  border: 0;
+  background: #B1F2E6;
+  margin: 17px 0 9px 0;
+}
+/* line 9, ../sass/partials/_prefooter.scss */
+#prefooter .categoria-container {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 12, ../sass/partials/_prefooter.scss */
+#prefooter .categoria-container .categoria {
+  width: 108px;
+  height: 31px;
+  background: url('../images/diagonal-white-bg.png?1345650194') repeat left top;
+  margin: 0 0 10px 0;
+}
+/* line 17, ../sass/partials/_prefooter.scss */
+#prefooter .categoria-container .categoria .icon {
+  width: 26px;
+  height: 23px;
+  float: left;
+  margin: 4px;
+}
+/* line 23, ../sass/partials/_prefooter.scss */
+#prefooter .categoria-container .categoria h1 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  float: left;
+  margin-top: 6px;
+}
+/* line 34, ../sass/partials/_prefooter.scss */
+#prefooter .categoria-container li:last-child {
+  margin-right: 0;
+}
+/* line 38, ../sass/partials/_prefooter.scss */
+#prefooter .categoria-container .sottocategoria {
+  width: auto;
+  height: auto;
+  margin: 0;
+  list-style-type: none;
+}
+/* line 45, ../sass/partials/_prefooter.scss */
+#prefooter .categoria-container .sottocategoria li {
+  height: auto;
+  width: 99px;
+  background: none;
+  float: none;
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+/* line 56, ../sass/partials/_prefooter.scss */
+#prefooter .categoria-container .sottocategoria li a {
+  text-decoration: none;
+  color: #49ada8;
+}
+/* line 60, ../sass/partials/_prefooter.scss */
+#prefooter .categoria-container .sottocategoria li a:hover, #prefooter .categoria-container .sottocategoria li a:visited {
+  color: #084936;
+}
+
+/* line 1, ../sass/partials/_sidebar-list.scss */
+.sidebar-list {
+  background-color: #f7fcfb;
+  border: 1px solid #daede9;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+  height: auto;
+  margin: 17px 0 0 0;
+}
+/* line 10, ../sass/partials/_sidebar-list.scss */
+.sidebar-list h4 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  padding: 12px;
+}
+/* line 20, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul {
+  list-style: none;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-left: 0;
+}
+/* line 25, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li {
+  margin: 0 3px 1px 3px;
+  background-color: #057c79;
+}
+/* line 28, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a {
+  text-decoration: none;
+}
+/* line 30, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a .box-sidebar {
+  font-family: 'Droid Sans';
+  padding-left: 48px;
+}
+/* line 34, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a .box-sidebar .icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin-left: -35px;
+  margin-top: 20px;
+  float: left;
+  font-size: 24px;
+  color: white;
+}
+/* line 44, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a .box-sidebar h2 {
+  width: 200px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  padding: 12px 0 0 0;
+  margin: 0;
+}
+/* line 53, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a .box-sidebar .posted-by {
+  width: 200px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 13px;
+  color: #4cc1b8;
+  padding: 2px 0 12px 0;
+  margin: 0;
+}
+
+/* line 1, ../sass/partials/_box-corso.scss */
+.corso {
+  width: 638px;
+  height: 209px;
+  background: url('../images/box-corso-categoria.png?1347032442') no-repeat left top;
+  font-family: 'Droid Sans';
+  color: #084936;
+  display: inline;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 12, ../sass/partials/_box-corso.scss */
+.corso h2 {
+  width: 282px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+/* line 22, ../sass/partials/_box-corso.scss */
+.corso h1 {
+  width: 158px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  overflow: hidden;
+  font-weight: normal;
+  text-transform: lowercase;
+  margin-left: 40px;
+}
+/* line 34, ../sass/partials/_box-corso.scss */
+.corso .relatore {
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: -26px;
+  margin-left: 40px;
+  position: relative;
+  color: #057c79;
+}
+/* line 44, ../sass/partials/_box-corso.scss */
+.corso p {
+  width: 334px;
+  height: 80px;
+  font-weight: 400px;
+  font-size: 10px;
+  line-height: 13px;
+  overflow: hidden;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+/* line 56, ../sass/partials/_box-corso.scss */
+.corso .img-corso-categoria {
+  margin-left: 27px;
+  margin-top: -8px;
+  position: absolute;
+  float: right;
+}
+
+/* line 66, ../sass/partials/_box-corso.scss */
+.divisore-2 {
+  margin-left: 40px;
+  margin-top: -16px;
+}
+
+/* line 72, ../sass/partials/_box-corso.scss */
+.img-corso-categoria {
+  margin-left: 40px;
+}
+
+/* line 77, ../sass/partials/_box-corso.scss */
+.categorie-corso {
+  position: absolute;
+  list-style: none;
+  margin: 0 auto;
+  margin-left: 450px;
+  margin-top: -35px;
+}
+/* line 84, ../sass/partials/_box-corso.scss */
+.categorie-corso ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 1000px;
+}
+/* line 90, ../sass/partials/_box-corso.scss */
+.categorie-corso li {
+  float: left;
+  margin-left: 20px;
+}
+
+/* line 1, ../sass/partials/_container-lezioni.scss */
+.container-lezioni {
+  margin: 30px auto;
+  width: 942px;
+  height: auto;
+  background: #f7fcfb;
+  border: 1px solid #daede9;
+}
+/* line 7, ../sass/partials/_container-lezioni.scss */
+.container-lezioni h3 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  padding: 12px;
+}
+/* line 16, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer {
+  width: 935px;
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0 0 10px 4px;
+  list-style-type: none;
+}
+/* line 23, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a {
+  text-decoration: none;
+}
+/* line 25, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a .box-video {
+  width: 170px;
+  height: 167px;
+  background: #057c79;
+  font-family: 'Droid Sans';
+  padding: 8px;
+  float: left;
+  margin-right: 1px;
+}
+/* line 33, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a .box-video .img-video {
+  width: 171px;
+  height: 100px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  -moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+}
+/* line 42, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a .box-video .icon {
+  width: 25px;
+  height: 25px;
+  color: white;
+  float: left;
+  margin: 8px 0 0 4px;
+}
+/* line 49, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a .box-video h1 {
+  width: 130px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  padding-left: 40px;
+  padding-top: 6px;
+}
+/* line 58, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a .box-video .posted-by {
+  width: 130px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #4cc1b8;
+  padding-left: 40px;
+}
+/* line 70, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a:hover, .container-lezioni .box-video-spacer a:visited {
+  text-decoration: none;
+}
+/* line 72, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a:hover .box-video, .container-lezioni .box-video-spacer a:visited .box-video {
+  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
+}
+/* line 74, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a:hover .box-video h1, .container-lezioni .box-video-spacer a:visited .box-video h1 {
+  color: #057c79;
+}
+/* line 77, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .box-video-spacer a:hover .box-video .posted-by, .container-lezioni .box-video-spacer a:visited .box-video .posted-by {
+  color: #084936;
+}
+
+/* line 86, ../sass/partials/_container-lezioni.scss */
+.container-lezioni {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0 4px 0 4px;
+}
+/* line 89, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .list-lezioni {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 10px 0 4px 0;
+  list-style-type: none;
+}
+/* line 95, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .list-lezioni .categorie {
+  width: 231px;
+  height: 49px;
+  background: url('../images/diagonal-white-bg.png?1345650194') repeat left top;
+  margin-right: 3px;
+  margin-left: 0;
+}
+/* line 101, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .list-lezioni .categorie .icon {
+  width: 36px;
+  height: 32px;
+  color: #49ada8;
+  float: left;
+  margin: 8px;
+}
+/* line 108, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .list-lezioni .categorie h1 {
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #49ada8;
+  float: left;
+  margin-top: 11px;
+}
+/* line 121, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+}
+/* line 126, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni li {
+  margin-left: 0;
+}
+/* line 129, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a {
+  text-decoration: none;
+}
+/* line 132, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione {
+  width: 185px;
+  height: auto;
+  background: #057c79;
+  font-family: 'Droid Sans';
+  padding-left: 48px;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 10px 1px 10px 0;
+}
+/* line 142, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione .img-video {
+  width: 225px;
+  height: 128px;
+  overflow: hidden;
+  margin: 4px 4px 0 4px;
+  clear: both;
+  position: relative;
+  left: -48px;
+  -webkit-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  -moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+}
+/* line 155, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione .icon {
+  width: 25px;
+  height: 25px;
+  color: white;
+  position: relative;
+  margin-left: -35px;
+  margin-top: 34px;
+  float: left;
+  font-size: 24px;
+}
+/* line 165, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione h2 {
+  width: 168px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #00ffb0;
+  padding-top: 16px;
+}
+/* line 174, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione h1 {
+  width: 168px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  padding-top: 4px;
+}
+/* line 182, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione .posted-by {
+  width: 168px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #4cc1b8;
+  padding-top: 2px;
+}
+/* line 189, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione hr {
+  width: 168px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* line 196, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione .line-top {
+  background: #036863;
+  margin-top: 3px;
+}
+/* line 200, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione .line-bottom {
+  background: #159690;
+  margin-bottom: 10px;
+}
+/* line 204, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione p {
+  width: 168px;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: white;
+  margin: 0 0 10px 0;
+  display: none;
+}
+/* line 213, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione .box-number-views {
+  float: left;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #03514b;
+  border-left: 1px solid #086661;
+  border-right: 1px solid #086661;
+  border-top: 1px solid #086661;
+}
+/* line 220, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione .box-number-views .number-views {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #9ffffc;
+  background: #25a599;
+  border-bottom: 1px solid #6cd8c9;
+  border-left: 1px solid #45bfb0;
+  border-top: 1px solid #45bfb0;
+  border-right: 1px solid #45bfb0;
+  padding: 2px;
+}
+/* line 233, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione .views {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #4cc1b8;
+  float: left;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+/* line 249, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni {
+  list-style-type: none;
+}
+/* line 252, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover, .container-lezioni .lezioni a:visited {
+  text-decoration: none;
+}
+/* line 255, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione, .container-lezioni .lezioni a:visited .box-lezione {
+  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
+}
+/* line 257, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione h2, .container-lezioni .lezioni a:visited .box-lezione h2 {
+  color: #084936;
+}
+/* line 260, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione h1, .container-lezioni .lezioni a:visited .box-lezione h1 {
+  color: #057c79;
+}
+/* line 263, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione .posted-by, .container-lezioni .lezioni a:visited .box-lezione .posted-by {
+  color: #084936;
+}
+/* line 266, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione .line-top, .container-lezioni .lezioni a:visited .box-lezione .line-top {
+  background: transparent;
+}
+/* line 269, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione .line-bottom, .container-lezioni .lezioni a:visited .box-lezione .line-bottom {
+  background: #94d3cc;
+}
+/* line 272, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione p, .container-lezioni .lezioni a:visited .box-lezione p {
+  color: #057c79;
+}
+/* line 275, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione .box-number-views, .container-lezioni .lezioni a:visited .box-lezione .box-number-views {
+  border-bottom: 1px solid #0A665D;
+  border-left: 1px solid #1B8C81;
+  border-right: 1px solid #1B8C81;
+  border-top: 1px solid #1B8C81;
+}
+/* line 280, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione .box-number-views .number-views, .container-lezioni .lezioni a:visited .box-lezione .box-number-views .number-views {
+  background: #25a599;
+  border-bottom: 1px solid #e1fffd;
+  border-left: 1px solid #96E0D5;
+  border-top: 1px solid #96E0D5;
+  border-right: 1px solid #96E0D5;
+}
+/* line 288, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione .views, .container-lezioni .lezioni a:visited .box-lezione .views {
+  color: #057c79;
+}
+
+/* line 123, ../sass/screen.scss */
+#lesson {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  height: 400px;
+  margin-top: 10px;
+  background: url('../images/diagonal-green-bg.png?1345649622') repeat left top;
+}
+/* line 128, ../sass/screen.scss */
+#lesson .infor {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  height: 100%;
+  position: relative;
+}
+/* line 133, ../sass/screen.scss */
+#lesson .infor .container-views {
+  width: 65px;
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  border-right: 1px solid #c5ffea;
+  border-left: 1px solid #00ea9c;
+  padding-left: 10px;
+  float: left;
+}
+/* line 141, ../sass/screen.scss */
+#lesson .infor .container-views .box-number-views {
+  float: left;
+  border-bottom: 1px solid #02967a;
+  border-left: 1px solid #05d6c6;
+  border-right: 1px solid #05d6c6;
+  border-top: 1px solid #05d6c6;
+}
+/* line 147, ../sass/screen.scss */
+#lesson .infor .container-views .box-number-views .number-views {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #057c79;
+  background: #00f2a1;
+  border-bottom: 1px solid #c7ffec;
+  border-left: 1px solid #7dfed5;
+  border-top: 1px solid #7dfed5;
+  border-right: 1px solid #7dfed5;
+  padding: 2px;
+}
+/* line 160, ../sass/screen.scss */
+#lesson .infor .container-views .views {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #057c79;
+  float: left;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+/* line 171, ../sass/screen.scss */
+#lesson .infor .container-comments {
+  width: 78px;
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  border-right: 1px solid #c5ffea;
+  float: left;
+}
+/* line 177, ../sass/screen.scss */
+#lesson .infor .container-comments .box-number-comments {
+  float: left;
+  border-bottom: 1px solid #02967a;
+  border-left: 1px solid #05d6c6;
+  border-right: 1px solid #05d6c6;
+  border-top: 1px solid #05d6c6;
+}
+/* line 183, ../sass/screen.scss */
+#lesson .infor .container-comments .box-number-comments .number-comments {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #057c79;
+  background: #00f2a1;
+  border-bottom: 1px solid #c7ffec;
+  border-left: 1px solid #7dfed5;
+  border-top: 1px solid #7dfed5;
+  border-right: 1px solid #7dfed5;
+  padding: 2px;
+}
+/* line 196, ../sass/screen.scss */
+#lesson .infor .container-comments .comments {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #057c79;
+  float: left;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+/* line 207, ../sass/screen.scss */
+#lesson .infor .container-lingua {
+  width: 100px;
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  border-left: 1px solid #00ea9c;
+  padding-left: 10px;
+  float: left;
+}
+/* line 214, ../sass/screen.scss */
+#lesson .infor .container-lingua .box-lingua-icon {
+  float: left;
+  border-bottom: 1px solid #02967a;
+  border-left: 1px solid #05d6c6;
+  border-right: 1px solid #05d6c6;
+  border-top: 1px solid #05d6c6;
+}
+/* line 220, ../sass/screen.scss */
+#lesson .infor .container-lingua .box-lingua-icon .lingua-icon {
+  width: 14px;
+  height: 10px;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #057c79;
+  background: #00f2a1;
+  border-bottom: 1px solid #c7ffec;
+  border-left: 1px solid #7dfed5;
+  border-top: 1px solid #7dfed5;
+  border-right: 1px solid #7dfed5;
+  padding: 2px;
+}
+/* line 235, ../sass/screen.scss */
+#lesson .infor .container-lingua .lingua {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #057c79;
+  float: left;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+/* line 247, ../sass/screen.scss */
+#lesson .infor .aut-date {
+  position: absolute;
+  bottom: 9px;
+}
+/* line 251, ../sass/screen.scss */
+#lesson .infor .aut-date .data .num {
+  position: absolute;
+  float: left;
+  margin-top: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #084936;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+  bottom: -2px;
+}
+/* line 260, ../sass/screen.scss */
+#lesson .infor .aut-date .data .num p {
+  padding-top: 3px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+/* line 267, ../sass/screen.scss */
+#lesson .infor .aut-date .data .info-date {
+  width: 140px;
+  font-family: 'Droid Sans';
+  font-size: 11px;
+  float: left;
+  margin-left: 30px;
+}
+/* line 274, ../sass/screen.scss */
+#lesson .infor .aut-date .data .info-date .mese {
+  font-weight: 700;
+  color: #084936;
+  text-transform: uppercase;
+}
+/* line 279, ../sass/screen.scss */
+#lesson .infor .aut-date .data .info-date .ora {
+  color: #057c79;
+}
+/* line 285, ../sass/screen.scss */
+#lesson .infor .aut-date hr {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  border: 0;
+  height: 1px;
+}
+/* line 290, ../sass/screen.scss */
+#lesson .infor .aut-date .top {
+  margin: 8px 0 0 0;
+  background: #00ea9c;
+}
+/* line 294, ../sass/screen.scss */
+#lesson .infor .aut-date .bottom {
+  margin: 0 0 12px 0;
+  background: #c5ffea;
+}
+/* line 301, ../sass/screen.scss */
+#lesson .foto {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 640px;
+  margin-right: 0;
+  background-color: #38d69a;
+  height: 100%;
+}
+/* line 307, ../sass/screen.scss */
+#lesson h3 {
+  font-size: 15px;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+/* line 316, ../sass/screen.scss */
+#lesson h1 {
+  font-size: 25px;
+  line-height: 30px;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  text-shadow: 0px 2px 1px #c5ffea;
+}
+/* line 332, ../sass/screen.scss */
+#lesson h4 {
+  color: #084936;
+  font-weight: 700;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  font-size: 13px;
+}
+/* line 338, ../sass/screen.scss */
+#lesson h4 span {
+  color: #057c79;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/* line 344, ../sass/screen.scss */
+#lesson p {
+  color: #084936;
+  font-weight: 700;
+  font-family: 'Droid Sans';
+}
+
+/* line 351, ../sass/screen.scss */
+#container {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 640px;
+}
+/* line 353, ../sass/screen.scss */
+#container h4 {
+  margin-top: 10px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40px;
+  font-size: 20px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  color: #057c79;
+  margin-left: 0;
+  text-align: center;
+}
+/* line 363, ../sass/screen.scss */
+#container .icon {
+  margin-top: 10px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40px;
+  margin-left: 0;
+  height: 40px;
+  background-color: white;
+}
+/* line 370, ../sass/screen.scss */
+#container .text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 373, ../sass/screen.scss */
+#container .text h3 {
+  font-size: 21px;
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 0px white, 0px 1px 0px true white;
+  text-shadow: 0px 1px 0px true white, 0px 1px 0px true white;
+  margin-bottom: 10px;
+}
+/* line 387, ../sass/screen.scss */
+#container .text p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+/* line 396, ../sass/screen.scss */
+#container .text .data {
+  position: relative;
+}
+/* line 398, ../sass/screen.scss */
+#container .text .data .num {
+  width: 25px;
+  height: 25px;
+  background-color: #084936;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+/* line 403, ../sass/screen.scss */
+#container .text .data .num p {
+  padding-top: 3px;
+  text-align: center;
+  color: white;
+}
+/* line 409, ../sass/screen.scss */
+#container .text .data .info-date {
+  width: 140px;
+  position: absolute;
+  bottom: -23px;
+  left: 30px;
+}
+/* line 414, ../sass/screen.scss */
+#container .text .data .info-date p {
+  color: #084936;
+  font-weight: 700;
+  font-family: 'Droid Sans';
+  font-size: 11px;
+}
+
+/* line 428, ../sass/screen.scss */
+#testo {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 520px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+/* line 433, ../sass/screen.scss */
+#testo p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #3d635f;
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  padding: 0;
+  margin: 0 0 7px 0;
+}
+/* line 442, ../sass/screen.scss */
+#testo .intro {
+  font-weight: bold;
+  text-indent: 7px;
+}
+/* line 448, ../sass/screen.scss */
+#testo a {
+  color: #24d1c8;
+  text-decoration: none;
+}
+
+/* line 455, ../sass/screen.scss */
+#button {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100px;
+  heigth: 40px;
+  background-color: #084936;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+/* line 462, ../sass/screen.scss */
+#button a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  margin-left: 11px;
+}
+
+/* line 471, ../sass/screen.scss */
+#button-1 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 160px;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 475, ../sass/screen.scss */
+#button-1 .interno {
+  width: 130px;
+  background-color: #084936;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+/* line 480, ../sass/screen.scss */
+#button-1 .interno a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  margin-left: 11px;
+}
+
+/* line 489, ../sass/screen.scss */
+#nuovo-commento {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 610px;
+  margin-left: 0;
+  background-color: black;
+  clear: both;
+  margin-bottom: 35px;
+}
+/* line 495, ../sass/screen.scss */
+#nuovo-commento textarea {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  margin-right: 0;
+  margin-left: 0;
+  border: 1px solid #323232;
+}
+/* line 502, ../sass/screen.scss */
+#nuovo-commento ul {
+  list-style-type: none !important;
+}
+/* line 504, ../sass/screen.scss */
+#nuovo-commento ul li {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  border-bottom: 1px solid white;
+}
+/* line 510, ../sass/screen.scss */
+#nuovo-commento ul li a {
+  text-decoration: none !important;
+  position: relative;
+}
+/* line 514, ../sass/screen.scss */
+#nuovo-commento ul li a .angolo {
+  width: 20px;
+  height: 20px;
+  background: url('../images/angolo-commenti-sx.png?1345652054') repeat left top;
+  position: relative;
+  clear: left;
+}
+/* line 522, ../sass/screen.scss */
+#nuovo-commento ul li a .first-level {
+  top: 20px;
+  left: -10px;
+}
+/* line 527, ../sass/screen.scss */
+#nuovo-commento ul li a .second-level {
+  top: 20px;
+  left: 50px;
+}
+/* line 532, ../sass/screen.scss */
+#nuovo-commento ul li a .third-level {
+  top: 20px;
+  left: 110px;
+}
+/* line 537, ../sass/screen.scss */
+#nuovo-commento ul li a .commento {
+  margin-bottom: 2px;
+  margin-right: 0;
+  background-color: #eafdfc;
+  float: left;
+}
+/* line 544, ../sass/screen.scss */
+#nuovo-commento ul li a .commento .text .data .num {
+  background: #0cc4c4 !important;
+  float: left;
+}
+/* line 547, ../sass/screen.scss */
+#nuovo-commento ul li a .commento .text .data .num p {
+  font-weight: bold !important;
+  padding: 4px 0 !important;
+}
+/* line 552, ../sass/screen.scss */
+#nuovo-commento ul li a .commento .text .data .info-date {
+  font-family: 'Droid Sans';
+  font-size: 11px;
+  float: left;
+  color: #0cc4c4;
+  margin-top: 20px;
+}
+/* line 558, ../sass/screen.scss */
+#nuovo-commento ul li a .commento .text .data .info-date .mese {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 566, ../sass/screen.scss */
+#nuovo-commento ul li a .spacer-comments {
+  clear: both;
+}
+/* line 571, ../sass/screen.scss */
+#nuovo-commento ul li:first-child {
+  clear: both;
+}
+/* line 579, ../sass/screen.scss */
+#nuovo-commento ul li a:hover .angolo, #nuovo-commento ul li a:active .angolo {
+  background: url('../images/angolo-commenti-hover-sx.png?1347465767') repeat left top;
+}
+/* line 582, ../sass/screen.scss */
+#nuovo-commento ul li a:hover .commento, #nuovo-commento ul li a:active .commento {
+  background-color: #c9f7f5;
+}
+
+/* line 592, ../sass/screen.scss */
+.primo-livello {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+}
+/* line 594, ../sass/screen.scss */
+.primo-livello .text {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 340px;
+  margin-left: 0;
+}
+
+/* line 603, ../sass/screen.scss */
+.secondo-livello {
+  position: relative;
+  left: 60px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 520px;
+}
+/* line 608, ../sass/screen.scss */
+.secondo-livello .text {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-left: 0;
+}
+
+/* line 614, ../sass/screen.scss */
+.terzo-livello {
+  position: relative;
+  left: 120px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+}
+/* line 618, ../sass/screen.scss */
+.terzo-livello .text {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+  margin-left: 0;
+}
+
+/* line 626, ../sass/screen.scss */
+#barra {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+}
+/* line 629, ../sass/screen.scss */
+#barra .list {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+}
+/* line 633, ../sass/screen.scss */
+#barra .list .icon-cat {
+  width: 44px;
+  height: 8px;
+  margin-top: 3px;
+  margin-right: 3px;
+  float: left;
+  background: url('../images/diagonal-white-bg.png?1345650194') repeat left top;
+}
+/* line 641, ../sass/screen.scss */
+#barra .list ul {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-left: 0;
+  list-style: none;
+  style-type-position: inside;
+  padding-top: 3px;
+}
+/* line 648, ../sass/screen.scss */
+#barra .list li {
+  height: auto;
+  background: none;
+  float: none;
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+/* line 658, ../sass/screen.scss */
+#barra .list li a {
+  text-decoration: none;
+  color: #49ada8;
+}
+/* line 663, ../sass/screen.scss */
+#barra .list .categorie {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+  background: url('../images/diagonal-white-bg.png?1345650194') repeat left top;
+  float: left;
+}
+/* line 671, ../sass/screen.scss */
+#barra .list .categorie .icon {
+  width: 36px;
+  height: 32px;
+  background: white;
+  float: left;
+  margin: 8px;
+}
+/* line 678, ../sass/screen.scss */
+#barra .list .categorie h1 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  float: left;
+  margin-top: 11px;
+}
+/* line 691, ../sass/screen.scss */
+#barra .image {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+  height: 250px;
+  background-color: #00ffb0;
+  margin-top: 10px;
+}
+/* line 700, ../sass/screen.scss */
+#barra .ultime-lezioni {
+  background: #f7fcfb;
+  border: 1px solid #daede9;
+  padding: 1px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+}
+/* line 707, ../sass/screen.scss */
+#barra .ultime-lezioni h3 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  padding: 12px;
+}
+/* line 718, ../sass/screen.scss */
+#barra .ultime-lezioni ul {
+  list-style: none;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  background-color: #057c79;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0px;
+}
+/* line 728, ../sass/screen.scss */
+#barra .ultime-lezioni .simbolo {
+  width: 44px;
+  margin-top: 3px;
+  margin-right: 3px;
+  float: left;
+  background-color: white;
+  height: 20px;
+}
+/* line 737, ../sass/screen.scss */
+#barra .ultime-lezioni .title {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 742, ../sass/screen.scss */
+#barra .ultime-lezioni .title h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: 'Droid Sans';
+}
+/* line 749, ../sass/screen.scss */
+#barra .ultime-lezioni .title p {
+  font-weight: bold;
+  font-size: 10px;
+  color: #4cc1b8;
+}
