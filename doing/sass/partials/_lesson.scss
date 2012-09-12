@@ -5,16 +5,14 @@
 	.infor{
 		@include grid(5);
 		height:100%;
-		position: relative;
-			
+		position: relative;			
 		.comm{
 			@include grid(5);
 			@include omega;
 			@include alpha;
 			.container-comments{	
 					height: auto;
-					@include clearfix;
-					
+					@include clearfix;					
 					margin-top:20px;
 					margin-bottom:20px;
 					border-right: 1px solid #C5FFEA;
