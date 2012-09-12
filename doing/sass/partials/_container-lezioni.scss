@@ -42,7 +42,7 @@
 				.icon{
 					width: 25px;
 					height: 25px;
-//					background: white;
+					color: white;
 					float: left;
 					margin: 8px 0 0 4px;
 				}
@@ -103,7 +103,7 @@
 			.icon{
 				width: 36px;
 				height: 32px;
-//				background: white;
+				color: white;
 				float: left;
 				margin: 8px;
 			}
@@ -299,4 +299,10 @@
 				}
 			}
 	}	
+}
+
+
+.list-lezioni{
+	@include float-left;
+	@include clearfix;
 }

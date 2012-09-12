@@ -3255,6 +3255,7 @@ footer#footer .barra-bottom .footer-menu .icon {
 .container-lezioni .box-video-spacer a .box-video .icon {
   width: 25px;
   height: 25px;
+  color: white;
   float: left;
   margin: 8px 0 0 4px;
 }
@@ -3320,6 +3321,7 @@ footer#footer .barra-bottom .footer-menu .icon {
 .container-lezioni .categorie-spacer .categorie .icon {
   width: 36px;
   height: 32px;
+  color: white;
   float: left;
   margin: 8px;
 }
@@ -3533,6 +3535,14 @@ footer#footer .barra-bottom .footer-menu .icon {
 /* line 295, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni-spacer .lezioni a:hover .box-lezione .views, .container-lezioni .lezioni-spacer .lezioni a:visited .box-lezione .views {
   color: #057c79;
+}
+
+/* line 305, ../sass/partials/_container-lezioni.scss */
+.list-lezioni {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  *zoom: 1;
 }
 
 /* line 123, ../sass/screen.scss */
