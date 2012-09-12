@@ -3461,136 +3461,80 @@ ul.commenti li .text p.data_commento span {
   position: relative;
 }
 /* line 10, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-views {
-  width: 65px;
+#lesson .infor .comm {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+}
+/* line 14, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+#lesson .infor .comm .container-comments {
   height: auto;
   overflow: hidden;
   *zoom: 1;
-  border-right: 1px solid #c5ffea;
-  border-left: 1px solid #00ea9c;
-  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 18, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-views .box-number-views {
+/* line 22, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+#lesson .infor .comm .container-comments.first {
+  padding-right: 10px;
+}
+/* line 26, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+#lesson .infor .comm .container-comments.center {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80px;
+}
+/* line 31, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+#lesson .infor .comm .container-comments.last {
+  border-right: none;
+  float: right;
+}
+/* line 35, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+#lesson .infor .comm .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
   border-left: 1px solid #05d6c6;
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 24, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-views .box-number-views .number-views {
+/* line 41, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+#lesson .infor .comm .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
   line-height: 10px;
-  color: #057c79;
+  color: #084936;
   background: #00f2a1;
   border-bottom: 1px solid #c7ffec;
   border-left: 1px solid #7dfed5;
   border-top: 1px solid #7dfed5;
   border-right: 1px solid #7dfed5;
   padding: 2px;
+  text-align: center;
 }
-/* line 37, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-views .views {
+/* line 55, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+#lesson .infor .comm .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
   line-height: 10px;
-  color: #057c79;
+  color: #084936;
+  text-transform: lowercase;
   float: left;
-  margin-left: 3px;
+  margin-left: 4px;
+  margin-right: 1px;
   margin-top: 4px;
 }
-/* line 48, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-comments {
-  width: 78px;
-  height: auto;
-  overflow: hidden;
-  *zoom: 1;
-  border-right: 1px solid #c5ffea;
-  float: left;
-}
-/* line 54, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-comments .box-number-comments {
-  float: left;
-  border-bottom: 1px solid #02967a;
-  border-left: 1px solid #05d6c6;
-  border-right: 1px solid #05d6c6;
-  border-top: 1px solid #05d6c6;
-}
-/* line 60, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-comments .box-number-comments .number-comments {
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  background: #00f2a1;
-  border-bottom: 1px solid #c7ffec;
-  border-left: 1px solid #7dfed5;
-  border-top: 1px solid #7dfed5;
-  border-right: 1px solid #7dfed5;
-  padding: 2px;
-}
-/* line 73, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-comments .comments {
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  float: left;
-  margin-left: 3px;
-  margin-top: 4px;
-}
-/* line 84, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-lingua {
-  width: 100px;
-  height: auto;
-  overflow: hidden;
-  *zoom: 1;
-  border-left: 1px solid #00ea9c;
-  padding-left: 10px;
-  float: left;
-}
-/* line 91, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-lingua .box-lingua-icon {
-  float: left;
-  border-bottom: 1px solid #02967a;
-  border-left: 1px solid #05d6c6;
-  border-right: 1px solid #05d6c6;
-  border-top: 1px solid #05d6c6;
-}
-/* line 97, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-lingua .box-lingua-icon .lingua-icon {
-  width: 14px;
-  height: 10px;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  background: #00f2a1;
-  border-bottom: 1px solid #c7ffec;
-  border-left: 1px solid #7dfed5;
-  border-top: 1px solid #7dfed5;
-  border-right: 1px solid #7dfed5;
-  padding: 2px;
-}
-/* line 112, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
-#lesson .infor .container-lingua .lingua {
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  float: left;
-  margin-left: 3px;
-  margin-top: 4px;
-}
-/* line 124, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 69, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date {
   position: absolute;
   bottom: 9px;
 }
-/* line 128, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 73, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .num {
   position: absolute;
   float: left;
@@ -3605,14 +3549,14 @@ ul.commenti li .text p.data_commento span {
   border-radius: 16px;
   bottom: -2px;
 }
-/* line 137, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 82, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
   margin: 0;
 }
-/* line 144, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 89, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .info-date {
   width: 140px;
   font-family: 'Droid Sans';
@@ -3620,17 +3564,17 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin-left: 30px;
 }
-/* line 151, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 96, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .info-date .mese {
   font-weight: 700;
   color: #084936;
   text-transform: uppercase;
 }
-/* line 156, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 101, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .info-date .ora {
   color: #057c79;
 }
-/* line 161, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 106, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date hr {
   display: inline;
   float: left;
@@ -3640,17 +3584,17 @@ ul.commenti li .text p.data_commento span {
   border: 0;
   height: 1px;
 }
-/* line 166, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 111, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .top {
   margin: 8px 0 0 0;
   background: #00ea9c;
 }
-/* line 170, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 115, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .bottom {
   margin: 0 0 12px 0;
   background: #c5ffea;
 }
-/* line 177, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 121, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .foto {
   display: inline;
   float: left;
@@ -3661,7 +3605,7 @@ ul.commenti li .text p.data_commento span {
   background-color: #38d69a;
   height: 100%;
 }
-/* line 183, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 127, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson h3 {
   font-size: 15px;
   color: #084936;
@@ -3670,7 +3614,7 @@ ul.commenti li .text p.data_commento span {
   text-transform: uppercase;
   padding-top: 20px;
 }
-/* line 192, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 136, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson h1 {
   font-size: 25px;
   line-height: 30px;
@@ -3681,7 +3625,7 @@ ul.commenti li .text p.data_commento span {
   padding-bottom: 7px;
   text-shadow: 0px 2px 1px #c5ffea;
 }
-/* line 208, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 152, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson h4 {
   color: #084936;
   font-weight: 700;
@@ -3689,13 +3633,13 @@ ul.commenti li .text p.data_commento span {
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 214, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 158, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson h4 span {
   color: #057c79;
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 220, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
+/* line 164, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson p {
   color: #084936;
   font-weight: 700;
