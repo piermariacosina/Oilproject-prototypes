@@ -169,7 +169,7 @@ margin-top: 20px;
 		@include alpha;
 		
 		position: absolute;
-		margin-top: 90px;
+		margin-top: 95px;
 		margin-left: 40px;
 		.container-comments{	
 				height: auto;
@@ -223,6 +223,87 @@ margin-top: 20px;
 	
 	}
 	
+	
+	
+	
+	#numbers-likes{
+		margin-top: 10px;
+		background: image-url("background_likes.png") no-repeat left top;
+		width: 67px;
+		height: 32px;
+		position: absolute;
+		margin-left: 184px;
+		}
+	
+	.likes{
+		float: left;
+		margin-bottom: 12px;
+		border-bottom: 1px solid $darkest-blue;
+		border-left: 1px solid $dark-blue;
+		border-right: 1px solid $dark-blue;
+		border-top: 1px solid $dark-blue;
+		.icona-likes2{
+		    background: $white;
+		    padding: 5px;
+		}
+	}
+	
+	.number-like2{
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 13px;
+		color: $white;
+		float: left;
+		margin-left: 6px;
+		margin-top: 4px;
+	}
+	
+	
+		
+	#numbers-dislikes{
+		margin-top: 10px;
+		background: image-url("background_likes.png") no-repeat left top;
+		width: 67px;
+		height: 32px;
+		position: absolute;
+		margin-left: 264px;
+		
+		
+	}
+	.dislikes{
+		float: left;
+		margin-bottom: 12px;
+		border-bottom: 1px solid $darkest-blue;
+		border-left: 1px solid $dark-blue;
+		border-right: 1px solid $dark-blue;
+		border-top: 1px solid $dark-blue;
+		.icona-likes2{
+		    background: $white;
+		    padding: 5px;
+		}
+	}
+	
+	.number-dislike2{
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 13px;
+		color: $white;
+		float: left;
+		margin-left: 6px;
+		margin-top: 4px;
+	}
+	
+	
+	.icona-dislikes2{
+		background-color: $white;
+		padding: 5px;
+	}
+	
+
+	
+	
+	
+		
 	
 	//	FINE BOX PROFILO MIO UTENTE
 	
