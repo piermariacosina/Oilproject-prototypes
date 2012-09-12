@@ -162,5 +162,66 @@ margin-top: 20px;
 		
 	}
 	
+	.comm-2{
+		@include grid(5);
+		@include omega;
+		@include alpha;
+		.container-comments{	
+				height: auto;
+				@include clearfix;
+				
+				margin-top:20px;
+				margin-bottom:20px;
+				border-right: 1px solid #C5FFEA;
+				float: left;
+				&.first{
+					
+					padding-right: 10px;
+				}
+				&.center{
+					margin-left: 10px;
+					margin-right: 10px;
+					width: 80px;
+				}
+				&.last{
+					border-right: none;
+					float: right;
+				}
+				.box-number-comments-2{
+					float: left;
+					border-bottom: 1px solid $verde-scuro;
+					border-left: 1px solid $verde-medio;
+					border-right: 1px solid $verde-medio;
+					border-top: 1px solid $verde-medio;
+				.number-comments-2{
+					font-weight: normal;
+					font-size: 10px;
+					line-height: 10px;
+					color: $dark-green;
+					background: $light-fluo-green;
+					border-bottom: 1px solid $lightest-water-green;
+					border-left: 1px solid $lighter-water-green;
+					border-top: 1px solid $lighter-water-green;
+					border-right: 1px solid $lighter-water-green;
+					padding: 2px;
+					text-align: center;
+				}
+			}
+			.comments-2{
+				font-weight: normal;
+				font-size: 10px;
+				line-height: 10px;
+				color: $dark-green;
+				text-transform:lowercase;
+				float: left;
+				margin-left: 4px;
+				margin-right:4px;
+				margin-top: 4px;
+			}
+		}
+	
+	}
+	
+	
 	//	FINE BOX PROFILO MIO UTENTE
 	
