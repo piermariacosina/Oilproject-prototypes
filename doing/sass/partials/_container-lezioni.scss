@@ -85,25 +85,23 @@
 
 .container-lezioni{
 	@include clearfix;
-	.categorie-spacer{
-				width: 940px;
-				height: auto;
-//				background: red;
+	margin: 0 4px 0 4px;
+	.list-lezioni{
+				@include float-left;
 				@include clearfix;
-				margin: 10px 0 4px 4px;
+				margin: 10px 0 4px 0;
 				list-style-type: none;
 
 		.categorie{
 			width: 231px;
 			height: 49px;
 			background: image-url("diagonal-white-bg.png") repeat left top;
-			float: left;
 			margin-right: 3px;
 			margin-left: 0;
 			.icon{
 				width: 36px;
 				height: 32px;
-				color: white;
+				color: $green-title;
 				float: left;
 				margin: 8px;
 			}
@@ -119,12 +117,7 @@
 			}
 		}
 	}
-	.lezioni-spacer{
-//		background: cyan;
-		width: auto;
-		height: auto;
-		@include clearfix;
-		margin: 0 0 0 3px;
+
 		.lezioni{
 			margin: 0;
 			padding: 0;
@@ -249,10 +242,10 @@
 				}
 			}
 		}
-	}
 
 
-	.lezioni-spacer{
+
+
 			.lezioni{
 				list-style-type: none;
 				
@@ -297,12 +290,6 @@
 						}
 					}
 				}
-			}
+			
 	}	
-}
-
-
-.list-lezioni{
-	@include float-left;
-	@include clearfix;
 }
