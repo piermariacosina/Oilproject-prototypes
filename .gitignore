@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .sass-cache/
 =======
 /doing/.sass-cache/0da08d90a20f7274d26e318e3250f8659e71fd2c/_text.scssc
@@ -38,3 +39,15 @@
 /doing/css/screen.css
 doing/.sass-cache/eecfd4687b063c60275ae935a8c8ed8f25b59230/_container-lezioni.scssc
 >>>>>>> ignore
+=======
+.sass-cache/
+doing/compass_app_log.txt
+
+doing/.sass-cache/fab4bca58f59fb269414fe333cdc2e1aa6afd0fd/_base.scssc
+
+doing/.sass-cache/eca7c03073c6e186def15c381a64acfe7bbfedea/_text-shadow.scssc
+
+doing/.sass-cache/8c179d9a2ae404036cc924f93e8a9b14fdeb1148/_contrast.scssc
+
+doing/.sass-cache/889dc5704c2f270542bad12d6e26320d3bcc7edf/_grid.sassc
+>>>>>>> fix

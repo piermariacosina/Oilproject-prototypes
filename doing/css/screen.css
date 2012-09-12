@@ -3531,7 +3531,657 @@ footer#footer .barra-bottom .footer-menu .icon {
   color: #057c79;
 }
 
-/* line 123, ../sass/screen.scss */
+/* line 4, ../sass/partials/_bottone-segui-utente.scss */
+.bottone-segui-utente {
+  background-color: #00ffb0;
+  width: 144px;
+  height: 22px;
+  border-radius: 30px;
+  margin-left: 40px;
+  overflow: hidden;
+}
+/* line 12, ../sass/partials/_bottone-segui-utente.scss */
+.bottone-segui-utente p {
+  color: #3d635f;
+  font-size: 13px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  position: absolute;
+  margin-left: 9px;
+  margin-top: 1px;
+}
+
+/* line 5, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato {
+  position: absolute;
+  background: url('../images/background-corso-iniziato.png?1347301247') no-repeat left top;
+  width: 330px;
+  height: 247px;
+}
+/* line 12, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .number {
+  width: 19px;
+  height: 19px;
+  background: #084936;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: -2px;
+}
+/* line 28, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato h1 {
+  font-size: 17px;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 17px;
+  text-shadow: 0px 2px 1px white, 0px 2px 1px true white;
+  text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
+  margin-top: 21px;
+  margin-left: 39px;
+}
+/* line 47, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato span {
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 5px;
+}
+/* line 55, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .numero-lezioni {
+  position: relative;
+  float: right;
+  padding: 0 100px 0 0;
+  margin: 5px 0 8px 0;
+  margin-right: 135px;
+}
+/* line 65, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .cover-corso {
+  position: absolute;
+  margin-left: 6px;
+}
+/* line 70, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .caricamento {
+  background: url('../images/box-caricamento.png?1347355243') no-repeat left top;
+  width: 223px;
+  height: 32px;
+  margin-top: 137px;
+  margin-left: 36px;
+}
+
+/* line 5, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato {
+  position: absolute;
+  background: url('../images/background-corso-iniziato.png?1347301247') no-repeat left top;
+  width: 330px;
+  height: 247px;
+}
+/* line 12, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .number {
+  width: 19px;
+  height: 19px;
+  background: #084936;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: -2px;
+}
+/* line 28, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato h1 {
+  font-size: 17px;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 17px;
+  text-shadow: 0px 2px 1px white, 0px 2px 1px true white;
+  text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
+  margin-top: 21px;
+  margin-left: 39px;
+}
+/* line 47, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato span {
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 5px;
+}
+/* line 55, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .numero-lezioni {
+  position: relative;
+  float: right;
+  padding: 0 100px 0 0;
+  margin: 5px 0 8px 0;
+  margin-right: 135px;
+}
+/* line 65, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .cover-corso {
+  position: absolute;
+  margin-left: 6px;
+}
+/* line 70, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .caricamento {
+  background: url('../images/box-caricamento.png?1347355243') no-repeat left top;
+  width: 223px;
+  height: 32px;
+  margin-top: 137px;
+  margin-left: 36px;
+}
+
+/* line 1, ../sass/partials/_breadcrumb.scss */
+#breadcrumbs {
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
+  width: 101px;
+  height: 31px;
+  position: absolute;
+  margin-left: 40px;
+}
+/* line 8, ../sass/partials/_breadcrumb.scss */
+#breadcrumbs .bread {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+/* line 19, ../sass/partials/_breadcrumb.scss */
+#breadcrumbs span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
+
+/* line 6, ../sass/partials/_contenuto-singolo.scss */
+.lezione {
+  width: 638px;
+  height: 209px;
+  background: url('../images/box-lezione-categoria.png?1347266829') no-repeat left top;
+  font-family: 'Droid Sans';
+  display: inline;
+  float: left;
+  margin-top: 30px;
+}
+/* line 15, ../sass/partials/_contenuto-singolo.scss */
+.lezione h2 {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 70px;
+  color: #00ffb0;
+}
+/* line 26, ../sass/partials/_contenuto-singolo.scss */
+.lezione h1 {
+  width: 281px;
+  height: 77px;
+  color: white;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  overflow: hidden;
+  font-weight: normal;
+  text-transform: lowercase;
+  margin-left: 70px;
+}
+/* line 41, ../sass/partials/_contenuto-singolo.scss */
+.lezione .relatore {
+  font-weight: bold;
+  font-size: 10px;
+  position: absolute;
+  color: #4cc1b8;
+  margin-top: -40px;
+  margin-left: 70px;
+}
+/* line 51, ../sass/partials/_contenuto-singolo.scss */
+.lezione .divisore-3 {
+  margin-left: 70px;
+  margin-top: -30px;
+}
+/* line 56, ../sass/partials/_contenuto-singolo.scss */
+.lezione .icona-audio-b {
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 33px;
+}
+/* line 64, ../sass/partials/_contenuto-singolo.scss */
+.lezione .box-number-views {
+  float: left;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #03514b;
+  border-left: 1px solid #086661;
+  border-right: 1px solid #086661;
+  border-top: 1px solid #086661;
+}
+/* line 71, ../sass/partials/_contenuto-singolo.scss */
+.lezione .box-number-views .number-views {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #9ffffc;
+  background: #25a599;
+  border-bottom: 1px solid #6cd8c9;
+  border-left: 1px solid #45bfb0;
+  border-top: 1px solid #45bfb0;
+  border-right: 1px solid #45bfb0;
+  padding: 2px;
+}
+/* line 84, ../sass/partials/_contenuto-singolo.scss */
+.lezione .views {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #4cc1b8;
+  float: left;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+/* line 94, ../sass/partials/_contenuto-singolo.scss */
+.lezione .box-likes {
+  float: left;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #03514b;
+  border-left: 1px solid #086661;
+  border-right: 1px solid #086661;
+  border-top: 1px solid #086661;
+}
+/* line 101, ../sass/partials/_contenuto-singolo.scss */
+.lezione .box-likes .icona-likes {
+  background: white;
+  padding: 5px;
+}
+/* line 107, ../sass/partials/_contenuto-singolo.scss */
+.lezione .number-likes {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #4cc1b8;
+  float: left;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+/* line 118, ../sass/partials/_contenuto-singolo.scss */
+.lezione .box-dislikes {
+  float: left;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #03514b;
+  border-left: 1px solid #086661;
+  border-right: 1px solid #086661;
+  border-top: 1px solid #086661;
+}
+/* line 125, ../sass/partials/_contenuto-singolo.scss */
+.lezione .box-dislikes .icona-dislikes {
+  background: white;
+  padding: 5px;
+}
+/* line 131, ../sass/partials/_contenuto-singolo.scss */
+.lezione .number-dislikes {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #4cc1b8;
+  float: left;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+
+/* line 143, ../sass/partials/_contenuto-singolo.scss */
+#extras {
+  margin-left: 400px;
+  margin-top: -90px;
+  position: absolute;
+}
+
+/* line 5, ../sass/partials/_titolo-registrati.scss */
+#titolo-registrati {
+  background: url('../images/diagonal-green-scuro-bg.png?1346929955') repeat left top;
+  height: 400px;
+  height: 400px;
+  width: 620px;
+  height: 50px;
+  margin-left: 30px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+
+/* line 18, ../sass/partials/_titolo-registrati.scss */
+#titolo-registrati h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  color: #e1fffd;
+  font-family: 'Droid Sans';
+  margin-left: 20px;
+  margin-top: 8px;
+  /*font-weight: 400;*/
+}
+
+/* line 33, ../sass/partials/_titolo-registrati.scss */
+#linea {
+  background-color: #057c79;
+  height: 1px;
+  width: 620px;
+  margin-top: 1px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 5, ../sass/partials/_sidebar-edit.scss */
+#sidebar-edit {
+  background-color: #e1fffd;
+  width: 280px;
+  height: 163px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+/* line 12, ../sass/partials/_sidebar-edit.scss */
+#sidebar-edit h1 {
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-size: regular;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-left: 24px;
+  font-weight: bold;
+  text-shadow: 0px 2px 1px white, 0px 2px 1px true white;
+  text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
+}
+/* line 32, ../sass/partials/_sidebar-edit.scss */
+#sidebar-edit h2 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 13px;
+  width: 232px;
+  line-height: 15px;
+  margin-left: 24px;
+}
+
+/* line 50, ../sass/partials/_sidebar-edit.scss */
+#titolo-sidebar {
+  background: url('../images/icona-help.png?1346868330') no-repeat;
+  height: 21px;
+  width: 21px;
+  margin-left: 30px;
+}
+
+/* line 60, ../sass/partials/_sidebar-edit.scss */
+#titolo-sidebar p {
+  margin-left: 15px;
+  margin-top: 50px;
+  color: #0CC4C4;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 74, ../sass/partials/_sidebar-edit.scss */
+#sidebar-edit-2 {
+  background-color: #e1fffd;
+  width: 280px;
+  height: 133px;
+  margin-left: 30px;
+  margin-top: 2px;
+}
+
+/* line 85, ../sass/partials/_sidebar-edit.scss */
+#sidebar-edit-2 h1 {
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-size: regular;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-left: 24px;
+  font-weight: bold;
+  text-shadow: 0px 2px 1px white, 0px 2px 1px true white;
+  text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
+}
+
+/* line 106, ../sass/partials/_sidebar-edit.scss */
+#sidebar-edit-2 h2 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 13px;
+  width: 232px;
+  line-height: 15px;
+  margin-left: 24px;
+}
+
+/* line 4, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente {
+  background: url('../images/background-profilo.png?1347282019') no-repeat left top;
+  width: 618px;
+  height: 371px;
+  position: absolute;
+  margin-top: 20px;
+}
+/* line 12, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente .profilo {
+  margin-top: 30px;
+}
+/* line 16, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente .avatar {
+  background: url('../images/foto-utente.png?1347282525') no-repeat left top;
+  width: 194px;
+  height: 181px;
+  float: left;
+  margin-left: 40px;
+}
+/* line 25, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente h1 {
+  font-size: 15px;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 34, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente h2 {
+  font-size: 10px;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+/* line 44, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente h3 {
+  font-size: 10px;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 51, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente h3 .giorno {
+  color: #4cc1b8;
+  font-size: 12px;
+  padding-right: 8px;
+}
+/* line 57, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente h3 .ora {
+  font-weight: normal;
+  float: none;
+}
+/* line 64, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente .contenuti {
+  list-style: none;
+  margin-left: -30px;
+  margin-top: 30px;
+  float: left;
+}
+/* line 70, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente .contenuti a {
+  color: #4cc1b8;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-left: 10px;
+  line-height: 25px;
+}
+/* line 80, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente .contenuti .number {
+  color: #166059;
+  background-color: #00ffb0;
+  width: 19px;
+  height: 19px;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: -2px;
+  line-height: 19px;
+}
+/* line 103, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente #banner {
+  background: url('../images/banner-premi.png?1347285875') no-repeat left top;
+  width: 115px;
+  height: 121px;
+  margin-left: 511px;
+  margin-top: -108px;
+}
+/* line 112, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente .bio {
+  position: absolute;
+  margin-top: 152px;
+  margin-left: 40px;
+  width: 277px;
+}
+/* line 118, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente .bio p {
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+}
+/* line 128, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente #social {
+  margin-left: 470px;
+  margin-top: -170px;
+  margin-top: -60px;
+}
+/* line 134, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente #social .facebook {
+  background: url('../images/icona-facebook.png?1347287392') no-repeat left top;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+}
+/* line 142, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente #social .twitter {
+  background: url('../images/icona-twitter.png?1347287395') no-repeat left top;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  margin-left: 53px;
+}
+
+/* line 154, ../sass/partials/_profilo-mio-utente.scss */
+.divisore-profilo {
+  background: url('../images/divisore-profilo.png?1347291551') no-repeat left top;
+  width: 600px;
+  height: 2px;
+  margin-top: 260px;
+  margin-left: 18px;
+  position: absolute;
+}
+
+/* line 165, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 {
+  position: absolute;
+  margin-top: 90px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+}
+/* line 173, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments {
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right: 1px solid #C5FFEA;
+  float: left;
+}
+/* line 181, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments.first {
+  padding-right: 10px;
+}
+/* line 185, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments.center {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80px;
+}
+/* line 190, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments.last {
+  border-right: none;
+  float: right;
+}
+/* line 194, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments .box-number-comments-2 {
+  float: left;
+  border-bottom: 1px solid #02967a;
+  border-left: 1px solid #05d6c6;
+  border-right: 1px solid #05d6c6;
+  border-top: 1px solid #05d6c6;
+}
+/* line 200, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments .box-number-comments-2 .number-comments-2 {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #084936;
+  background: #00f2a1;
+  border-bottom: 1px solid #c7ffec;
+  border-left: 1px solid #7dfed5;
+  border-top: 1px solid #7dfed5;
+  border-right: 1px solid #7dfed5;
+  padding: 2px;
+  text-align: center;
+}
+/* line 214, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments .comments-2 {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #084936;
+  text-transform: lowercase;
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+/* line 131, ../sass/screen.scss */
 #lesson {
   margin-left: auto;
   margin-right: auto;
@@ -3540,7 +4190,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-top: 10px;
   background: url('../images/diagonal-green-bg.png?1345649622') repeat left top;
 }
-/* line 128, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 #lesson .infor {
   display: inline;
   float: left;
@@ -3550,7 +4200,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   height: 100%;
   position: relative;
 }
-/* line 133, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #lesson .infor .container-views {
   width: 65px;
   height: auto;
@@ -3561,7 +4211,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   padding-left: 10px;
   float: left;
 }
-/* line 141, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #lesson .infor .container-views .box-number-views {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -3569,7 +4219,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 147, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 #lesson .infor .container-views .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -3582,7 +4232,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 160, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #lesson .infor .container-views .views {
   font-weight: normal;
   font-size: 10px;
@@ -3592,7 +4242,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 171, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 #lesson .infor .container-comments {
   width: 78px;
   height: auto;
@@ -3601,7 +4251,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #c5ffea;
   float: left;
 }
-/* line 177, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 #lesson .infor .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -3609,7 +4259,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 183, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 #lesson .infor .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -3622,7 +4272,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 196, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 #lesson .infor .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -3632,7 +4282,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 207, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 #lesson .infor .container-lingua {
   width: 100px;
   height: auto;
@@ -3642,7 +4292,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   padding-left: 10px;
   float: left;
 }
-/* line 214, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 #lesson .infor .container-lingua .box-lingua-icon {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -3650,7 +4300,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 220, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 #lesson .infor .container-lingua .box-lingua-icon .lingua-icon {
   width: 14px;
   height: 10px;
@@ -3665,7 +4315,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 235, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 #lesson .infor .container-lingua .lingua {
   font-weight: normal;
   font-size: 10px;
@@ -3675,12 +4325,12 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 247, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 #lesson .infor .aut-date {
   position: absolute;
   bottom: 9px;
 }
-/* line 251, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 #lesson .infor .aut-date .data .num {
   position: absolute;
   float: left;
@@ -3695,14 +4345,14 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-radius: 16px;
   bottom: -2px;
 }
-/* line 260, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 #lesson .infor .aut-date .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
   margin: 0;
 }
-/* line 267, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date {
   width: 140px;
   font-family: 'Droid Sans';
@@ -3710,17 +4360,17 @@ footer#footer .barra-bottom .footer-menu .icon {
   float: left;
   margin-left: 30px;
 }
-/* line 274, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date .mese {
   font-weight: 700;
   color: #084936;
   text-transform: uppercase;
 }
-/* line 279, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date .ora {
   color: #057c79;
 }
-/* line 285, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 #lesson .infor .aut-date hr {
   display: inline;
   float: left;
@@ -3730,17 +4380,17 @@ footer#footer .barra-bottom .footer-menu .icon {
   border: 0;
   height: 1px;
 }
-/* line 290, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 #lesson .infor .aut-date .top {
   margin: 8px 0 0 0;
   background: #00ea9c;
 }
-/* line 294, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 #lesson .infor .aut-date .bottom {
   margin: 0 0 12px 0;
   background: #c5ffea;
 }
-/* line 301, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 #lesson .foto {
   display: inline;
   float: left;
@@ -3751,7 +4401,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   background-color: #38d69a;
   height: 100%;
 }
-/* line 307, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 #lesson h3 {
   font-size: 15px;
   color: #084936;
@@ -3760,7 +4410,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   text-transform: uppercase;
   padding-top: 20px;
 }
-/* line 316, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 #lesson h1 {
   font-size: 25px;
   line-height: 30px;
@@ -3769,9 +4419,10 @@ footer#footer .barra-bottom .footer-menu .icon {
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 7px;
-  text-shadow: 0px 2px 1px #c5ffea;
+  text-shadow: 0px 2px 1px #c5ffea, 0px 2px 1px true #c5ffea;
+  text-shadow: 0px 2px 1px true #c5ffea, 0px 2px 1px true #c5ffea;
 }
-/* line 332, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 #lesson h4 {
   color: #084936;
   font-weight: 700;
@@ -3779,20 +4430,20 @@ footer#footer .barra-bottom .footer-menu .icon {
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 338, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 #lesson h4 span {
   color: #057c79;
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 344, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 #lesson p {
   color: #084936;
   font-weight: 700;
   font-family: 'Droid Sans';
 }
 
-/* line 351, ../sass/screen.scss */
+/* line 359, ../sass/screen.scss */
 #container {
   display: inline;
   float: left;
@@ -3800,7 +4451,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-right: 10px;
   width: 640px;
 }
-/* line 353, ../sass/screen.scss */
+/* line 361, ../sass/screen.scss */
 #container h4 {
   margin-top: 10px;
   display: inline;
@@ -3815,7 +4466,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 0;
   text-align: center;
 }
-/* line 363, ../sass/screen.scss */
+/* line 371, ../sass/screen.scss */
 #container .icon {
   margin-top: 10px;
   display: inline;
@@ -3827,12 +4478,12 @@ footer#footer .barra-bottom .footer-menu .icon {
   height: 40px;
   background-color: white;
 }
-/* line 370, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 #container .text {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 373, ../sass/screen.scss */
+/* line 381, ../sass/screen.scss */
 #container .text h3 {
   font-size: 21px;
   color: #057c79;
@@ -3843,7 +4494,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   text-shadow: 0px 1px 0px true white, 0px 1px 0px true white;
   margin-bottom: 10px;
 }
-/* line 387, ../sass/screen.scss */
+/* line 395, ../sass/screen.scss */
 #container .text p {
   font-size: 13px;
   line-height: 16px;
@@ -3852,11 +4503,11 @@ footer#footer .barra-bottom .footer-menu .icon {
   font-weight: 400;
   padding-bottom: 5px;
 }
-/* line 396, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
 #container .text .data {
   position: relative;
 }
-/* line 398, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 #container .text .data .num {
   width: 25px;
   height: 25px;
@@ -3867,20 +4518,20 @@ footer#footer .barra-bottom .footer-menu .icon {
   -o-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 403, ../sass/screen.scss */
+/* line 411, ../sass/screen.scss */
 #container .text .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
 }
-/* line 409, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 #container .text .data .info-date {
   width: 140px;
   position: absolute;
   bottom: -23px;
   left: 30px;
 }
-/* line 414, ../sass/screen.scss */
+/* line 422, ../sass/screen.scss */
 #container .text .data .info-date p {
   color: #084936;
   font-weight: 700;
@@ -3888,7 +4539,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   font-size: 11px;
 }
 
-/* line 428, ../sass/screen.scss */
+/* line 436, ../sass/screen.scss */
 #testo {
   display: inline;
   float: left;
@@ -3898,7 +4549,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-top: 35px;
   margin-bottom: 30px;
 }
-/* line 433, ../sass/screen.scss */
+/* line 441, ../sass/screen.scss */
 #testo p {
   font-size: 13px;
   line-height: 16px;
@@ -3908,18 +4559,18 @@ footer#footer .barra-bottom .footer-menu .icon {
   padding: 0;
   margin: 0 0 7px 0;
 }
-/* line 442, ../sass/screen.scss */
+/* line 450, ../sass/screen.scss */
 #testo .intro {
   font-weight: bold;
   text-indent: 7px;
 }
-/* line 448, ../sass/screen.scss */
+/* line 456, ../sass/screen.scss */
 #testo a {
   color: #24d1c8;
   text-decoration: none;
 }
 
-/* line 455, ../sass/screen.scss */
+/* line 463, ../sass/screen.scss */
 #button {
   display: inline;
   float: left;
@@ -3935,7 +4586,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 462, ../sass/screen.scss */
+/* line 470, ../sass/screen.scss */
 #button a {
   color: white;
   font-size: 12px;
@@ -3944,7 +4595,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 11px;
 }
 
-/* line 471, ../sass/screen.scss */
+/* line 479, ../sass/screen.scss */
 #button-1 {
   display: inline;
   float: left;
@@ -3954,7 +4605,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 475, ../sass/screen.scss */
+/* line 483, ../sass/screen.scss */
 #button-1 .interno {
   width: 130px;
   background-color: #084936;
@@ -3965,7 +4616,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 480, ../sass/screen.scss */
+/* line 488, ../sass/screen.scss */
 #button-1 .interno a {
   color: white;
   font-size: 12px;
@@ -3974,7 +4625,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 11px;
 }
 
-/* line 489, ../sass/screen.scss */
+/* line 497, ../sass/screen.scss */
 #nuovo-commento {
   display: inline;
   float: left;
@@ -3986,7 +4637,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   clear: both;
   margin-bottom: 35px;
 }
-/* line 495, ../sass/screen.scss */
+/* line 503, ../sass/screen.scss */
 #nuovo-commento textarea {
   display: inline;
   float: left;
@@ -3997,11 +4648,11 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 0;
   border: 1px solid #323232;
 }
-/* line 502, ../sass/screen.scss */
+/* line 510, ../sass/screen.scss */
 #nuovo-commento ul {
   list-style-type: none !important;
 }
-/* line 504, ../sass/screen.scss */
+/* line 512, ../sass/screen.scss */
 #nuovo-commento ul li {
   width: auto;
   height: auto;
@@ -4010,12 +4661,12 @@ footer#footer .barra-bottom .footer-menu .icon {
   display: block;
   border-bottom: 1px solid white;
 }
-/* line 510, ../sass/screen.scss */
+/* line 518, ../sass/screen.scss */
 #nuovo-commento ul li a {
   text-decoration: none !important;
   position: relative;
 }
-/* line 514, ../sass/screen.scss */
+/* line 522, ../sass/screen.scss */
 #nuovo-commento ul li a .angolo {
   width: 20px;
   height: 20px;
@@ -4023,39 +4674,39 @@ footer#footer .barra-bottom .footer-menu .icon {
   position: relative;
   clear: left;
 }
-/* line 522, ../sass/screen.scss */
+/* line 530, ../sass/screen.scss */
 #nuovo-commento ul li a .first-level {
   top: 20px;
   left: -10px;
 }
-/* line 527, ../sass/screen.scss */
+/* line 535, ../sass/screen.scss */
 #nuovo-commento ul li a .second-level {
   top: 20px;
   left: 50px;
 }
-/* line 532, ../sass/screen.scss */
+/* line 540, ../sass/screen.scss */
 #nuovo-commento ul li a .third-level {
   top: 20px;
   left: 110px;
 }
-/* line 537, ../sass/screen.scss */
+/* line 545, ../sass/screen.scss */
 #nuovo-commento ul li a .commento {
   margin-bottom: 2px;
   margin-right: 0;
   background-color: #eafdfc;
   float: left;
 }
-/* line 544, ../sass/screen.scss */
+/* line 552, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num {
   background: #0cc4c4 !important;
   float: left;
 }
-/* line 547, ../sass/screen.scss */
+/* line 555, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num p {
   font-weight: bold !important;
   padding: 4px 0 !important;
 }
-/* line 552, ../sass/screen.scss */
+/* line 560, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date {
   font-family: 'Droid Sans';
   font-size: 11px;
@@ -4063,29 +4714,29 @@ footer#footer .barra-bottom .footer-menu .icon {
   color: #0cc4c4;
   margin-top: 20px;
 }
-/* line 558, ../sass/screen.scss */
+/* line 566, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date .mese {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 566, ../sass/screen.scss */
+/* line 574, ../sass/screen.scss */
 #nuovo-commento ul li a .spacer-comments {
   clear: both;
 }
-/* line 571, ../sass/screen.scss */
+/* line 579, ../sass/screen.scss */
 #nuovo-commento ul li:first-child {
   clear: both;
 }
-/* line 579, ../sass/screen.scss */
+/* line 587, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .angolo, #nuovo-commento ul li a:active .angolo {
   background: url('../images/angolo-commenti-hover-sx.png?1347465767') repeat left top;
 }
-/* line 582, ../sass/screen.scss */
+/* line 590, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .commento, #nuovo-commento ul li a:active .commento {
   background-color: #c9f7f5;
 }
 
-/* line 592, ../sass/screen.scss */
+/* line 600, ../sass/screen.scss */
 .primo-livello {
   display: inline;
   float: left;
@@ -4093,7 +4744,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-right: 10px;
   width: 580px;
 }
-/* line 594, ../sass/screen.scss */
+/* line 602, ../sass/screen.scss */
 .primo-livello .text {
   display: inline;
   float: left;
@@ -4103,7 +4754,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 0;
 }
 
-/* line 603, ../sass/screen.scss */
+/* line 611, ../sass/screen.scss */
 .secondo-livello {
   position: relative;
   left: 60px;
@@ -4113,7 +4764,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-right: 10px;
   width: 520px;
 }
-/* line 608, ../sass/screen.scss */
+/* line 616, ../sass/screen.scss */
 .secondo-livello .text {
   display: inline;
   float: left;
@@ -4123,7 +4774,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 0;
 }
 
-/* line 614, ../sass/screen.scss */
+/* line 622, ../sass/screen.scss */
 .terzo-livello {
   position: relative;
   left: 120px;
@@ -4133,7 +4784,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-right: 10px;
   width: 460px;
 }
-/* line 618, ../sass/screen.scss */
+/* line 626, ../sass/screen.scss */
 .terzo-livello .text {
   display: inline;
   float: left;
@@ -4143,7 +4794,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 0;
 }
 
-/* line 626, ../sass/screen.scss */
+/* line 634, ../sass/screen.scss */
 #barra {
   display: inline;
   float: left;
@@ -4152,7 +4803,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   width: 280px;
   margin-right: 0;
 }
-/* line 629, ../sass/screen.scss */
+/* line 637, ../sass/screen.scss */
 #barra .list {
   display: inline;
   float: left;
@@ -4162,7 +4813,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 633, ../sass/screen.scss */
+/* line 641, ../sass/screen.scss */
 #barra .list .icon-cat {
   width: 44px;
   height: 8px;
@@ -4171,7 +4822,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   float: left;
   background: url('../images/diagonal-white-bg.png?1345650194') repeat left top;
 }
-/* line 641, ../sass/screen.scss */
+/* line 649, ../sass/screen.scss */
 #barra .list ul {
   display: inline;
   float: left;
@@ -4183,7 +4834,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   style-type-position: inside;
   padding-top: 3px;
 }
-/* line 648, ../sass/screen.scss */
+/* line 656, ../sass/screen.scss */
 #barra .list li {
   height: auto;
   background: none;
@@ -4195,12 +4846,12 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin: 0 0 12px 0;
   padding: 0;
 }
-/* line 658, ../sass/screen.scss */
+/* line 666, ../sass/screen.scss */
 #barra .list li a {
   text-decoration: none;
   color: #49ada8;
 }
-/* line 663, ../sass/screen.scss */
+/* line 671, ../sass/screen.scss */
 #barra .list .categorie {
   display: inline;
   float: left;
@@ -4212,7 +4863,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   background: url('../images/diagonal-white-bg.png?1345650194') repeat left top;
   float: left;
 }
-/* line 671, ../sass/screen.scss */
+/* line 679, ../sass/screen.scss */
 #barra .list .categorie .icon {
   width: 36px;
   height: 32px;
@@ -4220,7 +4871,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   float: left;
   margin: 8px;
 }
-/* line 678, ../sass/screen.scss */
+/* line 686, ../sass/screen.scss */
 #barra .list .categorie h1 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -4231,7 +4882,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   float: left;
   margin-top: 11px;
 }
-/* line 691, ../sass/screen.scss */
+/* line 699, ../sass/screen.scss */
 #barra .image {
   display: inline;
   float: left;
@@ -4244,7 +4895,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   background-color: #00ffb0;
   margin-top: 10px;
 }
-/* line 700, ../sass/screen.scss */
+/* line 708, ../sass/screen.scss */
 #barra .ultime-lezioni {
   background: #f7fcfb;
   border: 1px solid #daede9;
@@ -4257,7 +4908,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 707, ../sass/screen.scss */
+/* line 715, ../sass/screen.scss */
 #barra .ultime-lezioni h3 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -4267,7 +4918,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   color: #49ada8;
   padding: 12px;
 }
-/* line 718, ../sass/screen.scss */
+/* line 726, ../sass/screen.scss */
 #barra .ultime-lezioni ul {
   list-style: none;
   display: inline;
@@ -4280,7 +4931,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-right: 0;
   margin: 0px;
 }
-/* line 728, ../sass/screen.scss */
+/* line 736, ../sass/screen.scss */
 #barra .ultime-lezioni .simbolo {
   width: 44px;
   margin-top: 3px;
@@ -4289,7 +4940,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   background-color: white;
   height: 20px;
 }
-/* line 737, ../sass/screen.scss */
+/* line 745, ../sass/screen.scss */
 #barra .ultime-lezioni .title {
   display: inline;
   float: left;
@@ -4299,14 +4950,14 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 742, ../sass/screen.scss */
+/* line 750, ../sass/screen.scss */
 #barra .ultime-lezioni .title h4 {
   color: white;
   font-weight: 400;
   font-size: 13px;
   font-family: 'Droid Sans';
 }
-/* line 749, ../sass/screen.scss */
+/* line 757, ../sass/screen.scss */
 #barra .ultime-lezioni .title p {
   font-weight: bold;
   font-size: 10px;
