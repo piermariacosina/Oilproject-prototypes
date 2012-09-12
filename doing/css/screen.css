@@ -3783,8 +3783,6 @@ footer#footer .barra-bottom .footer-menu .icon {
 
 /* line 165, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 {
-  position: absolute;
-  margin-top: 90px;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -3792,55 +3790,53 @@ footer#footer .barra-bottom .footer-menu .icon {
   width: 280px;
   margin-right: 0;
   margin-left: 0;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 40px;
 }
-/* line 173, ../sass/partials/_profilo-mio-utente.scss */
+/* line 174, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments {
   height: auto;
   overflow: hidden;
   *zoom: 1;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-right: 1px solid #C5FFEA;
+  border-right: 1px solid #159690;
   float: left;
 }
-/* line 181, ../sass/partials/_profilo-mio-utente.scss */
-.comm-2 .container-comments.first {
+/* line 182, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments.two {
   padding-right: 10px;
 }
-/* line 185, ../sass/partials/_profilo-mio-utente.scss */
-.comm-2 .container-comments.center {
+/* line 186, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments.center2 {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 190, ../sass/partials/_profilo-mio-utente.scss */
-.comm-2 .container-comments.last {
-  border-right: none;
-  float: right;
-}
-/* line 194, ../sass/partials/_profilo-mio-utente.scss */
+/* line 191, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .box-number-comments-2 {
   float: left;
-  border-bottom: 1px solid #02967a;
-  border-left: 1px solid #05d6c6;
-  border-right: 1px solid #05d6c6;
-  border-top: 1px solid #05d6c6;
+  border-bottom: 1px solid #03514b;
+  border-left: 1px solid #086661;
+  border-right: 1px solid #086661;
+  border-top: 1px solid #086661;
 }
-/* line 200, ../sass/partials/_profilo-mio-utente.scss */
+/* line 197, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .box-number-comments-2 .number-comments-2 {
   font-weight: normal;
   font-size: 10px;
   line-height: 10px;
-  color: #084936;
-  background: #00f2a1;
-  border-bottom: 1px solid #c7ffec;
-  border-left: 1px solid #7dfed5;
-  border-top: 1px solid #7dfed5;
-  border-right: 1px solid #7dfed5;
+  color: #9ffffc;
+  background: #25a599;
+  border-bottom: 1px solid #6cd8c9;
+  border-left: 1px solid #45bfb0;
+  border-top: 1px solid #45bfb0;
+  border-right: 1px solid #45bfb0;
   padding: 2px;
   text-align: center;
 }
-/* line 214, ../sass/partials/_profilo-mio-utente.scss */
+/* line 211, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .comments-2 {
   font-weight: normal;
   font-size: 10px;
