@@ -1,0 +1,96 @@
+ul.commenti{
+	list-style:none;
+	h4{
+		font-size: 14px;
+		color: $light-green;
+		font-family: 'Droid Sans';
+		font-weight: 400; 
+
+		margin-bottom:10px;     
+		margin-top:10px;
+	}
+	.box_number{
+			margin-left:20px;
+			float: left;
+			border-bottom: 1px solid $verde_scuro;
+			border-left: 1px solid $verde_medio;
+			border-right: 1px solid $verde_medio;
+			border-top: 1px solid $verde_medio;
+			margin-right:10px;
+		.number_c{
+			font-weight: bold;
+			font-family: 'Droid Sans';
+			font-size: 15px;
+			line-height: 10px;
+			color: $light-green;
+			background: $fluo-blue;
+			border-bottom: 1px solid $lightest_water_green;
+			border-left: 1px solid $lighter_water_green;
+			border-top: 1px solid $lighter_water_green;
+			border-right: 1px solid $lighter_water_green;
+			padding: 2px;
+			padding-left:7px;
+			padding-right:7px;
+		}
+	}
+	li{
+		background: image-url("background.png") no-repeat left top;
+		@include clearfix;
+		margin:3px;
+		margin-left:0;
+		img{
+			background-color:white;
+			width:50px;
+			height:50px;
+			margin-left:40px;
+			margin-top:15px;
+			margin-bottom:10px;
+			float:left;
+			@include box-shadow(grey,2px,2px,10px);
+		}
+		.text{
+			float:left;
+			margin-left:50px;
+			margin-top:10px;
+			width:380px;
+			&>p{
+				font-size: 13px;
+				color: #69c0bb;
+				font-family: 'Droid Sans';
+				font-weight: 400;              
+
+
+			}
+			.number{                          
+				background-color: #0cc4c4;
+				width: 19px;
+				height: 19px;
+				color: white;
+				font-weight: bold;
+				font-size: 12px;
+				position: relative;
+				float: left;
+				text-align: center;
+				border-radius: 10px;
+				padding: 1px 0 0 1px;
+				margin-top: 10px;
+				margin-bottom:4px;
+			}
+
+			p.data_commento{
+				margin-top: 12px;
+				margin-left:25px;
+				text-transform: uppercase;
+				font-weight:bold;
+				font-size:10px;
+				color: #0cc4c4;
+				span{
+					text-transform: capitalize;
+					margin-left:3px;
+					margin-right:3px;
+					font-weight: 400;              
+				}
+			}
+		}
+	}
+}
