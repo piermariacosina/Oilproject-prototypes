@@ -163,50 +163,47 @@ margin-top: 20px;
 	}
 	
 	.comm-2{
-	   position: absolute;
-	   margin-top: 90px;
-	   
-	  
+	  	   
 		@include grid(5);
 		@include omega;
 		@include alpha;
+		
+		position: absolute;
+		margin-top: 90px;
+		margin-left: 40px;
 		.container-comments{	
 				height: auto;
 				@include clearfix;
 				
 				margin-top:20px;
 				margin-bottom:20px;
-				border-right: 1px solid #C5FFEA;
+				border-right: 1px solid $light-line-petrolio;
 				float: left;
-				&.first{
+				&.two{
 					
 					padding-right: 10px;
 				}
-				&.center{
+				&.center2{
 					margin-left: 10px;
 					margin-right: 10px;
 					width: 80px;
 				}
-				&.last{
-					border-right: none;
-					float: right;
-				}
 				.box-number-comments-2{
 					float: left;
-					border-bottom: 1px solid $verde-scuro;
-					border-left: 1px solid $verde-medio;
-					border-right: 1px solid $verde-medio;
-					border-top: 1px solid $verde-medio;
+					border-bottom: 1px solid $darkest-blue;
+					border-left: 1px solid $dark-blue;
+					border-right: 1px solid $dark-blue;
+					border-top: 1px solid $dark-blue;
 				.number-comments-2{
 					font-weight: normal;
 					font-size: 10px;
 					line-height: 10px;
-					color: $dark-green;
-					background: $light-fluo-green;
-					border-bottom: 1px solid $lightest-water-green;
-					border-left: 1px solid $lighter-water-green;
-					border-top: 1px solid $lighter-water-green;
-					border-right: 1px solid $lighter-water-green;
+					color: $azzurro-fluo;
+					background: $light-petrolio-bg;
+					border-bottom: 1px solid $lighter-green;
+					border-left: 1px solid $water-green;
+					border-top: 1px solid $water-green;
+					border-right: 1px solid $water-green;
 					padding: 2px;
 					text-align: center;
 				}
