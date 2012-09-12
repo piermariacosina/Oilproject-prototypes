@@ -4099,17 +4099,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 53px;
 }
 
-/* line 154, ../sass/partials/_profilo-mio-utente.scss */
-.divisore-profilo {
-  background: url('../images/divisore-profilo.png?1347467520') no-repeat left top;
-  width: 600px;
-  height: 2px;
-  margin-top: 260px;
-  margin-left: 18px;
-  position: absolute;
-}
-
-/* line 165, ../sass/partials/_profilo-mio-utente.scss */
+/* line 153, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 {
   display: inline;
   float: left;
@@ -4122,7 +4112,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-top: 95px;
   margin-left: 40px;
 }
-/* line 174, ../sass/partials/_profilo-mio-utente.scss */
+/* line 162, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments {
   height: auto;
   overflow: hidden;
@@ -4132,17 +4122,21 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #159690;
   float: left;
 }
-/* line 182, ../sass/partials/_profilo-mio-utente.scss */
+/* line 170, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments.two {
   padding-right: 10px;
 }
-/* line 186, ../sass/partials/_profilo-mio-utente.scss */
+/* line 174, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments.center2 {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 191, ../sass/partials/_profilo-mio-utente.scss */
+/* line 179, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments span.comments-2 {
+  color: #4cc1b8;
+}
+/* line 182, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .box-number-comments-2 {
   float: left;
   border-bottom: 1px solid #03514b;
@@ -4150,7 +4144,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 197, ../sass/partials/_profilo-mio-utente.scss */
+/* line 188, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .box-number-comments-2 .number-comments-2 {
   font-weight: normal;
   font-size: 10px;
@@ -4164,7 +4158,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   padding: 2px;
   text-align: center;
 }
-/* line 211, ../sass/partials/_profilo-mio-utente.scss */
+/* line 203, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .comments-2 {
   font-weight: normal;
   font-size: 10px;
@@ -4177,7 +4171,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-top: 4px;
 }
 
-/* line 229, ../sass/partials/_profilo-mio-utente.scss */
+/* line 221, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-likes {
   margin-top: 10px;
   background: url('../images/background_likes.png?1347469188') no-repeat left top;
@@ -4187,7 +4181,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 184px;
 }
 
-/* line 238, ../sass/partials/_profilo-mio-utente.scss */
+/* line 230, ../sass/partials/_profilo-mio-utente.scss */
 .likes {
   float: left;
   margin-bottom: 12px;
@@ -4196,13 +4190,13 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 245, ../sass/partials/_profilo-mio-utente.scss */
+/* line 237, ../sass/partials/_profilo-mio-utente.scss */
 .likes .icona-likes2 {
   background: white;
   padding: 5px;
 }
 
-/* line 251, ../sass/partials/_profilo-mio-utente.scss */
+/* line 243, ../sass/partials/_profilo-mio-utente.scss */
 .number-like2 {
   font-weight: normal;
   font-size: 12px;
@@ -4213,7 +4207,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-top: 4px;
 }
 
-/* line 263, ../sass/partials/_profilo-mio-utente.scss */
+/* line 255, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-dislikes {
   margin-top: 10px;
   background: url('../images/background_likes.png?1347469188') no-repeat left top;
@@ -4223,7 +4217,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 264px;
 }
 
-/* line 273, ../sass/partials/_profilo-mio-utente.scss */
+/* line 265, ../sass/partials/_profilo-mio-utente.scss */
 .dislikes {
   float: left;
   margin-bottom: 12px;
@@ -4232,13 +4226,13 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 280, ../sass/partials/_profilo-mio-utente.scss */
+/* line 272, ../sass/partials/_profilo-mio-utente.scss */
 .dislikes .icona-likes2 {
   background: white;
   padding: 5px;
 }
 
-/* line 286, ../sass/partials/_profilo-mio-utente.scss */
+/* line 278, ../sass/partials/_profilo-mio-utente.scss */
 .number-dislike2 {
   font-weight: normal;
   font-size: 12px;
@@ -4249,10 +4243,19 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-top: 4px;
 }
 
-/* line 297, ../sass/partials/_profilo-mio-utente.scss */
+/* line 289, ../sass/partials/_profilo-mio-utente.scss */
 .icona-dislikes2 {
   background-color: white;
   padding: 5px;
+}
+
+/* line 296, ../sass/partials/_profilo-mio-utente.scss */
+.divisore-profilo {
+  background: url('../images/divisore-profilo.png?1347467520') no-repeat left top;
+  width: 600px;
+  height: 2px;
+  margin-top: 164px;
+  margin-left: -22px;
 }
 
 /* line 131, ../sass/screen.scss */

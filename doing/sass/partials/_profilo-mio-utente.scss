@@ -150,18 +150,6 @@ margin-top: 20px;
        	
 	}
 	
-	
-	.divisore-profilo{
-	 background: image-url("divisore-profilo.png") no-repeat left top;
-	 width: 600px;
-	 height: 2px;
-	 margin-top: 260px;
-	 margin-left: 18px;
-	 position: absolute;
-	
-		
-	}
-	
 	.comm-2{
 	  	   
 		@include grid(5);
@@ -188,6 +176,9 @@ margin-top: 20px;
 					margin-right: 10px;
 					width: 80px;
 				}
+				span.comments-2{
+					color: $light-petrolio;
+				}
 				.box-number-comments-2{
 					float: left;
 					border-bottom: 1px solid $darkest-blue;
@@ -208,6 +199,7 @@ margin-top: 20px;
 					text-align: center;
 				}
 			}
+			
 			.comments-2{
 				font-weight: normal;
 				font-size: 10px;
@@ -300,6 +292,16 @@ margin-top: 20px;
 	}
 	
 
+	
+	.divisore-profilo{
+	 background: image-url("divisore-profilo.png") no-repeat left top;
+	 width: 600px;
+	 height: 2px;
+	 margin-top: 164px;
+	 margin-left: -22px;
+	
+		
+	}
 	
 	
 	
