@@ -1,0 +1,233 @@
+footer#footer{
+	background-color:$soft-blue;
+
+	.barra-top{
+		position: relative;
+		background: image-url("diagonal-dark-green.png") repeat left top;
+		height: 10px;
+		border-top: 1px solid #8be5e1;
+		}
+
+
+		.info-progetto{
+			@include grid(8);
+			@include alpha;
+			float:left;
+			padding-top: 30px;
+
+
+			h1{
+			   font-size: 25px;
+			   color: $light-green;
+			   font-family: 'Droid Sans';
+			   font-weight: 700;
+			   font-weight: bold;
+			   text-transform: uppercase;	
+			   $default-text-shadow-h-offset: 0px;
+				   $default-text-shadow-v-offset: 2px;
+				   $default-text-shadow-blur: 1px;
+				   $default-text-shadow-spread: false;
+				   $default-text-shadow-color: $white;	       
+			   @include single-text-shadow();
+			   padding-bottom: 10px;
+				@include grid(5);
+			}
+
+
+			p{
+				@include grid(5);
+				color: $text-green;
+				font-size: 13px;
+				font-weight: regular;
+				line-height: 18px;
+
+				font-family: 'Droid Sans';
+				padding-bottom: 20px;
+			}
+
+			.divisore{
+				@include grid(5);
+				clear: both;
+				.top{
+					height: 1px;
+					background-color: #8be5e1;
+				}
+				.bottom{
+					height: 1px;
+
+					background-color: white;
+				}
+			}
+
+			h2{
+				@include grid(5);
+				 font-size: 16px;
+				 color: $light-green;
+				 font-family: 'Droid Sans';
+				 font-weight: 700;
+				 font-weight: bold;
+				 text-transform: uppercase;	
+				 $default-text-shadow-h-offset: 0px;
+					 $default-text-shadow-v-offset: 2px;
+					 $default-text-shadow-blur: 1px;
+					 $default-text-shadow-spread: false;
+					 $default-text-shadow-color: $white;	       
+				 @include single-text-shadow();
+
+
+			  margin-top: 30px;
+
+
+			}
+
+			ul {
+				clear: left;
+
+				@include grid(8);
+
+				li{
+					height: 50px;
+					width: 50px;
+					background-color:orange;
+					margin-right: 22px;
+					@include horizontal-list-item;
+					padding:0;
+					}
+				li:last-child{
+					margin-right: 0px;
+					}
+				}                       	
+		}
+		.social{
+			@include grid(8);
+			height:280px;
+			margin-top: 30px;
+			background-color: white;
+			float: left;
+			@include omega;
+			}
+
+	.barra-bottom{
+		margin-top: 30px;
+		clear: both;
+		position: relative;
+		background: image-url("diagonal-dark-green.png") repeat left top;
+		@include clearfix;
+			.creative-commons{
+				@include grid(6);
+				@include alpha;
+				margin-top: 20px;
+
+				border-right: 2px $soft-blue solid;      
+
+				h1{
+					@include replace-text-with-dimensions("cc.png");
+					margin-bottom: 20px;
+				}
+
+				p{
+					color: $text-green;
+					font-size: 13px;
+					font-weight: regular;
+					line-height: 18px;
+
+					font-family: 'Droid Sans';
+
+					@include grid-suffix(1);
+				}  
+				h6{
+					text-transform: uppercase;
+					font-family: 'Droid Sans';
+					font-weight: bold;
+					font-size: 13px;
+					color: $text-green;
+					margin: 0;
+
+				}
+				}
+			ul{
+				@include horizontal-list-container;
+				float:left;
+				width:auto;
+				li{
+					@include horizontal-list-item;
+					width:auto;
+					}
+				}
+
+
+			.legal-menu{
+				@include grid(16);
+				margin-bottom: 20px;
+				ul{
+					@include horizontal-list-container;
+					@include float-right;
+					li{
+						@include horizontal-list-item(10px);
+						a{
+							font-family: 'Droid Sans';
+							font-weight: 400;
+							font-weight: bold;
+							color: $text-green;
+						}
+						border-right: 1px $text-green solid;
+						&:last-child{
+							border: none;
+							margin-right: 10px;
+						}
+
+					}
+				}
+			}
+
+			.footer-menu{
+				@include grid(10);
+				@include omega;
+				text-align: center;
+				font-family: 'Droid Sans';
+				font-weight: bold;
+				text-transform: uppercase;
+
+
+				ul{
+					@include horizontal-list-container;
+					@include float-right;
+					}
+				li{
+					@include horizontal-list-item(10px);
+
+					border-right: 1px $soft-blue solid;                                    
+
+					} 
+				a{
+					padding-top: 16px;
+					display: block;
+					cursor: pointer;
+					font-size: 16px;
+					@include link-colors( $dark-green,$dark-line-petrolio,$dark-line-petrolio,$dark-line-petrolio);
+					 font-family: 'Droid Sans';
+
+					 font-weight: bold;
+					 text-decoration: none;
+					 text-transform: uppercase;	
+					 $default-text-shadow-h-offset: 0px;
+						 $default-text-shadow-v-offset: 2px;
+						 $default-text-shadow-blur: 1px;
+						 $default-text-shadow-spread: false;
+						 $default-text-shadow-color: $white;	       
+					 @include single-text-shadow();
+					}
+				.icon{
+					margin-left: 15px;
+					margin-right: 15px;
+					height: 8px;
+					background: image-url("diagonal-green-darker.png") repeat left top;
+					margin: auto;
+					}
+				}
+
+
+
+			}
+
+}

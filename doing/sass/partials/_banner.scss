@@ -1,0 +1,22 @@
+.banner{
+	position: relative;
+	height: 282px;
+	clear: both;
+	.crea-il-tuo-corso{
+		width: 718px;
+		height: 282px;
+		background: image-url("crea-il-tuo-corso.png") no-repeat left top;
+		position: relative;
+		left: -110px;
+		top:20px;
+		z-index: 2;
+	}
+	.squared{
+		position: absolute;
+		left:0;
+		top:20px;
+		width: 50%;
+		height: 282px;
+		background: image-url("crea-il-tuo-corso-bg.png") repeat-x left top;
+	}
+}
