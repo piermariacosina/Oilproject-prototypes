@@ -118,6 +118,14 @@ div.corner{
 @import "partials/prefooter";
 @import "partials/sidebar-list";
 @import "partials/box-corso";
+@import "partials/bottone-segui-utente";
+@import "partials/box-corso-iniziato";
+@import "partials/box-corso-iniziato";
+@import "partials/breadcrumb";
+@import "partials/contenuto-singolo";
+@import "partials/titolo-registrati";
+@import "partials/sidebar-edit";
+@import "partials/profilo-mio-utente";
 
 #lesson{
 	@include grid-container;

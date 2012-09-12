@@ -1,0 +1,389 @@
+
+@include font-face("header11-webfont", font-files("header11-webfont.woff","header11-webfont.ttf","header11-webfont.otf", "header11-webfont.svg"), "header11-webfont", 400, regular);
+
+//
+@mixin background-sprite($map){
+	background-image: sprite-url($map);
+} 
+
+body{
+	-webkit-font-smoothing: antialiased;
+}
+
+.bp{
+	background-color:  #FFFFFF;
+}
+
+#content{
+	@include grid-container;
+	background-color: #FFFFFF;
+	        
+}
+
+.section-container{
+	margin: 30px auto;
+	width: 942px;
+	height: auto;
+	background: $light-grey;
+	border: 1px solid $grey;
+	h3{
+		font-family: 'Droid Sans';
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 9px;
+		text-transform: uppercase;
+		color: $azzurro-title;
+		padding: 12px; 
+	}
+	.box-video-spacer{
+		width: 935px;
+		height: auto;
+//		background: red;
+		@include clearfix;
+		margin: 0 0 10px 4px;
+		list-style-type: none;
+		a{
+			text-decoration: none;
+			.box-video{
+				width: 170px;
+				height: 167px;
+				background: $light-green;
+				font-family: 'Droid Sans';
+				padding: 8px;
+				float: left;
+				margin-right: 1px;
+				.img-video{
+					width: 171px;
+					height: 100px;
+					overflow: hidden;
+					-webkit-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+					-moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+					box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+					
+				}
+				.icon{
+					width: 25px;
+					height: 25px;
+//					background: white;
+					float: left;
+					margin: 8px 0 0 4px;
+				}
+				h1{
+					width: 130px;
+					font-weight: 400;
+					font-size: 12px;
+					line-height: 15px;
+					color: white;
+					padding-left: 40px;
+					padding-top: 6px;
+				}
+				.posted-by{
+					width: 130px;
+					font-weight: bold;
+					font-size: 10px;
+					color: $light-petrolio;
+					padding-left: 40px;
+				}
+			}
+		}
+	}
+	
+	.box-video-spacer{
+			a:hover, a:visited{
+				text-decoration: none;
+				.box-video{
+					background: image-url("diagonal-azzurro-bg.png") repeat left top;
+					h1{
+						color: $light-green;
+					}
+					.posted-by{
+						color: $dark-green;
+					}
+				}
+			}
+		}
+	
+}
+
+.section-container{
+	@include clearfix;
+	.categorie-spacer{
+				width: 940px;
+				height: auto;
+//				background: red;
+				@include clearfix;
+				margin: 10px 0 4px 4px;
+				list-style-type: none;
+				
+		.categorie{
+			width: 231px;
+			height: 49px;
+			background: image-url("diagonal-white-bg.png") repeat left top;
+			float: left;
+			margin-right: 3px;
+			.icon{
+				width: 36px;
+				height: 32px;
+//				background: white;
+				float: left;
+				margin: 8px;
+			}
+			h1{
+				font-family: 'Droid Sans';
+				font-weight: bold;
+				font-size: 14px;
+				line-height: 13px;
+				text-transform: uppercase;
+				color: $azzurro-title;
+				float: left;
+				margin-top: 11px; 
+			}
+		}
+	}
+	.lezioni-spacer{
+//		background: cyan;
+		width: auto;
+		height: auto;
+		@include clearfix;
+		margin: 0 0 0 3px;
+		.container-lezioni{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			float: left;
+			a{
+				text-decoration: none;
+			
+				.box-lezione{
+					width: 185px;
+					height: auto;
+					background: $light-green;
+					font-family: 'Droid Sans';
+					padding-left: 48px;
+					@include clearfix;
+					margin: 10px 1px 10px 0;
+					
+					
+					.img-video{
+						width: 225px;
+						height: 128px;
+						overflow: hidden;
+						margin: 4px 4px 0 4px;
+						clear: both;
+						position: relative;
+						left: -48px;
+						-webkit-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+						-moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+						box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+							
+					}
+					.icon{
+						width: 25px;
+						height: 25px;
+//						background: white;
+						position: relative;
+						margin-left: -35px;
+						margin-top: 34px;
+						float: left;
+						font-size: 24px;
+					}
+					h2{
+						width: 168px;
+						font-weight: bold;
+						font-size: 10px;
+						line-height: 11px;
+						text-transform: uppercase;
+						color: $fluo-blue;
+						padding-top: 16px;
+					}
+					h1{
+						width: 168px;
+						font-weight: normal;
+						font-size: 14px;
+						line-height: 17px;
+						color: white;
+						padding-top: 4px;
+					}
+					.posted-by{
+						width: 168px;
+						font-weight: bold;
+						font-size: 10px;
+						color: $light-petrolio;
+						padding-top: 2px;
+					}
+					hr{
+						width: 168px;
+						height: 1px;
+						margin: 0;
+						padding: 0;
+						border: 0;
+					}
+					.line-top{
+						background: $dark-line-petrolio;
+						margin-top: 3px;
+					}
+					.line-bottom{
+						background: $light-line-petrolio;
+						margin-bottom: 10px;
+					}
+					p{
+						width: 168px;
+						font-weight: normal;
+						font-size: 10px;
+						line-height: 13px;
+						color: white;
+						margin: 0 0 10px 0;
+						display: none;
+					}
+					.box-number-views{
+						float: left;
+						margin-bottom: 12px;
+						border-bottom: 1px solid $darkest-blue;
+						border-left: 1px solid $dark-blue;
+						border-right: 1px solid $dark-blue;
+						border-top: 1px solid $dark-blue;
+						.number-views{
+							font-weight: normal;
+							font-size: 10px;
+							line-height: 10px;
+							color: $azzurro-fluo;
+							background: $light-petrolio-bg;
+							border-bottom: 1px solid $lighter-green;
+							border-left: 1px solid $water-green;
+							border-top: 1px solid $water-green;
+							border-right: 1px solid $water-green;
+							padding: 2px;
+						}
+					}
+					.views{
+						font-weight: normal;
+						font-size: 10px;
+						line-height: 10px;
+						color: $light-petrolio;
+						float: left;
+						margin-left: 3px;
+						margin-top: 4px;
+					}
+				}
+			}
+		}
+	}
+	
+	
+	.lezioni-spacer{
+			.container-lezioni{
+				list-style-type: none;
+				a:hover, a:visited{
+					text-decoration: none;
+				
+					.box-lezione{
+						background: image-url("diagonal-azzurro-bg.png") repeat left top;
+						h2{
+							color: $dark-green;
+						}
+						h1{
+							color: $light-green;
+						}
+						.posted-by{
+							color: $dark-green;
+						}
+						.line-top{
+							background: transparent;
+						}
+						.line-bottom{
+							background: $grey-blue;
+						}
+						p{
+							color: $light-green;
+						}
+						.box-number-views{
+							border-bottom: 1px solid #0A665D;
+							border-left: 1px solid #1B8C81;
+							border-right: 1px solid #1B8C81;
+							border-top: 1px solid #1B8C81;
+							.number-views{
+								background: $light-petrolio-bg;
+								border-bottom: 1px solid $white-azzurro;
+								border-left: 1px solid #96E0D5;
+								border-top: 1px solid #96E0D5;
+								border-right: 1px solid #96E0D5;
+							}
+						}
+						.views{
+							color: $light-green;
+						}
+					}
+				}
+			}
+	}	
+}
+
+
+  
+
+
+.bottone{
+   background-color: $dark-green;
+   width: 131px;
+   height: 26px;   
+   border-radius:30px;
+   margin-top: 30px;
+   margin-left: 30px;
+      }                                   
+                 
+.testo-bottone-1{
+
+  color:$bianco;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  margin-left: 32px;
+  margin-top: 4px;
+  
+
+}     
+
+
+.posted-by{
+	font-weight: bold;
+	font-size: 10px;
+	padding: 0 0 0 20px;
+	margin: 10px 0 0 0;
+	position: relative;
+	float: left;
+}
+
+.numero-lezioni{
+	position: relative;
+	float: right;
+	padding: 0 100px 0 0;
+	margin: 10px 0 8px 0;
+	
+	}
+
+
+.number{
+	width: 19px;
+	height: 19px;
+	background: $dark-green;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	position: relative;
+	float: left;
+	text-align: center;
+	border-radius: 10px;
+	padding: 1px 0 0 1px;
+	margin-top: -2px;
+}
+
+span{
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	float: left;
+	font-size: 10px;
+	margin-left: 4px;
+}
+
