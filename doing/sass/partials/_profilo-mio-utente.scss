@@ -163,6 +163,10 @@ margin-top: 20px;
 	}
 	
 	.comm-2{
+	   position: absolute;
+	   margin-top: 90px;
+	   
+	  
 		@include grid(5);
 		@include omega;
 		@include alpha;

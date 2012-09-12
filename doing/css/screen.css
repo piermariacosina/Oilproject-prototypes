@@ -3783,6 +3783,8 @@ footer#footer .barra-bottom .footer-menu .icon {
 
 /* line 165, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 {
+  position: absolute;
+  margin-top: 90px;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -3791,7 +3793,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 169, ../sass/partials/_profilo-mio-utente.scss */
+/* line 173, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments {
   height: auto;
   overflow: hidden;
@@ -3801,22 +3803,22 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 177, ../sass/partials/_profilo-mio-utente.scss */
+/* line 181, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments.first {
   padding-right: 10px;
 }
-/* line 181, ../sass/partials/_profilo-mio-utente.scss */
+/* line 185, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments.center {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 186, ../sass/partials/_profilo-mio-utente.scss */
+/* line 190, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments.last {
   border-right: none;
   float: right;
 }
-/* line 190, ../sass/partials/_profilo-mio-utente.scss */
+/* line 194, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .box-number-comments-2 {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -3824,7 +3826,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 196, ../sass/partials/_profilo-mio-utente.scss */
+/* line 200, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .box-number-comments-2 .number-comments-2 {
   font-weight: normal;
   font-size: 10px;
@@ -3838,7 +3840,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   padding: 2px;
   text-align: center;
 }
-/* line 210, ../sass/partials/_profilo-mio-utente.scss */
+/* line 214, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .comments-2 {
   font-weight: normal;
   font-size: 10px;
