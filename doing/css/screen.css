@@ -3444,16 +3444,13 @@ ul.commenti li .text p.data_commento span {
   margin-right: 0px;
 }
 
-/* line 124, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 1, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
   height: 400px;
   margin-top: 10px;
   background: url('../images/diagonal-green-bg.png?1347456779') repeat left top;
 }
-/* line 129, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 5, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor {
   display: inline;
   float: left;
@@ -3463,7 +3460,7 @@ ul.commenti li .text p.data_commento span {
   height: 100%;
   position: relative;
 }
-/* line 134, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 10, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-views {
   width: 65px;
   height: auto;
@@ -3474,7 +3471,7 @@ ul.commenti li .text p.data_commento span {
   padding-left: 10px;
   float: left;
 }
-/* line 142, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 18, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-views .box-number-views {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -3482,7 +3479,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 148, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 24, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-views .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -3495,7 +3492,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 161, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 37, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-views .views {
   font-weight: normal;
   font-size: 10px;
@@ -3505,7 +3502,7 @@ ul.commenti li .text p.data_commento span {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 172, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 48, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-comments {
   width: 78px;
   height: auto;
@@ -3514,7 +3511,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #c5ffea;
   float: left;
 }
-/* line 178, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 54, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -3522,7 +3519,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 184, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 60, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -3535,7 +3532,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 197, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 73, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -3545,7 +3542,7 @@ ul.commenti li .text p.data_commento span {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 208, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 84, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-lingua {
   width: 100px;
   height: auto;
@@ -3555,7 +3552,7 @@ ul.commenti li .text p.data_commento span {
   padding-left: 10px;
   float: left;
 }
-/* line 215, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 91, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-lingua .box-lingua-icon {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -3563,7 +3560,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 221, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 97, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-lingua .box-lingua-icon .lingua-icon {
   width: 14px;
   height: 10px;
@@ -3578,7 +3575,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 236, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 112, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .container-lingua .lingua {
   font-weight: normal;
   font-size: 10px;
@@ -3588,12 +3585,12 @@ ul.commenti li .text p.data_commento span {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 248, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 124, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date {
   position: absolute;
   bottom: 9px;
 }
-/* line 252, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 128, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .num {
   position: absolute;
   float: left;
@@ -3608,14 +3605,14 @@ ul.commenti li .text p.data_commento span {
   border-radius: 16px;
   bottom: -2px;
 }
-/* line 261, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 137, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
   margin: 0;
 }
-/* line 268, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 144, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .info-date {
   width: 140px;
   font-family: 'Droid Sans';
@@ -3623,17 +3620,17 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin-left: 30px;
 }
-/* line 275, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 151, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .info-date .mese {
   font-weight: 700;
   color: #084936;
   text-transform: uppercase;
 }
-/* line 280, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 156, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .data .info-date .ora {
   color: #057c79;
 }
-/* line 286, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 161, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date hr {
   display: inline;
   float: left;
@@ -3643,17 +3640,17 @@ ul.commenti li .text p.data_commento span {
   border: 0;
   height: 1px;
 }
-/* line 291, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 166, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .top {
   margin: 8px 0 0 0;
   background: #00ea9c;
 }
-/* line 295, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 170, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .infor .aut-date .bottom {
   margin: 0 0 12px 0;
   background: #c5ffea;
 }
-/* line 302, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 177, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson .foto {
   display: inline;
   float: left;
@@ -3664,7 +3661,7 @@ ul.commenti li .text p.data_commento span {
   background-color: #38d69a;
   height: 100%;
 }
-/* line 308, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 183, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson h3 {
   font-size: 15px;
   color: #084936;
@@ -3673,7 +3670,7 @@ ul.commenti li .text p.data_commento span {
   text-transform: uppercase;
   padding-top: 20px;
 }
-/* line 317, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 192, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson h1 {
   font-size: 25px;
   line-height: 30px;
@@ -3684,7 +3681,7 @@ ul.commenti li .text p.data_commento span {
   padding-bottom: 7px;
   text-shadow: 0px 2px 1px #c5ffea;
 }
-/* line 333, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 208, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson h4 {
   color: #084936;
   font-weight: 700;
@@ -3692,20 +3689,20 @@ ul.commenti li .text p.data_commento span {
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 339, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 214, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson h4 span {
   color: #057c79;
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 345, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 220, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/partials/_lesson.scss */
 #lesson p {
   color: #084936;
   font-weight: 700;
   font-family: 'Droid Sans';
 }
 
-/* line 352, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 125, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container {
   display: inline;
   float: left;
@@ -3713,7 +3710,7 @@ ul.commenti li .text p.data_commento span {
   margin-right: 10px;
   width: 640px;
 }
-/* line 354, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 127, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container h4 {
   margin-top: 10px;
   display: inline;
@@ -3728,7 +3725,7 @@ ul.commenti li .text p.data_commento span {
   margin-left: 0;
   text-align: center;
 }
-/* line 364, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 137, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container .icon {
   margin-top: 10px;
   display: inline;
@@ -3740,12 +3737,12 @@ ul.commenti li .text p.data_commento span {
   height: 40px;
   background-color: white;
 }
-/* line 371, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 144, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container .text {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 374, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 147, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container .text h3 {
   font-size: 21px;
   color: #057c79;
@@ -3756,7 +3753,7 @@ ul.commenti li .text p.data_commento span {
   text-shadow: 0px 1px 0px true white, 0px 1px 0px true white;
   margin-bottom: 10px;
 }
-/* line 388, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 161, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container .text p {
   font-size: 13px;
   line-height: 16px;
@@ -3765,11 +3762,11 @@ ul.commenti li .text p.data_commento span {
   font-weight: 400;
   padding-bottom: 5px;
 }
-/* line 397, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 170, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container .text .data {
   position: relative;
 }
-/* line 399, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 172, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container .text .data .num {
   width: 25px;
   height: 25px;
@@ -3780,20 +3777,20 @@ ul.commenti li .text p.data_commento span {
   -o-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 404, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 177, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container .text .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
 }
-/* line 410, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 183, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container .text .data .info-date {
   width: 140px;
   position: absolute;
   bottom: -23px;
   left: 30px;
 }
-/* line 415, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 188, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #container .text .data .info-date p {
   color: #084936;
   font-weight: 700;
@@ -3801,7 +3798,7 @@ ul.commenti li .text p.data_commento span {
   font-size: 11px;
 }
 
-/* line 429, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 202, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #testo {
   display: inline;
   float: left;
@@ -3811,7 +3808,7 @@ ul.commenti li .text p.data_commento span {
   margin-top: 35px;
   margin-bottom: 30px;
 }
-/* line 434, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 207, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #testo p {
   font-size: 13px;
   line-height: 16px;
@@ -3821,18 +3818,18 @@ ul.commenti li .text p.data_commento span {
   padding: 0;
   margin: 0 0 7px 0;
 }
-/* line 443, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 216, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #testo .intro {
   font-weight: bold;
   text-indent: 7px;
 }
-/* line 449, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 222, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #testo a {
   color: #24d1c8;
   text-decoration: none;
 }
 
-/* line 456, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 229, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #button {
   display: inline;
   float: left;
@@ -3848,7 +3845,7 @@ ul.commenti li .text p.data_commento span {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 463, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 236, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #button a {
   color: white;
   font-size: 12px;
@@ -3857,7 +3854,7 @@ ul.commenti li .text p.data_commento span {
   margin-left: 11px;
 }
 
-/* line 472, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 245, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #button-1 {
   display: inline;
   float: left;
@@ -3867,7 +3864,7 @@ ul.commenti li .text p.data_commento span {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 476, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 249, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #button-1 .interno {
   width: 130px;
   background-color: #084936;
@@ -3878,7 +3875,7 @@ ul.commenti li .text p.data_commento span {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 481, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 254, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #button-1 .interno a {
   color: white;
   font-size: 12px;
@@ -3887,7 +3884,7 @@ ul.commenti li .text p.data_commento span {
   margin-left: 11px;
 }
 
-/* line 490, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 263, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento {
   display: inline;
   float: left;
@@ -3899,7 +3896,7 @@ ul.commenti li .text p.data_commento span {
   clear: both;
   margin-bottom: 35px;
 }
-/* line 496, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 269, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento textarea {
   display: inline;
   float: left;
@@ -3910,11 +3907,11 @@ ul.commenti li .text p.data_commento span {
   margin-left: 0;
   border: 1px solid #323232;
 }
-/* line 503, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 276, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul {
   list-style-type: none !important;
 }
-/* line 505, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 278, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li {
   width: auto;
   height: auto;
@@ -3923,12 +3920,12 @@ ul.commenti li .text p.data_commento span {
   display: block;
   border-bottom: 1px solid white;
 }
-/* line 511, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 284, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a {
   text-decoration: none !important;
   position: relative;
 }
-/* line 515, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 288, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .angolo {
   width: 20px;
   height: 20px;
@@ -3936,39 +3933,39 @@ ul.commenti li .text p.data_commento span {
   position: relative;
   clear: left;
 }
-/* line 523, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 296, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .first-level {
   top: 20px;
   left: -10px;
 }
-/* line 528, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 301, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .second-level {
   top: 20px;
   left: 50px;
 }
-/* line 533, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 306, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .third-level {
   top: 20px;
   left: 110px;
 }
-/* line 538, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 311, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .commento {
   margin-bottom: 2px;
   margin-right: 0;
   background-color: #eafdfc;
   float: left;
 }
-/* line 545, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 318, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num {
   background: #0cc4c4 !important;
   float: left;
 }
-/* line 548, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 321, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num p {
   font-weight: bold !important;
   padding: 4px 0 !important;
 }
-/* line 553, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 326, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date {
   font-family: 'Droid Sans';
   font-size: 11px;
@@ -3976,29 +3973,29 @@ ul.commenti li .text p.data_commento span {
   color: #0cc4c4;
   margin-top: 20px;
 }
-/* line 559, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 332, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date .mese {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 567, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 340, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a .spacer-comments {
   clear: both;
 }
-/* line 572, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 345, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li:first-child {
   clear: both;
 }
-/* line 580, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 353, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a:hover .angolo, #nuovo-commento ul li a:active .angolo {
   background: url('../images/angolo-commenti-hover-sx.png?1347456778') repeat left top;
 }
-/* line 583, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 356, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #nuovo-commento ul li a:hover .commento, #nuovo-commento ul li a:active .commento {
   background-color: #c9f7f5;
 }
 
-/* line 593, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 366, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .primo-livello {
   display: inline;
   float: left;
@@ -4006,7 +4003,7 @@ ul.commenti li .text p.data_commento span {
   margin-right: 10px;
   width: 580px;
 }
-/* line 595, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 368, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .primo-livello .text {
   display: inline;
   float: left;
@@ -4016,7 +4013,7 @@ ul.commenti li .text p.data_commento span {
   margin-left: 0;
 }
 
-/* line 604, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 377, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .secondo-livello {
   position: relative;
   left: 60px;
@@ -4026,7 +4023,7 @@ ul.commenti li .text p.data_commento span {
   margin-right: 10px;
   width: 520px;
 }
-/* line 609, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 382, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .secondo-livello .text {
   display: inline;
   float: left;
@@ -4036,7 +4033,7 @@ ul.commenti li .text p.data_commento span {
   margin-left: 0;
 }
 
-/* line 615, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 388, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .terzo-livello {
   position: relative;
   left: 120px;
@@ -4046,7 +4043,7 @@ ul.commenti li .text p.data_commento span {
   margin-right: 10px;
   width: 460px;
 }
-/* line 619, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 392, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .terzo-livello .text {
   display: inline;
   float: left;
@@ -4056,7 +4053,7 @@ ul.commenti li .text p.data_commento span {
   margin-left: 0;
 }
 
-/* line 627, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 400, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra {
   display: inline;
   float: left;
@@ -4065,7 +4062,7 @@ ul.commenti li .text p.data_commento span {
   width: 280px;
   margin-right: 0;
 }
-/* line 630, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 403, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .list {
   display: inline;
   float: left;
@@ -4075,7 +4072,7 @@ ul.commenti li .text p.data_commento span {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 634, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 407, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .list .icon-cat {
   width: 44px;
   height: 8px;
@@ -4084,7 +4081,7 @@ ul.commenti li .text p.data_commento span {
   float: left;
   background: url('../images/diagonal-white-bg.png?1347456780') repeat left top;
 }
-/* line 642, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 415, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .list ul {
   display: inline;
   float: left;
@@ -4096,7 +4093,7 @@ ul.commenti li .text p.data_commento span {
   style-type-position: inside;
   padding-top: 3px;
 }
-/* line 649, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 422, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .list li {
   height: auto;
   background: none;
@@ -4108,12 +4105,12 @@ ul.commenti li .text p.data_commento span {
   margin: 0 0 12px 0;
   padding: 0;
 }
-/* line 659, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 432, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .list li a {
   text-decoration: none;
   color: #49ada8;
 }
-/* line 664, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 437, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .list .categorie {
   display: inline;
   float: left;
@@ -4125,7 +4122,7 @@ ul.commenti li .text p.data_commento span {
   background: url('../images/diagonal-white-bg.png?1347456780') repeat left top;
   float: left;
 }
-/* line 672, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 445, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .list .categorie .icon {
   width: 36px;
   height: 32px;
@@ -4133,7 +4130,7 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin: 8px;
 }
-/* line 679, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 452, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .list .categorie h1 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -4144,7 +4141,7 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin-top: 11px;
 }
-/* line 692, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 465, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .image {
   display: inline;
   float: left;
@@ -4157,7 +4154,7 @@ ul.commenti li .text p.data_commento span {
   background-color: #00ffb0;
   margin-top: 10px;
 }
-/* line 701, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 474, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .ultime-lezioni {
   background: #f7fcfb;
   border: 1px solid #daede9;
@@ -4170,7 +4167,7 @@ ul.commenti li .text p.data_commento span {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 708, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 481, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .ultime-lezioni h3 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -4180,7 +4177,7 @@ ul.commenti li .text p.data_commento span {
   color: #49ada8;
   padding: 12px;
 }
-/* line 719, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 492, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .ultime-lezioni ul {
   list-style: none;
   display: inline;
@@ -4193,7 +4190,7 @@ ul.commenti li .text p.data_commento span {
   margin-right: 0;
   margin: 0px;
 }
-/* line 729, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 502, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .ultime-lezioni .simbolo {
   width: 44px;
   margin-top: 3px;
@@ -4202,7 +4199,7 @@ ul.commenti li .text p.data_commento span {
   background-color: white;
   height: 20px;
 }
-/* line 738, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 511, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .ultime-lezioni .title {
   display: inline;
   float: left;
@@ -4212,26 +4209,26 @@ ul.commenti li .text p.data_commento span {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 743, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 516, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .ultime-lezioni .title h4 {
   color: white;
   font-weight: 400;
   font-size: 13px;
   font-family: 'Droid Sans';
 }
-/* line 750, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 523, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 #barra .ultime-lezioni .title p {
   font-weight: bold;
   font-size: 10px;
   color: #4cc1b8;
 }
 
-/* line 769, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 542, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 771, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 544, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .categorie-spacer {
   width: 940px;
   height: auto;
@@ -4240,7 +4237,7 @@ ul.commenti li .text p.data_commento span {
   margin: 10px 0 4px 4px;
   list-style-type: none;
 }
-/* line 780, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 553, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .categorie-spacer .categorie {
   width: 231px;
   height: 49px;
@@ -4248,20 +4245,20 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin-right: 3px;
 }
-/* line 786, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 559, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .categorie-spacer .categorie .icon {
   width: 36px;
   height: 32px;
   float: left;
   margin: 8px;
 }
-/* line 792, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 565, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .categorie-spacer .categorie .icon i {
   color: #4cc1b8;
   line-height: 32px;
   font-size: 32px;
 }
-/* line 798, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 571, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .categorie-spacer .categorie h1 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -4272,7 +4269,7 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin-top: 11px;
 }
-/* line 810, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 583, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer {
   width: auto;
   height: auto;
@@ -4280,65 +4277,65 @@ ul.commenti li .text p.data_commento span {
   *zoom: 1;
   margin: 0 0 0 3px;
 }
-/* line 818, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 591, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni {
   margin: 0;
   padding: 0;
   list-style-type: none;
   float: left;
 }
-/* line 823, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 596, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a {
   text-decoration: none;
 }
-/* line 825, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 598, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited, .section-container .lezioni-spacer .container-lezioni a:hover {
   text-decoration: none;
 }
-/* line 828, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 601, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione {
   background: url('../images/diagonal-white-bg.png?1347456780') !important;
 }
-/* line 834, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 607, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione .icon i, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione .icon i {
   color: white;
 }
-/* line 840, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 613, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione h2, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione h2 {
   color: #00ffb0;
 }
-/* line 843, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 616, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione h1, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione h1 {
   color: white;
 }
-/* line 846, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 619, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione .posted-by, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione .posted-by {
   color: #4CC1B8;
 }
-/* line 849, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 622, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione .line-top, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione .line-top {
   background: transparent;
 }
-/* line 852, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 625, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione .line-bottom, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione .line-bottom {
   background: #94d3cc;
 }
-/* line 856, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 629, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione hr, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione hr {
   background-color: #036863 !important;
 }
-/* line 859, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 632, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione p, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione p {
   color: white;
 }
-/* line 862, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 635, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione .box-number-views, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione .box-number-views {
   border-bottom: 1px solid #0A665D;
   border-left: 1px solid #1B8C81;
   border-right: 1px solid #1B8C81;
   border-top: 1px solid #1B8C81;
 }
-/* line 867, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 640, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione .box-number-views .number-views, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione .box-number-views .number-views {
   background: #25a599;
   border-bottom: 1px solid #e1fffd;
@@ -4346,11 +4343,11 @@ ul.commenti li .text p.data_commento span {
   border-top: 1px solid #96E0D5;
   border-right: 1px solid #96E0D5;
 }
-/* line 875, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 648, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione .views, .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione .views {
   color: #4CC1B8;
 }
-/* line 881, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 654, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione {
   width: 185px;
   height: auto;
@@ -4361,7 +4358,7 @@ ul.commenti li .text p.data_commento span {
   *zoom: 1;
   margin: 10px 1px 10px 0;
 }
-/* line 891, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 664, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione .img-video {
   width: 225px;
   height: 128px;
@@ -4372,7 +4369,7 @@ ul.commenti li .text p.data_commento span {
   -moz-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
 }
-/* line 902, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 675, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione .icon {
   width: 25px;
   height: 25px;
@@ -4381,13 +4378,13 @@ ul.commenti li .text p.data_commento span {
   margin-top: 34px;
   float: left;
 }
-/* line 910, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 683, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione .icon i {
   color: #084936;
   line-height: 25px;
   font-size: 25px;
 }
-/* line 916, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 689, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione h2 {
   width: 168px;
   font-family: 'Droid Sans';
@@ -4398,7 +4395,7 @@ ul.commenti li .text p.data_commento span {
   color: #084936;
   padding-top: 16px;
 }
-/* line 926, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 699, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione h1 {
   font-family: 'Droid Sans';
   width: 168px;
@@ -4408,7 +4405,7 @@ ul.commenti li .text p.data_commento span {
   color: #057c79;
   padding-top: 4px;
 }
-/* line 935, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 708, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione .posted-by {
   width: 168px;
   font-weight: bold;
@@ -4416,7 +4413,7 @@ ul.commenti li .text p.data_commento span {
   color: #3d635f;
   padding-top: 2px;
 }
-/* line 942, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 715, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione hr {
   width: 168px;
   height: 1px;
@@ -4425,17 +4422,17 @@ ul.commenti li .text p.data_commento span {
   border: 0;
   background-color: #94D3CC !important;
 }
-/* line 950, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 723, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione .line-top {
   background: #036863;
   margin-top: 3px;
 }
-/* line 954, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 727, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione .line-bottom {
   background: #159690;
   margin-bottom: 10px;
 }
-/* line 958, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 731, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione p {
   font-family: 'Droid Sans';
   width: 168px;
@@ -4445,7 +4442,7 @@ ul.commenti li .text p.data_commento span {
   color: #057c79;
   margin: 0 0 10px 0;
 }
-/* line 967, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 740, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione .box-number-views {
   float: left;
   margin-bottom: 12px;
@@ -4454,7 +4451,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 974, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 747, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -4467,7 +4464,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #45bfb0;
   padding: 2px;
 }
-/* line 987, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
+/* line 760, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/doing/sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a .box-lezione .views {
   font-weight: normal;
   font-size: 10px;
