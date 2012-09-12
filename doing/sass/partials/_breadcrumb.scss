@@ -1,0 +1,27 @@
+#breadcrumbs{
+	background: image-url("breadcrumb.png") no-repeat left top;
+	width: 101px;
+	height: 31px;
+	position: absolute;
+    margin-left: 40px;
+	
+	 .bread{
+	   color:$azzurro-title;
+	   font-family: 'Droid Sans';
+	   font-size: 10px;
+	   line-height: 10px;
+	   margin-top: 5px;
+	   margin-left: 13px;
+	   
+	   
+	   	 }
+	   	 
+	   	 span{
+	   	 	font-weight: bold;
+	   	 	text-transform: uppercase;
+	   	 	position: relative;
+	   	 	float: left;
+	   	 }
+	   	 
+}
+

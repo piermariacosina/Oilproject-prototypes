@@ -1,0 +1,425 @@
+2012-09-11 23:51:41 overwrite css/screen.css 
+2012-09-11 23:52:43 overwrite css/screen.css 
+2012-09-11 23:55:22 overwrite css/screen.css 
+2012-09-11 23:55:35 overwrite css/screen.css 
+2012-09-11 23:58:54 overwrite css/screen.css 
+2012-09-12 00:01:10 overwrite css/screen.css 
+2012-09-12 00:03:05     error sass/screen.scss (Line 6: File to import not found or unreadable: partials/container-corsi.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/home/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 00:03:05 overwrite css/screen.css 
+2012-09-12 00:03:15     error sass/screen.scss (Line 6: File to import not found or unreadable: partials/container-corsi.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/home/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 00:03:15 identical css/screen.css 
+2012-09-12 00:03:51     error sass/screen.scss (Line 24 of sass/partials/_container-corsi.scss: Undefined variable: "$dark-green".)
+2012-09-12 00:03:51 overwrite css/screen.css 
+2012-09-12 00:04:40 overwrite css/screen.css 
+2012-09-12 00:05:18 overwrite css/screen.css 
+2012-09-12 00:08:50 overwrite css/screen.css 
+2012-09-12 00:11:05 overwrite css/screen.css 
+2012-09-12 00:11:10 overwrite css/screen.css 
+2012-09-12 00:11:47 overwrite css/screen.css 
+2012-09-12 00:12:40 identical css/screen.css 
+2012-09-12 00:13:33 identical css/screen.css 
+2012-09-12 00:14:05 overwrite css/screen.css 
+2012-09-12 00:14:25 overwrite css/screen.css 
+2012-09-12 00:18:25 overwrite css/screen.css 
+2012-09-12 00:19:48 overwrite css/screen.css 
+2012-09-12 00:20:16 overwrite css/screen.css 
+2012-09-12 00:20:18 overwrite css/screen.css 
+2012-09-12 00:20:36 overwrite css/screen.css 
+2012-09-12 00:22:52 overwrite css/screen.css 
+2012-09-12 00:24:05 overwrite css/screen.css 
+2012-09-12 00:24:18 identical css/screen.css 
+2012-09-12 00:24:26 overwrite css/screen.css 
+2012-09-12 00:24:49 overwrite css/screen.css 
+2012-09-12 00:24:53 overwrite css/screen.css 
+2012-09-12 00:25:05 identical css/screen.css 
+2012-09-12 00:27:14 overwrite css/screen.css 
+2012-09-12 00:31:00 overwrite css/screen.css 
+2012-09-12 00:36:00 overwrite css/screen.css 
+2012-09-12 00:39:20 identical css/screen.css 
+2012-09-12 00:39:28 overwrite css/screen.css 
+2012-09-12 00:40:29 overwrite css/screen.css 
+2012-09-12 00:43:30 overwrite css/screen.css 
+2012-09-12 00:44:06 overwrite css/screen.css 
+2012-09-12 00:44:13 identical css/screen.css 
+2012-09-12 00:44:17 overwrite css/screen.css 
+2012-09-12 00:44:47 overwrite css/screen.css 
+2012-09-12 00:46:00 identical css/screen.css 
+2012-09-12 00:46:24     error sass/screen.scss (Line 30 of sass/partials/_template.scss: Invalid CSS after "	margin": expected ";", was ": 0 auto;	")
+2012-09-12 00:46:24 overwrite css/screen.css 
+2012-09-12 00:46:33 overwrite css/screen.css 
+2012-09-12 00:46:53 overwrite css/screen.css 
+2012-09-12 00:47:40 overwrite css/screen.css 
+2012-09-12 00:47:46 overwrite css/screen.css 
+2012-09-12 00:47:53 overwrite css/screen.css 
+2012-09-12 00:47:59 overwrite css/screen.css 
+2012-09-12 00:48:05 identical css/screen.css 
+2012-09-12 00:54:34     error sass/screen.scss (Line 31 of sass/partials/_header.scss: Illegal nesting: Only properties may be nested beneath properties.)
+2012-09-12 00:54:34 overwrite css/screen.css 
+2012-09-12 00:54:45 overwrite css/screen.css 
+2012-09-12 00:55:04     error sass/screen.scss (Line 29 of sass/partials/_template.scss: Undefined mixin 'gird-container'.)
+2012-09-12 00:55:04 overwrite css/screen.css 
+2012-09-12 00:55:10 overwrite css/screen.css 
+2012-09-12 00:55:58 overwrite css/screen.css 
+2012-09-12 00:57:45 overwrite css/screen.css 
+2012-09-12 01:02:04 overwrite css/screen.css 
+2012-09-12 01:02:36     error sass/screen.scss (Line 89: File to import not found or unreadable: partials/featured-videolezione.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/home/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 01:02:37 overwrite css/screen.css 
+2012-09-12 01:02:41 overwrite css/screen.css 
+2012-09-12 01:02:54 overwrite css/screen.css 
+2012-09-12 01:04:42 identical css/screen.css 
+2012-09-12 01:04:59 overwrite css/screen.css 
+2012-09-12 01:15:27     error sass/screen.scss (Line 114: File to import not found or unreadable: partials/box-singolo-esercizio.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/home/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 01:15:28 overwrite css/screen.css 
+2012-09-12 01:15:55 overwrite css/screen.css 
+2012-09-12 01:16:16     error sass/screen.scss (Line 114: File to import not found or unreadable: partials/box_singolo_esercizio.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/home/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 01:16:16 overwrite css/screen.css 
+2012-09-12 01:16:17     error sass/screen.scss (Line 114: File to import not found or unreadable: partials/box_singolo_esercizio.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/home/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 01:16:17 overwrite css/screen.css 
+2012-09-12 01:16:24 overwrite css/screen.css 
+2012-09-12 01:16:56 overwrite css/screen.css 
+2012-09-12 01:20:12 overwrite css/screen.css 
+2012-09-12 01:27:32 overwrite css/screen.css 
+2012-09-12 01:39:31 overwrite css/screen.css 
+2012-09-12 01:41:00 overwrite css/screen.css 
+2012-09-12 01:45:13 overwrite css/screen.css 
+2012-09-12 01:46:45 overwrite css/screen.css 
+2012-09-12 01:46:55 overwrite css/screen.css 
+2012-09-12 01:47:09 overwrite css/screen.css 
+2012-09-12 01:48:20 overwrite css/screen.css 
+2012-09-12 01:48:27 overwrite css/screen.css 
+2012-09-12 01:49:08 overwrite css/screen.css 
+2012-09-12 01:49:28 overwrite css/screen.css 
+2012-09-12 01:49:55 overwrite css/screen.css 
+2012-09-12 01:52:12 overwrite css/screen.css 
+2012-09-12 01:52:57 overwrite css/screen.css 
+2012-09-12 01:53:16 overwrite css/screen.css 
+2012-09-12 01:53:30 overwrite css/screen.css 
+2012-09-12 01:53:50 overwrite css/screen.css 
+2012-09-12 01:53:59 overwrite css/screen.css 
+2012-09-12 01:54:06 overwrite css/screen.css 
+2012-09-12 01:54:13 overwrite css/screen.css 
+2012-09-12 01:54:31 overwrite css/screen.css 
+2012-09-12 01:54:45 overwrite css/screen.css 
+2012-09-12 01:57:28 overwrite css/screen.css 
+2012-09-12 01:58:31 overwrite css/screen.css 
+2012-09-12 01:59:54 overwrite css/screen.css 
+2012-09-12 02:00:33 overwrite css/screen.css 
+2012-09-12 02:01:22 overwrite css/screen.css 
+2012-09-12 02:02:03 overwrite css/screen.css 
+2012-09-12 02:07:16     error sass/screen.scss (Line 65 of sass/partials/_prefooter.scss: Invalid CSS after "}": expected "}", was "")
+2012-09-12 02:07:16 overwrite css/screen.css 
+2012-09-12 02:08:38     error sass/screen.scss (Line 29 of sass/partials/_prefooter.scss: Undefined variable: "$azzurro_title".)
+2012-09-12 02:08:38 overwrite css/screen.css 
+2012-09-12 02:09:55 overwrite css/screen.css 
+2012-09-12 02:10:26 overwrite css/screen.css 
+2012-09-12 02:11:14 overwrite css/screen.css 
+2012-09-12 02:11:26 overwrite css/screen.css 
+2012-09-12 02:17:31     error sass/screen.scss (Line 65 of sass/partials/_sidebar.scss: Invalid CSS after "    }": expected "}", was "")
+2012-09-12 02:17:32 overwrite css/screen.css 
+2012-09-12 02:19:04 overwrite css/screen.css 
+2012-09-12 02:21:21 overwrite css/screen.css 
+2012-09-12 02:24:40 overwrite css/screen.css 
+2012-09-12 02:25:44 overwrite css/screen.css 
+2012-09-12 02:26:38 overwrite css/screen.css 
+2012-09-12 02:27:06 identical css/screen.css 
+2012-09-12 02:34:33 overwrite css/screen.css 
+2012-09-12 02:34:49     error sass/screen.scss (Line 119: File to import not found or unreadable: partials/sidebar.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/home/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 02:34:49 overwrite css/screen.css 
+2012-09-12 02:34:50     error sass/screen.scss (Line 119: File to import not found or unreadable: partials/sidebar.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/home/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 02:34:50 overwrite css/screen.css 
+2012-09-12 02:35:32 overwrite css/screen.css 
+2012-09-12 02:50:38 overwrite css/screen.css 
+2012-09-12 02:58:25 overwrite css/screen.css 
+2012-09-12 02:58:33 overwrite css/screen.css 
+2012-09-12 02:59:41 overwrite css/screen.css 
+2012-09-12 03:00:24 overwrite css/screen.css 
+2012-09-12 03:15:03 overwrite css/screen.css 
+2012-09-12 03:15:30 overwrite css/screen.css 
+2012-09-12 03:15:41 overwrite css/screen.css 
+2012-09-12 03:16:06 overwrite css/screen.css 
+2012-09-12 03:18:47 overwrite css/screen.css 
+2012-09-12 10:59:11     error sass/screen.scss (Line 67: File to import not found or unreadable: compass/css3/hyphenation.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.1/frameworks/compass/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/bootstrap-sass/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 10:59:11 overwrite css/screen.css 
+2012-09-12 11:15:14 overwrite css/screen.css 
+2012-09-12 11:18:49 overwrite css/screen.css 
+2012-09-12 11:36:23     error sass/screen.scss (Line 122: File to import not found or unreadable: partials/box-corso-iniziato.
+Load paths:
+  /Volumes/Fileservers/TheDoers/Oilproject/prototype/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-12 11:36:23 overwrite css/screen.css 
+2012-09-12 11:45:22     error sass/screen.scss (Line 23 of sass/partials/_box-corso-iniziato.scss: Undefined variable: "$white-icons".)
+2012-09-12 11:45:22 overwrite css/screen.css 
+2012-09-12 11:50:24 overwrite css/screen.css 
+2012-09-12 11:51:50 overwrite css/screen.css 
+2012-09-12 11:55:09 overwrite css/screen.css 
+2012-09-12 11:56:45 overwrite css/screen.css 
+2012-09-12 11:57:05 overwrite css/screen.css 
+2012-09-12 11:57:35 identical css/screen.css 
+2012-09-12 11:59:37 overwrite css/screen.css 
+2012-09-12 12:00:01 overwrite css/screen.css 
+2012-09-12 12:04:18 overwrite css/screen.css 
+2012-09-12 12:04:50 overwrite css/screen.css 
+2012-09-12 12:05:18 overwrite css/screen.css 
+2012-09-12 12:05:40 overwrite css/screen.css 
+2012-09-12 12:23:56    create css/partials/container-home.css 
+2012-09-12 12:26:09     error sass/partials/container-home.scss (Line 5: Undefined variable: "$light-grey".)
+2012-09-12 12:26:09 overwrite css/partials/container-home.css 
+2012-09-12 12:26:42 overwrite css/partials/container-home.css 
+2012-09-12 12:29:22 overwrite css/screen.css 
+2012-09-12 12:41:53     error sass/screen.scss (Line 375 of sass/partials/_container-home.scss: Undefined variable: "$white-icons".)
+2012-09-12 12:41:53 overwrite css/screen.css 
+2012-09-12 12:42:01 overwrite css/screen.css 
+2012-09-12 12:51:48 overwrite css/screen.css 
+2012-09-12 12:53:22 overwrite css/screen.css 
+2012-09-12 12:54:11 identical css/screen.css 
+2012-09-12 12:56:44 overwrite css/screen.css 
+2012-09-12 12:57:34 overwrite css/screen.css 
+2012-09-12 12:57:52 identical css/screen.css 
+2012-09-12 12:58:20     error sass/screen.scss (Line 316 of sass/partials/_container-home.scss: Undefined variable: "$bianco".)
+2012-09-12 12:58:20 overwrite css/screen.css 
+2012-09-12 12:58:32     error sass/screen.scss (Line 336 of sass/partials/_container-home.scss: Undefined variable: "$bianco".)
+2012-09-12 12:58:32 overwrite css/screen.css 
+2012-09-12 12:58:38     error sass/screen.scss (Line 336 of sass/partials/_container-home.scss: Undefined variable: "$bianco".)
+2012-09-12 12:58:38 identical css/screen.css 
+2012-09-12 12:58:48     error sass/screen.scss (Line 336 of sass/partials/_container-home.scss: Undefined variable: "$bianco".)
+2012-09-12 12:58:48 identical css/screen.css 
+2012-09-12 12:59:10     error sass/screen.scss (Line 336 of sass/partials/_container-home.scss: Undefined variable: "$bianco".)
+2012-09-12 12:59:10 identical css/screen.css 
+2012-09-12 12:59:39     error sass/screen.scss (Line 336 of sass/partials/_container-home.scss: Undefined variable: "$bianco".)
+2012-09-12 12:59:39 identical css/screen.css 
+2012-09-12 13:00:20 overwrite css/screen.css 
+2012-09-12 13:07:09 overwrite css/screen.css 
+2012-09-12 13:07:13 identical css/screen.css 
+2012-09-12 13:08:00 overwrite css/screen.css 
+2012-09-12 13:08:46 overwrite css/screen.css 
+2012-09-12 13:09:49 identical css/screen.css 
+2012-09-12 13:10:19 overwrite css/screen.css 
+2012-09-12 13:10:36 overwrite css/screen.css 
+2012-09-12 13:16:38 overwrite css/screen.css 
+2012-09-12 13:17:19     error sass/screen.scss (Line 29 of sass/partials/_contenuto-singolo.scss: Undefined variable: "$bianco".)
+2012-09-12 13:17:19 overwrite css/screen.css 
+2012-09-12 13:18:12 overwrite css/screen.css 
+2012-09-12 13:21:09 overwrite css/screen.css 
+2012-09-12 13:24:35 overwrite css/screen.css 
+2012-09-12 13:25:27 overwrite css/screen.css 
+2012-09-12 13:27:41 overwrite css/screen.css 
+2012-09-12 13:34:12 overwrite css/screen.css 
+2012-09-12 13:34:27 overwrite css/screen.css 
+2012-09-12 13:34:41 overwrite css/screen.css 
+2012-09-12 13:34:52 identical css/screen.css 
+2012-09-12 13:36:57 overwrite css/screen.css 
+2012-09-12 13:38:27     error sass/screen.scss (Line 26 of sass/partials/_sidebar-edit.scss: Undefined variable: "$white-icons".)
+2012-09-12 13:38:27 overwrite css/screen.css 
+2012-09-12 13:39:08 overwrite css/screen.css 
+2012-09-12 14:54:24 overwrite css/screen.css 
+2012-09-12 14:55:29 identical css/screen.css 
+2012-09-12 14:56:06 overwrite css/screen.css 
+2012-09-12 14:56:11 overwrite css/screen.css 
+2012-09-12 14:59:39 identical css/screen.css 
+2012-09-12 15:00:22 overwrite css/screen.css 
+2012-09-12 15:00:59 identical css/screen.css 
+2012-09-12 15:01:13 identical css/screen.css 
+2012-09-12 15:01:22 identical css/screen.css 
+2012-09-12 15:13:15     error sass/screen.scss (Line 27 of sass/partials/_profilo-mio-utente.scss: Undefined variable: "$bianco".)
+2012-09-12 15:13:15 overwrite css/screen.css 
+2012-09-12 15:13:50     error sass/screen.scss (Line 81 of sass/partials/_profilo-mio-utente.scss: Undefined variable: "$grey-scuro".)
+2012-09-12 15:13:50 overwrite css/screen.css 
+2012-09-12 15:15:03 overwrite css/screen.css 
+2012-09-12 15:16:39 overwrite css/screen.css 
+2012-09-12 15:17:35 overwrite css/screen.css 
+2012-09-12 15:17:54 overwrite css/screen.css 
+2012-09-12 15:38:12     error sass/screen.scss (Line 127 of sass/partials/_profilo-mio-utente.scss: Invalid CSS after "       }": expected selector or at-rule, was "}")
+2012-09-12 15:38:12 overwrite css/screen.css 
+2012-09-12 15:38:17 overwrite css/screen.css 
+2012-09-12 15:41:03 overwrite css/screen.css 
+2012-09-12 15:41:29 overwrite css/screen.css 
+2012-09-12 15:42:07 overwrite css/screen.css 
+2012-09-12 15:42:41 overwrite css/screen.css 
+2012-09-12 15:55:49 overwrite css/screen.css 
+2012-09-12 15:56:06 overwrite css/screen.css 
+2012-09-12 15:59:34 overwrite css/screen.css 
+2012-09-12 15:59:40 overwrite css/screen.css 
+2012-09-12 15:59:47 overwrite css/screen.css 
+2012-09-12 15:59:53 overwrite css/screen.css 
+2012-09-12 16:00:02 overwrite css/screen.css 
+2012-09-12 16:00:16 overwrite css/screen.css 
+2012-09-12 16:02:48 overwrite css/screen.css 
+2012-09-12 16:02:54 overwrite css/screen.css 
+2012-09-12 16:05:35 overwrite css/screen.css 
+2012-09-12 16:07:09 overwrite css/screen.css 
+2012-09-12 16:07:48 overwrite css/screen.css 
+2012-09-12 16:08:07 overwrite css/screen.css 
+2012-09-12 16:08:22 overwrite css/screen.css 
+2012-09-12 16:08:47 overwrite css/screen.css 
+2012-09-12 16:19:21 overwrite css/screen.css 
+2012-09-12 16:20:57 overwrite css/screen.css 
+2012-09-12 16:21:06 overwrite css/screen.css 
+2012-09-12 16:22:54     error sass/screen.scss (Line 184 of sass/partials/_profilo-mio-utente.scss: Invalid CSS after "			background: ": expected expression (e.g. 1px, bold), was "$25A599;")
+2012-09-12 16:22:54 overwrite css/screen.css 
+2012-09-12 16:23:00 overwrite css/screen.css 
+2012-09-12 16:24:12 overwrite css/screen.css 
+2012-09-12 16:24:31 overwrite css/screen.css 
+2012-09-12 16:24:44 identical css/screen.css 
+2012-09-12 16:24:50 identical css/screen.css 
+2012-09-12 16:27:55     error sass/screen.scss (Line 227 of sass/partials/_profilo-mio-utente.scss: Invalid CSS after "...FILO MIO UTENTE": expected "}", was "")
+2012-09-12 16:27:55 overwrite css/screen.css 
+2012-09-12 16:28:00     error sass/screen.scss (Line 227 of sass/partials/_profilo-mio-utente.scss: Invalid CSS after "...FILO MIO UTENTE": expected "}", was "")
+2012-09-12 16:28:00 overwrite css/screen.css 
+2012-09-12 16:28:07 overwrite css/screen.css 
+2012-09-12 16:28:25 overwrite css/screen.css 
+2012-09-12 16:29:29 overwrite css/screen.css 
+2012-09-12 16:29:37 overwrite css/screen.css 
+2012-09-12 16:29:50 overwrite css/screen.css 
+2012-09-12 16:30:54 overwrite css/screen.css 
+2012-09-12 16:31:24 identical css/screen.css 
+2012-09-12 16:32:32 overwrite css/screen.css 
+2012-09-12 16:33:25 overwrite css/screen.css 
+2012-09-12 16:33:38 overwrite css/screen.css 
+2012-09-12 16:34:33 overwrite css/screen.css 
+2012-09-12 16:34:42 overwrite css/screen.css 
+2012-09-12 16:34:54 overwrite css/screen.css 
+2012-09-12 16:35:54 overwrite css/screen.css 
+2012-09-12 16:37:21 overwrite css/screen.css 
+2012-09-12 16:37:38 overwrite css/screen.css 
+2012-09-12 16:38:00 overwrite css/screen.css 
+2012-09-12 16:38:10 overwrite css/screen.css 
+2012-09-12 16:38:32 identical css/screen.css 
+2012-09-12 16:39:17 identical css/screen.css 
+2012-09-12 16:40:55 overwrite css/screen.css 
+2012-09-12 16:42:42 overwrite css/screen.css 
+2012-09-12 16:44:28 overwrite css/screen.css 
+2012-09-12 16:44:34 overwrite css/screen.css 
+2012-09-12 16:47:58 overwrite css/screen.css 
+2012-09-12 16:48:35 overwrite css/screen.css 
+2012-09-12 16:50:58 overwrite css/screen.css 
+2012-09-12 16:51:58 overwrite css/screen.css 
+2012-09-12 16:52:16 identical css/screen.css 
+2012-09-12 16:55:57 overwrite css/screen.css 
+2012-09-12 16:57:04 overwrite css/screen.css 
+2012-09-12 16:57:15 overwrite css/screen.css 
+2012-09-12 16:58:10 identical css/screen.css 
+2012-09-12 16:58:36 overwrite css/screen.css 
+2012-09-12 16:58:48 overwrite css/screen.css 
+2012-09-12 16:58:56 identical css/screen.css 
+2012-09-12 17:08:02 overwrite css/screen.css 
+2012-09-12 17:08:28 overwrite css/screen.css 
+2012-09-12 17:09:44 overwrite css/screen.css 
+2012-09-12 17:10:15 overwrite css/screen.css 
+2012-09-12 17:10:38 overwrite css/screen.css 
+2012-09-12 17:11:13 overwrite css/screen.css 
+2012-09-12 17:14:23 overwrite css/screen.css 
+2012-09-12 17:17:34 identical css/screen.css 
+2012-09-12 17:18:15 identical css/screen.css 
+2012-09-12 17:19:33 identical css/screen.css 
+2012-09-12 17:20:16 overwrite css/screen.css 
+2012-09-12 17:21:53 overwrite css/screen.css 
+2012-09-12 17:22:05 overwrite css/screen.css 
+2012-09-12 17:25:52 identical css/screen.css 
+2012-09-12 17:26:48 overwrite css/screen.css 
+2012-09-12 17:27:00 overwrite css/screen.css 
+2012-09-12 17:27:13 overwrite css/screen.css 
+2012-09-12 17:27:24 overwrite css/screen.css 
+2012-09-12 17:28:31 overwrite css/screen.css 
+2012-09-12 17:29:09 overwrite css/screen.css 
+2012-09-12 17:34:42 overwrite css/screen.css 
+2012-09-12 17:35:23 overwrite css/screen.css 
+2012-09-12 17:36:18 identical css/screen.css 
+2012-09-12 17:36:44 overwrite css/screen.css 
+2012-09-12 17:37:35 overwrite css/screen.css 
+2012-09-12 17:37:49 identical css/screen.css 
+2012-09-12 17:38:45 overwrite css/screen.css 

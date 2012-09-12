@@ -1442,7 +1442,7 @@ body {
 }
 /* line 147, ../sass/screen.scss */
 .section-container .box-video-spacer a:hover .box-video, .section-container .box-video-spacer a:visited .box-video {
-  background: url('../images/diagonal-azzurro-bg.png') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
 }
 /* line 149, ../sass/screen.scss */
 .section-container .box-video-spacer a:hover .box-video h1, .section-container .box-video-spacer a:visited .box-video h1 {
@@ -1471,7 +1471,7 @@ body {
 .section-container .categorie-spacer .categorie {
   width: 231px;
   height: 49px;
-  background: url('../images/diagonal-white-bg.png') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1345650194') repeat left top;
   float: left;
   margin-right: 3px;
 }
@@ -1643,7 +1643,7 @@ body {
 }
 /* line 332, ../sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione, .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione {
-  background: url('../images/diagonal-azzurro-bg.png') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
 }
 /* line 334, ../sass/screen.scss */
 .section-container .lezioni-spacer .container-lezioni a:hover .box-lezione h2, .section-container .lezioni-spacer .container-lezioni a:visited .box-lezione h2 {
@@ -1690,122 +1690,6 @@ body {
 }
 
 /* line 381, ../sass/screen.scss */
-#titolo-registrati {
-  background: url('../images/diagonal-green-scuro-bg.png') repeat left top;
-  height: 400px;
-  margin-top: 100px;
-  height: 400px;
-  margin-top: 100px;
-  width: 620px;
-  height: 50px;
-  margin-left: 30px;
-  border-top-right-radius: 10px;
-}
-
-/* line 395, ../sass/screen.scss */
-#titolo-registrati h1 {
-  font-size: 20px;
-  text-transform: uppercase;
-  position: absolute;
-  color: #e1fffd;
-  font-family: 'Droid Sans';
-  margin-left: 20px;
-  margin-top: 8px;
-  /*font-weight: 400;*/
-}
-
-/* line 410, ../sass/screen.scss */
-#linea {
-  background-color: #057c79;
-  height: 1px;
-  width: 620px;
-  margin-top: 1px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-
-/* line 428, ../sass/screen.scss */
-#sidebar-edit {
-  background-color: #e1fffd;
-  width: 280px;
-  height: 163px;
-  margin-left: 30px;
-  margin-top: 20px;
-}
-/* line 435, ../sass/screen.scss */
-#sidebar-edit h1 {
-  color: #057c79;
-  font-family: 'Droid Sans';
-  font-size: regular;
-  font-size: 21px;
-  text-transform: uppercase;
-  margin-left: 24px;
-  text-shadow: 0px 2px 1px white, 0px 2px 1px true white;
-  text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
-}
-/* line 454, ../sass/screen.scss */
-#sidebar-edit h2 {
-  color: #49ada8;
-  font-family: 'Droid Sans';
-  font-weight: normal;
-  font-size: 13px;
-  width: 232px;
-  line-height: 15px;
-  margin-left: 24px;
-}
-
-/* line 472, ../sass/screen.scss */
-#titolo-sidebar {
-  background: url('../images/icona-help.png') no-repeat;
-  height: 21px;
-  width: 21px;
-  margin-left: 30px;
-}
-
-/* line 482, ../sass/screen.scss */
-#titolo-sidebar p {
-  margin-left: 15px;
-  margin-top: 50px;
-  color: #0CC4C4;
-  font-family: 'Droid Sans';
-  font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-/* line 496, ../sass/screen.scss */
-#sidebar-edit-2 {
-  background-color: #e1fffd;
-  width: 280px;
-  height: 133px;
-  margin-left: 30px;
-  margin-top: 2px;
-}
-
-/* line 507, ../sass/screen.scss */
-#sidebar-edit-2 h1 {
-  color: #057c79;
-  font-family: 'Droid Sans';
-  font-size: regular;
-  font-size: 21px;
-  text-transform: uppercase;
-  margin-left: 24px;
-  text-shadow: 0px 2px 1px white, 0px 2px 1px true white;
-  text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
-}
-
-/* line 527, ../sass/screen.scss */
-#sidebar-edit-2 h2 {
-  color: #49ada8;
-  font-family: 'Droid Sans';
-  font-weight: normal;
-  font-size: 13px;
-  width: 232px;
-  line-height: 15px;
-  margin-left: 24px;
-}
-
-/* line 544, ../sass/screen.scss */
 .bottone {
   background-color: #084936;
   width: 131px;
@@ -1815,7 +1699,7 @@ body {
   margin-left: 30px;
 }
 
-/* line 553, ../sass/screen.scss */
+/* line 390, ../sass/screen.scss */
 .testo-bottone-1 {
   color: white;
   font-family: 'Droid Sans';
@@ -1826,18 +1710,18 @@ body {
   margin-top: 4px;
 }
 
-/* line 570, ../sass/screen.scss */
+/* line 407, ../sass/screen.scss */
 .box-testo {
   width: 398px;
   height: 285px;
-  background: url('../images/home-video-linguetta.png') no-repeat left top;
+  background: url('../images/home-video-linguetta.png?1346930778') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
   float: left;
 }
 
-/* line 582, ../sass/screen.scss */
+/* line 419, ../sass/screen.scss */
 .box-testo h2 {
   width: 282px;
   font-weight: bold;
@@ -1848,7 +1732,7 @@ body {
   margin: 0;
 }
 
-/* line 592, ../sass/screen.scss */
+/* line 429, ../sass/screen.scss */
 .box-testo h1 {
   width: 282px;
   height: 77px;
@@ -1861,7 +1745,7 @@ body {
   padding: 0 0 0 20px;
 }
 
-/* line 606, ../sass/screen.scss */
+/* line 443, ../sass/screen.scss */
 .posted-by {
   font-weight: bold;
   font-size: 10px;
@@ -1871,7 +1755,7 @@ body {
   float: left;
 }
 
-/* line 615, ../sass/screen.scss */
+/* line 452, ../sass/screen.scss */
 .numero-lezioni {
   position: relative;
   float: right;
@@ -1879,7 +1763,7 @@ body {
   margin: 10px 0 8px 0;
 }
 
-/* line 624, ../sass/screen.scss */
+/* line 461, ../sass/screen.scss */
 .number {
   width: 19px;
   height: 19px;
@@ -1895,7 +1779,7 @@ body {
   margin-top: -2px;
 }
 
-/* line 639, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 span {
   font-weight: bold;
   text-transform: uppercase;
@@ -1905,7 +1789,7 @@ span {
   margin-left: 4px;
 }
 
-/* line 648, ../sass/screen.scss */
+/* line 485, ../sass/screen.scss */
 p {
   width: 282px;
   height: 70px;
@@ -1917,27 +1801,27 @@ p {
   overflow: hidden;
 }
 
-/* line 660, ../sass/screen.scss */
+/* line 497, ../sass/screen.scss */
 .video {
-  background: url('../images/foto-video-home.png') no-repeat left top;
+  background: url('../images/foto-video-home.png?1346930954') no-repeat left top;
   width: 579px;
   height: 285px;
   display: inline;
   float: left;
 }
 
-/* line 672, ../sass/screen.scss */
+/* line 509, ../sass/screen.scss */
 #box-home {
   margin-top: 30px;
   margin-left: 30px;
 }
 
-/* line 677, ../sass/screen.scss */
+/* line 514, ../sass/screen.scss */
 .divisore {
   margin-left: 20px;
 }
 
-/* line 682, ../sass/screen.scss */
+/* line 519, ../sass/screen.scss */
 .bottone-corso {
   background-color: #084936;
   width: 101px;
@@ -1946,7 +1830,7 @@ p {
   margin-left: 20px;
 }
 
-/* line 691, ../sass/screen.scss */
+/* line 528, ../sass/screen.scss */
 .testo-bottone {
   color: white;
   font-family: 'Droid Sans';
@@ -1956,17 +1840,17 @@ p {
   margin-left: 18px;
 }
 
-/* line 727, ../sass/screen.scss */
+/* line 556, ../sass/screen.scss */
 .lezione {
   width: 638px;
   height: 209px;
-  background: url('../images/box-lezione-categoria.png') no-repeat left top;
+  background: url('../images/box-lezione-categoria.png?1347266829') no-repeat left top;
   font-family: 'Droid Sans';
   display: inline;
   float: left;
   margin-top: 30px;
 }
-/* line 736, ../sass/screen.scss */
+/* line 565, ../sass/screen.scss */
 .lezione h2 {
   font-weight: bold;
   font-size: 10px;
@@ -1976,7 +1860,7 @@ p {
   margin-left: 70px;
   color: #00ffb0;
 }
-/* line 747, ../sass/screen.scss */
+/* line 576, ../sass/screen.scss */
 .lezione h1 {
   width: 281px;
   height: 77px;
@@ -1990,7 +1874,7 @@ p {
   text-transform: lowercase;
   margin-left: 70px;
 }
-/* line 762, ../sass/screen.scss */
+/* line 591, ../sass/screen.scss */
 .lezione .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -1999,18 +1883,18 @@ p {
   margin-top: -40px;
   margin-left: 70px;
 }
-/* line 772, ../sass/screen.scss */
+/* line 601, ../sass/screen.scss */
 .lezione .divisore-3 {
   margin-left: 70px;
   margin-top: -30px;
 }
-/* line 777, ../sass/screen.scss */
+/* line 606, ../sass/screen.scss */
 .lezione .icona-audio-b {
   position: absolute;
   margin-top: -90px;
   margin-left: 33px;
 }
-/* line 785, ../sass/screen.scss */
+/* line 614, ../sass/screen.scss */
 .lezione .box-number-views {
   float: left;
   margin-bottom: 12px;
@@ -2019,7 +1903,7 @@ p {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 792, ../sass/screen.scss */
+/* line 621, ../sass/screen.scss */
 .lezione .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -2032,7 +1916,7 @@ p {
   border-right: 1px solid #45bfb0;
   padding: 2px;
 }
-/* line 805, ../sass/screen.scss */
+/* line 634, ../sass/screen.scss */
 .lezione .views {
   font-weight: normal;
   font-size: 10px;
@@ -2042,7 +1926,7 @@ p {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 815, ../sass/screen.scss */
+/* line 644, ../sass/screen.scss */
 .lezione .box-likes {
   float: left;
   margin-bottom: 12px;
@@ -2051,12 +1935,12 @@ p {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 822, ../sass/screen.scss */
+/* line 651, ../sass/screen.scss */
 .lezione .box-likes .icona-likes {
   background: white;
   padding: 5px;
 }
-/* line 828, ../sass/screen.scss */
+/* line 657, ../sass/screen.scss */
 .lezione .number-likes {
   font-weight: normal;
   font-size: 10px;
@@ -2066,7 +1950,7 @@ p {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 839, ../sass/screen.scss */
+/* line 668, ../sass/screen.scss */
 .lezione .box-dislikes {
   float: left;
   margin-bottom: 12px;
@@ -2075,12 +1959,12 @@ p {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 846, ../sass/screen.scss */
+/* line 675, ../sass/screen.scss */
 .lezione .box-dislikes .icona-dislikes {
   background: white;
   padding: 5px;
 }
-/* line 852, ../sass/screen.scss */
+/* line 681, ../sass/screen.scss */
 .lezione .number-dislikes {
   font-weight: normal;
   font-size: 10px;
@@ -2091,52 +1975,34 @@ p {
   margin-top: 4px;
 }
 
-/* line 864, ../sass/screen.scss */
+/* line 693, ../sass/screen.scss */
 #extras {
   margin-left: 400px;
   margin-top: -90px;
   position: absolute;
 }
 
-/* line 872, ../sass/screen.scss */
-#breadcrumbs {
-  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
-  width: 101px;
-  height: 31px;
-  position: absolute;
-  margin-left: 40px;
-}
-/* line 879, ../sass/screen.scss */
-#breadcrumbs .bread {
-  color: #49ada8;
-  font-family: 'Droid Sans';
-  font-size: 10px;
-  line-height: 10px;
-  margin-top: 8px;
-  margin-left: 13px;
-}
-
-/* line 893, ../sass/screen.scss */
+/* line 705, ../sass/screen.scss */
 #profilo-mio-utente {
-  background: url('../images/background-profilo.png') no-repeat left top;
+  background: url('../images/background-profilo.png?1347282019') no-repeat left top;
   width: 618px;
   height: 371px;
   position: absolute;
   margin-top: 50px;
 }
-/* line 901, ../sass/screen.scss */
+/* line 713, ../sass/screen.scss */
 #profilo-mio-utente .profilo {
   margin-top: 30px;
 }
-/* line 905, ../sass/screen.scss */
+/* line 717, ../sass/screen.scss */
 #profilo-mio-utente .avatar {
-  background: url('../images/foto-utente.png') no-repeat left top;
+  background: url('../images/foto-utente.png?1347282525') no-repeat left top;
   width: 194px;
   height: 181px;
   float: left;
   margin-left: 40px;
 }
-/* line 914, ../sass/screen.scss */
+/* line 726, ../sass/screen.scss */
 #profilo-mio-utente h1 {
   font-size: 15px;
   color: white;
@@ -2144,7 +2010,7 @@ p {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 923, ../sass/screen.scss */
+/* line 735, ../sass/screen.scss */
 #profilo-mio-utente h2 {
   font-size: 10px;
   color: white;
@@ -2153,7 +2019,7 @@ p {
   text-transform: uppercase;
   line-height: 15px;
 }
-/* line 933, ../sass/screen.scss */
+/* line 745, ../sass/screen.scss */
 #profilo-mio-utente h3 {
   font-size: 10px;
   color: white;
@@ -2161,22 +2027,25 @@ p {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 940, ../sass/screen.scss */
+/* line 752, ../sass/screen.scss */
 #profilo-mio-utente h3 .giorno {
   color: #4cc1b8;
   font-size: 12px;
   padding-right: 8px;
 }
-/* line 946, ../sass/screen.scss */
+/* line 758, ../sass/screen.scss */
 #profilo-mio-utente h3 .ora {
   font-weight: normal;
   float: none;
 }
-/* line 953, ../sass/screen.scss */
+/* line 765, ../sass/screen.scss */
 #profilo-mio-utente .contenuti {
   list-style: none;
+  margin-left: -30px;
+  margin-top: 30px;
+  float: left;
 }
-/* line 956, ../sass/screen.scss */
+/* line 771, ../sass/screen.scss */
 #profilo-mio-utente .contenuti a {
   color: #4cc1b8;
   font-family: 'Droid Sans';
@@ -2186,42 +2055,46 @@ p {
   margin-left: 10px;
   line-height: 25px;
 }
-/* line 966, ../sass/screen.scss */
+/* line 781, ../sass/screen.scss */
 #profilo-mio-utente .contenuti .number {
   color: #5e5a5e;
   background-color: #00ffb0;
+  line-height: 19px;
 }
-/* line 976, ../sass/screen.scss */
+/* line 792, ../sass/screen.scss */
 #profilo-mio-utente #banner {
-  background: url('../images/banner-premi.png') no-repeat left top;
+  background: url('../images/banner-premi.png?1347285875') no-repeat left top;
   width: 115px;
   height: 121px;
   margin-left: 511px;
+  margin-top: -93px;
 }
-/* line 986, ../sass/screen.scss */
+/* line 803, ../sass/screen.scss */
 #profilo-mio-utente #social {
   margin-left: 470px;
   margin-top: -170px;
+  position: absolute;
+  margin-top: -35px;
 }
-/* line 991, ../sass/screen.scss */
+/* line 810, ../sass/screen.scss */
 #profilo-mio-utente #social .facebook {
-  background: url('../images/icona-facebook.png') no-repeat left top;
+  background: url('../images/icona-facebook.png?1347287392') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
 }
-/* line 999, ../sass/screen.scss */
+/* line 818, ../sass/screen.scss */
 #profilo-mio-utente #social .twitter {
-  background: url('../images/icona-twitter.png') no-repeat left top;
+  background: url('../images/icona-twitter.png?1347287395') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
   margin-left: 40px;
 }
 
-/* line 1011, ../sass/screen.scss */
+/* line 830, ../sass/screen.scss */
 .divisore-profilo {
-  background: url('../images/divisore-profilo.png') no-repeat left top;
+  background: url('../images/divisore-profilo.png?1347291551') no-repeat left top;
   width: 600px;
   height: 2px;
   margin-top: 260px;
@@ -2229,74 +2102,9 @@ p {
   position: absolute;
 }
 
-/* line 1029, ../sass/screen.scss */
-.box-corso-iniziato {
-  position: absolute;
-  background: url('../images/background-corso-iniziato.png') no-repeat left top;
-  width: 330px;
-  height: 247px;
-}
-/* line 1036, ../sass/screen.scss */
-.box-corso-iniziato h1 {
-  font-size: 17px;
-  color: #084936;
-  font-family: 'Droid Sans';
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 17px;
-  text-shadow: 0px 2px 1px white, 0px 2px 1px true white;
-  text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
-  margin-top: 21px;
-  margin-left: 39px;
-}
-/* line 1055, ../sass/screen.scss */
-.box-corso-iniziato span {
-  color: #084936;
-  font-family: 'Droid Sans';
-  font-size: 10px;
-}
-/* line 1061, ../sass/screen.scss */
-.box-corso-iniziato .numero-lezioni {
-  margin-right: 120px;
-}
-/* line 1065, ../sass/screen.scss */
-.box-corso-iniziato .cover-corso {
-  position: absolute;
-  margin-top: 12px;
-  margin-left: 10px;
-}
-/* line 1071, ../sass/screen.scss */
-.box-corso-iniziato .caricamento {
-  background: url('../images/box-caricamento.png') no-repeat left top;
-  width: 223px;
-  height: 32px;
-  margin-top: 140px;
-  margin-left: 36px;
-}
-
-/* line 1086, ../sass/screen.scss */
-.bottone-segui-utente {
-  background-color: #00ffb0;
-  width: 144px;
-  height: 22px;
-  border-radius: 30px;
-  margin-left: 40px;
-  overflow: hidden;
-}
-/* line 1094, ../sass/screen.scss */
-.bottone-segui-utente p {
-  color: #3d635f;
-  font-size: 13px;
-  font-family: 'Droid Sans';
-  font-weight: bold;
-  position: absolute;
-  margin-left: -9px;
-  margin-top: 2px;
-}
-
-/* line 1110, ../sass/screen.scss */
+/* line 847, ../sass/screen.scss */
 #box-singolo-esercizio {
-  background: url('../images/box-singolo-esercizio.png') no-repeat left top;
+  background: url('../images/box-singolo-esercizio.png?1347367734') no-repeat left top;
   width: 639px;
   height: 184px;
 }

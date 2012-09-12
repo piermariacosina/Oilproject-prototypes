@@ -375,170 +375,7 @@ body{
 
 
 
-//	BARRA REGISTRATI
 
-
-#titolo-registrati{
-
-  background: image-url("diagonal-green-scuro-bg.png") repeat left top;
-   height: 400px;
-   margin-top: 100px;
-   height: 400px;
-   margin-top: 100px;
-   width: 620px;
-   height: 50px;
-   margin-left: 30px;
-   border-top-right-radius: 10px;
-
- }
- 
- #titolo-registrati h1{
- 
-    font-size: 20px;
-    text-transform: uppercase;
-    position: absolute;
-    color: $white-azzurro;
-    font-family: 'Droid Sans';
-    margin-left: 20px;
-    margin-top: 8px; 
-    
-    /*font-weight: 400;*/
-    
-    
- }
-
-#linea{
-
-  background-color: $light-green;
-  height: 1px;
-  width: 620px;
-  margin-top: 1px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  }
-  
-  //	FINE BARRA REGISTRATI  
-  
-  
-
-
-//	SIDEBAR EDIT
-
-
-#sidebar-edit{
-
-   background-color: $white-azzurro;
-   width: 280px;
-   height: 163px;
-   margin-left: 30px;
-   margin-top: 20px;
-    h1{
-	
-	color:$light-green;
-	font-family: 'Droid Sans';
-	font-size: regular;
-	font-size: 21px;
-	text-transform: uppercase;
-	margin-left: 24px;
-	
-
-	$default-text-shadow-h-offset: 0px;
-	    $default-text-shadow-v-offset: 2px;
-	    $default-text-shadow-blur: 1px;
-	    $default-text-shadow-spread: true;
-	    $default-text-shadow-color: $white-icons;	       
-	@include single-text-shadow();
-	
-	
-}
-h2{
-	
-	color:$azzurro-title;
-	font-family: 'Droid Sans';
-	font-weight: normal;
-	font-size: 13px;
-	width: 232px;
-	line-height: 15px;
-	margin-left: 24px;
-	
-}
-
-
-	
-}
-
-
-
-#titolo-sidebar{
-  
-   background: image-url("icona-help.png") no-repeat;
-   height: 21px;
-   width: 21px;
-   margin-left: 30px;
-
-	
-}
-
-#titolo-sidebar p{
-
-   margin-left: 15px;
-   margin-top: 50px;
-   color:#0CC4C4;
-   font-family: 'Droid Sans';
-   font-size: 13px;
-   font-weight: bold;
-   text-transform: uppercase;
-
-	
-}
-
-
-#sidebar-edit-2{
-
-   background-color: $white-azzurro;
-   width: 280px;
-   height: 133px;
-   margin-left: 30px;
-   margin-top: 2px;
-
-	
-}
-
-#sidebar-edit-2 h1{
-	
-	color:$light-green;
-	font-family: 'Droid Sans';
-	font-size: regular;
-	font-size: 21px;
-	text-transform: uppercase;
-	margin-left: 24px;
-	
-
-	$default-text-shadow-h-offset: 0px;
-	    $default-text-shadow-v-offset: 2px;
-	    $default-text-shadow-blur: 1px;
-	    $default-text-shadow-spread: true;
-	    $default-text-shadow-color: $white-icons;	       
-	@include single-text-shadow();
-	
-	
-}
-
-#sidebar-edit-2 h2{
-	
-	color:$azzurro-title;
-	font-family: 'Droid Sans';
-	font-weight: normal;
-	font-size: 13px;
-	width: 232px;
-	line-height: 15px;
-	margin-left: 24px;
-	
-}
-
-
-  //	FINE SIDEBAR EDIT
-  
    
 
 .bottone{
@@ -706,15 +543,7 @@ p{
 
 
 
-//	BOX CORSO PAGINA CATEGORIE
 
-
-
-
-
-
-
-//	FINE BOX CORSO PAGINA CATEGORIE
 
 
 //	BOX LEZIONE PAGINA CATEGORIE
@@ -869,23 +698,6 @@ p{
 
 //	FINE BOX LEZIONE PAGINA CATEGORIE
 
-#breadcrumbs{
-	background: image-url("breadcrumb.png") no-repeat left top;
-	width: 101px;
-	height: 31px;
-	position: absolute;
-    margin-left: 40px;
-	
-	 .bread{
-	   color:$azzurro-title;
-	   font-family: 'Droid Sans';
-	   font-size: 10px;
-	   line-height: 10px;
-	   margin-top: 8px;
-	   margin-left: 13px;
-	 }
-}
-
 
 //	BOX PROFILO MIO UTENTE
 
@@ -952,6 +764,9 @@ margin-top: 50px;
     
    .contenuti{
    list-style: none;
+   margin-left: -30px;
+   margin-top: 30px;
+   float: left;
    
       a{
        color: $light-petrolio;
@@ -966,6 +781,7 @@ margin-top: 50px;
      .number{
      	color: $grey-scuro;
      	background-color: $fluo-blue;
+     	line-height: 19px;
      }
      
      
@@ -978,6 +794,7 @@ margin-top: 50px;
        width: 115px;
        height: 121px;
        margin-left: 511px;
+       margin-top: -93px;
        
        
        }
@@ -986,6 +803,8 @@ margin-top: 50px;
        #social{
        margin-left: 470px;
        margin-top: -170px;
+       position: absolute;
+       margin-top: -35px;
        	
        	
        	.facebook{
@@ -1023,91 +842,9 @@ margin-top: 50px;
 	
 	
 	
-	//	BOX CORSO INIZIATO
-	
-	
-	.box-corso-iniziato{
-		position: absolute;
-		background: image-url("background-corso-iniziato.png") no-repeat left top;
-		width: 330px;
-		height: 247px;
-		
-		
-		   h1{font-size: 17px;
-		   color: $dark-green;
-		   font-family: 'Droid Sans';
-		   font-weight: 700;
-		   text-transform: uppercase;
-		   line-height: 17px;
-		   
-		   $default-text-shadow-h-offset: 0px;
-		       $default-text-shadow-v-offset: 2px;
-		       $default-text-shadow-blur: 1px;
-		       $default-text-shadow-spread: true;
-		       $default-text-shadow-color: $white-icons;	       
-		   @include single-text-shadow();
-		   
-		   margin-top: 21px;
-		   margin-left: 39px;
-		   
-		   }
-		   
-		   span{
-		   	color: $dark-green;
-		   	font-family: 'Droid Sans';
-		   	font-size: 10px;
-		   }
-		   
-		   .numero-lezioni{
-		   	margin-right: 120px;
-		   }
-		   
-		   .cover-corso{
-		    position: absolute;
-		   	margin-top: 12px;
-		   	margin-left: 10px;
-		   }
-		   
-		   .caricamento{
-		   	background: image-url("box-caricamento.png") no-repeat left top;
-		   	width: 223px;
-		   	height: 32px;
-		   	margin-top: 140px;
-		   	margin-left: 36px;
-		   }
-	}	
-	
-		//	FINE BOX CORSO INIZIATO
 	
 	   
-	    //	BOTTONE BOX ALTRO UTENTE
-	
-	
-	.bottone-segui-utente{
-		background-color:$fluo-blue ;
-		width: 144px;
-		height: 22px;
-		border-radius:30px;
-		margin-left: 40px; 
-	    overflow: hidden;
-		
-		p{
-		color: $text-green;
-		font-size: 13px;
-		font-family: 'Droid Sans';
-		font-weight: bold;
-		position: absolute;
-		margin-left: -9px;
-		margin-top: 2px;
-		
-		
-		}
-		
-	}
-
-    //	FINE BOTTONE BOX ALTRO UTENTE
-    
-    #box-singolo-esercizio{
+	    #box-singolo-esercizio{
     		   	background: image-url("box-singolo-esercizio.png") no-repeat left top;
     		   	width: 639px;
     		   	height: 184px;
