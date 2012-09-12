@@ -3768,8 +3768,9 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-left: 1px solid #086661;
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
+  margin-left: 10px;
 }
-/* line 71, ../sass/partials/_contenuto-singolo.scss */
+/* line 72, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -3782,7 +3783,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #45bfb0;
   padding: 2px;
 }
-/* line 84, ../sass/partials/_contenuto-singolo.scss */
+/* line 85, ../sass/partials/_contenuto-singolo.scss */
 .lezione .views {
   font-weight: normal;
   font-size: 10px;
@@ -3792,7 +3793,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 94, ../sass/partials/_contenuto-singolo.scss */
+/* line 95, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-likes {
   float: left;
   margin-bottom: 12px;
@@ -3801,12 +3802,12 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 101, ../sass/partials/_contenuto-singolo.scss */
+/* line 102, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-likes .icona-likes {
   background: white;
   padding: 5px;
 }
-/* line 107, ../sass/partials/_contenuto-singolo.scss */
+/* line 108, ../sass/partials/_contenuto-singolo.scss */
 .lezione .number-likes {
   font-weight: normal;
   font-size: 10px;
@@ -3816,7 +3817,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 118, ../sass/partials/_contenuto-singolo.scss */
+/* line 119, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-dislikes {
   float: left;
   margin-bottom: 12px;
@@ -3824,13 +3825,14 @@ footer#footer .barra-bottom .footer-menu .icon {
   border-left: 1px solid #086661;
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
+  margin-left: 10px;
 }
-/* line 125, ../sass/partials/_contenuto-singolo.scss */
+/* line 127, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-dislikes .icona-dislikes {
   background: white;
   padding: 5px;
 }
-/* line 131, ../sass/partials/_contenuto-singolo.scss */
+/* line 133, ../sass/partials/_contenuto-singolo.scss */
 .lezione .number-dislikes {
   font-weight: normal;
   font-size: 10px;
@@ -3841,7 +3843,7 @@ footer#footer .barra-bottom .footer-menu .icon {
   margin-top: 4px;
 }
 
-/* line 143, ../sass/partials/_contenuto-singolo.scss */
+/* line 145, ../sass/partials/_contenuto-singolo.scss */
 #extras {
   margin-left: 400px;
   margin-top: -90px;
