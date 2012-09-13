@@ -1,0 +1,61 @@
+
+#box-esercizio{
+
+   background-color: $light-green;
+   width: 599px;
+   height: 95px;
+   margin-left: 30px;
+   border-top-right-radius: 10px;
+   font-weight: bold;
+   
+      h1{
+         width: 523px;
+         position: absolute;
+         font-size: 17px;
+         text-transform: uppercase;
+         color: $white;
+         font-family: 'Droid Sans';
+         font-weight: bold;
+         line-height: 20px;
+         margin-left: 26px;
+         margin-top: 10px; 
+
+         }
+         
+          h2{
+          	position: absolute;
+          	font-size: 17px;
+          	text-transform: uppercase;
+          	color: $white;
+          	font-family: 'Droid Sans';
+          	font-weight: bold;
+          	margin-top: 8px; 
+          	margin-left: 5px;
+          	
+          }
+         
+         p{
+            position: absolute;
+         	font-size: 12px;
+         	color: $light-petrolio;
+         	font-family: 'Droid Sans';
+         	font-weight: normal;
+         	line-height: 14px;
+         	margin-top: 55px;
+         	margin-left: 26px;
+         	
+         }
+      
+
+ }
+ 
+ 
+#linea{
+
+  background-color: $light-green;
+  height: 1px;
+  width: 599px;
+  margin-top: 1px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  }

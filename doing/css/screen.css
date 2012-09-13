@@ -4599,16 +4599,13 @@ div.row {
 /* line 5, ../sass/partials/_titolo-registrati.scss */
 #titolo-registrati {
   background: url('../images/diagonal-green-scuro-bg.png?1347467520') repeat left top;
-  height: 400px;
-  height: 400px;
   width: 620px;
   height: 50px;
   margin-left: 30px;
   border-top-right-radius: 10px;
   font-weight: bold;
 }
-
-/* line 18, ../sass/partials/_titolo-registrati.scss */
+/* line 14, ../sass/partials/_titolo-registrati.scss */
 #titolo-registrati h1 {
   font-size: 20px;
   text-transform: uppercase;
@@ -4620,7 +4617,7 @@ div.row {
   /*font-weight: 400;*/
 }
 
-/* line 33, ../sass/partials/_titolo-registrati.scss */
+/* line 28, ../sass/partials/_titolo-registrati.scss */
 #linea {
   background-color: #057c79;
   height: 1px;
@@ -4708,6 +4705,61 @@ div.row {
   height: 7px;
   background: url('../images/grid-sottocategorie-dark.png?1347533355');
   display: inline-block;
+}
+
+/* line 2, ../sass/partials/_domanda-esercizio.scss */
+#box-esercizio {
+  background-color: #057c79;
+  width: 599px;
+  height: 95px;
+  margin-left: 30px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+/* line 11, ../sass/partials/_domanda-esercizio.scss */
+#box-esercizio h1 {
+  width: 523px;
+  position: absolute;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  line-height: 20px;
+  margin-left: 26px;
+  margin-top: 10px;
+}
+/* line 25, ../sass/partials/_domanda-esercizio.scss */
+#box-esercizio h2 {
+  position: absolute;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+/* line 37, ../sass/partials/_domanda-esercizio.scss */
+#box-esercizio p {
+  position: absolute;
+  font-size: 12px;
+  color: #4cc1b8;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  line-height: 14px;
+  margin-top: 55px;
+  margin-left: 26px;
+}
+
+/* line 53, ../sass/partials/_domanda-esercizio.scss */
+#linea {
+  background-color: #057c79;
+  height: 1px;
+  width: 599px;
+  margin-top: 1px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 /* line 135, ../sass/screen.scss */
