@@ -132,6 +132,7 @@ div.corner{
 @import "partials/template";
 @import "partials/titolo-registrati";
 @import "partials/sidebar-sottocategorie";
+@import "partials/box-singolo-esercizio";
 
 #lesson{
 	@include grid-container;

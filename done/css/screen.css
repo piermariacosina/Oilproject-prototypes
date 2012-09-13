@@ -1376,7 +1376,7 @@ ul.icons li .icon-large:before {
   content: "\f200";
 }
 
-/* line 19, ../sass/partials/_buttons.scss */
+/* line 31, ../sass/partials/_buttons.scss */
 a.btn.border {
   display: inline;
   float: left;
@@ -1400,16 +1400,16 @@ a.btn.border {
   background: #43d1b4;
   cursor: pointer;
 }
-/* line 33, ../sass/partials/_buttons.scss */
+/* line 45, ../sass/partials/_buttons.scss */
 a.btn.border:hover {
   border: 4px white solid;
 }
-/* line 36, ../sass/partials/_buttons.scss */
+/* line 48, ../sass/partials/_buttons.scss */
 a.btn.border:visited {
   border: 4px white solid;
 }
 
-/* line 42, ../sass/partials/_buttons.scss */
+/* line 54, ../sass/partials/_buttons.scss */
 a.btn.dark {
   display: inline;
   float: left;
@@ -1434,12 +1434,12 @@ a.btn.dark {
   cursor: pointer;
   line-height: 20px;
 }
-/* line 57, ../sass/partials/_buttons.scss */
+/* line 69, ../sass/partials/_buttons.scss */
 a.btn.dark:hover {
   background: #43d1b4;
   color: #094934;
 }
-/* line 61, ../sass/partials/_buttons.scss */
+/* line 73, ../sass/partials/_buttons.scss */
 a.btn.dark:visited {
   background: #43d1b4;
   color: #057c79;
@@ -1680,6 +1680,24 @@ a.btn.dark:visited {
   margin-bottom: 10px;
 }
 /* line 7, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio a {
+  text-decoration: none;
+  color: #084936;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.box-singolo-esercizio a:visited {
+  color: #084936;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.box-singolo-esercizio a:hover {
+  color: #3d635f;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.box-singolo-esercizio a:active {
+  color: #43d1b4;
+}
+/* line 10, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title {
   display: inline;
   float: left;
@@ -1688,7 +1706,7 @@ a.btn.dark:visited {
   width: 220px;
   margin-left: 40px;
 }
-/* line 10, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 13, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title h4 {
   color: #084936;
   font-weight: 700;
@@ -1697,17 +1715,17 @@ a.btn.dark:visited {
   font-size: 15px;
   margin-top: 20px;
 }
-/* line 18, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 21, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title h2 {
   color: #084936;
   font-weight: bold;
   font-family: 'Droid Sans';
   text-transform: uppercase;
   font-size: 25px;
-  text-shadow: 0px 1px 0px white, 0px 1px 0px true white;
-  text-shadow: 0px 1px 0px true white, 0px 1px 0px true white;
+  text-shadow: 0px 1px 1px white, 0px 1px 1px true white;
+  text-shadow: 0px 1px 1px true white, 0px 1px 1px true white;
 }
-/* line 32, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 33, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info {
   position: relative;
   left: 60px;
@@ -1717,7 +1735,7 @@ a.btn.dark:visited {
   margin-right: 10px;
   width: 280px;
 }
-/* line 35, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 36, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info p {
   color: #084936;
   font-weight: 400;
@@ -1725,7 +1743,7 @@ a.btn.dark:visited {
   font-size: 13px;
   float: left;
 }
-/* line 44, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 45, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info .number {
   background-color: #084936;
   width: 19px;
@@ -1740,7 +1758,7 @@ a.btn.dark:visited {
   padding: 1px 0 0 1px;
   margin-top: -2px;
 }
-/* line 59, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 60, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info p.data-commento {
   margin-left: 15px;
   text-transform: uppercase;
@@ -1748,19 +1766,19 @@ a.btn.dark:visited {
   font-size: 10px;
   color: #084936;
 }
-/* line 67, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 68, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info p.data-commento span {
   text-transform: capitalize;
   margin-left: 3px;
   margin-right: 3px;
   font-weight: 400;
 }
-/* line 76, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 77, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio p.description {
   margin-top: 10px;
 }
 
-/* line 81, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 82, ../sass/partials/_box-singolo-esercizio.scss */
 .comm {
   display: inline;
   float: left;
@@ -1770,7 +1788,7 @@ a.btn.dark:visited {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 85, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 86, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments {
   height: auto;
   overflow: hidden;
@@ -1780,22 +1798,22 @@ a.btn.dark:visited {
   border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 93, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 94, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments.first {
   padding-right: 10px;
 }
-/* line 97, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 98, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments.center {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 102, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 103, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments.last {
   border-right: none;
   float: right;
 }
-/* line 106, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 107, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -1803,7 +1821,7 @@ a.btn.dark:visited {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 112, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 113, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -1817,7 +1835,7 @@ a.btn.dark:visited {
   padding: 2px;
   text-align: center;
 }
-/* line 126, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 127, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -2505,16 +2523,30 @@ ul.commenti li .text p.data_commento span {
 
 /* line 6, ../sass/partials/_contenuto-singolo.scss */
 .lezione {
-  width: 638px;
-  height: 209px;
-  background: url('../images/box-lezione-categoria.png?1347554697') no-repeat left top;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 640px;
+  background: #057c79;
   font-family: 'Droid Sans';
   display: inline;
   float: left;
   margin-top: 30px;
+  position: relative;
+  margin-left: 30px;
 }
-/* line 15, ../sass/partials/_contenuto-singolo.scss */
-.lezione h2 {
+/* line 17, ../sass/partials/_contenuto-singolo.scss */
+.lezione .corner.left.big {
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 18px;
+  height: 18px;
+  background: url('../images/corner-left-big.png?1347574738') no-repeat left top;
+}
+/* line 26, ../sass/partials/_contenuto-singolo.scss */
+.lezione h4 {
   font-weight: bold;
   font-size: 10px;
   line-height: 15px;
@@ -2523,8 +2555,26 @@ ul.commenti li .text p.data_commento span {
   margin-left: 70px;
   color: #00ffb0;
 }
-/* line 26, ../sass/partials/_contenuto-singolo.scss */
-.lezione h1 {
+/* line 35, ../sass/partials/_contenuto-singolo.scss */
+.lezione h4 a {
+  text-decoration: none;
+  color: #00ffb0;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione h4 a:visited {
+  color: #4cc1b8;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione h4 a:hover {
+  color: #49ada8;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione h4 a:active {
+  color: #4cc1b8;
+}
+/* line 40, ../sass/partials/_contenuto-singolo.scss */
+.lezione h3 {
   width: 281px;
   height: 77px;
   color: white;
@@ -2537,7 +2587,25 @@ ul.commenti li .text p.data_commento span {
   text-transform: lowercase;
   margin-left: 70px;
 }
-/* line 41, ../sass/partials/_contenuto-singolo.scss */
+/* line 53, ../sass/partials/_contenuto-singolo.scss */
+.lezione h3 a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione h3 a:visited {
+  color: white;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione h3 a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione h3 a:active {
+  color: white;
+}
+/* line 59, ../sass/partials/_contenuto-singolo.scss */
 .lezione .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -2546,18 +2614,55 @@ ul.commenti li .text p.data_commento span {
   margin-top: -40px;
   margin-left: 70px;
 }
-/* line 51, ../sass/partials/_contenuto-singolo.scss */
+/* line 66, ../sass/partials/_contenuto-singolo.scss */
+.lezione .relatore a {
+  text-decoration: none;
+  color: #4cc1b8;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione .relatore a:visited {
+  color: #4cc1b8;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione .relatore a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione .relatore a:active {
+  color: #4cc1b8;
+}
+/* line 71, ../sass/partials/_contenuto-singolo.scss */
 .lezione .divisore-3 {
   margin-left: 70px;
   margin-top: -30px;
 }
-/* line 56, ../sass/partials/_contenuto-singolo.scss */
-.lezione .icona-audio-b {
+/* line 76, ../sass/partials/_contenuto-singolo.scss */
+.lezione .icon {
+  font-size: 24px;
+  top: 20px;
+  left: 30px;
   position: absolute;
-  margin-top: -90px;
-  margin-left: 33px;
 }
-/* line 64, ../sass/partials/_contenuto-singolo.scss */
+/* line 82, ../sass/partials/_contenuto-singolo.scss */
+.lezione .icon a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione .icon a:visited {
+  color: white;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione .icon a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lezione .icon a:active {
+  color: white;
+}
+/* line 89, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-number-views {
   float: left;
   margin-bottom: 12px;
@@ -2566,7 +2671,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 71, ../sass/partials/_contenuto-singolo.scss */
+/* line 97, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -2579,7 +2684,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #45bfb0;
   padding: 2px;
 }
-/* line 84, ../sass/partials/_contenuto-singolo.scss */
+/* line 110, ../sass/partials/_contenuto-singolo.scss */
 .lezione .views {
   font-weight: normal;
   font-size: 10px;
@@ -2588,8 +2693,9 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin-left: 3px;
   margin-top: 4px;
+  margin-right: 15px;
 }
-/* line 94, ../sass/partials/_contenuto-singolo.scss */
+/* line 121, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-likes {
   float: left;
   margin-bottom: 12px;
@@ -2598,22 +2704,23 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 101, ../sass/partials/_contenuto-singolo.scss */
+/* line 128, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-likes .icona-likes {
   background: white;
-  padding: 5px;
+  padding: 3px 5px;
 }
-/* line 107, ../sass/partials/_contenuto-singolo.scss */
+/* line 134, ../sass/partials/_contenuto-singolo.scss */
 .lezione .number-likes {
   font-weight: normal;
   font-size: 10px;
   line-height: 10px;
-  color: #4cc1b8;
+  color: white;
   float: left;
   margin-left: 3px;
   margin-top: 4px;
+  margin-right: 15px;
 }
-/* line 118, ../sass/partials/_contenuto-singolo.scss */
+/* line 146, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-dislikes {
   float: left;
   margin-bottom: 12px;
@@ -2622,23 +2729,24 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 125, ../sass/partials/_contenuto-singolo.scss */
+/* line 154, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-dislikes .icona-dislikes {
   background: white;
-  padding: 5px;
+  padding: 3px 5px;
 }
-/* line 131, ../sass/partials/_contenuto-singolo.scss */
+/* line 160, ../sass/partials/_contenuto-singolo.scss */
 .lezione .number-dislikes {
   font-weight: normal;
   font-size: 10px;
   line-height: 10px;
-  color: #4cc1b8;
+  color: white;
   float: left;
   margin-left: 3px;
   margin-top: 4px;
+  margin-right: 15px;
 }
 
-/* line 143, ../sass/partials/_contenuto-singolo.scss */
+/* line 173, ../sass/partials/_contenuto-singolo.scss */
 #extras {
   margin-left: 400px;
   margin-top: -90px;
@@ -2682,7 +2790,7 @@ ul.commenti li .text p.data_commento span {
 .corsi_creati a .box_corso {
   width: 312px;
   height: 363px;
-  background: url('../images/background_profilo_categoria.png?1347554697') no-repeat left top;
+  background: url('../images/background_profilo_categoria.png') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
 }
@@ -3120,9 +3228,6 @@ footer#footer .info-progetto ul {
 }
 /* line 88, ../sass/partials/_footer.scss */
 footer#footer .info-progetto ul li {
-  height: 50px;
-  width: 50px;
-  background-color: orange;
   margin-right: 22px;
   list-style-image: none;
   list-style-type: none;
@@ -3146,11 +3251,19 @@ footer#footer .info-progetto ul li:last-child {
 footer#footer .info-progetto ul li.last {
   padding-right: 0;
 }
-/* line 96, ../sass/partials/_footer.scss */
+/* line 93, ../sass/partials/_footer.scss */
+footer#footer .info-progetto ul li a {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  display: block;
+  cursor: pointer;
+}
+/* line 102, ../sass/partials/_footer.scss */
 footer#footer .info-progetto ul li:last-child {
   margin-right: 0px;
 }
-/* line 101, ../sass/partials/_footer.scss */
+/* line 107, ../sass/partials/_footer.scss */
 footer#footer .social {
   display: inline;
   float: left;
@@ -3163,7 +3276,7 @@ footer#footer .social {
   float: left;
   margin-right: 0;
 }
-/* line 110, ../sass/partials/_footer.scss */
+/* line 116, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom {
   margin-top: 30px;
   clear: both;
@@ -3172,7 +3285,7 @@ footer#footer .barra-bottom {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 116, ../sass/partials/_footer.scss */
+/* line 122, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .creative-commons {
   display: inline;
   float: left;
@@ -3183,7 +3296,7 @@ footer#footer .barra-bottom .creative-commons {
   margin-top: 20px;
   border-right: 2px #c9f7f5 solid;
 }
-/* line 123, ../sass/partials/_footer.scss */
+/* line 129, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .creative-commons h1 {
   text-indent: -119988px;
   overflow: hidden;
@@ -3193,9 +3306,9 @@ footer#footer .barra-bottom .creative-commons h1 {
   background-position: 50% 50%;
   width: 130px;
   height: 32px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
-/* line 128, ../sass/partials/_footer.scss */
+/* line 134, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .creative-commons p {
   color: #3d635f;
   font-size: 13px;
@@ -3204,16 +3317,16 @@ footer#footer .barra-bottom .creative-commons p {
   font-family: 'Droid Sans';
   padding-right: 60px;
 }
-/* line 138, ../sass/partials/_footer.scss */
+/* line 144, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .creative-commons h6 {
   text-transform: uppercase;
   font-family: 'Droid Sans';
   font-weight: bold;
   font-size: 13px;
   color: #3d635f;
-  margin: 0;
+  margin: 10px 0;
 }
-/* line 148, ../sass/partials/_footer.scss */
+/* line 154, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom ul {
   margin: 0;
   padding: 0;
@@ -3223,7 +3336,7 @@ footer#footer .barra-bottom ul {
   float: left;
   width: auto;
 }
-/* line 152, ../sass/partials/_footer.scss */
+/* line 158, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom ul li {
   list-style-image: none;
   list-style-type: none;
@@ -3247,7 +3360,7 @@ footer#footer .barra-bottom ul li:last-child {
 footer#footer .barra-bottom ul li.last {
   padding-right: 0;
 }
-/* line 159, ../sass/partials/_footer.scss */
+/* line 165, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .legal-menu {
   display: inline;
   float: left;
@@ -3256,7 +3369,7 @@ footer#footer .barra-bottom .legal-menu {
   width: 940px;
   margin-bottom: 20px;
 }
-/* line 162, ../sass/partials/_footer.scss */
+/* line 168, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .legal-menu ul {
   margin: 0;
   padding: 0;
@@ -3266,7 +3379,7 @@ footer#footer .barra-bottom .legal-menu ul {
   display: inline;
   float: right;
 }
-/* line 165, ../sass/partials/_footer.scss */
+/* line 171, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .legal-menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -3290,19 +3403,19 @@ footer#footer .barra-bottom .legal-menu ul li:last-child {
 footer#footer .barra-bottom .legal-menu ul li.last {
   padding-right: 0;
 }
-/* line 167, ../sass/partials/_footer.scss */
+/* line 173, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .legal-menu ul li a {
   font-family: 'Droid Sans';
   font-weight: 400;
   font-weight: bold;
   color: #3d635f;
 }
-/* line 174, ../sass/partials/_footer.scss */
+/* line 180, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .legal-menu ul li:last-child {
   border: none;
   margin-right: 10px;
 }
-/* line 183, ../sass/partials/_footer.scss */
+/* line 189, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu {
   display: inline;
   float: left;
@@ -3315,7 +3428,7 @@ footer#footer .barra-bottom .footer-menu {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 192, ../sass/partials/_footer.scss */
+/* line 199, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu ul {
   margin: 0;
   padding: 0;
@@ -3325,7 +3438,7 @@ footer#footer .barra-bottom .footer-menu ul {
   display: inline;
   float: right;
 }
-/* line 196, ../sass/partials/_footer.scss */
+/* line 203, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu li {
   list-style-image: none;
   list-style-type: none;
@@ -3349,7 +3462,7 @@ footer#footer .barra-bottom .footer-menu li:last-child {
 footer#footer .barra-bottom .footer-menu li.last {
   padding-right: 0;
 }
-/* line 202, ../sass/partials/_footer.scss */
+/* line 209, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu a {
   padding-top: 16px;
   display: block;
@@ -3374,7 +3487,11 @@ footer#footer .barra-bottom .footer-menu a:hover {
 footer#footer .barra-bottom .footer-menu a:active {
   color: #036863;
 }
-/* line 220, ../sass/partials/_footer.scss */
+/* line 227, ../sass/partials/_footer.scss */
+footer#footer .barra-bottom .footer-menu a:hover .icon {
+  background: url('../images/diagonal-green-scuro-bg.png?1347554697') repeat left top;
+}
+/* line 231, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 15px;
   margin-right: 15px;
@@ -4816,7 +4933,187 @@ div.row {
   display: inline-block;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 1, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio {
+  background: url('../images/box-singolo-esercizio.png?1347554697') no-repeat left top;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 640px;
+  height: 183px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 7, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio a {
+  text-decoration: none;
+  color: #084936;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.box-singolo-esercizio a:visited {
+  color: #084936;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.box-singolo-esercizio a:hover {
+  color: #3d635f;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.box-singolo-esercizio a:active {
+  color: #43d1b4;
+}
+/* line 10, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .title {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+  margin-left: 40px;
+}
+/* line 13, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .title h4 {
+  color: #084936;
+  font-weight: 700;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* line 21, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .title h2 {
+  color: #084936;
+  font-weight: bold;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  font-size: 25px;
+  text-shadow: 0px 1px 1px white;
+}
+/* line 33, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info {
+  position: relative;
+  left: 60px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+}
+/* line 36, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info p {
+  color: #084936;
+  font-weight: 400;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  float: left;
+}
+/* line 45, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info .number {
+  background-color: #084936;
+  width: 19px;
+  height: 19px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: -2px;
+}
+/* line 60, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info p.data-commento {
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  color: #084936;
+}
+/* line 68, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio .info p.data-commento span {
+  text-transform: capitalize;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-weight: 400;
+}
+/* line 77, ../sass/partials/_box-singolo-esercizio.scss */
+.box-singolo-esercizio p.description {
+  margin-top: 10px;
+}
+
+/* line 82, ../sass/partials/_box-singolo-esercizio.scss */
+.comm {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+}
+/* line 86, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments {
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right: 1px solid #C5FFEA;
+  float: left;
+}
+/* line 94, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments.first {
+  padding-right: 10px;
+}
+/* line 98, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments.center {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80px;
+}
+/* line 103, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments.last {
+  border-right: none;
+  float: right;
+}
+/* line 107, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments .box-number-comments {
+  float: left;
+  border-bottom: 1px solid #02967a;
+  border-left: 1px solid #05d6c6;
+  border-right: 1px solid #05d6c6;
+  border-top: 1px solid #05d6c6;
+}
+/* line 113, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments .box-number-comments .number-comments {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #084936;
+  background: #00f2a1;
+  border-bottom: 1px solid #c7ffec;
+  border-left: 1px solid #7dfed5;
+  border-top: 1px solid #7dfed5;
+  border-right: 1px solid #7dfed5;
+  padding: 2px;
+  text-align: center;
+}
+/* line 127, ../sass/partials/_box-singolo-esercizio.scss */
+.comm .container-comments .comments {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #084936;
+  text-transform: lowercase;
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+/* line 137, ../sass/screen.scss */
 #lesson {
   margin-left: auto;
   margin-right: auto;
@@ -4825,7 +5122,7 @@ div.row {
   margin-top: 10px;
   background: url('../images/diagonal-green-bg.png?1347554697') repeat left top;
 }
-/* line 141, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 #lesson .infor {
   display: inline;
   float: left;
@@ -4835,7 +5132,7 @@ div.row {
   height: 100%;
   position: relative;
 }
-/* line 146, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 #lesson .infor .container-views {
   width: 65px;
   height: auto;
@@ -4846,7 +5143,7 @@ div.row {
   padding-left: 10px;
   float: left;
 }
-/* line 154, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 #lesson .infor .container-views .box-number-views {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4854,7 +5151,7 @@ div.row {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 160, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 #lesson .infor .container-views .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -4867,7 +5164,7 @@ div.row {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 173, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #lesson .infor .container-views .views {
   font-weight: normal;
   font-size: 10px;
@@ -4877,7 +5174,7 @@ div.row {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 184, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 #lesson .infor .container-comments {
   width: 78px;
   height: auto;
@@ -4886,7 +5183,7 @@ div.row {
   border-right: 1px solid #c5ffea;
   float: left;
 }
-/* line 190, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 #lesson .infor .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4894,7 +5191,7 @@ div.row {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 196, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 #lesson .infor .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -4907,7 +5204,7 @@ div.row {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 209, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 #lesson .infor .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -4917,7 +5214,7 @@ div.row {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 220, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 #lesson .infor .container-lingua {
   width: 100px;
   height: auto;
@@ -4927,7 +5224,7 @@ div.row {
   padding-left: 10px;
   float: left;
 }
-/* line 227, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 #lesson .infor .container-lingua .box-lingua-icon {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4935,7 +5232,7 @@ div.row {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 233, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #lesson .infor .container-lingua .box-lingua-icon .lingua-icon {
   width: 14px;
   height: 10px;
@@ -4950,7 +5247,7 @@ div.row {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 248, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 #lesson .infor .container-lingua .lingua {
   font-weight: normal;
   font-size: 10px;
@@ -4960,12 +5257,12 @@ div.row {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 260, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 #lesson .infor .aut-date {
   position: absolute;
   bottom: 9px;
 }
-/* line 264, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 #lesson .infor .aut-date .data .num {
   position: absolute;
   float: left;
@@ -4980,14 +5277,14 @@ div.row {
   border-radius: 16px;
   bottom: -2px;
 }
-/* line 273, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 #lesson .infor .aut-date .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
   margin: 0;
 }
-/* line 280, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date {
   width: 140px;
   font-family: 'Droid Sans';
@@ -4995,17 +5292,17 @@ div.row {
   float: left;
   margin-left: 30px;
 }
-/* line 287, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date .mese {
   font-weight: 700;
   color: #084936;
   text-transform: uppercase;
 }
-/* line 292, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date .ora {
   color: #057c79;
 }
-/* line 298, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 #lesson .infor .aut-date hr {
   display: inline;
   float: left;
@@ -5015,17 +5312,17 @@ div.row {
   border: 0;
   height: 1px;
 }
-/* line 303, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 #lesson .infor .aut-date .top {
   margin: 8px 0 0 0;
   background: #00ea9c;
 }
-/* line 307, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 #lesson .infor .aut-date .bottom {
   margin: 0 0 12px 0;
   background: #c5ffea;
 }
-/* line 314, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 #lesson .foto {
   display: inline;
   float: left;
@@ -5036,7 +5333,7 @@ div.row {
   background-color: #38d69a;
   height: 100%;
 }
-/* line 320, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 #lesson h3 {
   font-size: 15px;
   color: #084936;
@@ -5045,7 +5342,7 @@ div.row {
   text-transform: uppercase;
   padding-top: 20px;
 }
-/* line 329, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 #lesson h1 {
   font-size: 25px;
   line-height: 30px;
@@ -5056,7 +5353,7 @@ div.row {
   padding-bottom: 7px;
   text-shadow: 0px 2px 1px #c5ffea;
 }
-/* line 345, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 #lesson h4 {
   color: #084936;
   font-weight: 700;
@@ -5064,20 +5361,20 @@ div.row {
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 351, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 #lesson h4 span {
   color: #057c79;
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 357, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 #lesson p {
   color: #084936;
   font-weight: 700;
   font-family: 'Droid Sans';
 }
 
-/* line 364, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 #container {
   display: inline;
   float: left;
@@ -5085,7 +5382,7 @@ div.row {
   margin-right: 10px;
   width: 640px;
 }
-/* line 366, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 #container h4 {
   margin-top: 10px;
   display: inline;
@@ -5100,7 +5397,7 @@ div.row {
   margin-left: 0;
   text-align: center;
 }
-/* line 376, ../sass/screen.scss */
+/* line 377, ../sass/screen.scss */
 #container .icon {
   margin-top: 10px;
   display: inline;
@@ -5112,12 +5409,12 @@ div.row {
   height: 40px;
   background-color: white;
 }
-/* line 383, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 #container .text {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 386, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 #container .text h3 {
   font-size: 21px;
   color: #057c79;
@@ -5128,7 +5425,7 @@ div.row {
   text-shadow: 0px 1px 0px true white, 0px 1px 0px true white;
   margin-bottom: 10px;
 }
-/* line 400, ../sass/screen.scss */
+/* line 401, ../sass/screen.scss */
 #container .text p {
   font-size: 13px;
   line-height: 16px;
@@ -5137,11 +5434,11 @@ div.row {
   font-weight: 400;
   padding-bottom: 5px;
 }
-/* line 409, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 #container .text .data {
   position: relative;
 }
-/* line 411, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 #container .text .data .num {
   width: 25px;
   height: 25px;
@@ -5152,20 +5449,20 @@ div.row {
   -o-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 416, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 #container .text .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
 }
-/* line 422, ../sass/screen.scss */
+/* line 423, ../sass/screen.scss */
 #container .text .data .info-date {
   width: 140px;
   position: absolute;
   bottom: -23px;
   left: 30px;
 }
-/* line 427, ../sass/screen.scss */
+/* line 428, ../sass/screen.scss */
 #container .text .data .info-date p {
   color: #084936;
   font-weight: 700;
@@ -5173,7 +5470,7 @@ div.row {
   font-size: 11px;
 }
 
-/* line 441, ../sass/screen.scss */
+/* line 442, ../sass/screen.scss */
 #testo {
   display: inline;
   float: left;
@@ -5183,7 +5480,7 @@ div.row {
   margin-top: 35px;
   margin-bottom: 30px;
 }
-/* line 446, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 #testo p {
   font-size: 13px;
   line-height: 16px;
@@ -5193,18 +5490,18 @@ div.row {
   padding: 0;
   margin: 0 0 7px 0;
 }
-/* line 455, ../sass/screen.scss */
+/* line 456, ../sass/screen.scss */
 #testo .intro {
   font-weight: bold;
   text-indent: 7px;
 }
-/* line 461, ../sass/screen.scss */
+/* line 462, ../sass/screen.scss */
 #testo a {
   color: #24d1c8;
   text-decoration: none;
 }
 
-/* line 468, ../sass/screen.scss */
+/* line 469, ../sass/screen.scss */
 #button {
   display: inline;
   float: left;
@@ -5220,7 +5517,7 @@ div.row {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 475, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 #button a {
   color: white;
   font-size: 12px;
@@ -5229,7 +5526,7 @@ div.row {
   margin-left: 11px;
 }
 
-/* line 484, ../sass/screen.scss */
+/* line 485, ../sass/screen.scss */
 #button-1 {
   display: inline;
   float: left;
@@ -5239,7 +5536,7 @@ div.row {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 488, ../sass/screen.scss */
+/* line 489, ../sass/screen.scss */
 #button-1 .interno {
   width: 130px;
   background-color: #084936;
@@ -5250,7 +5547,7 @@ div.row {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 493, ../sass/screen.scss */
+/* line 494, ../sass/screen.scss */
 #button-1 .interno a {
   color: white;
   font-size: 12px;
@@ -5259,7 +5556,7 @@ div.row {
   margin-left: 11px;
 }
 
-/* line 502, ../sass/screen.scss */
+/* line 503, ../sass/screen.scss */
 #nuovo-commento {
   display: inline;
   float: left;
@@ -5271,7 +5568,7 @@ div.row {
   clear: both;
   margin-bottom: 35px;
 }
-/* line 508, ../sass/screen.scss */
+/* line 509, ../sass/screen.scss */
 #nuovo-commento textarea {
   display: inline;
   float: left;
@@ -5282,11 +5579,11 @@ div.row {
   margin-left: 0;
   border: 1px solid #323232;
 }
-/* line 515, ../sass/screen.scss */
+/* line 516, ../sass/screen.scss */
 #nuovo-commento ul {
   list-style-type: none !important;
 }
-/* line 517, ../sass/screen.scss */
+/* line 518, ../sass/screen.scss */
 #nuovo-commento ul li {
   width: auto;
   height: auto;
@@ -5295,12 +5592,12 @@ div.row {
   display: block;
   border-bottom: 1px solid white;
 }
-/* line 523, ../sass/screen.scss */
+/* line 524, ../sass/screen.scss */
 #nuovo-commento ul li a {
   text-decoration: none !important;
   position: relative;
 }
-/* line 527, ../sass/screen.scss */
+/* line 528, ../sass/screen.scss */
 #nuovo-commento ul li a .angolo {
   width: 20px;
   height: 20px;
@@ -5308,39 +5605,39 @@ div.row {
   position: relative;
   clear: left;
 }
-/* line 535, ../sass/screen.scss */
+/* line 536, ../sass/screen.scss */
 #nuovo-commento ul li a .first-level {
   top: 20px;
   left: -10px;
 }
-/* line 540, ../sass/screen.scss */
+/* line 541, ../sass/screen.scss */
 #nuovo-commento ul li a .second-level {
   top: 20px;
   left: 50px;
 }
-/* line 545, ../sass/screen.scss */
+/* line 546, ../sass/screen.scss */
 #nuovo-commento ul li a .third-level {
   top: 20px;
   left: 110px;
 }
-/* line 550, ../sass/screen.scss */
+/* line 551, ../sass/screen.scss */
 #nuovo-commento ul li a .commento {
   margin-bottom: 2px;
   margin-right: 0;
   background-color: #eafdfc;
   float: left;
 }
-/* line 557, ../sass/screen.scss */
+/* line 558, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num {
   background: #0cc4c4 !important;
   float: left;
 }
-/* line 560, ../sass/screen.scss */
+/* line 561, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num p {
   font-weight: bold !important;
   padding: 4px 0 !important;
 }
-/* line 565, ../sass/screen.scss */
+/* line 566, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date {
   font-family: 'Droid Sans';
   font-size: 11px;
@@ -5348,29 +5645,29 @@ div.row {
   color: #0cc4c4;
   margin-top: 20px;
 }
-/* line 571, ../sass/screen.scss */
+/* line 572, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date .mese {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 579, ../sass/screen.scss */
+/* line 580, ../sass/screen.scss */
 #nuovo-commento ul li a .spacer-comments {
   clear: both;
 }
-/* line 584, ../sass/screen.scss */
+/* line 585, ../sass/screen.scss */
 #nuovo-commento ul li:first-child {
   clear: both;
 }
-/* line 592, ../sass/screen.scss */
+/* line 593, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .angolo, #nuovo-commento ul li a:active .angolo {
   background: url('../images/angolo-commenti-hover-sx.png?1347554697') repeat left top;
 }
-/* line 595, ../sass/screen.scss */
+/* line 596, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .commento, #nuovo-commento ul li a:active .commento {
   background-color: #c9f7f5;
 }
 
-/* line 605, ../sass/screen.scss */
+/* line 606, ../sass/screen.scss */
 .primo-livello {
   display: inline;
   float: left;
@@ -5378,7 +5675,7 @@ div.row {
   margin-right: 10px;
   width: 580px;
 }
-/* line 607, ../sass/screen.scss */
+/* line 608, ../sass/screen.scss */
 .primo-livello .text {
   display: inline;
   float: left;
@@ -5388,7 +5685,7 @@ div.row {
   margin-left: 0;
 }
 
-/* line 616, ../sass/screen.scss */
+/* line 617, ../sass/screen.scss */
 .secondo-livello {
   position: relative;
   left: 60px;
@@ -5398,7 +5695,7 @@ div.row {
   margin-right: 10px;
   width: 520px;
 }
-/* line 621, ../sass/screen.scss */
+/* line 622, ../sass/screen.scss */
 .secondo-livello .text {
   display: inline;
   float: left;
@@ -5408,7 +5705,7 @@ div.row {
   margin-left: 0;
 }
 
-/* line 627, ../sass/screen.scss */
+/* line 628, ../sass/screen.scss */
 .terzo-livello {
   position: relative;
   left: 120px;
@@ -5418,7 +5715,7 @@ div.row {
   margin-right: 10px;
   width: 460px;
 }
-/* line 631, ../sass/screen.scss */
+/* line 632, ../sass/screen.scss */
 .terzo-livello .text {
   display: inline;
   float: left;
@@ -5428,7 +5725,7 @@ div.row {
   margin-left: 0;
 }
 
-/* line 639, ../sass/screen.scss */
+/* line 640, ../sass/screen.scss */
 #barra {
   display: inline;
   float: left;
@@ -5437,7 +5734,7 @@ div.row {
   width: 280px;
   margin-right: 0;
 }
-/* line 642, ../sass/screen.scss */
+/* line 643, ../sass/screen.scss */
 #barra .list {
   display: inline;
   float: left;
@@ -5447,7 +5744,7 @@ div.row {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 646, ../sass/screen.scss */
+/* line 647, ../sass/screen.scss */
 #barra .list .icon-cat {
   width: 44px;
   height: 8px;
@@ -5456,7 +5753,7 @@ div.row {
   float: left;
   background: url('../images/diagonal-white-bg.png?1347554697') repeat left top;
 }
-/* line 654, ../sass/screen.scss */
+/* line 655, ../sass/screen.scss */
 #barra .list ul {
   display: inline;
   float: left;
@@ -5468,7 +5765,7 @@ div.row {
   style-type-position: inside;
   padding-top: 3px;
 }
-/* line 661, ../sass/screen.scss */
+/* line 662, ../sass/screen.scss */
 #barra .list li {
   height: auto;
   background: none;
@@ -5480,12 +5777,12 @@ div.row {
   margin: 0 0 12px 0;
   padding: 0;
 }
-/* line 671, ../sass/screen.scss */
+/* line 672, ../sass/screen.scss */
 #barra .list li a {
   text-decoration: none;
   color: #49ada8;
 }
-/* line 676, ../sass/screen.scss */
+/* line 677, ../sass/screen.scss */
 #barra .list .categorie {
   display: inline;
   float: left;
@@ -5497,7 +5794,7 @@ div.row {
   background: url('../images/diagonal-white-bg.png?1347554697') repeat left top;
   float: left;
 }
-/* line 684, ../sass/screen.scss */
+/* line 685, ../sass/screen.scss */
 #barra .list .categorie .icon {
   width: 36px;
   height: 32px;
@@ -5505,7 +5802,7 @@ div.row {
   float: left;
   margin: 8px;
 }
-/* line 691, ../sass/screen.scss */
+/* line 692, ../sass/screen.scss */
 #barra .list .categorie h1 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -5516,7 +5813,7 @@ div.row {
   float: left;
   margin-top: 11px;
 }
-/* line 704, ../sass/screen.scss */
+/* line 705, ../sass/screen.scss */
 #barra .image {
   display: inline;
   float: left;
@@ -5529,7 +5826,7 @@ div.row {
   background-color: #00ffb0;
   margin-top: 10px;
 }
-/* line 713, ../sass/screen.scss */
+/* line 714, ../sass/screen.scss */
 #barra .ultime-lezioni {
   background: #f7fcfb;
   border: 1px solid #daede9;
@@ -5542,7 +5839,7 @@ div.row {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 720, ../sass/screen.scss */
+/* line 721, ../sass/screen.scss */
 #barra .ultime-lezioni h3 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -5552,7 +5849,7 @@ div.row {
   color: #49ada8;
   padding: 12px;
 }
-/* line 731, ../sass/screen.scss */
+/* line 732, ../sass/screen.scss */
 #barra .ultime-lezioni ul {
   list-style: none;
   display: inline;
@@ -5565,7 +5862,7 @@ div.row {
   margin-right: 0;
   margin: 0px;
 }
-/* line 741, ../sass/screen.scss */
+/* line 742, ../sass/screen.scss */
 #barra .ultime-lezioni .simbolo {
   width: 44px;
   margin-top: 3px;
@@ -5574,7 +5871,7 @@ div.row {
   background-color: white;
   height: 20px;
 }
-/* line 750, ../sass/screen.scss */
+/* line 751, ../sass/screen.scss */
 #barra .ultime-lezioni .title {
   display: inline;
   float: left;
@@ -5584,14 +5881,14 @@ div.row {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 755, ../sass/screen.scss */
+/* line 756, ../sass/screen.scss */
 #barra .ultime-lezioni .title h4 {
   color: white;
   font-weight: 400;
   font-size: 13px;
   font-family: 'Droid Sans';
 }
-/* line 762, ../sass/screen.scss */
+/* line 763, ../sass/screen.scss */
 #barra .ultime-lezioni .title p {
   font-weight: bold;
   font-size: 10px;

@@ -4,6 +4,9 @@
 	height:183px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	a{
+		@include link-over-fluo;
+	}
 	.title{
 		@include grid(4);
 		margin-left: 40px;
@@ -23,10 +26,8 @@
 		font-size: 25px;
 		$default-text-shadow-h-offset: 0px;
 		$default-text-shadow-v-offset: 1px;
-		$default-text-shadow-blur: 0px;
-		
 		$default-text-shadow-color: $white;	       
-		@include single-text-shadow();
+		@include single-text-shadow;
 		}
 	}
 	.info{
