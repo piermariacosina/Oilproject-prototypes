@@ -1,7 +1,8 @@
 .container-lezioni{
-	margin: 30px auto;
-	width: 942px;
-	height: auto;
+	@include clearfix;
+	
+	padding: 10px 4px 0 4px;
+	margin: 10px 7px 10px 7px;
 	background: $light-grey;
 	border: 1px solid $grey;
 	h3{
@@ -84,12 +85,11 @@
 }
 
 .container-lezioni{
-	@include clearfix;
-	margin: 0 4px 0 4px;
+
 	.list-lezioni{
 				@include float-left;
 				@include clearfix;
-				margin: 10px 0 4px 0;
+				margin: 0 0 4px 0;
 				list-style-type: none;
 
 		.categorie{
@@ -103,11 +103,12 @@
 				height: 32px;
 				color: $green-title;
 				float: left;
-				margin: 8px;
+				font-size: 34px;
+				margin: 0 8px 0 8px;
 			}
 			h1{
 				font-family: 'Droid Sans';
-				font-weight: bold;
+				font-weight: 400;
 				font-size: 14px;
 				line-height: 13px;
 				text-transform: uppercase;
@@ -217,6 +218,8 @@
 						border-left: 1px solid $dark-blue;
 						border-right: 1px solid $dark-blue;
 						border-top: 1px solid $dark-blue;
+						margin-top: 12px;
+						
 						.number-views{
 							font-weight: normal;
 							font-size: 10px;
@@ -228,6 +231,7 @@
 							border-top: 1px solid $water-green;
 							border-right: 1px solid $water-green;
 							padding: 2px;
+							
 						}
 					}
 					.views{
@@ -237,7 +241,10 @@
 						color: $light-petrolio;
 						float: left;
 						margin-left: 3px;
-						margin-top: 4px;
+						margin-top: 18px;
+						i{
+							font-size: 14px;
+						}
 					}
 				}
 			}
