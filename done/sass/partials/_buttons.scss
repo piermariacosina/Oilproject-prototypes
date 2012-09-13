@@ -10,6 +10,12 @@
 	cursor: pointer;
 }
 
+@mixin link-over-stripe(){
+	text-decoration: none;
+	@include link-colors( $azzurro-title, $fluo-blue,  $azzurro-title,  $azzurro-title);
+	cursor: pointer;
+}
+
 a.btn.border{
 	@include grid(3);
 	@include alpha;
