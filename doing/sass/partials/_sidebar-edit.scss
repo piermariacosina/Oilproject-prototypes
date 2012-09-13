@@ -13,7 +13,6 @@
 	
 	color:$light-green;
 	font-family: 'Droid Sans';
-	font-size: regular;
 	font-size: 21px;
 	text-transform: uppercase;
 	margin-left: 24px;
@@ -23,7 +22,6 @@
 	$default-text-shadow-h-offset: 0px;
 	    $default-text-shadow-v-offset: 2px;
 	    $default-text-shadow-blur: 1px;
-	    $default-text-shadow-spread: true;
 	    $default-text-shadow-color: $white;	       
 	@include single-text-shadow();
 	
@@ -86,7 +84,6 @@ h2{
 	
 	color:$light-green;
 	font-family: 'Droid Sans';
-	font-size: regular;
 	font-size: 21px;
 	text-transform: uppercase;
 	margin-left: 24px;
@@ -96,7 +93,6 @@ h2{
 	$default-text-shadow-h-offset: 0px;
 	    $default-text-shadow-v-offset: 2px;
 	    $default-text-shadow-blur: 1px;
-	    $default-text-shadow-spread: true;
 	    $default-text-shadow-color: $white;	       
 	@include single-text-shadow();
 	
