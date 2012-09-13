@@ -1,0 +1,71 @@
+#prefooter{
+	hr{
+		width: 948px;
+		height: 1px;
+		border: 0;
+		background: #B1F2E6;
+		margin: 17px 0 9px 0;
+		}
+	.categoria-container{
+		float: left;
+		margin: 0 10px 0 0;		
+		.categoria{
+				width: 108px;
+				height: 31px;
+				background: image-url("diagonal-white-bg.png") repeat left top;
+				margin: 0 0 10px 0;
+				
+				
+			.icon{
+				width: 26px;
+				height: 23px;
+				float: left;
+				margin: 4px;
+				}
+		h1{
+			font-family: 'Droid Sans';
+			font-weight: 400;
+			font-size: 10px;
+			line-height: 9px;
+			text-transform: uppercase;
+			
+			float: left;
+			margin-top: 6px; 
+			a{
+				@include link-over-stripe;
+			}
+			}
+		}
+		li:last-child{
+			margin-right: 0;
+			}
+		
+		.sottocategoria{
+			width: auto;
+			height: auto;
+			//		margin-right: 10px;
+			//		margin-bottom: 20px;
+			margin: 0;
+			list-style-type: none;
+			li{
+				height: auto;
+				width: 99px;
+				background: none;
+				float: none;
+				font-family: 'Droid Sans';
+				font-weight: 400;
+				font-size: 12px;
+				line-height: 15px;
+				margin: 0 0 12px 0;
+				padding: 0;
+				a{
+					text-decoration: none;
+					@include link-over-stripe;
+					}
+				a:hover, a:visited{
+					@include link-over-stripe;
+					}
+				}
+			}
+		}
+}

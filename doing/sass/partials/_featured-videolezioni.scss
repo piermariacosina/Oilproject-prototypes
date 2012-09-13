@@ -19,6 +19,10 @@
 		@include clearfix;
 		margin: 0 0 10px 4px;
 		list-style-type: none;
+		
+		li{
+			margin-left: 0px;
+		}
 		a{
 			text-decoration: none;
 			.box-video{
@@ -65,10 +69,20 @@
 	}
 
 	.box-video-spacer{
+			a:hover{
+				.box-video{
+					background: image-url("diagonal-azzurro-bg.png") repeat left top;
+				}
+			}
+			a:visited{
+				.box-video{
+					background: #E0FAF9;
+				}
+			}
 			a:hover, a:visited{
 				text-decoration: none;
 				.box-video{
-					background: image-url("diagonal-azzurro-bg.png") repeat left top;
+					
 					h1{
 						color: $light-green;
 					}
