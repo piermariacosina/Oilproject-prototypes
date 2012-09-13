@@ -3,6 +3,41 @@ ul li{
 }
 
 
+
+#breadcrumbs-intro{
+	background: image-url("breadcrumb-intro.png") no-repeat left top;
+	width: 114px;
+	height: 31px;
+	float: left;
+	
+	 .bread-intro{
+	   color:$azzurro-title;
+	   font-family: 'Droid Sans';
+	   font-size: 10px;
+	   line-height: 10px;
+	   margin-top: 5px;
+	   margin-left: 14px;
+	   float: left;
+	   
+	   img{
+	   float: left;
+	   margin-right: 3px;
+	   
+	   }
+	   
+	   
+	   	 }
+	   	 
+	   	 span{
+	   	 	font-weight: bold;
+	   	 	text-transform: uppercase;
+	   	 	position: relative;
+	   	 	float: left;
+	   	 }
+	   	 
+}
+
+
 #breadcrumbs{
 	background: image-url("breadcrumb.png") no-repeat left top;
 	width: 101px;
