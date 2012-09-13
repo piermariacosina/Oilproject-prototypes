@@ -2062,13 +2062,14 @@ ul.commenti li .text p.data_commento span {
 
 /* line 1, ../sass/partials/_container-lezioni.scss */
 .container-lezioni {
-  margin: 30px auto;
-  width: 942px;
-  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  padding: 10px 4px 0 4px;
+  margin: 10px 7px 10px 7px;
   background: #f7fcfb;
   border: 1px solid #daede9;
 }
-/* line 7, ../sass/partials/_container-lezioni.scss */
+/* line 8, ../sass/partials/_container-lezioni.scss */
 .container-lezioni h3 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -2078,7 +2079,7 @@ ul.commenti li .text p.data_commento span {
   color: #49ada8;
   padding: 12px;
 }
-/* line 16, ../sass/partials/_container-lezioni.scss */
+/* line 17, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer {
   width: 935px;
   height: auto;
@@ -2087,11 +2088,11 @@ ul.commenti li .text p.data_commento span {
   margin: 0 0 10px 4px;
   list-style-type: none;
 }
-/* line 23, ../sass/partials/_container-lezioni.scss */
+/* line 24, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a {
   text-decoration: none;
 }
-/* line 25, ../sass/partials/_container-lezioni.scss */
+/* line 26, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a .box-video {
   width: 170px;
   height: 167px;
@@ -2101,7 +2102,7 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin-right: 1px;
 }
-/* line 33, ../sass/partials/_container-lezioni.scss */
+/* line 34, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a .box-video .img-video {
   width: 171px;
   height: 100px;
@@ -2110,7 +2111,7 @@ ul.commenti li .text p.data_commento span {
   -moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
   box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
 }
-/* line 42, ../sass/partials/_container-lezioni.scss */
+/* line 43, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a .box-video .icon {
   width: 25px;
   height: 25px;
@@ -2118,7 +2119,7 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin: 8px 0 0 4px;
 }
-/* line 49, ../sass/partials/_container-lezioni.scss */
+/* line 50, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a .box-video h1 {
   width: 130px;
   font-weight: 400;
@@ -2128,7 +2129,7 @@ ul.commenti li .text p.data_commento span {
   padding-left: 40px;
   padding-top: 6px;
 }
-/* line 58, ../sass/partials/_container-lezioni.scss */
+/* line 59, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a .box-video .posted-by {
   width: 130px;
   font-weight: bold;
@@ -2136,36 +2137,30 @@ ul.commenti li .text p.data_commento span {
   color: #4cc1b8;
   padding-left: 40px;
 }
-/* line 70, ../sass/partials/_container-lezioni.scss */
+/* line 71, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover, .container-lezioni .box-video-spacer a:visited {
   text-decoration: none;
 }
-/* line 72, ../sass/partials/_container-lezioni.scss */
+/* line 73, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video, .container-lezioni .box-video-spacer a:visited .box-video {
   background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
 }
-/* line 74, ../sass/partials/_container-lezioni.scss */
+/* line 75, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video h1, .container-lezioni .box-video-spacer a:visited .box-video h1 {
   color: #057c79;
 }
-/* line 77, ../sass/partials/_container-lezioni.scss */
+/* line 78, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video .posted-by, .container-lezioni .box-video-spacer a:visited .box-video .posted-by {
   color: #084936;
 }
 
-/* line 86, ../sass/partials/_container-lezioni.scss */
-.container-lezioni {
-  overflow: hidden;
-  *zoom: 1;
-  margin: 0 4px 0 4px;
-}
 /* line 89, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .list-lezioni {
   display: inline;
   float: left;
   overflow: hidden;
   *zoom: 1;
-  margin: 10px 0 4px 0;
+  margin: 0 0 4px 0;
   list-style-type: none;
 }
 /* line 95, ../sass/partials/_container-lezioni.scss */
@@ -2182,12 +2177,13 @@ ul.commenti li .text p.data_commento span {
   height: 32px;
   color: #49ada8;
   float: left;
-  margin: 8px;
+  font-size: 34px;
+  margin: 0 8px 0 8px;
 }
-/* line 108, ../sass/partials/_container-lezioni.scss */
+/* line 109, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .list-lezioni .categorie h1 {
   font-family: 'Droid Sans';
-  font-weight: bold;
+  font-weight: 400;
   font-size: 14px;
   line-height: 13px;
   text-transform: uppercase;
@@ -2195,22 +2191,22 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin-top: 11px;
 }
-/* line 121, ../sass/partials/_container-lezioni.scss */
+/* line 122, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni {
   margin: 0;
   padding: 0;
   list-style-type: none;
   float: left;
 }
-/* line 126, ../sass/partials/_container-lezioni.scss */
+/* line 127, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni li {
   margin-left: 0;
 }
-/* line 129, ../sass/partials/_container-lezioni.scss */
+/* line 130, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a {
   text-decoration: none;
 }
-/* line 132, ../sass/partials/_container-lezioni.scss */
+/* line 133, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione {
   width: 185px;
   height: auto;
@@ -2221,7 +2217,7 @@ ul.commenti li .text p.data_commento span {
   *zoom: 1;
   margin: 10px 1px 10px 0;
 }
-/* line 142, ../sass/partials/_container-lezioni.scss */
+/* line 143, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione .img-video {
   width: 225px;
   height: 128px;
@@ -2234,7 +2230,7 @@ ul.commenti li .text p.data_commento span {
   -moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
   box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
 }
-/* line 155, ../sass/partials/_container-lezioni.scss */
+/* line 156, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione .icon {
   width: 25px;
   height: 25px;
@@ -2245,7 +2241,7 @@ ul.commenti li .text p.data_commento span {
   float: left;
   font-size: 24px;
 }
-/* line 165, ../sass/partials/_container-lezioni.scss */
+/* line 166, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione h2 {
   width: 168px;
   font-weight: bold;
@@ -2255,7 +2251,7 @@ ul.commenti li .text p.data_commento span {
   color: #00ffb0;
   padding-top: 16px;
 }
-/* line 174, ../sass/partials/_container-lezioni.scss */
+/* line 175, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione h1 {
   width: 168px;
   font-weight: normal;
@@ -2264,7 +2260,7 @@ ul.commenti li .text p.data_commento span {
   color: white;
   padding-top: 4px;
 }
-/* line 182, ../sass/partials/_container-lezioni.scss */
+/* line 183, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione .posted-by {
   width: 168px;
   font-weight: bold;
@@ -2272,7 +2268,7 @@ ul.commenti li .text p.data_commento span {
   color: #4cc1b8;
   padding-top: 2px;
 }
-/* line 189, ../sass/partials/_container-lezioni.scss */
+/* line 190, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione hr {
   width: 168px;
   height: 1px;
@@ -2280,17 +2276,17 @@ ul.commenti li .text p.data_commento span {
   padding: 0;
   border: 0;
 }
-/* line 196, ../sass/partials/_container-lezioni.scss */
+/* line 197, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione .line-top {
   background: #036863;
   margin-top: 3px;
 }
-/* line 200, ../sass/partials/_container-lezioni.scss */
+/* line 201, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione .line-bottom {
   background: #159690;
   margin-bottom: 10px;
 }
-/* line 204, ../sass/partials/_container-lezioni.scss */
+/* line 205, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione p {
   width: 168px;
   font-weight: normal;
@@ -2300,7 +2296,7 @@ ul.commenti li .text p.data_commento span {
   margin: 0 0 10px 0;
   display: none;
 }
-/* line 213, ../sass/partials/_container-lezioni.scss */
+/* line 214, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione .box-number-views {
   float: left;
   margin-bottom: 12px;
@@ -2308,8 +2304,9 @@ ul.commenti li .text p.data_commento span {
   border-left: 1px solid #086661;
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
+  margin-top: 12px;
 }
-/* line 220, ../sass/partials/_container-lezioni.scss */
+/* line 223, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -2322,7 +2319,7 @@ ul.commenti li .text p.data_commento span {
   border-right: 1px solid #45bfb0;
   padding: 2px;
 }
-/* line 233, ../sass/partials/_container-lezioni.scss */
+/* line 237, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a .box-lezione .views {
   font-weight: normal;
   font-size: 10px;
@@ -2330,52 +2327,56 @@ ul.commenti li .text p.data_commento span {
   color: #4cc1b8;
   float: left;
   margin-left: 3px;
-  margin-top: 4px;
+  margin-top: 18px;
 }
-/* line 249, ../sass/partials/_container-lezioni.scss */
+/* line 245, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a .box-lezione .views i {
+  font-size: 14px;
+}
+/* line 256, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni {
   list-style-type: none;
 }
-/* line 252, ../sass/partials/_container-lezioni.scss */
+/* line 259, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover, .container-lezioni .lezioni a:visited {
   text-decoration: none;
 }
-/* line 255, ../sass/partials/_container-lezioni.scss */
+/* line 262, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione, .container-lezioni .lezioni a:visited .box-lezione {
   background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
 }
-/* line 257, ../sass/partials/_container-lezioni.scss */
+/* line 264, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione h2, .container-lezioni .lezioni a:visited .box-lezione h2 {
   color: #084936;
 }
-/* line 260, ../sass/partials/_container-lezioni.scss */
+/* line 267, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione h1, .container-lezioni .lezioni a:visited .box-lezione h1 {
   color: #057c79;
 }
-/* line 263, ../sass/partials/_container-lezioni.scss */
+/* line 270, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .posted-by, .container-lezioni .lezioni a:visited .box-lezione .posted-by {
   color: #084936;
 }
-/* line 266, ../sass/partials/_container-lezioni.scss */
+/* line 273, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .line-top, .container-lezioni .lezioni a:visited .box-lezione .line-top {
   background: transparent;
 }
-/* line 269, ../sass/partials/_container-lezioni.scss */
+/* line 276, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .line-bottom, .container-lezioni .lezioni a:visited .box-lezione .line-bottom {
   background: #94d3cc;
 }
-/* line 272, ../sass/partials/_container-lezioni.scss */
+/* line 279, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione p, .container-lezioni .lezioni a:visited .box-lezione p {
   color: #057c79;
 }
-/* line 275, ../sass/partials/_container-lezioni.scss */
+/* line 282, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .box-number-views, .container-lezioni .lezioni a:visited .box-lezione .box-number-views {
   border-bottom: 1px solid #0A665D;
   border-left: 1px solid #1B8C81;
   border-right: 1px solid #1B8C81;
   border-top: 1px solid #1B8C81;
 }
-/* line 280, ../sass/partials/_container-lezioni.scss */
+/* line 287, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .box-number-views .number-views, .container-lezioni .lezioni a:visited .box-lezione .box-number-views .number-views {
   background: #25a599;
   border-bottom: 1px solid #e1fffd;
@@ -2383,7 +2384,7 @@ ul.commenti li .text p.data_commento span {
   border-top: 1px solid #96E0D5;
   border-right: 1px solid #96E0D5;
 }
-/* line 288, ../sass/partials/_container-lezioni.scss */
+/* line 295, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .views, .container-lezioni .lezioni a:visited .box-lezione .views {
   color: #057c79;
 }
@@ -5098,7 +5099,7 @@ div.row {
 }
 /* line 589, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .angolo, #nuovo-commento ul li a:active .angolo {
-  background: url('../images/angolo-commenti-hover-sx.png?1347468758') repeat left top;
+  background: url('../images/angolo-commenti-hover-sx.png?1347520745') repeat left top;
 }
 /* line 592, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .commento, #nuovo-commento ul li a:active .commento {
