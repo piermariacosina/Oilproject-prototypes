@@ -1746,14 +1746,18 @@ ul.icons li .icon-large:before {
 }
 
 /* line 1, ../sass/partials/_breadcrumb.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 6, ../sass/partials/_breadcrumb.scss */
 #breadcrumbs {
   background: url('../images/breadcrumb.png?1347467520') no-repeat left top;
   width: 101px;
   height: 31px;
-  position: absolute;
-  margin-left: 40px;
+  float: left;
 }
-/* line 8, ../sass/partials/_breadcrumb.scss */
+/* line 12, ../sass/partials/_breadcrumb.scss */
 #breadcrumbs .bread {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -1762,8 +1766,56 @@ ul.icons li .icon-large:before {
   margin-top: 5px;
   margin-left: 13px;
 }
-/* line 19, ../sass/partials/_breadcrumb.scss */
+/* line 23, ../sass/partials/_breadcrumb.scss */
 #breadcrumbs span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
+
+/* line 34, ../sass/partials/_breadcrumb.scss */
+#breadcrumbs-2 {
+  background: url('../images/breadcrumb.png?1347467520') no-repeat left top;
+  width: 101px;
+  height: 31px;
+  float: left;
+}
+/* line 40, ../sass/partials/_breadcrumb.scss */
+#breadcrumbs-2 .bread-2 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+/* line 51, ../sass/partials/_breadcrumb.scss */
+#breadcrumbs-2 span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
+
+/* line 62, ../sass/partials/_breadcrumb.scss */
+#breadcrumbs-3 {
+  background: url('../images/breadcrumb.png?1347467520') no-repeat left top;
+  width: 101px;
+  height: 31px;
+  float: left;
+}
+/* line 68, ../sass/partials/_breadcrumb.scss */
+#breadcrumbs-3 .bread-3 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+/* line 79, ../sass/partials/_breadcrumb.scss */
+#breadcrumbs-3 span {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -4814,7 +4866,7 @@ div.row {
 }
 /* line 51, ../sass/partials/_header-corso-iniziato.scss */
 .ultime-lezioni span {
-  color: #084936;
+  color: #057c79;
   font-family: 'Droid Sans';
   font-weight: bold;
   text-transform: uppercase;
@@ -4827,7 +4879,7 @@ div.row {
 .ultime-lezioni .number {
   width: 19px;
   height: 19px;
-  background: #084936;
+  background: #057c79;
   color: white;
   font-weight: bold;
   font-size: 12px;
@@ -4836,7 +4888,7 @@ div.row {
   text-align: center;
   border-radius: 10px;
   padding: 1px 0 0 1px;
-  margin-top: -2px;
+  margin-top: 4px;
 }
 
 /* line 82, ../sass/partials/_header-corso-iniziato.scss */
