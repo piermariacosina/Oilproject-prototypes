@@ -220,3 +220,77 @@
 2012-09-13 18:39:18 overwrite css/screen.css 
 2012-09-13 18:41:01 overwrite css/screen.css 
 2012-09-13 18:41:10 overwrite css/screen.css 
+2012-09-13 19:20:10     error sass/screen.scss (Line 119: File to import not found or unreadable: partials/container-corsi.
+Load paths:
+  /Users/piermariacosina/github/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-13 19:20:10 overwrite css/screen.css 
+2012-09-13 19:20:34     error sass/screen.scss (Line 119: File to import not found or unreadable: partials/container-lezioni.
+Load paths:
+  /Users/piermariacosina/github/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-13 19:20:34 overwrite css/screen.css 
+2012-09-13 19:20:40     error sass/screen.scss (Line 126: File to import not found or unreadable: partials/prefooter.
+Load paths:
+  /Users/piermariacosina/github/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-13 19:20:40 overwrite css/screen.css 
+2012-09-13 19:20:47     error sass/screen.scss (Line 127: File to import not found or unreadable: partials/sidebar-edit.
+Load paths:
+  /Users/piermariacosina/github/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-13 19:20:48 overwrite css/screen.css 
+2012-09-13 19:20:55 overwrite css/screen.css 
+2012-09-13 19:22:45     error sass/screen.scss (Line 130: File to import not found or unreadable: partials/sidebar-sottocategorie.
+Load paths:
+  /Users/piermariacosina/github/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-13 19:22:45 overwrite css/screen.css 
+2012-09-13 19:23:01     error sass/screen.scss (Line 130: File to import not found or unreadable: partials/sidebar-sottocategorie.
+Load paths:
+  /Users/piermariacosina/github/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-13 19:23:01 overwrite css/screen.css 
+2012-09-13 19:29:29 overwrite css/screen.css 

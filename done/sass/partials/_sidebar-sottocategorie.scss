@@ -11,7 +11,6 @@
 				height: 23px;
 				float: left;
 				margin: 4px;
-				background-color: $white;
 				text-align: center;
 				}
 		h1{
@@ -51,7 +50,7 @@
 				  	a{
 				  		text-decoration: none;
 				  		color: $azzurro-title;
-				  		
+				  		cursor: pointer;
 				  		span{
 				  			width: image-width("grid-sottocategorie.png");
 				  			height: image-height("grid-sottocategorie.png");
