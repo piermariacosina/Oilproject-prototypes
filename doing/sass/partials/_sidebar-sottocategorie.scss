@@ -51,9 +51,24 @@
 				  	a{
 				  		text-decoration: none;
 				  		color: $azzurro-title;
+				  		
+				  		span{
+				  			width: image-width("grid-sottocategorie.png");
+				  			height: image-height("grid-sottocategorie.png");
+				  			background: image-url("grid-sottocategorie.png");
+				  			display: inline-block;
+				  			margin-right: 4px;
+				  		}
 				  		}
 				  	a:hover, a:visited{
 				  		color: $dark-green;
+				  		span{
+				  			width: image-width("grid-sottocategorie-dark.png");
+				  			height: image-height("grid-sottocategorie-dark.png");
+				  			background: image-url("grid-sottocategorie-dark.png");
+				  			display: inline-block;
+				  		}
+				  		 
 				  		}
 				  	
 				  	}

@@ -69,3 +69,14 @@
 2012-09-13 12:19:48 overwrite css/screen.css 
 2012-09-13 12:20:11 overwrite css/screen.css 
 2012-09-13 12:20:29 overwrite css/screen.css 
+2012-09-13 12:41:55     error sass/screen.scss (Line 65 of sass/partials/_sidebar-sottocategorie.scss: Invalid CSS after "				  		 img": expected "{", was "}")
+2012-09-13 12:41:55 overwrite css/screen.css 
+2012-09-13 12:42:06     error sass/screen.scss (Line 65 of sass/partials/_sidebar-sottocategorie.scss: Invalid CSS after "				  		 img": expected "{", was "}")
+2012-09-13 12:42:06 identical css/screen.css 
+2012-09-13 12:42:22 overwrite css/screen.css 
+2012-09-13 12:44:00 overwrite css/screen.css 
+2012-09-13 12:44:17 overwrite css/screen.css 
+2012-09-13 12:46:38 overwrite css/screen.css 
+2012-09-13 12:50:18 overwrite css/screen.css 
+2012-09-13 12:51:00 overwrite css/screen.css 
+2012-09-13 12:51:34 overwrite css/screen.css 

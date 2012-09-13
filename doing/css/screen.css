@@ -4691,8 +4691,23 @@ div.row {
   color: #49ada8;
 }
 /* line 55, ../sass/partials/_sidebar-sottocategorie.scss */
+.sottocategorie-container .lista-sottocategorie li a span {
+  width: 46px;
+  height: 7px;
+  background: url('../images/grid-sottocategorie.png?1347531219');
+  display: inline-block;
+  margin-right: 4px;
+}
+/* line 63, ../sass/partials/_sidebar-sottocategorie.scss */
 .sottocategorie-container .lista-sottocategorie li a:hover, .sottocategorie-container .lista-sottocategorie li a:visited {
   color: #084936;
+}
+/* line 65, ../sass/partials/_sidebar-sottocategorie.scss */
+.sottocategorie-container .lista-sottocategorie li a:hover span, .sottocategorie-container .lista-sottocategorie li a:visited span {
+  width: 46px;
+  height: 7px;
+  background: url('../images/grid-sottocategorie-dark.png?1347533355');
+  display: inline-block;
 }
 
 /* line 134, ../sass/screen.scss */
