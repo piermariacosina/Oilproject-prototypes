@@ -1,0 +1,82 @@
+.featured-videolezioni{
+	margin: 30px auto;
+	width: 942px;
+	height: auto;
+	background: $light-grey;
+	border: 1px solid $grey;
+	h3{
+		font-family: 'Droid Sans';
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 9px;
+		text-transform: uppercase;
+		color: $green-title;
+		padding: 12px; 
+	}
+	.box-video-spacer{
+		width: 935px;
+		height: auto;
+		@include clearfix;
+		margin: 0 0 10px 4px;
+		list-style-type: none;
+		a{
+			text-decoration: none;
+			.box-video{
+				width: 170px;
+				height: 167px;
+				background: $light-green;
+				font-family: 'Droid Sans';
+				padding: 8px;
+				float: left;
+				margin-right: 1px;
+				.img-video{
+					width: 171px;
+					height: 100px;
+					overflow: hidden;
+					-webkit-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+					-moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+					box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+
+				}
+				.icon{
+					width: 25px;
+					height: 25px;
+					float: left;
+					margin: 8px 0 0 4px;
+				}
+				h1{
+					width: 130px;
+					font-weight: 400;
+					font-size: 12px;
+					line-height: 15px;
+					color: white;
+					padding-left: 40px;
+					padding-top: 6px;
+				}
+				.posted-by{
+					width: 130px;
+					font-weight: bold;
+					font-size: 10px;
+					color: $light-petrolio;
+					padding-left: 40px;
+				}
+			}
+		}
+	}
+
+	.box-video-spacer{
+			a:hover, a:visited{
+				text-decoration: none;
+				.box-video{
+					background: image-url("diagonal-azzurro-bg.png") repeat left top;
+					h1{
+						color: $light-green;
+					}
+					.posted-by{
+						color: $dark-green;
+					}
+				}
+			}
+		}
+
+}

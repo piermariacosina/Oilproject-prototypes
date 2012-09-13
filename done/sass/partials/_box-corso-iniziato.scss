@@ -1,0 +1,80 @@
+
+//	BOX CORSO INIZIATO
+
+
+.box-corso-iniziato{
+	position: absolute;
+	background: image-url("background-corso-iniziato.png") no-repeat left top;
+	width: 330px;
+	height: 247px;
+	
+	
+	.number{
+		width: 19px;
+		height: 19px;
+		background: $dark-green;
+		color: white;
+		font-weight: bold;
+		font-size: 12px;
+		position: relative;
+		float: left;
+		text-align: center;
+		border-radius: 10px;
+		padding: 1px 0 0 1px;
+		margin-top: -2px;
+	}
+	
+	
+	   h1{font-size: 17px;
+	   color: $dark-green;
+	   font-family: 'Droid Sans';
+	   font-weight: 700;
+	   text-transform: uppercase;
+	   line-height: 17px;
+	   
+	   $default-text-shadow-h-offset: 0px;
+	       $default-text-shadow-v-offset: 2px;
+	       $default-text-shadow-blur: 1px;
+	       $default-text-shadow-spread: true;
+	       $default-text-shadow-color: $white;	       
+	   @include single-text-shadow();
+	   
+	   margin-top: 21px;
+	   margin-left: 39px;
+	   
+	   }
+	   
+	   span{
+	   	color: $dark-green;
+	   	font-family: 'Droid Sans';
+	   	font-weight: bold;
+	   	font-size: 10px;
+	   	margin-left: 5px;
+	   }
+	   
+	   .numero-lezioni{
+	   	position: relative;
+	   	float: right;
+	   	padding: 0 100px 0 0;
+	   	margin: 5px 0 8px 0;
+	   	margin-right: 135px;
+	   	
+	   	
+	   }
+	   
+	   .cover-corso{
+	    position: absolute;
+	   	margin-left: 6px;
+	   }
+	   
+	   .caricamento{
+	   	background: image-url("box-caricamento.png") no-repeat left top;
+	   	width: 223px;
+	   	height: 32px;
+	   	margin-top: 137px;
+	   	margin-left: 36px;
+	   }
+}	
+
+	//	FINE BOX CORSO INIZIATO
+

@@ -1,0 +1,120 @@
+
+//	SIDEBAR EDIT
+
+
+#sidebar-edit{
+
+   background-color: $white-azzurro;
+   width: 280px;
+   height: 163px;
+   margin-left: 30px;
+   margin-top: 20px;
+    h1{
+	
+	color:$light-green;
+	font-family: 'Droid Sans';
+	font-size: regular;
+	font-size: 21px;
+	text-transform: uppercase;
+	margin-left: 24px;
+	font-weight: bold;
+	
+
+	$default-text-shadow-h-offset: 0px;
+	    $default-text-shadow-v-offset: 2px;
+	    $default-text-shadow-blur: 1px;
+	    $default-text-shadow-spread: true;
+	    $default-text-shadow-color: $white;	       
+	@include single-text-shadow();
+	
+	
+}
+h2{
+	
+	color:$azzurro-title;
+	font-family: 'Droid Sans';
+	font-weight: normal;
+	font-size: 13px;
+	width: 232px;
+	line-height: 15px;
+	margin-left: 24px;
+	
+}
+
+
+	
+}
+
+
+
+#titolo-sidebar{
+  
+   background: image-url("icona-help.png") no-repeat;
+   height: 21px;
+   width: 21px;
+   margin-left: 30px;
+
+	
+}
+
+#titolo-sidebar p{
+
+   margin-left: 15px;
+   margin-top: 50px;
+   color:#0CC4C4;
+   font-family: 'Droid Sans';
+   font-size: 13px;
+   font-weight: bold;
+   text-transform: uppercase;
+
+	
+}
+
+
+#sidebar-edit-2{
+
+   background-color: $white-azzurro;
+   width: 280px;
+   height: 133px;
+   margin-left: 30px;
+   margin-top: 2px;
+
+	
+}
+
+#sidebar-edit-2 h1{
+	
+	color:$light-green;
+	font-family: 'Droid Sans';
+	font-size: regular;
+	font-size: 21px;
+	text-transform: uppercase;
+	margin-left: 24px;
+	font-weight: bold;
+	
+
+	$default-text-shadow-h-offset: 0px;
+	    $default-text-shadow-v-offset: 2px;
+	    $default-text-shadow-blur: 1px;
+	    $default-text-shadow-spread: true;
+	    $default-text-shadow-color: $white;	       
+	@include single-text-shadow();
+	
+	
+}
+
+#sidebar-edit-2 h2{
+	
+	color:$azzurro-title;
+	font-family: 'Droid Sans';
+	font-weight: normal;
+	font-size: 13px;
+	width: 232px;
+	line-height: 15px;
+	margin-left: 24px;
+	
+}
+
+
+  //	FINE SIDEBAR EDIT
+  

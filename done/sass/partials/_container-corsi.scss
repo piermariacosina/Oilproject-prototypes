@@ -1,0 +1,175 @@
+.container-corsi{
+		width: 968px;
+		height: auto;
+		margin: 10px 0 30px 10px;
+		padding: 0;
+		@include clearfix;
+		list-style-type: none;
+		position: relative;
+		left: -8px;
+
+		li{
+			position: relative;
+			float: left;
+			margin: 0 7px 0 0;
+			padding: 0;
+			a{
+				text-decoration: none;
+				overflow: visible;
+				.box-corso{
+					width: 312px;
+					height: 363px;
+					background: image-url("corsi-bg.png") no-repeat left top;
+					font-family: 'Droid Sans';
+					color: $dark-green;
+
+					h2{
+						width: 282px;
+						font-weight: bold;
+						font-size: 13px;
+						line-height: 15px;
+						text-transform: uppercase;
+						padding: 15px 0 0 20px;
+						margin: 0;
+					}
+					h1{
+						width: 282px;
+						height: 77px;
+						font-weight: bold;
+						font-size: 22px;
+						line-height: 27px;
+						text-transform: uppercase;
+						overflow: hidden;
+						margin: 10px 0 0 0;
+						padding: 0 0 0 20px;
+					}
+					.posted-by{
+						font-weight: bold;
+						font-size: 10px;
+						padding: 0 0 0 20px;
+						margin: 10px 0 0 0;
+						position: relative;
+						float: left;
+					}
+					.numero-lezioni{
+						position: relative;
+						float: right;
+						padding: 0 10px 0 0;
+						margin: 10px 0 8px 0;
+						.number{
+							width: 19px;
+							height: 19px;
+							background: $dark-green;
+							color: white;
+							font-weight: bold;
+							font-size: 12px;
+							position: relative;
+							float: left;
+							text-align: center;
+							border-radius: 10px;
+							padding: 1px 0 0 1px;
+							margin-top: -2px;
+							line-height: 18px;
+						}
+						span{
+							font-weight: bold;
+							text-transform: uppercase;
+							position: relative;
+							float: left;
+							font-size: 10px;
+							margin-left: 4px;
+							margin-top: 3px;
+						}
+					}
+					.cover-corso{
+						padding: 0 0 0 20px;
+						margin: 0;
+						img{
+						}
+					}
+					p{
+						color: $dark-green;
+						width: 282px;
+						height: 60px;
+						font-weight: 400px;
+						font-size: 13px;
+						line-height: 15px;
+						padding: 0 0 0 20px;
+						margin: 10px 0 0 0;
+						overflow: hidden;
+					}
+					.tipologie-lezioni{
+						list-style-type: none;
+						margin-left: 18px;
+						margin-top: -8px;
+
+
+						li{
+							position: relative;
+							float: left;
+							font-weight: bold;
+							font-size: 12px;
+							margin: 12px 20px 0 0;
+							padding: 0;
+							.icon{
+								position: relative;
+								float: left;
+								font-size: 21px;
+								
+
+							}
+							span{
+								position: relative;
+								float: left;
+								margin-top: 5px;
+							}
+						}
+					}
+				}
+			}
+
+			a:hover, a:visited{
+				.box-corso{
+					background: image-url("corsi-bg-hover.png") no-repeat left top;
+				}
+			}
+		}
+
+		li:first-child{
+			a{
+
+				.box-corso{
+					background: image-url("corsi-bg-linguetta.png") no-repeat left top;
+					position: relative;
+					width: 330px;
+					h2{
+						padding-left: 38px;
+					}
+					h1{
+						padding-left: 38px;
+					}
+					.posted-by{
+						padding-left: 38px;
+					}
+					.cover-corso{
+						padding-left: 38px;
+					}
+					p{
+						padding-left: 38px;
+					}
+					.tipologie-lezioni{
+						padding-left: 20px;
+					}
+				}
+			}
+			a:hover, a:visited{
+				.box-corso{
+					background: image-url("corsi-bg-linguetta-hover.png") no-repeat left top;
+				}
+			}
+		}
+
+		li:last-child{
+			margin: 0;
+		}
+	}
