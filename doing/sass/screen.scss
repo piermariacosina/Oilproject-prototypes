@@ -103,30 +103,32 @@ div.corner{
 		@include float-left;
 	}
 }
-
-@import "partials/text";
 @import "partials/grid";
+@import "partials/text";
 @import "partials/font-awesome";
-@import "partials/template";
-@import "partials/header";
-@import "partials/container-corsi";
-@import "partials/featured-corso";
+
 @import "partials/banner";
-@import "partials/footer";
-@import "partials/featured-videolezioni";
-@import "partials/box-singolo-esercizio";
-@import "partials/prefooter";
-@import "partials/sidebar-list";
-@import "partials/box-corso";
-@import "partials/container-lezioni";
 @import "partials/bottone-segui-utente";
 @import "partials/box-corso-iniziato";
-@import "partials/box-corso-iniziato";
+@import "partials/box-corso";
+@import "partials/box-singolo-esercizio";
 @import "partials/breadcrumb";
+@import "partials/commenti";
+@import "partials/container-corsi";
+@import "partials/container-lezioni";
 @import "partials/contenuto-singolo";
-@import "partials/titolo-registrati";
-@import "partials/sidebar-edit";
+@import "partials/corsi-creati";
+@import "partials/featured-corso";
+@import "partials/featured-videolezioni";
+@import "partials/footer";
+@import "partials/header";
+@import "partials/lesson";
+@import "partials/prefooter";
 @import "partials/profilo-mio-utente";
+@import "partials/sidebar-edit";
+@import "partials/sidebar-list";
+@import "partials/template";
+@import "partials/titolo-registrati";
 
 #lesson{
 	@include grid-container;
