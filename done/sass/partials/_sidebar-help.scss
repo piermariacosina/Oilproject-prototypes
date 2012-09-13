@@ -1,0 +1,61 @@
+
+//	SIDEBAR EDIT
+
+
+.sidebar-help{
+
+   background-color: $white-azzurro;
+   @incude grid(5);
+   @include alpha;
+   @include omega;
+   margin-top: 3px;
+   margin-left: 20px;
+   margin-bottom: 10px;
+   padding-bottom: 20px;
+   padding-right: 10px;
+    h1{
+	padding-top: 20px;
+	color:$light-green;
+	font-family: 'Droid Sans';
+	font-size: 21px;
+	text-transform: uppercase;
+	margin-left: 24px;
+	font-weight: bold;
+	
+	$default-text-shadow-h-offset: 0px;
+	    $default-text-shadow-v-offset: 2px;
+	    $default-text-shadow-blur: 1px;
+	    $default-text-shadow-color: $white;	       
+	@include single-text-shadow();
+	}
+	p{
+		
+		color:$azzurro-title;
+		font-family: 'Droid Sans';
+		font-weight: normal;
+		font-size: 13px;
+		
+		line-height: 15px;
+		margin-left: 24px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}	
+}
+
+.titolo-sidebar{
+   &.exclamation{
+   	background: image-url("icona-help.png") no-repeat;
+   	}
+   height: 22px;
+   margin-left: 20px;
+
+	p{
+	   margin-left: 25px;
+	   margin-top: 50px;
+	   color:#0CC4C4;
+	   font-family: 'Droid Sans';
+	   font-size: 13px;
+	   font-weight: bold;
+	   text-transform: uppercase;
+	}	
+}
