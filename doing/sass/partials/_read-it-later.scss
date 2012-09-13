@@ -1,0 +1,76 @@
+        .section{
+                    margin-top:20px;
+                    @include grid(11);
+                    @include clearfix;
+                    background: $light_grey;
+                    border: 1px solid $grey;
+       h3{
+                            font-family: 'Droid Sans';
+                            font-weight: 400;
+                            font-size: 10px;
+                            line-height: 9px;
+                            text-transform: uppercase;
+                            color: $azzurro_title;
+                            padding: 12px; 
+                    }
+                     ul {
+                        @include horizontal-list-container;
+
+                              
+                        li{
+                            @include horizontal-list-item;
+                            width:205px;
+                            @include clearfix;
+
+
+                            float: left;
+                            margin-right: 1px;
+                        .title{
+                            height: 167px;
+                            background: $light-green;
+                            float:left;
+                            @include clearfix;
+                            h5{
+                            
+                            font-family: 'Droid Sans';
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 12px;
+                            color: white;
+                            width:100;
+                                  
+                                            }  
+                                             }
+                        .categoria{
+			width: 205px;
+			height: 49px;
+			background: image-url("diagonal_white_bg.png") repeat left top;
+			float: left;
+			margin-right: 3px;
+			.icon{
+				width: 36px;
+				height: 32px;
+				background: white;
+				float: left;
+				margin: 8px;
+			}
+			h2{
+				font-family: 'Droid Sans';
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 13px;
+				text-transform: uppercase;
+				color: $azzurro_title;
+
+                                                    float: left;
+				margin-top: 11px; 
+			}
+		}
+                                    
+                        
+                        }
+                        li:first-child{
+                                    margin-left:6px;
+                        }
+                    }
+                }
