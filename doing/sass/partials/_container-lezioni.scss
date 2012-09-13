@@ -161,7 +161,7 @@
 						margin-left: -35px;
 						margin-top: 34px;
 						float: left;
-						font-size: 24px;
+						font-size: 20px;
 					}
 					h2{
 						width: 168px;
@@ -283,10 +283,10 @@
 							color: $dark-green;
 						}
 						.line-top{
-							background: transparent;
+							background: $grey-blue;
 						}
 						.line-bottom{
-							background: $grey-blue;
+							background: #E0FAF9;
 						}
 						p{
 							color: $light-green;
