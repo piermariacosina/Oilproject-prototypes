@@ -4,6 +4,12 @@
 	cursor: pointer;
 }
 
+@mixin link-over-dark(){
+	text-decoration: none;
+	@include link-colors($light-petrolio, $fluo-blue, $light-petrolio, $light-petrolio);
+	cursor: pointer;
+}
+
 a.btn.border{
 	@include grid(3);
 	@include alpha;
