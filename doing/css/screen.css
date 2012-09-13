@@ -2915,11 +2915,15 @@ ul.commenti li .text p.data_commento span {
   margin: 0 0 10px 4px;
   list-style-type: none;
 }
-/* line 22, ../sass/partials/_featured-videolezioni.scss */
+/* line 23, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer li {
+  margin-left: 0px;
+}
+/* line 26, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a {
   text-decoration: none;
 }
-/* line 24, ../sass/partials/_featured-videolezioni.scss */
+/* line 28, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a .box-video {
   width: 170px;
   height: 167px;
@@ -2929,7 +2933,7 @@ ul.commenti li .text p.data_commento span {
   float: left;
   margin-right: 1px;
 }
-/* line 32, ../sass/partials/_featured-videolezioni.scss */
+/* line 36, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a .box-video .img-video {
   width: 171px;
   height: 100px;
@@ -2938,14 +2942,14 @@ ul.commenti li .text p.data_commento span {
   -moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
   box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
 }
-/* line 41, ../sass/partials/_featured-videolezioni.scss */
+/* line 45, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a .box-video .icon {
   width: 25px;
   height: 25px;
   float: left;
   margin: 8px 0 0 4px;
 }
-/* line 47, ../sass/partials/_featured-videolezioni.scss */
+/* line 51, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a .box-video h1 {
   width: 130px;
   font-weight: 400;
@@ -2955,7 +2959,7 @@ ul.commenti li .text p.data_commento span {
   padding-left: 40px;
   padding-top: 6px;
 }
-/* line 56, ../sass/partials/_featured-videolezioni.scss */
+/* line 60, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a .box-video .posted-by {
   width: 130px;
   font-weight: bold;
@@ -2963,19 +2967,23 @@ ul.commenti li .text p.data_commento span {
   color: #4cc1b8;
   padding-left: 40px;
 }
-/* line 68, ../sass/partials/_featured-videolezioni.scss */
+/* line 73, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a:hover .box-video {
+  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
+}
+/* line 78, ../sass/partials/_featured-videolezioni.scss */
+.featured-videolezioni .box-video-spacer a:visited .box-video {
+  background: #E0FAF9;
+}
+/* line 82, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:hover, .featured-videolezioni .box-video-spacer a:visited {
   text-decoration: none;
 }
-/* line 70, ../sass/partials/_featured-videolezioni.scss */
-.featured-videolezioni .box-video-spacer a:hover .box-video, .featured-videolezioni .box-video-spacer a:visited .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
-}
-/* line 72, ../sass/partials/_featured-videolezioni.scss */
+/* line 86, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:hover .box-video h1, .featured-videolezioni .box-video-spacer a:visited .box-video h1 {
   color: #057c79;
 }
-/* line 75, ../sass/partials/_featured-videolezioni.scss */
+/* line 89, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:hover .box-video .posted-by, .featured-videolezioni .box-video-spacer a:visited .box-video .posted-by {
   color: #084936;
 }
@@ -4317,18 +4325,38 @@ header#main section#dashboard-loggedin .logout p {
 /* line 25, ../sass/partials/_sidebar-list.scss */
 .sidebar-list ul li {
   margin: 0 3px 1px 3px;
-  background-color: #057c79;
 }
 /* line 28, ../sass/partials/_sidebar-list.scss */
 .sidebar-list ul li a {
   text-decoration: none;
 }
-/* line 30, ../sass/partials/_sidebar-list.scss */
+/* line 34, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a:hover .box-sidebar .icon {
+  color: #00ffb0;
+}
+/* line 37, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a:hover .box-sidebar .posted-by {
+  color: #00ffb0;
+}
+/* line 43, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a:visited .box-sidebar {
+  background-color: #43d1b4;
+}
+/* line 45, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a:visited .box-sidebar .icon {
+  color: white;
+}
+/* line 48, ../sass/partials/_sidebar-list.scss */
+.sidebar-list ul li a:visited .box-sidebar .posted-by {
+  color: white;
+}
+/* line 54, ../sass/partials/_sidebar-list.scss */
 .sidebar-list ul li a .box-sidebar {
   font-family: 'Droid Sans';
   padding-left: 48px;
+  background-color: #057c79;
 }
-/* line 34, ../sass/partials/_sidebar-list.scss */
+/* line 58, ../sass/partials/_sidebar-list.scss */
 .sidebar-list ul li a .box-sidebar .icon {
   width: 25px;
   height: 25px;
@@ -4339,7 +4367,7 @@ header#main section#dashboard-loggedin .logout p {
   font-size: 24px;
   color: white;
 }
-/* line 44, ../sass/partials/_sidebar-list.scss */
+/* line 68, ../sass/partials/_sidebar-list.scss */
 .sidebar-list ul li a .box-sidebar h2 {
   width: 200px;
   font-weight: normal;
@@ -4349,7 +4377,7 @@ header#main section#dashboard-loggedin .logout p {
   padding: 12px 0 0 0;
   margin: 0;
 }
-/* line 53, ../sass/partials/_sidebar-list.scss */
+/* line 77, ../sass/partials/_sidebar-list.scss */
 .sidebar-list ul li a .box-sidebar .posted-by {
   width: 200px;
   font-weight: bold;

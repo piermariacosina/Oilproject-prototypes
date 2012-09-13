@@ -19,3 +19,29 @@ a.btn.border{
 		border: 4px $white solid;
 	}
 }
+
+
+a.btn.dark{
+	@include grid(2);
+	text-align: center;
+	@include border-radius(30px);
+	@include alpha;
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+	font-family: 'Droid Sans';
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: lowercase;
+	background-color: $dark-green;
+	cursor: pointer;
+	line-height: 20px;
+	&:hover{
+		background: $calm-green;
+		color: $extra-dark-green;
+	}
+	&:visited{
+		background: $calm-green;
+		color: $light-green;
+	}
+}                                

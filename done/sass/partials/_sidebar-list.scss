@@ -24,13 +24,37 @@
 
 	li{
 		margin: 0 3px 1px 3px;
-		background-color: $light-green;
+		
 		a{
 			text-decoration: none;
+			
+			&:hover{
+				.box-sidebar{
+					
+					.icon{
+						color: $fluo-blue;
+					}
+					.posted-by{
+						color: $fluo-blue;
+					}
+				}
+			}
+			&:visited{
+				.box-sidebar{
+					background-color: $calm-green;
+					.icon{
+						color: white;
+					}
+					.posted-by{
+						color: white;
+					}
+				}
+			}
+			
 			.box-sidebar{
 				font-family: 'Droid Sans';
 				padding-left: 48px;
-	
+				background-color: $light-green;
 				.icon{
 					width: 25px;
 					height: 25px;
