@@ -42,7 +42,8 @@ $grey-blue: #94D3CC;
 $white-azzurro: #E1FFFD;
 $stripe-light-blue:#e0faf9;
 $azzurro-title: #49ADA8;
-
+$calm-green: #43D1B4;
+$extra-dark-green: #094934;
 
 $header-height: 65px;
 $search-height: 28px;
@@ -106,6 +107,7 @@ div.corner{
 @import "partials/grid";
 @import "partials/text";
 @import "partials/font-awesome";
+@import "partials/buttons";
 
 @import "partials/banner";
 @import "partials/bottone-segui-utente";

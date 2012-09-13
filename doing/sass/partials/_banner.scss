@@ -3,13 +3,22 @@
 	height: 282px;
 	clear: both;
 	.crea-il-tuo-corso{
-		width: 718px;
+		@include grid(13);
+		@include alpha;
+		@include omega;
 		height: 282px;
 		background: image-url("crea-il-tuo-corso.png") no-repeat left top;
 		position: relative;
-		left: -110px;
+		@include grid-pull(2);
 		top:20px;
 		z-index: 2;
+		a.btn.border{
+			position: absolute;
+			@include grid-push(9);
+			top: 150px;
+			margin-left: -10px;
+			margin-right: -10px;
+		}
 	}
 	.squared{
 		position: absolute;
@@ -19,4 +28,5 @@
 		height: 282px;
 		background: image-url("crea-il-tuo-corso-bg.png") repeat-x left top;
 	}
+	
 }
