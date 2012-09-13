@@ -100,7 +100,7 @@ ul li{
 	width: 67px;
 	height: 32px;
 	position: absolute;
-	margin-left: 84px;
+	margin-left: 72px;
 	
 	
 	   .likes-bread{
@@ -162,6 +162,39 @@ ul li{
 	
 }
 
+
+ .lezione-seguita{
+   	float: right;
+   	 margin-right: 170px;   	
+   	  span{
+   	  	color: $light-green;
+   	  	font-family: 'Droid Sans';
+   	  	font-weight: bold;
+   	  	text-transform: uppercase;
+   	  	line-height: 11px;
+   	  	font-size: 10px;
+   	  	margin-left: 5px;
+   	  	float: left;
+   	  	margin-top: 2px;
+   	  }
+   	   
+   	   .ok{
+   	   	width: 19px;
+   	   	height: 19px;
+   	   	background: $light-green;
+   	   	color: white;
+   	   	font-weight: bold;
+   	   	font-size: 12px;
+   	   	position: relative;
+   	   	float: left;
+   	   	border-radius: 10px;
+   	   	padding: 3px 0 0 3px;
+   	   	margin-top: 4px;
+   	   }
+   	   
+   	
+   	
+   }
 
 
 

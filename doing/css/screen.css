@@ -1832,11 +1832,11 @@ ul li {
 /* line 97, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background_likes2.png?1347553479') no-repeat left top;
+  background: url('../images/background_likes2.png?1347554680') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
-  margin-left: 84px;
+  margin-left: 72px;
 }
 /* line 106, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs .likes-bread {
@@ -1864,7 +1864,7 @@ ul li {
 /* line 134, ../sass/partials/_breadcrumb.scss */
 #numbers-dislikes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background_likes2.png?1347553479') no-repeat left top;
+  background: url('../images/background_likes2.png?1347554680') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -1888,6 +1888,38 @@ ul li {
   color: #49ada8;
   float: left;
   margin-left: 6px;
+  margin-top: 4px;
+}
+
+/* line 166, ../sass/partials/_breadcrumb.scss */
+.lezione-seguita {
+  float: right;
+  margin-right: 170px;
+}
+/* line 169, ../sass/partials/_breadcrumb.scss */
+.lezione-seguita span {
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 11px;
+  font-size: 10px;
+  margin-left: 5px;
+  float: left;
+  margin-top: 2px;
+}
+/* line 181, ../sass/partials/_breadcrumb.scss */
+.lezione-seguita .ok {
+  width: 19px;
+  height: 19px;
+  background: #057c79;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  border-radius: 10px;
+  padding: 3px 0 0 3px;
   margin-top: 4px;
 }
 
