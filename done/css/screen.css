@@ -1376,7 +1376,7 @@ ul.icons li .icon-large:before {
   content: "\f200";
 }
 
-/* line 1, ../sass/partials/_buttons.scss */
+/* line 7, ../sass/partials/_buttons.scss */
 a.btn.border {
   display: inline;
   float: left;
@@ -1400,16 +1400,16 @@ a.btn.border {
   background: #43d1b4;
   cursor: pointer;
 }
-/* line 15, ../sass/partials/_buttons.scss */
+/* line 21, ../sass/partials/_buttons.scss */
 a.btn.border:hover {
   border: 4px white solid;
 }
-/* line 18, ../sass/partials/_buttons.scss */
+/* line 24, ../sass/partials/_buttons.scss */
 a.btn.border:visited {
   border: 4px white solid;
 }
 
-/* line 24, ../sass/partials/_buttons.scss */
+/* line 30, ../sass/partials/_buttons.scss */
 a.btn.dark {
   display: inline;
   float: left;
@@ -1434,12 +1434,12 @@ a.btn.dark {
   cursor: pointer;
   line-height: 20px;
 }
-/* line 39, ../sass/partials/_buttons.scss */
+/* line 45, ../sass/partials/_buttons.scss */
 a.btn.dark:hover {
   background: #43d1b4;
   color: #094934;
 }
-/* line 43, ../sass/partials/_buttons.scss */
+/* line 49, ../sass/partials/_buttons.scss */
 a.btn.dark:visited {
   background: #43d1b4;
   color: #057c79;
@@ -2770,17 +2770,35 @@ ul.commenti li .text p.data_commento span {
   margin-bottom: 10px;
 }
 /* line 4, ../sass/partials/_featured-corso.scss */
+.featured-corso a {
+  text-decoration: none;
+  color: #084936;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.featured-corso a:visited {
+  color: #084936;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.featured-corso a:hover {
+  color: #3d635f;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.featured-corso a:active {
+  color: #43d1b4;
+}
+/* line 7, ../sass/partials/_featured-corso.scss */
 .featured-corso .video {
-  background: url('../images/foto-video-home.png?1346930954') no-repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 580px;
+  display: block;
   margin-right: 0;
   height: 285px;
 }
-/* line 12, ../sass/partials/_featured-corso.scss */
+/* line 13, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo {
   display: inline;
   float: left;
@@ -2798,7 +2816,7 @@ ul.commenti li .text p.data_commento span {
   margin-right: -60px;
   padding-left: 30px;
 }
-/* line 25, ../sass/partials/_featured-corso.scss */
+/* line 26, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo h2 {
   width: 282px;
   font-weight: bold;
@@ -2808,7 +2826,7 @@ ul.commenti li .text p.data_commento span {
   padding-top: 15px;
   margin: 0;
 }
-/* line 35, ../sass/partials/_featured-corso.scss */
+/* line 36, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo h1 {
   width: 282px;
   height: 77px;
@@ -2819,23 +2837,23 @@ ul.commenti li .text p.data_commento span {
   overflow: hidden;
   margin: 5px 0 0 0;
 }
-/* line 46, ../sass/partials/_featured-corso.scss */
+/* line 47, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo .divisore {
   margin-right: 90px;
   margin-top: 10px;
   clear: both;
 }
-/* line 50, ../sass/partials/_featured-corso.scss */
+/* line 51, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo .divisore .top {
   height: 1px;
   background-color: #0AEA9C;
 }
-/* line 54, ../sass/partials/_featured-corso.scss */
+/* line 55, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo .divisore .bottom {
   height: 1px;
   background-color: #ACFFE3;
 }
-/* line 61, ../sass/partials/_featured-corso.scss */
+/* line 62, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo .posted-by {
   font-weight: bold;
   font-size: 10px;
@@ -2843,14 +2861,14 @@ ul.commenti li .text p.data_commento span {
   position: relative;
   float: left;
 }
-/* line 70, ../sass/partials/_featured-corso.scss */
+/* line 71, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo .numero-lezioni {
   position: relative;
   float: right;
   padding: 0 100px 0 0;
   margin: 10px 0 8px 0;
 }
-/* line 79, ../sass/partials/_featured-corso.scss */
+/* line 80, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo .number {
   width: 19px;
   height: 19px;
@@ -2866,7 +2884,7 @@ ul.commenti li .text p.data_commento span {
   margin-top: -2px;
   line-height: 18px;
 }
-/* line 95, ../sass/partials/_featured-corso.scss */
+/* line 96, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo span {
   font-weight: bold;
   text-transform: uppercase;
@@ -2874,7 +2892,6 @@ ul.commenti li .text p.data_commento span {
   float: left;
   font-size: 10px;
   margin-left: 4px;
-  margin-top: 3px;
 }
 /* line 105, ../sass/partials/_featured-corso.scss */
 .featured-corso .box-testo p {

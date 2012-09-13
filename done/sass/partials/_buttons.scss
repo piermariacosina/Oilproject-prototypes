@@ -1,3 +1,9 @@
+@mixin link-over-fluo(){
+	text-decoration: none;
+	@include link-colors($dark-green, $text-green, $calm-green, $dark-green);
+	cursor: pointer;
+}
+
 a.btn.border{
 	@include grid(3);
 	@include alpha;

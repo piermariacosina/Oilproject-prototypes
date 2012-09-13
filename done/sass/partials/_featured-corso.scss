@@ -1,11 +1,12 @@
 .featured-corso{
 	margin-top: 10px;
 	margin-bottom: 10px;
+	a{
+		@include link-over-fluo;
+	}
 	.video{
-
-	  background: image-url("foto-video-home.png") no-repeat left top;
 	  @include grid(10);
-
+		display: block;
 	  @include omega;
 	  height: 285px;
 	}
@@ -99,7 +100,6 @@
 			float: left;
 			font-size: 10px;
 			margin-left: 4px;
-			margin-top: 3px;
 		}
 
 		p{
