@@ -255,17 +255,29 @@
 
 			.lezioni{
 				list-style-type: none;
-				
-				a:hover, a:visited{
+				a:visited{
+					.box-lezione{
+					background: #E0FAF9;
+					}
+				}
+				a:hover{
+					.box-lezione{
+					background: image-url("diagonal-azzurro-bg.png") repeat left top;
+					}
+				}
+				a:hover,a:visited {
 					text-decoration: none;
 
 					.box-lezione{
-						background: image-url("diagonal-azzurro-bg.png") repeat left top;
+						
 						h2{
 							color: $dark-green;
 						}
 						h1{
 							color: $light-green;
+						}
+						.icon{
+							color: $dark-green;
 						}
 						.posted-by{
 							color: $dark-green;
@@ -294,6 +306,9 @@
 						}
 						.views{
 							color: $light-green;
+							i{
+								font-size: 14px;
+							}
 						}
 					}
 				}

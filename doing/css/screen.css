@@ -2338,45 +2338,53 @@ ul.commenti li .text p.data_commento span {
   list-style-type: none;
 }
 /* line 259, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:visited .box-lezione {
+  background: #E0FAF9;
+}
+/* line 264, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione {
+  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
+}
+/* line 268, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover, .container-lezioni .lezioni a:visited {
   text-decoration: none;
 }
-/* line 262, ../sass/partials/_container-lezioni.scss */
-.container-lezioni .lezioni a:hover .box-lezione, .container-lezioni .lezioni a:visited .box-lezione {
-  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
-}
-/* line 264, ../sass/partials/_container-lezioni.scss */
+/* line 273, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione h2, .container-lezioni .lezioni a:visited .box-lezione h2 {
   color: #084936;
 }
-/* line 267, ../sass/partials/_container-lezioni.scss */
+/* line 276, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione h1, .container-lezioni .lezioni a:visited .box-lezione h1 {
   color: #057c79;
 }
-/* line 270, ../sass/partials/_container-lezioni.scss */
+/* line 279, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione .icon, .container-lezioni .lezioni a:visited .box-lezione .icon {
+  color: #084936;
+}
+/* line 282, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .posted-by, .container-lezioni .lezioni a:visited .box-lezione .posted-by {
   color: #084936;
 }
-/* line 273, ../sass/partials/_container-lezioni.scss */
+/* line 285, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .line-top, .container-lezioni .lezioni a:visited .box-lezione .line-top {
   background: transparent;
 }
-/* line 276, ../sass/partials/_container-lezioni.scss */
+/* line 288, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .line-bottom, .container-lezioni .lezioni a:visited .box-lezione .line-bottom {
   background: #94d3cc;
 }
-/* line 279, ../sass/partials/_container-lezioni.scss */
+/* line 291, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione p, .container-lezioni .lezioni a:visited .box-lezione p {
   color: #057c79;
 }
-/* line 282, ../sass/partials/_container-lezioni.scss */
+/* line 294, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .box-number-views, .container-lezioni .lezioni a:visited .box-lezione .box-number-views {
   border-bottom: 1px solid #0A665D;
   border-left: 1px solid #1B8C81;
   border-right: 1px solid #1B8C81;
   border-top: 1px solid #1B8C81;
 }
-/* line 287, ../sass/partials/_container-lezioni.scss */
+/* line 299, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .box-number-views .number-views, .container-lezioni .lezioni a:visited .box-lezione .box-number-views .number-views {
   background: #25a599;
   border-bottom: 1px solid #e1fffd;
@@ -2384,9 +2392,13 @@ ul.commenti li .text p.data_commento span {
   border-top: 1px solid #96E0D5;
   border-right: 1px solid #96E0D5;
 }
-/* line 295, ../sass/partials/_container-lezioni.scss */
+/* line 307, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione .views, .container-lezioni .lezioni a:visited .box-lezione .views {
   color: #057c79;
+}
+/* line 309, ../sass/partials/_container-lezioni.scss */
+.container-lezioni .lezioni a:hover .box-lezione .views i, .container-lezioni .lezioni a:visited .box-lezione .views i {
+  font-size: 14px;
 }
 
 /* line 6, ../sass/partials/_contenuto-singolo.scss */
