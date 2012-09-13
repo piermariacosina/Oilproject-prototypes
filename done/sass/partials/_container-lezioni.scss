@@ -112,9 +112,12 @@
 				font-size: 14px;
 				line-height: 13px;
 				text-transform: uppercase;
-				color: $azzurro-title;
+			
 				float: left;
 				margin-top: 11px; 
+				a{
+					@include  link-over-stripe;
+				}
 			}
 		}
 	}
