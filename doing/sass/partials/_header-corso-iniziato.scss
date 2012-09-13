@@ -1,0 +1,276 @@
+header#main{
+
+p{
+	font-family: 'Droid Sans' !important;
+	color: $white;
+
+	b{
+		font-weight: bold;
+	}
+	i{
+		font-style: italic;
+		font-family: 'Droid Serif';
+	}
+}
+
+
+	a{
+		text-decoration: none;
+	}
+	section#menu{
+		background-color: $light-green;
+		.contenitore{
+			height: $header-height;
+			width: 980px !important;
+			h1{
+				width: 280px;
+				float: left;
+				@include grid(5);
+				font-weight: 400;
+				padding-left: 10px;
+				a{
+					color:$white;
+					font-family: "header11-webfont";
+					text-transform: uppercase;
+					font-size: 60px;
+					line-height: 65px;
+				}
+			}
+			nav{
+				@include float-left;
+				ul {
+					@include horizontal-list-container;
+					margin-left: 10px;
+					li{
+						@include horizontal-list-item;
+						position: relative;
+						width:92px;
+						height: $header-height;
+						border-right: 1px solid $white;
+						text-align: center;
+						font-family: 'Droid Sans';
+						font-weight: bold;
+						text-transform: uppercase;
+						&:first-child {
+							border-left: 1px solid $white;	
+							}
+						a{
+							@include stretch;
+							display: block;
+							span{
+								display: block;
+								margin-top: 16px;
+								color: $white;
+								}
+							}
+						.underline{	
+							height: 8px;
+							background: image-url("diagonal-white-bg.png") repeat left top;
+							margin:0 18px;
+							}
+						}
+					}
+				}
+
+
+			#search{
+					width: 355px;
+					height: $header-height;
+					@include float-left;
+					border-right: 1px solid $white;
+
+					form{
+						@include float-right;
+
+
+						margin-right: 10px;
+						label{
+							display: none;
+							}
+						}
+						input#search-field{
+							background-color: $input-field-green;
+							border: 1px $input-field-border-green solid;
+							@include border-radius(28px);
+							@include float-left;
+							width: 226px;
+							height: $search-height;
+							margin-top: ($header-height - $search-height)/2 ;
+							@include single-box-shadow( $input-field-shadow, 0, 1px, 1px, false, false);
+							color: $white;
+							font-family: 'Droid Sans';
+							font-size: 12px;
+							margin-bottom: 0;
+							padding: 0 0 0 10px;
+							}
+						input#search-submit{
+							position: absolute;
+							@include float-left;
+							@include replace-text-with-dimensions("search.png");
+							background-color: transparent;
+							border: none;
+							margin-left: -(image-width("search.png") + 5px);
+							margin-top: ($header-height - image-height("search.png"))/2 +3px;
+						}
+						input#search-field:focus{
+							outline: none;
+							@include single-box-shadow( $input-field-shadow, 0, 1px, 1px, false, true);
+						}
+					}
+			#social{
+			width:89px;
+			height: $header-height;
+			margin-right: -10px;
+			@include float-left;
+			}
+		}		
+	}
+
+	section#dashboard-loggedout{	
+		&.hide{
+			display: none;
+		}
+		height: 69px;
+		margin-top:1px;
+		width: 980px !important;
+
+		#vision{
+			@include float-left;
+			width: 870px;
+			height: 69px;
+			@include background(image-url("diagonal-white-bg.png") repeat left top);
+
+			p{
+				color: $green-title;
+				@include float-left;
+				width: 753px;
+				margin-top: 11px;
+				line-height: 15px;
+				font-size: 13px;
+				margin-left: 10px;
+				margin-right: 20px;
+				@include hyphenation;
+				b,i{
+					color: $bold-green;	
+					}
+
+				}
+
+			.icon{
+				@include background(image-url("icon-vision.png") repeat left top);
+				width: image-width("icon-vision.png");
+				height: image-height("icon-vision.png");
+				margin-top: (69px - image-height("icon-vision.png"))/2;
+				margin-left: 20px;
+				@include float-left;
+				}
+		}
+
+		.login{
+			@include float-left;
+			width: 109px;
+			margin-left: 1px;
+			background-color: $light-green;
+			p{
+				font-size: 10px;
+				font-weight: bold;
+				line-height:30px;
+				height: 30px;
+				text-align: center;
+				margin:0px;
+				}
+			}	
+	}	
+
+	section#dashboard-loggedin{
+			&.hide{
+				display: none;
+			}
+			height: 30px;
+			background-color: $light-green;
+			margin-top:1px;
+
+			.user{
+				@include grid(5);
+				padding-left: 10px;
+			.avatar.small{
+				width:24px;
+				height: 24px;
+				background-color:$input-field-shadow;
+				border: 1px $input-field-shadow solid;
+				@include float-left;
+				margin-top: 2px;
+
+				img{
+					width: 24px;
+					height: 24px;
+				}
+				}
+
+			.name{
+				float:left;
+				margin-left:8px;
+				width:80%;
+				 p{
+
+					color: $white;
+					font-size: 15px;
+					font-weight: bold;
+					line-height:30px;
+					height: 30px;
+					}
+				}
+
+				}
+
+			.corsi{
+				@include grid(5);
+			}
+			.read-it-later{
+				@include grid(4);
+				@include omega;
+				width: 250px;
+			}
+			.num{
+					@include float-left;
+					width: 21px;
+					height: 21px;
+					background-color: $input-field-shadow; 
+					@include border-radius ( 17px);
+					margin-top: 5px;
+					p{
+						padding-top: 4px;
+						text-align: center;
+						margin: 0;
+						font-size: 12px;
+						font-weight: bold;
+					}
+
+					}
+			.text{
+				margin-left:8px;
+				@include float-left;
+				width: 80%;
+				p{
+					font-size: 10px;
+					font-weight: bold;
+					line-height:30px;
+					height: 30px;
+					text-transform: uppercase;
+					}
+				}
+			.logout{
+				@include float-left;
+				width: 109px;
+				border-left: 1px solid $white;
+				p{
+					font-size: 10px;
+					font-weight: bold;
+					line-height:30px;
+					height: 30px;
+					text-align: center;
+					margin:0px;
+					}
+				}	 
+		}		
+}
