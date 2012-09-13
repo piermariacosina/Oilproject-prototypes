@@ -1822,6 +1822,75 @@ ul li {
   float: left;
 }
 
+/* line 90, ../sass/partials/_breadcrumb.scss */
+#numero-like-dislike {
+  float: left;
+  margin-top: -10px;
+  margin-left: 17px;
+}
+
+/* line 97, ../sass/partials/_breadcrumb.scss */
+#numbers-likes-breadcrumbs {
+  margin-top: 10px;
+  background: url('../images/background_likes2.png?1347553479') no-repeat left top;
+  width: 67px;
+  height: 32px;
+  position: absolute;
+  margin-left: 84px;
+}
+/* line 106, ../sass/partials/_breadcrumb.scss */
+#numbers-likes-breadcrumbs .likes-bread {
+  float: left;
+  margin-bottom: 12px;
+}
+/* line 110, ../sass/partials/_breadcrumb.scss */
+#numbers-likes-breadcrumbs .likes-bread .icona-likes-bread {
+  background: white;
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+}
+/* line 118, ../sass/partials/_breadcrumb.scss */
+#numbers-likes-breadcrumbs .number-like-bread {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: #49ada8;
+  float: left;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+/* line 134, ../sass/partials/_breadcrumb.scss */
+#numbers-dislikes-breadcrumbs {
+  margin-top: 10px;
+  background: url('../images/background_likes2.png?1347553479') no-repeat left top;
+  width: 67px;
+  height: 32px;
+  position: absolute;
+}
+/* line 141, ../sass/partials/_breadcrumb.scss */
+#numbers-dislikes-breadcrumbs .dislikes-bread {
+  float: left;
+}
+/* line 143, ../sass/partials/_breadcrumb.scss */
+#numbers-dislikes-breadcrumbs .dislikes-bread .icona-dislikes-bread {
+  background: white;
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+}
+/* line 151, ../sass/partials/_breadcrumb.scss */
+#numbers-dislikes-breadcrumbs .number-dislike-bread {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: #49ada8;
+  float: left;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
 /* line 1, ../sass/partials/_commenti.scss */
 ul.commenti {
   list-style: none;
