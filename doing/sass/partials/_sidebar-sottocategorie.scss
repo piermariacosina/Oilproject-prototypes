@@ -1,0 +1,61 @@
+.sottocategorie-container{
+		float: left;
+		margin: 0 10px 0 0;		
+		.sottocategorie{
+				width: 280px;
+				height: 31px;
+				background: image-url("diagonal-white-bg.png") repeat left top;
+				margin: 0 0 10px 0;
+			.icon{
+				width: 26px;
+				height: 23px;
+				float: left;
+				margin: 4px;
+				background-color: $white;
+				text-align: center;
+				}
+		h1{
+			font-family: 'Droid Sans';
+			font-weight: 400;
+			font-size: 10px;
+			line-height: 9px;
+			text-transform: uppercase;
+			color: $azzurro-title;
+			float: left;
+			margin-top: 6px; 
+			}
+		}
+		
+		
+		li:last-child{
+			margin-right: 0;
+			}
+			
+			.lista-sottocategorie{
+				width: auto;
+				height: auto;
+				margin: 0;
+				list-style-type: none;
+				
+				  li{
+				  	height: auto;
+				  	background: none;
+				  	float: none;
+				  	font-family: 'Droid Sans';
+				  	font-weight: 400;
+				  	font-size: 12px;
+				  	line-height: 8px;
+				  	margin: 0 0 12px 0;
+				  	padding: 0;
+				  	
+				  	a{
+				  		text-decoration: none;
+				  		color: $azzurro-title;
+				  		}
+				  	a:hover, a:visited{
+				  		color: $dark-green;
+				  		}
+				  	
+				  	}
+			}
+		}
