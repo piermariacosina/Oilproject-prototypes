@@ -7,7 +7,7 @@ background: none;
   font-family: 'Droid Sans';
   font-size: 13px;
   font-weight: bold;
-  color: $text-green;
+  color: $dark-green;
   line-height: 14px;
   text-transform: uppercase;
   
@@ -19,6 +19,7 @@ background: none;
  font-weight: normal;
  color: $text-green;
  line-height: 14px;
+ padding: 0 0 20px;
  
    span{
    
@@ -35,21 +36,21 @@ p{
    color: $text-green;
    line-height: 14px;
    text-transform: uppercase;
-   margin-top: 10px;
      }
    
    .risposta1{
    	float: right;
+   	margin-right: 500px;
    
    }
    .risposta2{
    	float: right;
-   	
+    margin-right: 500px;
    	
    }
    .risposta3{
    	float: right;
-   	
+   	margin-right: 500px;
    	
    }
    

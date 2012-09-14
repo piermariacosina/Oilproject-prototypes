@@ -2616,7 +2616,7 @@ hr {
   font-family: 'Droid Sans';
   font-size: 13px;
   font-weight: bold;
-  color: #3d635f;
+  color: #084936;
   line-height: 14px;
   text-transform: uppercase;
 }
@@ -2627,12 +2627,13 @@ hr {
   font-weight: normal;
   color: #3d635f;
   line-height: 14px;
+  padding: 0 0 20px;
 }
-/* line 23, ../sass/partials/_risposta-collegamento.scss */
+/* line 24, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento h2 span {
   font-weight: bold;
 }
-/* line 31, ../sass/partials/_risposta-collegamento.scss */
+/* line 32, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento p {
   font-family: 'Droid Sans';
   font-size: 13px;
@@ -2640,17 +2641,19 @@ hr {
   color: #3d635f;
   line-height: 14px;
   text-transform: uppercase;
-  margin-top: 10px;
 }
 /* line 41, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento .risposta1 {
   float: right;
+  margin-right: 500px;
 }
-/* line 45, ../sass/partials/_risposta-collegamento.scss */
+/* line 46, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento .risposta2 {
   float: right;
+  margin-right: 500px;
 }
-/* line 50, ../sass/partials/_risposta-collegamento.scss */
+/* line 51, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento .risposta3 {
   float: right;
+  margin-right: 500px;
 }
