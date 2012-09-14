@@ -5106,14 +5106,14 @@ div.row {
   margin-right: 0;
 }
 /* line 38, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .lista-sottocategorie {
+.sottocategorie-container ul {
   width: auto;
   height: auto;
   margin: 0;
   list-style-type: none;
 }
 /* line 44, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .lista-sottocategorie li {
+.sottocategorie-container ul li {
   height: auto;
   background: none;
   float: none;
@@ -5125,13 +5125,13 @@ div.row {
   padding: 0;
 }
 /* line 55, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .lista-sottocategorie li a {
+.sottocategorie-container ul li a {
   text-decoration: none;
   color: #49ada8;
   cursor: pointer;
 }
 /* line 59, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .lista-sottocategorie li a span {
+.sottocategorie-container ul li a span {
   width: 46px;
   height: 7px;
   background: url('../images/grid-sottocategorie.png?1347557580');
@@ -5139,11 +5139,11 @@ div.row {
   margin-right: 4px;
 }
 /* line 67, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .lista-sottocategorie li a:hover, .sottocategorie-container .lista-sottocategorie li a:visited {
+.sottocategorie-container ul li a:hover, .sottocategorie-container ul li a:visited {
   color: #084936;
 }
 /* line 69, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .lista-sottocategorie li a:hover span, .sottocategorie-container .lista-sottocategorie li a:visited span {
+.sottocategorie-container ul li a:hover span, .sottocategorie-container ul li a:visited span {
   width: 46px;
   height: 7px;
   background: url('../images/grid-sottocategorie-dark.png?1347557580');
