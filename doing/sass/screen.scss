@@ -108,7 +108,6 @@ div.corner{
 @import "partials/text";
 @import "partials/font-awesome";
 @import "partials/buttons";
-
 @import "partials/banner";
 @import "partials/bottone-segui-utente";
 @import "partials/box-corso-iniziato";
@@ -127,7 +126,10 @@ div.corner{
 @import "partials/template";
 @import "partials/titolo-registrati";
 @import "partials/domanda-esercizio";
-@import "partials/header-corso-iniziato";
+@import "partials/newsletter";
+@import "partials/form";
+@import "partials/read-it-later";
+
 
 #lesson{
 	@include grid-container;
