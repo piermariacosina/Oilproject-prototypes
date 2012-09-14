@@ -1640,69 +1640,8 @@ a.btn.dark:visited {
 .corso a:active {
   color: #43d1b4;
 }
-/* line 16, ../sass/partials/_box-corso.scss */
-.corso h4 {
-  width: 300px;
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 15px;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-left: 40px;
-}
-/* line 26, ../sass/partials/_box-corso.scss */
-.corso h3 {
-  max-width: 200px;
-  height: 60px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-  overflow: hidden;
-  font-weight: normal;
-  text-transform: lowercase;
-  margin-left: 40px;
-}
-/* line 38, ../sass/partials/_box-corso.scss */
-.corso .relatore {
-  font-weight: bold;
-  font-size: 10px;
-  display: block;
-  top: -3px;
-  margin-left: 40px;
-  position: relative;
-  color: #057c79;
-}
-/* line 49, ../sass/partials/_box-corso.scss */
-.corso p {
-  width: 334px;
-  height: 80px;
-  font-weight: 400px;
-  font-size: 10px;
-  line-height: 13px;
-  overflow: hidden;
-  float: right;
-  margin-right: 20px;
-  margin-top: 10px;
-}
-/* line 61, ../sass/partials/_box-corso.scss */
-.corso .img-corso-categoria {
-  margin-left: 27px;
-  position: absolute;
-  float: right;
-}
-
-/* line 70, ../sass/partials/_box-corso.scss */
-.divisore-2 {
-  margin-left: 40px;
-  margin-right: 20px;
-  height: 2px;
-  clear: both;
-  background: url('../images/divisore-2.png?1347554697');
-}
-
-/* line 79, ../sass/partials/_box-corso.scss */
-.tipologie-lezioni {
+/* line 17, ../sass/partials/_box-corso.scss */
+.corso .tipologie-lezioni {
   margin: 0;
   padding: 0;
   border: 0;
@@ -1715,8 +1654,8 @@ a.btn.dark:visited {
   float: right;
   margin-right: 20px;
 }
-/* line 85, ../sass/partials/_box-corso.scss */
-.tipologie-lezioni li {
+/* line 23, ../sass/partials/_box-corso.scss */
+.corso .tipologie-lezioni li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -1731,33 +1670,93 @@ a.btn.dark:visited {
   padding: 0;
 }
 /* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.tipologie-lezioni li:first-child, .tipologie-lezioni li.first {
+.corso .tipologie-lezioni li:first-child, .corso .tipologie-lezioni li.first {
   padding-left: 0;
 }
 /* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.tipologie-lezioni li:last-child {
+.corso .tipologie-lezioni li:last-child {
   padding-right: 0;
 }
 /* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.tipologie-lezioni li.last {
+.corso .tipologie-lezioni li.last {
   padding-right: 0;
 }
-/* line 91, ../sass/partials/_box-corso.scss */
-.tipologie-lezioni li .icon {
+/* line 29, ../sass/partials/_box-corso.scss */
+.corso .tipologie-lezioni li .icon {
   position: relative;
   float: left;
   font-size: 18px;
 }
-/* line 96, ../sass/partials/_box-corso.scss */
-.tipologie-lezioni li span {
+/* line 34, ../sass/partials/_box-corso.scss */
+.corso .tipologie-lezioni li span {
   position: relative;
   float: left;
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 103, ../sass/partials/_box-corso.scss */
-.tipologie-lezioni li:last-child {
+/* line 41, ../sass/partials/_box-corso.scss */
+.corso .tipologie-lezioni li:last-child {
   margin-right: 0px;
+}
+/* line 46, ../sass/partials/_box-corso.scss */
+.corso h4 {
+  width: 300px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+/* line 56, ../sass/partials/_box-corso.scss */
+.corso h3 {
+  max-width: 200px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  overflow: hidden;
+  font-weight: normal;
+  text-transform: lowercase;
+  margin-left: 40px;
+}
+/* line 68, ../sass/partials/_box-corso.scss */
+.corso .relatore {
+  font-weight: bold;
+  font-size: 10px;
+  display: block;
+  top: -3px;
+  margin-left: 40px;
+  position: relative;
+  color: #057c79;
+}
+/* line 79, ../sass/partials/_box-corso.scss */
+.corso p {
+  width: 334px;
+  height: 80px;
+  font-weight: 400px;
+  font-size: 10px;
+  line-height: 13px;
+  overflow: hidden;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+/* line 91, ../sass/partials/_box-corso.scss */
+.corso .img-corso-categoria {
+  margin-left: 27px;
+  position: absolute;
+  float: right;
+}
+
+/* line 100, ../sass/partials/_box-corso.scss */
+.divisore-2 {
+  margin-left: 40px;
+  margin-right: 20px;
+  height: 2px;
+  clear: both;
+  background: url('../images/divisore-2.png?1347554697');
 }
 
 /* line 1, ../sass/partials/_box-singolo-esercizio.scss */
@@ -5055,7 +5054,7 @@ div.row {
   padding-left: 10px;
 }
 /* line 5, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .sottocategorie {
+.sottocategorie-container .sottocategoria {
   display: inline;
   float: left;
   margin-left: 10px;
@@ -5066,7 +5065,7 @@ div.row {
   margin: 0 0 10px 0;
 }
 /* line 10, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .sottocategorie .icon {
+.sottocategorie-container .sottocategoria .icon {
   width: 26px;
   height: 23px;
   float: left;
@@ -5075,7 +5074,7 @@ div.row {
   font-size: 22px;
 }
 /* line 18, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .sottocategorie h1 {
+.sottocategorie-container .sottocategoria h1 {
   font-family: 'Droid Sans';
   font-weight: 400;
   font-size: 10px;
@@ -5085,21 +5084,21 @@ div.row {
   margin-top: 6px;
 }
 /* line 27, ../sass/partials/_sidebar-sottocategorie.scss */
-.sottocategorie-container .sottocategorie h1 a {
+.sottocategorie-container .sottocategoria h1 a {
   text-decoration: none;
   color: #49ada8;
   cursor: pointer;
 }
 /* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.sottocategorie-container .sottocategorie h1 a:visited {
+.sottocategorie-container .sottocategoria h1 a:visited {
   color: #49ada8;
 }
 /* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.sottocategorie-container .sottocategorie h1 a:hover {
+.sottocategorie-container .sottocategoria h1 a:hover {
   color: #00ffb0;
 }
 /* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.sottocategorie-container .sottocategorie h1 a:active {
+.sottocategorie-container .sottocategoria h1 a:active {
   color: #49ada8;
 }
 /* line 34, ../sass/partials/_sidebar-sottocategorie.scss */

@@ -2,7 +2,7 @@
 	
 		@include grid(5);
 		padding-left: 10px;		
-		.sottocategorie{
+		.sottocategoria{
 				@include grid(5);
 				height: 31px;
 				background: image-url("diagonal-white-bg.png") repeat left top;

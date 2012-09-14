@@ -12,6 +12,36 @@
  	a{
 	 	@include link-over-fluo;
  	}
+ 	
+ 	
+ 	.tipologie-lezioni{
+ 		@include horizontal-list-container;
+ 		@include clearfix;
+ 		margin-top: -37px;
+ 		@include float-right;
+ 		margin-right: 20px;
+ 		li{
+ 			@include horizontal-list-item;
+ 			font-weight: bold;
+ 			font-size: 12px;
+ 			margin: 8px 18px 0 0;
+ 			padding: 0;
+ 			.icon{
+ 				position: relative;
+ 				float: left;
+ 				font-size: 18px;
+ 			}
+ 			span{
+ 				position: relative;
+ 				float: left;
+ 				margin-top: 5px;
+ 				margin-left: 5px;
+ 			}
+ 		}
+ 		li:last-child{
+ 			margin-right:0px;
+ 		}
+ 	}
 
  	   h4{
  		  width: 300px;
@@ -76,32 +106,5 @@
 }
 
 
-.tipologie-lezioni{
-	@include horizontal-list-container;
-	@include clearfix;
-	margin-top: -37px;
-	@include float-right;
-	margin-right: 20px;
-	li{
-		@include horizontal-list-item;
-		font-weight: bold;
-		font-size: 12px;
-		margin: 8px 18px 0 0;
-		padding: 0;
-		.icon{
-			position: relative;
-			float: left;
-			font-size: 18px;
-		}
-		span{
-			position: relative;
-			float: left;
-			margin-top: 5px;
-			margin-left: 5px;
-		}
-	}
-	li:last-child{
-		margin-right:0px;
-	}
-}
+
 
