@@ -365,3 +365,48 @@ Load paths:
   /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
   Compass::SpriteImporter)
 2012-09-14 09:11:23 overwrite css/screen.css 
+2012-09-14 11:42:17     error sass/screen.scss (Line 128: File to import not found or unreadable: partials/titoli-sezioni.
+Load paths:
+  /Users/piermariacosina/github/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-14 11:42:17 overwrite css/screen.css 
+2012-09-14 11:42:25 overwrite css/screen.css 
+2012-09-14 11:48:05     error sass/screen.scss (Line 120: File to import not found or unreadable: partials/profilo-mio-utente.
+Load paths:
+  /Users/piermariacosina/github/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-14 11:48:06 overwrite css/screen.css 
+2012-09-14 11:48:14 overwrite css/screen.css 
+2012-09-14 12:52:20 overwrite css/screen.css 
+2012-09-14 12:53:28 overwrite css/screen.css 
+2012-09-14 13:11:16 overwrite css/screen.css 
+2012-09-14 13:12:09 overwrite css/screen.css 
+2012-09-14 13:13:53     error sass/screen.scss (Line 7 of sass/partials/_lesson.scss: Undefined mixin 'link-over-fluo'.)
+2012-09-14 13:13:53 overwrite css/screen.css 
+2012-09-14 13:14:11     error sass/screen.scss (Line 119: File to import not found or unreadable: partials/lesson.
+Load paths:
+  /Users/piermariacosina/github/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/piermariacosina/.compass/extensions/compass-extension-bootstrap/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-14 13:14:11 overwrite css/screen.css 
+2012-09-14 13:14:31 overwrite css/screen.css 

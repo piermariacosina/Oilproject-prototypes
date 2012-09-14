@@ -2,56 +2,64 @@
 
 
 #profilo-mio-utente{
-background: image-url("background-profilo.png") no-repeat left top;
-width: 618px;
-height: 371px;
-position: absolute;
-margin-top: 20px;
+	background: image-url("background-profilo.png") no-repeat left top;
+	width: 618px;
+	height: 371px;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 11px;
+	margin-bottom: 30px;     
       
-      
-      .profilo{
-      margin-top: 30px;
-      }
+    .profilo{
+    	margin-top: 30px;
+    }
 
     .avatar{
-    background: image-url("foto-utente.png") no-repeat left top;
-    width: 194px;
-    height: 181px;
-    float: left;
-    margin-left: 40px;
+		background-color: #15EB99;
+		margin-right: 20px;
+		
+		float: left;
+		margin-left: 40px;
+	    img{
+		     float: left;
+		     margin-top: 8px;
+		     margin-right: 8px;
+		     @include single-box-shadow(black, 1px, 0px, 8px, false, false);
+	    }
     }
     
+    a{
+	    @include link-over-dark;
+    }
     
     h1{
-    font-size: 15px;
-    color: $white;
-    font-family: 'Droid Sans';
-    font-weight: bold;
-    text-transform: uppercase;	
-    	
+	    font-size: 15px;
+	    color: $white;
+	    font-family: 'Droid Sans';
+	    font-weight: bold;
+	    text-transform: uppercase;	    	
     }
     
     h2{
-    font-size: 10px;
-    color: $white;
-    font-family: 'Droid Sans';
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 15px;	
-    	
+	    font-size: 10px;
+	    color: $white;
+	    font-family: 'Droid Sans';
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    line-height: 15px;		
     }
     
     h3{
-    font-size: 10px;
-    color: $white;
-    font-family: 'Droid Sans';
-    font-weight: bold;
-    text-transform: uppercase;
+	    font-size: 10px;
+	    color: $white;
+	    font-family: 'Droid Sans';
+	    font-weight: bold;
+	    text-transform: uppercase;
     
        .giorno{
-       color: $light-petrolio;
-       font-size: 12px;
-       padding-right: 8px;
+	       color: $light-petrolio;
+	       font-size: 12px;
+	       padding-right: 8px;
        }
        
        .ora{
@@ -62,10 +70,10 @@ margin-top: 20px;
     }
     
    .contenuti{
-   list-style: none;
-   margin-left: -30px;
-   margin-top: 30px;
-   float: left;
+	   list-style: none;
+	   margin-left: -30px;
+	   margin-top: 30px;
+	   float: left;
    
       a{
        color: $light-petrolio;
@@ -89,7 +97,7 @@ margin-top: 20px;
      	text-align: center;
      	border-radius: 10px;
      	padding: 1px 0 0 1px;
-     	margin-top: -2px;
+     	margin-top: 2px;
      	
      	
      	line-height: 19px;
@@ -101,11 +109,11 @@ margin-top: 20px;
        
        
        #banner{
-       background: image-url("banner-premi.png") no-repeat left top;
-       width: 115px;
-       height: 121px;
-       margin-left: 511px;
-       margin-top: -108px;
+	       background: image-url("banner-premi.png") no-repeat left top;
+	       width: 115px;
+	       height: 121px;
+	       margin-left: 511px;
+	       margin-top: -108px;
        
        
        }
@@ -126,40 +134,31 @@ margin-top: 20px;
      }
        
        #social{
-       margin-left: 470px;
-       margin-top: -170px;
-       margin-top: -60px;
-       	
+	       margin-left: 470px;
+	       margin-top: -170px;
+	       margin-top: -60px;
+	       	a{
+		       	display: block;
+		       	@include stretch;
+	       	}
        	
        	.facebook{
-       	background: image-url("icona-facebook.png") no-repeat left top;
-       	width: 41px;
-       	height: 41px;
-       	position: absolute;
+	       	background: image-url("icona-facebook.png") no-repeat left top;
+	       	width: 41px;
+	       	height: 41px;
+	       	position: absolute;
        	}
        	
        	
        	.twitter{
-       	background: image-url("icona-twitter.png") no-repeat left top;
-       	width: 41px;
-       	height: 41px;
-       	position: absolute;
-       	margin-left: 53px;
+	       	background: image-url("icona-twitter.png") no-repeat left top;
+	       	width: 41px;
+	       	height: 41px;
+	       	position: absolute;
+	       	margin-left: 53px;
        	}
        }
        	
-	}
-	
-	
-	.divisore-profilo{
-	 background: image-url("divisore-profilo.png") no-repeat left top;
-	 width: 600px;
-	 height: 2px;
-	 margin-top: 260px;
-	 margin-left: 18px;
-	 position: absolute;
-	
-		
 	}
 	
 	.comm-2{
@@ -169,7 +168,7 @@ margin-top: 20px;
 		@include alpha;
 		
 		position: absolute;
-		margin-top: 90px;
+		margin-top: 95px;
 		margin-left: 40px;
 		.container-comments{	
 				height: auto;
@@ -187,6 +186,9 @@ margin-top: 20px;
 					margin-left: 10px;
 					margin-right: 10px;
 					width: 80px;
+				}
+				span.comments-2{
+					color: $light-petrolio;
 				}
 				.box-number-comments-2{
 					float: left;
@@ -208,6 +210,7 @@ margin-top: 20px;
 					text-align: center;
 				}
 			}
+			
 			.comments-2{
 				font-weight: normal;
 				font-size: 10px;
@@ -223,6 +226,89 @@ margin-top: 20px;
 	
 	}
 	
+	
+	
+	
+	#numbers-likes{
+		margin-top: 14px;
+		background: image-url("background-likes.png") no-repeat left top;
+		width: 67px;
+		height: 32px;
+		position: absolute;
+		margin-left: 184px;
+		}
+	
+	.likes{
+		float: left;
+		margin-bottom: 12px;
+		margin-left: 4px;
+		margin-top: 4px;
+	}
+	.icona-likes{
+		background: $white;
+		padding: 2px 5px 2px 5px;
+	}
+	.number-like2{
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 13px;
+		color: $white;
+		float: left;
+		margin-left: 6px;
+		margin-top: 4px;
+	}
+	
+	
+		
+	#numbers-dislikes{
+		margin-top: 14px;
+		background: image-url("background-likes.png") no-repeat left top;
+		width: 67px;
+		height: 32px;
+		position: absolute;
+		margin-left: 264px;
+		
+		
+	}
+	.dislikes{
+		float: left;
+		margin-bottom: 12px;
+		margin-left: 4px;
+		margin-top: 4px;
+		
+	}
+	
+	.number-dislike2{
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 13px;
+		color: $white;
+		float: left;
+		margin-left: 6px;
+		margin-top: 4px;
+	}
+	
+	
+	.icona-dislikes{
+		background-color: $white;
+		padding: 2px 5px 2px 5px;
+	}
+	
+
+	
+	.divisore-profilo{
+	 background: image-url("divisore-profilo.png") no-repeat left top;
+	 width: 600px;
+	 height: 2px;
+	 margin-top: 164px;
+	 margin-left: -22px;
+	
+		
+	}
+	
+	
+	
+		
 	
 	//	FINE BOX PROFILO MIO UTENTE
 	

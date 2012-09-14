@@ -3914,11 +3914,32 @@ header#main section#dashboard-loggedin .logout p {
 
 /* line 1, ../sass/partials/_lesson.scss */
 #lesson {
+  width: 100%;
   height: 400px;
   margin-top: 10px;
   background: url('../images/diagonal-green-bg.png?1347554697') repeat left top;
+  margin-left: 10px;
+  padding-left: 10px;
 }
-/* line 5, ../sass/partials/_lesson.scss */
+/* line 8, ../sass/partials/_lesson.scss */
+#lesson a {
+  text-decoration: none;
+  color: #084936;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#lesson a:visited {
+  color: #084936;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#lesson a:hover {
+  color: #3d635f;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#lesson a:active {
+  color: #43d1b4;
+}
+/* line 11, ../sass/partials/_lesson.scss */
 #lesson .infor {
   display: inline;
   float: left;
@@ -3928,7 +3949,7 @@ header#main section#dashboard-loggedin .logout p {
   height: 100%;
   position: relative;
 }
-/* line 9, ../sass/partials/_lesson.scss */
+/* line 15, ../sass/partials/_lesson.scss */
 #lesson .infor .comm {
   display: inline;
   float: left;
@@ -3938,7 +3959,7 @@ header#main section#dashboard-loggedin .logout p {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 13, ../sass/partials/_lesson.scss */
+/* line 19, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments {
   height: auto;
   overflow: hidden;
@@ -3948,22 +3969,22 @@ header#main section#dashboard-loggedin .logout p {
   border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 20, ../sass/partials/_lesson.scss */
+/* line 26, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments.first {
   padding-right: 10px;
 }
-/* line 24, ../sass/partials/_lesson.scss */
+/* line 30, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments.center {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 12px;
+  margin-right: 7px;
   width: 80px;
 }
-/* line 29, ../sass/partials/_lesson.scss */
+/* line 35, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments.last {
   border-right: none;
   float: right;
 }
-/* line 33, ../sass/partials/_lesson.scss */
+/* line 39, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -3971,7 +3992,7 @@ header#main section#dashboard-loggedin .logout p {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 39, ../sass/partials/_lesson.scss */
+/* line 45, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -3985,7 +4006,7 @@ header#main section#dashboard-loggedin .logout p {
   padding: 2px;
   text-align: center;
 }
-/* line 53, ../sass/partials/_lesson.scss */
+/* line 59, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -3997,12 +4018,12 @@ header#main section#dashboard-loggedin .logout p {
   margin-right: 1px;
   margin-top: 4px;
 }
-/* line 67, ../sass/partials/_lesson.scss */
+/* line 73, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date {
   position: absolute;
   bottom: 9px;
 }
-/* line 70, ../sass/partials/_lesson.scss */
+/* line 76, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date .number {
   background-color: #084936;
   width: 19px;
@@ -4018,7 +4039,7 @@ header#main section#dashboard-loggedin .logout p {
   margin-top: -2px;
   margin-right: 5px;
 }
-/* line 85, ../sass/partials/_lesson.scss */
+/* line 91, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date p.data-commento {
   margin-left: 15px;
   text-transform: uppercase;
@@ -4026,14 +4047,14 @@ header#main section#dashboard-loggedin .logout p {
   font-size: 10px;
   color: #084936;
 }
-/* line 92, ../sass/partials/_lesson.scss */
+/* line 98, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date p.data-commento span {
   text-transform: capitalize;
   margin-left: 3px;
   margin-right: 3px;
   font-weight: 400;
 }
-/* line 101, ../sass/partials/_lesson.scss */
+/* line 107, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date hr {
   display: inline;
   float: left;
@@ -4043,29 +4064,27 @@ header#main section#dashboard-loggedin .logout p {
   border: 0;
   height: 1px;
 }
-/* line 106, ../sass/partials/_lesson.scss */
+/* line 112, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date .top {
   margin: 8px 0 0 0;
   background: #00ea9c;
 }
-/* line 110, ../sass/partials/_lesson.scss */
+/* line 116, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date .bottom {
   margin: 0 0 12px 0;
   background: #c5ffea;
 }
-/* line 116, ../sass/partials/_lesson.scss */
+/* line 122, ../sass/partials/_lesson.scss */
 #lesson .foto {
   display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  float: right;
   width: 640px;
-  margin-left: 18px;
+  margin-left: 19px;
   margin-right: 0;
   background-color: #38d69a;
   height: 100%;
 }
-/* line 123, ../sass/partials/_lesson.scss */
+/* line 130, ../sass/partials/_lesson.scss */
 #lesson h3 {
   font-size: 15px;
   color: #084936;
@@ -4074,7 +4093,7 @@ header#main section#dashboard-loggedin .logout p {
   text-transform: uppercase;
   padding-top: 20px;
 }
-/* line 132, ../sass/partials/_lesson.scss */
+/* line 139, ../sass/partials/_lesson.scss */
 #lesson h1 {
   font-size: 25px;
   line-height: 30px;
@@ -4085,7 +4104,7 @@ header#main section#dashboard-loggedin .logout p {
   padding-bottom: 7px;
   text-shadow: 0px 2px 1px #c5ffea;
 }
-/* line 148, ../sass/partials/_lesson.scss */
+/* line 155, ../sass/partials/_lesson.scss */
 #lesson h4 {
   color: #084936;
   font-weight: 700;
@@ -4093,13 +4112,13 @@ header#main section#dashboard-loggedin .logout p {
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 154, ../sass/partials/_lesson.scss */
+/* line 161, ../sass/partials/_lesson.scss */
 #lesson h4 span {
   color: #057c79;
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 160, ../sass/partials/_lesson.scss */
+/* line 167, ../sass/partials/_lesson.scss */
 #lesson p {
   color: #084936;
   font-weight: 700;
@@ -4230,20 +4249,48 @@ header#main section#dashboard-loggedin .logout p {
   height: 371px;
   position: absolute;
   margin-top: 20px;
+  margin-left: 11px;
+  margin-bottom: 30px;
 }
-/* line 12, ../sass/partials/_profilo-mio-utente.scss */
+/* line 13, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente .profilo {
   margin-top: 30px;
 }
-/* line 16, ../sass/partials/_profilo-mio-utente.scss */
+/* line 17, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente .avatar {
-  background: url('../images/foto-utente.png?1347554697') no-repeat left top;
-  width: 194px;
-  height: 181px;
+  background-color: #15EB99;
+  margin-right: 20px;
   float: left;
   margin-left: 40px;
 }
-/* line 25, ../sass/partials/_profilo-mio-utente.scss */
+/* line 23, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente .avatar img {
+  float: left;
+  margin-top: 8px;
+  margin-right: 8px;
+  -webkit-box-shadow: 1px 0px 8px black;
+  -moz-box-shadow: 1px 0px 8px black;
+  box-shadow: 1px 0px 8px black;
+}
+/* line 31, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente a {
+  text-decoration: none;
+  color: #4cc1b8;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#profilo-mio-utente a:visited {
+  color: #4cc1b8;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#profilo-mio-utente a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#profilo-mio-utente a:active {
+  color: #4cc1b8;
+}
+/* line 35, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente h1 {
   font-size: 15px;
   color: white;
@@ -4251,7 +4298,7 @@ header#main section#dashboard-loggedin .logout p {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 34, ../sass/partials/_profilo-mio-utente.scss */
+/* line 43, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente h2 {
   font-size: 10px;
   color: white;
@@ -4260,7 +4307,7 @@ header#main section#dashboard-loggedin .logout p {
   text-transform: uppercase;
   line-height: 15px;
 }
-/* line 44, ../sass/partials/_profilo-mio-utente.scss */
+/* line 52, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente h3 {
   font-size: 10px;
   color: white;
@@ -4268,25 +4315,25 @@ header#main section#dashboard-loggedin .logout p {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 51, ../sass/partials/_profilo-mio-utente.scss */
+/* line 59, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente h3 .giorno {
   color: #4cc1b8;
   font-size: 12px;
   padding-right: 8px;
 }
-/* line 57, ../sass/partials/_profilo-mio-utente.scss */
+/* line 65, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente h3 .ora {
   font-weight: normal;
   float: none;
 }
-/* line 64, ../sass/partials/_profilo-mio-utente.scss */
+/* line 72, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente .contenuti {
   list-style: none;
   margin-left: -30px;
   margin-top: 30px;
   float: left;
 }
-/* line 70, ../sass/partials/_profilo-mio-utente.scss */
+/* line 78, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente .contenuti a {
   color: #4cc1b8;
   font-family: 'Droid Sans';
@@ -4296,7 +4343,7 @@ header#main section#dashboard-loggedin .logout p {
   margin-left: 10px;
   line-height: 25px;
 }
-/* line 80, ../sass/partials/_profilo-mio-utente.scss */
+/* line 88, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente .contenuti .number {
   color: #166059;
   background-color: #00ffb0;
@@ -4309,10 +4356,10 @@ header#main section#dashboard-loggedin .logout p {
   text-align: center;
   border-radius: 10px;
   padding: 1px 0 0 1px;
-  margin-top: -2px;
+  margin-top: 2px;
   line-height: 19px;
 }
-/* line 103, ../sass/partials/_profilo-mio-utente.scss */
+/* line 111, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #banner {
   background: url('../images/banner-premi.png?1347554697') no-repeat left top;
   width: 115px;
@@ -4320,14 +4367,14 @@ header#main section#dashboard-loggedin .logout p {
   margin-left: 511px;
   margin-top: -108px;
 }
-/* line 112, ../sass/partials/_profilo-mio-utente.scss */
+/* line 120, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente .bio {
   position: absolute;
   margin-top: 152px;
   margin-left: 40px;
   width: 277px;
 }
-/* line 118, ../sass/partials/_profilo-mio-utente.scss */
+/* line 126, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente .bio p {
   color: white;
   font-family: 'Droid Sans';
@@ -4335,20 +4382,29 @@ header#main section#dashboard-loggedin .logout p {
   font-size: 13px;
   line-height: 15px;
 }
-/* line 128, ../sass/partials/_profilo-mio-utente.scss */
+/* line 136, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social {
   margin-left: 470px;
   margin-top: -170px;
   margin-top: -60px;
 }
-/* line 134, ../sass/partials/_profilo-mio-utente.scss */
+/* line 140, ../sass/partials/_profilo-mio-utente.scss */
+#profilo-mio-utente #social a {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 145, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .facebook {
   background: url('../images/icona-facebook.png?1347554697') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
 }
-/* line 142, ../sass/partials/_profilo-mio-utente.scss */
+/* line 153, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .twitter {
   background: url('../images/icona-twitter.png?1347554697') no-repeat left top;
   width: 41px;
@@ -4357,17 +4413,7 @@ header#main section#dashboard-loggedin .logout p {
   margin-left: 53px;
 }
 
-/* line 154, ../sass/partials/_profilo-mio-utente.scss */
-.divisore-profilo {
-  background: url('../images/divisore-profilo.png?1347554697') no-repeat left top;
-  width: 600px;
-  height: 2px;
-  margin-top: 260px;
-  margin-left: 18px;
-  position: absolute;
-}
-
-/* line 165, ../sass/partials/_profilo-mio-utente.scss */
+/* line 164, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 {
   display: inline;
   float: left;
@@ -4377,10 +4423,10 @@ header#main section#dashboard-loggedin .logout p {
   margin-right: 0;
   margin-left: 0;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 95px;
   margin-left: 40px;
 }
-/* line 174, ../sass/partials/_profilo-mio-utente.scss */
+/* line 173, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments {
   height: auto;
   overflow: hidden;
@@ -4390,17 +4436,21 @@ header#main section#dashboard-loggedin .logout p {
   border-right: 1px solid #159690;
   float: left;
 }
-/* line 182, ../sass/partials/_profilo-mio-utente.scss */
+/* line 181, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments.two {
   padding-right: 10px;
 }
-/* line 186, ../sass/partials/_profilo-mio-utente.scss */
+/* line 185, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments.center2 {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 191, ../sass/partials/_profilo-mio-utente.scss */
+/* line 190, ../sass/partials/_profilo-mio-utente.scss */
+.comm-2 .container-comments span.comments-2 {
+  color: #4cc1b8;
+}
+/* line 193, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .box-number-comments-2 {
   float: left;
   border-bottom: 1px solid #03514b;
@@ -4408,7 +4458,7 @@ header#main section#dashboard-loggedin .logout p {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 197, ../sass/partials/_profilo-mio-utente.scss */
+/* line 199, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .box-number-comments-2 .number-comments-2 {
   font-weight: normal;
   font-size: 10px;
@@ -4422,7 +4472,7 @@ header#main section#dashboard-loggedin .logout p {
   padding: 2px;
   text-align: center;
 }
-/* line 211, ../sass/partials/_profilo-mio-utente.scss */
+/* line 214, ../sass/partials/_profilo-mio-utente.scss */
 .comm-2 .container-comments .comments-2 {
   font-weight: normal;
   font-size: 10px;
@@ -4433,6 +4483,85 @@ header#main section#dashboard-loggedin .logout p {
   margin-left: 4px;
   margin-right: 4px;
   margin-top: 4px;
+}
+
+/* line 232, ../sass/partials/_profilo-mio-utente.scss */
+#numbers-likes {
+  margin-top: 14px;
+  background: url('../images/background-likes.png?1347557580') no-repeat left top;
+  width: 67px;
+  height: 32px;
+  position: absolute;
+  margin-left: 184px;
+}
+
+/* line 241, ../sass/partials/_profilo-mio-utente.scss */
+.likes {
+  float: left;
+  margin-bottom: 12px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+/* line 247, ../sass/partials/_profilo-mio-utente.scss */
+.icona-likes {
+  background: white;
+  padding: 2px 5px 2px 5px;
+}
+
+/* line 251, ../sass/partials/_profilo-mio-utente.scss */
+.number-like2 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: white;
+  float: left;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+/* line 263, ../sass/partials/_profilo-mio-utente.scss */
+#numbers-dislikes {
+  margin-top: 14px;
+  background: url('../images/background-likes.png?1347557580') no-repeat left top;
+  width: 67px;
+  height: 32px;
+  position: absolute;
+  margin-left: 264px;
+}
+
+/* line 273, ../sass/partials/_profilo-mio-utente.scss */
+.dislikes {
+  float: left;
+  margin-bottom: 12px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+/* line 281, ../sass/partials/_profilo-mio-utente.scss */
+.number-dislike2 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: white;
+  float: left;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+/* line 292, ../sass/partials/_profilo-mio-utente.scss */
+.icona-dislikes {
+  background-color: white;
+  padding: 2px 5px 2px 5px;
+}
+
+/* line 299, ../sass/partials/_profilo-mio-utente.scss */
+.divisore-profilo {
+  background: url('../images/divisore-profilo.png?1347554697') no-repeat left top;
+  width: 600px;
+  height: 2px;
+  margin-top: 164px;
+  margin-left: -22px;
 }
 
 /* line 5, ../sass/partials/_sidebar-help.scss */
@@ -5178,786 +5307,4 @@ h4.titoli_sezioni {
   display: inline;
   float: left;
   margin-left: 35px;
-}
-
-/* line 138, ../sass/screen.scss */
-#lesson {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-  height: 400px;
-  margin-top: 10px;
-  background: url('../images/diagonal-green-bg.png?1347554697') repeat left top;
-}
-/* line 143, ../sass/screen.scss */
-#lesson .infor {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  height: 100%;
-  position: relative;
-}
-/* line 148, ../sass/screen.scss */
-#lesson .infor .container-views {
-  width: 65px;
-  height: auto;
-  overflow: hidden;
-  *zoom: 1;
-  border-right: 1px solid #c5ffea;
-  border-left: 1px solid #00ea9c;
-  padding-left: 10px;
-  float: left;
-}
-/* line 156, ../sass/screen.scss */
-#lesson .infor .container-views .box-number-views {
-  float: left;
-  border-bottom: 1px solid #02967a;
-  border-left: 1px solid #05d6c6;
-  border-right: 1px solid #05d6c6;
-  border-top: 1px solid #05d6c6;
-}
-/* line 162, ../sass/screen.scss */
-#lesson .infor .container-views .box-number-views .number-views {
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  background: #00f2a1;
-  border-bottom: 1px solid #c7ffec;
-  border-left: 1px solid #7dfed5;
-  border-top: 1px solid #7dfed5;
-  border-right: 1px solid #7dfed5;
-  padding: 2px;
-}
-/* line 175, ../sass/screen.scss */
-#lesson .infor .container-views .views {
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  float: left;
-  margin-left: 3px;
-  margin-top: 4px;
-}
-/* line 186, ../sass/screen.scss */
-#lesson .infor .container-comments {
-  width: 78px;
-  height: auto;
-  overflow: hidden;
-  *zoom: 1;
-  border-right: 1px solid #c5ffea;
-  float: left;
-}
-/* line 192, ../sass/screen.scss */
-#lesson .infor .container-comments .box-number-comments {
-  float: left;
-  border-bottom: 1px solid #02967a;
-  border-left: 1px solid #05d6c6;
-  border-right: 1px solid #05d6c6;
-  border-top: 1px solid #05d6c6;
-}
-/* line 198, ../sass/screen.scss */
-#lesson .infor .container-comments .box-number-comments .number-comments {
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  background: #00f2a1;
-  border-bottom: 1px solid #c7ffec;
-  border-left: 1px solid #7dfed5;
-  border-top: 1px solid #7dfed5;
-  border-right: 1px solid #7dfed5;
-  padding: 2px;
-}
-/* line 211, ../sass/screen.scss */
-#lesson .infor .container-comments .comments {
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  float: left;
-  margin-left: 3px;
-  margin-top: 4px;
-}
-/* line 222, ../sass/screen.scss */
-#lesson .infor .container-lingua {
-  width: 100px;
-  height: auto;
-  overflow: hidden;
-  *zoom: 1;
-  border-left: 1px solid #00ea9c;
-  padding-left: 10px;
-  float: left;
-}
-/* line 229, ../sass/screen.scss */
-#lesson .infor .container-lingua .box-lingua-icon {
-  float: left;
-  border-bottom: 1px solid #02967a;
-  border-left: 1px solid #05d6c6;
-  border-right: 1px solid #05d6c6;
-  border-top: 1px solid #05d6c6;
-}
-/* line 235, ../sass/screen.scss */
-#lesson .infor .container-lingua .box-lingua-icon .lingua-icon {
-  width: 14px;
-  height: 10px;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  background: #00f2a1;
-  border-bottom: 1px solid #c7ffec;
-  border-left: 1px solid #7dfed5;
-  border-top: 1px solid #7dfed5;
-  border-right: 1px solid #7dfed5;
-  padding: 2px;
-}
-/* line 250, ../sass/screen.scss */
-#lesson .infor .container-lingua .lingua {
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 10px;
-  color: #057c79;
-  float: left;
-  margin-left: 3px;
-  margin-top: 4px;
-}
-/* line 262, ../sass/screen.scss */
-#lesson .infor .aut-date {
-  position: absolute;
-  bottom: 9px;
-}
-/* line 266, ../sass/screen.scss */
-#lesson .infor .aut-date .data .num {
-  position: absolute;
-  float: left;
-  margin-top: 0;
-  width: 25px;
-  height: 25px;
-  background-color: #084936;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
-  border-radius: 16px;
-  bottom: -2px;
-}
-/* line 275, ../sass/screen.scss */
-#lesson .infor .aut-date .data .num p {
-  padding-top: 3px;
-  text-align: center;
-  color: white;
-  margin: 0;
-}
-/* line 282, ../sass/screen.scss */
-#lesson .infor .aut-date .data .info-date {
-  width: 140px;
-  font-family: 'Droid Sans';
-  font-size: 11px;
-  float: left;
-  margin-left: 30px;
-}
-/* line 289, ../sass/screen.scss */
-#lesson .infor .aut-date .data .info-date .mese {
-  font-weight: 700;
-  color: #084936;
-  text-transform: uppercase;
-}
-/* line 294, ../sass/screen.scss */
-#lesson .infor .aut-date .data .info-date .ora {
-  color: #057c79;
-}
-/* line 300, ../sass/screen.scss */
-#lesson .infor .aut-date hr {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  border: 0;
-  height: 1px;
-}
-/* line 305, ../sass/screen.scss */
-#lesson .infor .aut-date .top {
-  margin: 8px 0 0 0;
-  background: #00ea9c;
-}
-/* line 309, ../sass/screen.scss */
-#lesson .infor .aut-date .bottom {
-  margin: 0 0 12px 0;
-  background: #c5ffea;
-}
-/* line 316, ../sass/screen.scss */
-#lesson .foto {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 640px;
-  margin-right: 0;
-  background-color: #38d69a;
-  height: 100%;
-}
-/* line 322, ../sass/screen.scss */
-#lesson h3 {
-  font-size: 15px;
-  color: #084936;
-  font-family: 'Droid Sans';
-  font-weight: 700;
-  text-transform: uppercase;
-  padding-top: 20px;
-}
-/* line 331, ../sass/screen.scss */
-#lesson h1 {
-  font-size: 25px;
-  line-height: 30px;
-  color: #084936;
-  font-family: 'Droid Sans';
-  font-weight: 700;
-  text-transform: uppercase;
-  padding-bottom: 7px;
-  text-shadow: 0px 2px 1px #c5ffea;
-}
-/* line 347, ../sass/screen.scss */
-#lesson h4 {
-  color: #084936;
-  font-weight: 700;
-  font-family: 'Droid Sans';
-  text-transform: uppercase;
-  font-size: 13px;
-}
-/* line 353, ../sass/screen.scss */
-#lesson h4 span {
-  color: #057c79;
-  font-weight: 400;
-  text-transform: capitalize;
-}
-/* line 359, ../sass/screen.scss */
-#lesson p {
-  color: #084936;
-  font-weight: 700;
-  font-family: 'Droid Sans';
-}
-
-/* line 366, ../sass/screen.scss */
-#container {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 640px;
-}
-/* line 368, ../sass/screen.scss */
-#container h4 {
-  margin-top: 10px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 40px;
-  font-size: 20px;
-  font-family: 'Droid Sans';
-  font-weight: bold;
-  color: #057c79;
-  margin-left: 0;
-  text-align: center;
-}
-/* line 378, ../sass/screen.scss */
-#container .icon {
-  margin-top: 10px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 40px;
-  margin-left: 0;
-  height: 40px;
-  background-color: white;
-}
-/* line 385, ../sass/screen.scss */
-#container .text {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-/* line 388, ../sass/screen.scss */
-#container .text h3 {
-  font-size: 21px;
-  color: #057c79;
-  font-family: 'Droid Sans';
-  font-weight: 700;
-  text-transform: uppercase;
-  text-shadow: 0px 1px 0px white, 0px 1px 0px true white;
-  text-shadow: 0px 1px 0px true white, 0px 1px 0px true white;
-  margin-bottom: 10px;
-}
-/* line 402, ../sass/screen.scss */
-#container .text p {
-  font-size: 13px;
-  line-height: 16px;
-  color: #49ada8;
-  font-family: 'Droid Sans';
-  font-weight: 400;
-  padding-bottom: 5px;
-}
-/* line 411, ../sass/screen.scss */
-#container .text .data {
-  position: relative;
-}
-/* line 413, ../sass/screen.scss */
-#container .text .data .num {
-  width: 25px;
-  height: 25px;
-  background-color: #084936;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  border-radius: 15px;
-}
-/* line 418, ../sass/screen.scss */
-#container .text .data .num p {
-  padding-top: 3px;
-  text-align: center;
-  color: white;
-}
-/* line 424, ../sass/screen.scss */
-#container .text .data .info-date {
-  width: 140px;
-  position: absolute;
-  bottom: -23px;
-  left: 30px;
-}
-/* line 429, ../sass/screen.scss */
-#container .text .data .info-date p {
-  color: #084936;
-  font-weight: 700;
-  font-family: 'Droid Sans';
-  font-size: 11px;
-}
-
-/* line 443, ../sass/screen.scss */
-#testo {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 520px;
-  margin-top: 35px;
-  margin-bottom: 30px;
-}
-/* line 448, ../sass/screen.scss */
-#testo p {
-  font-size: 13px;
-  line-height: 16px;
-  color: #3d635f;
-  font-family: 'Droid Sans';
-  font-weight: 400;
-  padding: 0;
-  margin: 0 0 7px 0;
-}
-/* line 457, ../sass/screen.scss */
-#testo .intro {
-  font-weight: bold;
-  text-indent: 7px;
-}
-/* line 463, ../sass/screen.scss */
-#testo a {
-  color: #24d1c8;
-  text-decoration: none;
-}
-
-/* line 470, ../sass/screen.scss */
-#button {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 100px;
-  heigth: 40px;
-  background-color: #084936;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-  margin-bottom: 35px;
-}
-/* line 477, ../sass/screen.scss */
-#button a {
-  color: white;
-  font-size: 12px;
-  font-family: 'Droid Sans';
-  font-weight: bold;
-  margin-left: 11px;
-}
-
-/* line 486, ../sass/screen.scss */
-#button-1 {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 160px;
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 490, ../sass/screen.scss */
-#button-1 .interno {
-  width: 130px;
-  background-color: #084936;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;
-  margin-bottom: 35px;
-}
-/* line 495, ../sass/screen.scss */
-#button-1 .interno a {
-  color: white;
-  font-size: 12px;
-  font-family: 'Droid Sans';
-  font-weight: bold;
-  margin-left: 11px;
-}
-
-/* line 504, ../sass/screen.scss */
-#nuovo-commento {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 610px;
-  margin-left: 0;
-  background-color: black;
-  clear: both;
-  margin-bottom: 35px;
-}
-/* line 510, ../sass/screen.scss */
-#nuovo-commento textarea {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 580px;
-  margin-right: 0;
-  margin-left: 0;
-  border: 1px solid #323232;
-}
-/* line 517, ../sass/screen.scss */
-#nuovo-commento ul {
-  list-style-type: none !important;
-}
-/* line 519, ../sass/screen.scss */
-#nuovo-commento ul li {
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  *zoom: 1;
-  display: block;
-  border-bottom: 1px solid white;
-}
-/* line 525, ../sass/screen.scss */
-#nuovo-commento ul li a {
-  text-decoration: none !important;
-  position: relative;
-}
-/* line 529, ../sass/screen.scss */
-#nuovo-commento ul li a .angolo {
-  width: 20px;
-  height: 20px;
-  background: url('../images/angolo-commenti-sx.png?1347554697') repeat left top;
-  position: relative;
-  clear: left;
-}
-/* line 537, ../sass/screen.scss */
-#nuovo-commento ul li a .first-level {
-  top: 20px;
-  left: -10px;
-}
-/* line 542, ../sass/screen.scss */
-#nuovo-commento ul li a .second-level {
-  top: 20px;
-  left: 50px;
-}
-/* line 547, ../sass/screen.scss */
-#nuovo-commento ul li a .third-level {
-  top: 20px;
-  left: 110px;
-}
-/* line 552, ../sass/screen.scss */
-#nuovo-commento ul li a .commento {
-  margin-bottom: 2px;
-  margin-right: 0;
-  background-color: #eafdfc;
-  float: left;
-}
-/* line 559, ../sass/screen.scss */
-#nuovo-commento ul li a .commento .text .data .num {
-  background: #0cc4c4 !important;
-  float: left;
-}
-/* line 562, ../sass/screen.scss */
-#nuovo-commento ul li a .commento .text .data .num p {
-  font-weight: bold !important;
-  padding: 4px 0 !important;
-}
-/* line 567, ../sass/screen.scss */
-#nuovo-commento ul li a .commento .text .data .info-date {
-  font-family: 'Droid Sans';
-  font-size: 11px;
-  float: left;
-  color: #0cc4c4;
-  margin-top: 20px;
-}
-/* line 573, ../sass/screen.scss */
-#nuovo-commento ul li a .commento .text .data .info-date .mese {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-/* line 581, ../sass/screen.scss */
-#nuovo-commento ul li a .spacer-comments {
-  clear: both;
-}
-/* line 586, ../sass/screen.scss */
-#nuovo-commento ul li:first-child {
-  clear: both;
-}
-/* line 594, ../sass/screen.scss */
-#nuovo-commento ul li a:hover .angolo, #nuovo-commento ul li a:active .angolo {
-  background: url('../images/angolo-commenti-hover-sx.png?1347554697') repeat left top;
-}
-/* line 597, ../sass/screen.scss */
-#nuovo-commento ul li a:hover .commento, #nuovo-commento ul li a:active .commento {
-  background-color: #c9f7f5;
-}
-
-/* line 607, ../sass/screen.scss */
-.primo-livello {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 580px;
-}
-/* line 609, ../sass/screen.scss */
-.primo-livello .text {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 340px;
-  margin-left: 0;
-}
-
-/* line 618, ../sass/screen.scss */
-.secondo-livello {
-  position: relative;
-  left: 60px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 520px;
-}
-/* line 623, ../sass/screen.scss */
-.secondo-livello .text {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  margin-left: 0;
-}
-
-/* line 629, ../sass/screen.scss */
-.terzo-livello {
-  position: relative;
-  left: 120px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 460px;
-}
-/* line 633, ../sass/screen.scss */
-.terzo-livello .text {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 220px;
-  margin-left: 0;
-}
-
-/* line 641, ../sass/screen.scss */
-#barra {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  margin-right: 0;
-}
-/* line 644, ../sass/screen.scss */
-#barra .list {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  margin-right: 0;
-  margin-left: 0;
-}
-/* line 648, ../sass/screen.scss */
-#barra .list .icon-cat {
-  width: 44px;
-  height: 8px;
-  margin-top: 3px;
-  margin-right: 3px;
-  float: left;
-  background: url('../images/diagonal-white-bg.png?1347554697') repeat left top;
-}
-/* line 656, ../sass/screen.scss */
-#barra .list ul {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  margin-left: 0;
-  list-style: none;
-  style-type-position: inside;
-  padding-top: 3px;
-}
-/* line 663, ../sass/screen.scss */
-#barra .list li {
-  height: auto;
-  background: none;
-  float: none;
-  font-family: 'Droid Sans';
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  margin: 0 0 12px 0;
-  padding: 0;
-}
-/* line 673, ../sass/screen.scss */
-#barra .list li a {
-  text-decoration: none;
-  color: #49ada8;
-}
-/* line 678, ../sass/screen.scss */
-#barra .list .categorie {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  margin-right: 0;
-  margin-left: 0;
-  background: url('../images/diagonal-white-bg.png?1347554697') repeat left top;
-  float: left;
-}
-/* line 686, ../sass/screen.scss */
-#barra .list .categorie .icon {
-  width: 36px;
-  height: 32px;
-  background: white;
-  float: left;
-  margin: 8px;
-}
-/* line 693, ../sass/screen.scss */
-#barra .list .categorie h1 {
-  font-family: 'Droid Sans';
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 9px;
-  text-transform: uppercase;
-  color: #49ada8;
-  float: left;
-  margin-top: 11px;
-}
-/* line 706, ../sass/screen.scss */
-#barra .image {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  margin-right: 0;
-  margin-left: 0;
-  height: 250px;
-  background-color: #00ffb0;
-  margin-top: 10px;
-}
-/* line 715, ../sass/screen.scss */
-#barra .ultime-lezioni {
-  background: #f7fcfb;
-  border: 1px solid #daede9;
-  padding: 1px;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  margin-right: 0;
-  margin-left: 0;
-}
-/* line 722, ../sass/screen.scss */
-#barra .ultime-lezioni h3 {
-  font-family: 'Droid Sans';
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 9px;
-  text-transform: uppercase;
-  color: #49ada8;
-  padding: 12px;
-}
-/* line 733, ../sass/screen.scss */
-#barra .ultime-lezioni ul {
-  list-style: none;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
-  background-color: #057c79;
-  margin-left: 0;
-  margin-right: 0;
-  margin: 0px;
-}
-/* line 743, ../sass/screen.scss */
-#barra .ultime-lezioni .simbolo {
-  width: 44px;
-  margin-top: 3px;
-  margin-right: 3px;
-  float: left;
-  background-color: white;
-  height: 20px;
-}
-/* line 752, ../sass/screen.scss */
-#barra .ultime-lezioni .title {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 220px;
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 757, ../sass/screen.scss */
-#barra .ultime-lezioni .title h4 {
-  color: white;
-  font-weight: 400;
-  font-size: 13px;
-  font-family: 'Droid Sans';
-}
-/* line 764, ../sass/screen.scss */
-#barra .ultime-lezioni .title p {
-  font-weight: bold;
-  font-size: 10px;
-  color: #4cc1b8;
 }
