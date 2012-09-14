@@ -3,3 +3,6 @@
 compass_app_log.txt
 .DS_Store
 *.scssc
+
+/doing/compass_app_log.txt
+/doing/css/screen.css
