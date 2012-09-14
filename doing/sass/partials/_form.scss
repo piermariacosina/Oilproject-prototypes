@@ -54,6 +54,12 @@
 			border-top: none;
 		}
 		
+		form input[type="submit"]:hover,
+		form input[type="submit"]:focus {
+			border: 1px solid #bbb;
+			background: #e5e5e5;
+			}
+		
 		#asterisco{
 			background: image-url("asterisco.png") no-repeat;
 			width: 28px;
