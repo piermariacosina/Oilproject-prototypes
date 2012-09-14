@@ -13,7 +13,7 @@
 	  	
 	  	}
 	  
-	 	 	  .sottolineato{
+	 	.sottolineato{
 	  	background: image-url("sottolineato-form.png") no-repeat left top;
 	  	width: 212px;
 	  	height: 6px;
@@ -29,9 +29,7 @@
 	  }
 	  
 	  
-	  
-	 
-	 form input[type="submit"] {
+	  form input[type="submit"] {
 	 	margin: 0;
 	 	padding: 5px 10px;
 	 	font-size: 12px;	
