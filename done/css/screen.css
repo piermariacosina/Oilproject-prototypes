@@ -3803,6 +3803,20 @@ header#main p i {
 /* line 17, ../sass/partials/_header.scss */
 header#main a {
   text-decoration: none;
+  color: #4cc1b8;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+header#main a:visited {
+  color: #4cc1b8;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+header#main a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+header#main a:active {
+  color: #4cc1b8;
 }
 /* line 20, ../sass/partials/_header.scss */
 header#main section#menu {
@@ -3833,12 +3847,16 @@ header#main section#menu .contenitore h1 a {
   font-size: 60px;
   line-height: 65px;
 }
-/* line 39, ../sass/partials/_header.scss */
+/* line 37, ../sass/partials/_header.scss */
+header#main section#menu .contenitore h1 a:hover {
+  color: #00ffb0;
+}
+/* line 42, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav {
   display: inline;
   float: left;
 }
-/* line 41, ../sass/partials/_header.scss */
+/* line 44, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul {
   margin: 0;
   padding: 0;
@@ -3847,7 +3865,7 @@ header#main section#menu .contenitore nav ul {
   *zoom: 1;
   margin-left: 10px;
 }
-/* line 44, ../sass/partials/_header.scss */
+/* line 47, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li {
   list-style-image: none;
   list-style-type: none;
@@ -3878,11 +3896,11 @@ header#main section#menu .contenitore nav ul li:last-child {
 header#main section#menu .contenitore nav ul li.last {
   padding-right: 0;
 }
-/* line 54, ../sass/partials/_header.scss */
+/* line 57, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li:first-child {
   border-left: 1px solid white;
 }
-/* line 57, ../sass/partials/_header.scss */
+/* line 60, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a {
   position: absolute;
   top: 0;
@@ -3891,19 +3909,31 @@ header#main section#menu .contenitore nav ul li a {
   right: 0;
   display: block;
 }
-/* line 60, ../sass/partials/_header.scss */
+/* line 64, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a span {
   display: block;
   margin-top: 16px;
   color: white;
 }
-/* line 66, ../sass/partials/_header.scss */
+/* line 70, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li a:hover .underline {
+  height: 8px;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
+  margin: 0 18px;
+}
+/* line 75, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li a:hover span {
+  display: block;
+  margin-top: 16px;
+  color: #00ffb0;
+}
+/* line 83, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li .underline {
   height: 8px;
   background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 18px;
 }
-/* line 76, ../sass/partials/_header.scss */
+/* line 93, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search {
   width: 355px;
   height: 65px;
@@ -3911,17 +3941,17 @@ header#main section#menu .contenitore #search {
   float: left;
   border-right: 1px solid white;
 }
-/* line 82, ../sass/partials/_header.scss */
+/* line 99, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search form {
   display: inline;
   float: right;
   margin-right: 10px;
 }
-/* line 87, ../sass/partials/_header.scss */
+/* line 104, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search form label {
   display: none;
 }
-/* line 91, ../sass/partials/_header.scss */
+/* line 108, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search input#search-field {
   background-color: #027771;
   border: 1px #166059 solid;
@@ -3944,7 +3974,7 @@ header#main section#menu .contenitore #search input#search-field {
   margin-bottom: 0;
   padding: 0 0 0 10px;
 }
-/* line 106, ../sass/partials/_header.scss */
+/* line 123, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search input#search-submit {
   position: absolute;
   display: inline;
@@ -3962,14 +3992,14 @@ header#main section#menu .contenitore #search input#search-submit {
   margin-left: -33px;
   margin-top: 21px;
 }
-/* line 115, ../sass/partials/_header.scss */
+/* line 132, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search input#search-field:focus {
   outline: none;
   -webkit-box-shadow: inset 0 1px 1px #48ada8;
   -moz-box-shadow: inset 0 1px 1px #48ada8;
   box-shadow: inset 0 1px 1px #48ada8;
 }
-/* line 120, ../sass/partials/_header.scss */
+/* line 137, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #social {
   width: 89px;
   height: 65px;
@@ -3977,17 +4007,17 @@ header#main section#menu .contenitore #social {
   display: inline;
   float: left;
 }
-/* line 129, ../sass/partials/_header.scss */
+/* line 146, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout {
   height: 69px;
   margin-top: 1px;
   width: 980px !important;
 }
-/* line 130, ../sass/partials/_header.scss */
+/* line 147, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout.hide {
   display: none;
 }
-/* line 137, ../sass/partials/_header.scss */
+/* line 154, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision {
   display: inline;
   float: left;
@@ -3995,7 +4025,7 @@ header#main section#dashboard-loggedout #vision {
   height: 69px;
   background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
 }
-/* line 143, ../sass/partials/_header.scss */
+/* line 160, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p {
   color: #49ada8;
   display: inline;
@@ -4013,11 +4043,11 @@ header#main section#dashboard-loggedout #vision p {
   -moz-hyphens: auto;
   hyphens: auto;
 }
-/* line 153, ../sass/partials/_header.scss */
+/* line 170, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p b, header#main section#dashboard-loggedout #vision p i {
   color: #29776e;
 }
-/* line 159, ../sass/partials/_header.scss */
+/* line 176, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision .icon {
   background: url('../images/icon-vision.png?1347628549') repeat left top;
   width: 62px;
@@ -4027,7 +4057,7 @@ header#main section#dashboard-loggedout #vision .icon {
   display: inline;
   float: left;
 }
-/* line 169, ../sass/partials/_header.scss */
+/* line 186, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .login {
   display: inline;
   float: left;
@@ -4035,7 +4065,11 @@ header#main section#dashboard-loggedout .login {
   margin-left: 1px;
   background-color: #057c79;
 }
-/* line 174, ../sass/partials/_header.scss */
+/* line 192, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedout .login a:hover p {
+  color: #00ffb0;
+}
+/* line 196, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .login p {
   font-size: 10px;
   font-weight: bold;
@@ -4044,17 +4078,17 @@ header#main section#dashboard-loggedout .login p {
   text-align: center;
   margin: 0px;
 }
-/* line 185, ../sass/partials/_header.scss */
+/* line 207, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin {
   height: 30px;
   background-color: #057c79;
   margin-top: 1px;
 }
-/* line 186, ../sass/partials/_header.scss */
+/* line 208, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin.hide {
   display: none;
 }
-/* line 193, ../sass/partials/_header.scss */
+/* line 215, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user {
   display: inline;
   float: left;
@@ -4063,7 +4097,7 @@ header#main section#dashboard-loggedin .user {
   width: 280px;
   padding-left: 10px;
 }
-/* line 196, ../sass/partials/_header.scss */
+/* line 218, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .avatar.small {
   width: 24px;
   height: 24px;
@@ -4073,18 +4107,18 @@ header#main section#dashboard-loggedin .user .avatar.small {
   float: left;
   margin-top: 2px;
 }
-/* line 204, ../sass/partials/_header.scss */
+/* line 226, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .avatar.small img {
   width: 24px;
   height: 24px;
 }
-/* line 210, ../sass/partials/_header.scss */
+/* line 232, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .name {
   float: left;
   margin-left: 8px;
   width: 80%;
 }
-/* line 214, ../sass/partials/_header.scss */
+/* line 236, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .name p {
   color: white;
   font-size: 15px;
@@ -4092,15 +4126,16 @@ header#main section#dashboard-loggedin .user .name p {
   line-height: 30px;
   height: 30px;
 }
-/* line 226, ../sass/partials/_header.scss */
+/* line 248, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .corsi {
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 280px;
+  margin-left: 0;
 }
-/* line 229, ../sass/partials/_header.scss */
+/* line 252, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .read-it-later {
   display: inline;
   float: left;
@@ -4110,7 +4145,7 @@ header#main section#dashboard-loggedin .read-it-later {
   margin-right: 0;
   width: 250px;
 }
-/* line 234, ../sass/partials/_header.scss */
+/* line 257, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .num {
   display: inline;
   float: left;
@@ -4124,22 +4159,22 @@ header#main section#dashboard-loggedin .num {
   border-radius: 17px;
   margin-top: 5px;
 }
-/* line 241, ../sass/partials/_header.scss */
+/* line 264, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .num p {
-  padding-top: 4px;
+  padding-top: 2px;
   text-align: center;
   margin: 0;
   font-size: 12px;
   font-weight: bold;
 }
-/* line 250, ../sass/partials/_header.scss */
+/* line 273, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .text {
   margin-left: 8px;
   display: inline;
   float: left;
   width: 80%;
 }
-/* line 254, ../sass/partials/_header.scss */
+/* line 277, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .text p {
   font-size: 10px;
   font-weight: bold;
@@ -4147,14 +4182,18 @@ header#main section#dashboard-loggedin .text p {
   height: 30px;
   text-transform: uppercase;
 }
-/* line 262, ../sass/partials/_header.scss */
+/* line 285, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .logout {
   display: inline;
   float: left;
-  width: 109px;
+  width: 99px;
   border-left: 1px solid white;
 }
-/* line 266, ../sass/partials/_header.scss */
+/* line 290, ../sass/partials/_header.scss */
+header#main section#dashboard-loggedin .logout a:hover p {
+  color: #00ffb0;
+}
+/* line 294, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .logout p {
   font-size: 10px;
   font-weight: bold;
