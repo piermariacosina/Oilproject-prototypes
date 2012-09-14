@@ -2606,3 +2606,51 @@ hr {
   height: 2px;
   background: #00ffb0;
 }
+
+/* line 1, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento {
+  background: none;
+}
+/* line 6, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento h1 {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: bold;
+  color: #3d635f;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+/* line 16, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento h2 {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: normal;
+  color: #3d635f;
+  line-height: 14px;
+}
+/* line 23, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento h2 span {
+  font-weight: bold;
+}
+/* line 31, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento p {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: bold;
+  color: #3d635f;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+/* line 41, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento .risposta1 {
+  float: right;
+}
+/* line 45, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento .risposta2 {
+  float: right;
+}
+/* line 50, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento .risposta3 {
+  float: right;
+}

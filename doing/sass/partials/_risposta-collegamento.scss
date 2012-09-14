@@ -1,0 +1,56 @@
+#form-risposta-collegamento{
+
+background: none;
+
+
+  h1{
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: bold;
+  color: $text-green;
+  line-height: 14px;
+  text-transform: uppercase;
+  
+ }
+ 
+ h2{
+ font-family: 'Droid Sans';
+ font-size: 13px;
+ font-weight: normal;
+ color: $text-green;
+ line-height: 14px;
+ 
+   span{
+   
+   font-weight: bold;
+   }
+ 
+ 	
+ }
+
+p{
+   font-family: 'Droid Sans';
+   font-size: 13px;
+   font-weight: bold;
+   color: $text-green;
+   line-height: 14px;
+   text-transform: uppercase;
+   margin-top: 10px;
+     }
+   
+   .risposta1{
+   	float: right;
+   
+   }
+   .risposta2{
+   	float: right;
+   	
+   	
+   }
+   .risposta3{
+   	float: right;
+   	
+   	
+   }
+   
+	  }
