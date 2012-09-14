@@ -4413,26 +4413,22 @@ form input[type="submit"] {
   background-color: #e1fffd;
   width: 620px;
   height: 250px;
-  margin-left: 30px;
 }
-
-/* line 12, ../sass/partials/_form.scss */
-form fieldset {
+/* line 9, ../sass/partials/_form.scss */
+#form-registrazione form fieldset {
   margin: 0px 0 20px 30px;
   font-family: 'Droid Sans';
   font-size: 13px;
 }
-
-/* line 19, ../sass/partials/_form.scss */
-form fieldset label {
+/* line 16, ../sass/partials/_form.scss */
+#form-registrazione form fieldset label {
   display: block;
   margin: 30px 0 5px 0;
   font-weight: bold;
   color: #49ada8;
 }
-
-/* line 25, ../sass/partials/_form.scss */
-form fieldset input.form-text {
+/* line 22, ../sass/partials/_form.scss */
+#form-registrazione form fieldset input.form-text {
   display: block;
   width: 50%;
   padding: 5px;
@@ -4446,9 +4442,8 @@ form fieldset input.form-text {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-
-/* line 40, ../sass/partials/_form.scss */
-form input[type="submit"] {
+/* line 37, ../sass/partials/_form.scss */
+#form-registrazione form input[type="submit"] {
   margin: 0;
   padding: 5px 10px;
   font-size: 12px;
@@ -4460,13 +4455,21 @@ form input[type="submit"] {
   border-radius: 4px;
   color: #084936;
 }
-
-/* line 53, ../sass/partials/_form.scss */
-.form-actions {
+/* line 50, ../sass/partials/_form.scss */
+#form-registrazione .form-actions {
   margin-top: 18px;
   padding: 17px 4px 18px;
   background: none;
   border-top: none;
+}
+/* line 57, ../sass/partials/_form.scss */
+#form-registrazione #asterisco {
+  background: url('../images/asterisco.png?1347467520') no-repeat;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 11px;
 }
 
 /* line 1, ../sass/partials/_read-it-later.scss */
@@ -4587,9 +4590,8 @@ form input[type="submit"] {
   -moz-box-shadow: 0px 2px 1px true #084936;
   box-shadow: 0px 2px 1px true #084936;
 }
-
 /* line 18, ../sass/partials/_estratto.scss */
-form fieldset {
+#estratto-carica-testo form fieldset {
   margin: 0px 0 20px 30px;
   font-family: 'Droid Sans';
   font-size: 18px;
@@ -4598,18 +4600,15 @@ form fieldset {
   color: #057c79;
   margin-top: -23px;
 }
-
 /* line 29, ../sass/partials/_estratto.scss */
-form fieldset label {
+#estratto-carica-testo form fieldset label {
   display: block;
   font-weight: bold;
   color: #49ada8;
-  width: 40px;
   margin-left: -10px;
 }
-
-/* line 36, ../sass/partials/_estratto.scss */
-form fieldset input.form-text {
+/* line 35, ../sass/partials/_estratto.scss */
+#estratto-carica-testo form fieldset input.form-text {
   margin-top: 17px;
   margin-left: -16px;
   display: block;
@@ -4625,9 +4624,8 @@ form fieldset input.form-text {
   -moz-border-radius: 4px;
   border-radius: 10px;
 }
-
-/* line 53, ../sass/partials/_estratto.scss */
-.preview {
+/* line 52, ../sass/partials/_estratto.scss */
+#estratto-carica-testo .preview {
   background-color: #084936;
   width: 147px;
   height: 32px;
@@ -4635,8 +4633,8 @@ form fieldset input.form-text {
   margin-left: 14px;
   margin-top: 30px;
 }
-/* line 62, ../sass/partials/_estratto.scss */
-.preview h1 {
+/* line 61, ../sass/partials/_estratto.scss */
+#estratto-carica-testo .preview h1 {
   color: white;
   font-family: 'Droid Sans';
   font-size: 12px;
@@ -4646,16 +4644,87 @@ form fieldset input.form-text {
   margin-top: 7px;
   margin-left: 19px;
 }
-
-/* line 74, ../sass/partials/_estratto.scss */
-.sottolineato {
-  background: url('../images/sottolineato-form.png?1347618535') no-repeat left top;
+/* line 73, ../sass/partials/_estratto.scss */
+#estratto-carica-testo .sottolineato {
+  background: url('../images/sottolineato-form2.png?1347621839') no-repeat left top;
   width: 77px;
   height: 6px;
   margin-left: 3px;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 2, ../sass/partials/_link-riferimento.scss */
+#estratto-carica-testo {
+  background-color: #f7fcfb;
+  border: 1px solid #daede9;
+  width: 620px;
+  height: 330px;
+  -webkit-box-shadow: 0px 2px 1px true #084936;
+  -moz-box-shadow: 0px 2px 1px true #084936;
+  box-shadow: 0px 2px 1px true #084936;
+}
+/* line 18, ../sass/partials/_link-riferimento.scss */
+#estratto-carica-testo form fieldset {
+  margin: 0px 0 20px 30px;
+  font-family: 'Droid Sans';
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #057c79;
+  margin-top: -23px;
+}
+/* line 29, ../sass/partials/_link-riferimento.scss */
+#estratto-carica-testo form fieldset label {
+  display: block;
+  font-weight: bold;
+  color: #49ada8;
+  margin-left: -10px;
+}
+/* line 35, ../sass/partials/_link-riferimento.scss */
+#estratto-carica-testo form fieldset input.form-text {
+  margin-top: 17px;
+  margin-left: -16px;
+  display: block;
+  width: 578px;
+  height: 178px;
+  padding: 5px;
+  border: 2px solid #084936;
+  background: #eafdfc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 10px;
+}
+/* line 52, ../sass/partials/_link-riferimento.scss */
+#estratto-carica-testo .preview {
+  background-color: #084936;
+  width: 147px;
+  height: 32px;
+  border-radius: 20px;
+  margin-left: 14px;
+  margin-top: 30px;
+}
+/* line 61, ../sass/partials/_link-riferimento.scss */
+#estratto-carica-testo .preview h1 {
+  color: white;
+  font-family: 'Droid Sans';
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 19px;
+}
+/* line 73, ../sass/partials/_link-riferimento.scss */
+#estratto-carica-testo .sottolineato {
+  background: url('../images/sottolineato-form2.png?1347621839') no-repeat left top;
+  width: 77px;
+  height: 6px;
+  margin-left: 3px;
+}
+
+/* line 137, ../sass/screen.scss */
 #lesson {
   margin-left: auto;
   margin-right: auto;
@@ -4664,7 +4733,7 @@ form fieldset input.form-text {
   margin-top: 10px;
   background: url('../images/diagonal-green-bg.png?1347467520') repeat left top;
 }
-/* line 141, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 #lesson .infor {
   display: inline;
   float: left;
@@ -4674,7 +4743,7 @@ form fieldset input.form-text {
   height: 100%;
   position: relative;
 }
-/* line 146, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 #lesson .infor .container-views {
   width: 65px;
   height: auto;
@@ -4685,7 +4754,7 @@ form fieldset input.form-text {
   padding-left: 10px;
   float: left;
 }
-/* line 154, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 #lesson .infor .container-views .box-number-views {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4693,7 +4762,7 @@ form fieldset input.form-text {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 160, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 #lesson .infor .container-views .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -4706,7 +4775,7 @@ form fieldset input.form-text {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 173, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #lesson .infor .container-views .views {
   font-weight: normal;
   font-size: 10px;
@@ -4716,7 +4785,7 @@ form fieldset input.form-text {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 184, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 #lesson .infor .container-comments {
   width: 78px;
   height: auto;
@@ -4725,7 +4794,7 @@ form fieldset input.form-text {
   border-right: 1px solid #c5ffea;
   float: left;
 }
-/* line 190, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 #lesson .infor .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4733,7 +4802,7 @@ form fieldset input.form-text {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 196, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 #lesson .infor .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -4746,7 +4815,7 @@ form fieldset input.form-text {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 209, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 #lesson .infor .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -4756,7 +4825,7 @@ form fieldset input.form-text {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 220, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 #lesson .infor .container-lingua {
   width: 100px;
   height: auto;
@@ -4766,7 +4835,7 @@ form fieldset input.form-text {
   padding-left: 10px;
   float: left;
 }
-/* line 227, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 #lesson .infor .container-lingua .box-lingua-icon {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4774,7 +4843,7 @@ form fieldset input.form-text {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 233, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #lesson .infor .container-lingua .box-lingua-icon .lingua-icon {
   width: 14px;
   height: 10px;
@@ -4789,7 +4858,7 @@ form fieldset input.form-text {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 248, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 #lesson .infor .container-lingua .lingua {
   font-weight: normal;
   font-size: 10px;
@@ -4799,12 +4868,12 @@ form fieldset input.form-text {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 260, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 #lesson .infor .aut-date {
   position: absolute;
   bottom: 9px;
 }
-/* line 264, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 #lesson .infor .aut-date .data .num {
   position: absolute;
   float: left;
@@ -4819,14 +4888,14 @@ form fieldset input.form-text {
   border-radius: 16px;
   bottom: -2px;
 }
-/* line 273, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 #lesson .infor .aut-date .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
   margin: 0;
 }
-/* line 280, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date {
   width: 140px;
   font-family: 'Droid Sans';
@@ -4834,17 +4903,17 @@ form fieldset input.form-text {
   float: left;
   margin-left: 30px;
 }
-/* line 287, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date .mese {
   font-weight: 700;
   color: #084936;
   text-transform: uppercase;
 }
-/* line 292, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date .ora {
   color: #057c79;
 }
-/* line 298, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 #lesson .infor .aut-date hr {
   display: inline;
   float: left;
@@ -4854,17 +4923,17 @@ form fieldset input.form-text {
   border: 0;
   height: 1px;
 }
-/* line 303, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 #lesson .infor .aut-date .top {
   margin: 8px 0 0 0;
   background: #00ea9c;
 }
-/* line 307, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 #lesson .infor .aut-date .bottom {
   margin: 0 0 12px 0;
   background: #c5ffea;
 }
-/* line 314, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 #lesson .foto {
   display: inline;
   float: left;
@@ -4875,7 +4944,7 @@ form fieldset input.form-text {
   background-color: #38d69a;
   height: 100%;
 }
-/* line 320, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 #lesson h3 {
   font-size: 15px;
   color: #084936;
@@ -4884,7 +4953,7 @@ form fieldset input.form-text {
   text-transform: uppercase;
   padding-top: 20px;
 }
-/* line 329, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 #lesson h1 {
   font-size: 25px;
   line-height: 30px;
@@ -4896,7 +4965,7 @@ form fieldset input.form-text {
   text-shadow: 0px 2px 1px #c5ffea, 0px 2px 1px true #c5ffea;
   text-shadow: 0px 2px 1px true #c5ffea, 0px 2px 1px true #c5ffea;
 }
-/* line 345, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 #lesson h4 {
   color: #084936;
   font-weight: 700;
@@ -4904,20 +4973,20 @@ form fieldset input.form-text {
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 351, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 #lesson h4 span {
   color: #057c79;
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 357, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 #lesson p {
   color: #084936;
   font-weight: 700;
   font-family: 'Droid Sans';
 }
 
-/* line 364, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 #container {
   display: inline;
   float: left;
@@ -4925,7 +4994,7 @@ form fieldset input.form-text {
   margin-right: 10px;
   width: 640px;
 }
-/* line 366, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 #container h4 {
   margin-top: 10px;
   display: inline;
@@ -4940,7 +5009,7 @@ form fieldset input.form-text {
   margin-left: 0;
   text-align: center;
 }
-/* line 376, ../sass/screen.scss */
+/* line 377, ../sass/screen.scss */
 #container .icon {
   margin-top: 10px;
   display: inline;
@@ -4952,12 +5021,12 @@ form fieldset input.form-text {
   height: 40px;
   background-color: white;
 }
-/* line 383, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 #container .text {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 386, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 #container .text h3 {
   font-size: 21px;
   color: #057c79;
@@ -4968,7 +5037,7 @@ form fieldset input.form-text {
   text-shadow: 0px 1px 0px true white, 0px 1px 0px true white;
   margin-bottom: 10px;
 }
-/* line 400, ../sass/screen.scss */
+/* line 401, ../sass/screen.scss */
 #container .text p {
   font-size: 13px;
   line-height: 16px;
@@ -4977,11 +5046,11 @@ form fieldset input.form-text {
   font-weight: 400;
   padding-bottom: 5px;
 }
-/* line 409, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 #container .text .data {
   position: relative;
 }
-/* line 411, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 #container .text .data .num {
   width: 25px;
   height: 25px;
@@ -4992,20 +5061,20 @@ form fieldset input.form-text {
   -o-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 416, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 #container .text .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
 }
-/* line 422, ../sass/screen.scss */
+/* line 423, ../sass/screen.scss */
 #container .text .data .info-date {
   width: 140px;
   position: absolute;
   bottom: -23px;
   left: 30px;
 }
-/* line 427, ../sass/screen.scss */
+/* line 428, ../sass/screen.scss */
 #container .text .data .info-date p {
   color: #084936;
   font-weight: 700;
@@ -5013,7 +5082,7 @@ form fieldset input.form-text {
   font-size: 11px;
 }
 
-/* line 441, ../sass/screen.scss */
+/* line 442, ../sass/screen.scss */
 #testo {
   display: inline;
   float: left;
@@ -5023,7 +5092,7 @@ form fieldset input.form-text {
   margin-top: 35px;
   margin-bottom: 30px;
 }
-/* line 446, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 #testo p {
   font-size: 13px;
   line-height: 16px;
@@ -5033,18 +5102,18 @@ form fieldset input.form-text {
   padding: 0;
   margin: 0 0 7px 0;
 }
-/* line 455, ../sass/screen.scss */
+/* line 456, ../sass/screen.scss */
 #testo .intro {
   font-weight: bold;
   text-indent: 7px;
 }
-/* line 461, ../sass/screen.scss */
+/* line 462, ../sass/screen.scss */
 #testo a {
   color: #24d1c8;
   text-decoration: none;
 }
 
-/* line 468, ../sass/screen.scss */
+/* line 469, ../sass/screen.scss */
 #button {
   display: inline;
   float: left;
@@ -5060,7 +5129,7 @@ form fieldset input.form-text {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 475, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 #button a {
   color: white;
   font-size: 12px;
@@ -5069,7 +5138,7 @@ form fieldset input.form-text {
   margin-left: 11px;
 }
 
-/* line 484, ../sass/screen.scss */
+/* line 485, ../sass/screen.scss */
 #button-1 {
   display: inline;
   float: left;
@@ -5079,7 +5148,7 @@ form fieldset input.form-text {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 488, ../sass/screen.scss */
+/* line 489, ../sass/screen.scss */
 #button-1 .interno {
   width: 130px;
   background-color: #084936;
@@ -5090,7 +5159,7 @@ form fieldset input.form-text {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 493, ../sass/screen.scss */
+/* line 494, ../sass/screen.scss */
 #button-1 .interno a {
   color: white;
   font-size: 12px;
@@ -5099,7 +5168,7 @@ form fieldset input.form-text {
   margin-left: 11px;
 }
 
-/* line 502, ../sass/screen.scss */
+/* line 503, ../sass/screen.scss */
 #nuovo-commento {
   display: inline;
   float: left;
@@ -5111,7 +5180,7 @@ form fieldset input.form-text {
   clear: both;
   margin-bottom: 35px;
 }
-/* line 508, ../sass/screen.scss */
+/* line 509, ../sass/screen.scss */
 #nuovo-commento textarea {
   display: inline;
   float: left;
@@ -5122,11 +5191,11 @@ form fieldset input.form-text {
   margin-left: 0;
   border: 1px solid #323232;
 }
-/* line 515, ../sass/screen.scss */
+/* line 516, ../sass/screen.scss */
 #nuovo-commento ul {
   list-style-type: none !important;
 }
-/* line 517, ../sass/screen.scss */
+/* line 518, ../sass/screen.scss */
 #nuovo-commento ul li {
   width: auto;
   height: auto;
@@ -5135,12 +5204,12 @@ form fieldset input.form-text {
   display: block;
   border-bottom: 1px solid white;
 }
-/* line 523, ../sass/screen.scss */
+/* line 524, ../sass/screen.scss */
 #nuovo-commento ul li a {
   text-decoration: none !important;
   position: relative;
 }
-/* line 527, ../sass/screen.scss */
+/* line 528, ../sass/screen.scss */
 #nuovo-commento ul li a .angolo {
   width: 20px;
   height: 20px;
@@ -5148,39 +5217,39 @@ form fieldset input.form-text {
   position: relative;
   clear: left;
 }
-/* line 535, ../sass/screen.scss */
+/* line 536, ../sass/screen.scss */
 #nuovo-commento ul li a .first-level {
   top: 20px;
   left: -10px;
 }
-/* line 540, ../sass/screen.scss */
+/* line 541, ../sass/screen.scss */
 #nuovo-commento ul li a .second-level {
   top: 20px;
   left: 50px;
 }
-/* line 545, ../sass/screen.scss */
+/* line 546, ../sass/screen.scss */
 #nuovo-commento ul li a .third-level {
   top: 20px;
   left: 110px;
 }
-/* line 550, ../sass/screen.scss */
+/* line 551, ../sass/screen.scss */
 #nuovo-commento ul li a .commento {
   margin-bottom: 2px;
   margin-right: 0;
   background-color: #eafdfc;
   float: left;
 }
-/* line 557, ../sass/screen.scss */
+/* line 558, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num {
   background: #0cc4c4 !important;
   float: left;
 }
-/* line 560, ../sass/screen.scss */
+/* line 561, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num p {
   font-weight: bold !important;
   padding: 4px 0 !important;
 }
-/* line 565, ../sass/screen.scss */
+/* line 566, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date {
   font-family: 'Droid Sans';
   font-size: 11px;
@@ -5188,29 +5257,29 @@ form fieldset input.form-text {
   color: #0cc4c4;
   margin-top: 20px;
 }
-/* line 571, ../sass/screen.scss */
+/* line 572, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date .mese {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 579, ../sass/screen.scss */
+/* line 580, ../sass/screen.scss */
 #nuovo-commento ul li a .spacer-comments {
   clear: both;
 }
-/* line 584, ../sass/screen.scss */
+/* line 585, ../sass/screen.scss */
 #nuovo-commento ul li:first-child {
   clear: both;
 }
-/* line 592, ../sass/screen.scss */
+/* line 593, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .angolo, #nuovo-commento ul li a:active .angolo {
   background: url('../images/angolo-commenti-hover-sx.png?1347467520') repeat left top;
 }
-/* line 595, ../sass/screen.scss */
+/* line 596, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .commento, #nuovo-commento ul li a:active .commento {
   background-color: #c9f7f5;
 }
 
-/* line 605, ../sass/screen.scss */
+/* line 606, ../sass/screen.scss */
 .primo-livello {
   display: inline;
   float: left;
@@ -5218,7 +5287,7 @@ form fieldset input.form-text {
   margin-right: 10px;
   width: 580px;
 }
-/* line 607, ../sass/screen.scss */
+/* line 608, ../sass/screen.scss */
 .primo-livello .text {
   display: inline;
   float: left;
@@ -5228,7 +5297,7 @@ form fieldset input.form-text {
   margin-left: 0;
 }
 
-/* line 616, ../sass/screen.scss */
+/* line 617, ../sass/screen.scss */
 .secondo-livello {
   position: relative;
   left: 60px;
@@ -5238,7 +5307,7 @@ form fieldset input.form-text {
   margin-right: 10px;
   width: 520px;
 }
-/* line 621, ../sass/screen.scss */
+/* line 622, ../sass/screen.scss */
 .secondo-livello .text {
   display: inline;
   float: left;
@@ -5248,7 +5317,7 @@ form fieldset input.form-text {
   margin-left: 0;
 }
 
-/* line 627, ../sass/screen.scss */
+/* line 628, ../sass/screen.scss */
 .terzo-livello {
   position: relative;
   left: 120px;
@@ -5258,7 +5327,7 @@ form fieldset input.form-text {
   margin-right: 10px;
   width: 460px;
 }
-/* line 631, ../sass/screen.scss */
+/* line 632, ../sass/screen.scss */
 .terzo-livello .text {
   display: inline;
   float: left;
@@ -5268,7 +5337,7 @@ form fieldset input.form-text {
   margin-left: 0;
 }
 
-/* line 639, ../sass/screen.scss */
+/* line 640, ../sass/screen.scss */
 #barra {
   display: inline;
   float: left;
@@ -5277,7 +5346,7 @@ form fieldset input.form-text {
   width: 280px;
   margin-right: 0;
 }
-/* line 642, ../sass/screen.scss */
+/* line 643, ../sass/screen.scss */
 #barra .list {
   display: inline;
   float: left;
@@ -5287,7 +5356,7 @@ form fieldset input.form-text {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 646, ../sass/screen.scss */
+/* line 647, ../sass/screen.scss */
 #barra .list .icon-cat {
   width: 44px;
   height: 8px;
@@ -5296,7 +5365,7 @@ form fieldset input.form-text {
   float: left;
   background: url('../images/diagonal-white-bg.png?1347467520') repeat left top;
 }
-/* line 654, ../sass/screen.scss */
+/* line 655, ../sass/screen.scss */
 #barra .list ul {
   display: inline;
   float: left;
@@ -5308,7 +5377,7 @@ form fieldset input.form-text {
   style-type-position: inside;
   padding-top: 3px;
 }
-/* line 661, ../sass/screen.scss */
+/* line 662, ../sass/screen.scss */
 #barra .list li {
   height: auto;
   background: none;
@@ -5320,12 +5389,12 @@ form fieldset input.form-text {
   margin: 0 0 12px 0;
   padding: 0;
 }
-/* line 671, ../sass/screen.scss */
+/* line 672, ../sass/screen.scss */
 #barra .list li a {
   text-decoration: none;
   color: #49ada8;
 }
-/* line 676, ../sass/screen.scss */
+/* line 677, ../sass/screen.scss */
 #barra .list .categorie {
   display: inline;
   float: left;
@@ -5337,7 +5406,7 @@ form fieldset input.form-text {
   background: url('../images/diagonal-white-bg.png?1347467520') repeat left top;
   float: left;
 }
-/* line 684, ../sass/screen.scss */
+/* line 685, ../sass/screen.scss */
 #barra .list .categorie .icon {
   width: 36px;
   height: 32px;
@@ -5345,7 +5414,7 @@ form fieldset input.form-text {
   float: left;
   margin: 8px;
 }
-/* line 691, ../sass/screen.scss */
+/* line 692, ../sass/screen.scss */
 #barra .list .categorie h1 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -5356,7 +5425,7 @@ form fieldset input.form-text {
   float: left;
   margin-top: 11px;
 }
-/* line 704, ../sass/screen.scss */
+/* line 705, ../sass/screen.scss */
 #barra .image {
   display: inline;
   float: left;
@@ -5369,7 +5438,7 @@ form fieldset input.form-text {
   background-color: #00ffb0;
   margin-top: 10px;
 }
-/* line 713, ../sass/screen.scss */
+/* line 714, ../sass/screen.scss */
 #barra .ultime-lezioni {
   background: #f7fcfb;
   border: 1px solid #daede9;
@@ -5382,7 +5451,7 @@ form fieldset input.form-text {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 720, ../sass/screen.scss */
+/* line 721, ../sass/screen.scss */
 #barra .ultime-lezioni h3 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -5392,7 +5461,7 @@ form fieldset input.form-text {
   color: #49ada8;
   padding: 12px;
 }
-/* line 731, ../sass/screen.scss */
+/* line 732, ../sass/screen.scss */
 #barra .ultime-lezioni ul {
   list-style: none;
   display: inline;
@@ -5405,7 +5474,7 @@ form fieldset input.form-text {
   margin-right: 0;
   margin: 0px;
 }
-/* line 741, ../sass/screen.scss */
+/* line 742, ../sass/screen.scss */
 #barra .ultime-lezioni .simbolo {
   width: 44px;
   margin-top: 3px;
@@ -5414,7 +5483,7 @@ form fieldset input.form-text {
   background-color: white;
   height: 20px;
 }
-/* line 750, ../sass/screen.scss */
+/* line 751, ../sass/screen.scss */
 #barra .ultime-lezioni .title {
   display: inline;
   float: left;
@@ -5424,14 +5493,14 @@ form fieldset input.form-text {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 755, ../sass/screen.scss */
+/* line 756, ../sass/screen.scss */
 #barra .ultime-lezioni .title h4 {
   color: white;
   font-weight: 400;
   font-size: 13px;
   font-family: 'Droid Sans';
 }
-/* line 762, ../sass/screen.scss */
+/* line 763, ../sass/screen.scss */
 #barra .ultime-lezioni .title p {
   font-weight: bold;
   font-size: 10px;
