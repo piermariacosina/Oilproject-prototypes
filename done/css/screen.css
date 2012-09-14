@@ -14,7 +14,7 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 
 /* line 85, ../sass/screen.scss */
 div.corner.left {
-  background: url('../images/corner-left.png?1347554697') no-repeat left top;
+  background: url('../images/corner-left.png?1347628549') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-left: -6px;
@@ -23,7 +23,7 @@ div.corner.left {
 }
 /* line 92, ../sass/screen.scss */
 div.corner.right {
-  background: url('../images/corner-right.png?1347554697') no-repeat left top;
+  background: url('../images/corner-right.png?1347628549') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-right: -6px;
@@ -32,7 +32,7 @@ div.corner.right {
 }
 /* line 99, ../sass/screen.scss */
 div.corner.left.striped {
-  background: url('../images/corner-left-striped.png?1347554697') no-repeat left top;
+  background: url('../images/corner-left-striped.png?1347628549') no-repeat left top;
   height: 21px;
   width: 20px;
   margin-left: -20px;
@@ -1461,7 +1461,7 @@ a.btn.dark:visited {
   margin-left: 0;
   margin-right: 0;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso.png?1347554697') no-repeat left top;
+  background: url('../images/crea-il-tuo-corso.png?1347628549') no-repeat left top;
   position: relative;
   position: relative;
   left: -120px;
@@ -1484,7 +1484,7 @@ a.btn.dark:visited {
   top: 20px;
   width: 50%;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso-bg.png?1347554697') repeat-x left top;
+  background: url('../images/crea-il-tuo-corso-bg.png?1347628549') repeat-x left top;
 }
 
 /* line 4, ../sass/partials/_bottone-segui-utente.scss */
@@ -1510,7 +1510,7 @@ a.btn.dark:visited {
 /* line 5, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato {
   position: relative;
-  background: url('../images/background-corso-iniziato.png?1347610561') no-repeat left top;
+  background: url('../images/background-corso-iniziato.png?1347628549') no-repeat left top;
   width: 330px;
   height: 247px;
   display: inline;
@@ -1586,7 +1586,7 @@ a.btn.dark:visited {
 }
 /* line 76, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .caricamento {
-  background: url('../images/box-caricamento.png?1347554697') no-repeat left top;
+  background: url('../images/box-caricamento.png?1347628549') no-repeat left top;
   width: 223px;
   height: 32px;
   margin-top: 137px;
@@ -1614,7 +1614,7 @@ a.btn.dark:visited {
 .corso {
   width: 638px;
   height: 209px;
-  background: url('../images/box-corso-categoria.png?1347554697') no-repeat left top;
+  background: url('../images/box-corso-categoria.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
@@ -1756,12 +1756,12 @@ a.btn.dark:visited {
   margin-right: 20px;
   height: 2px;
   clear: both;
-  background: url('../images/divisore-2.png?1347554697');
+  background: url('../images/divisore-2.png?1347628549');
 }
 
 /* line 1, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio {
-  background: url('../images/box-singolo-esercizio.png?1347554697') no-repeat left top;
+  background: url('../images/box-singolo-esercizio.png?1347628549') no-repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -1941,15 +1941,65 @@ a.btn.dark:visited {
 }
 
 /* line 1, ../sass/partials/_breadcrumb.scss */
-#breadcrumbs {
-  background: url('../images/breadcrumb.png?1347554697') no-repeat left top;
+ul.breadcrumb-list {
+  list-style: none;
+}
+/* line 3, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list a {
+  text-decoration: none;
+  color: #49ada8;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+ul.breadcrumb-list a:visited {
+  color: #49ada8;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+ul.breadcrumb-list a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+ul.breadcrumb-list a:active {
+  color: #49ada8;
+}
+/* line 7, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-intro {
+  background: url('../images/breadcrumb-intro.png?1347628549') no-repeat left top;
+  width: 114px;
+  height: 31px;
+  float: left;
+}
+/* line 13, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-intro .bread-intro {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-left: 14px;
+  float: left;
+}
+/* line 22, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-intro .bread-intro img {
+  float: left;
+  margin-right: 3px;
+}
+/* line 31, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-intro span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
+/* line 41, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs {
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
   height: 31px;
-  position: absolute;
-  margin-left: 40px;
+  float: left;
 }
-/* line 8, ../sass/partials/_breadcrumb.scss */
-#breadcrumbs .bread {
+/* line 47, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs .bread {
   color: #49ada8;
   font-family: 'Droid Sans';
   font-size: 10px;
@@ -1957,12 +2007,159 @@ a.btn.dark:visited {
   margin-top: 5px;
   margin-left: 13px;
 }
-/* line 19, ../sass/partials/_breadcrumb.scss */
-#breadcrumbs span {
+/* line 58, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs span {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
   float: left;
+}
+/* line 69, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-2 {
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
+  width: 101px;
+  height: 31px;
+  float: left;
+}
+/* line 75, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-2 .bread-2 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+/* line 86, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-2 span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
+/* line 97, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-3 {
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
+  width: 101px;
+  height: 31px;
+  float: left;
+}
+/* line 103, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-3 .bread-3 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+/* line 114, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-3 span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
+
+/* line 125, ../sass/partials/_breadcrumb.scss */
+#numero-like-dislike {
+  float: left;
+  margin-top: -10px;
+  margin-left: 17px;
+}
+
+/* line 132, ../sass/partials/_breadcrumb.scss */
+#numbers-likes-breadcrumbs {
+  margin-top: 10px;
+  background: url('../images/background-likes2.png?1347628549') no-repeat left top;
+  width: 67px;
+  height: 32px;
+  position: absolute;
+  margin-left: 72px;
+}
+/* line 141, ../sass/partials/_breadcrumb.scss */
+#numbers-likes-breadcrumbs .likes-bread {
+  float: left;
+  margin-bottom: 12px;
+}
+/* line 145, ../sass/partials/_breadcrumb.scss */
+#numbers-likes-breadcrumbs .likes-bread .icona-likes-bread {
+  background: white;
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+}
+/* line 153, ../sass/partials/_breadcrumb.scss */
+#numbers-likes-breadcrumbs .number-like-bread {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: #49ada8;
+  float: left;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+/* line 169, ../sass/partials/_breadcrumb.scss */
+#numbers-dislikes-breadcrumbs {
+  margin-top: 10px;
+  background: url('../images/background-likes2.png?1347628549') no-repeat left top;
+  width: 67px;
+  height: 32px;
+  position: absolute;
+}
+/* line 176, ../sass/partials/_breadcrumb.scss */
+#numbers-dislikes-breadcrumbs .dislikes-bread {
+  float: left;
+}
+/* line 178, ../sass/partials/_breadcrumb.scss */
+#numbers-dislikes-breadcrumbs .dislikes-bread .icona-dislikes-bread {
+  background: white;
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 4px;
+}
+/* line 186, ../sass/partials/_breadcrumb.scss */
+#numbers-dislikes-breadcrumbs .number-dislike-bread {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: #49ada8;
+  float: left;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+/* line 201, ../sass/partials/_breadcrumb.scss */
+.lezione-seguita {
+  float: right;
+  margin-right: 170px;
+}
+/* line 204, ../sass/partials/_breadcrumb.scss */
+.lezione-seguita span {
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 11px;
+  font-size: 10px;
+  margin-left: 5px;
+  float: left;
+  margin-top: 2px;
+}
+/* line 216, ../sass/partials/_breadcrumb.scss */
+.lezione-seguita .ok {
+  width: 19px;
+  height: 19px;
+  background: #057c79;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  border-radius: 10px;
+  padding: 3px 0 0 3px;
+  margin-top: 4px;
 }
 
 /* line 1, ../sass/partials/_commenti.scss */
@@ -2006,7 +2203,7 @@ ul.commenti .box_number .number_c {
 }
 /* line 36, ../sass/partials/_commenti.scss */
 ul.commenti li {
-  background: url('../images/background.png?1347554697') no-repeat left top;
+  background: url('../images/background.png?1347628549') no-repeat left top;
   overflow: hidden;
   *zoom: 1;
   margin: 3px;
@@ -2100,7 +2297,7 @@ ul.commenti li .text p.data_commento span {
 .container-corsi li a .box-corso {
   width: 312px;
   height: 363px;
-  background: url('../images/corsi-bg.png?1347554697') no-repeat left top;
+  background: url('../images/corsi-bg.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
 }
@@ -2214,11 +2411,11 @@ ul.commenti li .text p.data_commento span {
 }
 /* line 132, ../sass/partials/_container-corsi.scss */
 .container-corsi li a:hover .box-corso, .container-corsi li a:visited .box-corso {
-  background: url('../images/corsi-bg-hover.png?1347554697') no-repeat left top;
+  background: url('../images/corsi-bg-hover.png?1347628549') no-repeat left top;
 }
 /* line 141, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso {
-  background: url('../images/corsi-bg-linguetta.png?1347554697') no-repeat left top;
+  background: url('../images/corsi-bg-linguetta.png?1347628549') no-repeat left top;
   position: relative;
   width: 330px;
 }
@@ -2248,7 +2445,7 @@ ul.commenti li .text p.data_commento span {
 }
 /* line 166, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a:hover .box-corso, .container-corsi li:first-child a:visited .box-corso {
-  background: url('../images/corsi-bg-linguetta-hover.png?1347554697') no-repeat left top;
+  background: url('../images/corsi-bg-linguetta-hover.png?1347628549') no-repeat left top;
 }
 /* line 172, ../sass/partials/_container-corsi.scss */
 .container-corsi li:last-child {
@@ -2338,7 +2535,7 @@ ul.commenti li .text p.data_commento span {
 }
 /* line 73, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video, .container-lezioni .box-video-spacer a:visited .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 75, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video h1, .container-lezioni .box-video-spacer a:visited .box-video h1 {
@@ -2362,7 +2559,7 @@ ul.commenti li .text p.data_commento span {
 .container-lezioni .list-lezioni .categorie {
   width: 231px;
   height: 49px;
-  background: url('../images/diagonal-white-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin-right: 3px;
   margin-left: 0;
 }
@@ -2555,7 +2752,7 @@ ul.commenti li .text p.data_commento span {
 }
 /* line 267, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione {
-  background: url('../images/diagonal-azzurro-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 271, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover, .container-lezioni .lezioni a:visited {
@@ -2635,7 +2832,7 @@ ul.commenti li .text p.data_commento span {
   left: -12px;
   width: 18px;
   height: 18px;
-  background: url('../images/corner-left-big.png?1347574738') no-repeat left top;
+  background: url('../images/corner-left-big.png?1347628549') no-repeat left top;
 }
 /* line 26, ../sass/partials/_contenuto-singolo.scss */
 .lezione h4 {
@@ -2849,7 +3046,7 @@ ul.commenti li .text p.data_commento span {
 .corsi-creati .box-corso {
   width: 320px;
   height: 290px;
-  background: url('../images/background-profilo-categoria.png?1347613553') no-repeat left top;
+  background: url('../images/background-profilo-categoria.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
@@ -3019,7 +3216,7 @@ ul.commenti li .text p.data_commento span {
   margin-right: 10px;
   width: 400px;
   height: 285px;
-  background: url('../images/home-video-linguetta.png?1347554697') no-repeat left top;
+  background: url('../images/home-video-linguetta.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   overflow: visible;
@@ -3199,7 +3396,7 @@ ul.commenti li .text p.data_commento span {
 }
 /* line 74, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:hover .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 79, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:visited .box-video {
@@ -3225,7 +3422,7 @@ footer#footer {
 /* line 4, ../sass/partials/_footer.scss */
 footer#footer .barra-top {
   position: relative;
-  background: url('../images/diagonal-dark-green.png?1347554697') repeat left top;
+  background: url('../images/diagonal-dark-green.png?1347628549') repeat left top;
   height: 10px;
   border-top: 1px solid #8be5e1;
 }
@@ -3369,7 +3566,7 @@ footer#footer .barra-bottom {
   margin-top: 30px;
   clear: both;
   position: relative;
-  background: url('../images/diagonal-dark-green.png?1347554697') repeat left top;
+  background: url('../images/diagonal-dark-green.png?1347628549') repeat left top;
   overflow: hidden;
   *zoom: 1;
 }
@@ -3389,7 +3586,7 @@ footer#footer .barra-bottom .creative-commons h1 {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/cc.png?1347554697');
+  background-image: url('../images/cc.png?1347628549');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 130px;
@@ -3577,14 +3774,14 @@ footer#footer .barra-bottom .footer-menu a:active {
 }
 /* line 227, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu a:hover .icon {
-  background: url('../images/diagonal-green-scuro-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
 }
 /* line 231, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 15px;
   margin-right: 15px;
   height: 8px;
-  background: url('../images/diagonal-green-darker.png?1347554697') repeat left top;
+  background: url('../images/diagonal-green-darker.png?1347628549') repeat left top;
   margin: auto;
 }
 
@@ -3702,7 +3899,7 @@ header#main section#menu .contenitore nav ul li a span {
 /* line 66, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li .underline {
   height: 8px;
-  background: url('../images/diagonal-white-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 18px;
 }
 /* line 76, ../sass/partials/_header.scss */
@@ -3754,7 +3951,7 @@ header#main section#menu .contenitore #search input#search-submit {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/search.png?1347554697');
+  background-image: url('../images/search.png?1347628549');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 28px;
@@ -3795,7 +3992,7 @@ header#main section#dashboard-loggedout #vision {
   float: left;
   width: 870px;
   height: 69px;
-  background: url('../images/diagonal-white-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
 }
 /* line 143, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p {
@@ -3821,7 +4018,7 @@ header#main section#dashboard-loggedout #vision p b, header#main section#dashboa
 }
 /* line 159, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision .icon {
-  background: url('../images/icon-vision.png?1347554697') repeat left top;
+  background: url('../images/icon-vision.png?1347628549') repeat left top;
   width: 62px;
   height: 45px;
   margin-top: 12px;
@@ -3971,7 +4168,7 @@ header#main section#dashboard-loggedin .logout p {
   width: 100%;
   height: 400px;
   margin-top: 10px;
-  background: url('../images/diagonal-green-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-green-bg.png?1347628549') repeat left top;
   margin-left: 10px;
   padding-left: 10px;
 }
@@ -4196,7 +4393,7 @@ header#main section#dashboard-loggedin .logout p {
 #prefooter .categoria-container .categoria {
   width: 108px;
   height: 31px;
-  background: url('../images/diagonal-white-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 0 10px 0;
 }
 /* line 19, ../sass/partials/_prefooter.scss */
@@ -4298,7 +4495,7 @@ header#main section#dashboard-loggedin .logout p {
 
 /* line 4, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente {
-  background: url('../images/background-profilo.png?1347554697') no-repeat left top;
+  background: url('../images/background-profilo.png?1347628549') no-repeat left top;
   width: 618px;
   height: 371px;
   position: absolute;
@@ -4415,7 +4612,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 111, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #banner {
-  background: url('../images/banner-premi.png?1347554697') no-repeat left top;
+  background: url('../images/banner-premi.png?1347628549') no-repeat left top;
   width: 115px;
   height: 121px;
   margin-left: 511px;
@@ -4453,14 +4650,14 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 145, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .facebook {
-  background: url('../images/icona-facebook.png?1347554697') no-repeat left top;
+  background: url('../images/icona-facebook.png?1347628549') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
 }
 /* line 153, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .twitter {
-  background: url('../images/icona-twitter.png?1347554697') no-repeat left top;
+  background: url('../images/icona-twitter.png?1347628549') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
@@ -4542,7 +4739,7 @@ header#main section#dashboard-loggedin .logout p {
 /* line 232, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-likes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347557580') no-repeat left top;
+  background: url('../images/background-likes.png?1347628549') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -4577,7 +4774,7 @@ header#main section#dashboard-loggedin .logout p {
 /* line 263, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-dislikes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347557580') no-repeat left top;
+  background: url('../images/background-likes.png?1347628549') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -4611,7 +4808,7 @@ header#main section#dashboard-loggedin .logout p {
 
 /* line 299, ../sass/partials/_profilo-mio-utente.scss */
 .divisore-profilo {
-  background: url('../images/divisore-profilo.png?1347554697') no-repeat left top;
+  background: url('../images/divisore-profilo.png?1347628549') no-repeat left top;
   width: 600px;
   height: 2px;
   margin-top: 164px;
@@ -4660,7 +4857,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 46, ../sass/partials/_sidebar-help.scss */
 .titolo-sidebar.exclamation {
-  background: url('../images/icona-help.png?1347554697') no-repeat;
+  background: url('../images/icona-help.png?1347628549') no-repeat;
 }
 /* line 52, ../sass/partials/_sidebar-help.scss */
 .titolo-sidebar p {
@@ -5012,7 +5209,7 @@ div.row {
 
 /* line 5, ../sass/partials/_titolo-registrati.scss */
 #titolo-registrati {
-  background: url('../images/diagonal-green-scuro-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
   height: 400px;
   height: 400px;
   width: 620px;
@@ -5061,7 +5258,7 @@ div.row {
   margin-right: 10px;
   width: 280px;
   height: 31px;
-  background: url('../images/diagonal-white-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 0 10px 0;
 }
 /* line 10, ../sass/partials/_sidebar-sottocategorie.scss */
@@ -5134,7 +5331,7 @@ div.row {
 .sottocategorie-container ul li a span {
   width: 46px;
   height: 7px;
-  background: url('../images/grid-sottocategorie.png?1347557580');
+  background: url('../images/grid-sottocategorie.png?1347628549');
   display: inline-block;
   margin-right: 4px;
 }
@@ -5146,13 +5343,13 @@ div.row {
 .sottocategorie-container ul li a:hover span, .sottocategorie-container ul li a:visited span {
   width: 46px;
   height: 7px;
-  background: url('../images/grid-sottocategorie-dark.png?1347557580');
+  background: url('../images/grid-sottocategorie-dark.png?1347628549');
   display: inline-block;
 }
 
 /* line 1, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio {
-  background: url('../images/box-singolo-esercizio.png?1347554697') no-repeat left top;
+  background: url('../images/box-singolo-esercizio.png?1347628549') no-repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -5366,7 +5563,7 @@ h4.titoli_sezioni {
 /* line 5, ../sass/partials/_titoli-edit.scss */
 .titoli-edit {
   margin-top: 10px;
-  background: url('../images/diagonal-green-scuro-bg.png?1347554697') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;

@@ -1,9 +1,48 @@
+ul.breadcrumb-list{
+	list-style: none;
+a{
+	@include link-over-stripe;
+}
+
+#breadcrumbs-intro{
+	background: image-url("breadcrumb-intro.png") no-repeat left top;
+	width: 114px;
+	height: 31px;
+	float: left;
+	
+	 .bread-intro{
+	   color:$azzurro-title;
+	   font-family: 'Droid Sans';
+	   font-size: 10px;
+	   line-height: 10px;
+	   margin-top: 5px;
+	   margin-left: 14px;
+	   float: left;
+	   
+	   img{
+	   float: left;
+	   margin-right: 3px;
+	   
+	   }
+	   
+	   
+	   	 }
+	   	 
+	   	 span{
+	   	 	font-weight: bold;
+	   	 	text-transform: uppercase;
+	   	 	position: relative;
+	   	 	float: left;
+	   	 }
+	   	 
+}
+
+
 #breadcrumbs{
 	background: image-url("breadcrumb.png") no-repeat left top;
 	width: 101px;
 	height: 31px;
-	position: absolute;
-    margin-left: 40px;
+	float: left;
 	
 	 .bread{
 	   color:$azzurro-title;
@@ -24,4 +63,175 @@
 	   	 }
 	   	 
 }
+
+
+
+#breadcrumbs-2{
+	background: image-url("breadcrumb.png") no-repeat left top;
+	width: 101px;
+	height: 31px;
+	float: left;
+	
+	.bread-2{
+	   color:$azzurro-title;
+	   font-family: 'Droid Sans';
+	   font-size: 10px;
+	   line-height: 10px;
+	   margin-top: 5px;
+	   margin-left: 13px;
+	   
+	   
+	   	 }
+	   	 
+	   	 span{
+	   	 	font-weight: bold;
+	   	 	text-transform: uppercase;
+	   	 	position: relative;
+	   	 	float: left;
+	   	 }
+	   	 
+}
+
+
+
+#breadcrumbs-3{
+	background: image-url("breadcrumb.png") no-repeat left top;
+	width: 101px;
+	height: 31px;
+	float: left;
+	
+	.bread-3{
+	   color:$azzurro-title;
+	   font-family: 'Droid Sans';
+	   font-size: 10px;
+	   line-height: 10px;
+	   margin-top: 5px;
+	   margin-left: 13px;
+	   
+	   
+	   	 }
+	   	 
+	   	 span{
+	   	 	font-weight: bold;
+	   	 	text-transform: uppercase;
+	   	 	position: relative;
+	   	 	float: left;
+	   	 }
+	   	 
+}
+
+}
+
+#numero-like-dislike{
+	float: left;
+	margin-top: -10px;
+	margin-left: 17px;
+}
+
+
+#numbers-likes-breadcrumbs{
+	margin-top: 10px;
+	background: image-url("background-likes2.png") no-repeat left top;
+	width: 67px;
+	height: 32px;
+	position: absolute;
+	margin-left: 72px;
+	
+	
+	   .likes-bread{
+	   	float: left;
+	   	margin-bottom: 12px;
+	   
+	   	.icona-likes-bread{
+	   	    background: $white;
+	   	    padding: 4px;
+	   	    margin-top: 2px;
+	   	    margin-left: 4px;
+	   	}
+	   }
+	   
+	  .number-like-bread{
+	   	font-weight: normal;
+	   	font-size: 12px;
+	   	line-height: 13px;
+	   	color: $azzurro-title;
+	   	float: left;
+	   	margin-left: 6px;
+	   	margin-top: 4px;
+	   }
+	   
+	}
+
+
+
+
+	
+#numbers-dislikes-breadcrumbs{
+	margin-top: 10px;
+	background: image-url("background-likes2.png") no-repeat left top;
+	width: 67px;
+	height: 32px;
+	position: absolute;
+	
+	   .dislikes-bread{
+	   	float: left;
+	   		   	.icona-dislikes-bread{
+	   	    background: $white;
+	   	    padding: 4px;
+	   	    margin-top: 2px;
+	   	    margin-left: 4px;
+	   	}
+	   }
+	   
+	.number-dislike-bread{
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 13px;
+		color: $azzurro-title;
+		float: left;
+		margin-left: 6px;
+		margin-top: 4px;
+	}
+	
+	
+	
+}
+
+
+ .lezione-seguita{
+   	float: right;
+   	 margin-right: 170px;   	
+   	  span{
+   	  	color: $light-green;
+   	  	font-family: 'Droid Sans';
+   	  	font-weight: bold;
+   	  	text-transform: uppercase;
+   	  	line-height: 11px;
+   	  	font-size: 10px;
+   	  	margin-left: 5px;
+   	  	float: left;
+   	  	margin-top: 2px;
+   	  }
+   	   
+   	   .ok{
+   	   	width: 19px;
+   	   	height: 19px;
+   	   	background: $light-green;
+   	   	color: white;
+   	   	font-weight: bold;
+   	   	font-size: 12px;
+   	   	position: relative;
+   	   	float: left;
+   	   	border-radius: 10px;
+   	   	padding: 3px 0 0 3px;
+   	   	margin-top: 4px;
+   	   }
+   	   
+   	
+   	
+   }
+
+
+
+
 
