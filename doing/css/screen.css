@@ -4795,23 +4795,26 @@ form input[type="submit"] {
   margin-left: 3px;
 }
 /* line 81, ../sass/partials/_categoria-corso.scss */
-#descrizione form fieldset textarea {
+#descrizione form fieldset2 textarea {
   display: block;
-  width: 50%;
+  width: 400px;
   padding: 5px;
   font-size: 14px;
-  border: 1px solid #ddd;
-  background: #f5f5f5;
+  border: 2px solid #084936;
+  background: #eafdfc;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  border-radius: 4px;
+  border-radius: 10px;
+  margin-left: 30px;
+  float: left;
+  margin-left: 24px;
 }
-/* line 96, ../sass/partials/_categoria-corso.scss */
-#descrizione form fieldset textarea {
-  height: 150px;
+/* line 99, ../sass/partials/_categoria-corso.scss */
+#descrizione form fieldset2 textarea {
+  height: 200px;
 }
 
 /* line 1, ../sass/partials/_search.scss */
@@ -4881,14 +4884,17 @@ form.search fieldset input[type="submit"]:focus {
   -moz-border-radius: 4px;
   border-radius: 4px;
   color: #084936;
+  width: 93px;
+  border-radius: 10px;
+  text-transform: uppercase;
 }
-/* line 47, ../sass/partials/_immagine-copertina.scss */
+/* line 50, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina form input[type="submit"]:hover,
 #immagine-copertina form input[type="submit"]:focus {
   border: 1px solid #bbb;
-  background: red;
+  background: #e5e5e5;
 }
-/* line 52, ../sass/partials/_immagine-copertina.scss */
+/* line 55, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina .form-actions {
   margin-top: 10px;
   padding: 17px 4px 18px;
