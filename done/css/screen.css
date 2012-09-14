@@ -1509,12 +1509,33 @@ a.btn.dark:visited {
 
 /* line 5, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato {
-  position: absolute;
-  background: url('../images/background-corso-iniziato.png?1347554697') no-repeat left top;
+  position: relative;
+  background: url('../images/background-corso-iniziato.png?1347610561') no-repeat left top;
   width: 330px;
   height: 247px;
+  display: inline;
+  float: left;
+  margin: 10px 0 20px -10px;
 }
-/* line 12, ../sass/partials/_box-corso-iniziato.scss */
+/* line 14, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato a {
+  text-decoration: none;
+  color: #084936;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.box-corso-iniziato a:visited {
+  color: #084936;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.box-corso-iniziato a:hover {
+  color: #3d635f;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.box-corso-iniziato a:active {
+  color: #43d1b4;
+}
+/* line 18, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .number {
   width: 19px;
   height: 19px;
@@ -1529,7 +1550,7 @@ a.btn.dark:visited {
   padding: 1px 0 0 1px;
   margin-top: -2px;
 }
-/* line 28, ../sass/partials/_box-corso-iniziato.scss */
+/* line 34, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato h1 {
   font-size: 17px;
   color: #084936;
@@ -1542,7 +1563,7 @@ a.btn.dark:visited {
   margin-top: 21px;
   margin-left: 39px;
 }
-/* line 47, ../sass/partials/_box-corso-iniziato.scss */
+/* line 53, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato span {
   color: #084936;
   font-family: 'Droid Sans';
@@ -1550,7 +1571,7 @@ a.btn.dark:visited {
   font-size: 10px;
   margin-left: 5px;
 }
-/* line 55, ../sass/partials/_box-corso-iniziato.scss */
+/* line 61, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .numero-lezioni {
   position: relative;
   float: right;
@@ -1558,18 +1579,35 @@ a.btn.dark:visited {
   margin: 5px 0 8px 0;
   margin-right: 135px;
 }
-/* line 65, ../sass/partials/_box-corso-iniziato.scss */
+/* line 71, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .cover-corso {
   position: absolute;
   margin-left: 6px;
 }
-/* line 70, ../sass/partials/_box-corso-iniziato.scss */
+/* line 76, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .caricamento {
   background: url('../images/box-caricamento.png?1347554697') no-repeat left top;
   width: 223px;
   height: 32px;
   margin-top: 137px;
   margin-left: 36px;
+  position: relative;
+}
+/* line 83, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .caricamento .barra {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 97%;
+  background-color: #084936;
+}
+/* line 90, ../sass/partials/_box-corso-iniziato.scss */
+.box-corso-iniziato .caricamento .barra .percent {
+  color: white;
+  font-family: 'Droid Sans';
+  text-align: center;
+  margin-top: 2px;
 }
 
 /* line 1, ../sass/partials/_box-corso.scss */
