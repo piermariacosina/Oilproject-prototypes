@@ -86,12 +86,18 @@ footer#footer{
 				@include grid(8);
 
 				li{
-					height: 50px;
-					width: 50px;
-					background-color:orange;
+					
 					margin-right: 22px;
 					@include horizontal-list-item;
 					padding:0;
+					a{
+						height: 50px;
+						width: 50px;
+						background-color:orange;
+						display: block;
+						cursor: pointer;
+						
+					}
 					}
 				li:last-child{
 					margin-right: 0px;
@@ -122,7 +128,7 @@ footer#footer{
 
 				h1{
 					@include replace-text-with-dimensions("cc.png");
-					margin-bottom: 20px;
+					padding-bottom: 20px;
 				}
 
 				p{
@@ -141,7 +147,7 @@ footer#footer{
 					font-weight: bold;
 					font-size: 13px;
 					color: $text-green;
-					margin: 0;
+					margin: 10px 0;
 
 				}
 				}
@@ -182,6 +188,7 @@ footer#footer{
 
 			.footer-menu{
 				@include grid(10);
+				
 				@include omega;
 				text-align: center;
 				font-family: 'Droid Sans';
@@ -216,6 +223,10 @@ footer#footer{
 						 $default-text-shadow-spread: false;
 						 $default-text-shadow-color: $white;	       
 					 @include single-text-shadow();
+					 &:hover{
+					 	.icon{
+						 background: image-url("diagonal-green-scuro-bg.png") repeat left top;
+					 }}
 					}
 				.icon{
 					margin-left: 15px;

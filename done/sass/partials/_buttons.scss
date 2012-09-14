@@ -10,9 +10,21 @@
 	cursor: pointer;
 }
 
+@mixin link-fluo(){
+	text-decoration: none;
+	@include link-colors($fluo-blue, $azzurro-title, $light-petrolio, $light-petrolio);
+	cursor: pointer;
+}
+
 @mixin link-over-stripe(){
 	text-decoration: none;
-	@include link-colors( $azzurro-title, $fluo-blue,  $azzurro-title,  $azzurro-title);
+	@include link-colors($azzurro-title, $fluo-blue, $azzurro-title,$azzurro-title);
+	cursor: pointer;
+}
+
+@mixin link-white(){
+	text-decoration: none;
+	@include link-colors($white, $fluo-blue, $white,$white);
 	cursor: pointer;
 }
 

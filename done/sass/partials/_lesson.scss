@@ -1,7 +1,13 @@
 #lesson{
+	width: 100%;
 	height: 400px;
 	margin-top:10px;
 	background: image-url("diagonal-green-bg.png") repeat left top;
+	margin-left: 10px;
+	padding-left: 10px;
+	a{
+		@include link-over-fluo;
+	}
 	.infor{
 		@include grid(5);
 		height:100%;
@@ -22,8 +28,8 @@
 						padding-right: 10px;
 					}
 					&.center{
-						margin-left: 10px;
-						margin-right: 10px;
+						margin-left: 12px;
+						margin-right: 7px;
 						width: 80px;
 					}
 					&.last{
@@ -114,8 +120,9 @@
 		}
 	}
 	.foto{
-		@include grid(11);
-		margin-left:18px;
+		@include float-right;
+		width:640px;
+		margin-left:19px;
 		margin-right:0;
 		background-color: $fluo-blue-3;
 		height:100%;           

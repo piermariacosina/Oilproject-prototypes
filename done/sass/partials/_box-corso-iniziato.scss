@@ -3,11 +3,17 @@
 
 
 .box-corso-iniziato{
-	position: absolute;
+	position: relative;
 	background: image-url("background-corso-iniziato.png") no-repeat left top;
 	width: 330px;
 	height: 247px;
+	@include float-left;
+	margin: 10px 0 20px -10px;
 	
+	
+	a{
+		@include link-over-fluo;
+	}
 	
 	.number{
 		width: 19px;
@@ -73,6 +79,21 @@
 	   	height: 32px;
 	   	margin-top: 137px;
 	   	margin-left: 36px;
+	   	position: relative;
+	   	.barra{
+		   	position: absolute;
+		   	top:4px;
+		   	left: 4px;
+		   	bottom: 4px;
+		   	width: 97%;
+		   	background-color: $dark-green;
+		   	.percent{
+			   	color: $white;
+			   	font-family: 'Droid Sans';
+			   	text-align: center;
+			   	margin-top: 2px;
+		   	}
+	   	}
 	   }
 }	
 
