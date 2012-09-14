@@ -1510,7 +1510,7 @@ a.btn.dark:visited {
 /* line 5, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato {
   position: relative;
-  background: url('../images/background-corso-iniziato.png?1347628549') no-repeat left top;
+  background: url('../images/background-corso-iniziato.png?1347642999') no-repeat left top;
   width: 330px;
   height: 247px;
   display: inline;
@@ -1964,7 +1964,7 @@ ul.breadcrumb-list a:active {
 }
 /* line 7, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-intro {
-  background: url('../images/breadcrumb-intro.png?1347628549') no-repeat left top;
+  background: url('../images/breadcrumb-intro.png?1347659303') no-repeat left top;
   width: 114px;
   height: 31px;
   float: left;
@@ -2071,7 +2071,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 /* line 132, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background-likes2.png?1347628549') no-repeat left top;
+  background: url('../images/background-likes2.png?1347659303') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -2103,7 +2103,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 /* line 169, ../sass/partials/_breadcrumb.scss */
 #numbers-dislikes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background-likes2.png?1347628549') no-repeat left top;
+  background: url('../images/background-likes2.png?1347659303') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -2833,7 +2833,7 @@ ul.commenti-recenti li .text p.data_commento span {
   left: -12px;
   width: 18px;
   height: 18px;
-  background: url('../images/corner-left-big.png?1347628549') no-repeat left top;
+  background: url('../images/corner-left-big.png?1347642999') no-repeat left top;
 }
 /* line 26, ../sass/partials/_contenuto-singolo.scss */
 .lezione h4 {
@@ -3047,7 +3047,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .corsi-creati .box-corso {
   width: 320px;
   height: 290px;
-  background: url('../images/background-profilo-categoria.png?1347628549') no-repeat left top;
+  background: url('../images/background-profilo-categoria.png?1347642999') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
@@ -3803,12 +3803,12 @@ header#main p i {
 /* line 17, ../sass/partials/_header.scss */
 header#main a {
   text-decoration: none;
-  color: #4cc1b8;
+  color: white;
   cursor: pointer;
 }
 /* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 header#main a:visited {
-  color: #4cc1b8;
+  color: white;
 }
 /* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 header#main a:hover {
@@ -3816,18 +3816,18 @@ header#main a:hover {
 }
 /* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 header#main a:active {
-  color: #4cc1b8;
+  color: white;
 }
-/* line 20, ../sass/partials/_header.scss */
+/* line 23, ../sass/partials/_header.scss */
 header#main section#menu {
   background-color: #057c79;
 }
-/* line 22, ../sass/partials/_header.scss */
+/* line 25, ../sass/partials/_header.scss */
 header#main section#menu .contenitore {
   height: 65px;
   width: 980px !important;
 }
-/* line 25, ../sass/partials/_header.scss */
+/* line 28, ../sass/partials/_header.scss */
 header#main section#menu .contenitore h1 {
   width: 280px;
   float: left;
@@ -3839,7 +3839,7 @@ header#main section#menu .contenitore h1 {
   font-weight: 400;
   padding-left: 10px;
 }
-/* line 31, ../sass/partials/_header.scss */
+/* line 34, ../sass/partials/_header.scss */
 header#main section#menu .contenitore h1 a {
   color: white;
   font-family: "header11-webfont";
@@ -3847,16 +3847,16 @@ header#main section#menu .contenitore h1 a {
   font-size: 60px;
   line-height: 65px;
 }
-/* line 37, ../sass/partials/_header.scss */
+/* line 40, ../sass/partials/_header.scss */
 header#main section#menu .contenitore h1 a:hover {
   color: #00ffb0;
 }
-/* line 42, ../sass/partials/_header.scss */
+/* line 45, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav {
   display: inline;
   float: left;
 }
-/* line 44, ../sass/partials/_header.scss */
+/* line 47, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul {
   margin: 0;
   padding: 0;
@@ -3865,7 +3865,7 @@ header#main section#menu .contenitore nav ul {
   *zoom: 1;
   margin-left: 10px;
 }
-/* line 47, ../sass/partials/_header.scss */
+/* line 50, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li {
   list-style-image: none;
   list-style-type: none;
@@ -3896,11 +3896,11 @@ header#main section#menu .contenitore nav ul li:last-child {
 header#main section#menu .contenitore nav ul li.last {
   padding-right: 0;
 }
-/* line 57, ../sass/partials/_header.scss */
+/* line 60, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li:first-child {
   border-left: 1px solid white;
 }
-/* line 60, ../sass/partials/_header.scss */
+/* line 63, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a {
   position: absolute;
   top: 0;
@@ -3909,31 +3909,31 @@ header#main section#menu .contenitore nav ul li a {
   right: 0;
   display: block;
 }
-/* line 64, ../sass/partials/_header.scss */
+/* line 67, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a span {
   display: block;
   margin-top: 16px;
   color: white;
 }
-/* line 70, ../sass/partials/_header.scss */
+/* line 73, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a:hover .underline {
   height: 8px;
   background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
   margin: 0 18px;
 }
-/* line 75, ../sass/partials/_header.scss */
+/* line 78, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a:hover span {
   display: block;
   margin-top: 16px;
   color: #00ffb0;
 }
-/* line 83, ../sass/partials/_header.scss */
+/* line 86, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li .underline {
   height: 8px;
   background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 18px;
 }
-/* line 93, ../sass/partials/_header.scss */
+/* line 96, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search {
   width: 355px;
   height: 65px;
@@ -3941,17 +3941,17 @@ header#main section#menu .contenitore #search {
   float: left;
   border-right: 1px solid white;
 }
-/* line 99, ../sass/partials/_header.scss */
+/* line 102, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search form {
   display: inline;
   float: right;
   margin-right: 10px;
 }
-/* line 104, ../sass/partials/_header.scss */
+/* line 107, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search form label {
   display: none;
 }
-/* line 108, ../sass/partials/_header.scss */
+/* line 111, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search input#search-field {
   background-color: #027771;
   border: 1px #166059 solid;
@@ -3974,7 +3974,7 @@ header#main section#menu .contenitore #search input#search-field {
   margin-bottom: 0;
   padding: 0 0 0 10px;
 }
-/* line 123, ../sass/partials/_header.scss */
+/* line 126, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search input#search-submit {
   position: absolute;
   display: inline;
@@ -3992,14 +3992,14 @@ header#main section#menu .contenitore #search input#search-submit {
   margin-left: -33px;
   margin-top: 21px;
 }
-/* line 132, ../sass/partials/_header.scss */
+/* line 135, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search input#search-field:focus {
   outline: none;
   -webkit-box-shadow: inset 0 1px 1px #48ada8;
   -moz-box-shadow: inset 0 1px 1px #48ada8;
   box-shadow: inset 0 1px 1px #48ada8;
 }
-/* line 137, ../sass/partials/_header.scss */
+/* line 140, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #social {
   width: 89px;
   height: 65px;
@@ -4007,17 +4007,17 @@ header#main section#menu .contenitore #social {
   display: inline;
   float: left;
 }
-/* line 146, ../sass/partials/_header.scss */
+/* line 149, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout {
   height: 69px;
   margin-top: 1px;
   width: 980px !important;
 }
-/* line 147, ../sass/partials/_header.scss */
+/* line 150, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout.hide {
   display: none;
 }
-/* line 154, ../sass/partials/_header.scss */
+/* line 157, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision {
   display: inline;
   float: left;
@@ -4025,7 +4025,7 @@ header#main section#dashboard-loggedout #vision {
   height: 69px;
   background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
 }
-/* line 160, ../sass/partials/_header.scss */
+/* line 163, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p {
   color: #49ada8;
   display: inline;
@@ -4043,11 +4043,11 @@ header#main section#dashboard-loggedout #vision p {
   -moz-hyphens: auto;
   hyphens: auto;
 }
-/* line 170, ../sass/partials/_header.scss */
+/* line 173, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p b, header#main section#dashboard-loggedout #vision p i {
   color: #29776e;
 }
-/* line 176, ../sass/partials/_header.scss */
+/* line 179, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision .icon {
   background: url('../images/icon-vision.png?1347628549') repeat left top;
   width: 62px;
@@ -4057,7 +4057,7 @@ header#main section#dashboard-loggedout #vision .icon {
   display: inline;
   float: left;
 }
-/* line 186, ../sass/partials/_header.scss */
+/* line 189, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .login {
   display: inline;
   float: left;
@@ -4065,11 +4065,11 @@ header#main section#dashboard-loggedout .login {
   margin-left: 1px;
   background-color: #057c79;
 }
-/* line 192, ../sass/partials/_header.scss */
+/* line 195, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .login a:hover p {
   color: #00ffb0;
 }
-/* line 196, ../sass/partials/_header.scss */
+/* line 199, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .login p {
   font-size: 10px;
   font-weight: bold;
@@ -4078,17 +4078,17 @@ header#main section#dashboard-loggedout .login p {
   text-align: center;
   margin: 0px;
 }
-/* line 207, ../sass/partials/_header.scss */
+/* line 210, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin {
   height: 30px;
   background-color: #057c79;
   margin-top: 1px;
 }
-/* line 208, ../sass/partials/_header.scss */
+/* line 211, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin.hide {
   display: none;
 }
-/* line 215, ../sass/partials/_header.scss */
+/* line 218, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user {
   display: inline;
   float: left;
@@ -4097,7 +4097,7 @@ header#main section#dashboard-loggedin .user {
   width: 280px;
   padding-left: 10px;
 }
-/* line 218, ../sass/partials/_header.scss */
+/* line 221, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .avatar.small {
   width: 24px;
   height: 24px;
@@ -4107,18 +4107,18 @@ header#main section#dashboard-loggedin .user .avatar.small {
   float: left;
   margin-top: 2px;
 }
-/* line 226, ../sass/partials/_header.scss */
+/* line 229, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .avatar.small img {
   width: 24px;
   height: 24px;
 }
-/* line 232, ../sass/partials/_header.scss */
+/* line 235, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .name {
   float: left;
   margin-left: 8px;
   width: 80%;
 }
-/* line 236, ../sass/partials/_header.scss */
+/* line 239, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .name p {
   color: white;
   font-size: 15px;
@@ -4126,7 +4126,7 @@ header#main section#dashboard-loggedin .user .name p {
   line-height: 30px;
   height: 30px;
 }
-/* line 248, ../sass/partials/_header.scss */
+/* line 251, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .corsi {
   display: inline;
   float: left;
@@ -4135,7 +4135,7 @@ header#main section#dashboard-loggedin .corsi {
   width: 280px;
   margin-left: 0;
 }
-/* line 252, ../sass/partials/_header.scss */
+/* line 255, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .read-it-later {
   display: inline;
   float: left;
@@ -4145,7 +4145,7 @@ header#main section#dashboard-loggedin .read-it-later {
   margin-right: 0;
   width: 250px;
 }
-/* line 257, ../sass/partials/_header.scss */
+/* line 260, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .num {
   display: inline;
   float: left;
@@ -4159,7 +4159,7 @@ header#main section#dashboard-loggedin .num {
   border-radius: 17px;
   margin-top: 5px;
 }
-/* line 264, ../sass/partials/_header.scss */
+/* line 267, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .num p {
   padding-top: 2px;
   text-align: center;
@@ -4167,14 +4167,14 @@ header#main section#dashboard-loggedin .num p {
   font-size: 12px;
   font-weight: bold;
 }
-/* line 273, ../sass/partials/_header.scss */
+/* line 276, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .text {
   margin-left: 8px;
   display: inline;
   float: left;
   width: 80%;
 }
-/* line 277, ../sass/partials/_header.scss */
+/* line 280, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .text p {
   font-size: 10px;
   font-weight: bold;
@@ -4182,18 +4182,18 @@ header#main section#dashboard-loggedin .text p {
   height: 30px;
   text-transform: uppercase;
 }
-/* line 285, ../sass/partials/_header.scss */
+/* line 288, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .logout {
   display: inline;
   float: left;
   width: 99px;
   border-left: 1px solid white;
 }
-/* line 290, ../sass/partials/_header.scss */
+/* line 293, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .logout a:hover p {
   color: #00ffb0;
 }
-/* line 294, ../sass/partials/_header.scss */
+/* line 297, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .logout p {
   font-size: 10px;
   font-weight: bold;
@@ -4201,6 +4201,104 @@ header#main section#dashboard-loggedin .logout p {
   height: 30px;
   text-align: center;
   margin: 0px;
+}
+
+/* line 309, ../sass/partials/_header.scss */
+.notice-list {
+  display: inline;
+  float: left;
+  width: 253px;
+  position: relative;
+  margin-right: 0;
+}
+/* line 315, ../sass/partials/_header.scss */
+.notice-list .left-white {
+  background: url('../images/left-white.png?1347661070') no-repeat left top;
+  width: 2px;
+  height: 8px;
+  position: absolute;
+  left: 1px;
+  top: -8px;
+}
+/* line 323, ../sass/partials/_header.scss */
+.notice-list .right-white {
+  background: url('../images/right-white.png?1347661071') no-repeat left top;
+  width: 2px;
+  height: 8px;
+  position: absolute;
+  right: 8px;
+  top: -8px;
+}
+/* line 332, ../sass/partials/_header.scss */
+.notice-list.hide {
+  display: none;
+}
+/* line 335, ../sass/partials/_header.scss */
+.notice-list ul {
+  list-style: none;
+}
+/* line 339, ../sass/partials/_header.scss */
+.notice-list ul li {
+  margin: 0 10px 1px 3px;
+}
+/* line 342, ../sass/partials/_header.scss */
+.notice-list ul li a {
+  text-decoration: none;
+}
+/* line 348, ../sass/partials/_header.scss */
+.notice-list ul li a:hover .box-sidebar .icon {
+  color: #00ffb0;
+}
+/* line 351, ../sass/partials/_header.scss */
+.notice-list ul li a:hover .box-sidebar .posted-by {
+  color: #00ffb0;
+}
+/* line 357, ../sass/partials/_header.scss */
+.notice-list ul li a:visited .box-sidebar {
+  background-color: #43d1b4;
+}
+/* line 359, ../sass/partials/_header.scss */
+.notice-list ul li a:visited .box-sidebar .icon {
+  color: white;
+}
+/* line 362, ../sass/partials/_header.scss */
+.notice-list ul li a:visited .box-sidebar .posted-by {
+  color: white;
+}
+/* line 368, ../sass/partials/_header.scss */
+.notice-list ul li a .box-sidebar {
+  font-family: 'Droid Sans';
+  padding-left: 48px;
+  background-color: #057c79;
+}
+/* line 372, ../sass/partials/_header.scss */
+.notice-list ul li a .box-sidebar .icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin-left: -35px;
+  margin-top: 20px;
+  float: left;
+  font-size: 24px;
+  color: white;
+}
+/* line 382, ../sass/partials/_header.scss */
+.notice-list ul li a .box-sidebar h2 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  padding: 12px 0 0 0;
+  margin: 0;
+}
+/* line 391, ../sass/partials/_header.scss */
+.notice-list ul li a .box-sidebar .posted-by {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 13px;
+  color: #4cc1b8;
+  padding: 2px 0 12px 0;
+  margin: 0;
 }
 
 /* line 1, ../sass/partials/_lesson.scss */
@@ -4779,7 +4877,7 @@ header#main section#dashboard-loggedin .logout p {
 /* line 232, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-likes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347628549') no-repeat left top;
+  background: url('../images/background-likes.png?1347642999') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -4814,7 +4912,7 @@ header#main section#dashboard-loggedin .logout p {
 /* line 263, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-dislikes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347628549') no-repeat left top;
+  background: url('../images/background-likes.png?1347642999') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;

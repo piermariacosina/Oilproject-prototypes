@@ -15,7 +15,10 @@ p{
 
 
 	a{
-		@include link-over-dark;
+		text-decoration: none;
+		@include link-colors($white, $fluo-blue, $white, $white);
+		cursor: pointer;
+		
 	}
 	section#menu{
 		background-color: $light-green;
@@ -301,4 +304,101 @@ p{
 					}
 				}	 
 		}		
+}
+
+.notice-list{
+	@include float-left;
+	width: 253px;
+	position: relative;
+	@include omega;
+	
+	.left-white{
+		background: image-url("left-white.png") no-repeat left top;
+		width: image-width("left-white.png");
+		height: image-height("left-white.png");
+		position: absolute;
+		left: 1px;
+		top: -8px;
+	}
+	.right-white{
+		background: image-url("right-white.png") no-repeat left top;
+		width: image-width("right-white.png");
+		height: image-height("right-white.png");
+		position: absolute;
+		right: 8px;
+		top: -8px;
+	}
+	
+	&.hide{
+		display: none;
+	}
+	ul{
+		list-style: none;
+		
+
+	li{
+		margin: 0 10px 1px 3px;
+
+		a{
+			text-decoration: none;
+
+			&:hover{
+				.box-sidebar{
+
+					.icon{
+						color: $fluo-blue;
+					}
+					.posted-by{
+						color: $fluo-blue;
+					}
+				}
+			}
+			&:visited{
+				.box-sidebar{
+					background-color: $calm-green;
+					.icon{
+						color: white;
+					}
+					.posted-by{
+						color: white;
+					}
+				}
+			}
+
+			.box-sidebar{
+				font-family: 'Droid Sans';
+				padding-left: 48px;
+				background-color: $light-green;
+				.icon{
+					width: 25px;
+					height: 25px;
+					position: relative;
+					margin-left: -35px;
+					margin-top: 20px;
+					float: left;
+					font-size: 24px;
+					color: white;
+					}
+				h2{
+					
+					font-weight: normal;
+					font-size: 12px;
+					line-height: 15px;
+					color: white;
+					padding: 12px 0 0 0;
+					margin: 0;
+					}
+				.posted-by{
+					
+					font-weight: bold;
+					font-size: 10px;
+					line-height: 13px;
+					color: $light-petrolio;
+					padding: 2px 0 12px 0;
+					margin: 0;
+					}
+				}
+			}
+		}    
+	}
 }
