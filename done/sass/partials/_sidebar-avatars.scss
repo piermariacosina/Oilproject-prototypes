@@ -1,7 +1,7 @@
 .sidebar-avatars{
 	background-color: $light-grey;
 	border: 1px solid $grey;
-	@include grid(5);
+	
 	@include omega;
 	@include alpha;
 	height: auto;

@@ -5601,15 +5601,359 @@ h4.titoli_sezioni {
   margin-bottom: 30px;
 }
 
+/* line 1, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible {
+  margin-top: 20px;
+  overflow: hidden;
+  *zoom: 1;
+  background: #f7fcfb;
+  border: 1px solid #daede9;
+  padding: 0 4px;
+}
+/* line 7, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible h3 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  padding: 12px;
+}
+/* line 21, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible a {
+  text-decoration: none;
+}
+/* line 23, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible a .box-video {
+  width: 170px;
+  height: 167px;
+  background: #057c79;
+  font-family: 'Droid Sans';
+  padding: 8px;
+  float: left;
+  margin-right: 1px;
+}
+/* line 31, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible a .box-video .img-video {
+  width: 171px;
+  height: 100px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  -moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+}
+/* line 40, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible a .box-video .icon {
+  width: 25px;
+  height: 25px;
+  color: white;
+  float: left;
+  margin: 8px 0 0 4px;
+}
+/* line 47, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible a .box-video h1 {
+  width: 130px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  padding-left: 40px;
+  padding-top: 6px;
+}
+/* line 56, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible a .box-video .posted-by {
+  width: 130px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #4cc1b8;
+  padding-left: 40px;
+}
+/* line 68, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .box-video-spacer a:hover, .container-lezioni-flexible .box-video-spacer a:visited {
+  text-decoration: none;
+}
+/* line 70, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .box-video-spacer a:hover .box-video, .container-lezioni-flexible .box-video-spacer a:visited .box-video {
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
+}
+/* line 72, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .box-video-spacer a:hover .box-video h1, .container-lezioni-flexible .box-video-spacer a:visited .box-video h1 {
+  color: #057c79;
+}
+/* line 75, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .box-video-spacer a:hover .box-video .posted-by, .container-lezioni-flexible .box-video-spacer a:visited .box-video .posted-by {
+  color: #084936;
+}
+
+/* line 86, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .list-lezioni {
+  display: inline;
+  float: left;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0 0 4px 0;
+  list-style-type: none;
+}
+/* line 92, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .list-lezioni .categoria {
+  width: 207px;
+  height: 49px;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
+  margin-right: 3px;
+  margin-left: 0;
+}
+/* line 98, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .list-lezioni .categoria .icon {
+  width: 36px;
+  height: 32px;
+  color: #49ada8;
+  float: left;
+  font-size: 34px;
+  margin: 0 8px 0 8px;
+}
+/* line 106, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .list-lezioni .categoria h1 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13px;
+  text-transform: uppercase;
+  float: left;
+  margin-top: 11px;
+}
+/* line 115, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .list-lezioni .categoria h1 a {
+  text-decoration: none;
+  color: #49ada8;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.container-lezioni-flexible .list-lezioni .categoria h1 a:visited {
+  color: #49ada8;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.container-lezioni-flexible .list-lezioni .categoria h1 a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.container-lezioni-flexible .list-lezioni .categoria h1 a:active {
+  color: #49ada8;
+}
+/* line 122, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+}
+/* line 127, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni li {
+  margin-left: 0;
+}
+/* line 130, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a {
+  text-decoration: none;
+}
+/* line 133, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione {
+  width: 160px;
+  height: auto;
+  background: #057c79;
+  font-family: 'Droid Sans';
+  padding-left: 48px;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 10px 1px 10px 0;
+}
+/* line 143, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione .img-video {
+  width: 200px;
+  height: 128px;
+  overflow: hidden;
+  margin: 4px 4px 0 4px;
+  clear: both;
+  position: relative;
+  left: -48px;
+  -webkit-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  -moz-box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+  box-shadow: 0 0 5px rgba(32, 79, 59, 0.5), 0 0 10px rgba(32, 79, 59, 0);
+}
+/* line 156, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione .icon {
+  width: 25px;
+  height: 25px;
+  color: white;
+  position: relative;
+  margin-left: -35px;
+  margin-top: 34px;
+  float: left;
+  font-size: 20px;
+}
+/* line 166, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione h2 {
+  width: 155px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #00ffb0;
+  padding-top: 16px;
+}
+/* line 175, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione h1 {
+  width: 155px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  padding-top: 4px;
+}
+/* line 183, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione .posted-by {
+  width: 155px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #4cc1b8;
+  padding-top: 2px;
+}
+/* line 190, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione hr {
+  width: 150px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* line 197, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione .line-top {
+  background: #036863;
+  margin-top: 3px;
+}
+/* line 201, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione .line-bottom {
+  background: #159690;
+  margin-bottom: 10px;
+}
+/* line 205, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione p {
+  width: 150px;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: white;
+  margin: 0 0 10px 0;
+  display: none;
+}
+/* line 214, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione .box-number-views {
+  float: left;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #03514b;
+  border-left: 1px solid #086661;
+  border-right: 1px solid #086661;
+  border-top: 1px solid #086661;
+  margin-top: 12px;
+}
+/* line 223, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione .box-number-views .number-views {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #9ffffc;
+  background: #25a599;
+  border-bottom: 1px solid #6cd8c9;
+  border-left: 1px solid #45bfb0;
+  border-top: 1px solid #45bfb0;
+  border-right: 1px solid #45bfb0;
+  padding: 2px;
+}
+/* line 237, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione .views {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #4cc1b8;
+  float: left;
+  margin-left: 3px;
+  margin-top: 18px;
+}
+/* line 245, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a .box-lezione .views i {
+  font-size: 14px;
+}
+/* line 256, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni {
+  list-style-type: none;
+}
+/* line 259, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:visited .box-lezione {
+  background: #E0FAF9;
+}
+/* line 264, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione {
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
+}
+/* line 268, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover, .container-lezioni-flexible .lezioni a:visited {
+  text-decoration: none;
+}
+/* line 273, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione h2, .container-lezioni-flexible .lezioni a:visited .box-lezione h2 {
+  color: #084936;
+}
+/* line 276, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione h1, .container-lezioni-flexible .lezioni a:visited .box-lezione h1 {
+  color: #057c79;
+}
+/* line 279, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione .icon, .container-lezioni-flexible .lezioni a:visited .box-lezione .icon {
+  color: #084936;
+}
+/* line 282, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione .posted-by, .container-lezioni-flexible .lezioni a:visited .box-lezione .posted-by {
+  color: #084936;
+}
+/* line 285, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione .line-top, .container-lezioni-flexible .lezioni a:visited .box-lezione .line-top {
+  background: #94d3cc;
+}
+/* line 288, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione .line-bottom, .container-lezioni-flexible .lezioni a:visited .box-lezione .line-bottom {
+  background: #E0FAF9;
+}
+/* line 291, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione p, .container-lezioni-flexible .lezioni a:visited .box-lezione p {
+  color: #057c79;
+}
+/* line 294, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione .box-number-views, .container-lezioni-flexible .lezioni a:visited .box-lezione .box-number-views {
+  border-bottom: 1px solid #0A665D;
+  border-left: 1px solid #1B8C81;
+  border-right: 1px solid #1B8C81;
+  border-top: 1px solid #1B8C81;
+}
+/* line 299, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione .box-number-views .number-views, .container-lezioni-flexible .lezioni a:visited .box-lezione .box-number-views .number-views {
+  background: #25a599;
+  border-bottom: 1px solid #e1fffd;
+  border-left: 1px solid #96E0D5;
+  border-top: 1px solid #96E0D5;
+  border-right: 1px solid #96E0D5;
+}
+/* line 307, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione .views, .container-lezioni-flexible .lezioni a:visited .box-lezione .views {
+  color: #057c79;
+}
+/* line 309, ../sass/partials/_read-it-later.scss */
+.container-lezioni-flexible .lezioni a:hover .box-lezione .views i, .container-lezioni-flexible .lezioni a:visited .box-lezione .views i {
+  font-size: 14px;
+}
+
 /* line 1, ../sass/partials/_sidebar-avatars.scss */
 .sidebar-avatars {
   background-color: #f7fcfb;
   border: 1px solid #daede9;
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 280px;
   margin-right: 0;
   margin-left: 0;
   height: auto;
