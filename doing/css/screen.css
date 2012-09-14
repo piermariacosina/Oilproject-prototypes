@@ -4454,10 +4454,19 @@ form input[type="submit"] {
   font-size: 12px;
   font-weight: bold;
   border: 1px solid #ccc;
-  background: #eee;
+  background: #6cd8c9;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  color: #084936;
+}
+
+/* line 53, ../sass/partials/_form.scss */
+.form-actions {
+  margin-top: 18px;
+  padding: 17px 4px 18px;
+  background: none;
+  border-top: none;
 }
 
 /* line 1, ../sass/partials/_read-it-later.scss */
