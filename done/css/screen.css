@@ -2162,12 +2162,12 @@ ul.breadcrumb-list #breadcrumbs-3 span {
   margin-top: 4px;
 }
 
-/* line 1, ../sass/partials/_commenti.scss */
+/* line 1, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti {
   list-style: none;
   margin: 10px 0;
 }
-/* line 4, ../sass/partials/_commenti.scss */
+/* line 4, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti h4 {
   font-size: 14px;
   color: #057c79;
@@ -2176,7 +2176,7 @@ ul.commenti-recenti h4 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-/* line 13, ../sass/partials/_commenti.scss */
+/* line 13, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti .box_number {
   margin-left: 20px;
   float: left;
@@ -2186,7 +2186,7 @@ ul.commenti-recenti .box_number {
   border-top: 1px solid #05d6c6;
   margin-right: 10px;
 }
-/* line 21, ../sass/partials/_commenti.scss */
+/* line 21, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti .box_number .number_c {
   font-weight: bold;
   font-family: 'Droid Sans';
@@ -2202,7 +2202,7 @@ ul.commenti-recenti .box_number .number_c {
   padding-left: 7px;
   padding-right: 7px;
 }
-/* line 37, ../sass/partials/_commenti.scss */
+/* line 37, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li {
   background: url('../images/background.png?1347628549') no-repeat left top;
   overflow: hidden;
@@ -2210,7 +2210,7 @@ ul.commenti-recenti li {
   margin: 3px;
   margin-left: 0;
 }
-/* line 42, ../sass/partials/_commenti.scss */
+/* line 42, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li img {
   background-color: white;
   width: 50px;
@@ -2223,21 +2223,21 @@ ul.commenti-recenti li img {
   -moz-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
 }
-/* line 52, ../sass/partials/_commenti.scss */
+/* line 52, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li .text {
   float: left;
   margin-left: 50px;
   margin-top: 10px;
   width: 380px;
 }
-/* line 57, ../sass/partials/_commenti.scss */
+/* line 57, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li .text > p {
   font-size: 13px;
   color: #69c0bb;
   font-family: 'Droid Sans';
   font-weight: 400;
 }
-/* line 65, ../sass/partials/_commenti.scss */
+/* line 65, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li .text .number {
   background-color: #0cc4c4;
   width: 19px;
@@ -2253,7 +2253,7 @@ ul.commenti-recenti li .text .number {
   margin-top: 10px;
   margin-bottom: 4px;
 }
-/* line 81, ../sass/partials/_commenti.scss */
+/* line 81, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li .text p.data_commento {
   margin-top: 12px;
   margin-left: 25px;
@@ -2262,7 +2262,7 @@ ul.commenti-recenti li .text p.data_commento {
   font-size: 10px;
   color: #0cc4c4;
 }
-/* line 88, ../sass/partials/_commenti.scss */
+/* line 88, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li .text p.data_commento span {
   text-transform: capitalize;
   margin-left: 3px;
@@ -5599,4 +5599,77 @@ h4.titoli_sezioni {
   margin-top: 1px;
   margin-left: 30px;
   margin-bottom: 30px;
+}
+
+/* line 1, ../sass/partials/_sidebar-avatars.scss */
+.sidebar-avatars {
+  background-color: #f7fcfb;
+  border: 1px solid #daede9;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+  height: auto;
+  margin: 17px 0 0 0;
+}
+/* line 10, ../sass/partials/_sidebar-avatars.scss */
+.sidebar-avatars h4 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  padding: 12px;
+}
+/* line 20, ../sass/partials/_sidebar-avatars.scss */
+.sidebar-avatars ul {
+  list-style: none;
+  margin-left: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #057c79;
+  padding: 20px 5px;
+}
+/* line 27, ../sass/partials/_sidebar-avatars.scss */
+.sidebar-avatars ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding: 2px !important;
+}
+/* line 29, ../sass/partials/_sidebar-avatars.scss */
+.sidebar-avatars ul li a:hover img {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.sidebar-avatars ul li:first-child, .sidebar-avatars ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.sidebar-avatars ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.sidebar-avatars ul li.last {
+  padding-right: 0;
+}
+/* line 35, ../sass/partials/_sidebar-avatars.scss */
+.sidebar-avatars ul li img {
+  background-color: white;
+  width: 50px;
+  height: 50px;
 }
