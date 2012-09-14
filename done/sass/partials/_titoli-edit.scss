@@ -2,10 +2,10 @@
 //	BARRA REGISTRATI
 
 
-#titolo-registrati{
-
+.titoli-edit{
+    margin-top: 10px;
   background: image-url("diagonal-green-scuro-bg.png") repeat left top;
-   width: 620px;
+   @include grid(11);
    height: 50px;
    margin-left: 30px;
    border-top-right-radius: 10px;
@@ -23,17 +23,19 @@
             
             /*font-weight: 400;*/
             }
+            
+           
          }
+ .linea-titoli{
  
-#linea{
+ background-color: $light-green;
+ height: 1px;
+@include grid(11);
+ margin-top: 1px;
+ margin-left: 30px;
+ margin-bottom: 30px;
+ }
 
-  background-color: $light-green;
-  height: 1px;
-  width: 620px;
-  margin-top: 1px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  }
   
   //	FINE BARRA REGISTRATI  
   
