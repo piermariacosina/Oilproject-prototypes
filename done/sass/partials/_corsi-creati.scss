@@ -1,51 +1,27 @@
-.corsi_creati{
-	.number{
-		background-color:$light-green;
-		margin-left:25px;
-
-		margin-right:10px;
-		width: 19px;
-		height: 19px;
-		background: $light-green;
-		color: white;
-		font-weight: bold;
-		font-size: 12px;
-		position: relative;
-		float: left;
-		text-align: center;
-		border-radius: 10px;
-		padding: 1px 0 0 1px;
-		
-	}
-	h4{
-		font-size: 15px;
-		color: $dark-green;
-		font-family: 'Droid Sans';
-		font-weight: bold; 
-		text-transform:uppercase;
-		margin-bottom:10px;     
-		margin-top:10px;
-	}
-	a{
-		text-decoration: none;
-		overflow: visible;
-		float:left;
-		.box_corso{
-			width: 312px;
-			height: 363px;
-			background: image-url("background_profilo_categoria.png") no-repeat left top;
+.corsi-creati{
+		.box-corso{
+			width: 320px;
+			height: image-height("background-profilo-categoria.png");
+			background: image-url("background-profilo-categoria.png") no-repeat left top;
 			font-family: 'Droid Sans';
 			color: $dark-green;
-			h2{
+			@include float-left;
+			margin: 10px 0;
+			
+			a{
+				@include link-over-fluo;
+			}
+			
+			h4{
 				width: 282px;
 				font-weight: bold;
 				font-size: 13px;
 				line-height: 15px;
 				text-transform: uppercase;
-				padding: 20px 0 0 30px;
+				padding: 20px 0 0 35px;
 				margin: 0;
 			}
-			h1{
+			h3{
 				width: 270px;
 				height: 77px;
 				font-weight: bold;
@@ -53,15 +29,15 @@
 				line-height: 27px;
 				text-transform: uppercase;
 				overflow: hidden;
-				padding: 20px 0 0 20px;
-				margin-left:10px;
+				padding: 10px 0 0 20px;
+				margin-left:15px;
 				//							@include ellipsis;
 			}
-			.numero_lezioni{
+			.numero-lezioni{
 				position: relative;
 				float: right;
 				padding: 0 10px 0 0;
-				margin: 10px 0 8px 0;
+				margin: 5px 10px 8px 0;
 				.number{
 					width: 19px;
 					height: 19px;
@@ -86,19 +62,24 @@
 					color: $light-green;
 				}
 			}
-			.cover_corso{
-				padding: 0 0 0 20px;
+			.cover-corso{
+				padding: 3px 3px 3px 3px;
 				margin: 0;
-				margin-left:10px;
+				margin-left:32px;
 				width: 270px;
 				height: 85px;
 				overflow: hidden;
+				img{
+					width: 272px;
+					height: 86px;
+					@include single-box-shadow(black,0px, 0px, 3px,  false, false);
+				}
 			}
 
-			.tipologie_lezioni{
+			.tipologie-lezioni{
 				list-style-type: none;
 				@include clearfix;
-				margin-left:28px;  
+				margin-left:35px;  
 				li{
 					position: relative;
 					float: left;
@@ -122,4 +103,3 @@
 			}
 		}
 	}
-}
