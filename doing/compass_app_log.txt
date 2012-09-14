@@ -537,3 +537,56 @@ Load paths:
 2012-09-14 15:33:55 overwrite css/screen.css 
 2012-09-14 15:34:25 overwrite css/screen.css 
 2012-09-14 15:34:48 overwrite css/screen.css 
+2012-09-14 15:42:57     error sass/screen.scss (Line 136: File to import not found or unreadable: partials/categoria-cerca.
+Load paths:
+  /Users/manuelacammilleri/Documents/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-14 15:42:57 overwrite css/screen.css 
+2012-09-14 15:44:59     error sass/screen.scss (Line 136: File to import not found or unreadable: partials/categoria-cerca.
+Load paths:
+  /Users/manuelacammilleri/Documents/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-14 15:44:59 identical css/screen.css 
+2012-09-14 15:46:25     error sass/screen.scss (Line 136: File to import not found or unreadable: partials/categoria-cerca.
+Load paths:
+  /Users/manuelacammilleri/Documents/Oilproject-prototypes/doing/sass
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/compass.app/Contents/Resources/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  Compass::SpriteImporter)
+2012-09-14 15:46:25 overwrite css/screen.css 
+2012-09-14 15:46:34 overwrite css/screen.css 
+2012-09-14 15:48:47 overwrite css/screen.css 
+2012-09-14 15:49:18 overwrite css/screen.css 
+2012-09-14 15:51:30 overwrite css/screen.css 
+2012-09-14 15:57:18 overwrite css/screen.css 
+2012-09-14 15:57:48 overwrite css/screen.css 
+2012-09-14 16:01:40 overwrite css/screen.css 
+2012-09-14 16:02:47 overwrite css/screen.css 
+2012-09-14 16:03:01 overwrite css/screen.css 
+2012-09-14 16:03:12 overwrite css/screen.css 
+2012-09-14 16:03:19 overwrite css/screen.css 
+2012-09-14 16:03:44 overwrite css/screen.css 
+2012-09-14 16:04:08 overwrite css/screen.css 
+2012-09-14 16:06:00 overwrite css/screen.css 
+2012-09-14 16:06:15 overwrite css/screen.css 
+2012-09-14 16:06:26 overwrite css/screen.css 
+2012-09-14 16:06:36 overwrite css/screen.css 
+2012-09-14 16:07:30 identical css/screen.css 
+2012-09-14 16:09:04 overwrite css/screen.css 
+2012-09-14 16:09:10 overwrite css/screen.css 

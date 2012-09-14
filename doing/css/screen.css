@@ -4798,7 +4798,39 @@ form input[type="submit"] {
   margin-left: 3px;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 1, ../sass/partials/_search.scss */
+form.search fieldset input[type="text"] {
+  width: 50%;
+  padding: 10px 14px;
+  font-size: 18px;
+  border: 1px solid #25a599;
+  background: #eafdfc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 0;
+}
+
+/* line 15, ../sass/partials/_search.scss */
+form.search fieldset input[type="submit"] {
+  padding: 10px 14px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  background: #084936;
+  border-radius: 4px;
+}
+
+/* line 24, ../sass/partials/_search.scss */
+form.search fieldset input[type="submit"]:hover,
+form.search fieldset input[type="submit"]:focus {
+  background: #49ada8;
+}
+
+/* line 140, ../sass/screen.scss */
 #lesson {
   margin-left: auto;
   margin-right: auto;
@@ -4807,7 +4839,7 @@ form input[type="submit"] {
   margin-top: 10px;
   background: url('../images/diagonal-green-bg.png?1347467520') repeat left top;
 }
-/* line 143, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 #lesson .infor {
   display: inline;
   float: left;
@@ -4817,7 +4849,7 @@ form input[type="submit"] {
   height: 100%;
   position: relative;
 }
-/* line 148, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #lesson .infor .container-views {
   width: 65px;
   height: auto;
@@ -4828,7 +4860,7 @@ form input[type="submit"] {
   padding-left: 10px;
   float: left;
 }
-/* line 156, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 #lesson .infor .container-views .box-number-views {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4836,7 +4868,7 @@ form input[type="submit"] {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 162, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 #lesson .infor .container-views .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -4849,7 +4881,7 @@ form input[type="submit"] {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 175, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 #lesson .infor .container-views .views {
   font-weight: normal;
   font-size: 10px;
@@ -4859,7 +4891,7 @@ form input[type="submit"] {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 186, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 #lesson .infor .container-comments {
   width: 78px;
   height: auto;
@@ -4868,7 +4900,7 @@ form input[type="submit"] {
   border-right: 1px solid #c5ffea;
   float: left;
 }
-/* line 192, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 #lesson .infor .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4876,7 +4908,7 @@ form input[type="submit"] {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 #lesson .infor .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -4889,7 +4921,7 @@ form input[type="submit"] {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 211, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 #lesson .infor .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -4899,7 +4931,7 @@ form input[type="submit"] {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 222, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 #lesson .infor .container-lingua {
   width: 100px;
   height: auto;
@@ -4909,7 +4941,7 @@ form input[type="submit"] {
   padding-left: 10px;
   float: left;
 }
-/* line 229, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 #lesson .infor .container-lingua .box-lingua-icon {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4917,7 +4949,7 @@ form input[type="submit"] {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 235, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 #lesson .infor .container-lingua .box-lingua-icon .lingua-icon {
   width: 14px;
   height: 10px;
@@ -4932,7 +4964,7 @@ form input[type="submit"] {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 250, ../sass/screen.scss */
+/* line 252, ../sass/screen.scss */
 #lesson .infor .container-lingua .lingua {
   font-weight: normal;
   font-size: 10px;
@@ -4942,12 +4974,12 @@ form input[type="submit"] {
   margin-left: 3px;
   margin-top: 4px;
 }
-/* line 262, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 #lesson .infor .aut-date {
   position: absolute;
   bottom: 9px;
 }
-/* line 266, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 #lesson .infor .aut-date .data .num {
   position: absolute;
   float: left;
@@ -4962,14 +4994,14 @@ form input[type="submit"] {
   border-radius: 16px;
   bottom: -2px;
 }
-/* line 275, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 #lesson .infor .aut-date .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
   margin: 0;
 }
-/* line 282, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date {
   width: 140px;
   font-family: 'Droid Sans';
@@ -4977,17 +5009,17 @@ form input[type="submit"] {
   float: left;
   margin-left: 30px;
 }
-/* line 289, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date .mese {
   font-weight: 700;
   color: #084936;
   text-transform: uppercase;
 }
-/* line 294, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 #lesson .infor .aut-date .data .info-date .ora {
   color: #057c79;
 }
-/* line 300, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 #lesson .infor .aut-date hr {
   display: inline;
   float: left;
@@ -4997,17 +5029,17 @@ form input[type="submit"] {
   border: 0;
   height: 1px;
 }
-/* line 305, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 #lesson .infor .aut-date .top {
   margin: 8px 0 0 0;
   background: #00ea9c;
 }
-/* line 309, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 #lesson .infor .aut-date .bottom {
   margin: 0 0 12px 0;
   background: #c5ffea;
 }
-/* line 316, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 #lesson .foto {
   display: inline;
   float: left;
@@ -5018,7 +5050,7 @@ form input[type="submit"] {
   background-color: #38d69a;
   height: 100%;
 }
-/* line 322, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 #lesson h3 {
   font-size: 15px;
   color: #084936;
@@ -5027,7 +5059,7 @@ form input[type="submit"] {
   text-transform: uppercase;
   padding-top: 20px;
 }
-/* line 331, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 #lesson h1 {
   font-size: 25px;
   line-height: 30px;
@@ -5039,7 +5071,7 @@ form input[type="submit"] {
   text-shadow: 0px 2px 1px #c5ffea, 0px 2px 1px true #c5ffea;
   text-shadow: 0px 2px 1px true #c5ffea, 0px 2px 1px true #c5ffea;
 }
-/* line 347, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 #lesson h4 {
   color: #084936;
   font-weight: 700;
@@ -5047,20 +5079,20 @@ form input[type="submit"] {
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 353, ../sass/screen.scss */
+/* line 355, ../sass/screen.scss */
 #lesson h4 span {
   color: #057c79;
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 359, ../sass/screen.scss */
+/* line 361, ../sass/screen.scss */
 #lesson p {
   color: #084936;
   font-weight: 700;
   font-family: 'Droid Sans';
 }
 
-/* line 366, ../sass/screen.scss */
+/* line 368, ../sass/screen.scss */
 #container {
   display: inline;
   float: left;
@@ -5068,7 +5100,7 @@ form input[type="submit"] {
   margin-right: 10px;
   width: 640px;
 }
-/* line 368, ../sass/screen.scss */
+/* line 370, ../sass/screen.scss */
 #container h4 {
   margin-top: 10px;
   display: inline;
@@ -5083,7 +5115,7 @@ form input[type="submit"] {
   margin-left: 0;
   text-align: center;
 }
-/* line 378, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 #container .icon {
   margin-top: 10px;
   display: inline;
@@ -5095,12 +5127,12 @@ form input[type="submit"] {
   height: 40px;
   background-color: white;
 }
-/* line 385, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 #container .text {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 388, ../sass/screen.scss */
+/* line 390, ../sass/screen.scss */
 #container .text h3 {
   font-size: 21px;
   color: #057c79;
@@ -5111,7 +5143,7 @@ form input[type="submit"] {
   text-shadow: 0px 1px 0px true white, 0px 1px 0px true white;
   margin-bottom: 10px;
 }
-/* line 402, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
 #container .text p {
   font-size: 13px;
   line-height: 16px;
@@ -5120,11 +5152,11 @@ form input[type="submit"] {
   font-weight: 400;
   padding-bottom: 5px;
 }
-/* line 411, ../sass/screen.scss */
+/* line 413, ../sass/screen.scss */
 #container .text .data {
   position: relative;
 }
-/* line 413, ../sass/screen.scss */
+/* line 415, ../sass/screen.scss */
 #container .text .data .num {
   width: 25px;
   height: 25px;
@@ -5135,20 +5167,20 @@ form input[type="submit"] {
   -o-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 418, ../sass/screen.scss */
+/* line 420, ../sass/screen.scss */
 #container .text .data .num p {
   padding-top: 3px;
   text-align: center;
   color: white;
 }
-/* line 424, ../sass/screen.scss */
+/* line 426, ../sass/screen.scss */
 #container .text .data .info-date {
   width: 140px;
   position: absolute;
   bottom: -23px;
   left: 30px;
 }
-/* line 429, ../sass/screen.scss */
+/* line 431, ../sass/screen.scss */
 #container .text .data .info-date p {
   color: #084936;
   font-weight: 700;
@@ -5156,7 +5188,7 @@ form input[type="submit"] {
   font-size: 11px;
 }
 
-/* line 443, ../sass/screen.scss */
+/* line 445, ../sass/screen.scss */
 #testo {
   display: inline;
   float: left;
@@ -5166,7 +5198,7 @@ form input[type="submit"] {
   margin-top: 35px;
   margin-bottom: 30px;
 }
-/* line 448, ../sass/screen.scss */
+/* line 450, ../sass/screen.scss */
 #testo p {
   font-size: 13px;
   line-height: 16px;
@@ -5176,18 +5208,18 @@ form input[type="submit"] {
   padding: 0;
   margin: 0 0 7px 0;
 }
-/* line 457, ../sass/screen.scss */
+/* line 459, ../sass/screen.scss */
 #testo .intro {
   font-weight: bold;
   text-indent: 7px;
 }
-/* line 463, ../sass/screen.scss */
+/* line 465, ../sass/screen.scss */
 #testo a {
   color: #24d1c8;
   text-decoration: none;
 }
 
-/* line 470, ../sass/screen.scss */
+/* line 472, ../sass/screen.scss */
 #button {
   display: inline;
   float: left;
@@ -5203,7 +5235,7 @@ form input[type="submit"] {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 477, ../sass/screen.scss */
+/* line 479, ../sass/screen.scss */
 #button a {
   color: white;
   font-size: 12px;
@@ -5212,7 +5244,7 @@ form input[type="submit"] {
   margin-left: 11px;
 }
 
-/* line 486, ../sass/screen.scss */
+/* line 488, ../sass/screen.scss */
 #button-1 {
   display: inline;
   float: left;
@@ -5222,7 +5254,7 @@ form input[type="submit"] {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 490, ../sass/screen.scss */
+/* line 492, ../sass/screen.scss */
 #button-1 .interno {
   width: 130px;
   background-color: #084936;
@@ -5233,7 +5265,7 @@ form input[type="submit"] {
   border-radius: 10px;
   margin-bottom: 35px;
 }
-/* line 495, ../sass/screen.scss */
+/* line 497, ../sass/screen.scss */
 #button-1 .interno a {
   color: white;
   font-size: 12px;
@@ -5242,7 +5274,7 @@ form input[type="submit"] {
   margin-left: 11px;
 }
 
-/* line 504, ../sass/screen.scss */
+/* line 506, ../sass/screen.scss */
 #nuovo-commento {
   display: inline;
   float: left;
@@ -5254,7 +5286,7 @@ form input[type="submit"] {
   clear: both;
   margin-bottom: 35px;
 }
-/* line 510, ../sass/screen.scss */
+/* line 512, ../sass/screen.scss */
 #nuovo-commento textarea {
   display: inline;
   float: left;
@@ -5265,11 +5297,11 @@ form input[type="submit"] {
   margin-left: 0;
   border: 1px solid #323232;
 }
-/* line 517, ../sass/screen.scss */
+/* line 519, ../sass/screen.scss */
 #nuovo-commento ul {
   list-style-type: none !important;
 }
-/* line 519, ../sass/screen.scss */
+/* line 521, ../sass/screen.scss */
 #nuovo-commento ul li {
   width: auto;
   height: auto;
@@ -5278,12 +5310,12 @@ form input[type="submit"] {
   display: block;
   border-bottom: 1px solid white;
 }
-/* line 525, ../sass/screen.scss */
+/* line 527, ../sass/screen.scss */
 #nuovo-commento ul li a {
   text-decoration: none !important;
   position: relative;
 }
-/* line 529, ../sass/screen.scss */
+/* line 531, ../sass/screen.scss */
 #nuovo-commento ul li a .angolo {
   width: 20px;
   height: 20px;
@@ -5291,39 +5323,39 @@ form input[type="submit"] {
   position: relative;
   clear: left;
 }
-/* line 537, ../sass/screen.scss */
+/* line 539, ../sass/screen.scss */
 #nuovo-commento ul li a .first-level {
   top: 20px;
   left: -10px;
 }
-/* line 542, ../sass/screen.scss */
+/* line 544, ../sass/screen.scss */
 #nuovo-commento ul li a .second-level {
   top: 20px;
   left: 50px;
 }
-/* line 547, ../sass/screen.scss */
+/* line 549, ../sass/screen.scss */
 #nuovo-commento ul li a .third-level {
   top: 20px;
   left: 110px;
 }
-/* line 552, ../sass/screen.scss */
+/* line 554, ../sass/screen.scss */
 #nuovo-commento ul li a .commento {
   margin-bottom: 2px;
   margin-right: 0;
   background-color: #eafdfc;
   float: left;
 }
-/* line 559, ../sass/screen.scss */
+/* line 561, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num {
   background: #0cc4c4 !important;
   float: left;
 }
-/* line 562, ../sass/screen.scss */
+/* line 564, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .num p {
   font-weight: bold !important;
   padding: 4px 0 !important;
 }
-/* line 567, ../sass/screen.scss */
+/* line 569, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date {
   font-family: 'Droid Sans';
   font-size: 11px;
@@ -5331,29 +5363,29 @@ form input[type="submit"] {
   color: #0cc4c4;
   margin-top: 20px;
 }
-/* line 573, ../sass/screen.scss */
+/* line 575, ../sass/screen.scss */
 #nuovo-commento ul li a .commento .text .data .info-date .mese {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 581, ../sass/screen.scss */
+/* line 583, ../sass/screen.scss */
 #nuovo-commento ul li a .spacer-comments {
   clear: both;
 }
-/* line 586, ../sass/screen.scss */
+/* line 588, ../sass/screen.scss */
 #nuovo-commento ul li:first-child {
   clear: both;
 }
-/* line 594, ../sass/screen.scss */
+/* line 596, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .angolo, #nuovo-commento ul li a:active .angolo {
   background: url('../images/angolo-commenti-hover-sx.png?1347467520') repeat left top;
 }
-/* line 597, ../sass/screen.scss */
+/* line 599, ../sass/screen.scss */
 #nuovo-commento ul li a:hover .commento, #nuovo-commento ul li a:active .commento {
   background-color: #c9f7f5;
 }
 
-/* line 607, ../sass/screen.scss */
+/* line 609, ../sass/screen.scss */
 .primo-livello {
   display: inline;
   float: left;
@@ -5361,7 +5393,7 @@ form input[type="submit"] {
   margin-right: 10px;
   width: 580px;
 }
-/* line 609, ../sass/screen.scss */
+/* line 611, ../sass/screen.scss */
 .primo-livello .text {
   display: inline;
   float: left;
@@ -5371,7 +5403,7 @@ form input[type="submit"] {
   margin-left: 0;
 }
 
-/* line 618, ../sass/screen.scss */
+/* line 620, ../sass/screen.scss */
 .secondo-livello {
   position: relative;
   left: 60px;
@@ -5381,7 +5413,7 @@ form input[type="submit"] {
   margin-right: 10px;
   width: 520px;
 }
-/* line 623, ../sass/screen.scss */
+/* line 625, ../sass/screen.scss */
 .secondo-livello .text {
   display: inline;
   float: left;
@@ -5391,7 +5423,7 @@ form input[type="submit"] {
   margin-left: 0;
 }
 
-/* line 629, ../sass/screen.scss */
+/* line 631, ../sass/screen.scss */
 .terzo-livello {
   position: relative;
   left: 120px;
@@ -5401,7 +5433,7 @@ form input[type="submit"] {
   margin-right: 10px;
   width: 460px;
 }
-/* line 633, ../sass/screen.scss */
+/* line 635, ../sass/screen.scss */
 .terzo-livello .text {
   display: inline;
   float: left;
@@ -5411,7 +5443,7 @@ form input[type="submit"] {
   margin-left: 0;
 }
 
-/* line 641, ../sass/screen.scss */
+/* line 643, ../sass/screen.scss */
 #barra {
   display: inline;
   float: left;
@@ -5420,7 +5452,7 @@ form input[type="submit"] {
   width: 280px;
   margin-right: 0;
 }
-/* line 644, ../sass/screen.scss */
+/* line 646, ../sass/screen.scss */
 #barra .list {
   display: inline;
   float: left;
@@ -5430,7 +5462,7 @@ form input[type="submit"] {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 648, ../sass/screen.scss */
+/* line 650, ../sass/screen.scss */
 #barra .list .icon-cat {
   width: 44px;
   height: 8px;
@@ -5439,7 +5471,7 @@ form input[type="submit"] {
   float: left;
   background: url('../images/diagonal-white-bg.png?1347467520') repeat left top;
 }
-/* line 656, ../sass/screen.scss */
+/* line 658, ../sass/screen.scss */
 #barra .list ul {
   display: inline;
   float: left;
@@ -5451,7 +5483,7 @@ form input[type="submit"] {
   style-type-position: inside;
   padding-top: 3px;
 }
-/* line 663, ../sass/screen.scss */
+/* line 665, ../sass/screen.scss */
 #barra .list li {
   height: auto;
   background: none;
@@ -5463,12 +5495,12 @@ form input[type="submit"] {
   margin: 0 0 12px 0;
   padding: 0;
 }
-/* line 673, ../sass/screen.scss */
+/* line 675, ../sass/screen.scss */
 #barra .list li a {
   text-decoration: none;
   color: #49ada8;
 }
-/* line 678, ../sass/screen.scss */
+/* line 680, ../sass/screen.scss */
 #barra .list .categorie {
   display: inline;
   float: left;
@@ -5480,7 +5512,7 @@ form input[type="submit"] {
   background: url('../images/diagonal-white-bg.png?1347467520') repeat left top;
   float: left;
 }
-/* line 686, ../sass/screen.scss */
+/* line 688, ../sass/screen.scss */
 #barra .list .categorie .icon {
   width: 36px;
   height: 32px;
@@ -5488,7 +5520,7 @@ form input[type="submit"] {
   float: left;
   margin: 8px;
 }
-/* line 693, ../sass/screen.scss */
+/* line 695, ../sass/screen.scss */
 #barra .list .categorie h1 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -5499,7 +5531,7 @@ form input[type="submit"] {
   float: left;
   margin-top: 11px;
 }
-/* line 706, ../sass/screen.scss */
+/* line 708, ../sass/screen.scss */
 #barra .image {
   display: inline;
   float: left;
@@ -5512,7 +5544,7 @@ form input[type="submit"] {
   background-color: #00ffb0;
   margin-top: 10px;
 }
-/* line 715, ../sass/screen.scss */
+/* line 717, ../sass/screen.scss */
 #barra .ultime-lezioni {
   background: #f7fcfb;
   border: 1px solid #daede9;
@@ -5525,7 +5557,7 @@ form input[type="submit"] {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 722, ../sass/screen.scss */
+/* line 724, ../sass/screen.scss */
 #barra .ultime-lezioni h3 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -5535,7 +5567,7 @@ form input[type="submit"] {
   color: #49ada8;
   padding: 12px;
 }
-/* line 733, ../sass/screen.scss */
+/* line 735, ../sass/screen.scss */
 #barra .ultime-lezioni ul {
   list-style: none;
   display: inline;
@@ -5548,7 +5580,7 @@ form input[type="submit"] {
   margin-right: 0;
   margin: 0px;
 }
-/* line 743, ../sass/screen.scss */
+/* line 745, ../sass/screen.scss */
 #barra .ultime-lezioni .simbolo {
   width: 44px;
   margin-top: 3px;
@@ -5557,7 +5589,7 @@ form input[type="submit"] {
   background-color: white;
   height: 20px;
 }
-/* line 752, ../sass/screen.scss */
+/* line 754, ../sass/screen.scss */
 #barra .ultime-lezioni .title {
   display: inline;
   float: left;
@@ -5567,14 +5599,14 @@ form input[type="submit"] {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 757, ../sass/screen.scss */
+/* line 759, ../sass/screen.scss */
 #barra .ultime-lezioni .title h4 {
   color: white;
   font-weight: 400;
   font-size: 13px;
   font-family: 'Droid Sans';
 }
-/* line 764, ../sass/screen.scss */
+/* line 766, ../sass/screen.scss */
 #barra .ultime-lezioni .title p {
   font-weight: bold;
   font-size: 10px;
