@@ -1964,7 +1964,7 @@ ul.breadcrumb-list a:active {
 }
 /* line 7, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-intro {
-  background: url('../images/breadcrumb-intro.png?1347659303') no-repeat left top;
+  background: url('../images/breadcrumb-intro.png?1347694880') no-repeat left top;
   width: 114px;
   height: 31px;
   float: left;
@@ -2071,7 +2071,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 /* line 132, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background-likes2.png?1347659303') no-repeat left top;
+  background: url('../images/background-likes2.png?1347694880') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -2103,7 +2103,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 /* line 169, ../sass/partials/_breadcrumb.scss */
 #numbers-dislikes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background-likes2.png?1347659303') no-repeat left top;
+  background: url('../images/background-likes2.png?1347694880') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -4213,7 +4213,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 315, ../sass/partials/_header.scss */
 .notice-list .left-white {
-  background: url('../images/left-white.png?1347661070') no-repeat left top;
+  background: url('../images/left-white.png?1347694880') no-repeat left top;
   width: 2px;
   height: 8px;
   position: absolute;
@@ -4222,7 +4222,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 323, ../sass/partials/_header.scss */
 .notice-list .right-white {
-  background: url('../images/right-white.png?1347661071') no-repeat left top;
+  background: url('../images/right-white.png?1347694880') no-repeat left top;
   width: 2px;
   height: 8px;
   position: absolute;
