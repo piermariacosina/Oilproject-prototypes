@@ -2030,7 +2030,26 @@ div.row {
   height: 418px;
   margin-left: 30px;
 }
-/* line 7, ../sass/partials/_newsletter.scss */
+/* line 9, ../sass/partials/_newsletter.scss */
+#newsletter form {
+  width: 401px;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  margin-left: 80px;
+  padding-top: 30px;
+}
+/* line 17, ../sass/partials/_newsletter.scss */
+#newsletter form p {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+/* line 23, ../sass/partials/_newsletter.scss */
+#newsletter form input {
+  float: left;
+  margin-top: 10px;
+}
+/* line 30, ../sass/partials/_newsletter.scss */
 #newsletter h1 {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -2041,7 +2060,7 @@ div.row {
   padding-top: 30px;
   text-shadow: 0px 2px 1px white;
 }
-/* line 26, ../sass/partials/_newsletter.scss */
+/* line 49, ../sass/partials/_newsletter.scss */
 #newsletter h2 {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -2054,17 +2073,7 @@ div.row {
   text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
 }
 
-/* line 48, ../sass/partials/_newsletter.scss */
-.radio ul {
-  width: 401px;
-  color: #084936;
-  font-family: 'Droid Sans';
-  font-size: 13px;
-  margin-left: 80px;
-  padding-top: 30px;
-}
-
-/* line 58, ../sass/partials/_newsletter.scss */
+/* line 72, ../sass/partials/_newsletter.scss */
 #divisore {
   background-color: #A1E2DA;
   height: 1px;
@@ -2073,7 +2082,7 @@ div.row {
   margin-top: 30px;
 }
 
-/* line 68, ../sass/partials/_newsletter.scss */
+/* line 82, ../sass/partials/_newsletter.scss */
 #divisore2 {
   background-color: #E9FFFD;
   height: 1px;
@@ -2081,14 +2090,14 @@ div.row {
   margin-left: 80px;
 }
 
-/* line 78, ../sass/partials/_newsletter.scss */
+/* line 92, ../sass/partials/_newsletter.scss */
 form fieldset {
   margin: 0px 0 20px 30px;
   font-family: 'Droid Sans';
   font-size: 13px;
 }
 
-/* line 85, ../sass/partials/_newsletter.scss */
+/* line 99, ../sass/partials/_newsletter.scss */
 form fieldset label {
   display: block;
   margin: 30px 0 5px 0;
@@ -2096,7 +2105,7 @@ form fieldset label {
   color: #49ada8;
 }
 
-/* line 91, ../sass/partials/_newsletter.scss */
+/* line 105, ../sass/partials/_newsletter.scss */
 form fieldset input.form-text {
   display: block;
   width: 50%;
@@ -2112,7 +2121,7 @@ form fieldset input.form-text {
   border-radius: 4px;
 }
 
-/* line 106, ../sass/partials/_newsletter.scss */
+/* line 120, ../sass/partials/_newsletter.scss */
 form input[type="submit"] {
   margin: 0;
   padding: 5px 10px;
@@ -2125,7 +2134,7 @@ form input[type="submit"] {
   border-radius: 4px;
 }
 
-/* line 120, ../sass/partials/_newsletter.scss */
+/* line 134, ../sass/partials/_newsletter.scss */
 #form_registrazione {
   background-color: #e1fffd;
   width: 620px;
