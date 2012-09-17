@@ -1,9 +1,18 @@
 .featured-corso{
 	margin-top: 10px;
 	margin-bottom: 10px;
+	.a.btn.green{
+	  
+	  margin-top: 5px;
+	  width: 111px;
+	  margin-left: 0;
+	  }
+	
 	a{
 		@include link-over-fluo;
 	}
+	
+	
 	.video_player{
 	  @include grid(10);
 		display: block;
