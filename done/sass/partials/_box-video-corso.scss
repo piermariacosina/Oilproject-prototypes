@@ -23,12 +23,12 @@
  			@include horizontal-list-item;
  			font-weight: bold;
  			font-size: 12px;
- 			margin: 8px 18px 0 0;
+ 			margin: 8px 4px 0 0;
  			padding: 0;
  			.icon{
  				position: relative;
  				float: left;
- 				font-size: 18px;
+ 				font-size: 25px;
  			}
  			span{
  				position: relative;
@@ -117,7 +117,7 @@
 
 .ashtag{
 margin-left: 40px;
-margin-top: 18px;
+margin-top: 5px;
 
 a{
 	font-family: 'Droid Sans';
@@ -183,6 +183,74 @@ a{
 }
 
 
+.comm-box-video{
+	@include grid(5);
+	@include omega;
+	@include alpha;
+	float: right;
+	margin-right: 10px;
+	@include clearfix;
+	.container-comments{	
+			height: auto;
+			@include clearfix;
+			
+			margin-top:20px;
+			margin-bottom:20px;
+			border-right: 1px solid #C5FFEA;
+			float: left;
+			&.first{
+				
+				padding-right: 10px;
+			}
+			&.center{
+				margin-left: 10px;
+				margin-right: 10px;
+				width: 80px;
+			}
+			&.last{
+				border-right: none;
+				float: right;
+			}
+			.box-number-comments{
+				float: left;
+				border-bottom: 1px solid $verde-scuro;
+				border-left: 1px solid $verde-medio;
+				border-right: 1px solid $verde-medio;
+				border-top: 1px solid $verde-medio;
+			.number-comments{
+				font-weight: normal;
+				font-size: 10px;
+				line-height: 10px;
+				color: $dark-green;
+				background: $light-fluo-green;
+				border-bottom: 1px solid $lightest-water-green;
+				border-left: 1px solid $lighter-water-green;
+				border-top: 1px solid $lighter-water-green;
+				border-right: 1px solid $lighter-water-green;
+				padding: 2px;
+				text-align: center;
+			}
+		}
+		.comments{
+			font-weight: normal;
+			font-size: 10px;
+			line-height: 10px;
+			color: $dark-green;
+			text-transform:lowercase;
+			float: left;
+			margin-left: 4px;
+			margin-right:4px;
+			margin-top: 4px;
+		}
+	}
+	
+	}
 
 
+
+
+
+	
+	
+	
 
