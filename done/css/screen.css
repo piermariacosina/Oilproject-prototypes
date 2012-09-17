@@ -6663,3 +6663,27 @@ h4.titoli_sezioni {
   text-transform: uppercase;
   color: #084936;
 }
+
+/* line 156, ../sass/partials/_box-video-corso.scss */
+.paragrafo-video-corso {
+  float: left;
+  width: 520px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+/* line 162, ../sass/partials/_box-video-corso.scss */
+.paragrafo-video-corso p {
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #3d635f;
+}
+/* line 172, ../sass/partials/_box-video-corso.scss */
+.paragrafo-video-corso .testo-parte1 {
+  font-weight: bold;
+}
+/* line 177, ../sass/partials/_box-video-corso.scss */
+.paragrafo-video-corso .testo-parte2 {
+  font-weight: bold;
+  color: #24d1c8;
+}

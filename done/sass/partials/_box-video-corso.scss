@@ -153,6 +153,36 @@ a{
 }
 
 
+.paragrafo-video-corso{
+	float: left;
+	width: 520px;
+	margin-left: 40px;
+	margin-top: 40px;
+	
+	 p{
+	   
+	   	font-family: 'Droid Sans';
+	   	font-weight: normal;
+	   	font-size: 13px;
+	   	color: $text-green;
+	 
+	 }
+	 
+	 
+	 .testo-parte1{
+	 font-weight: bold;
+	 	
+	 }
+	 
+	 .testo-parte2{
+	 font-weight: bold;
+	 color: $link-blue;
+	 	
+	 }
+	 
+}
+
+
 
 
 
