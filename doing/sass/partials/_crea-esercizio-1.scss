@@ -25,15 +25,20 @@
 		width:523px;
 		border: 1px solid #75efc7;
 		.frase{
-			margin-top:5px;
-			height:40px;
+			margin-top:10px;
+			height:32px;
 			width:450px;
 			margin-left:20px;
 			background-color:#f1f1f1;
 			border: 4px solid #026661;
 			border-radius: 15px;
 			float:left;
-
+			font-family: 'Droid Sans';
+			text-transform:uppercase;
+			color: #418c89 !important;
+			font-size:15px;
+			font-weight:bold;
+			text-indent: 10px;
 		}
 		.giusto{
 			width:30px;
