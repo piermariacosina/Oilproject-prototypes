@@ -14,7 +14,7 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 
 /* line 85, ../sass/screen.scss */
 div.corner.left {
-  background: url('../images/corner-left.png?1346400986') no-repeat left top;
+  background: url('../images/corner-left.png?1347643269') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-left: -6px;
@@ -23,7 +23,7 @@ div.corner.left {
 }
 /* line 92, ../sass/screen.scss */
 div.corner.right {
-  background: url('../images/corner-right.png?1346403824') no-repeat left top;
+  background: url('../images/corner-right.png?1347643269') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-right: -6px;
@@ -32,7 +32,7 @@ div.corner.right {
 }
 /* line 99, ../sass/screen.scss */
 div.corner.left.striped {
-  background: url('../images/corner-left-striped.png?1346409153') no-repeat left top;
+  background: url('../images/corner-left-striped.png?1347643269') no-repeat left top;
   height: 21px;
   width: 20px;
   margin-left: -20px;
@@ -1461,7 +1461,7 @@ a.btn.dark:visited {
   margin-left: 0;
   margin-right: 0;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso.png?1346681062') no-repeat left top;
+  background: url('../images/crea-il-tuo-corso.png?1347643269') no-repeat left top;
   position: relative;
   position: relative;
   left: -120px;
@@ -1484,7 +1484,7 @@ a.btn.dark:visited {
   top: 20px;
   width: 50%;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso-bg.png?1346681063') repeat-x left top;
+  background: url('../images/crea-il-tuo-corso-bg.png?1347643269') repeat-x left top;
 }
 
 /* line 4, ../sass/partials/_bottone-segui-utente.scss */
@@ -1514,7 +1514,7 @@ a.btn.dark:visited {
 }
 /* line 4, ../sass/partials/_featured-corso.scss */
 .featured-corso .video {
-  background: url('../images/foto-video-home.png?1346930954') no-repeat left top;
+  background: url('../images/foto-video-home.png?1347643269') no-repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -1531,7 +1531,7 @@ a.btn.dark:visited {
   margin-right: 10px;
   width: 400px;
   height: 285px;
-  background: url('../images/home-video-linguetta.png?1346930778') no-repeat left top;
+  background: url('../images/home-video-linguetta.png?1347643269') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   overflow: visible;
@@ -1712,7 +1712,7 @@ a.btn.dark:visited {
 }
 /* line 73, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:hover .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
 }
 /* line 78, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:visited .box-video {
@@ -2195,7 +2195,7 @@ form input[type="submit"] {
 }
 /* line 63, ../sass/partials/_form.scss */
 #form-registrazione #asterisco {
-  background: url('../images/asterisco.png?1346928316') no-repeat;
+  background: url('../images/asterisco.png?1347643269') no-repeat;
   width: 28px;
   height: 28px;
   position: absolute;
@@ -2294,7 +2294,7 @@ form input[type="submit"] {
 }
 /* line 59, ../sass/partials/_link-riferimento.scss */
 #link-riferimento .sottolineato {
-  background: url('../images/sottolineato-form.png?1347694880') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
   width: 177px;
   height: 6px;
   margin-left: 3px;
@@ -2338,7 +2338,7 @@ form input[type="submit"] {
 }
 /* line 43, ../sass/partials/_categoria-corso.scss */
 #categoria-corso .sottolineato {
-  background: url('../images/sottolineato-form.png?1347694880') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
   width: 56px;
   height: 6px;
   margin-left: 3px;
@@ -2362,7 +2362,7 @@ form input[type="submit"] {
 }
 /* line 72, ../sass/partials/_categoria-corso.scss */
 #descrizione .sottolineato {
-  background: url('../images/sottolineato-form.png?1347694880') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
   width: 108px;
   height: 6px;
   margin-left: 3px;
@@ -2444,7 +2444,7 @@ form input[type="submit"] {
 }
 /* line 63, ../sass/partials/_estratto.scss */
 #estratto-carica-testo .sottolineato {
-  background: url('../images/sottolineato-form.png?1347694880') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
   width: 77px;
   height: 6px;
   margin-left: 3px;
@@ -2482,14 +2482,14 @@ form input[type="submit"] {
 }
 /* line 16, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina .sottolineato {
-  background: url('../images/sottolineato-form.png?1347694880') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
   width: 212px;
   height: 6px;
   margin-left: 3px;
 }
 /* line 24, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina .foto-copertina {
-  background: url('../images/foto-utente.png?1347282525') no-repeat left top;
+  background: url('../images/foto-utente.png?1347643269') no-repeat left top;
   width: 194px;
   height: 181px;
 }
@@ -2656,4 +2656,135 @@ hr {
 #form-risposta-collegamento .risposta3 {
   float: right;
   margin-right: 500px;
+}
+
+/* line 1, ../sass/partials/_header-corso-iniziato.scss */
+#nome-corso {
+  background: url('../images/background-titolo-corso.png?1347643269') repeat left top;
+  display: inline;
+  float: left;
+  width: 280px;
+  height: 91px;
+  /*@include grid(5);
+  height: 91px;
+  @include alpha;*/
+}
+/* line 11, ../sass/partials/_header-corso-iniziato.scss */
+#nome-corso h1 {
+  color: #057c79;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  width: 253px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 1px;
+  text-shadow: 0px 2px 1px white, 0px 2px 1px true white;
+  text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
+}
+
+/* line 34, ../sass/partials/_header-corso-iniziato.scss */
+#caricamento {
+  background-color: #00ffb0;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 520px;
+  height: 31px;
+  margin-left: 4px;
+}
+
+/* line 44, ../sass/partials/_header-corso-iniziato.scss */
+.ultime-lezioni {
+  position: relative;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100px;
+  margin-right: 0;
+  padding: 0;
+  margin: 5px 0 8px 0;
+}
+/* line 51, ../sass/partials/_header-corso-iniziato.scss */
+.ultime-lezioni span {
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 11px;
+  font-size: 10px;
+  margin-left: 5px;
+  float: left;
+}
+/* line 62, ../sass/partials/_header-corso-iniziato.scss */
+.ultime-lezioni .number {
+  width: 19px;
+  height: 19px;
+  background: #057c79;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: 4px;
+}
+
+/* line 82, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-prev {
+  float: left;
+  margin-top: 28px;
+  margin-left: 27px;
+}
+/* line 88, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-prev .prev {
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 11px;
+  font-size: 10px;
+  float: right;
+}
+/* line 100, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-prev .freccia-prev {
+  width: 14px;
+  height: 14px;
+  background: url('../images/prev.png?1347643269');
+  display: inline-block;
+  margin-right: 4px;
+  float: left;
+}
+
+/* line 114, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-next {
+  float: left;
+  margin-top: 28px;
+  margin-left: 400px;
+}
+/* line 120, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-next .next {
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 11px;
+  font-size: 10px;
+  float: left;
+}
+/* line 132, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-next .freccia-next {
+  width: 14px;
+  height: 14px;
+  background: url('../images/next.png?1347643269');
+  display: inline-block;
+  margin-right: 4px;
+  float: left;
+  margin-left: 4px;
 }
