@@ -6491,6 +6491,12 @@ h4.titoli_sezioni {
   margin-bottom: 10px;
 }
 /* line 12, ../sass/partials/_box-video-corso.scss */
+.video-corso a.btn.dark.noborder {
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+/* line 19, ../sass/partials/_box-video-corso.scss */
 .video-corso a {
   text-decoration: none;
   color: #084936;
@@ -6508,7 +6514,7 @@ h4.titoli_sezioni {
 .video-corso a:active {
   color: #43d1b4;
 }
-/* line 17, ../sass/partials/_box-video-corso.scss */
+/* line 24, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni {
   margin: 0;
   padding: 0;
@@ -6520,7 +6526,7 @@ h4.titoli_sezioni {
   margin-top: 37px;
   margin-left: 40px;
 }
-/* line 22, ../sass/partials/_box-video-corso.scss */
+/* line 29, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni li {
   list-style-image: none;
   list-style-type: none;
@@ -6547,24 +6553,24 @@ h4.titoli_sezioni {
 .video-corso .tipologie-lezioni li.last {
   padding-right: 0;
 }
-/* line 28, ../sass/partials/_box-video-corso.scss */
+/* line 35, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni li .icon {
   position: relative;
   float: left;
   font-size: 25px;
 }
-/* line 33, ../sass/partials/_box-video-corso.scss */
+/* line 40, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni li span {
   position: relative;
   float: left;
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 40, ../sass/partials/_box-video-corso.scss */
+/* line 47, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni li:last-child {
   margin-right: 0px;
 }
-/* line 45, ../sass/partials/_box-video-corso.scss */
+/* line 52, ../sass/partials/_box-video-corso.scss */
 .video-corso h4 {
   font-family: 'Droid Sans';
   width: 300px;
@@ -6575,7 +6581,7 @@ h4.titoli_sezioni {
   margin-top: 10px;
   margin-left: 350px;
 }
-/* line 56, ../sass/partials/_box-video-corso.scss */
+/* line 63, ../sass/partials/_box-video-corso.scss */
 .video-corso h3 {
   font-family: 'Droid Sans';
   max-width: 242px;
@@ -6588,7 +6594,7 @@ h4.titoli_sezioni {
   margin-left: 350px;
   text-shadow: 0px 2px 1px white;
 }
-/* line 75, ../sass/partials/_box-video-corso.scss */
+/* line 82, ../sass/partials/_box-video-corso.scss */
 .video-corso .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -6598,7 +6604,7 @@ h4.titoli_sezioni {
   position: relative;
   color: #057c79;
 }
-/* line 86, ../sass/partials/_box-video-corso.scss */
+/* line 93, ../sass/partials/_box-video-corso.scss */
 .video-corso p {
   width: 334px;
   height: 80px;
@@ -6610,14 +6616,14 @@ h4.titoli_sezioni {
   margin-right: 20px;
   margin-top: 10px;
 }
-/* line 98, ../sass/partials/_box-video-corso.scss */
+/* line 105, ../sass/partials/_box-video-corso.scss */
 .video-corso .img-corso-categoria {
   margin-left: 27px;
   position: absolute;
   float: right;
 }
 
-/* line 107, ../sass/partials/_box-video-corso.scss */
+/* line 114, ../sass/partials/_box-video-corso.scss */
 .divisore-corso-video {
   background: url('../images/divisore-2.png?1347643269');
   margin-top: 5px;
@@ -6627,68 +6633,68 @@ h4.titoli_sezioni {
   height: 2px;
 }
 
-/* line 118, ../sass/partials/_box-video-corso.scss */
+/* line 125, ../sass/partials/_box-video-corso.scss */
 .ashtag {
   margin-left: 40px;
   margin-top: 5px;
 }
-/* line 122, ../sass/partials/_box-video-corso.scss */
+/* line 129, ../sass/partials/_box-video-corso.scss */
 .ashtag a {
   font-family: 'Droid Sans';
   font-weight: normal;
   font-size: 13px;
   color: #057c79;
 }
-/* line 128, ../sass/partials/_box-video-corso.scss */
+/* line 135, ../sass/partials/_box-video-corso.scss */
 .ashtag span {
   font-weight: bold;
   text-transform: uppercase;
   color: #084936;
 }
 
-/* line 137, ../sass/partials/_box-video-corso.scss */
+/* line 144, ../sass/partials/_box-video-corso.scss */
 .pubblicato {
   margin-left: 40px;
 }
-/* line 141, ../sass/partials/_box-video-corso.scss */
+/* line 148, ../sass/partials/_box-video-corso.scss */
 .pubblicato a {
   font-family: 'Droid Sans';
   font-weight: normal;
   font-size: 13px;
   color: #057c79;
 }
-/* line 147, ../sass/partials/_box-video-corso.scss */
+/* line 154, ../sass/partials/_box-video-corso.scss */
 .pubblicato span {
   font-weight: bold;
   text-transform: uppercase;
   color: #084936;
 }
 
-/* line 156, ../sass/partials/_box-video-corso.scss */
+/* line 163, ../sass/partials/_box-video-corso.scss */
 .paragrafo-video-corso {
   float: left;
   width: 520px;
   margin-left: 40px;
   margin-top: 40px;
 }
-/* line 162, ../sass/partials/_box-video-corso.scss */
+/* line 169, ../sass/partials/_box-video-corso.scss */
 .paragrafo-video-corso p {
   font-family: 'Droid Sans';
   font-weight: normal;
   font-size: 13px;
   color: #3d635f;
 }
-/* line 172, ../sass/partials/_box-video-corso.scss */
+/* line 179, ../sass/partials/_box-video-corso.scss */
 .paragrafo-video-corso .testo-parte1 {
   font-weight: bold;
 }
-/* line 177, ../sass/partials/_box-video-corso.scss */
+/* line 184, ../sass/partials/_box-video-corso.scss */
 .paragrafo-video-corso .testo-parte2 {
   font-weight: bold;
   color: #24d1c8;
 }
 
-/* line 186, ../sass/partials/_box-video-corso.scss */
+/* line 193, ../sass/partials/_box-video-corso.scss */
 .comm-box-video {
   display: inline;
   float: left;
@@ -6702,7 +6708,7 @@ h4.titoli_sezioni {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 193, ../sass/partials/_box-video-corso.scss */
+/* line 200, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments {
   height: auto;
   overflow: hidden;
@@ -6712,22 +6718,22 @@ h4.titoli_sezioni {
   border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 201, ../sass/partials/_box-video-corso.scss */
+/* line 208, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments.first {
   padding-right: 10px;
 }
-/* line 205, ../sass/partials/_box-video-corso.scss */
+/* line 212, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments.center {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 210, ../sass/partials/_box-video-corso.scss */
+/* line 217, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments.last {
   border-right: none;
   float: right;
 }
-/* line 214, ../sass/partials/_box-video-corso.scss */
+/* line 221, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -6735,7 +6741,7 @@ h4.titoli_sezioni {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 220, ../sass/partials/_box-video-corso.scss */
+/* line 227, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -6749,7 +6755,7 @@ h4.titoli_sezioni {
   padding: 2px;
   text-align: center;
 }
-/* line 234, ../sass/partials/_box-video-corso.scss */
+/* line 241, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments .comments {
   font-weight: normal;
   font-size: 10px;

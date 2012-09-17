@@ -7,12 +7,12 @@
   font-style: regular;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
   margin-bottom: 0 !important;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 div.corner.left {
   background: url('../images/corner-left.png?1347643269') no-repeat left top;
   height: 6px;
@@ -21,7 +21,7 @@ div.corner.left {
   display: inline;
   float: left;
 }
-/* line 92, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 div.corner.right {
   background: url('../images/corner-right.png?1347643269') no-repeat left top;
   height: 6px;
@@ -30,7 +30,7 @@ div.corner.right {
   display: inline;
   float: right;
 }
-/* line 99, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 div.corner.left.striped {
   background: url('../images/corner-left-striped.png?1347643269') no-repeat left top;
   height: 21px;
@@ -2493,7 +2493,20 @@ form input[type="submit"] {
   width: 194px;
   height: 181px;
 }
-/* line 32, ../sass/partials/_immagine-copertina.scss */
+/* line 31, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina fieldset {
+  float: left;
+}
+/* line 35, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina .select-submit {
+  float: left;
+  margin-top: 80px;
+}
+/* line 39, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina .select-submit #select {
+  width: 286px;
+}
+/* line 46, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina form input[type="submit"] {
   margin: 0;
   padding: 5px 10px;
@@ -2508,14 +2521,16 @@ form input[type="submit"] {
   width: 93px;
   border-radius: 10px;
   text-transform: uppercase;
+  margin-top: 60px;
+  margin-left: 184px;
 }
-/* line 48, ../sass/partials/_immagine-copertina.scss */
+/* line 64, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina form input[type="submit"]:hover,
 #immagine-copertina form input[type="submit"]:focus {
   border: 1px solid #bbb;
   background: #e5e5e5;
 }
-/* line 53, ../sass/partials/_immagine-copertina.scss */
+/* line 69, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina .form-actions {
   margin-top: 10px;
   padding: 17px 4px 18px;
@@ -2787,4 +2802,253 @@ hr {
   margin-right: 4px;
   float: left;
   margin-left: 4px;
+}
+
+/* line 1, ../sass/partials/_registrazione-1.scss */
+.registrazione_1 {
+  width: 620px;
+  height: 100px;
+  background-color: #c9f7f5;
+}
+/* line 5, ../sass/partials/_registrazione-1.scss */
+.registrazione_1 fieldset {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+}
+/* line 14, ../sass/partials/_registrazione-1.scss */
+.registrazione_1 fieldset label {
+  display: block;
+  margin: 30px 0 5px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7ac3b8;
+}
+/* line 22, ../sass/partials/_registrazione-1.scss */
+.registrazione_1 fieldset input.form-text {
+  display: block;
+  width: 460px;
+  height: 40px;
+  margin-right: 30px;
+  font-size: 20px;
+  font-family: 'Droid Sans';
+  border: 1px solid #65C1B0;
+  background: #b9efeb;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-shadow: 0px 2px 1px white;
+}
+/* line 46, ../sass/partials/_registrazione-1.scss */
+.registrazione_1 #asterisco {
+  background: url('../images/asterisco.png?1347643269') no-repeat;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  margin-left: 485px;
+  margin-top: 11px;
+}
+
+/* line 3, ../sass/partials/_registrazione-3.scss */
+.giorno {
+  width: 165px;
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 5px;
+  background-color: #7ddbd2;
+  border: none;
+  font-size: 18px;
+  font-family: 'Droid Sans';
+  color: #2f6f5e;
+}
+
+/* line 14, ../sass/partials/_registrazione-3.scss */
+.mese {
+  width: 165px;
+  height: 40px;
+  margin-right: 5px;
+  background-color: #7ddbd2;
+  border: none;
+  font-size: 18px;
+  font-family: 'Droid Sans';
+  color: #2f6f5e;
+}
+
+/* line 24, ../sass/partials/_registrazione-3.scss */
+.anno {
+  width: 110px;
+  height: 40px;
+  background-color: #7ddbd2;
+  border: none;
+  font-size: 18px;
+  font-family: 'Droid Sans';
+  color: #2f6f5e;
+}
+
+/* line 3, ../sass/partials/_registrazione-4.scss */
+.registrazione-4 input.radio-button {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 25px;
+  float: left;
+}
+/* line 9, ../sass/partials/_registrazione-4.scss */
+.registrazione-4 p {
+  color: #519082;
+  font-family: 'Droid Sans';
+  height: 25px;
+  width: 25px;
+  font-size: 25px;
+  float: left;
+  margin-right: 40px;
+}
+
+/* line 1, ../sass/partials/_registrazione-5.scss */
+.cap-text {
+  display: block;
+  width: 110px;
+  height: 40px;
+  margin-right: 30px;
+  font-size: 20px;
+  font-family: 'Droid Sans';
+  border: 1px solid #65C1B0;
+  background: #b9efeb;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 1, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio {
+  margin-top: 20px;
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #f7fcfb;
+}
+/* line 5, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .risposta {
+  background: url('../images/diagonal_green_bg.png?1347643269') repeat left top;
+  width: 186px;
+  height: 28px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+/* line 11, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .risposta h4 {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+/* line 21, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda {
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 102px;
+  width: 523px;
+  border: 1px solid #75efc7;
+}
+/* line 27, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda .frase {
+  margin-top: 10px;
+  height: 32px;
+  width: 450px;
+  margin-left: 20px;
+  background-color: #f1f1f1;
+  border: 4px solid #026661;
+  border-radius: 15px;
+  float: left;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89 !important;
+  font-size: 15px;
+  font-weight: bold;
+  text-indent: 10px;
+}
+/* line 43, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda .giusto {
+  width: 30px;
+  float: left;
+  margin-left: 13px;
+}
+/* line 48, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda p {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 12px;
+  float: left;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+/* line 58, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda a {
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  float: right;
+  background-color: #166059;
+  border-radius: 20px;
+}
+/* line 66, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda a p {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 11px;
+  color: #75efc7;
+  line-height: 20px;
+  float: left;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-top: 0px;
+}
+
+/* line 1, ../sass/partials/_select-file.scss */
+.select-file {
+  margin-top: 10px;
+}
+/* line 3, ../sass/partials/_select-file.scss */
+.select-file .tipo {
+  margin-left: 20px;
+  float: left;
+  width: 85px;
+  overflow: hidden;
+}
+/* line 8, ../sass/partials/_select-file.scss */
+.select-file .tipo h4 {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 15, ../sass/partials/_select-file.scss */
+.select-file .tipo .sottolineato {
+  width: 85px;
+  height: 6px;
+  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
+}
+/* line 21, ../sass/partials/_select-file.scss */
+.select-file .file {
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 13px;
+  font-weight: 400;
 }

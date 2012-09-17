@@ -9,6 +9,13 @@
  	margin-top: 10px;
  	margin-bottom: 10px;
  	
+ 	  a.btn.dark.noborder{
+ 	  
+ 	  float: right;
+ 	  margin-right: 40px;
+ 	  margin-top: 20px;
+ 	  }
+ 	
  	a{
 	 	@include link-over-fluo;
  	}
