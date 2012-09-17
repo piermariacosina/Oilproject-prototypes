@@ -3149,8 +3149,9 @@ ul.commenti-recenti li .text p.data_commento span {
   overflow: hidden;
   *zoom: 1;
   margin-left: 35px;
+  margin-top: 4px;
 }
-/* line 83, ../sass/partials/_corsi-creati.scss */
+/* line 84, ../sass/partials/_corsi-creati.scss */
 .corsi-creati .box-corso .tipologie-lezioni li {
   position: relative;
   float: left;
@@ -3159,18 +3160,19 @@ ul.commenti-recenti li .text p.data_commento span {
   margin: 8px 23px 0 0;
   padding: 0;
 }
-/* line 90, ../sass/partials/_corsi-creati.scss */
+/* line 91, ../sass/partials/_corsi-creati.scss */
 .corsi-creati .box-corso .tipologie-lezioni li .icon {
   position: relative;
   float: left;
   font-size: 21px;
+  margin-top: -6px;
 }
-/* line 95, ../sass/partials/_corsi-creati.scss */
+/* line 97, ../sass/partials/_corsi-creati.scss */
 .corsi-creati .box-corso .tipologie-lezioni li span {
   position: relative;
   float: left;
 }
-/* line 100, ../sass/partials/_corsi-creati.scss */
+/* line 102, ../sass/partials/_corsi-creati.scss */
 .corsi-creati .box-corso .tipologie-lezioni li:last-child {
   margin-right: 0px;
 }
@@ -4539,9 +4541,10 @@ header#main section#dashboard-loggedin .logout p {
   float: left;
   color: #49ada8;
   font-size: 22px;
-  margin: 0 4px 0 4px;
+  margin-left: 40px;
+  margin-top: -20px;
 }
-/* line 28, ../sass/partials/_prefooter.scss */
+/* line 30, ../sass/partials/_prefooter.scss */
 #prefooter .categoria-container .categoria h1 {
   font-family: 'Droid Sans';
   font-weight: 400;
@@ -4551,7 +4554,7 @@ header#main section#dashboard-loggedin .logout p {
   float: left;
   margin-top: 6px;
 }
-/* line 37, ../sass/partials/_prefooter.scss */
+/* line 39, ../sass/partials/_prefooter.scss */
 #prefooter .categoria-container .categoria h1 a {
   text-decoration: none;
   color: #49ada8;
@@ -4569,18 +4572,18 @@ header#main section#dashboard-loggedin .logout p {
 #prefooter .categoria-container .categoria h1 a:active {
   color: #49ada8;
 }
-/* line 42, ../sass/partials/_prefooter.scss */
+/* line 44, ../sass/partials/_prefooter.scss */
 #prefooter .categoria-container li:last-child {
   margin-right: 0;
 }
-/* line 46, ../sass/partials/_prefooter.scss */
+/* line 48, ../sass/partials/_prefooter.scss */
 #prefooter .categoria-container .sottocategoria {
   width: auto;
   height: auto;
   margin: 0;
   list-style-type: none;
 }
-/* line 53, ../sass/partials/_prefooter.scss */
+/* line 55, ../sass/partials/_prefooter.scss */
 #prefooter .categoria-container .sottocategoria li {
   height: auto;
   width: 99px;
@@ -4593,7 +4596,7 @@ header#main section#dashboard-loggedin .logout p {
   margin: 0 0 12px 0;
   padding: 0;
 }
-/* line 64, ../sass/partials/_prefooter.scss */
+/* line 66, ../sass/partials/_prefooter.scss */
 #prefooter .categoria-container .sottocategoria li a {
   text-decoration: none;
   text-decoration: none;
@@ -4612,7 +4615,7 @@ header#main section#dashboard-loggedin .logout p {
 #prefooter .categoria-container .sottocategoria li a:active {
   color: #49ada8;
 }
-/* line 68, ../sass/partials/_prefooter.scss */
+/* line 70, ../sass/partials/_prefooter.scss */
 #prefooter .categoria-container .sottocategoria li a:hover, #prefooter .categoria-container .sottocategoria li a:visited {
   text-decoration: none;
   color: #49ada8;

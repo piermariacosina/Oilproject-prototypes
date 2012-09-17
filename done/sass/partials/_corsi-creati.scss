@@ -80,6 +80,7 @@
 				list-style-type: none;
 				@include clearfix;
 				margin-left:35px;  
+				margin-top: 4px;
 				li{
 					position: relative;
 					float: left;
@@ -91,6 +92,7 @@
 						position: relative;
 						float: left;
 						font-size: 21px;
+						margin-top: -6px;
 					}
 					span{
 						position: relative;
