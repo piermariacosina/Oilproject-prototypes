@@ -1,0 +1,108 @@
+.corso{
+ 	width: 638px;
+ 	height: 209px;
+ 	background: image-url("box-corso-categoria.png") no-repeat left top;
+ 	font-family: 'Droid Sans';
+ 	color: $dark-green;
+ 	display: inline;
+ 	float: left;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	
+ 	a{
+	 	@include link-over-fluo;
+ 	}
+ 	
+ 	
+ 	.tipologie-lezioni{
+ 		@include horizontal-list-container;
+ 		@include clearfix;
+ 		margin-top: -37px;
+ 		@include float-right;
+ 		margin-right: 20px;
+ 		li{
+ 			@include horizontal-list-item;
+ 			font-weight: bold;
+ 			font-size: 12px;
+ 			margin: 8px 18px 0 0;
+ 			padding: 0;
+ 			.icon{
+ 				position: relative;
+ 				float: left;
+ 				font-size: 18px;
+ 			}
+ 			span{
+ 				position: relative;
+ 				float: left;
+ 				margin-top: 5px;
+ 				margin-left: 5px;
+ 			}
+ 		}
+ 		li:last-child{
+ 			margin-right:0px;
+ 		}
+ 	}
+
+ 	   h4{
+ 		  width: 300px;
+ 		  font-weight: bold;
+ 		  font-size: 10px;
+ 		  line-height: 15px;
+ 		  text-transform: uppercase;
+ 		  margin-top: 10px;
+ 		  margin-left: 40px;
+ 	   						}
+
+ 	   h3{
+ 		 max-width: 200px;
+ 		 height: 60px;
+ 		 font-weight: bold;
+ 		 font-size: 14px;
+ 		 line-height: 17px;
+ 		 text-transform: uppercase;
+ 		 overflow: hidden;
+ 		 font-weight: normal;
+ 		 text-transform: lowercase;
+ 		 margin-left: 40px;
+ 							}
+		.relatore{
+			 font-weight: bold;
+			 font-size: 10px;
+			 display: block;
+			 top:-3px;
+			 margin-left: 40px;
+			 position: relative;
+			 color: $light-green;
+
+			}
+
+		p{
+			 width: 334px;
+			 height: 80px;
+			 font-weight: 400px;
+			 font-size: 10px;
+			 line-height: 13px;
+			 overflow: hidden;
+			 float: right;
+			 margin-right: 20px;
+			 margin-top: 10px;
+			}
+
+		.img-corso-categoria{
+			 margin-left: 27px;
+			 position: absolute;
+			 float: right;
+			}
+
+	  }
+
+
+.divisore-2{
+		margin-left: 40px;
+		margin-right: 20px;
+		height: 2px;
+		clear: both;
+		background: image-url("divisore-2.png") ;
+}
+
+
