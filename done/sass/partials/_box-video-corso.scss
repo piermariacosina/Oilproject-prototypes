@@ -1,7 +1,7 @@
-.corso{
+.video-corso{
  	width: 638px;
- 	height: 209px;
- 	background: image-url("box-corso-categoria.png") no-repeat left top;
+ 	height: 301px;
+ 	background: image-url("box-video-corso.png") no-repeat left top;
  	font-family: 'Droid Sans';
  	color: $dark-green;
  	display: inline;
@@ -17,9 +17,8 @@
  	.tipologie-lezioni{
  		@include horizontal-list-container;
  		@include clearfix;
- 		margin-top: -37px;
- 		@include float-right;
- 		margin-right: 20px;
+ 		margin-top: 37px;
+ 		margin-left: 40px;
  		li{
  			@include horizontal-list-item;
  			font-weight: bold;
@@ -44,26 +43,34 @@
  	}
 
  	   h4{
+ 	      font-family: 'Droid Sans';
  		  width: 300px;
  		  font-weight: bold;
- 		  font-size: 10px;
+ 		  font-size: 15px;
  		  line-height: 15px;
  		  text-transform: uppercase;
  		  margin-top: 10px;
- 		  margin-left: 40px;
+ 		  margin-left: 350px;
  	   						}
 
  	   h3{
- 		 max-width: 200px;
- 		 height: 60px;
+ 	     font-family: 'Droid Sans';
+ 		 max-width: 242px;
+ 		 height: 113px;
  		 font-weight: bold;
- 		 font-size: 14px;
- 		 line-height: 17px;
+ 		 font-size: 25px;
+ 		 line-height: 30px;
  		 text-transform: uppercase;
  		 overflow: hidden;
- 		 font-weight: normal;
- 		 text-transform: lowercase;
- 		 margin-left: 40px;
+ 		 margin-left: 350px;
+ 		   $default-text-shadow-h-offset: 0px;
+ 		       $default-text-shadow-v-offset: 2px;
+ 		       $default-text-shadow-blur: 1px;
+ 		      
+ 		       $default-text-shadow-color: $white;	       
+ 		   @include single-text-shadow();
+ 		   
+ 		   
  							}
 		.relatore{
 			 font-weight: bold;
@@ -97,12 +104,55 @@
 	  }
 
 
-.divisore-2{
+.divisore-corso-video{
+
+        background: image-url("divisore-2.png") ; 
+		margin-top: 5px;
 		margin-left: 40px;
-		margin-right: 20px;
-		height: 2px;
 		clear: both;
-		background: image-url("divisore-2.png") ;
+		width: 569px;
+		height: 2px;
+
+		}
+
+.ashtag{
+margin-left: 40px;
+margin-top: 18px;
+
+a{
+	font-family: 'Droid Sans';
+	font-weight: normal;
+	font-size: 13px;
+	color: $light-green;
+	}
+	 span{
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 color: $dark-green;
+	 
+	 }
+	}
+
+
+.pubblicato{
+margin-left: 40px;
+
+
+a{
+	font-family: 'Droid Sans';
+	font-weight: normal;
+	font-size: 13px;
+	color: $light-green;
+	}
+	span{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $dark-green;
+	
+	}
 }
+
+
+
 
 
