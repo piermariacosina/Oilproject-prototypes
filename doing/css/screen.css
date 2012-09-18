@@ -2273,8 +2273,8 @@ form input[type="submit"] {
   width: 281px;
   height: 25px;
   padding: 5px;
-  border: 2px solid #084936;
-  background: #eafdfc;
+  border: 1px solid #65c1b0;
+  background: #b9efeb;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -2291,8 +2291,8 @@ form input[type="submit"] {
   width: 281px;
   height: 25px;
   padding: 5px;
-  border: 2px solid #084936;
-  background: #eafdfc;
+  border: 1px solid #65c1b0;
+  background: #b9efeb;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -2335,14 +2335,14 @@ form input[type="submit"] {
   width: 400px;
   height: 25px;
   padding: 5px;
-  border: 2px solid #084936;
-  background: #eafdfc;
+  border: 1px solid #65c1b0;
+  background: #b9efeb;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  border-radius: 10px;
+  border-radius: 5px;
   float: left;
 }
 /* line 42, ../sass/partials/_categoria-corso.scss */
@@ -2382,14 +2382,14 @@ form input[type="submit"] {
   width: 400px;
   padding: 5px;
   font-size: 14px;
-  border: 2px solid #084936;
-  background: #eafdfc;
+  border: 1px solid #65c1b0;
+  background: #b9efeb;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-left: 30px;
   float: left;
   margin-left: 24px;
@@ -3144,64 +3144,4 @@ hr {
   color: #49ada8;
   line-height: 14px;
   display: inline-block;
-}
-
-/* line 2, ../sass/partials/_textarea-commenti.scss */
-#textarea-commenti {
-  background-color: #057c79;
-  width: 1158px;
-  height: 245px;
-  float: right;
-}
-/* line 8, ../sass/partials/_textarea-commenti.scss */
-#textarea-commenti form fieldset {
-  margin: 0px 0 20px 30px;
-  font-family: 'Droid Sans';
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #057c79;
-  margin-top: -23px;
-}
-/* line 19, ../sass/partials/_textarea-commenti.scss */
-#textarea-commenti .preview-commento {
-  background-color: #084936;
-  width: 93px;
-  height: 22px;
-  border-radius: 20px;
-  float: right;
-  margin-right: -115px;
-  margin-top: 190px;
-}
-/* line 29, ../sass/partials/_textarea-commenti.scss */
-#textarea-commenti .preview-commento h1 {
-  color: white;
-  font-family: 'Droid Sans';
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: lowercase;
-  position: absolute;
-  margin-top: 1px;
-  margin-left: 23px;
-}
-/* line 43, ../sass/partials/_textarea-commenti.scss */
-#textarea-commenti form fieldset textarea {
-  display: block;
-  width: 578px;
-  padding: 5px;
-  margin-right: 10px;
-  font-size: 14px;
-  border-top: 1px solid #166059;
-  border-left: 1px solid #166059;
-  border-bottom: 1px solid #49ada8;
-  border-right: 1px solid #49ada8;
-  background: #057771;
-  border-radius: 2px;
-  float: right;
-  margin-top: 3px;
-  color: white;
-}
-/* line 60, ../sass/partials/_textarea-commenti.scss */
-#textarea-commenti form fieldset textarea {
-  height: 209px;
 }
