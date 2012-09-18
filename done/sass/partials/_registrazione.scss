@@ -66,18 +66,20 @@
 		$default-text-shadow-blur: 1px;
 		$default-text-shadow-spread: false;
 		$default-text-shadow-color: $white;
-		background: #7ddbd2 image-url("freccia-select.png") no-repeat right ;       
+		@include background( image-url("freccia-select.png") no-repeat right, image-url("ombra-select.png") repeat-x right , #7ddbd2 );       
 		-webkit-appearance: none;
 		&.standard{
 			@include grid(3);
 			height: 40px;
 			@include alpha;
+			display: inline-block;
 		}
 	
 		&.last{
 			@include grid(3);
 			height: 40px;
 			@include alpha;
+			display: inline-block;
 		}
 		
 	}
@@ -85,6 +87,7 @@
 	label.horizontal{
 		@include grid(3);
 		@include alpha;
+		
 	}
 
 
@@ -112,7 +115,8 @@
 		
 		@include grid(3);
 		@include alpha;
-		height:40px;
+		display: inline-block;
+		height:30px;
 		margin-right:30px;			
 		font-size: 20px;
 		font-family: 'Droid Sans';

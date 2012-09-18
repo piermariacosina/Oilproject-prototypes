@@ -6711,7 +6711,7 @@ h4.titoli_sezioni {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: #7ddbd2 url('../images/freccia-select.png?1347975906') no-repeat right;
+  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 71, ../sass/partials/_registrazione.scss */
@@ -6723,8 +6723,9 @@ h4.titoli_sezioni {
   width: 160px;
   height: 40px;
   margin-left: 0;
+  display: inline-block;
 }
-/* line 77, ../sass/partials/_registrazione.scss */
+/* line 78, ../sass/partials/_registrazione.scss */
 .edit-container select.last {
   display: inline;
   float: left;
@@ -6733,8 +6734,9 @@ h4.titoli_sezioni {
   width: 160px;
   height: 40px;
   margin-left: 0;
+  display: inline-block;
 }
-/* line 85, ../sass/partials/_registrazione.scss */
+/* line 87, ../sass/partials/_registrazione.scss */
 .edit-container label.horizontal {
   display: inline;
   float: left;
@@ -6743,14 +6745,14 @@ h4.titoli_sezioni {
   width: 160px;
   margin-left: 0;
 }
-/* line 93, ../sass/partials/_registrazione.scss */
+/* line 96, ../sass/partials/_registrazione.scss */
 .edit-container .radio-container input.radio-button {
   margin-left: 10px;
   margin-right: 10px;
   height: 25px;
   float: left;
 }
-/* line 99, ../sass/partials/_registrazione.scss */
+/* line 102, ../sass/partials/_registrazione.scss */
 .edit-container .radio-container p {
   color: #519082;
   font-family: 'Droid Sans';
@@ -6760,7 +6762,7 @@ h4.titoli_sezioni {
   float: left;
   margin-right: 40px;
 }
-/* line 111, ../sass/partials/_registrazione.scss */
+/* line 114, ../sass/partials/_registrazione.scss */
 .edit-container .cap-text {
   display: inline;
   float: left;
@@ -6768,7 +6770,8 @@ h4.titoli_sezioni {
   margin-right: 10px;
   width: 160px;
   margin-left: 0;
-  height: 40px;
+  display: inline-block;
+  height: 30px;
   margin-right: 30px;
   font-size: 20px;
   font-family: 'Droid Sans';
