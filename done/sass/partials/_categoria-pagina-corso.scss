@@ -48,71 +48,67 @@
  	     margin-top: 7px;
  	     
  	     a{
- 	     	@include link-white;
- 	     	
- 	     	
- 	     
- 	     	
+ 	     	@include link-white;  	
  	     }
  	
  		}
  							
- 							.relatore{
- 							font-weight: bold;
- 							font-size: 10px;
- 						    position: absolute;
- 							color: $light-petrolio;
- 							margin-top: -50px;
- 							margin-left: 70px;
- 								a{
- 										 	@include link-over-dark;
- 									 	}	
- 								}
+ 		.relatore{
+ 		font-weight: bold;
+ 		font-size: 10px;
+ 		position: absolute;
+ 		color: $light-petrolio;
+ 		margin-top: -50px;
+ 		margin-left: 70px;
+ 			a{
+ 						@include link-over-dark;
+ 					}	
+ 			}
+
  			
- 								
- 								.icon{
- 								    font-size: 24px;
- 									
- 									top:20px;
- 									left: 30px;
- 									position: absolute;
- 									a{
- 										@include link-white;
- 									}
- 								}
- 						
- 						#extras{
- 							margin-left: 400px;
- 							margin-top: -90px;
- 							position: absolute;
- 						}
- 						
- 						
- 						
- 						.numero-lezioni-corso{
- 							position: relative;
- 							float: right;
- 							padding: 0 100px 0 0;
- 							margin: 5px 0 8px 0;
- 							margin-left: 180px;
- 							
- 							.number{
- 								width: 19px;
- 								height: 19px;
- 								background: $fluo-blue;
- 								color: $dark-green;
- 								font-weight: bold;
- 								font-size: 12px;
- 								position: relative;
- 								float: left;
- 								text-align: center;
- 								border-radius: 10px;
- 								padding: 1px 0 0 1px;
- 								margin-top: -2px;
- 							}
- 							
- 							
- 							}
+ 			.icon{
+ 				font-size: 24px;
+ 				
+ 				top:20px;
+ 				left: 30px;
+ 				position: absolute;
+ 				a{
+ 					@include link-white;
+ 				}
+ 			}
+ 	
+ 	#extras{
+ 		margin-left: 400px;
+ 		margin-top: -90px;
+ 		position: absolute;
+ 	}
+ 	
+ 	
+ 	
+ 	.numero-lezioni-corso{
+ 		position: relative;
+ 		float: right;
+ 		padding: 0 100px 0 0;
+ 		margin: 5px 0 8px 0;
+ 		margin-left: 180px;
+ 		
+ 		.number{
+ 			width: 19px;
+ 			height: 19px;
+ 			background: $fluo-blue;
+ 			color: $dark-green;
+ 			font-weight: bold;
+ 			font-size: 12px;
+ 			position: relative;
+ 			float: left;
+ 			text-align: center;
+ 			border-radius: 10px;
+ 			padding: 1px 0 0 1px;
+ 			margin-top: -2px;
+ 		}
+ 		
+ 		
+ 		}
  						
  						
 }

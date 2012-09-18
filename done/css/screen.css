@@ -6245,7 +6245,7 @@ h4.titoli_sezioni {
 .categoria h3 a:active {
   color: white;
 }
-/* line 60, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 56, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -6254,7 +6254,7 @@ h4.titoli_sezioni {
   margin-top: -50px;
   margin-left: 70px;
 }
-/* line 67, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 63, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .relatore a {
   text-decoration: none;
   color: #4cc1b8;
@@ -6272,14 +6272,14 @@ h4.titoli_sezioni {
 .categoria .relatore a:active {
   color: #4cc1b8;
 }
-/* line 73, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 69, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .icon {
   font-size: 24px;
   top: 20px;
   left: 30px;
   position: absolute;
 }
-/* line 79, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 75, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .icon a {
   text-decoration: none;
   color: white;
@@ -6297,13 +6297,13 @@ h4.titoli_sezioni {
 .categoria .icon a:active {
   color: white;
 }
-/* line 84, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 80, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria #extras {
   margin-left: 400px;
   margin-top: -90px;
   position: absolute;
 }
-/* line 92, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 88, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .numero-lezioni-corso {
   position: relative;
   float: right;
@@ -6311,7 +6311,7 @@ h4.titoli_sezioni {
   margin: 5px 0 8px 0;
   margin-left: 180px;
 }
-/* line 99, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 95, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .numero-lezioni-corso .number {
   width: 19px;
   height: 19px;
@@ -6346,7 +6346,7 @@ h4.titoli_sezioni {
   height: 18px;
   left: -18px;
   position: absolute;
-  background: url('../images/corner-fluo-left-stripes.png?1347959799') no-repeat top left;
+  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
 }
 /* line 19, ../sass/partials/_box-video-corso.scss */
 .video-corso a.btn.dark.noborder {
