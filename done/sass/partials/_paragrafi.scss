@@ -1,7 +1,6 @@
 .paragrafo-video-corso{
-	float: left;
-	width: 520px;
-	margin-left: 40px;
+	@include grid(10);
+	padding-left: 10px;
 	margin-top: 40px;
 
 	 p{

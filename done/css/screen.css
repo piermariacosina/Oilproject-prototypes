@@ -1411,11 +1411,12 @@ a.btn.border:visited {
 
 /* line 79, ../sass/partials/_buttons.scss */
 a.btn.dark {
-  display: inline;
+  display: inline-block;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -1434,15 +1435,27 @@ a.btn.dark {
   cursor: pointer;
   line-height: 20px;
 }
-/* line 94, ../sass/partials/_buttons.scss */
+/* line 99, ../sass/partials/_buttons.scss */
 a.btn.dark:hover {
   background: #43d1b4;
   color: #094934;
 }
-/* line 98, ../sass/partials/_buttons.scss */
+/* line 103, ../sass/partials/_buttons.scss */
 a.btn.dark:visited {
   background: #43d1b4;
   color: #057c79;
+}
+
+/* line 110, ../sass/partials/_buttons.scss */
+div.buttons {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* line 1, ../sass/partials/_banner.scss */
@@ -6613,19 +6626,22 @@ h4.titoli_sezioni {
 
 /* line 1, ../sass/partials/_paragrafi.scss */
 .paragrafo-video-corso {
+  display: inline;
   float: left;
-  width: 520px;
-  margin-left: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  padding-left: 10px;
   margin-top: 40px;
 }
-/* line 7, ../sass/partials/_paragrafi.scss */
+/* line 6, ../sass/partials/_paragrafi.scss */
 .paragrafo-video-corso p {
   font-family: 'Droid Sans';
   font-weight: normal;
   font-size: 13px;
   color: #3d635f;
 }
-/* line 16, ../sass/partials/_paragrafi.scss */
+/* line 15, ../sass/partials/_paragrafi.scss */
 .paragrafo-video-corso a {
   font-weight: bold;
   text-decoration: none;

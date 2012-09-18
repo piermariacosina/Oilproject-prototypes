@@ -77,7 +77,12 @@ a.btn.border{
 
 
 a.btn.dark{
-	@include grid(2);
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-align: center;
 	@include border-radius(30px);
 	@include alpha;
@@ -99,4 +104,12 @@ a.btn.dark{
 		background: $calm-green;
 		color: $light-green;
 	}
-}                                
+}         
+
+
+div.buttons{
+	@include grid(10);
+	padding-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}                       
