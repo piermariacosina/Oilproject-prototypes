@@ -105,10 +105,49 @@ div.corner{
 		@include float-left;
 	}
 }
+
+
+
 @import "partials/grid";
 @import "partials/text";
 @import "partials/font-awesome";
 @import "partials/buttons";
+
+
+i.audio{
+	@extend [class^="icon-"]:before;
+	@extend [class*=" icon-"]:before;
+	@extend .icon-headphones;
+}
+
+i.video{
+	@extend [class^="icon-"]:before;
+	@extend [class*=" icon-"]:before;
+	@extend .icon-eye-open;
+}
+
+i.note{
+	@extend [class^="icon-"]:before;
+	@extend [class*=" icon-"]:before;
+	@extend .icon-file;
+}
+
+i.corso{
+	@extend [class^="icon-"]:before;
+	@extend [class*=" icon-"]:before;
+	@extend .icon-note;
+}
+i.quiz{
+	@extend [class^="icon-"]:before;
+	@extend [class*=" icon-"]:before;
+	@extend .icon-pencil;
+}
+i.collegamento{
+	@extend [class^="icon-"]:before;
+	@extend [class*=" icon-"]:before;
+	@extend .icon-link;
+}
+
 
 @import "partials/banner";
 @import "partials/bottone-segui-utente";
