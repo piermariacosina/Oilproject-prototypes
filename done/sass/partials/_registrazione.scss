@@ -1,0 +1,127 @@
+.edit-container{
+	width: 620px;
+	@include clearfix;		
+	background-color: $soft-blue;
+	padding-top:20px;
+	padding-bottom: 20px;
+	fieldset {
+			margin-left:30px;
+			
+			font-family: 'Droid Sans';
+			font-size: 13px;
+			position: relative;
+			@include clearfix;
+			width: 490px;
+		
+		label {
+			
+			display: block;
+			margin: 30px 0 5px 0;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #7ac3b8;
+		}
+		input.form-text {
+			display: block;
+			width: 460px;
+			height:40px;
+			margin-right:30px;			
+			font-size: 20px;
+			font-family: 'Droid Sans';
+			border: 1px solid #65C1B0;
+			background: #b9efeb;
+			
+			@include single-box-shadow(rgba(0,0,0,.05),0, 1, 2px, false, true);
+			@include border-radius(4px);
+			$default-text-shadow-h-offset: 0px;
+			$default-text-shadow-v-offset: 2px;
+			$default-text-shadow-blur: 1px;
+			$default-text-shadow-spread: false;
+			$default-text-shadow-color: $white;        
+			@include single-text-shadow();
+		}
+		
+	}
+	#asterisco{
+			background: image-url("asterisco.png") no-repeat;
+			width: 28px;
+			height: 28px;
+			position: absolute;
+			right: 7px;
+			top: 45px;
+	}
+	
+	
+	select{
+		background-color:#7ddbd2;
+		border: 1px solid #65C1B0;
+		font-size:18px;
+		font-family: 'Droid Sans';
+		color:#2f6f5e;
+		$default-text-shadow-h-offset: 0px;
+		$default-text-shadow-v-offset: 2px;
+		$default-text-shadow-blur: 1px;
+		$default-text-shadow-spread: false;
+		$default-text-shadow-color: $white;        
+		@include single-text-shadow();
+		
+		&.giorno{
+			width: 165px;
+			height: 40px;
+			margin-right:5px;
+		}
+		&.mese{
+			width: 165px;
+			height: 40px;
+			margin-right:5px;
+		}
+		&.anno{
+			width: 110px;
+			height: 40px;
+		}
+	}
+
+
+
+	.radio-container{
+	
+		input.radio-button{
+			margin-left: 10px;
+			margin-right: 10px;
+			height:25px;
+			float:left;
+		}
+		p{
+			color:#519082;
+			font-family: 'Droid Sans';
+			height:25px;
+			width:25px;
+			font-size:25px;
+			float:left;
+			margin-right:40px;
+		}
+	}
+	
+	
+	.cap-text {
+		display: block;
+		width: 110px;
+		height:40px;
+		margin-right:30px;			
+		font-size: 20px;
+		font-family: 'Droid Sans';
+		border: 1px solid #65C1B0;
+		background: #b9efeb;
+	
+		@include single-box-shadow(rgba(0,0,0,.05),0, 1, 2px, false, true);
+		@include border-radius(4px);
+		$default-text-shadow-h-offset: 0px;
+		$default-text-shadow-v-offset: 2px;
+		$default-text-shadow-blur: 1px;
+		$default-text-shadow-spread: false;
+		$default-text-shadow-color: $white;        
+		@include single-text-shadow();
+		
+	}
+
+}

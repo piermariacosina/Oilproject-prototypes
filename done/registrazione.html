@@ -12,13 +12,38 @@
 </head>
 <body>   
 	<div class="row" >
-		<div class="contenitore">
-			<div class="content">
+		<div class="contenitore"  >
+			<div class="content" >
 				<div class="edit-container">
-					<fieldset class="registrazione-4">
+					<fieldset>
+						<div id="asterisco"></div>
+						<label for="name">Nome utente</label>
+						<input type="text" id="name" class="form-text" />
+					</fieldset>
+					<fieldset>
+						<label for="name">Indirizzo</label>
+						<input type="text" id="name" class="form-text" />
+					</fieldset>
+					<fieldset>
+						<label for="name">data di nascita</label>
+						<select class="giorno">
+							<option value="giorno">giorno</option>
+						</select>
+						<select class="mese">
+							<option value="mese">mese</option>
+						</select>
+						<select class="anno">
+							<option value="anno">anno</option>
+						</select>
+					</fieldset>
+					<fieldset class="radio-container">
 						<label for="name">sesso</label>
 						<input type="radio" name="sex" value="male" class="radio-button"/> <p>M</p>
 						<input type="radio" name="sex" value="female" class="radio-button"/> <p>F</p>
+					</fieldset>
+					<fieldset>
+						<label for="name">cap</label>
+						<input type="text" id="cap" class="cap-text" />
 					</fieldset>
 				</div>
 			</div>

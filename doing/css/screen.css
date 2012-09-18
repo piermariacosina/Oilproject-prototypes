@@ -14,7 +14,7 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 
 /* line 86, ../sass/screen.scss */
 div.corner.left {
-  background: url('../images/corner-left.png?1347643269') no-repeat left top;
+  background: url('../images/corner-left.png?1346400986') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-left: -6px;
@@ -23,7 +23,7 @@ div.corner.left {
 }
 /* line 93, ../sass/screen.scss */
 div.corner.right {
-  background: url('../images/corner-right.png?1347643269') no-repeat left top;
+  background: url('../images/corner-right.png?1346403824') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-right: -6px;
@@ -32,7 +32,7 @@ div.corner.right {
 }
 /* line 100, ../sass/screen.scss */
 div.corner.left.striped {
-  background: url('../images/corner-left-striped.png?1347643269') no-repeat left top;
+  background: url('../images/corner-left-striped.png?1346409153') no-repeat left top;
   height: 21px;
   width: 20px;
   margin-left: -20px;
@@ -144,17 +144,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 4, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 8, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -163,52 +163,52 @@ hr {
   height: 0;
 }
 
-/* line 14, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 16, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 18, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 p,
 dl,
 hr,
@@ -1461,7 +1461,7 @@ a.btn.dark:visited {
   margin-left: 0;
   margin-right: 0;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso.png?1347643269') no-repeat left top;
+  background: url('../images/crea-il-tuo-corso.png?1346681062') no-repeat left top;
   position: relative;
   position: relative;
   left: -120px;
@@ -1484,7 +1484,7 @@ a.btn.dark:visited {
   top: 20px;
   width: 50%;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso-bg.png?1347643269') repeat-x left top;
+  background: url('../images/crea-il-tuo-corso-bg.png?1346681063') repeat-x left top;
 }
 
 /* line 4, ../sass/partials/_bottone-segui-utente.scss */
@@ -1514,7 +1514,7 @@ a.btn.dark:visited {
 }
 /* line 4, ../sass/partials/_featured-corso.scss */
 .featured-corso .video {
-  background: url('../images/foto-video-home.png?1347643269') no-repeat left top;
+  background: url('../images/foto-video-home.png?1346930954') no-repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -1531,7 +1531,7 @@ a.btn.dark:visited {
   margin-right: 10px;
   width: 400px;
   height: 285px;
-  background: url('../images/home-video-linguetta.png?1347643269') no-repeat left top;
+  background: url('../images/home-video-linguetta.png?1346930778') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   overflow: visible;
@@ -1712,7 +1712,7 @@ a.btn.dark:visited {
 }
 /* line 73, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:hover .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1345650878') repeat left top;
 }
 /* line 78, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:visited .box-video {
@@ -1835,17 +1835,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 4, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 8, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -1854,52 +1854,52 @@ hr {
   height: 0;
 }
 
-/* line 14, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 16, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 18, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 p,
 dl,
 hr,
@@ -2204,7 +2204,7 @@ form input[type="submit"] {
 }
 /* line 63, ../sass/partials/_form.scss */
 #form-registrazione #asterisco {
-  background: url('../images/asterisco.png?1347643269') no-repeat;
+  background: url('../images/asterisco.png?1346928316') no-repeat;
   width: 28px;
   height: 28px;
   position: absolute;
@@ -2303,7 +2303,7 @@ form input[type="submit"] {
 }
 /* line 59, ../sass/partials/_link-riferimento.scss */
 #link-riferimento .sottolineato {
-  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347892130') no-repeat left top;
   width: 177px;
   height: 6px;
   margin-left: 3px;
@@ -2347,7 +2347,7 @@ form input[type="submit"] {
 }
 /* line 43, ../sass/partials/_categoria-corso.scss */
 #categoria-corso .sottolineato {
-  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347892130') no-repeat left top;
   width: 56px;
   height: 6px;
   margin-left: 3px;
@@ -2371,7 +2371,7 @@ form input[type="submit"] {
 }
 /* line 72, ../sass/partials/_categoria-corso.scss */
 #descrizione .sottolineato {
-  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347892130') no-repeat left top;
   width: 108px;
   height: 6px;
   margin-left: 3px;
@@ -2453,7 +2453,7 @@ form input[type="submit"] {
 }
 /* line 63, ../sass/partials/_estratto.scss */
 #estratto-carica-testo .sottolineato {
-  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347892130') no-repeat left top;
   width: 77px;
   height: 6px;
   margin-left: 3px;
@@ -2491,14 +2491,14 @@ form input[type="submit"] {
 }
 /* line 16, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina .sottolineato {
-  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347892130') no-repeat left top;
   width: 212px;
   height: 6px;
   margin-left: 3px;
 }
 /* line 24, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina .foto-copertina {
-  background: url('../images/foto-utente.png?1347643269') no-repeat left top;
+  background: url('../images/foto-utente.png?1347282525') no-repeat left top;
   width: 194px;
   height: 181px;
 }
@@ -2585,7 +2585,7 @@ form.search fieldset input[type="submit"]:focus {
 
 /* line 33, ../sass/partials/_search.scss */
 .icona-lente {
-  background: url('../images/icona-lente.png?1347958695') no-repeat left top;
+  background: url('../images/icona-lente.png?1347965690') no-repeat left top;
   width: 29px;
   height: 29px;
   position: absolute;
@@ -2705,7 +2705,7 @@ form.search fieldset input[type="submit"]:focus {
 
 /* line 127, ../sass/partials/_search.scss */
 .separatore-search {
-  background: url('../images/separatore-search.png?1347958368') no-repeat left top;
+  background: url('../images/separatore-search.png?1347965690') no-repeat left top;
   width: 599px;
   height: 8px;
   position: absolute;
@@ -2817,7 +2817,7 @@ hr {
 
 /* line 1, ../sass/partials/_header-corso-iniziato.scss */
 #nome-corso {
-  background: url('../images/background-titolo-corso.png?1347643269') repeat left top;
+  background: url('../images/background-titolo-corso.png?1347628549') repeat left top;
   display: inline;
   float: left;
   width: 280px;
@@ -2913,7 +2913,7 @@ hr {
 .cambia-lezione-prev .freccia-prev {
   width: 14px;
   height: 14px;
-  background: url('../images/prev.png?1347643269');
+  background: url('../images/prev.png?1347628549');
   display: inline-block;
   margin-right: 4px;
   float: left;
@@ -2939,132 +2939,11 @@ hr {
 .cambia-lezione-next .freccia-next {
   width: 14px;
   height: 14px;
-  background: url('../images/next.png?1347643269');
+  background: url('../images/next.png?1347628549');
   display: inline-block;
   margin-right: 4px;
   float: left;
   margin-left: 4px;
-}
-
-/* line 1, ../sass/partials/_registrazione-1.scss */
-.registrazione_1 {
-  width: 620px;
-  height: 100px;
-  background-color: #c9f7f5;
-}
-/* line 5, ../sass/partials/_registrazione-1.scss */
-.registrazione_1 fieldset {
-  margin-left: 30px;
-  margin-top: 20px;
-  font-family: 'Droid Sans';
-  font-size: 13px;
-}
-/* line 14, ../sass/partials/_registrazione-1.scss */
-.registrazione_1 fieldset label {
-  display: block;
-  margin: 30px 0 5px 0;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #7ac3b8;
-}
-/* line 22, ../sass/partials/_registrazione-1.scss */
-.registrazione_1 fieldset input.form-text {
-  display: block;
-  width: 460px;
-  height: 40px;
-  margin-right: 30px;
-  font-size: 20px;
-  font-family: 'Droid Sans';
-  border: 1px solid #65C1B0;
-  background: #b9efeb;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  text-shadow: 0px 2px 1px white;
-}
-/* line 46, ../sass/partials/_registrazione-1.scss */
-.registrazione_1 #asterisco {
-  background: url('../images/asterisco.png?1347643269') no-repeat;
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  margin-left: 485px;
-  margin-top: 11px;
-}
-
-/* line 3, ../sass/partials/_registrazione-3.scss */
-.giorno {
-  width: 165px;
-  height: 40px;
-  margin-left: 30px;
-  margin-right: 5px;
-  background-color: #7ddbd2;
-  border: none;
-  font-size: 18px;
-  font-family: 'Droid Sans';
-  color: #2f6f5e;
-}
-
-/* line 14, ../sass/partials/_registrazione-3.scss */
-.mese {
-  width: 165px;
-  height: 40px;
-  margin-right: 5px;
-  background-color: #7ddbd2;
-  border: none;
-  font-size: 18px;
-  font-family: 'Droid Sans';
-  color: #2f6f5e;
-}
-
-/* line 24, ../sass/partials/_registrazione-3.scss */
-.anno {
-  width: 110px;
-  height: 40px;
-  background-color: #7ddbd2;
-  border: none;
-  font-size: 18px;
-  font-family: 'Droid Sans';
-  color: #2f6f5e;
-}
-
-/* line 3, ../sass/partials/_registrazione-4.scss */
-.registrazione-4 input.radio-button {
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 25px;
-  float: left;
-}
-/* line 9, ../sass/partials/_registrazione-4.scss */
-.registrazione-4 p {
-  color: #519082;
-  font-family: 'Droid Sans';
-  height: 25px;
-  width: 25px;
-  font-size: 25px;
-  float: left;
-  margin-right: 40px;
-}
-
-/* line 1, ../sass/partials/_registrazione-5.scss */
-.cap-text {
-  display: block;
-  width: 110px;
-  height: 40px;
-  margin-right: 30px;
-  font-size: 20px;
-  font-family: 'Droid Sans';
-  border: 1px solid #65C1B0;
-  background: #b9efeb;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
 }
 
 /* line 1, ../sass/partials/_crea-esercizio-1.scss */
@@ -3076,7 +2955,7 @@ hr {
 }
 /* line 5, ../sass/partials/_crea-esercizio-1.scss */
 .crea-esercizio .risposta {
-  background: url('../images/diagonal_green_bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal_green_bg.png?1345649622') repeat left top;
   width: 186px;
   height: 28px;
   margin-left: 5px;
@@ -3181,7 +3060,7 @@ hr {
 .select-file .tipo .sottolineato {
   width: 85px;
   height: 6px;
-  background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1347892130') no-repeat left top;
 }
 /* line 21, ../sass/partials/_select-file.scss */
 .select-file .file {
