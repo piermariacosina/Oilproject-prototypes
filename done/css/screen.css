@@ -1376,7 +1376,7 @@ ul.icons li .icon-large:before {
   content: "\f200";
 }
 
-/* line 47, ../sass/partials/_buttons.scss */
+/* line 56, ../sass/partials/_buttons.scss */
 a.btn.border {
   display: inline;
   float: left;
@@ -1400,16 +1400,16 @@ a.btn.border {
   background: #43d1b4;
   cursor: pointer;
 }
-/* line 61, ../sass/partials/_buttons.scss */
+/* line 70, ../sass/partials/_buttons.scss */
 a.btn.border:hover {
   border: 4px white solid;
 }
-/* line 64, ../sass/partials/_buttons.scss */
+/* line 73, ../sass/partials/_buttons.scss */
 a.btn.border:visited {
   border: 4px white solid;
 }
 
-/* line 70, ../sass/partials/_buttons.scss */
+/* line 79, ../sass/partials/_buttons.scss */
 a.btn.dark {
   display: inline;
   float: left;
@@ -1434,12 +1434,12 @@ a.btn.dark {
   cursor: pointer;
   line-height: 20px;
 }
-/* line 85, ../sass/partials/_buttons.scss */
+/* line 94, ../sass/partials/_buttons.scss */
 a.btn.dark:hover {
   background: #43d1b4;
   color: #094934;
 }
-/* line 89, ../sass/partials/_buttons.scss */
+/* line 98, ../sass/partials/_buttons.scss */
 a.btn.dark:visited {
   background: #43d1b4;
   color: #057c79;
@@ -4311,8 +4311,9 @@ header#main section#dashboard-loggedin .logout p {
   background: url('../images/diagonal-green-bg.png?1347628549') repeat left top;
   margin-left: 10px;
   padding-left: 10px;
+  position: relative;
 }
-/* line 8, ../sass/partials/_lesson.scss */
+/* line 9, ../sass/partials/_lesson.scss */
 #lesson a {
   text-decoration: none;
   color: #084936;
@@ -4330,7 +4331,15 @@ header#main section#dashboard-loggedin .logout p {
 #lesson a:active {
   color: #43d1b4;
 }
-/* line 11, ../sass/partials/_lesson.scss */
+/* line 12, ../sass/partials/_lesson.scss */
+#lesson .corner {
+  width: 18px;
+  height: 18px;
+  left: -18px;
+  position: absolute;
+  background: url('../images/corner-left-fluo.png?1347965691') no-repeat top left;
+}
+/* line 15, ../sass/partials/_lesson.scss */
 #lesson .infor {
   display: inline;
   float: left;
@@ -4340,7 +4349,7 @@ header#main section#dashboard-loggedin .logout p {
   height: 100%;
   position: relative;
 }
-/* line 15, ../sass/partials/_lesson.scss */
+/* line 19, ../sass/partials/_lesson.scss */
 #lesson .infor .comm {
   display: inline;
   float: left;
@@ -4350,7 +4359,7 @@ header#main section#dashboard-loggedin .logout p {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 19, ../sass/partials/_lesson.scss */
+/* line 23, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments {
   height: auto;
   overflow: hidden;
@@ -4360,22 +4369,22 @@ header#main section#dashboard-loggedin .logout p {
   border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 26, ../sass/partials/_lesson.scss */
+/* line 30, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments.first {
   padding-right: 10px;
 }
-/* line 30, ../sass/partials/_lesson.scss */
+/* line 34, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments.center {
   margin-left: 12px;
   margin-right: 7px;
   width: 80px;
 }
-/* line 35, ../sass/partials/_lesson.scss */
+/* line 39, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments.last {
   border-right: none;
   float: right;
 }
-/* line 39, ../sass/partials/_lesson.scss */
+/* line 43, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -4383,7 +4392,7 @@ header#main section#dashboard-loggedin .logout p {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 45, ../sass/partials/_lesson.scss */
+/* line 49, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -4397,7 +4406,7 @@ header#main section#dashboard-loggedin .logout p {
   padding: 2px;
   text-align: center;
 }
-/* line 59, ../sass/partials/_lesson.scss */
+/* line 63, ../sass/partials/_lesson.scss */
 #lesson .infor .comm .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -4409,12 +4418,12 @@ header#main section#dashboard-loggedin .logout p {
   margin-right: 1px;
   margin-top: 4px;
 }
-/* line 73, ../sass/partials/_lesson.scss */
+/* line 77, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date {
   position: absolute;
   bottom: 9px;
 }
-/* line 76, ../sass/partials/_lesson.scss */
+/* line 80, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date .number {
   background-color: #084936;
   width: 19px;
@@ -4430,7 +4439,7 @@ header#main section#dashboard-loggedin .logout p {
   margin-top: -2px;
   margin-right: 5px;
 }
-/* line 91, ../sass/partials/_lesson.scss */
+/* line 95, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date p.data-commento {
   margin-left: 15px;
   text-transform: uppercase;
@@ -4438,14 +4447,14 @@ header#main section#dashboard-loggedin .logout p {
   font-size: 10px;
   color: #084936;
 }
-/* line 98, ../sass/partials/_lesson.scss */
+/* line 102, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date p.data-commento span {
   text-transform: capitalize;
   margin-left: 3px;
   margin-right: 3px;
   font-weight: 400;
 }
-/* line 107, ../sass/partials/_lesson.scss */
+/* line 111, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date hr {
   display: inline;
   float: left;
@@ -4455,17 +4464,17 @@ header#main section#dashboard-loggedin .logout p {
   border: 0;
   height: 1px;
 }
-/* line 112, ../sass/partials/_lesson.scss */
+/* line 116, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date .top {
   margin: 8px 0 0 0;
   background: #00ea9c;
 }
-/* line 116, ../sass/partials/_lesson.scss */
+/* line 120, ../sass/partials/_lesson.scss */
 #lesson .infor .aut-date .bottom {
   margin: 0 0 12px 0;
   background: #c5ffea;
 }
-/* line 122, ../sass/partials/_lesson.scss */
+/* line 126, ../sass/partials/_lesson.scss */
 #lesson .foto {
   display: inline;
   float: right;
@@ -4475,7 +4484,7 @@ header#main section#dashboard-loggedin .logout p {
   background-color: #38d69a;
   height: 100%;
 }
-/* line 130, ../sass/partials/_lesson.scss */
+/* line 134, ../sass/partials/_lesson.scss */
 #lesson h3 {
   font-size: 15px;
   color: #084936;
@@ -4484,7 +4493,7 @@ header#main section#dashboard-loggedin .logout p {
   text-transform: uppercase;
   padding-top: 20px;
 }
-/* line 139, ../sass/partials/_lesson.scss */
+/* line 143, ../sass/partials/_lesson.scss */
 #lesson h1 {
   font-size: 25px;
   line-height: 30px;
@@ -4495,7 +4504,7 @@ header#main section#dashboard-loggedin .logout p {
   padding-bottom: 7px;
   text-shadow: 0px 2px 1px #c5ffea;
 }
-/* line 155, ../sass/partials/_lesson.scss */
+/* line 159, ../sass/partials/_lesson.scss */
 #lesson h4 {
   color: #084936;
   font-weight: 700;
@@ -4503,13 +4512,13 @@ header#main section#dashboard-loggedin .logout p {
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 161, ../sass/partials/_lesson.scss */
+/* line 165, ../sass/partials/_lesson.scss */
 #lesson h4 span {
   color: #057c79;
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 167, ../sass/partials/_lesson.scss */
+/* line 171, ../sass/partials/_lesson.scss */
 #lesson p {
   color: #084936;
   font-weight: 700;

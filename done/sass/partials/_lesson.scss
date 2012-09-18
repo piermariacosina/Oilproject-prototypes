@@ -5,8 +5,12 @@
 	background: image-url("diagonal-green-bg.png") repeat left top;
 	margin-left: 10px;
 	padding-left: 10px;
+	position: relative;
 	a{
 		@include link-over-fluo;
+	}
+	.corner{
+		@include fluo-corner;
 	}
 	.infor{
 		@include grid(5);
