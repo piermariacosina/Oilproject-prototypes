@@ -13,6 +13,9 @@
  	position: relative;
  	margin-left: 30px;
  	 	
+ 	&.viewed, &:visited{
+	 	background: image-url("contenitore-categoria-corso-2.png") no-repeat left top;
+ 	}
  	 	
  	   h4{
  	      
@@ -36,15 +39,20 @@
  	     font-size: 14px;
  	     line-height: 17px;
  	     text-transform: uppercase;
- 	     overflow: hidden;
+ 	    
  	     font-weight: normal;
  	     text-transform: lowercase;
  	     margin-left: 70px;
+ 	     text-overflow: hidden;
+ 	     @include ellipsis;
+ 	     margin-top: 7px;
  	     
  	     a{
  	     	@include link-white;
- 	     	position: absolute;
- 	     	margin-top: 7px;
+ 	     	
+ 	     	
+ 	     
+ 	     	
  	     }
  	
  		}
@@ -58,118 +66,6 @@
  							margin-left: 70px;
  								a{
  										 	@include link-over-dark;
- 									 	}	
- 								}
- 			
- 								
- 								.icon{
- 								    font-size: 24px;
- 									
- 									top:20px;
- 									left: 30px;
- 									position: absolute;
- 									a{
- 										@include link-white;
- 									}
- 								}
- 						
- 						#extras{
- 							margin-left: 400px;
- 							margin-top: -90px;
- 							position: absolute;
- 						}
- 						
- 						
- 						
- 						.numero-lezioni-corso{
- 							position: relative;
- 							float: right;
- 							padding: 0 100px 0 0;
- 							margin: 5px 0 8px 0;
- 							margin-left: 180px;
- 							
- 							.number{
- 								width: 19px;
- 								height: 19px;
- 								background: $fluo-blue;
- 								color: $dark-green;
- 								font-weight: bold;
- 								font-size: 12px;
- 								position: relative;
- 								float: left;
- 								text-align: center;
- 								border-radius: 10px;
- 								padding: 1px 0 0 1px;
- 								margin-top: -2px;
- 							}
- 							
- 							
- 							}
- 						
- 						
-}
-
-
-
-.categoria-2{
- 	@include grid(11);
- 	
- 	background: image-url("contenitore-categoria-corso-2.png") no-repeat left top;
- 	width: 625px;
- 	height: 88px;
- 	font-family: 'Droid Sans';
- 	display: inline;
- 	float: left;
- 	margin-top: 30px;
- 	position: relative;
- 	margin-left: 30px;
- 	 	
- 	 	
- 	   h4{
- 	      
- 	      font-weight: bold;
- 	      font-size: 10px;
- 	      line-height: 15px;
- 	      text-transform: uppercase;
- 	      margin-top: 10px;
- 	      margin-left: 70px;
- 	      color: $fluo-blue;
- 	      a{
- 	      	@include link-fluo;
- 	       }
-		}
- 	   						
- 	   h3{
- 	     width: 441px;
- 	     height: 77px;
- 	     color: $white;
- 	     font-weight: normal;
- 	     font-size: 14px;
- 	     line-height: 17px;
- 	     text-transform: uppercase;
- 	     overflow: hidden;
- 	     font-weight: normal;
- 	     text-transform: lowercase;
- 	     margin-left: 70px;
- 	     
- 	     a{
- 	     	@include link-white;
- 	     	position: absolute;
- 	     	margin-top: 7px;
- 	     }
- 	
- 		}
- 							
- 							.relatore{
- 							font-weight: bold;
- 							font-size: 10px;
- 						    position: absolute;
- 							color: $light-petrolio;
- 							margin-top: -50px;
- 							margin-left: 70px;
- 								a{
- 										 	@include link-over-dark;
- 										 	color: $text-green;
  									 	}	
  								}
  			

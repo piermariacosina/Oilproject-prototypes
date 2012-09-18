@@ -7,12 +7,12 @@
   font-style: regular;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
   margin-bottom: 0 !important;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 div.corner.left {
   background: url('../images/corner-left.png?1347628549') no-repeat left top;
   height: 6px;
@@ -21,7 +21,7 @@ div.corner.left {
   display: inline;
   float: left;
 }
-/* line 92, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 div.corner.right {
   background: url('../images/corner-right.png?1347628549') no-repeat left top;
   height: 6px;
@@ -30,7 +30,7 @@ div.corner.right {
   display: inline;
   float: right;
 }
-/* line 99, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 div.corner.left.striped {
   background: url('../images/corner-left-striped.png?1347628549') no-repeat left top;
   height: 21px;
@@ -6175,7 +6175,11 @@ h4.titoli_sezioni {
   position: relative;
   margin-left: 30px;
 }
-/* line 17, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 16, ../sass/partials/_categoria-pagina-corso.scss */
+.categoria.viewed, .categoria:visited {
+  background: url('../images/contenitore-categoria-corso-2.png?1347892912') no-repeat left top;
+}
+/* line 20, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria h4 {
   font-weight: bold;
   font-size: 10px;
@@ -6185,7 +6189,7 @@ h4.titoli_sezioni {
   margin-left: 70px;
   color: #00ffb0;
 }
-/* line 26, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 29, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria h4 a {
   text-decoration: none;
   color: #00ffb0;
@@ -6203,7 +6207,7 @@ h4.titoli_sezioni {
 .categoria h4 a:active {
   color: #4cc1b8;
 }
-/* line 31, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 34, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria h3 {
   width: 441px;
   height: 77px;
@@ -6212,18 +6216,22 @@ h4.titoli_sezioni {
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
-  overflow: hidden;
   font-weight: normal;
   text-transform: lowercase;
   margin-left: 70px;
+  text-overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-top: 7px;
 }
-/* line 44, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 50, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria h3 a {
   text-decoration: none;
   color: white;
   cursor: pointer;
-  position: absolute;
-  margin-top: 7px;
 }
 /* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .categoria h3 a:visited {
@@ -6237,7 +6245,7 @@ h4.titoli_sezioni {
 .categoria h3 a:active {
   color: white;
 }
-/* line 52, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 60, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -6246,7 +6254,7 @@ h4.titoli_sezioni {
   margin-top: -50px;
   margin-left: 70px;
 }
-/* line 59, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 67, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .relatore a {
   text-decoration: none;
   color: #4cc1b8;
@@ -6264,14 +6272,14 @@ h4.titoli_sezioni {
 .categoria .relatore a:active {
   color: #4cc1b8;
 }
-/* line 65, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 73, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .icon {
   font-size: 24px;
   top: 20px;
   left: 30px;
   position: absolute;
 }
-/* line 71, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 79, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .icon a {
   text-decoration: none;
   color: white;
@@ -6289,13 +6297,13 @@ h4.titoli_sezioni {
 .categoria .icon a:active {
   color: white;
 }
-/* line 76, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 84, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria #extras {
   margin-left: 400px;
   margin-top: -90px;
   position: absolute;
 }
-/* line 84, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 92, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .numero-lezioni-corso {
   position: relative;
   float: right;
@@ -6303,170 +6311,8 @@ h4.titoli_sezioni {
   margin: 5px 0 8px 0;
   margin-left: 180px;
 }
-/* line 91, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 99, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .numero-lezioni-corso .number {
-  width: 19px;
-  height: 19px;
-  background: #00ffb0;
-  color: #084936;
-  font-weight: bold;
-  font-size: 12px;
-  position: relative;
-  float: left;
-  text-align: center;
-  border-radius: 10px;
-  padding: 1px 0 0 1px;
-  margin-top: -2px;
-}
-
-/* line 114, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 640px;
-  background: url('../images/contenitore-categoria-corso-2.png?1347892912') no-repeat left top;
-  width: 625px;
-  height: 88px;
-  font-family: 'Droid Sans';
-  display: inline;
-  float: left;
-  margin-top: 30px;
-  position: relative;
-  margin-left: 30px;
-}
-/* line 128, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 h4 {
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 15px;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-left: 70px;
-  color: #00ffb0;
-}
-/* line 137, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 h4 a {
-  text-decoration: none;
-  color: #00ffb0;
-  cursor: pointer;
-}
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 h4 a:visited {
-  color: #4cc1b8;
-}
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 h4 a:hover {
-  color: #49ada8;
-}
-/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 h4 a:active {
-  color: #4cc1b8;
-}
-/* line 142, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 h3 {
-  width: 441px;
-  height: 77px;
-  color: white;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-  overflow: hidden;
-  font-weight: normal;
-  text-transform: lowercase;
-  margin-left: 70px;
-}
-/* line 155, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 h3 a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-  position: absolute;
-  margin-top: 7px;
-}
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 h3 a:visited {
-  color: white;
-}
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 h3 a:hover {
-  color: #00ffb0;
-}
-/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 h3 a:active {
-  color: white;
-}
-/* line 163, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 .relatore {
-  font-weight: bold;
-  font-size: 10px;
-  position: absolute;
-  color: #4cc1b8;
-  margin-top: -50px;
-  margin-left: 70px;
-}
-/* line 170, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 .relatore a {
-  text-decoration: none;
-  color: #4cc1b8;
-  cursor: pointer;
-  color: #3d635f;
-}
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 .relatore a:visited {
-  color: #4cc1b8;
-}
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 .relatore a:hover {
-  color: #00ffb0;
-}
-/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 .relatore a:active {
-  color: #4cc1b8;
-}
-/* line 177, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 .icon {
-  font-size: 24px;
-  top: 20px;
-  left: 30px;
-  position: absolute;
-}
-/* line 183, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 .icon a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 .icon a:visited {
-  color: white;
-}
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 .icon a:hover {
-  color: #00ffb0;
-}
-/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.categoria-2 .icon a:active {
-  color: white;
-}
-/* line 188, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 #extras {
-  margin-left: 400px;
-  margin-top: -90px;
-  position: absolute;
-}
-/* line 196, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 .numero-lezioni-corso {
-  position: relative;
-  float: right;
-  padding: 0 100px 0 0;
-  margin: 5px 0 8px 0;
-  margin-left: 180px;
-}
-/* line 203, ../sass/partials/_categoria-pagina-corso.scss */
-.categoria-2 .numero-lezioni-corso .number {
   width: 19px;
   height: 19px;
   background: #00ffb0;
