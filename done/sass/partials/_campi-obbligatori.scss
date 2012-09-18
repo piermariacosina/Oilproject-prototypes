@@ -1,0 +1,28 @@
+.campi-obbligatori{
+	background-color: #B8F2ED;
+	border-top: 1px white solid;
+	height: 40px;
+	@include grid (10);
+	
+	.asterisco{
+			background: image-url("asterisco.png") no-repeat;
+			width: 28px;
+			height: 28px;
+			margin-top: 5px;
+			@include grid-push(1);
+			@include grid(1);
+			}
+	.padder{
+		@include grid(4);
+		@include grid-prefix(1);
+		margin-top: 10px;
+		p{
+			font-family: 'Droid Serif';
+			font-size: 12px;
+			color: #4AADA8;
+			font-style: italic;
+			
+			
+		}
+	}
+}
