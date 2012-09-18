@@ -26,25 +26,34 @@
 					</fieldset>
 					<fieldset>
 						<label for="name">data di nascita</label>
-						<select class="giorno">
+						<select class="standard">
 							<option value="giorno">giorno</option>
 						</select>
-						<select class="mese">
+						<select class="standard">
 							<option value="mese">mese</option>
 						</select>
-						<select class="anno">
+						<select class="last">
 							<option value="anno">anno</option>
 						</select>
+					</fieldset>
+					<fieldset>
+						<label for="name" class="horizontal">città</label>
+						<label for="name" class="horizontal">provincia</label>
+						<label for="name" class="horizontal">cap</label>
+						<select class="standard">
+							<option value="città">città</option>
+						</select>	
+						<select class="standard">
+							<option value="provincia">provincia</option>
+						</select>
+						<input type="text" id="cap" class="cap-text" />
 					</fieldset>
 					<fieldset class="radio-container">
 						<label for="name">sesso</label>
 						<input type="radio" name="sex" value="male" class="radio-button"/> <p>M</p>
 						<input type="radio" name="sex" value="female" class="radio-button"/> <p>F</p>
 					</fieldset>
-					<fieldset>
-						<label for="name">cap</label>
-						<input type="text" id="cap" class="cap-text" />
-					</fieldset>
+				
 				</div>
 			</div>
 		</div>
