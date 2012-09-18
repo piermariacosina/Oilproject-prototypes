@@ -1,0 +1,166 @@
+
+#box-pagina-categoria-2{
+}
+
+
+.lezione-corso{
+ 	@include grid(11);
+ 	width: 638px;
+ 	height: 92px;
+ 	background: image-url("box-corso-categoria.png") no-repeat left top;
+ 	
+ 	font-family: 'Droid Sans';
+ 	display: inline;
+ 	float: left;
+ 	margin-top: 30px;
+ 	position: relative;
+ 	margin-left: 30px;
+ 	
+  	   h4{
+ 	      
+ 	      font-weight: bold;
+ 	      font-size: 10px;
+ 	      line-height: 15px;
+ 	      text-transform: uppercase;
+ 	      margin-top: 10px;
+ 	      margin-left: 70px;
+ 	      color: $fluo-blue;
+ 	      a{
+ 	      	@include link-over-fluo;
+ 	       }
+		}
+ 	   						
+ 	   h3{
+ 	     width: 281px;
+ 	     height: 77px;
+ 	     color: $white;
+ 	     font-weight: normal;
+ 	     font-size: 14px;
+ 	     line-height: 17px;
+ 	     text-transform: uppercase;
+ 	     overflow: hidden;
+ 	     font-weight: normal;
+ 	     text-transform: lowercase;
+ 	     margin-left: 70px;
+ 	     
+ 	     a{
+ 	     	@include link-over-fluo;
+ 	     }
+ 	
+ 		}
+ 							
+ 							.relatore{
+ 							font-weight: bold;
+ 							font-size: 10px;
+ 						    position: absolute;
+ 							color: $light-petrolio;
+ 							margin-top: -40px;
+ 							margin-left: 70px;
+ 								a{
+ 										 	@include link-over-fluo;
+ 									 	}	
+ 								}
+ 								
+ 								 								
+ 								.icon{
+ 								    font-size: 24px;
+ 									
+ 									top:20px;
+ 									left: 30px;
+ 									position: absolute;
+ 									a{
+ 										@include link-white;
+ 									}
+ 								}
+ 								
+ 								
+ 								 									
+ 								.box-number-views{
+ 									float: left;
+ 									margin-bottom: 12px;
+ 									border-bottom: 1px solid $darkest-blue;
+ 									border-left: 1px solid $dark-blue;
+ 									border-right: 1px solid $dark-blue;
+ 									border-top: 1px solid $dark-blue;
+ 									
+ 									.number-views{
+ 										font-weight: normal;
+ 										font-size: 10px;
+ 										line-height: 10px;
+ 										color: $dark-green;
+ 										background: $light-fluo-green;
+ 										border-bottom: 1px solid $lightest-water-green;
+ 										border-left: 1px solid $lighter-water-green;
+ 										border-top: 1px solid $lighter-water-green;
+ 										border-right: 1px solid $lighter-water-green;
+ 										padding: 2px;
+ 									}
+ 								}
+ 								.views{
+ 									font-weight: normal;
+ 									font-size: 10px;
+ 									line-height: 10px;
+ 									color:$dark-green;
+ 									float: left;
+ 									margin-left: 3px;
+ 									margin-top: 4px;
+ 									margin-right: 15px;
+ 								}
+ 								
+ 								.box-likes{
+ 									float: left;
+ 									margin-bottom: 12px;
+ 									border-bottom: 1px solid $white;
+ 									border-left: 1px solid $white;
+ 									border-right: 1px solid $white;
+ 									border-top: 1px solid $white;
+ 									.icona-likes{
+ 									    background: $white;
+ 									    padding: 3px 5px;
+ 									}
+ 								}
+ 								
+ 								.number-likes{
+ 									font-weight: normal;
+ 									font-size: 10px;
+ 									line-height: 10px;
+ 									color: $dark-green;
+ 									float: left;
+ 									margin-left: 3px;
+ 									margin-top: 4px;
+ 									margin-right: 15px;
+ 								}
+ 								
+ 								
+ 								.box-dislikes{
+ 									float: left;
+ 									margin-bottom: 12px;
+ 									border-bottom: 1px solid $white;
+ 									border-left: 1px solid $white;
+ 									border-right: 1px solid $white;
+ 									border-top: 1px solid $white;
+ 									
+ 									.icona-dislikes{
+ 									    background: $white;
+ 									    padding: 3px 5px;
+ 									}
+ 								}
+ 								
+ 								.number-dislikes{
+ 									font-weight: normal;
+ 									font-size: 10px;
+ 									line-height: 10px;
+ 									color: $dark-green;
+ 									float: left;
+ 									margin-left: 3px;
+ 									margin-top: 4px;
+ 									margin-right: 15px;
+ 								}
+ 								
+}
+
+#extras{
+	margin-left: 400px;
+	margin-top: -90px;
+	position: absolute;
+}
