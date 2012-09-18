@@ -1,6 +1,6 @@
 form.search fieldset input[type="text"] {
 	width: 289px;
-	padding: 10px 14px;
+	padding: 7px 14px;
 	font-size: 18px;
 	border: 2px solid $light-petrolio-bg;
 	background: $white;
@@ -29,6 +29,15 @@ form.search fieldset input[type="submit"]:focus {
 	background: $green-title;
 	}
 
+
+.icona-lente{
+	background: image-url("icona-lente.png") no-repeat left top;
+	width: 29px;
+	height: 29px;
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 306px;
+}
 
 .categorie-tag {
 
@@ -60,11 +69,8 @@ form.search fieldset input[type="submit"]:focus {
 			    color: $white;
 			    	
 			    	}
-			    
-			  
-		}
-			
-}
+			   }
+	}
 
 
 #ricerca{
@@ -115,6 +121,15 @@ form.search fieldset input[type="submit"]:focus {
 	  			}
 	  			}
 	  
+	
+}
+
+.separatore-search{
+	background: image-url("separatore-search.png") no-repeat left top;
+	width: 599px;
+	height: 8px;
+	position: absolute;
+	margin-top: 100px;
 }
 
 		

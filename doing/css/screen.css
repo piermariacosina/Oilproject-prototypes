@@ -2550,7 +2550,7 @@ form input[type="submit"] {
 /* line 1, ../sass/partials/_search.scss */
 form.search fieldset input[type="text"] {
   width: 289px;
-  padding: 10px 14px;
+  padding: 7px 14px;
   font-size: 18px;
   border: 2px solid #25a599;
   background: white;
@@ -2584,6 +2584,16 @@ form.search fieldset input[type="submit"]:focus {
 }
 
 /* line 33, ../sass/partials/_search.scss */
+.icona-lente {
+  background: url('../images/icona-lente.png?1347958695') no-repeat left top;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 306px;
+}
+
+/* line 42, ../sass/partials/_search.scss */
 .categorie-tag {
   margin: 0;
   padding: 0;
@@ -2593,7 +2603,7 @@ form.search fieldset input[type="submit"]:focus {
   margin-top: 10px;
   margin-left: 40px;
 }
-/* line 40, ../sass/partials/_search.scss */
+/* line 49, ../sass/partials/_search.scss */
 .categorie-tag li {
   list-style-image: none;
   list-style-type: none;
@@ -2616,7 +2626,7 @@ form.search fieldset input[type="submit"]:focus {
 .categorie-tag li.last {
   padding-right: 0;
 }
-/* line 44, ../sass/partials/_search.scss */
+/* line 53, ../sass/partials/_search.scss */
 .categorie-tag li a {
   font-family: 'Droid Sans';
   font-size: 12px;
@@ -2638,37 +2648,37 @@ form.search fieldset input[type="submit"]:focus {
   padding: 5px 15px 5px 15px;
   margin: 3px;
 }
-/* line 59, ../sass/partials/_search.scss */
+/* line 68, ../sass/partials/_search.scss */
 .categorie-tag li a:hover, .categorie-tag li a:visited {
   color: white;
 }
 
-/* line 70, ../sass/partials/_search.scss */
+/* line 76, ../sass/partials/_search.scss */
 #ricerca {
   margin-top: 30px;
   margin-left: 40px;
 }
-/* line 75, ../sass/partials/_search.scss */
+/* line 81, ../sass/partials/_search.scss */
 #ricerca .categoria-ricerca {
   float: left;
   margin: 0 10px 0 0;
 }
-/* line 79, ../sass/partials/_search.scss */
+/* line 85, ../sass/partials/_search.scss */
 #ricerca .categoria-ricerca .categoria {
   margin: 0 0 10px 0;
 }
-/* line 83, ../sass/partials/_search.scss */
+/* line 89, ../sass/partials/_search.scss */
 #ricerca .categoria-ricerca li:last-child {
   margin-right: 0;
 }
-/* line 87, ../sass/partials/_search.scss */
+/* line 93, ../sass/partials/_search.scss */
 #ricerca .categoria-ricerca .sottocategoria-ricerca {
   width: auto;
   height: auto;
   margin: 0;
   list-style-type: none;
 }
-/* line 92, ../sass/partials/_search.scss */
+/* line 98, ../sass/partials/_search.scss */
 #ricerca .categoria-ricerca .sottocategoria-ricerca li {
   height: auto;
   width: 99px;
@@ -2681,16 +2691,25 @@ form.search fieldset input[type="submit"]:focus {
   margin: 0 0 12px 0;
   padding: 0;
 }
-/* line 103, ../sass/partials/_search.scss */
+/* line 109, ../sass/partials/_search.scss */
 #ricerca .categoria-ricerca .sottocategoria-ricerca li a {
   text-decoration: none;
   color: #084936;
   border-right: 1px solid #084936;
   padding: 0 20px 0 2px;
 }
-/* line 110, ../sass/partials/_search.scss */
+/* line 116, ../sass/partials/_search.scss */
 #ricerca .categoria-ricerca .sottocategoria-ricerca li a:hover, #ricerca .categoria-ricerca .sottocategoria-ricerca li a:visited {
   color: #00f2a1;
+}
+
+/* line 127, ../sass/partials/_search.scss */
+.separatore-search {
+  background: url('../images/separatore-search.png?1347958368') no-repeat left top;
+  width: 599px;
+  height: 8px;
+  position: absolute;
+  margin-top: 100px;
 }
 
 /* line 1, ../sass/partials/_risposta-multipla.scss */
@@ -3174,4 +3193,76 @@ hr {
   color: #418c89;
   font-size: 13px;
   font-weight: 400;
+}
+
+/* line 1, ../sass/partials/_filtra.scss */
+#filtra {
+  position: relative;
+  clear: both;
+}
+/* line 4, ../sass/partials/_filtra.scss */
+#filtra h1 {
+  font-family: 'Droid Sans';
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #057c79;
+  padding: 0 0 40px 0;
+  margin-top: 10px;
+  display: inline;
+  float: left;
+}
+/* line 15, ../sass/partials/_filtra.scss */
+#filtra div.filtra {
+  display: inline;
+  float: left;
+}
+/* line 20, ../sass/partials/_filtra.scss */
+#filtra input[type="checkbox"] {
+  margin-left: 25px;
+  display: inline-block;
+}
+/* line 24, ../sass/partials/_filtra.scss */
+#filtra label {
+  display: inline-block;
+  color: #49ada8;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+/* line 35, ../sass/partials/_filtra.scss */
+#filtra2 {
+  padding-top: 5px;
+  clear: both;
+}
+/* line 39, ../sass/partials/_filtra.scss */
+#filtra2 h1 {
+  font-family: 'Droid Sans';
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #057c79;
+  padding: 0 0 40px 0;
+  display: inline;
+  float: left;
+}
+/* line 49, ../sass/partials/_filtra.scss */
+#filtra2 div.filtra {
+  display: inline;
+  float: left;
+  padding-left: 8px;
+}
+/* line 56, ../sass/partials/_filtra.scss */
+#filtra2 input[type="checkbox"] {
+  display: inline-block;
+  margin-left: 20px;
+}
+/* line 61, ../sass/partials/_filtra.scss */
+#filtra2 label {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: bold;
+  color: #49ada8;
+  line-height: 14px;
+  display: inline-block;
 }
