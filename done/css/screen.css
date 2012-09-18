@@ -14,7 +14,7 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 
 /* line 85, ../sass/screen.scss */
 div.corner.left {
-  background: url('../images/corner-left.png?1347643269') no-repeat left top;
+  background: url('../images/corner-left.png?1347628549') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-left: -6px;
@@ -23,7 +23,7 @@ div.corner.left {
 }
 /* line 92, ../sass/screen.scss */
 div.corner.right {
-  background: url('../images/corner-right.png?1347643269') no-repeat left top;
+  background: url('../images/corner-right.png?1347628549') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-right: -6px;
@@ -32,7 +32,7 @@ div.corner.right {
 }
 /* line 99, ../sass/screen.scss */
 div.corner.left.striped {
-  background: url('../images/corner-left-striped.png?1347643269') no-repeat left top;
+  background: url('../images/corner-left-striped.png?1347628549') no-repeat left top;
   height: 21px;
   width: 20px;
   margin-left: -20px;
@@ -1376,7 +1376,7 @@ ul.icons li .icon-large:before {
   content: "\f200";
 }
 
-/* line 31, ../sass/partials/_buttons.scss */
+/* line 47, ../sass/partials/_buttons.scss */
 a.btn.border {
   display: inline;
   float: left;
@@ -1400,16 +1400,16 @@ a.btn.border {
   background: #43d1b4;
   cursor: pointer;
 }
-/* line 45, ../sass/partials/_buttons.scss */
+/* line 61, ../sass/partials/_buttons.scss */
 a.btn.border:hover {
   border: 4px white solid;
 }
-/* line 48, ../sass/partials/_buttons.scss */
+/* line 64, ../sass/partials/_buttons.scss */
 a.btn.border:visited {
   border: 4px white solid;
 }
 
-/* line 54, ../sass/partials/_buttons.scss */
+/* line 70, ../sass/partials/_buttons.scss */
 a.btn.dark {
   display: inline;
   float: left;
@@ -1434,12 +1434,12 @@ a.btn.dark {
   cursor: pointer;
   line-height: 20px;
 }
-/* line 69, ../sass/partials/_buttons.scss */
+/* line 85, ../sass/partials/_buttons.scss */
 a.btn.dark:hover {
   background: #43d1b4;
   color: #094934;
 }
-/* line 73, ../sass/partials/_buttons.scss */
+/* line 89, ../sass/partials/_buttons.scss */
 a.btn.dark:visited {
   background: #43d1b4;
   color: #057c79;
@@ -1461,7 +1461,7 @@ a.btn.dark:visited {
   margin-left: 0;
   margin-right: 0;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso.png?1347643269') no-repeat left top;
+  background: url('../images/crea-il-tuo-corso.png?1347628549') no-repeat left top;
   position: relative;
   position: relative;
   left: -120px;
@@ -1484,7 +1484,7 @@ a.btn.dark:visited {
   top: 20px;
   width: 50%;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso-bg.png?1347643269') repeat-x left top;
+  background: url('../images/crea-il-tuo-corso-bg.png?1347628549') repeat-x left top;
 }
 
 /* line 4, ../sass/partials/_bottone-segui-utente.scss */
@@ -1510,7 +1510,7 @@ a.btn.dark:visited {
 /* line 5, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato {
   position: relative;
-  background: url('../images/background-corso-iniziato.png?1347643269') no-repeat left top;
+  background: url('../images/background-corso-iniziato.png?1347642999') no-repeat left top;
   width: 330px;
   height: 247px;
   display: inline;
@@ -1586,7 +1586,7 @@ a.btn.dark:visited {
 }
 /* line 76, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .caricamento {
-  background: url('../images/box-caricamento.png?1347643269') no-repeat left top;
+  background: url('../images/box-caricamento.png?1347628549') no-repeat left top;
   width: 223px;
   height: 32px;
   margin-top: 137px;
@@ -1614,7 +1614,7 @@ a.btn.dark:visited {
 .corso {
   width: 638px;
   height: 209px;
-  background: url('../images/box-corso-categoria.png?1347643269') no-repeat left top;
+  background: url('../images/box-corso-categoria.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
@@ -1756,12 +1756,12 @@ a.btn.dark:visited {
   margin-right: 20px;
   height: 2px;
   clear: both;
-  background: url('../images/divisore-2.png?1347643269');
+  background: url('../images/divisore-2.png?1347628549');
 }
 
 /* line 1, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio {
-  background: url('../images/box-singolo-esercizio.png?1347643269') no-repeat left top;
+  background: url('../images/box-singolo-esercizio.png?1347628549') no-repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -1964,7 +1964,7 @@ ul.breadcrumb-list a:active {
 }
 /* line 7, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-intro {
-  background: url('../images/breadcrumb-intro.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb-intro.png?1347892130') no-repeat left top;
   width: 114px;
   height: 31px;
   float: left;
@@ -1993,7 +1993,7 @@ ul.breadcrumb-list #breadcrumbs-intro span {
 }
 /* line 41, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs {
-  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -2016,7 +2016,7 @@ ul.breadcrumb-list #breadcrumbs span {
 }
 /* line 69, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-2 {
-  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -2039,7 +2039,7 @@ ul.breadcrumb-list #breadcrumbs-2 span {
 }
 /* line 97, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-3 {
-  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -2071,7 +2071,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 /* line 132, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background-likes2.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes2.png?1347892130') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -2103,7 +2103,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 /* line 169, ../sass/partials/_breadcrumb.scss */
 #numbers-dislikes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background-likes2.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes2.png?1347892130') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -2204,7 +2204,7 @@ ul.commenti-recenti .box_number .number_c {
 }
 /* line 37, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li {
-  background: url('../images/background.png?1347643269') no-repeat left top;
+  background: url('../images/background.png?1347628549') no-repeat left top;
   overflow: hidden;
   *zoom: 1;
   margin: 3px;
@@ -2298,7 +2298,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .container-corsi li a .box-corso {
   width: 312px;
   height: 363px;
-  background: url('../images/corsi-bg.png?1347643269') no-repeat left top;
+  background: url('../images/corsi-bg.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
 }
@@ -2412,11 +2412,11 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 132, ../sass/partials/_container-corsi.scss */
 .container-corsi li a:hover .box-corso, .container-corsi li a:visited .box-corso {
-  background: url('../images/corsi-bg-hover.png?1347643269') no-repeat left top;
+  background: url('../images/corsi-bg-hover.png?1347628549') no-repeat left top;
 }
 /* line 141, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso {
-  background: url('../images/corsi-bg-linguetta.png?1347643269') no-repeat left top;
+  background: url('../images/corsi-bg-linguetta.png?1347628549') no-repeat left top;
   position: relative;
   width: 330px;
 }
@@ -2446,7 +2446,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 167, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a:hover .box-corso, .container-corsi li:first-child a:visited .box-corso {
-  background: url('../images/corsi-bg-linguetta-hover.png?1347643269') no-repeat left top;
+  background: url('../images/corsi-bg-linguetta-hover.png?1347628549') no-repeat left top;
 }
 /* line 173, ../sass/partials/_container-corsi.scss */
 .container-corsi li:last-child {
@@ -2536,7 +2536,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 73, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video, .container-lezioni .box-video-spacer a:visited .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 75, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video h1, .container-lezioni .box-video-spacer a:visited .box-video h1 {
@@ -2560,7 +2560,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .container-lezioni .list-lezioni .categorie {
   width: 231px;
   height: 49px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin-right: 3px;
   margin-left: 0;
 }
@@ -2753,7 +2753,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 267, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 271, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover, .container-lezioni .lezioni a:visited {
@@ -2833,7 +2833,7 @@ ul.commenti-recenti li .text p.data_commento span {
   left: -12px;
   width: 18px;
   height: 18px;
-  background: url('../images/corner-left-big.png?1347643269') no-repeat left top;
+  background: url('../images/corner-left-big.png?1347642999') no-repeat left top;
 }
 /* line 26, ../sass/partials/_contenuto-singolo.scss */
 .lezione h4 {
@@ -3047,7 +3047,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .corsi-creati .box-corso {
   width: 320px;
   height: 290px;
-  background: url('../images/background-profilo-categoria.png?1347643269') no-repeat left top;
+  background: url('../images/background-profilo-categoria.png?1347642999') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
@@ -3219,7 +3219,7 @@ ul.commenti-recenti li .text p.data_commento span {
   margin-right: 10px;
   width: 400px;
   height: 285px;
-  background: url('../images/home-video-linguetta.png?1347643269') no-repeat left top;
+  background: url('../images/home-video-linguetta.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   overflow: visible;
@@ -3399,7 +3399,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 74, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:hover .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 79, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:visited .box-video {
@@ -3425,7 +3425,7 @@ footer#footer {
 /* line 4, ../sass/partials/_footer.scss */
 footer#footer .barra-top {
   position: relative;
-  background: url('../images/diagonal-dark-green.png?1347643269') repeat left top;
+  background: url('../images/diagonal-dark-green.png?1347628549') repeat left top;
   height: 10px;
   border-top: 1px solid #8be5e1;
 }
@@ -3569,7 +3569,7 @@ footer#footer .barra-bottom {
   margin-top: 30px;
   clear: both;
   position: relative;
-  background: url('../images/diagonal-dark-green.png?1347643269') repeat left top;
+  background: url('../images/diagonal-dark-green.png?1347628549') repeat left top;
   overflow: hidden;
   *zoom: 1;
 }
@@ -3589,7 +3589,7 @@ footer#footer .barra-bottom .creative-commons h1 {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/cc.png?1347643269');
+  background-image: url('../images/cc.png?1347628549');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 130px;
@@ -3777,14 +3777,14 @@ footer#footer .barra-bottom .footer-menu a:active {
 }
 /* line 227, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu a:hover .icon {
-  background: url('../images/diagonal-green-scuro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
 }
 /* line 231, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 15px;
   margin-right: 15px;
   height: 8px;
-  background: url('../images/diagonal-green-darker.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-darker.png?1347628549') repeat left top;
   margin: auto;
 }
 
@@ -3920,7 +3920,7 @@ header#main section#menu .contenitore nav ul li a span {
 /* line 73, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a:hover .underline {
   height: 8px;
-  background: url('../images/diagonal-green-scuro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
   margin: 0 18px;
 }
 /* line 78, ../sass/partials/_header.scss */
@@ -3932,7 +3932,7 @@ header#main section#menu .contenitore nav ul li a:hover span {
 /* line 86, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li .underline {
   height: 8px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 18px;
 }
 /* line 96, ../sass/partials/_header.scss */
@@ -3984,7 +3984,7 @@ header#main section#menu .contenitore #search input#search-submit {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/search.png?1347643269');
+  background-image: url('../images/search.png?1347628549');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 28px;
@@ -4025,7 +4025,7 @@ header#main section#dashboard-loggedout #vision {
   float: left;
   width: 870px;
   height: 69px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
 }
 /* line 163, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p {
@@ -4051,7 +4051,7 @@ header#main section#dashboard-loggedout #vision p b, header#main section#dashboa
 }
 /* line 179, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision .icon {
-  background: url('../images/icon-vision.png?1347643269') repeat left top;
+  background: url('../images/icon-vision.png?1347628549') repeat left top;
   width: 62px;
   height: 45px;
   margin-top: 12px;
@@ -4215,7 +4215,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 315, ../sass/partials/_header.scss */
 .notice-list .left-white {
-  background: url('../images/left-white.png?1347872261') no-repeat left top;
+  background: url('../images/left-white.png?1347892130') no-repeat left top;
   width: 2px;
   height: 8px;
   position: absolute;
@@ -4224,7 +4224,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 323, ../sass/partials/_header.scss */
 .notice-list .right-white {
-  background: url('../images/right-white.png?1347872261') no-repeat left top;
+  background: url('../images/right-white.png?1347892130') no-repeat left top;
   width: 2px;
   height: 8px;
   position: absolute;
@@ -4308,7 +4308,7 @@ header#main section#dashboard-loggedin .logout p {
   width: 100%;
   height: 400px;
   margin-top: 10px;
-  background: url('../images/diagonal-green-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-bg.png?1347628549') repeat left top;
   margin-left: 10px;
   padding-left: 10px;
 }
@@ -4533,7 +4533,7 @@ header#main section#dashboard-loggedin .logout p {
 #prefooter .categoria-container .categoria {
   width: 108px;
   height: 31px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 0 10px 0;
 }
 /* line 19, ../sass/partials/_prefooter.scss */
@@ -4636,7 +4636,7 @@ header#main section#dashboard-loggedin .logout p {
 
 /* line 4, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente {
-  background: url('../images/background-profilo.png?1347643269') no-repeat left top;
+  background: url('../images/background-profilo.png?1347628549') no-repeat left top;
   width: 618px;
   height: 371px;
   position: absolute;
@@ -4753,7 +4753,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 111, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #banner {
-  background: url('../images/banner-premi.png?1347643269') no-repeat left top;
+  background: url('../images/banner-premi.png?1347628549') no-repeat left top;
   width: 115px;
   height: 121px;
   margin-left: 511px;
@@ -4791,14 +4791,14 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 145, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .facebook {
-  background: url('../images/icona-facebook.png?1347643269') no-repeat left top;
+  background: url('../images/icona-facebook.png?1347628549') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
 }
 /* line 153, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .twitter {
-  background: url('../images/icona-twitter.png?1347643269') no-repeat left top;
+  background: url('../images/icona-twitter.png?1347628549') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
@@ -4880,7 +4880,7 @@ header#main section#dashboard-loggedin .logout p {
 /* line 232, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-likes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes.png?1347642999') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -4915,7 +4915,7 @@ header#main section#dashboard-loggedin .logout p {
 /* line 263, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-dislikes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes.png?1347642999') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -4949,7 +4949,7 @@ header#main section#dashboard-loggedin .logout p {
 
 /* line 299, ../sass/partials/_profilo-mio-utente.scss */
 .divisore-profilo {
-  background: url('../images/divisore-profilo.png?1347643269') no-repeat left top;
+  background: url('../images/divisore-profilo.png?1347628549') no-repeat left top;
   width: 600px;
   height: 2px;
   margin-top: 164px;
@@ -4998,7 +4998,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 46, ../sass/partials/_sidebar-help.scss */
 .titolo-sidebar.exclamation {
-  background: url('../images/icona-help.png?1347643269') no-repeat;
+  background: url('../images/icona-help.png?1347628549') no-repeat;
 }
 /* line 52, ../sass/partials/_sidebar-help.scss */
 .titolo-sidebar p {
@@ -5350,7 +5350,7 @@ div.row {
 
 /* line 5, ../sass/partials/_titolo-registrati.scss */
 #titolo-registrati {
-  background: url('../images/diagonal-green-scuro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
   height: 400px;
   height: 400px;
   width: 620px;
@@ -5399,7 +5399,7 @@ div.row {
   margin-right: 10px;
   width: 280px;
   height: 31px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 0 10px 0;
 }
 /* line 10, ../sass/partials/_sidebar-sottocategorie.scss */
@@ -5472,7 +5472,7 @@ div.row {
 .sottocategorie-container ul li a span {
   width: 46px;
   height: 7px;
-  background: url('../images/grid-sottocategorie.png?1347643269');
+  background: url('../images/grid-sottocategorie.png?1347628549');
   display: inline-block;
   margin-right: 4px;
 }
@@ -5484,13 +5484,13 @@ div.row {
 .sottocategorie-container ul li a:hover span, .sottocategorie-container ul li a:visited span {
   width: 46px;
   height: 7px;
-  background: url('../images/grid-sottocategorie-dark.png?1347643269');
+  background: url('../images/grid-sottocategorie-dark.png?1347628549');
   display: inline-block;
 }
 
 /* line 1, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio {
-  background: url('../images/box-singolo-esercizio.png?1347643269') no-repeat left top;
+  background: url('../images/box-singolo-esercizio.png?1347628549') no-repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -5704,7 +5704,7 @@ h4.titoli_sezioni {
 /* line 5, ../sass/partials/_titoli-edit.scss */
 .titoli-edit {
   margin-top: 10px;
-  background: url('../images/diagonal-green-scuro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -5815,7 +5815,7 @@ h4.titoli_sezioni {
 }
 /* line 70, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .box-video-spacer a:hover .box-video, .container-lezioni-flexible .box-video-spacer a:visited .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 72, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .box-video-spacer a:hover .box-video h1, .container-lezioni-flexible .box-video-spacer a:visited .box-video h1 {
@@ -5839,7 +5839,7 @@ h4.titoli_sezioni {
 .container-lezioni-flexible .list-lezioni .categoria {
   width: 207px;
   height: 49px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin-right: 3px;
   margin-left: 0;
 }
@@ -6032,7 +6032,7 @@ h4.titoli_sezioni {
 }
 /* line 264, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .lezioni a:hover .box-lezione {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 268, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .lezioni a:hover, .container-lezioni-flexible .lezioni a:visited {
@@ -6165,7 +6165,7 @@ h4.titoli_sezioni {
   margin-left: 10px;
   margin-right: 10px;
   width: 640px;
-  background: url('../images/contenitore-categoria-corso.png?1347892642') no-repeat left top;
+  background: url('../images/contenitore-categoria-corso.png?1347892912') no-repeat left top;
   width: 625px;
   height: 88px;
   font-family: 'Droid Sans';
@@ -6326,7 +6326,7 @@ h4.titoli_sezioni {
   margin-left: 10px;
   margin-right: 10px;
   width: 640px;
-  background: url('../images/contenitore-categoria-corso-2.png?1347892642') no-repeat left top;
+  background: url('../images/contenitore-categoria-corso-2.png?1347892912') no-repeat left top;
   width: 625px;
   height: 88px;
   font-family: 'Droid Sans';
@@ -6485,21 +6485,30 @@ h4.titoli_sezioni {
 .video-corso {
   width: 638px;
   height: 301px;
-  background: url('../images/box-video-corso.png?1347892642') no-repeat left top;
+  position: relative;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
   float: left;
   margin-top: 10px;
   margin-bottom: 10px;
+  background: url('../images/diagonal-green-bg.png?1347628549') repeat top left;
 }
-/* line 12, ../sass/partials/_box-video-corso.scss */
+/* line 14, ../sass/partials/_box-video-corso.scss */
+.video-corso .corner {
+  width: 18px;
+  height: 18px;
+  left: -18px;
+  position: absolute;
+  background: url('../images/corner-fluo-left-stripes.png?1347959799') no-repeat top left;
+}
+/* line 19, ../sass/partials/_box-video-corso.scss */
 .video-corso a.btn.dark.noborder {
   float: right;
   margin-right: 40px;
   margin-top: 20px;
 }
-/* line 19, ../sass/partials/_box-video-corso.scss */
+/* line 26, ../sass/partials/_box-video-corso.scss */
 .video-corso a {
   text-decoration: none;
   color: #084936;
@@ -6517,7 +6526,7 @@ h4.titoli_sezioni {
 .video-corso a:active {
   color: #43d1b4;
 }
-/* line 24, ../sass/partials/_box-video-corso.scss */
+/* line 31, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni {
   margin: 0;
   padding: 0;
@@ -6529,7 +6538,7 @@ h4.titoli_sezioni {
   margin-top: 37px;
   margin-left: 40px;
 }
-/* line 29, ../sass/partials/_box-video-corso.scss */
+/* line 36, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni li {
   list-style-image: none;
   list-style-type: none;
@@ -6556,24 +6565,24 @@ h4.titoli_sezioni {
 .video-corso .tipologie-lezioni li.last {
   padding-right: 0;
 }
-/* line 35, ../sass/partials/_box-video-corso.scss */
+/* line 42, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni li .icon {
   position: relative;
   float: left;
   font-size: 25px;
 }
-/* line 40, ../sass/partials/_box-video-corso.scss */
+/* line 47, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni li span {
   position: relative;
   float: left;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 5px;
 }
-/* line 47, ../sass/partials/_box-video-corso.scss */
+/* line 54, ../sass/partials/_box-video-corso.scss */
 .video-corso .tipologie-lezioni li:last-child {
   margin-right: 0px;
 }
-/* line 52, ../sass/partials/_box-video-corso.scss */
+/* line 59, ../sass/partials/_box-video-corso.scss */
 .video-corso h4 {
   font-family: 'Droid Sans';
   width: 300px;
@@ -6584,7 +6593,7 @@ h4.titoli_sezioni {
   margin-top: 10px;
   margin-left: 350px;
 }
-/* line 63, ../sass/partials/_box-video-corso.scss */
+/* line 70, ../sass/partials/_box-video-corso.scss */
 .video-corso h3 {
   font-family: 'Droid Sans';
   max-width: 242px;
@@ -6597,7 +6606,7 @@ h4.titoli_sezioni {
   margin-left: 350px;
   text-shadow: 0px 2px 1px white;
 }
-/* line 82, ../sass/partials/_box-video-corso.scss */
+/* line 89, ../sass/partials/_box-video-corso.scss */
 .video-corso .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -6607,7 +6616,7 @@ h4.titoli_sezioni {
   position: relative;
   color: #057c79;
 }
-/* line 93, ../sass/partials/_box-video-corso.scss */
+/* line 100, ../sass/partials/_box-video-corso.scss */
 .video-corso p {
   width: 334px;
   height: 80px;
@@ -6619,16 +6628,16 @@ h4.titoli_sezioni {
   margin-right: 20px;
   margin-top: 10px;
 }
-/* line 105, ../sass/partials/_box-video-corso.scss */
+/* line 112, ../sass/partials/_box-video-corso.scss */
 .video-corso .img-corso-categoria {
   margin-left: 27px;
   position: absolute;
   float: right;
 }
 
-/* line 114, ../sass/partials/_box-video-corso.scss */
+/* line 121, ../sass/partials/_box-video-corso.scss */
 .divisore-corso-video {
-  background: url('../images/divisore-2.png?1347643269');
+  background: url('../images/divisore-2.png?1347628549');
   margin-top: 5px;
   margin-left: 40px;
   clear: both;
@@ -6636,68 +6645,44 @@ h4.titoli_sezioni {
   height: 2px;
 }
 
-/* line 125, ../sass/partials/_box-video-corso.scss */
+/* line 132, ../sass/partials/_box-video-corso.scss */
 .ashtag {
   margin-left: 40px;
   margin-top: 5px;
 }
-/* line 129, ../sass/partials/_box-video-corso.scss */
+/* line 136, ../sass/partials/_box-video-corso.scss */
 .ashtag a {
   font-family: 'Droid Sans';
   font-weight: normal;
   font-size: 13px;
   color: #057c79;
 }
-/* line 135, ../sass/partials/_box-video-corso.scss */
+/* line 142, ../sass/partials/_box-video-corso.scss */
 .ashtag span {
   font-weight: bold;
   text-transform: uppercase;
   color: #084936;
 }
 
-/* line 144, ../sass/partials/_box-video-corso.scss */
+/* line 151, ../sass/partials/_box-video-corso.scss */
 .pubblicato {
   margin-left: 40px;
 }
-/* line 148, ../sass/partials/_box-video-corso.scss */
+/* line 155, ../sass/partials/_box-video-corso.scss */
 .pubblicato a {
   font-family: 'Droid Sans';
   font-weight: normal;
   font-size: 13px;
   color: #057c79;
 }
-/* line 154, ../sass/partials/_box-video-corso.scss */
+/* line 161, ../sass/partials/_box-video-corso.scss */
 .pubblicato span {
   font-weight: bold;
   text-transform: uppercase;
   color: #084936;
 }
 
-/* line 163, ../sass/partials/_box-video-corso.scss */
-.paragrafo-video-corso {
-  float: left;
-  width: 520px;
-  margin-left: 40px;
-  margin-top: 40px;
-}
-/* line 169, ../sass/partials/_box-video-corso.scss */
-.paragrafo-video-corso p {
-  font-family: 'Droid Sans';
-  font-weight: normal;
-  font-size: 13px;
-  color: #3d635f;
-}
-/* line 179, ../sass/partials/_box-video-corso.scss */
-.paragrafo-video-corso .testo-parte1 {
-  font-weight: bold;
-}
-/* line 184, ../sass/partials/_box-video-corso.scss */
-.paragrafo-video-corso .testo-parte2 {
-  font-weight: bold;
-  color: #24d1c8;
-}
-
-/* line 193, ../sass/partials/_box-video-corso.scss */
+/* line 173, ../sass/partials/_box-video-corso.scss */
 .comm-box-video {
   display: inline;
   float: left;
@@ -6711,7 +6696,7 @@ h4.titoli_sezioni {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 200, ../sass/partials/_box-video-corso.scss */
+/* line 180, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments {
   height: auto;
   overflow: hidden;
@@ -6721,22 +6706,22 @@ h4.titoli_sezioni {
   border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 208, ../sass/partials/_box-video-corso.scss */
+/* line 188, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments.first {
   padding-right: 10px;
 }
-/* line 212, ../sass/partials/_box-video-corso.scss */
+/* line 192, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments.center {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 217, ../sass/partials/_box-video-corso.scss */
+/* line 197, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments.last {
   border-right: none;
   float: right;
 }
-/* line 221, ../sass/partials/_box-video-corso.scss */
+/* line 201, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -6744,7 +6729,7 @@ h4.titoli_sezioni {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 227, ../sass/partials/_box-video-corso.scss */
+/* line 207, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -6758,7 +6743,7 @@ h4.titoli_sezioni {
   padding: 2px;
   text-align: center;
 }
-/* line 241, ../sass/partials/_box-video-corso.scss */
+/* line 221, ../sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -6769,4 +6754,38 @@ h4.titoli_sezioni {
   margin-left: 4px;
   margin-right: 4px;
   margin-top: 4px;
+}
+
+/* line 1, ../sass/partials/_paragrafi.scss */
+.paragrafo-video-corso {
+  float: left;
+  width: 520px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+/* line 7, ../sass/partials/_paragrafi.scss */
+.paragrafo-video-corso p {
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 13px;
+  color: #3d635f;
+}
+/* line 16, ../sass/partials/_paragrafi.scss */
+.paragrafo-video-corso a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #4cc1b8;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.paragrafo-video-corso a:visited {
+  color: #4cc1b8;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.paragrafo-video-corso a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.paragrafo-video-corso a:active {
+  color: #4cc1b8;
 }

@@ -28,6 +28,22 @@
 	cursor: pointer;
 }
 
+
+@mixin stripe-fluo-background(){
+
+	background: image-url('diagonal-green-bg.png') repeat top left;
+
+}
+
+@mixin stripe-fluo-corner(){
+	width: image-width("corner-fluo-left-stripes.png");
+	height: image-height("corner-fluo-left-stripes.png");
+	left: - (image-width("corner-fluo-left-stripes.png"));
+	position: absolute;
+	background: image-url("corner-fluo-left-stripes.png") no-repeat top left;
+
+}
+
 a.btn.border{
 	@include grid(3);
 	@include alpha;

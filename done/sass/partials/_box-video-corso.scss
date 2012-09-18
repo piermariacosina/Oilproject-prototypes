@@ -1,13 +1,20 @@
 .video-corso{
  	width: 638px;
  	height: 301px;
- 	background: image-url("box-video-corso.png") no-repeat left top;
+ 	position: relative;
+ 	
  	font-family: 'Droid Sans';
  	color: $dark-green;
  	display: inline;
  	float: left;
  	margin-top: 10px;
  	margin-bottom: 10px;
+ 	@include stripe-fluo-background;
+
+  	.corner{
+ 		@include stripe-fluo-corner;
+	 	
+ 	}
  	
  	  a.btn.dark.noborder{
  	  
@@ -40,7 +47,7 @@
  			span{
  				position: relative;
  				float: left;
- 				margin-top: 5px;
+ 				margin-top: 10px;
  				margin-left: 5px;
  			}
  		}
@@ -160,34 +167,7 @@ a{
 }
 
 
-.paragrafo-video-corso{
-	float: left;
-	width: 520px;
-	margin-left: 40px;
-	margin-top: 40px;
-	
-	 p{
-	   
-	   	font-family: 'Droid Sans';
-	   	font-weight: normal;
-	   	font-size: 13px;
-	   	color: $text-green;
-	 
-	 }
-	 
-	 
-	 .testo-parte1{
-	 font-weight: bold;
-	 	
-	 }
-	 
-	 .testo-parte2{
-	 font-weight: bold;
-	 color: $link-blue;
-	 	
-	 }
-	 
-}
+
 
 
 .comm-box-video{
