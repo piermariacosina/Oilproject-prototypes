@@ -7,7 +7,7 @@ clear:both;
 		  font-weight: bold;
 		  text-transform: uppercase;
 		  color: $light-green;
-		  padding: 0 0 40px 0;
+		  padding: 0 0 10px 0;
 		  margin-top: 10px;
 		 
 		  @include float-left;
@@ -42,7 +42,7 @@ clear:both;
 	   font-weight: bold;
 	   text-transform: uppercase;
 	   color: $light-green;
-	   padding: 0 0 40px 0;
+	   padding: 0 0 10px 0;
 	   @include float-left;
     }
    
