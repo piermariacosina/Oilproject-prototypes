@@ -7410,3 +7410,192 @@ h4.titoli_sezioni {
   line-height: 14px;
   display: inline-block;
 }
+
+/* line 1, ../sass/partials/_utenti-corso-terminato.scss */
+.sidebar-avatars {
+  background-color: #f7fcfb;
+  border: 1px solid #daede9;
+  margin-right: 0;
+  margin-left: 0;
+  height: auto;
+  margin: 17px 0 0 0;
+}
+/* line 11, ../sass/partials/_utenti-corso-terminato.scss */
+.sidebar-avatars h4 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  padding: 12px;
+}
+/* line 21, ../sass/partials/_utenti-corso-terminato.scss */
+.sidebar-avatars ul {
+  list-style: none;
+  margin-left: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #057c79;
+  padding: 20px 5px;
+}
+/* line 29, ../sass/partials/_utenti-corso-terminato.scss */
+.sidebar-avatars ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding: 2px !important;
+}
+/* line 31, ../sass/partials/_utenti-corso-terminato.scss */
+.sidebar-avatars ul li a:hover img {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.sidebar-avatars ul li:first-child, .sidebar-avatars ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.sidebar-avatars ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.sidebar-avatars ul li.last {
+  padding-right: 0;
+}
+/* line 39, ../sass/partials/_utenti-corso-terminato.scss */
+.sidebar-avatars ul li img {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 1, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list {
+  list-style: none;
+}
+/* line 3, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list a {
+  text-decoration: none;
+  color: #49ada8;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+ul.breadcrumb-list a:visited {
+  color: #49ada8;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+ul.breadcrumb-list a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+ul.breadcrumb-list a:active {
+  color: #49ada8;
+}
+/* line 7, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-intro {
+  background: url('../images/breadcrumb-intro.png?1347643269') no-repeat left top;
+  width: 114px;
+  height: 31px;
+  float: left;
+}
+/* line 13, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-intro .bread-intro {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-left: 14px;
+  float: left;
+}
+/* line 22, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-intro .bread-intro img {
+  float: left;
+  margin-right: 3px;
+}
+/* line 31, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-intro span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
+/* line 41, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs {
+  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  width: 101px;
+  height: 31px;
+  float: left;
+}
+/* line 47, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs .bread {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+/* line 58, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
+/* line 69, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-2 {
+  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  width: 101px;
+  height: 31px;
+  float: left;
+}
+/* line 75, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-2 .bread-2 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+/* line 86, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-2 span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
+/* line 97, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-grande {
+  background: url('../images/bread-crumb.png?1347643269') no-repeat left top;
+  width: 170px;
+  height: 38px;
+  float: left;
+}
+/* line 103, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-grande .bread-grande {
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-size: 16px;
+  line-height: 10px;
+  margin-top: 12px;
+  margin-left: 17px;
+}
+/* line 114, ../sass/partials/_breadcrumb-grande.scss */
+ul.breadcrumb-list #breadcrumbs-grande span {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+}
