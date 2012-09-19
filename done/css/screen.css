@@ -1680,6 +1680,64 @@ div.buttons {
   margin-bottom: 10px;
 }
 /* line 12, ../sass/partials/_box-corso.scss */
+.corso .categorie-lezioni {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: -37px;
+  display: inline;
+  float: right;
+  margin-right: 20px;
+}
+/* line 18, ../sass/partials/_box-corso.scss */
+.corso .categorie-lezioni li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 8px 18px 0 0;
+  padding: 0;
+}
+/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.corso .categorie-lezioni li:first-child, .corso .categorie-lezioni li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.corso .categorie-lezioni li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.corso .categorie-lezioni li.last {
+  padding-right: 0;
+}
+/* line 24, ../sass/partials/_box-corso.scss */
+.corso .categorie-lezioni li .icon {
+  position: relative;
+  float: left;
+  font-size: 18px;
+}
+/* line 29, ../sass/partials/_box-corso.scss */
+.corso .categorie-lezioni li span {
+  position: relative;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+/* line 36, ../sass/partials/_box-corso.scss */
+.corso .categorie-lezioni li:last-child {
+  margin-right: 0px;
+}
+/* line 41, ../sass/partials/_box-corso.scss */
 .corso a {
   text-decoration: none;
   color: #084936;
@@ -1697,25 +1755,25 @@ div.buttons {
 .corso a:active {
   color: #43d1b4;
 }
-/* line 16, ../sass/partials/_box-corso.scss */
+/* line 45, ../sass/partials/_box-corso.scss */
 .corso #extras {
   margin-left: 400px;
   margin-top: -90px;
   position: absolute;
 }
-/* line 22, ../sass/partials/_box-corso.scss */
+/* line 51, ../sass/partials/_box-corso.scss */
 .corso #extras #likes {
   float: left;
 }
-/* line 26, ../sass/partials/_box-corso.scss */
+/* line 55, ../sass/partials/_box-corso.scss */
 .corso #extras #dislikes {
   float: left;
 }
-/* line 29, ../sass/partials/_box-corso.scss */
+/* line 58, ../sass/partials/_box-corso.scss */
 .corso #extras #view {
   float: left;
 }
-/* line 35, ../sass/partials/_box-corso.scss */
+/* line 64, ../sass/partials/_box-corso.scss */
 .corso .box-number-views {
   float: left;
   margin-bottom: 12px;
@@ -1724,7 +1782,7 @@ div.buttons {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 43, ../sass/partials/_box-corso.scss */
+/* line 72, ../sass/partials/_box-corso.scss */
 .corso .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -1737,7 +1795,7 @@ div.buttons {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 56, ../sass/partials/_box-corso.scss */
+/* line 85, ../sass/partials/_box-corso.scss */
 .corso .views {
   font-weight: normal;
   font-size: 10px;
@@ -1748,7 +1806,7 @@ div.buttons {
   margin-top: 4px;
   margin-right: 15px;
 }
-/* line 67, ../sass/partials/_box-corso.scss */
+/* line 96, ../sass/partials/_box-corso.scss */
 .corso .box-likes {
   float: left;
   margin-bottom: 12px;
@@ -1757,13 +1815,13 @@ div.buttons {
   border-right: 1px solid white;
   border-top: 1px solid white;
 }
-/* line 74, ../sass/partials/_box-corso.scss */
+/* line 103, ../sass/partials/_box-corso.scss */
 .corso .box-likes i {
   color: #084936;
   margin: 3px 5px;
   font-size: 16px;
 }
-/* line 81, ../sass/partials/_box-corso.scss */
+/* line 110, ../sass/partials/_box-corso.scss */
 .corso .number-likes {
   font-weight: normal;
   font-size: 10px;
@@ -1774,7 +1832,7 @@ div.buttons {
   margin-top: 4px;
   margin-right: 15px;
 }
-/* line 93, ../sass/partials/_box-corso.scss */
+/* line 122, ../sass/partials/_box-corso.scss */
 .corso .box-dislikes {
   float: left;
   margin-bottom: 12px;
@@ -1783,13 +1841,13 @@ div.buttons {
   border-right: 1px solid white;
   border-top: 1px solid white;
 }
-/* line 101, ../sass/partials/_box-corso.scss */
+/* line 130, ../sass/partials/_box-corso.scss */
 .corso .box-dislikes i {
   color: #084936;
   margin: 3px 5px;
   font-size: 16px;
 }
-/* line 108, ../sass/partials/_box-corso.scss */
+/* line 137, ../sass/partials/_box-corso.scss */
 .corso .number-dislikes {
   font-weight: normal;
   font-size: 10px;
@@ -1800,65 +1858,7 @@ div.buttons {
   margin-top: 4px;
   margin-right: 15px;
 }
-/* line 123, ../sass/partials/_box-corso.scss */
-.corso .tipologie-lezioni {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
-  overflow: hidden;
-  *zoom: 1;
-  margin-top: -37px;
-  display: inline;
-  float: right;
-  margin-right: 20px;
-}
-/* line 129, ../sass/partials/_box-corso.scss */
-.corso .tipologie-lezioni li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 4px;
-  padding-right: 4px;
-  font-weight: bold;
-  font-size: 12px;
-  margin: 8px 18px 0 0;
-  padding: 0;
-}
-/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.corso .tipologie-lezioni li:first-child, .corso .tipologie-lezioni li.first {
-  padding-left: 0;
-}
-/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.corso .tipologie-lezioni li:last-child {
-  padding-right: 0;
-}
-/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.corso .tipologie-lezioni li.last {
-  padding-right: 0;
-}
-/* line 135, ../sass/partials/_box-corso.scss */
-.corso .tipologie-lezioni li .icon {
-  position: relative;
-  float: left;
-  font-size: 18px;
-}
-/* line 140, ../sass/partials/_box-corso.scss */
-.corso .tipologie-lezioni li span {
-  position: relative;
-  float: left;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-/* line 147, ../sass/partials/_box-corso.scss */
-.corso .tipologie-lezioni li:last-child {
-  margin-right: 0px;
-}
-/* line 152, ../sass/partials/_box-corso.scss */
+/* line 154, ../sass/partials/_box-corso.scss */
 .corso h4 {
   width: 300px;
   font-weight: bold;
@@ -1868,7 +1868,7 @@ div.buttons {
   margin-top: 10px;
   margin-left: 40px;
 }
-/* line 162, ../sass/partials/_box-corso.scss */
+/* line 164, ../sass/partials/_box-corso.scss */
 .corso h3 {
   max-width: 200px;
   height: 60px;
@@ -1881,7 +1881,7 @@ div.buttons {
   text-transform: lowercase;
   margin-left: 40px;
 }
-/* line 174, ../sass/partials/_box-corso.scss */
+/* line 176, ../sass/partials/_box-corso.scss */
 .corso .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -1891,7 +1891,7 @@ div.buttons {
   position: relative;
   color: #057c79;
 }
-/* line 185, ../sass/partials/_box-corso.scss */
+/* line 187, ../sass/partials/_box-corso.scss */
 .corso p {
   width: 334px;
   height: 80px;
@@ -1903,14 +1903,14 @@ div.buttons {
   margin-right: 20px;
   margin-top: 10px;
 }
-/* line 197, ../sass/partials/_box-corso.scss */
+/* line 199, ../sass/partials/_box-corso.scss */
 .corso .img-corso-categoria {
   margin-left: 27px;
   position: absolute;
   float: right;
 }
 
-/* line 206, ../sass/partials/_box-corso.scss */
+/* line 208, ../sass/partials/_box-corso.scss */
 .divisore-2 {
   margin-left: 40px;
   margin-right: 20px;
@@ -3338,7 +3338,7 @@ ul.commenti-recenti li .text p.data_commento span {
   box-shadow: 0px 0px 3px black;
 }
 /* line 79, ../sass/partials/_corsi-creati.scss */
-.corsi-creati .box-corso .tipologie-lezioni {
+.corsi-creati .box-corso .categorie-lezioni {
   list-style-type: none;
   overflow: hidden;
   *zoom: 1;
@@ -3346,7 +3346,7 @@ ul.commenti-recenti li .text p.data_commento span {
   margin-top: 4px;
 }
 /* line 84, ../sass/partials/_corsi-creati.scss */
-.corsi-creati .box-corso .tipologie-lezioni li {
+.corsi-creati .box-corso .categorie-lezioni li {
   position: relative;
   float: left;
   font-weight: bold;
@@ -3355,20 +3355,20 @@ ul.commenti-recenti li .text p.data_commento span {
   padding: 0;
 }
 /* line 91, ../sass/partials/_corsi-creati.scss */
-.corsi-creati .box-corso .tipologie-lezioni li .icon {
+.corsi-creati .box-corso .categorie-lezioni li .icon {
   position: relative;
   float: left;
   font-size: 21px;
   margin-top: -6px;
 }
 /* line 97, ../sass/partials/_corsi-creati.scss */
-.corsi-creati .box-corso .tipologie-lezioni li span {
+.corsi-creati .box-corso .categorie-lezioni li span {
   position: relative;
   float: left;
   margin-left: 8px;
 }
 /* line 103, ../sass/partials/_corsi-creati.scss */
-.corsi-creati .box-corso .tipologie-lezioni li:last-child {
+.corsi-creati .box-corso .categorie-lezioni li:last-child {
   margin-right: 0px;
 }
 
@@ -6587,7 +6587,7 @@ h4.titoli_sezioni {
   color: #43d1b4;
 }
 /* line 31, ../sass/partials/_box-video-corso.scss */
-.video-corso .tipologie-lezioni {
+.video-corso .categorie-lezioni {
   margin: 0;
   padding: 0;
   border: 0;
@@ -6599,7 +6599,7 @@ h4.titoli_sezioni {
   margin-left: 40px;
 }
 /* line 36, ../sass/partials/_box-video-corso.scss */
-.video-corso .tipologie-lezioni li {
+.video-corso .categorie-lezioni li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -6614,25 +6614,25 @@ h4.titoli_sezioni {
   padding: 0;
 }
 /* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.video-corso .tipologie-lezioni li:first-child, .video-corso .tipologie-lezioni li.first {
+.video-corso .categorie-lezioni li:first-child, .video-corso .categorie-lezioni li.first {
   padding-left: 0;
 }
 /* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.video-corso .tipologie-lezioni li:last-child {
+.video-corso .categorie-lezioni li:last-child {
   padding-right: 0;
 }
 /* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.video-corso .tipologie-lezioni li.last {
+.video-corso .categorie-lezioni li.last {
   padding-right: 0;
 }
 /* line 42, ../sass/partials/_box-video-corso.scss */
-.video-corso .tipologie-lezioni li .icon {
+.video-corso .categorie-lezioni li .icon {
   position: relative;
   float: left;
   font-size: 25px;
 }
 /* line 47, ../sass/partials/_box-video-corso.scss */
-.video-corso .tipologie-lezioni li span {
+.video-corso .categorie-lezioni li span {
   position: relative;
   float: left;
   margin-top: 10px;
@@ -6640,7 +6640,7 @@ h4.titoli_sezioni {
   margin-right: 5px;
 }
 /* line 55, ../sass/partials/_box-video-corso.scss */
-.video-corso .tipologie-lezioni li:last-child {
+.video-corso .categorie-lezioni li:last-child {
   margin-right: 0px;
 }
 /* line 60, ../sass/partials/_box-video-corso.scss */
