@@ -7408,6 +7408,13 @@ h4.titoli_sezioni {
   height: 209px;
 }
 
+/* line 84, ../sass/partials/_textarea-commenti.scss */
+.manu {
+  background: red;
+  width: 20px;
+  height: 20px;
+}
+
 /* line 1, ../sass/partials/_filtra.scss */
 #filtra {
   position: relative;
