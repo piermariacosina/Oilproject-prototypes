@@ -40,7 +40,10 @@
 				height: auto;
 				margin: 0;
 				list-style-type: none;
-				
+				@include grid(5);
+				@include alpha;
+				@include omega;
+			
 				  li{
 				  	height: auto;
 				  	background: none;
@@ -56,22 +59,16 @@
 				  		text-decoration: none;
 				  		color: $azzurro-title;
 				  		cursor: pointer;
-				  		span{
-				  			width: image-width("grid-sottocategorie.png");
-				  			height: image-height("grid-sottocategorie.png");
-				  			background: image-url("grid-sottocategorie.png");
-				  			display: inline-block;
-				  			margin-right: 4px;
-				  		}
+				  		
+				  		width: 200px;
+				  		background: image-url("grid-sottocategorie.png") no-repeat left center;
+				  		display: block;
+				  		padding-left: image-width("grid-sottocategorie.png") + 5px;
+				  		
 				  		}
 				  	a:hover, a:visited{
 				  		color: $dark-green;
-				  		span{
-				  			width: image-width("grid-sottocategorie-dark.png");
-				  			height: image-height("grid-sottocategorie-dark.png");
-				  			background: image-url("grid-sottocategorie-dark.png");
-				  			display: inline-block;
-				  		}
+				  		background: image-url("grid-sottocategorie-dark.png") no-repeat left center;
 				  		 
 				  		}
 				  	
