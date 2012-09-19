@@ -7775,7 +7775,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   margin-right: 10px;
   width: 580px;
 }
-/* line 18, ../sass/partials/_edit-descrizione.scss */
+/* line 19, ../sass/partials/_edit-descrizione.scss */
 .edit-descrizione fieldset label {
   display: block;
   margin: 30px 0 5px 0;
@@ -7783,8 +7783,8 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   text-transform: uppercase;
   color: #7ac3b8;
 }
-/* line 26, ../sass/partials/_edit-descrizione.scss */
-.edit-descrizione fieldset input.form-text-2 {
+/* line 29, ../sass/partials/_edit-descrizione.scss */
+.edit-descrizione fieldset #edit-descrizione2 {
   display: block;
   display: inline;
   float: left;
@@ -7805,5 +7805,83 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   -o-border-radius: 4px;
   border-radius: 4px;
   text-shadow: 0px 2px 1px white;
+  margin-left: 0;
+}
+
+/* line 1, ../sass/partials/_select-categoria.scss */
+.edit-scegli-categoria {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #c9f7f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+/* line 9, ../sass/partials/_select-categoria.scss */
+.edit-scegli-categoria fieldset {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  position: relative;
+  overflow: hidden;
+  *zoom: 1;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+}
+/* line 18, ../sass/partials/_select-categoria.scss */
+.edit-scegli-categoria fieldset label {
+  display: block;
+  margin: 30px 0 5px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7ac3b8;
+}
+/* line 29, ../sass/partials/_select-categoria.scss */
+.edit-scegli-categoria select {
+  border: 1px solid #65C1B0;
+  font-size: 18px;
+  font-family: 'Droid Sans';
+  color: #2f6f5e;
+  background: url('../images/freccia-select.png?1347977572') no-repeat right, url('../images/ombra-select.png?1347977572') repeat-x right, #7ddbd2;
+  -webkit-appearance: none;
+}
+/* line 42, ../sass/partials/_select-categoria.scss */
+.edit-scegli-categoria select.standard {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 160px;
+  height: 40px;
+  width: 286px;
+  margin-left: 0;
+  display: inline-block;
+}
+/* line 50, ../sass/partials/_select-categoria.scss */
+.edit-scegli-categoria select.last {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 160px;
+  height: 40px;
+  margin-left: 0;
+  display: inline-block;
+}
+/* line 59, ../sass/partials/_select-categoria.scss */
+.edit-scegli-categoria label.horizontal {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 160px;
   margin-left: 0;
 }

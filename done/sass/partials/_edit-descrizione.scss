@@ -14,16 +14,19 @@
 			position: relative;
 			@include clearfix;
 			@include grid (10);
-		
-		label {
 			
-			display: block;
-			margin: 30px 0 5px 0;
-			font-weight: bold;
-			text-transform: uppercase;
-			color: #7ac3b8;
-		}
-		input.form-text-2 {
+			
+			label {
+				
+				display: block;
+				margin: 30px 0 5px 0;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: #7ac3b8;
+			}
+			
+		
+		#edit-descrizione2 {
 			display: block;
 			@include grid (9);
 			height:200px;
