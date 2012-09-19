@@ -7599,3 +7599,103 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   position: relative;
   float: left;
 }
+
+/* line 1, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo {
+  background-color: #f7fcfb;
+  border: 1px solid #daede9;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+  height: auto;
+  margin: 17px 0 0 0;
+}
+/* line 10, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo h4 {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9px;
+  text-transform: uppercase;
+  color: #49ada8;
+  padding: 12px;
+}
+/* line 20, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul {
+  list-style: none;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-left: 0;
+}
+/* line 25, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li {
+  margin: 0 3px 1px 3px;
+}
+/* line 28, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a {
+  text-decoration: none;
+}
+/* line 34, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a:hover .box-sidebar .icon {
+  color: #057c79;
+}
+/* line 37, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a:hover .box-sidebar .posted-by {
+  color: #084936;
+}
+/* line 43, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a:visited .box-sidebar {
+  background-color: #43d1b4;
+}
+/* line 45, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a:visited .box-sidebar .icon {
+  color: white;
+}
+/* line 48, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a:visited .box-sidebar .posted-by {
+  color: white;
+}
+/* line 54, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a .box-sidebar {
+  font-family: 'Droid Sans';
+  padding-left: 48px;
+  background-color: #00ffb0;
+}
+/* line 58, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a .box-sidebar .icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin-left: -35px;
+  margin-top: 20px;
+  float: left;
+  font-size: 24px;
+  color: white;
+}
+/* line 68, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a .box-sidebar h2 {
+  width: 200px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #084936;
+  padding: 12px 0 0 0;
+  margin: 0;
+}
+/* line 77, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a .box-sidebar .posted-by {
+  width: 200px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 13px;
+  color: #057c79;
+  padding: 2px 0 12px 0;
+  margin: 0;
+}
