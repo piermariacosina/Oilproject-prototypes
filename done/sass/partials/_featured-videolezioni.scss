@@ -15,13 +15,15 @@
 	}
 	.box-video-spacer{
 		width: 935px;
-		height: auto;
+		
 		@include clearfix;
-		margin: 0 0 10px 4px;
+		margin: 0 0 20px 4px;
+		padding-bottom: 20px;
 		list-style-type: none;
 		
 		li{
 			margin-left: 0px;
+			
 		}
 		a{
 			text-decoration: none;
@@ -33,6 +35,7 @@
 				padding: 8px;
 				float: left;
 				margin-right: 1px;
+				
 				.img-video{
 					width: 171px;
 					height: 100px;
