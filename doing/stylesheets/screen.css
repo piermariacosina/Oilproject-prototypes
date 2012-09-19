@@ -2319,7 +2319,7 @@ form input[type="submit"] {
   color: #057c79;
   margin-top: -23px;
 }
-/* line 17, ../sass/partials/_categoria-corso.scss */
+/* line 16, ../sass/partials/_categoria-corso.scss */
 #categoria-corso form fieldset label {
   display: block;
   font-weight: bold;
@@ -2327,7 +2327,7 @@ form input[type="submit"] {
   margin-left: -10px;
   float: left;
 }
-/* line 25, ../sass/partials/_categoria-corso.scss */
+/* line 24, ../sass/partials/_categoria-corso.scss */
 #categoria-corso form fieldset input.form-text {
   margin-top: 30px;
   margin-left: 76px;
@@ -2345,7 +2345,7 @@ form input[type="submit"] {
   border-radius: 5px;
   float: left;
 }
-/* line 43, ../sass/partials/_categoria-corso.scss */
+/* line 42, ../sass/partials/_categoria-corso.scss */
 #categoria-corso .sottolineato {
   background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
   width: 56px;
@@ -2353,7 +2353,7 @@ form input[type="submit"] {
   margin-left: 3px;
 }
 
-/* line 55, ../sass/partials/_categoria-corso.scss */
+/* line 54, ../sass/partials/_categoria-corso.scss */
 #descrizione form fieldset2 {
   font-family: 'Droid Sans';
   font-size: 18px;
@@ -2361,7 +2361,7 @@ form input[type="submit"] {
   text-transform: uppercase;
   color: #057c79;
 }
-/* line 64, ../sass/partials/_categoria-corso.scss */
+/* line 63, ../sass/partials/_categoria-corso.scss */
 #descrizione form fieldset2 label {
   display: block;
   font-weight: bold;
@@ -2369,14 +2369,14 @@ form input[type="submit"] {
   float: left;
   margin-left: 20px;
 }
-/* line 72, ../sass/partials/_categoria-corso.scss */
+/* line 71, ../sass/partials/_categoria-corso.scss */
 #descrizione .sottolineato {
   background: url('../images/sottolineato-form.png?1347643504') no-repeat left top;
   width: 108px;
   height: 6px;
   margin-left: 3px;
 }
-/* line 81, ../sass/partials/_categoria-corso.scss */
+/* line 80, ../sass/partials/_categoria-corso.scss */
 #descrizione form fieldset2 textarea {
   display: block;
   width: 400px;
@@ -2394,7 +2394,7 @@ form input[type="submit"] {
   float: left;
   margin-left: 24px;
 }
-/* line 99, ../sass/partials/_categoria-corso.scss */
+/* line 98, ../sass/partials/_categoria-corso.scss */
 #descrizione form fieldset2 textarea {
   height: 200px;
 }
