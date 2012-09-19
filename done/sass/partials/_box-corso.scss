@@ -71,9 +71,10 @@
  	 									border-left: 1px solid $white;
  	 									border-right: 1px solid $white;
  	 									border-top: 1px solid $white;
- 	 									.icona-likes{
- 	 									    background: $white;
- 	 									    padding: 3px 5px;
+ 	 									i{
+ 	 									    color: $dark-green;
+ 	 									    margin: 3px 5px;
+ 	 									    font-size: 16px;
  	 									}
  	 								}
  	 								
@@ -97,9 +98,10 @@
  	 									border-right: 1px solid $white;
  	 									border-top: 1px solid $white;
  	 									
- 	 									.icona-dislikes{
- 	 									    background: $white;
- 	 									    padding: 3px 5px;
+ 	 									i{
+ 	 										color: $dark-green;
+ 	 										margin: 3px 5px;
+ 	 										font-size: 16px;
  	 									}
  	 								}
  	 								
