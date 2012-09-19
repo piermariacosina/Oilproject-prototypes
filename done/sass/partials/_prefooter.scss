@@ -9,7 +9,7 @@
 	.categoria-container{
 		float: left;
 		margin: 0 10px 0 0;		
-		.categoria{
+		.categoria-title{
 				width: 108px;
 				height: 31px;
 				background: image-url("diagonal-white-bg.png") repeat left top;
@@ -18,14 +18,12 @@
 				
 			.icon{
 
-				float: left;
-
+				@include float-left;
+				display: block;
 				color: $green-title;
-
+				padding: 0 5px;
 				font-size: 22px;
-//				margin: 0 4px 0 4px;
-                margin-left: 40px ;
-                margin-top: -20px;
+       
 				}
 		h1{
 			font-family: 'Droid Sans';
