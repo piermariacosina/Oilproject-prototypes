@@ -2592,46 +2592,47 @@ ul.commenti-recenti li .text p.data_commento span {
   position: relative;
   float: left;
   margin-top: 5px;
+  margin-left: 8px;
 }
-/* line 132, ../sass/partials/_container-corsi.scss */
+/* line 133, ../sass/partials/_container-corsi.scss */
 .container-corsi li a:hover .box-corso, .container-corsi li a:visited .box-corso {
   background: url('../images/corsi-bg-hover.png?1347628549') no-repeat left top;
 }
-/* line 141, ../sass/partials/_container-corsi.scss */
+/* line 142, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso {
   background: url('../images/corsi-bg-linguetta.png?1347628549') no-repeat left top;
   position: relative;
   width: 330px;
 }
-/* line 145, ../sass/partials/_container-corsi.scss */
+/* line 146, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso h2 {
   padding-left: 38px;
 }
-/* line 148, ../sass/partials/_container-corsi.scss */
+/* line 149, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso h1 {
   padding-left: 38px;
 }
-/* line 151, ../sass/partials/_container-corsi.scss */
+/* line 152, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso .posted-by {
   padding-left: 38px;
 }
-/* line 154, ../sass/partials/_container-corsi.scss */
+/* line 155, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso .cover-corso {
   padding-left: 38px;
 }
-/* line 157, ../sass/partials/_container-corsi.scss */
+/* line 158, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso p {
   padding-left: 38px;
 }
-/* line 160, ../sass/partials/_container-corsi.scss */
+/* line 161, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso .categorie-lezioni {
   padding-left: 20px;
 }
-/* line 167, ../sass/partials/_container-corsi.scss */
+/* line 168, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a:hover .box-corso, .container-corsi li:first-child a:visited .box-corso {
   background: url('../images/corsi-bg-linguetta-hover.png?1347628549') no-repeat left top;
 }
-/* line 173, ../sass/partials/_container-corsi.scss */
+/* line 174, ../sass/partials/_container-corsi.scss */
 .container-corsi li:last-child {
   margin: 0;
 }
@@ -3364,8 +3365,9 @@ ul.commenti-recenti li .text p.data_commento span {
 .corsi-creati .box-corso .tipologie-lezioni li span {
   position: relative;
   float: left;
+  margin-left: 8px;
 }
-/* line 102, ../sass/partials/_corsi-creati.scss */
+/* line 103, ../sass/partials/_corsi-creati.scss */
 .corsi-creati .box-corso .tipologie-lezioni li:last-child {
   margin-right: 0px;
 }
