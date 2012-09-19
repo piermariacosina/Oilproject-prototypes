@@ -103,7 +103,8 @@
 					text-transform: capitalize;
 					margin-left:3px;
 					margin-right:3px;
-					font-weight: 400;              
+					font-weight: 400; 
+					@include float-left;             
 					}
 			}
 				
