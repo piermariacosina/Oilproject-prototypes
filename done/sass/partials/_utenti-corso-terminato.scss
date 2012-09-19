@@ -6,6 +6,7 @@
 	@include alpha;
 	height: auto;
 	margin: 17px 0 0 0;
+	
 
 	h4{
 		font-family: 'Droid Sans';
@@ -17,18 +18,21 @@
 		padding: 12px; 
 		}
 
-	ul{
+	ul{ 
+	
 		list-style: none;
 		
 		@include alpha;
 		@include horizontal-list-container;
 		background-color: $light-green;
 		padding: 20px 5px;
-		li{
+				li{
 			a:hover{
 				img{
 					@include single-box-shadow;
+					
 				}
+				
 			}
 			@include horizontal-list-item;
 			padding: 2px !important;

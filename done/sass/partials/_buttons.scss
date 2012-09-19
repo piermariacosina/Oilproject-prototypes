@@ -106,10 +106,44 @@ a.btn.dark{
 	}
 }         
 
+a.btn.grey{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	@include border-radius(30px);
+	@include alpha;
+	display: inline-block;
+	text-decoration: none;
+	color:$light-green;
+	font-family: 'Droid Sans';
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: lowercase;
+	background-color: $white;
+	cursor: pointer;
+	line-height: 20px;
+	margin-left: 450px;
+	&:hover{
+		background: $calm-green;
+		color: $extra-dark-green;
+	}
+	&:visited{
+		background: $calm-green;
+		color: $light-green;
+	}
+}         
+
+
 
 div.buttons{
 	@include grid(10);
 	padding-left: 10px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-}                       
+}   
+
+                    
