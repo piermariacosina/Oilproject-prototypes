@@ -7282,10 +7282,11 @@ h4.titoli_sezioni {
   background: #00ffb0;
   font-family: Arial;
   border-radius: 30px;
-  margin-top: 90px;
+  margin-top: 140px;
+  margin-left: -40px;
 }
 
-/* line 211, ../sass/partials/_lezioni-corso.scss */
+/* line 212, ../sass/partials/_lezioni-corso.scss */
 .plus {
   color: #084936;
   font-size: 33px;
@@ -7295,7 +7296,7 @@ h4.titoli_sezioni {
   cursor: pointer;
 }
 
-/* line 221, ../sass/partials/_lezioni-corso.scss */
+/* line 222, ../sass/partials/_lezioni-corso.scss */
 .plus:active {
   color: white;
 }
