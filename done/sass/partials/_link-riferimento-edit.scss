@@ -1,9 +1,7 @@
 .edit-link-riferimento{
 	@include grid (10);
 	@include clearfix;		
-	background-color: $soft-blue;
-	padding-top:20px;
-	padding-bottom: 20px;
+	
 	@include grid-prefix(1);
 	@include grid-suffix(1);
 	fieldset {

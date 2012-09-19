@@ -4532,11 +4532,7 @@ header#main section#dashboard-loggedin .logout p {
   height: 18px;
   left: -18px;
   position: absolute;
-<<<<<<< HEAD
-  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
-=======
-  background: url('../images/corner-left-fluo.png?1347966794') no-repeat top left;
->>>>>>> modifiche parte edit
+  background: url('../images/corner-fluo-left-stripes.png?1347966794') no-repeat top left;
 }
 /* line 15, ../sass/partials/_lesson.scss */
 #lesson .infor {
@@ -7866,7 +7862,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
+  background: url('../images/freccia-select.png?1347977572') no-repeat right, url('../images/ombra-select.png?1347977572') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 42, ../sass/partials/_select-categoria.scss */
@@ -7911,13 +7907,10 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   width: 580px;
   overflow: hidden;
   *zoom: 1;
-  background-color: #c9f7f5;
-  padding-top: 20px;
-  padding-bottom: 20px;
   padding-left: 60px;
   padding-right: 60px;
 }
-/* line 9, ../sass/partials/_link-riferimento-edit.scss */
+/* line 7, ../sass/partials/_link-riferimento-edit.scss */
 .edit-link-riferimento fieldset {
   font-family: 'Droid Sans';
   font-size: 13px;
@@ -7930,7 +7923,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   margin-right: 10px;
   width: 580px;
 }
-/* line 18, ../sass/partials/_link-riferimento-edit.scss */
+/* line 16, ../sass/partials/_link-riferimento-edit.scss */
 .edit-link-riferimento fieldset label {
   display: block;
   margin: 30px 0 5px 0;
@@ -7938,7 +7931,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   text-transform: uppercase;
   color: #7ac3b8;
 }
-/* line 26, ../sass/partials/_link-riferimento-edit.scss */
+/* line 24, ../sass/partials/_link-riferimento-edit.scss */
 .edit-link-riferimento fieldset input.form-text {
   display: block;
   display: inline;
@@ -7963,7 +7956,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   text-shadow: 0px 2px 1px white;
   margin-left: 0;
 }
-/* line 50, ../sass/partials/_link-riferimento-edit.scss */
+/* line 48, ../sass/partials/_link-riferimento-edit.scss */
 .edit-link-riferimento select {
   border: 1px solid #65C1B0;
   font-size: 18px;
@@ -7972,7 +7965,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   background: url('../images/freccia-select.png?1347977572') no-repeat right, url('../images/ombra-select.png?1347977572') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
-/* line 63, ../sass/partials/_link-riferimento-edit.scss */
+/* line 61, ../sass/partials/_link-riferimento-edit.scss */
 .edit-link-riferimento select.standard {
   display: inline;
   float: left;
@@ -7983,7 +7976,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   margin-left: 0;
   display: inline-block;
 }
-/* line 70, ../sass/partials/_link-riferimento-edit.scss */
+/* line 68, ../sass/partials/_link-riferimento-edit.scss */
 .edit-link-riferimento select.last {
   display: inline;
   float: left;
@@ -7994,7 +7987,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   margin-left: 0;
   display: inline-block;
 }
-/* line 79, ../sass/partials/_link-riferimento-edit.scss */
+/* line 77, ../sass/partials/_link-riferimento-edit.scss */
 .edit-link-riferimento label.horizontal {
   display: inline;
   float: left;
