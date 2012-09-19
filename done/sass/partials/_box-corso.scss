@@ -13,6 +13,110 @@
 	 	@include link-over-fluo;
  	}
  	
+ 	#extras{
+ 		margin-left: 400px;
+ 		margin-top: -90px;
+ 		position: absolute;
+ 		
+ 		
+ 		#likes{
+ 		float: left;
+ 		}
+ 		
+ 		#dislikes{
+ 		  float: left;
+ 		}
+ 		#view{
+ 		  float: left;
+ 		}
+ 		
+ 	}
+ 	
+ 		.box-number-views{
+ 	 									float: left;
+ 	 									margin-bottom: 12px;
+ 	 									border-bottom: 1px solid $darkest-blue;
+ 	 									border-left: 1px solid $dark-blue;
+ 	 									border-right: 1px solid $dark-blue;
+ 	 									border-top: 1px solid $dark-blue;
+ 	 									
+ 	 									.number-views{
+ 	 										font-weight: normal;
+ 	 										font-size: 10px;
+ 	 										line-height: 10px;
+ 	 										color: $dark-green;
+ 	 										background: $light-fluo-green;
+ 	 										border-bottom: 1px solid $lightest-water-green;
+ 	 										border-left: 1px solid $lighter-water-green;
+ 	 										border-top: 1px solid $lighter-water-green;
+ 	 										border-right: 1px solid $lighter-water-green;
+ 	 										padding: 2px;
+ 	 									}
+ 	 								}
+ 	 								.views{
+ 	 									font-weight: normal;
+ 	 									font-size: 10px;
+ 	 									line-height: 10px;
+ 	 									color:$dark-green;
+ 	 									float: left;
+ 	 									margin-left: 3px;
+ 	 									margin-top: 4px;
+ 	 									margin-right: 15px;
+ 	 								}
+ 	 								
+ 	 								.box-likes{
+ 	 									float: left;
+ 	 									margin-bottom: 12px;
+ 	 									border-bottom: 1px solid $white;
+ 	 									border-left: 1px solid $white;
+ 	 									border-right: 1px solid $white;
+ 	 									border-top: 1px solid $white;
+ 	 									.icona-likes{
+ 	 									    background: $white;
+ 	 									    padding: 3px 5px;
+ 	 									}
+ 	 								}
+ 	 								
+ 	 								.number-likes{
+ 	 									font-weight: normal;
+ 	 									font-size: 10px;
+ 	 									line-height: 10px;
+ 	 									color: $dark-green;
+ 	 									float: left;
+ 	 									margin-left: 3px;
+ 	 									margin-top: 4px;
+ 	 									margin-right: 15px;
+ 	 								}
+ 	 								
+ 	 								
+ 	 								.box-dislikes{
+ 	 									float: left;
+ 	 									margin-bottom: 12px;
+ 	 									border-bottom: 1px solid $white;
+ 	 									border-left: 1px solid $white;
+ 	 									border-right: 1px solid $white;
+ 	 									border-top: 1px solid $white;
+ 	 									
+ 	 									.icona-dislikes{
+ 	 									    background: $white;
+ 	 									    padding: 3px 5px;
+ 	 									}
+ 	 								}
+ 	 								
+ 	 								.number-dislikes{
+ 	 									font-weight: normal;
+ 	 									font-size: 10px;
+ 	 									line-height: 10px;
+ 	 									color: $dark-green;
+ 	 									float: left;
+ 	 									margin-left: 3px;
+ 	 									margin-top: 4px;
+ 	 									margin-right: 15px;
+ 	 								}
+ 	 						
+ 	
+ 	
+ 	
  	
  	.tipologie-lezioni{
  		@include horizontal-list-container;
