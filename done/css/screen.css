@@ -7199,3 +7199,75 @@ h4.titoli_sezioni {
 #textarea-commenti form fieldset textarea {
   height: 209px;
 }
+
+/* line 1, ../sass/partials/_filtra.scss */
+#filtra {
+  position: relative;
+  clear: both;
+}
+/* line 4, ../sass/partials/_filtra.scss */
+#filtra h1 {
+  font-family: 'Droid Sans';
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #057c79;
+  padding: 0 0 40px 0;
+  margin-top: 10px;
+  display: inline;
+  float: left;
+}
+/* line 15, ../sass/partials/_filtra.scss */
+#filtra div.filtra {
+  display: inline;
+  float: left;
+}
+/* line 20, ../sass/partials/_filtra.scss */
+#filtra input[type="checkbox"] {
+  margin-left: 25px;
+  display: inline-block;
+}
+/* line 24, ../sass/partials/_filtra.scss */
+#filtra label {
+  display: inline-block;
+  color: #49ada8;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+/* line 35, ../sass/partials/_filtra.scss */
+#ordina {
+  padding-top: 5px;
+  clear: both;
+}
+/* line 39, ../sass/partials/_filtra.scss */
+#ordina h1 {
+  font-family: 'Droid Sans';
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #057c79;
+  padding: 0 0 40px 0;
+  display: inline;
+  float: left;
+}
+/* line 49, ../sass/partials/_filtra.scss */
+#ordina div.filtra {
+  display: inline;
+  float: left;
+  padding-left: 8px;
+}
+/* line 56, ../sass/partials/_filtra.scss */
+#ordina input[type="checkbox"] {
+  display: inline-block;
+  margin-left: 20px;
+}
+/* line 61, ../sass/partials/_filtra.scss */
+#ordina label {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: bold;
+  color: #49ada8;
+  line-height: 14px;
+  display: inline-block;
+}
