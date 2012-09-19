@@ -10,7 +10,7 @@
 		@include link-over-fluo;
 	}
 	.corner{
-		@include fluo-corner;
+		@include stripe-fluo-corner;
 	}
 	.infor{
 		@include grid(5);

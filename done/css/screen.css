@@ -4532,7 +4532,7 @@ header#main section#dashboard-loggedin .logout p {
   height: 18px;
   left: -18px;
   position: absolute;
-  background: url('../images/corner-left-fluo.png?1347965691') no-repeat top left;
+  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
 }
 /* line 15, ../sass/partials/_lesson.scss */
 #lesson .infor {
