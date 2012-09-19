@@ -3180,9 +3180,14 @@ ul.commenti-recenti li .text p.data_commento span {
 /* line 128, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-likes .icona-likes {
   background: white;
-  padding: 3px 5px;
+  padding: 0px 5px;
 }
-/* line 134, ../sass/partials/_contenuto-singolo.scss */
+/* line 131, ../sass/partials/_contenuto-singolo.scss */
+.lezione .box-likes .icona-likes i {
+  font-size: 16px;
+  color: #49ada8;
+}
+/* line 138, ../sass/partials/_contenuto-singolo.scss */
 .lezione .number-likes {
   font-weight: normal;
   font-size: 10px;
@@ -3193,7 +3198,7 @@ ul.commenti-recenti li .text p.data_commento span {
   margin-top: 4px;
   margin-right: 15px;
 }
-/* line 146, ../sass/partials/_contenuto-singolo.scss */
+/* line 150, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-dislikes {
   float: left;
   margin-bottom: 12px;
@@ -3202,12 +3207,17 @@ ul.commenti-recenti li .text p.data_commento span {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 154, ../sass/partials/_contenuto-singolo.scss */
+/* line 158, ../sass/partials/_contenuto-singolo.scss */
 .lezione .box-dislikes .icona-dislikes {
   background: white;
-  padding: 3px 5px;
+  padding: 0px 5px;
 }
-/* line 160, ../sass/partials/_contenuto-singolo.scss */
+/* line 161, ../sass/partials/_contenuto-singolo.scss */
+.lezione .box-dislikes .icona-dislikes i {
+  font-size: 16px;
+  color: #49ada8;
+}
+/* line 168, ../sass/partials/_contenuto-singolo.scss */
 .lezione .number-dislikes {
   font-weight: normal;
   font-size: 10px;
@@ -3219,7 +3229,7 @@ ul.commenti-recenti li .text p.data_commento span {
   margin-right: 15px;
 }
 
-/* line 173, ../sass/partials/_contenuto-singolo.scss */
+/* line 181, ../sass/partials/_contenuto-singolo.scss */
 #extras {
   margin-left: 400px;
   margin-top: -90px;
@@ -5089,11 +5099,16 @@ header#main section#dashboard-loggedin .logout p {
 
 /* line 247, ../sass/partials/_profilo-mio-utente.scss */
 .icona-likes {
-  background: white;
+  background-color: white;
   padding: 2px 5px 2px 5px;
 }
+/* line 248, ../sass/partials/_profilo-mio-utente.scss */
+.icona-likes i {
+  font-size: 13px;
+  color: #49ada8;
+}
 
-/* line 251, ../sass/partials/_profilo-mio-utente.scss */
+/* line 255, ../sass/partials/_profilo-mio-utente.scss */
 .number-like2 {
   font-weight: normal;
   font-size: 12px;
@@ -5104,7 +5119,7 @@ header#main section#dashboard-loggedin .logout p {
   margin-top: 4px;
 }
 
-/* line 263, ../sass/partials/_profilo-mio-utente.scss */
+/* line 267, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-dislikes {
   margin-top: 14px;
   background: url('../images/background-likes.png?1347643269') no-repeat left top;
@@ -5114,7 +5129,7 @@ header#main section#dashboard-loggedin .logout p {
   margin-left: 264px;
 }
 
-/* line 273, ../sass/partials/_profilo-mio-utente.scss */
+/* line 277, ../sass/partials/_profilo-mio-utente.scss */
 .dislikes {
   float: left;
   margin-bottom: 12px;
@@ -5122,7 +5137,7 @@ header#main section#dashboard-loggedin .logout p {
   margin-top: 4px;
 }
 
-/* line 281, ../sass/partials/_profilo-mio-utente.scss */
+/* line 285, ../sass/partials/_profilo-mio-utente.scss */
 .number-dislike2 {
   font-weight: normal;
   font-size: 12px;
@@ -5133,13 +5148,18 @@ header#main section#dashboard-loggedin .logout p {
   margin-top: 4px;
 }
 
-/* line 292, ../sass/partials/_profilo-mio-utente.scss */
+/* line 296, ../sass/partials/_profilo-mio-utente.scss */
 .icona-dislikes {
   background-color: white;
   padding: 2px 5px 2px 5px;
 }
-
 /* line 299, ../sass/partials/_profilo-mio-utente.scss */
+.icona-dislikes i {
+  font-size: 13px;
+  color: #49ada8;
+}
+
+/* line 307, ../sass/partials/_profilo-mio-utente.scss */
 .divisore-profilo {
   background: url('../images/divisore-profilo.png?1347643269') no-repeat left top;
   width: 600px;

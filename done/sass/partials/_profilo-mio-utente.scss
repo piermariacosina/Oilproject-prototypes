@@ -245,7 +245,11 @@
 		margin-top: 4px;
 	}
 	.icona-likes{
-		background: $white;
+		i{
+			font-size: 13px;
+			color:$azzurro-title;
+		}
+		background-color: $white;
 		padding: 2px 5px 2px 5px;
 	}
 	.number-like2{
@@ -292,6 +296,10 @@
 	.icona-dislikes{
 		background-color: $white;
 		padding: 2px 5px 2px 5px;
+		i{
+			font-size: 13px;
+			color:$azzurro-title;
+		}
 	}
 	
 
