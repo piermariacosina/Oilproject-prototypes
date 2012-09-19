@@ -4,7 +4,7 @@
 	a{
 		@include link-over-fluo;
 	}
-	.video{
+	.video_player{
 	  @include grid(10);
 		display: block;
 	  @include omega;

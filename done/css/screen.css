@@ -3396,7 +3396,7 @@ ul.commenti-recenti li .text p.data_commento span {
   color: #43d1b4;
 }
 /* line 7, ../sass/partials/_featured-corso.scss */
-.featured-corso .video {
+.featured-corso .video_player {
   display: inline;
   float: left;
   margin-left: 10px;
