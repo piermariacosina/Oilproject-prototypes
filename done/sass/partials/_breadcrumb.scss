@@ -11,29 +11,33 @@ a{
 	float: left;
 	
 	 .bread-intro{
-	   color:$azzurro-title;
+	   color: $azzurro-title;
 	   font-family: 'Droid Sans';
 	   font-size: 10px;
 	   line-height: 10px;
 	   margin-top: 5px;
 	   margin-left: 14px;
-	   float: left;
+	    	@include float-left;
 	   
-	   img{
-	   float: left;
+	   i{
+	   
 	   margin-right: 3px;
-	   
+	   font-size: 24px;
+	   margin-top: 5px;
+	    	@include float-left;
+	   }
+	   span{
+	   	font-weight: bold;
+	   	text-transform: uppercase;
+	   	position: relative;
+	   	@include float-left;
+	   	
 	   }
 	   
 	   
-	   	 }
+	 }
 	   	 
-	   	 span{
-	   	 	font-weight: bold;
-	   	 	text-transform: uppercase;
-	   	 	position: relative;
-	   	 	float: left;
-	   	 }
+	   	
 	   	 
 }
 
@@ -137,6 +141,13 @@ a{
 	position: absolute;
 	margin-left: 72px;
 	
+	i{
+		 color: $azzurro-title;
+		 font-size: 20px;
+		 line-height: 18px;
+		 
+	}
+	
 	
 	   .likes-bread{
 	   	float: left;
@@ -172,6 +183,13 @@ a{
 	width: 67px;
 	height: 32px;
 	position: absolute;
+	
+	i{
+		 color: $azzurro-title;
+		 font-size: 20px;
+		 line-height: 18px;
+		 
+	}
 	
 	   .dislikes-bread{
 	   	float: left;
@@ -211,6 +229,13 @@ a{
    	  	margin-left: 5px;
    	  	float: left;
    	  	margin-top: 2px;
+   	  }
+   	  
+   	  i{
+   	  	
+   	  	 font-size: 22px;
+   	  	 line-height: 18px;
+   	  	 margin-left: -2px;
    	  }
    	   
    	   .ok{

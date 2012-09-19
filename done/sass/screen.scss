@@ -117,7 +117,7 @@ div.corner{
 i.audio{
 	@extend [class^="icon-"]:before;
 	@extend [class*=" icon-"]:before;
-	@extend .icon-headphones;
+	@extend .audio;
 }
 
 i.video{
@@ -129,7 +129,7 @@ i.video{
 i.note{
 	@extend [class^="icon-"]:before;
 	@extend [class*=" icon-"]:before;
-	@extend .icon-file;
+	@extend .note;
 }
 
 i.corso{
@@ -140,12 +140,12 @@ i.corso{
 i.quiz{
 	@extend [class^="icon-"]:before;
 	@extend [class*=" icon-"]:before;
-	@extend .icon-pencil;
+	@extend .quiz;
 }
 i.collegamento{
 	@extend [class^="icon-"]:before;
 	@extend [class*=" icon-"]:before;
-	@extend .icon-link;
+	@extend .collegamento;
 }
 
 

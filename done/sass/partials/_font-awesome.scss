@@ -123,7 +123,7 @@ ul.icons {
 .icon-cog:before                  { content: "\f013"; }
 .icon-trash:before                { content: "\f014"; }
 .icon-home:before                 { content: "\f015"; }
-.icon-file:before                 { content: "\f016"; }
+.note:before                 { content: "\f016"; }
 .icon-time:before                 { content: "\f017"; }
 .icon-road:before                 { content: "\f018"; }
 .icon-download-alt:before         { content: "\f019"; }
@@ -138,7 +138,7 @@ ul.icons {
 .icon-list-alt:before             { content: "\f022"; }
 .icon-lock:before                 { content: "\f023"; }
 .icon-flag:before                 { content: "\f024"; }
-.icon-headphones:before           { content: "\f025"; }
+.audio:before           { content: "\f025"; }
 .icon-volume-off:before           { content: "\f026"; }
 .icon-volume-down:before          { content: "\f027"; }
 .icon-volume-up:before            { content: "\f028"; }
@@ -163,10 +163,10 @@ ul.icons {
 .icon-list:before                 { content: "\f03a"; }
 .icon-indent-left:before          { content: "\f03b"; }
 .icon-indent-right:before         { content: "\f03c"; }
-.icon-facetime-video:before       { content: "\f03d"; }
+.video:before       { content: "\f03d"; }
 .icon-picture:before              { content: "\f03e"; }
 
-.icon-pencil:before               { content: "\f040"; }
+.quiz:before               { content: "\f040"; }
 .icon-map-marker:before           { content: "\f041"; }
 .icon-adjust:before               { content: "\f042"; }
 .icon-tint:before                 { content: "\f043"; }
@@ -242,7 +242,7 @@ ul.icons {
 .icon-star-half:before            { content: "\f089"; }
 .icon-heart-empty:before          { content: "\f08a"; }
 .icon-signout:before              { content: "\f08b"; }
-.icon-linkedin-sign:before        { content: "\f08c"; }
+.collegamentoedin-sign:before        { content: "\f08c"; }
 .icon-pushpin:before              { content: "\f08d"; }
 .icon-external-link:before        { content: "\f08e"; }
 
@@ -283,7 +283,7 @@ ul.icons {
 .icon-fullscreen:before           { content: "\f0b2"; }
 
 .icon-group:before                { content: "\f0c0"; }
-.icon-link:before                 { content: "\f0c1"; }
+.collegamento:before                 { content: "\f0c1"; }
 .icon-cloud:before                { content: "\f0c2"; }
 .icon-beaker:before               { content: "\f0c3"; }
 .icon-cut:before                  { content: "\f0c4"; }
@@ -315,7 +315,7 @@ ul.icons {
 .icon-sort-up:before              { content: "\f0de"; }
 
 .icon-envelope-alt:before         { content: "\f0e0"; }
-.icon-linkedin:before             { content: "\f0e1"; }
+.collegamentoedin:before             { content: "\f0e1"; }
 .icon-undo:before                 { content: "\f0e2"; }
 .icon-legal:before                { content: "\f0e3"; }
 .icon-dashboard:before            { content: "\f0e4"; }

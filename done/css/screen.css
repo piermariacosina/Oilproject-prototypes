@@ -144,17 +144,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 4, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 8, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -163,52 +163,52 @@ hr {
   height: 0;
 }
 
-/* line 14, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 16, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 18, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 p,
 dl,
 hr,
@@ -437,7 +437,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 126, ../sass/partials/_font-awesome.scss */
-.icon-file:before, i.note:before {
+.note:before, i.note:before {
   content: "\f016";
 }
 
@@ -503,7 +503,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 141, ../sass/partials/_font-awesome.scss */
-.icon-headphones:before, i.audio:before {
+.audio:before, i.audio:before {
   content: "\f025";
 }
 
@@ -623,7 +623,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 166, ../sass/partials/_font-awesome.scss */
-.icon-facetime-video:before {
+.video:before {
   content: "\f03d";
 }
 
@@ -633,7 +633,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 169, ../sass/partials/_font-awesome.scss */
-.icon-pencil:before, i.quiz:before {
+.quiz:before, i.quiz:before {
   content: "\f040";
 }
 
@@ -993,7 +993,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 245, ../sass/partials/_font-awesome.scss */
-.icon-linkedin-sign:before {
+.collegamentoedin-sign:before {
   content: "\f08c";
 }
 
@@ -1178,7 +1178,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 286, ../sass/partials/_font-awesome.scss */
-.icon-link:before, i.collegamento:before {
+.collegamento:before, i.collegamento:before {
   content: "\f0c1";
 }
 
@@ -1328,7 +1328,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 318, ../sass/partials/_font-awesome.scss */
-.icon-linkedin:before {
+.collegamentoedin:before {
   content: "\f0e1";
 }
 
@@ -2135,28 +2135,33 @@ ul.breadcrumb-list #breadcrumbs-intro .bread-intro {
   line-height: 10px;
   margin-top: 5px;
   margin-left: 14px;
+  display: inline;
   float: left;
 }
 /* line 22, ../sass/partials/_breadcrumb.scss */
-ul.breadcrumb-list #breadcrumbs-intro .bread-intro img {
-  float: left;
+ul.breadcrumb-list #breadcrumbs-intro .bread-intro i {
   margin-right: 3px;
+  font-size: 24px;
+  margin-top: 5px;
+  display: inline;
+  float: left;
 }
-/* line 31, ../sass/partials/_breadcrumb.scss */
-ul.breadcrumb-list #breadcrumbs-intro span {
+/* line 29, ../sass/partials/_breadcrumb.scss */
+ul.breadcrumb-list #breadcrumbs-intro .bread-intro span {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
+  display: inline;
   float: left;
 }
-/* line 41, ../sass/partials/_breadcrumb.scss */
+/* line 45, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs {
   background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
 }
-/* line 47, ../sass/partials/_breadcrumb.scss */
+/* line 51, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs .bread {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -2165,21 +2170,21 @@ ul.breadcrumb-list #breadcrumbs .bread {
   margin-top: 5px;
   margin-left: 13px;
 }
-/* line 58, ../sass/partials/_breadcrumb.scss */
+/* line 62, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs span {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
   float: left;
 }
-/* line 69, ../sass/partials/_breadcrumb.scss */
+/* line 73, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-2 {
   background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
 }
-/* line 75, ../sass/partials/_breadcrumb.scss */
+/* line 79, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-2 .bread-2 {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -2188,21 +2193,21 @@ ul.breadcrumb-list #breadcrumbs-2 .bread-2 {
   margin-top: 5px;
   margin-left: 13px;
 }
-/* line 86, ../sass/partials/_breadcrumb.scss */
+/* line 90, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-2 span {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
   float: left;
 }
-/* line 97, ../sass/partials/_breadcrumb.scss */
+/* line 101, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-3 {
   background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
 }
-/* line 103, ../sass/partials/_breadcrumb.scss */
+/* line 107, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-3 .bread-3 {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -2211,7 +2216,7 @@ ul.breadcrumb-list #breadcrumbs-3 .bread-3 {
   margin-top: 5px;
   margin-left: 13px;
 }
-/* line 114, ../sass/partials/_breadcrumb.scss */
+/* line 118, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-3 span {
   font-weight: bold;
   text-transform: uppercase;
@@ -2219,14 +2224,14 @@ ul.breadcrumb-list #breadcrumbs-3 span {
   float: left;
 }
 
-/* line 125, ../sass/partials/_breadcrumb.scss */
+/* line 129, ../sass/partials/_breadcrumb.scss */
 #numero-like-dislike {
   float: left;
   margin-top: -10px;
   margin-left: 17px;
 }
 
-/* line 132, ../sass/partials/_breadcrumb.scss */
+/* line 136, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs {
   margin-top: 10px;
   background: url('../images/background-likes2.png?1347643269') no-repeat left top;
@@ -2235,19 +2240,25 @@ ul.breadcrumb-list #breadcrumbs-3 span {
   position: absolute;
   margin-left: 72px;
 }
-/* line 141, ../sass/partials/_breadcrumb.scss */
+/* line 144, ../sass/partials/_breadcrumb.scss */
+#numbers-likes-breadcrumbs i {
+  color: #49ada8;
+  font-size: 20px;
+  line-height: 18px;
+}
+/* line 152, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs .likes-bread {
   float: left;
   margin-bottom: 12px;
 }
-/* line 145, ../sass/partials/_breadcrumb.scss */
+/* line 156, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs .likes-bread .icona-likes-bread {
   background: white;
   padding: 4px;
   margin-top: 2px;
   margin-left: 4px;
 }
-/* line 153, ../sass/partials/_breadcrumb.scss */
+/* line 164, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs .number-like-bread {
   font-weight: normal;
   font-size: 12px;
@@ -2258,7 +2269,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
   margin-top: 4px;
 }
 
-/* line 169, ../sass/partials/_breadcrumb.scss */
+/* line 180, ../sass/partials/_breadcrumb.scss */
 #numbers-dislikes-breadcrumbs {
   margin-top: 10px;
   background: url('../images/background-likes2.png?1347643269') no-repeat left top;
@@ -2266,18 +2277,24 @@ ul.breadcrumb-list #breadcrumbs-3 span {
   height: 32px;
   position: absolute;
 }
-/* line 176, ../sass/partials/_breadcrumb.scss */
+/* line 187, ../sass/partials/_breadcrumb.scss */
+#numbers-dislikes-breadcrumbs i {
+  color: #49ada8;
+  font-size: 20px;
+  line-height: 18px;
+}
+/* line 194, ../sass/partials/_breadcrumb.scss */
 #numbers-dislikes-breadcrumbs .dislikes-bread {
   float: left;
 }
-/* line 178, ../sass/partials/_breadcrumb.scss */
+/* line 196, ../sass/partials/_breadcrumb.scss */
 #numbers-dislikes-breadcrumbs .dislikes-bread .icona-dislikes-bread {
   background: white;
   padding: 4px;
   margin-top: 2px;
   margin-left: 4px;
 }
-/* line 186, ../sass/partials/_breadcrumb.scss */
+/* line 204, ../sass/partials/_breadcrumb.scss */
 #numbers-dislikes-breadcrumbs .number-dislike-bread {
   font-weight: normal;
   font-size: 12px;
@@ -2288,12 +2305,12 @@ ul.breadcrumb-list #breadcrumbs-3 span {
   margin-top: 4px;
 }
 
-/* line 201, ../sass/partials/_breadcrumb.scss */
+/* line 219, ../sass/partials/_breadcrumb.scss */
 .lezione-seguita {
   float: right;
   margin-right: 170px;
 }
-/* line 204, ../sass/partials/_breadcrumb.scss */
+/* line 222, ../sass/partials/_breadcrumb.scss */
 .lezione-seguita span {
   color: #057c79;
   font-family: 'Droid Sans';
@@ -2305,7 +2322,13 @@ ul.breadcrumb-list #breadcrumbs-3 span {
   float: left;
   margin-top: 2px;
 }
-/* line 216, ../sass/partials/_breadcrumb.scss */
+/* line 234, ../sass/partials/_breadcrumb.scss */
+.lezione-seguita i {
+  font-size: 22px;
+  line-height: 18px;
+  margin-left: -2px;
+}
+/* line 241, ../sass/partials/_breadcrumb.scss */
 .lezione-seguita .ok {
   width: 19px;
   height: 19px;
@@ -5382,17 +5405,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 4, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 8, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -5401,52 +5424,52 @@ hr {
   height: 0;
 }
 
-/* line 14, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 16, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 18, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
 p,
 dl,
 hr,

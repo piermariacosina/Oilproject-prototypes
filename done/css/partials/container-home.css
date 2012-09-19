@@ -390,7 +390,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 126, ../../sass/partials/_font-awesome.scss */
-.icon-file:before {
+.note:before {
   content: "\f016";
 }
 
@@ -456,7 +456,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 141, ../../sass/partials/_font-awesome.scss */
-.icon-headphones:before {
+.audio:before {
   content: "\f025";
 }
 
@@ -576,7 +576,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 166, ../../sass/partials/_font-awesome.scss */
-.icon-facetime-video:before {
+.video:before {
   content: "\f03d";
 }
 
@@ -586,7 +586,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 169, ../../sass/partials/_font-awesome.scss */
-.icon-pencil:before {
+.quiz:before {
   content: "\f040";
 }
 
@@ -946,7 +946,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 245, ../../sass/partials/_font-awesome.scss */
-.icon-linkedin-sign:before {
+.collegamentoedin-sign:before {
   content: "\f08c";
 }
 
@@ -1131,7 +1131,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 286, ../../sass/partials/_font-awesome.scss */
-.icon-link:before {
+.collegamento:before {
   content: "\f0c1";
 }
 
@@ -1281,7 +1281,7 @@ ul.icons li .icon-large:before {
 }
 
 /* line 318, ../../sass/partials/_font-awesome.scss */
-.icon-linkedin:before {
+.collegamentoedin:before {
   content: "\f0e1";
 }
 
