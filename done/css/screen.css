@@ -8302,3 +8302,335 @@ ul li a:hover .commento, ul li a:active .commento {
   width: 220px;
   margin-left: 0;
 }
+
+/* line 4, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente {
+  background: url('../images/background-profilo.png?1347643269') no-repeat left top;
+  width: 618px;
+  height: 371px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 11px;
+  margin-bottom: 30px;
+}
+/* line 13, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente .profilo {
+  margin-top: 30px;
+}
+/* line 17, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente .avatar {
+  background-color: #15EB99;
+  margin-right: 20px;
+  float: left;
+  margin-left: 40px;
+}
+/* line 23, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente .avatar img {
+  float: left;
+  margin-top: 8px;
+  margin-right: 8px;
+  -webkit-box-shadow: 1px 0px 8px black;
+  -moz-box-shadow: 1px 0px 8px black;
+  box-shadow: 1px 0px 8px black;
+}
+/* line 31, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente a {
+  text-decoration: none;
+  color: #4cc1b8;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#profilo-mio-utente a:visited {
+  color: #4cc1b8;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#profilo-mio-utente a:hover {
+  color: #00ffb0;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#profilo-mio-utente a:active {
+  color: #4cc1b8;
+}
+/* line 35, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente h1 {
+  font-size: 15px;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 43, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente h2 {
+  font-size: 10px;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+/* line 52, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente h3 {
+  font-size: 10px;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 59, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente h3 .giorno {
+  color: #4cc1b8;
+  font-size: 12px;
+  padding-right: 8px;
+}
+/* line 65, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente h3 .ora {
+  font-weight: normal;
+  float: none;
+}
+/* line 72, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente .contenuti {
+  list-style: none;
+  margin-left: -30px;
+  margin-top: 30px;
+  float: left;
+}
+/* line 78, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente .contenuti a {
+  color: #4cc1b8;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-left: 10px;
+  line-height: 25px;
+}
+/* line 88, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente .contenuti .number {
+  color: #166059;
+  background-color: #00ffb0;
+  width: 19px;
+  height: 19px;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: 2px;
+  line-height: 19px;
+}
+/* line 111, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente #banner {
+  background: url('../images/banner-premi.png?1347643269') no-repeat left top;
+  width: 115px;
+  height: 121px;
+  margin-left: 511px;
+  margin-top: -108px;
+}
+/* line 120, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente .bio {
+  position: absolute;
+  margin-top: 152px;
+  margin-left: 40px;
+  width: 277px;
+}
+/* line 126, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente .bio p {
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+}
+/* line 136, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente #social {
+  margin-left: 470px;
+  margin-top: -170px;
+  margin-top: -60px;
+}
+/* line 140, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente #social a {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 145, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente #social .facebook {
+  background: url('../images/icona-facebook.png?1347643269') no-repeat left top;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+}
+/* line 153, ../sass/partials/_profilo-altro-utente.scss */
+#profilo-mio-utente #social .twitter {
+  background: url('../images/icona-twitter.png?1347643269') no-repeat left top;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  margin-left: 53px;
+}
+
+/* line 164, ../sass/partials/_profilo-altro-utente.scss */
+.comm-2 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-right: 0;
+  margin-left: 0;
+  position: absolute;
+  margin-top: 95px;
+  margin-left: 40px;
+}
+/* line 173, ../sass/partials/_profilo-altro-utente.scss */
+.comm-2 .container-comments {
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right: 1px solid #159690;
+  float: left;
+}
+/* line 181, ../sass/partials/_profilo-altro-utente.scss */
+.comm-2 .container-comments.two {
+  padding-right: 10px;
+}
+/* line 185, ../sass/partials/_profilo-altro-utente.scss */
+.comm-2 .container-comments.center2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80px;
+}
+/* line 190, ../sass/partials/_profilo-altro-utente.scss */
+.comm-2 .container-comments span.comments-2 {
+  color: #4cc1b8;
+}
+/* line 193, ../sass/partials/_profilo-altro-utente.scss */
+.comm-2 .container-comments .box-number-comments-2 {
+  float: left;
+  border-bottom: 1px solid #03514b;
+  border-left: 1px solid #086661;
+  border-right: 1px solid #086661;
+  border-top: 1px solid #086661;
+}
+/* line 199, ../sass/partials/_profilo-altro-utente.scss */
+.comm-2 .container-comments .box-number-comments-2 .number-comments-2 {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #9ffffc;
+  background: #25a599;
+  border-bottom: 1px solid #6cd8c9;
+  border-left: 1px solid #45bfb0;
+  border-top: 1px solid #45bfb0;
+  border-right: 1px solid #45bfb0;
+  padding: 2px;
+  text-align: center;
+}
+/* line 214, ../sass/partials/_profilo-altro-utente.scss */
+.comm-2 .container-comments .comments-2 {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #084936;
+  text-transform: lowercase;
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+/* line 232, ../sass/partials/_profilo-altro-utente.scss */
+#numbers-likes {
+  margin-top: 14px;
+  background: url('../images/background-likes.png?1347643269') no-repeat left top;
+  width: 67px;
+  height: 32px;
+  position: absolute;
+  margin-left: 184px;
+}
+
+/* line 241, ../sass/partials/_profilo-altro-utente.scss */
+.likes {
+  float: left;
+  margin-bottom: 12px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+/* line 247, ../sass/partials/_profilo-altro-utente.scss */
+.icona-likes {
+  background-color: white;
+  padding: 2px 5px 2px 5px;
+}
+/* line 248, ../sass/partials/_profilo-altro-utente.scss */
+.icona-likes i {
+  font-size: 13px;
+  color: #49ada8;
+}
+
+/* line 255, ../sass/partials/_profilo-altro-utente.scss */
+.number-like2 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: white;
+  float: left;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+/* line 267, ../sass/partials/_profilo-altro-utente.scss */
+#numbers-dislikes {
+  margin-top: 14px;
+  background: url('../images/background-likes.png?1347643269') no-repeat left top;
+  width: 67px;
+  height: 32px;
+  position: absolute;
+  margin-left: 264px;
+}
+
+/* line 277, ../sass/partials/_profilo-altro-utente.scss */
+.dislikes {
+  float: left;
+  margin-bottom: 12px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+/* line 285, ../sass/partials/_profilo-altro-utente.scss */
+.number-dislike2 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: white;
+  float: left;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+/* line 296, ../sass/partials/_profilo-altro-utente.scss */
+.icona-dislikes {
+  background-color: white;
+  padding: 2px 5px 2px 5px;
+}
+/* line 299, ../sass/partials/_profilo-altro-utente.scss */
+.icona-dislikes i {
+  font-size: 13px;
+  color: #49ada8;
+}
+
+/* line 307, ../sass/partials/_profilo-altro-utente.scss */
+.divisore-profilo {
+  background: url('../images/divisore-profilo.png?1347643269') no-repeat left top;
+  width: 600px;
+  height: 2px;
+  margin-top: 164px;
+  margin-left: -22px;
+}
