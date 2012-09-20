@@ -1,0 +1,20 @@
+.paragrafo-video-corso{
+	@include grid(10);
+	padding-left: 10px;
+	margin-top: 40px;
+
+	 p{
+
+	   	font-family: 'Droid Sans';
+	   	font-weight: normal;
+	   	font-size: 13px;
+	   	color: $text-green;
+
+	 }
+
+	 a{
+	 font-weight: bold;
+		@include link-over-dark;
+	 }
+
+}

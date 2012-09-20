@@ -204,6 +204,42 @@ a.btn.grey{
 }         
 
 
+.btn.green{
+	display: inline-block;
+	width: 162px;
+	height: 22px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	@include border-radius(30px);
+	@include alpha;
+	display: inline-block;
+	text-decoration: none;
+	color:$white;
+	font-family: 'Droid Sans';
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: lowercase;
+	background-color:$dark-green;
+	cursor: pointer;
+	line-height: 14px;
+	margin-left: 380px;
+	margin-top: 18px;
+	&:hover{
+		background: $calm-green;
+		color: $extra-dark-green;
+	}
+	&:visited{
+		background: $calm-green;
+		color: $light-green;
+	}
+}         
+
+
+
 
 div.buttons{
 	@include grid(10);
