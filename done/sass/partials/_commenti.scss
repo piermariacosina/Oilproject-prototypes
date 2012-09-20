@@ -1,25 +1,43 @@
 
             
                        
-//           
+//      
+
+#numero-commenti{
+background: url("../images/vota-commenti.png") no-repeat left top;
+padding-bottom: 30px;
+margin-left: 40px;
+width: 24px;
+height: 15px;	
+
+		  p{
+		  color: $link-blue;
+		  margin-left:40px;
+		  
+		  }
+}     
                 
 #container{
         @include grid(11);
         
-           .bottone-vota{
+                     
+           }
+           
+           
+           .rispondi{
            background: url("../images/vota-commenti.png") no-repeat left top;
            width: 24px;
            height: 15px;
            position: absolute;
-           margin-left: 500px;
+           margin-left: 480px;
            margin-top: 30px;
            
-             p{
-             color: $link-blue;
-             margin-left: 28px;
-             
-             }
-           
+              p{
+              color: $link-blue;
+              margin-left:40px;
+              
+              }	
+           	
            }
         
           .vota1{
@@ -118,7 +136,7 @@
                 
         }
 
- }
+ 
  
 
 ul{
