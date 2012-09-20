@@ -1,0 +1,286 @@
+
+            
+                       
+//      
+
+#numero-commenti{
+background: url("../images/vota-commenti.png") no-repeat left top;
+padding-bottom: 30px;
+margin-left: 40px;
+width: 24px;
+height: 15px;	
+
+		  p{
+		  color: $link-blue;
+		  margin-left:40px;
+		  
+		  }
+}     
+                
+                
+                
+#commenti-box{
+        @include grid(11);
+        
+                     
+          
+           
+           
+           .rispondi{
+           background: url("../images/vota-commenti.png") no-repeat left top;
+           width: 24px;
+           height: 15px;
+           position: absolute;
+           margin-left: 480px;
+           margin-top: 30px;
+           
+              p{
+              color: $link-blue;
+              margin-left:40px;
+              
+              }	
+           	
+           }
+        
+          .vota1{
+          background: url("../images/freccia-commenti-up.png") no-repeat left top;
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          margin-left: 26px;
+          margin-top: 10px;
+          
+          
+          }
+            .vota2{
+            background: url("../images/freccia-commenti-down.png") no-repeat left top;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            margin-top: 40px;
+            margin-left: 17px;
+            
+            }
+            
+         h4{
+            margin-top: 10px;
+            @include grid(1);
+            font-size: 20px;
+            font-family: 'Droid Sans';
+            font-weight: bold;
+            color: $light-green;
+            @include alpha;
+            text-align: center;
+            $default-text-shadow-h-offset: 0px;
+            $default-text-shadow-v-offset: 1px;
+            $default-text-shadow-color: $white;	       
+            @include single-text-shadow;
+        }
+                .icon{
+            margin-top:10px;
+            @include grid(1);
+            @include alpha;
+            height: 40px;
+            /*background-color: white;*/
+             background: url("../images/foto-utente.png") no-repeat left top;
+        }
+        .text{
+            margin-top: 10px;
+                margin-bottom: 10px;
+                h3{
+                    font-size: 21px;
+                    color: $light-green;
+                    font-family: 'Droid Sans';
+                    font-weight: 700;
+                    text-transform: uppercase;
+                   $default-text-shadow-h-offset: 0px;
+                   $default-text-shadow-v-offset: 1px;
+                   $default-text-shadow-color: $white;	       
+                   @include single-text-shadow;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: $azzurro_title;
+                    font-family: 'Droid Sans';
+                    font-weight: 400;
+                    padding-bottom: 5px;
+                }
+                
+                .data{
+                    position: relative;
+                    .num{
+                        width:25px;
+                        height:25px;
+                        background-color: $dark-green; 
+                        @include border_radius ( 15px);
+                        p{
+                            padding-top: 3px;
+                        text-align: center;
+                        color: $white;
+                                            }
+                                    }
+                    .info-date{
+                             width:140px;
+                              position: absolute;
+                              bottom: -23px;
+                              left: 30px;
+                    p{
+
+                        color: $dark-green;
+                        font-weight: 700;
+                        font-family: 'Droid Sans';
+                        font-size: 11px;
+                    }
+                    }
+                }
+                
+        }
+
+
+ 
+
+ul{
+	list-style-type: none !important;
+	li{
+		width: auto;
+		height: auto;
+		overflow: visible !important;
+		@include clearfix;
+		display: block;
+		
+		a{
+			text-decoration: none !important;
+			position: relative;
+			
+			.angolo{
+				width: 20px;
+				height: 20px;
+				background: url("../images/angolo_commenti_sx.png") repeat left top;
+				position: relative;
+				clear: left;
+			}
+			
+			.first_level{
+				top: 20px;
+				left: -10px;
+			}
+			
+			.second_level{
+				top: 20px;
+				left: 50px;
+			}
+			
+			.third_level{
+				top: 20px;
+				left: 110px;
+			}
+			
+			.commento{
+			        margin-bottom: 2px;
+			        @include omega;
+			        background-color: $light_soft-blue;
+			        float: left;
+			        height: auto;
+			        padding-top: 10px;
+//			        .rating{
+//			        	width: auto;
+//			        	height: auto;
+//			        
+//			        	.up_rating{
+//			        		width: 10px;
+//			        		height: 9px;
+//			        		background: url("../images/rating_commenti_up.png") repeat left top;
+//			        	}
+//			        	h4{
+//			        	}
+//			        	.down_rating{
+//			        		width: 10px;
+//			        		height: 9px;
+//			        		background: url("../images/rating_commenti_up.png") repeat left top;
+//			        	}
+//			        }
+			        .text{
+			        	.data{
+			        		.num{
+			        			background: $azzurro_fluo_medium !important;
+			        			float: left;
+			        			p{
+			        				font-weight: bold !important;
+			        				padding: 4px 0 !important;
+			        			}
+			        		}
+			        		.info-date{
+			        			font-family: 'Droid Sans';
+			        			font-size: 11px;
+			        			float: left;
+			        			color: $azzurro_fluo_medium;
+			        			margin-top: 20px;
+			        			.mese{
+			        				font-weight: 700;
+			        				text-transform: uppercase;
+			        			}
+			        		}
+			        	}
+			        }       
+			}
+			.spacer_comments{
+				clear: both;
+			}
+		}
+	}
+	li:first-child{
+		clear: both;
+	}
+}
+
+ul{
+	li{
+		a:hover, a:active{
+			.angolo{
+				background: url("../images/angolo_commenti_hover_sx.png") repeat left top;
+			}
+			.commento{
+				background-color: $soft-blue;
+			}
+		}
+	}
+}
+
+.primo_livello{
+        @include grid(10);
+        .text{
+         
+                @include grid(6);  
+                @include alpha;
+                }
+       
+
+}
+
+.secondo_livello{
+    @include grid-push(1);
+
+        @include grid(9);
+        
+        .text{
+                @include grid(5);  
+                @include alpha;
+        }
+}
+
+.terzo_livello{
+        @include grid-push(2);
+        @include grid(8);
+      
+        .text{
+
+                @include grid(4);  
+                @include alpha;
+
+        }
+}
+
+
+  }

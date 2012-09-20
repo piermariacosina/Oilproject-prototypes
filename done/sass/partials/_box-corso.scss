@@ -1,0 +1,218 @@
+.corso{
+ 	width: 638px;
+ 	height: 209px;
+ 	background: image-url("box-corso-categoria.png") no-repeat left top;
+ 	font-family: 'Droid Sans';
+ 	color: $dark-green;
+ 	display: inline;
+ 	float: left;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	
+ 	.categorie-lezioni{
+ 		@include horizontal-list-container;
+ 		@include clearfix;
+ 		margin-top: -37px;
+ 		@include float-right;
+ 		margin-right: 20px;
+ 		li{
+ 			@include horizontal-list-item;
+ 			font-weight: bold;
+ 			font-size: 12px;
+ 			margin: 8px 18px 0 0;
+ 			padding: 0;
+ 			.icon{
+ 				position: relative;
+ 				float: left;
+ 				font-size: 18px;
+ 			}
+ 			span{
+ 				position: relative;
+ 				float: left;
+ 				margin-top: 5px;
+ 				margin-left: 5px;
+ 			}
+ 		}
+ 		li:last-child{
+ 			margin-right:0px;
+ 		}
+ 	}
+ 	
+ 	a{
+	 	@include link-over-fluo;
+ 	}
+ 	
+ 	#extras{
+ 		margin-left: 400px;
+ 		margin-top: -90px;
+ 		position: absolute;
+ 		
+ 		
+ 		#likes{
+ 		float: left;
+ 		}
+ 		
+ 		#dislikes{
+ 		  float: left;
+ 		}
+ 		#view{
+ 		  float: left;
+ 		}
+ 		
+ 	}
+ 	
+ 		.box-number-views{
+ 	 									float: left;
+ 	 									margin-bottom: 12px;
+ 	 									border-bottom: 1px solid $darkest-blue;
+ 	 									border-left: 1px solid $dark-blue;
+ 	 									border-right: 1px solid $dark-blue;
+ 	 									border-top: 1px solid $dark-blue;
+ 	 									
+ 	 									.number-views{
+ 	 										font-weight: normal;
+ 	 										font-size: 10px;
+ 	 										line-height: 10px;
+ 	 										color: $dark-green;
+ 	 										background: $light-fluo-green;
+ 	 										border-bottom: 1px solid $lightest-water-green;
+ 	 										border-left: 1px solid $lighter-water-green;
+ 	 										border-top: 1px solid $lighter-water-green;
+ 	 										border-right: 1px solid $lighter-water-green;
+ 	 										padding: 2px;
+ 	 									}
+ 	 								}
+ 	 								.views{
+ 	 									font-weight: normal;
+ 	 									font-size: 10px;
+ 	 									line-height: 10px;
+ 	 									color:$dark-green;
+ 	 									float: left;
+ 	 									margin-left: 3px;
+ 	 									margin-top: 4px;
+ 	 									margin-right: 15px;
+ 	 								}
+ 	 								
+ 	 								.box-likes{
+ 	 									float: left;
+ 	 									margin-bottom: 12px;
+ 	 									border-bottom: 1px solid $white;
+ 	 									border-left: 1px solid $white;
+ 	 									border-right: 1px solid $white;
+ 	 									border-top: 1px solid $white;
+ 	 									i{
+ 	 									    color: $dark-green;
+ 	 									    margin: 3px 5px;
+ 	 									    font-size: 16px;
+ 	 									}
+ 	 								}
+ 	 								
+ 	 								.number-likes{
+ 	 									font-weight: normal;
+ 	 									font-size: 10px;
+ 	 									line-height: 10px;
+ 	 									color: $dark-green;
+ 	 									float: left;
+ 	 									margin-left: 3px;
+ 	 									margin-top: 4px;
+ 	 									margin-right: 15px;
+ 	 								}
+ 	 								
+ 	 								
+ 	 								.box-dislikes{
+ 	 									float: left;
+ 	 									margin-bottom: 12px;
+ 	 									border-bottom: 1px solid $white;
+ 	 									border-left: 1px solid $white;
+ 	 									border-right: 1px solid $white;
+ 	 									border-top: 1px solid $white;
+ 	 									
+ 	 									i{
+ 	 										color: $dark-green;
+ 	 										margin: 3px 5px;
+ 	 										font-size: 16px;
+ 	 									}
+ 	 								}
+ 	 								
+ 	 								.number-dislikes{
+ 	 									font-weight: normal;
+ 	 									font-size: 10px;
+ 	 									line-height: 10px;
+ 	 									color: $dark-green;
+ 	 									float: left;
+ 	 									margin-left: 3px;
+ 	 									margin-top: 4px;
+ 	 									margin-right: 15px;
+ 	 								}
+ 	 						
+ 	
+ 	
+ 	
+ 	
+ 	
+
+ 	   h4{
+ 		  width: 300px;
+ 		  font-weight: bold;
+ 		  font-size: 10px;
+ 		  line-height: 15px;
+ 		  text-transform: uppercase;
+ 		  margin-top: 10px;
+ 		  margin-left: 40px;
+ 	   						}
+
+ 	   h3{
+ 		 max-width: 200px;
+ 		 height: 60px;
+ 		 font-weight: bold;
+ 		 font-size: 14px;
+ 		 line-height: 17px;
+ 		 text-transform: uppercase;
+ 		 overflow: hidden;
+ 		 font-weight: normal;
+ 		 text-transform: lowercase;
+ 		 margin-left: 40px;
+ 							}
+		.relatore{
+			 font-weight: bold;
+			 font-size: 10px;
+			 display: block;
+			 top:-3px;
+			 margin-left: 40px;
+			 position: relative;
+			 color: $light-green;
+
+			}
+
+		p{
+			 width: 334px;
+			 height: 80px;
+			 font-weight: 400px;
+			 font-size: 10px;
+			 line-height: 13px;
+			 overflow: hidden;
+			 float: right;
+			 margin-right: 20px;
+			 margin-top: 10px;
+			}
+
+		.img-corso-categoria{
+			 margin-left: 27px;
+			 position: absolute;
+			 float: right;
+			}
+
+	  }
+
+
+.divisore-2{
+		margin-left: 40px;
+		margin-right: 20px;
+		height: 2px;
+		clear: both;
+		background: image-url("divisore-2.png") ;
+}
+
+
+
+

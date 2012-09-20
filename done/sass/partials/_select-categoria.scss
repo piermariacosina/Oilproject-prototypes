@@ -1,0 +1,68 @@
+.edit-scegli-categoria{
+	@include grid (10);
+	@include clearfix;		
+	background-color: $soft-blue;
+	padding-top:20px;
+	padding-bottom: 20px;
+	@include grid-prefix(1);
+	@include grid-suffix(1);
+	fieldset {
+			
+			
+			font-family: 'Droid Sans';
+			font-size: 13px;
+			position: relative;
+			@include clearfix;
+			@include grid (10);
+		
+		label {
+			
+			display: block;
+			margin: 30px 0 5px 0;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #7ac3b8;
+		}
+			
+	}
+	
+	select{
+		
+		border: 1px solid #65C1B0;
+		font-size:18px;
+		font-family: 'Droid Sans';
+		color:#2f6f5e;
+		$default-text-shadow-h-offset: 0px;
+		$default-text-shadow-v-offset: 2px;
+		$default-text-shadow-blur: 1px;
+		$default-text-shadow-spread: false;
+		$default-text-shadow-color: $white;
+		@include background( image-url("freccia-select.png") no-repeat right, image-url("ombra-select.png") repeat-x right , #7ddbd2 );       
+		-webkit-appearance: none;
+		&.standard{
+			@include grid(3);
+			height: 40px;
+			width: 286px;
+			@include alpha;
+			display: inline-block;
+		}
+	
+		&.last{
+			@include grid(3);
+			height: 40px;
+			@include alpha;
+			display: inline-block;
+		}
+		
+	}
+
+	label.horizontal{
+		@include grid(3);
+		@include alpha;
+		
+	}
+
+
+		
+	
+}

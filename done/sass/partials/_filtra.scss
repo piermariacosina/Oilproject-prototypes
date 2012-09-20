@@ -1,0 +1,72 @@
+#filtra{
+position: relative;
+clear:both;
+	 h1{
+		  font-family: 'Droid Sans';
+		  font-size: 16px;
+		  font-weight: bold;
+		  text-transform: uppercase;
+		  color: $light-green;
+		  padding: 0 0 10px 0;
+		  margin-top: 10px;
+		 
+		  @include float-left;
+	  	}	
+	 div.filtra{
+	 	@include float-left;
+
+	 }   
+	    		   
+	input[type="checkbox"]{
+		margin-left: 25px;
+		display: inline-block;
+		}
+	label{
+		display: inline-block;
+		color: $green-title;
+		font-size: 24px;
+		padding-left: 10px;
+		
+		}
+}
+ 
+ 
+ 
+ #ordina{
+ padding-top: 5px;
+ clear:both;
+ 
+   h1{
+	   font-family: 'Droid Sans';
+	   font-size: 16px;
+	   font-weight: bold;
+	   text-transform: uppercase;
+	   color: $light-green;
+	   padding: 0 0 10px 0;
+	   @include float-left;
+    }
+   
+   div.filtra{
+     @include float-left;
+     padding-left: 8px;
+     }
+		      
+       
+        
+        input[type="checkbox"]{
+        	display: inline-block;
+        	margin-left: 20px;
+        }
+        
+        label{
+         font-family: 'Droid Sans';
+         font-size: 13px;
+         font-weight: bold;
+         color: $green-title;
+         line-height: 14px;
+         display: inline-block;
+           }
+   }	   
+ 	    		   
+ 
+ 

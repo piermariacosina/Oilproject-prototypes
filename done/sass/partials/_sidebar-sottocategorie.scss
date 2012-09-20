@@ -1,0 +1,77 @@
+.sottocategorie-container{
+	
+		@include grid(5);
+		padding-left: 10px;		
+		.sottocategoria{
+				@include grid(5);
+				height: 31px;
+				background: image-url("diagonal-white-bg.png") repeat left top;
+				margin: 0 0 10px 0;
+			.icon{
+				width: 26px;
+				height: 23px;
+				float: left;
+				margin: 0 4px 0 20px;
+				color:$azzurro-title;
+				font-size: 22px;
+				}
+		h1{
+			font-family: 'Droid Sans';
+			font-weight: 400;
+			font-size: 10px;
+			line-height: 9px;
+			text-transform: uppercase;
+		
+			float: left;
+			margin-top: 6px; 
+				a{
+					@include link-over-stripe;
+				}
+			}
+		}
+		
+		
+		li:last-child{
+			margin-right: 0;
+			}
+			
+			ul{
+				width: auto;
+				height: auto;
+				margin: 0;
+				list-style-type: none;
+				@include grid(5);
+				@include alpha;
+				@include omega;
+			
+				  li{
+				  	height: auto;
+				  	background: none;
+				  	float: none;
+				  	font-family: 'Droid Sans';
+				  	font-weight: 400;
+				  	font-size: 12px;
+				  	line-height: 8px;
+				  	margin: 0 0 12px 0;
+				  	padding: 0;
+				  	
+				  	a{
+				  		text-decoration: none;
+				  		color: $azzurro-title;
+				  		cursor: pointer;
+				  		
+				  		width: 200px;
+				  		background: image-url("grid-sottocategorie.png") no-repeat left center;
+				  		display: block;
+				  		padding-left: image-width("grid-sottocategorie.png") + 5px;
+				  		
+				  		}
+				  	a:hover, a:visited{
+				  		color: $dark-green;
+				  		background: image-url("grid-sottocategorie-dark.png") no-repeat left center;
+				  		 
+				  		}
+				  	
+				  	}
+			}
+		}

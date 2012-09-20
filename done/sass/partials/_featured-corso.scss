@@ -1,0 +1,117 @@
+.featured-corso{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	a{
+		@include link-over-fluo;
+	}
+	.video_player{
+	  @include grid(10);
+		display: block;
+	  @include omega;
+	  height: 285px;
+	}
+	.box-testo{
+		@include grid(7);
+		height: 285px;
+		background: image-url("home-video-linguetta.png") no-repeat left top;
+		font-family: 'Droid Sans';
+		color: $dark-green;
+		overflow: visible;
+		@include alpha;
+		@include omega;
+		margin-left: -10px;
+		margin-right: -60px;
+		padding-left: 30px;
+
+		h2{
+		   width: 282px;
+		   font-weight: bold;
+		   font-size: 13px;
+		   line-height: 15px;
+		   text-transform: uppercase;
+		   padding-top: 15px;
+		   margin: 0;
+								}
+
+		h1{
+		  width: 282px;
+		  height: 77px;
+		  font-weight: bold;
+		  font-size: 22px;
+		  line-height: 27px;
+		  text-transform: uppercase;
+		  overflow: hidden;
+		  margin: 5px 0 0 0;	
+			}
+
+			.divisore{
+				margin-right: 90px;
+				margin-top: 10px;
+				clear: both;
+				.top{
+					height: 1px;
+					background-color: #0AEA9C;
+				}
+				.bottom{
+					height: 1px;
+
+					background-color: #ACFFE3;
+				}
+			}
+
+		.posted-by{
+			font-weight: bold;
+			font-size: 10px;
+
+			margin: 10px 0 0 0;
+			position: relative;
+			float: left;
+		}
+
+		.numero-lezioni{
+			position: relative;
+			float: right;
+			padding: 0 100px 0 0;
+			margin: 10px 0 8px 0;
+
+			}
+
+
+		.number{
+			width: 19px;
+			height: 19px;
+			background: $dark-green;
+			color: white;
+			font-weight: bold;
+			font-size: 12px;
+			position: relative;
+			float: left;
+			text-align: center;
+			border-radius: 10px;
+			padding: 1px 0 0 1px;
+			margin-top: -2px;
+			line-height: 18px;
+		}
+
+		span{
+			font-weight: bold;
+			text-transform: uppercase;
+			position: relative;
+			float: left;
+			font-size: 10px;
+			margin-left: 4px;
+		}
+
+		p{
+			width: 282px;
+			height: 70px;
+			font-weight: 400px;
+			font-size: 13px;
+			line-height: 15px;
+
+			margin: 10px 0 0 0;
+			overflow: hidden;
+			color: $dark-green;
+		}
+	}
+}

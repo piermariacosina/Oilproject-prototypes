@@ -1,0 +1,108 @@
+.corsi-creati{
+		.box-corso{
+			width: 320px;
+			height: image-height("background-profilo-categoria.png");
+			background: image-url("background-profilo-categoria.png") no-repeat left top;
+			font-family: 'Droid Sans';
+			color: $dark-green;
+			@include float-left;
+			margin: 10px 0;
+			
+			a{
+				@include link-over-fluo;
+			}
+			
+			h4{
+				width: 282px;
+				font-weight: bold;
+				font-size: 13px;
+				line-height: 15px;
+				text-transform: uppercase;
+				padding: 20px 0 0 35px;
+				margin: 0;
+			}
+			h3{
+				width: 270px;
+				height: 77px;
+				font-weight: bold;
+				font-size: 22px;
+				line-height: 27px;
+				text-transform: uppercase;
+				overflow: hidden;
+				padding: 10px 0 0 20px;
+				margin-left:15px;
+				//							@include ellipsis;
+			}
+			.numero-lezioni{
+				position: relative;
+				float: right;
+				padding: 0 10px 0 0;
+				margin: 5px 10px 8px 0;
+				.number{
+					width: 19px;
+					height: 19px;
+					background: $light-green;
+					color: white;
+					font-weight: bold;
+					font-size: 12px;
+					position: relative;
+					float: left;
+					text-align: center;
+					border-radius: 10px;
+					padding: 1px 0 0 1px;
+					margin-top: -2px;
+				}
+				span{
+					font-weight: bold;
+					text-transform: uppercase;
+					position: relative;
+					float: left;
+					font-size: 10px;
+					margin-left: 4px;
+					color: $light-green;
+				}
+			}
+			.cover-corso{
+				padding: 3px 3px 3px 3px;
+				margin: 0;
+				margin-left:32px;
+				width: 270px;
+				height: 85px;
+				overflow: hidden;
+				img{
+					width: 272px;
+					height: 86px;
+					@include single-box-shadow(black,0px, 0px, 3px,  false, false);
+				}
+			}
+
+			.categorie-lezioni{
+				list-style-type: none;
+				@include clearfix;
+				margin-left:35px;  
+				margin-top: 4px;
+				li{
+					position: relative;
+					float: left;
+					font-weight: bold;
+					font-size: 12px;
+					margin: 8px 23px 0 0;
+					padding: 0;
+					.icon{
+						position: relative;
+						float: left;
+						font-size: 21px;
+						margin-top: -6px;
+					}
+					span{
+						position: relative;
+						float: left;
+						margin-left: 8px;
+					}
+				}
+				li:last-child{
+					margin-right:0px;
+				}
+			}
+		}
+	}

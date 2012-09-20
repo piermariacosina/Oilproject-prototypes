@@ -1,0 +1,30 @@
+.number.titoli_sezioni{
+	background-color:$light-green;
+	margin-left: 35px;
+
+	margin-right:10px;
+	width: 19px;
+	height: 19px;
+	background: $light-green;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	position: relative;
+	float: left;
+	text-align: center;
+	border-radius: 10px;
+	padding: 1px 0 0 1px;
+	@include float-left;
+	
+}
+h4.titoli_sezioni{
+	font-size: 15px;
+	color: $dark-green;
+	font-family: 'Droid Sans';
+	font-weight: bold; 
+	text-transform:uppercase;
+	margin-bottom:10px;     
+	@include float-left;
+	margin-left: 35px;
+	
+}

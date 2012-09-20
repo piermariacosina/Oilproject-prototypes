@@ -1,0 +1,150 @@
+#nome-corso{
+	background: image-url("background-titolo-corso.png") repeat left top;
+	display: inline;
+	float: left;
+	width: 280px;
+	height: 91px;
+	/*@include grid(5);
+	height: 91px;
+	@include alpha;*/
+	
+      h1{
+       color: $light-green;
+       font-family: 'Droid Sans';
+       text-transform: uppercase;
+       font-size: 16px;
+       font-weight: bold;
+       line-height: 20px;
+       width: 253px;
+       position: absolute;
+       margin-left: 40px;
+       margin-top: 1px;
+       
+           $default-text-shadow-h-offset: 0px;
+         	    $default-text-shadow-v-offset: 2px;
+         	    $default-text-shadow-blur: 1px;
+         	    $default-text-shadow-color: $white;	       
+         	@include single-text-shadow();
+         
+       
+      }
+}
+
+
+#caricamento{
+	background-color: $fluo-blue;
+	@include grid(9);
+	height: 31px;
+	
+	margin-left: 4px;
+	
+}
+
+
+ .ultime-lezioni{
+   	position: relative;
+   	@include grid(2);
+   	@include omega;	
+   	padding: 0;
+   	margin: 5px 0 8px 0;
+   	
+   	  span{
+   	  	color: $light-green;
+   	  	font-family: 'Droid Sans';
+   	  	font-weight: bold;
+   	  	text-transform: uppercase;
+   	  	line-height: 11px;
+   	  	font-size: 10px;
+   	  	margin-left: 5px;
+   	  	float: left;
+   	  }
+   	   
+   	   .number{
+   	   	width: 19px;
+   	   	height: 19px;
+   	   	background: $light-green;
+   	   	color: white;
+   	   	font-weight: bold;
+   	   	font-size: 12px;
+   	   	position: relative;
+   	   	float: left;
+   	   	text-align: center;
+   	   	border-radius: 10px;
+   	   	padding: 1px 0 0 1px;
+   	   	margin-top: 4px;
+   	   }
+   	   
+   	
+   	
+   }
+
+
+.cambia-lezione-prev{
+	float: left;
+	margin-top: 28px;
+	margin-left: 27px;
+	
+	
+	.prev{
+	color: $dark-green;
+	font-family: 'Droid Sans';
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 11px;
+	font-size: 10px;
+	float: right;
+	
+	  
+	  	
+	}
+		 .freccia-prev{
+	 	width: image-width("prev.png");
+	 	height: image-height("prev.png");
+	 	background: image-url("prev.png");
+	 	display: inline-block;
+	 	margin-right: 4px;
+	 	float: left;
+	 }
+	 	 
+	 	 
+	 	 
+}
+
+
+.cambia-lezione-next{
+	float: left;
+	margin-top: 28px;
+	margin-left: 400px;
+	
+	
+	.next{
+	color: $dark-green;
+	font-family: 'Droid Sans';
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 11px;
+	font-size: 10px;
+	float: left;
+	
+	  
+	  	
+	}
+		 .freccia-next{
+	 	width: image-width("next.png");
+	 	height: image-height("next.png");
+	 	background: image-url("next.png");
+	 	display: inline-block;
+	 	margin-right: 4px;
+	 	float: left;
+	 	margin-left: 4px;
+	 }
+	 	 
+	 	 
+	 	 
+}
+
+
+
+
+
+
