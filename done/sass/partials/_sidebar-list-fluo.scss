@@ -32,7 +32,7 @@
 				.box-sidebar{
 					
 					.icon{
-						color: $light-green;
+						i{color: $light-green;}
 					}
 					.posted-by{
 						color: $dark-green;
@@ -43,7 +43,7 @@
 				.box-sidebar{
 					background-color: $calm-green;
 					.icon{
-						color: white;
+						i{color: white;}
 					}
 					.posted-by{
 						color: white;
@@ -56,14 +56,10 @@
 				padding-left: 48px;
 				background-color:$fluo-blue;
 				.icon{
-					width: 25px;
-					height: 25px;
-					position: relative;
-					margin-left: -35px;
-					margin-top: 20px;
+					
 					float: left;
-					font-size: 24px;
-					color: white;
+					i{font-size: 24px;
+					color: white;}
 					}
 				h2{
 					width: 200px;

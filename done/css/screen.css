@@ -7841,8 +7841,8 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 .sidebar-list-fluo ul li a {
   text-decoration: none;
 }
-/* line 34, ../sass/partials/_sidebar-list-fluo.scss */
-.sidebar-list-fluo ul li a:hover .box-sidebar .icon {
+/* line 35, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a:hover .box-sidebar .icon i {
   color: #057c79;
 }
 /* line 37, ../sass/partials/_sidebar-list-fluo.scss */
@@ -7853,8 +7853,8 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 .sidebar-list-fluo ul li a:visited .box-sidebar {
   background-color: #43d1b4;
 }
-/* line 45, ../sass/partials/_sidebar-list-fluo.scss */
-.sidebar-list-fluo ul li a:visited .box-sidebar .icon {
+/* line 46, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a:visited .box-sidebar .icon i {
   color: white;
 }
 /* line 48, ../sass/partials/_sidebar-list-fluo.scss */
@@ -7869,16 +7869,14 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 }
 /* line 58, ../sass/partials/_sidebar-list-fluo.scss */
 .sidebar-list-fluo ul li a .box-sidebar .icon {
-  width: 25px;
-  height: 25px;
-  position: relative;
-  margin-left: -35px;
-  margin-top: 20px;
   float: left;
+}
+/* line 61, ../sass/partials/_sidebar-list-fluo.scss */
+.sidebar-list-fluo ul li a .box-sidebar .icon i {
   font-size: 24px;
   color: white;
 }
-/* line 68, ../sass/partials/_sidebar-list-fluo.scss */
+/* line 64, ../sass/partials/_sidebar-list-fluo.scss */
 .sidebar-list-fluo ul li a .box-sidebar h2 {
   width: 200px;
   font-weight: normal;
@@ -7888,7 +7886,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   padding: 12px 0 0 0;
   margin: 0;
 }
-/* line 77, ../sass/partials/_sidebar-list-fluo.scss */
+/* line 73, ../sass/partials/_sidebar-list-fluo.scss */
 .sidebar-list-fluo ul li a .box-sidebar .posted-by {
   width: 200px;
   font-weight: bold;
