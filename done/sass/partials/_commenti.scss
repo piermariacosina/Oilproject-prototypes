@@ -17,11 +17,11 @@ height: 15px;
 		  }
 }     
                 
-#container{
+#commenti-box{
         @include grid(11);
         
                      
-           }
+           
            
            
            .rispondi{
@@ -276,6 +276,8 @@ ul{
                 @include alpha;
 
         }
+}
+
 }
 
 
