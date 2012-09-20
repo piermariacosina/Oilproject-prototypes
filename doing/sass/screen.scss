@@ -67,7 +67,7 @@ $search-height: 28px;
 @import "compass/typography/text/replacement";
 @import "compass/css3/hyphenation";
 @import "compass/typography/links/link-colors";
-@import "compass/utilities/text/ellipsis";
+
 
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,400italic);
@@ -105,92 +105,27 @@ div.corner{
 		@include float-left;
 	}
 }
-
-
-
 @import "partials/grid";
 @import "partials/text";
 @import "partials/font-awesome";
 @import "partials/buttons";
-
-
-i.audio{
-	@extend [class^="icon-"]:before;
-	@extend [class*=" icon-"]:before;
-	@extend .audio;
-}
-
-i.video{
-	@extend [class^="icon-"]:before;
-	@extend [class*=" icon-"]:before;
-	@extend .icon-eye-open;
-}
-
-i.note{
-	@extend [class^="icon-"]:before;
-	@extend [class*=" icon-"]:before;
-	@extend .note;
-}
-
-i.corso{
-	@extend [class^="icon-"]:before;
-	@extend [class*=" icon-"]:before;
-	@extend .icon-note;
-}
-i.quiz{
-	@extend [class^="icon-"]:before;
-	@extend [class*=" icon-"]:before;
-	@extend .quiz;
-}
-i.collegamento{
-	@extend [class^="icon-"]:before;
-	@extend [class*=" icon-"]:before;
-	@extend .collegamento;
-}
-
-
 @import "partials/banner";
-@import "partials/bottone-segui-utente";
-@import "partials/box-corso-iniziato";
-@import "partials/box-corso";
-@import "partials/box-singolo-esercizio";
-@import "partials/breadcrumb";
-@import "partials/commenti-recenti";
-@import "partials/container-corsi";
-@import "partials/container-lezioni";
-@import "partials/contenuto-singolo";
-@import "partials/corsi-creati";
 @import "partials/featured-corso";
 @import "partials/featured-videolezioni";
-@import "partials/footer";
-@import "partials/header";
-@import "partials/lesson";
-@import "partials/prefooter";
-@import "partials/profilo-mio-utente";
-@import "partials/sidebar-help";
-@import "partials/sidebar-list";
 @import "partials/template";
-@import "partials/titolo-registrati";
-@import "partials/sidebar-sottocategorie";
-@import "partials/box-singolo-esercizio";
-@import "partials/titoli-sezioni"; 
-@import "partials/titoli-edit"; 
-@import "partials/read-it-later"; 
-@import "partials/sidebar-avatars";
-@import "partials/categoria-pagina-corso";
-@import "partials/box-video-corso";
-@import "partials/paragrafi";
-@import "partials/registrazione";
-@import "partials/campi-obbligatori";
-@import "partials/lezioni-corso";
-@import "partials/textarea-commenti";
-@import "partials/filtra";
-@import "partials/utenti-corso-terminato";
-@import "partials/breadcrumb-grande";
-@import "partials/sidebar-list-fluo";
-@import "partials/edit-descrizione";
-@import "partials/select-categoria";
-@import "partials/link-riferimento-edit";
-@import "partials/commenti";
-@import "partials/profilo-altro-utente";
-@import "partials/bottone-registrati";
+@import "partials/domanda-esercizio";
+@import "partials/newsletter";
+@import "partials/form";
+@import "partials/newsletter-check";
+@import "partials/link-riferimento";
+@import "partials/categoria-corso";
+@import "partials/estratto";
+@import "partials/immagine-copertina";
+@import "partials/search";
+@import "partials/risposta-multipla";
+@import "partials/banner-risposte-mancanti";
+@import "partials/risposta-collegamento";
+@import "partials/header-corso-iniziato";
+@import "partials/crea-esercizio-1";
+@import "partials/select-file";
+@import "partials/risposta-vero-falso";   
