@@ -7869,14 +7869,19 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 }
 /* line 58, ../sass/partials/_sidebar-list-fluo.scss */
 .sidebar-list-fluo ul li a .box-sidebar .icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  margin-left: -35px;
+  margin-top: 20px;
   float: left;
 }
-/* line 61, ../sass/partials/_sidebar-list-fluo.scss */
+/* line 65, ../sass/partials/_sidebar-list-fluo.scss */
 .sidebar-list-fluo ul li a .box-sidebar .icon i {
   font-size: 24px;
   color: white;
 }
-/* line 64, ../sass/partials/_sidebar-list-fluo.scss */
+/* line 68, ../sass/partials/_sidebar-list-fluo.scss */
 .sidebar-list-fluo ul li a .box-sidebar h2 {
   width: 200px;
   font-weight: normal;
@@ -7886,7 +7891,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   padding: 12px 0 0 0;
   margin: 0;
 }
-/* line 73, ../sass/partials/_sidebar-list-fluo.scss */
+/* line 77, ../sass/partials/_sidebar-list-fluo.scss */
 .sidebar-list-fluo ul li a .box-sidebar .posted-by {
   width: 200px;
   font-weight: bold;

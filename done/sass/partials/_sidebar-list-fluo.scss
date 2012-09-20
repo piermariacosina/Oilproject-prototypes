@@ -56,7 +56,11 @@
 				padding-left: 48px;
 				background-color:$fluo-blue;
 				.icon{
-					
+					width: 25px;
+					height: 25px;
+					position: relative;
+					margin-left: -35px;
+					margin-top: 20px;
 					float: left;
 					i{font-size: 24px;
 					color: white;}
