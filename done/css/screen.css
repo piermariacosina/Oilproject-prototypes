@@ -7408,13 +7408,6 @@ h4.titoli_sezioni {
   height: 209px;
 }
 
-/* line 84, ../sass/partials/_textarea-commenti.scss */
-.manu {
-  background: red;
-  width: 20px;
-  height: 20px;
-}
-
 /* line 1, ../sass/partials/_filtra.scss */
 #filtra {
   position: relative;
@@ -8011,5 +8004,465 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   margin-left: 10px;
   margin-right: 10px;
   width: 160px;
+  margin-left: 0;
+}
+
+/* line 2, ../sass/partials/_commenti.scss */
+.container_comments {
+  width: 78px;
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
+  border-right: 1px solid #C5FFEA;
+  float: left;
+}
+/* line 8, ../sass/partials/_commenti.scss */
+.container_comments .box_number_comments {
+  float: left;
+  border-bottom: 1px solid #02967a;
+  border-left: 1px solid #05d6c6;
+  border-right: 1px solid #05d6c6;
+  border-top: 1px solid #05d6c6;
+}
+/* line 14, ../sass/partials/_commenti.scss */
+.container_comments .box_number_comments .number_comments {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #057c79;
+  background: #00f2a1;
+  border-bottom: 1px solid #c7ffec;
+  border-left: 1px solid #7dfed5;
+  border-top: 1px solid #7dfed5;
+  border-right: 1px solid #7dfed5;
+  padding: 2px;
+}
+/* line 27, ../sass/partials/_commenti.scss */
+.container_comments .comments {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #057c79;
+  float: left;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+
+/* line 40, ../sass/partials/_commenti.scss */
+.aut-date {
+  position: absolute;
+  bottom: 9px;
+}
+/* line 44, ../sass/partials/_commenti.scss */
+.aut-date .data .num {
+  position: absolute;
+  float: left;
+  margin-top: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #084936;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+  bottom: -2px;
+}
+/* line 53, ../sass/partials/_commenti.scss */
+.aut-date .data .num p {
+  padding-top: 3px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+/* line 60, ../sass/partials/_commenti.scss */
+.aut-date .data .info-date {
+  width: 140px;
+  font-family: 'Droid Sans';
+  font-size: 11px;
+  float: left;
+  margin-left: 30px;
+}
+/* line 67, ../sass/partials/_commenti.scss */
+.aut-date .data .info-date .mese {
+  font-weight: 700;
+  color: #084936;
+  text-transform: uppercase;
+}
+/* line 72, ../sass/partials/_commenti.scss */
+.aut-date .data .info-date .ora {
+  color: #057c79;
+}
+/* line 78, ../sass/partials/_commenti.scss */
+.aut-date hr {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  border: 0;
+  height: 1px;
+}
+/* line 83, ../sass/partials/_commenti.scss */
+.aut-date .top {
+  margin: 8px 0 0 0;
+  background: #00EA9C;
+}
+/* line 87, ../sass/partials/_commenti.scss */
+.aut-date .bottom {
+  margin: 0 0 12px 0;
+  background: #C5FFEA;
+}
+
+/* line 95, ../sass/partials/_commenti.scss */
+#container {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 640px;
+}
+/* line 97, ../sass/partials/_commenti.scss */
+#container h4 {
+  margin-top: 10px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40px;
+  font-size: 20px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  color: #057c79;
+  margin-left: 0;
+  text-align: center;
+}
+/* line 107, ../sass/partials/_commenti.scss */
+#container .icon {
+  margin-top: 10px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40px;
+  margin-left: 0;
+  height: 40px;
+  background-color: white;
+}
+/* line 114, ../sass/partials/_commenti.scss */
+#container .text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 117, ../sass/partials/_commenti.scss */
+#container .text h3 {
+  font-size: 21px;
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 0px white, 0px 1px 0px true white;
+  text-shadow: 0px 1px 0px true white, 0px 1px 0px true white;
+  margin-bottom: 10px;
+}
+/* line 131, ../sass/partials/_commenti.scss */
+#container .text p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+/* line 140, ../sass/partials/_commenti.scss */
+#container .text .data {
+  position: relative;
+}
+/* line 142, ../sass/partials/_commenti.scss */
+#container .text .data .num {
+  width: 25px;
+  height: 25px;
+  background-color: #084936;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+/* line 147, ../sass/partials/_commenti.scss */
+#container .text .data .num p {
+  padding-top: 3px;
+  text-align: center;
+  color: white;
+}
+/* line 153, ../sass/partials/_commenti.scss */
+#container .text .data .info-date {
+  width: 140px;
+  position: absolute;
+  bottom: -23px;
+  left: 30px;
+}
+/* line 158, ../sass/partials/_commenti.scss */
+#container .text .data .info-date p {
+  color: #084936;
+  font-weight: 700;
+  font-family: 'Droid Sans';
+  font-size: 11px;
+}
+
+/* line 172, ../sass/partials/_commenti.scss */
+#testo {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 520px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+/* line 177, ../sass/partials/_commenti.scss */
+#testo p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #3d635f;
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  padding: 0;
+  margin: 0 0 7px 0;
+}
+/* line 186, ../sass/partials/_commenti.scss */
+#testo .intro {
+  font-weight: bold;
+  text-indent: 7px;
+}
+/* line 192, ../sass/partials/_commenti.scss */
+#testo a {
+  color: #24d1c8;
+  text-decoration: none;
+}
+
+/* line 199, ../sass/partials/_commenti.scss */
+#button {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100px;
+  heigth: 40px;
+  background-color: #084936;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+/* line 206, ../sass/partials/_commenti.scss */
+#button a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  margin-left: 11px;
+}
+
+/* line 215, ../sass/partials/_commenti.scss */
+#button-1 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 160px;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 219, ../sass/partials/_commenti.scss */
+#button-1 .interno {
+  width: 130px;
+  background-color: #084936;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+/* line 224, ../sass/partials/_commenti.scss */
+#button-1 .interno a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  margin-left: 11px;
+}
+
+/* line 233, ../sass/partials/_commenti.scss */
+#nuovo_commento {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 610px;
+  margin-left: 0;
+  background-color: black;
+  clear: both;
+  margin-bottom: 35px;
+}
+/* line 239, ../sass/partials/_commenti.scss */
+#nuovo_commento textarea {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  margin-right: 0;
+  margin-left: 0;
+  border: 1px solid #323232;
+}
+
+/* line 247, ../sass/partials/_commenti.scss */
+ul {
+  list-style-type: none !important;
+}
+/* line 249, ../sass/partials/_commenti.scss */
+ul li {
+  width: auto;
+  height: auto;
+  overflow: visible !important;
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+}
+/* line 256, ../sass/partials/_commenti.scss */
+ul li a {
+  text-decoration: none !important;
+  position: relative;
+}
+/* line 260, ../sass/partials/_commenti.scss */
+ul li a .angolo {
+  width: 20px;
+  height: 20px;
+  background: url("../images/angolo_commenti_sx.png") repeat left top;
+  position: relative;
+  clear: left;
+}
+/* line 268, ../sass/partials/_commenti.scss */
+ul li a .first_level {
+  top: 20px;
+  left: -10px;
+}
+/* line 273, ../sass/partials/_commenti.scss */
+ul li a .second_level {
+  top: 20px;
+  left: 50px;
+}
+/* line 278, ../sass/partials/_commenti.scss */
+ul li a .third_level {
+  top: 20px;
+  left: 110px;
+}
+/* line 283, ../sass/partials/_commenti.scss */
+ul li a .commento {
+  margin-bottom: 2px;
+  margin-right: 0;
+  background-color: #eafdfc;
+  float: left;
+}
+/* line 307, ../sass/partials/_commenti.scss */
+ul li a .commento .text .data .num {
+  background: #0cc4c4 !important;
+  float: left;
+}
+/* line 310, ../sass/partials/_commenti.scss */
+ul li a .commento .text .data .num p {
+  font-weight: bold !important;
+  padding: 4px 0 !important;
+}
+/* line 315, ../sass/partials/_commenti.scss */
+ul li a .commento .text .data .info-date {
+  font-family: 'Droid Sans';
+  font-size: 11px;
+  float: left;
+  color: #0cc4c4;
+  margin-top: 20px;
+}
+/* line 321, ../sass/partials/_commenti.scss */
+ul li a .commento .text .data .info-date .mese {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 329, ../sass/partials/_commenti.scss */
+ul li a .spacer_comments {
+  clear: both;
+}
+/* line 334, ../sass/partials/_commenti.scss */
+ul li:first-child {
+  clear: both;
+}
+
+/* line 342, ../sass/partials/_commenti.scss */
+ul li a:hover .angolo, ul li a:active .angolo {
+  background: url("../images/angolo_commenti_hover_sx.png") repeat left top;
+}
+/* line 345, ../sass/partials/_commenti.scss */
+ul li a:hover .commento, ul li a:active .commento {
+  background-color: #c9f7f5;
+}
+
+/* line 352, ../sass/partials/_commenti.scss */
+.primo_livello {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+}
+/* line 354, ../sass/partials/_commenti.scss */
+.primo_livello .text {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 340px;
+  margin-left: 0;
+}
+
+/* line 363, ../sass/partials/_commenti.scss */
+.secondo_livello {
+  position: relative;
+  left: 60px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 520px;
+}
+/* line 368, ../sass/partials/_commenti.scss */
+.secondo_livello .text {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 280px;
+  margin-left: 0;
+}
+
+/* line 374, ../sass/partials/_commenti.scss */
+.terzo_livello {
+  position: relative;
+  left: 120px;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 460px;
+}
+/* line 378, ../sass/partials/_commenti.scss */
+.terzo_livello .text {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
   margin-left: 0;
 }

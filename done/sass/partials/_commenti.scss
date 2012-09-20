@@ -1,0 +1,386 @@
+
+            .container_comments{
+            	width: 78px;
+            	height: auto;
+            	@include clearfix;
+            	border-right: 1px solid #C5FFEA;
+            	float: left;
+	            .box_number_comments{
+	            	float: left;
+	            	border-bottom: 1px solid $verde_scuro;
+	            	border-left: 1px solid $verde_medio;
+	            	border-right: 1px solid $verde_medio;
+	            	border-top: 1px solid $verde_medio;
+	            	.number_comments{
+	            		font-weight: normal;
+	            		font-size: 10px;
+	            		line-height: 10px;
+	            		color: $light-green;
+	            		background: $light_fluo_green;
+	            		border-bottom: 1px solid $lightest_water_green;
+	            		border-left: 1px solid $lighter_water_green;
+	            		border-top: 1px solid $lighter_water_green;
+	            		border-right: 1px solid $lighter_water_green;
+	            		padding: 2px;
+	            	}
+	            }
+	            .comments{
+	            	font-weight: normal;
+	            	font-size: 10px;
+	            	line-height: 10px;
+	            	color: $light-green;
+	            	float: left;
+	            	margin-left: 3px;
+	            	margin-top: 4px;
+	            }
+            }
+            
+                       
+//           
+            .aut-date{
+            	position: absolute;    
+            	bottom: 9px;
+                .data{
+                    .num{
+                    	position: absolute;
+                    	float: left;
+                        margin-top: 0;//34px;
+                        width: 25px;
+                        height: 25px;
+                        background-color: $dark-green; 
+                        @include border_radius ( 16px);
+                        bottom: -2px;
+                        p{
+	                        padding-top: 3px;
+	                        text-align: center;
+	                        color: $white;
+	                        margin: 0;
+                     	}
+                 	}
+                    .info-date{
+                              width: 140px;
+//                              bottom: -6px;
+                              font-family: 'Droid Sans';
+                              font-size: 11px;
+                              float: left;
+                              margin-left: 30px;
+	                    .mese{
+	                        font-weight: 700;
+	                        color: $dark-green;
+	                        text-transform: uppercase;
+	                    }
+	                    .ora{
+	                    	color: $light-green;
+	                    }
+                    }
+                }
+             
+             hr{
+                   @include grid(5);
+                   border: 0;
+                   height: 1px;
+              }
+              .top{
+              	margin: 8px 0 0 0;
+              	background: #00EA9C;
+              }
+              .bottom{
+                margin: 0 0 12px 0;
+                background: #C5FFEA;
+              }
+             
+              }
+       
+      
+#container{
+        @include grid(11);
+         h4{
+            margin-top: 10px;
+            @include grid(1);
+            font-size: 20px;
+            font-family: 'Droid Sans';
+            font-weight: bold;
+            color: $light-green;
+            @include alpha;
+            text-align: center;
+        }
+                .icon{
+            margin-top:10px;
+            @include grid(1);
+            @include alpha;
+            height: 40px;
+            background-color: white;
+        }
+        .text{
+            margin-top: 10px;
+                margin-bottom: 10px;
+                h3{
+                    font-size: 21px;
+                    color: $light-green;
+                    font-family: 'Droid Sans';
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    $default-text-shadow-h-offset: 0px;
+                    $default-text-shadow-v-offset: 1px;
+                    $default-text-shadow-blur: 0px;
+                    $default-text-shadow-spread: true;
+                    $default-text-shadow-color: $white;	       
+                    @include single-text-shadow();
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: $azzurro_title;
+                    font-family: 'Droid Sans';
+                    font-weight: 400;
+                    padding-bottom: 5px;
+                }
+                
+                .data{
+                    position: relative;
+                    .num{
+                        width:25px;
+                        height:25px;
+                        background-color: $dark-green; 
+                        @include border_radius ( 15px);
+                        p{
+                            padding-top: 3px;
+                        text-align: center;
+                        color: $white;
+                                            }
+                                    }
+                    .info-date{
+                             width:140px;
+                              position: absolute;
+                              bottom: -23px;
+                              left: 30px;
+                    p{
+
+                        color: $dark-green;
+                        font-weight: 700;
+                        font-family: 'Droid Sans';
+                        font-size: 11px;
+                    }
+                    }
+                }
+                
+        }
+
+ }
+ 
+#testo {
+    @include grid(9);
+    margin-top: 35px;
+    margin-bottom: 30px;   
+
+    p{
+	    font-size: 13px;
+	    line-height: 16px;
+        color: $text-green;
+        font-family: 'Droid Sans';
+        font-weight: 400;
+        padding: 0;
+        margin: 0 0 7px 0;
+    }
+    .intro{
+    	font-weight: bold;
+    	text-indent: 7px;
+    	
+    }
+    
+    a{
+	    color: $link-blue;
+	    text-decoration: none;
+    }
+        
+}
+
+#button{
+
+@include grid(2);
+heigth: 40px;
+background-color: $dark-green;
+@include border_radius ( 10px);
+margin-bottom: 35px;
+a{
+	    color: $white;
+        font-size: 12px;
+        font-family: 'Droid Sans';
+        font-weight: bold;
+        margin-left: 11px;       
+ }
+ }
+ 
+#button-1{
+@include grid(3);
+@include alpha;
+@include omega;
+.interno{
+    width:130px;
+background-color: $dark-green;
+@include border_radius ( 10px);
+margin-bottom: 35px;
+a{
+	    color: $white;
+        font-size: 12px;
+        font-family: 'Droid Sans';
+        font-weight: bold;
+        margin-left: 11px;       
+ }
+ }
+ }
+#nuovo_commento{
+        @include grid(10.5);
+        @include alpha;
+        background-color: black;
+        clear: both;
+        margin-bottom: 35px;
+        textarea{
+                @include grid(10);
+                @include omega;
+                @include alpha;
+                 border: 1px solid #323232;
+        }
+}
+
+ul{
+	list-style-type: none !important;
+	li{
+		width: auto;
+		height: auto;
+		overflow: visible !important;
+		@include clearfix;
+		display: block;
+		
+		a{
+			text-decoration: none !important;
+			position: relative;
+			
+			.angolo{
+				width: 20px;
+				height: 20px;
+				background: url("../images/angolo_commenti_sx.png") repeat left top;
+				position: relative;
+				clear: left;
+			}
+			
+			.first_level{
+				top: 20px;
+				left: -10px;
+			}
+			
+			.second_level{
+				top: 20px;
+				left: 50px;
+			}
+			
+			.third_level{
+				top: 20px;
+				left: 110px;
+			}
+			
+			.commento{
+			        margin-bottom: 2px;
+			        @include omega;
+			        background-color: $light_soft-blue;
+			        float: left;
+//			        .rating{
+//			        	width: auto;
+//			        	height: auto;
+//			        
+//			        	.up_rating{
+//			        		width: 10px;
+//			        		height: 9px;
+//			        		background: url("../images/rating_commenti_up.png") repeat left top;
+//			        	}
+//			        	h4{
+//			        	}
+//			        	.down_rating{
+//			        		width: 10px;
+//			        		height: 9px;
+//			        		background: url("../images/rating_commenti_up.png") repeat left top;
+//			        	}
+//			        }
+			        .text{
+			        	.data{
+			        		.num{
+			        			background: $azzurro_fluo_medium !important;
+			        			float: left;
+			        			p{
+			        				font-weight: bold !important;
+			        				padding: 4px 0 !important;
+			        			}
+			        		}
+			        		.info-date{
+			        			font-family: 'Droid Sans';
+			        			font-size: 11px;
+			        			float: left;
+			        			color: $azzurro_fluo_medium;
+			        			margin-top: 20px;
+			        			.mese{
+			        				font-weight: 700;
+			        				text-transform: uppercase;
+			        			}
+			        		}
+			        	}
+			        }       
+			}
+			.spacer_comments{
+				clear: both;
+			}
+		}
+	}
+	li:first-child{
+		clear: both;
+	}
+}
+
+ul{
+	li{
+		a:hover, a:active{
+			.angolo{
+				background: url("../images/angolo_commenti_hover_sx.png") repeat left top;
+			}
+			.commento{
+				background-color: $soft-blue;
+			}
+		}
+	}
+}
+
+.primo_livello{
+        @include grid(10);
+        .text{
+         
+                @include grid(6);  
+                @include alpha;
+                }
+       
+
+}
+
+.secondo_livello{
+    @include grid-push(1);
+
+        @include grid(9);
+        
+        .text{
+                @include grid(5);  
+                @include alpha;
+        }
+}
+
+.terzo_livello{
+        @include grid-push(2);
+        @include grid(8);
+      
+        .text{
+
+                @include grid(4);  
+                @include alpha;
+
+        }
+}
+
+
