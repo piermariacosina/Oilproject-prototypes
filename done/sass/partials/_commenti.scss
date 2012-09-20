@@ -17,11 +17,13 @@ height: 15px;
 		  }
 }     
                 
-#container{
+                
+                
+#commenti-box{
         @include grid(11);
         
                      
-           }
+          
            
            
            .rispondi{
@@ -46,7 +48,7 @@ height: 15px;
           height: 10px;
           position: absolute;
           margin-left: 26px;
-          margin-top: 3px;
+          margin-top: 10px;
           
           
           }
@@ -136,7 +138,7 @@ height: 15px;
                 
         }
 
- 
+
  
 
 ul{
@@ -180,6 +182,8 @@ ul{
 			        @include omega;
 			        background-color: $light_soft-blue;
 			        float: left;
+			        height: auto;
+			        padding-top: 10px;
 //			        .rating{
 //			        	width: auto;
 //			        	height: auto;
@@ -279,3 +283,4 @@ ul{
 }
 
 
+  }
