@@ -1,7 +1,9 @@
 
 #textarea-commenti{
 	background-color: $light-green;
-	width: 1158px;
+	
+	clear: both;
+
 	height: 245px;
 	float: right;
 	
@@ -13,7 +15,8 @@
 	  	text-transform: uppercase;
 	  	color: $light-green;
 	  	margin-top: -23px;
-	  	
+	  	position: relative;
+	  	z-index: 2;
 	  	}
 	  
 	  	  .preview-commento{
@@ -24,26 +27,32 @@
 	  	float: right;
 	  	margin-right: -115px;
 	  	margin-top: 225px;
+	  	display: block;
+	  	margin-left:10px;
 	  	  
-	  	  
-	  	  	h1{
 	  	 color: $white;
 	  	 font-family: 'Droid Sans';
 	  	 font-size: 12px;
 	  	 font-weight: bold;
 	  	 text-transform: lowercase;
 	  	 position: absolute;
-	  	 margin-top: 1px;
-	  	 margin-left: 23px;
-	  	 }
+	  	 text-align: center;
+	  	 text-decoration: none;
 	  	 
-	  	 h1:active{
+	  	 &:active{
 	  	 color:$fluo-blue;
 	  	 }
 	  	 
 	  }
 	 	  
-	  
+	  .backgroundgreen{
+		  position: absolute;
+		  left:0;
+		  top:0;
+		  width: 50%;
+		  height: 245px;
+		  background: $light-green;
+	  }
 	  
 form fieldset textarea {
 	  	display: block;
