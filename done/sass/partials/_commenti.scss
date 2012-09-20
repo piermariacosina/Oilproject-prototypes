@@ -9,6 +9,7 @@ padding-bottom: 30px;
 margin-left: 40px;
 width: 24px;
 height: 15px;	
+float: left;
 
 		  p{
 		  color: $link-blue;
@@ -289,11 +290,7 @@ ul{
             margin-top:20px;
             z-index: 2;
         }
-.sec{
-            margin-left:60px;
-            margin-top:20px;
-            z-index: 2;
-        }
+
        
             
              .rispondi{
@@ -352,7 +349,7 @@ ul{
     margin-top:50px;
 }
 
-}
+
 
 
 .vota{
@@ -363,7 +360,7 @@ ul{
             height: 10px;
             position: absolute;
             margin-left: 26px;
-            margin-top: 15px;
+            margin-top: 6px;
             background-color: transparent;
             border: none;
 
@@ -373,7 +370,7 @@ ul{
             width: 10px;
             height: 10px;
             position: absolute;
-            margin-top: 45px;
+            margin-top: 36px;
             margin-left: 26px;
             background-color: transparent;
             border: none;
