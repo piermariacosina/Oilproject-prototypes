@@ -3175,10 +3175,8 @@ ul.commenti-recenti li .text p.data_commento span {
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  text-transform: uppercase;
   overflow: hidden;
   font-weight: normal;
-  text-transform: lowercase;
   margin-left: 70px;
 }
 /* line 53, ../sass/partials/_contenuto-singolo.scss */
@@ -6549,9 +6547,7 @@ h4.titoli_sezioni {
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  text-transform: uppercase;
   font-weight: normal;
-  text-transform: lowercase;
   margin-left: 70px;
   text-overflow: hidden;
   white-space: nowrap;
@@ -6561,7 +6557,7 @@ h4.titoli_sezioni {
   text-overflow: ellipsis;
   margin-top: 7px;
 }
-/* line 50, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 48, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria h3 a {
   text-decoration: none;
   color: white;
@@ -6579,7 +6575,7 @@ h4.titoli_sezioni {
 .categoria h3 a:active {
   color: white;
 }
-/* line 56, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 54, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -6588,7 +6584,7 @@ h4.titoli_sezioni {
   margin-top: -50px;
   margin-left: 70px;
 }
-/* line 63, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 61, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .relatore a {
   text-decoration: none;
   color: #4cc1b8;
@@ -6606,14 +6602,14 @@ h4.titoli_sezioni {
 .categoria .relatore a:active {
   color: #4cc1b8;
 }
-/* line 69, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 67, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .icon {
   font-size: 24px;
   top: 20px;
   left: 30px;
   position: absolute;
 }
-/* line 75, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 73, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .icon a {
   text-decoration: none;
   color: white;
@@ -6631,13 +6627,13 @@ h4.titoli_sezioni {
 .categoria .icon a:active {
   color: white;
 }
-/* line 80, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 78, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria #extras {
   margin-left: 400px;
   margin-top: -90px;
   position: absolute;
 }
-/* line 88, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 86, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .numero-lezioni-corso {
   position: relative;
   float: right;
@@ -6645,7 +6641,7 @@ h4.titoli_sezioni {
   margin: 5px 0 8px 0;
   margin-left: 180px;
 }
-/* line 95, ../sass/partials/_categoria-pagina-corso.scss */
+/* line 93, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria .numero-lezioni-corso .number {
   width: 19px;
   height: 19px;
@@ -7266,10 +7262,8 @@ h4.titoli_sezioni {
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  text-transform: uppercase;
   overflow: hidden;
   font-weight: normal;
-  text-transform: lowercase;
   margin-left: 70px;
 }
 /* line 84, ../sass/partials/_lezioni-corso.scss */
