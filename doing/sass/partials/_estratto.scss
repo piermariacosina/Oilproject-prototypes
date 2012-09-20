@@ -24,12 +24,22 @@
 	  	
 	  	}
 	  
-	  form fieldset label {
+	  /*form fieldset label {
 	  	display: block;
 	  	font-weight: bold;
 	  	color: $azzurro_title;
 	  	margin-left: -10px;
+	  	}*/
+	  	
+	  	label {
+	  		
+	  		display: block;
+	  		margin: 21px 0 5px 0;
+	  		font-weight: bold;
+	  		text-transform: uppercase;
+	  		color: #7ac3b8;
 	  	}
+	  	
 	  	
 	 	  	
 	  .preview{
@@ -60,12 +70,12 @@
 	  	}
 	  
 	  
-	  .sottolineato{
+	 /* .sottolineato{
 	  	background: image-url("sottolineato-form.png") no-repeat left top;
 	  	width: 77px;
 	  	height: 6px;
 	  	margin-left: 3px;
-	  }
+	  }*/
 	  
 	  form fieldset textarea {
 	    margin-left: -15px;
