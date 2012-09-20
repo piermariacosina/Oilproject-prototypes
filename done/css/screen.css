@@ -1490,7 +1490,86 @@ a.btn.grey:visited {
   color: #057c79;
 }
 
-/* line 142, ../sass/partials/_buttons.scss */
+/* line 140, ../sass/partials/_buttons.scss */
+a.btn.grey {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  margin-left: 0;
+  display: inline-block;
+  text-decoration: none;
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: lowercase;
+  background-color: white;
+  cursor: pointer;
+  line-height: 20px;
+  margin-left: 450px;
+}
+/* line 161, ../sass/partials/_buttons.scss */
+a.btn.grey:hover {
+  background: #43d1b4;
+  color: #094934;
+}
+/* line 165, ../sass/partials/_buttons.scss */
+a.btn.grey:visited {
+  background: #43d1b4;
+  color: #057c79;
+}
+
+/* line 172, ../sass/partials/_buttons.scss */
+.btn.fluo {
+  display: inline-block;
+  width: 162px;
+  height: 22px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  margin-left: 0;
+  display: inline-block;
+  text-decoration: none;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: lowercase;
+  background-color: #00ffb0;
+  cursor: pointer;
+  line-height: 14px;
+  margin-left: 380px;
+  margin-top: 18px;
+}
+/* line 196, ../sass/partials/_buttons.scss */
+.btn.fluo:hover {
+  background: white;
+  color: #094934;
+}
+/* line 200, ../sass/partials/_buttons.scss */
+.btn.fluo:visited {
+  background: #43d1b4;
+  color: #057c79;
+}
+
+/* line 208, ../sass/partials/_buttons.scss */
 div.buttons {
   display: inline;
   float: left;
