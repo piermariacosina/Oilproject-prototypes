@@ -1,7 +1,8 @@
 .sottocategorie-container{
 	
 		@include grid(5);
-		padding-left: 10px;		
+		padding-left: 10px;
+		float: none;		
 		.sottocategoria{
 				@include grid(5);
 				height: 31px;
