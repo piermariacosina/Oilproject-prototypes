@@ -14,7 +14,7 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 
 /* line 86, ../sass/screen.scss */
 div.corner.left {
-  background: url('../images/corner-left.png?1347643269') no-repeat left top;
+  background: url('../images/corner-left.png?1347628549') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-left: -6px;
@@ -23,7 +23,7 @@ div.corner.left {
 }
 /* line 93, ../sass/screen.scss */
 div.corner.right {
-  background: url('../images/corner-right.png?1347643269') no-repeat left top;
+  background: url('../images/corner-right.png?1347628549') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-right: -6px;
@@ -32,7 +32,7 @@ div.corner.right {
 }
 /* line 100, ../sass/screen.scss */
 div.corner.left.striped {
-  background: url('../images/corner-left-striped.png?1347643269') no-repeat left top;
+  background: url('../images/corner-left-striped.png?1347628549') no-repeat left top;
   height: 21px;
   width: 20px;
   margin-left: -20px;
@@ -1679,7 +1679,7 @@ div.buttons {
   margin-left: 0;
   margin-right: 0;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso.png?1347643269') no-repeat left top;
+  background: url('../images/crea-il-tuo-corso.png?1347628549') no-repeat left top;
   position: relative;
   position: relative;
   left: -120px;
@@ -1702,7 +1702,7 @@ div.buttons {
   top: 20px;
   width: 50%;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso-bg.png?1347643269') repeat-x left top;
+  background: url('../images/crea-il-tuo-corso-bg.png?1347628549') repeat-x left top;
 }
 
 /* line 4, ../sass/partials/_bottone-segui-utente.scss */
@@ -1728,7 +1728,7 @@ div.buttons {
 /* line 5, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato {
   position: relative;
-  background: url('../images/background-corso-iniziato.png?1347643269') no-repeat left top;
+  background: url('../images/background-corso-iniziato.png?1347642999') no-repeat left top;
   width: 330px;
   height: 247px;
   display: inline;
@@ -1804,7 +1804,7 @@ div.buttons {
 }
 /* line 76, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .caricamento {
-  background: url('../images/box-caricamento.png?1347643269') no-repeat left top;
+  background: url('../images/box-caricamento.png?1347628549') no-repeat left top;
   width: 223px;
   height: 32px;
   margin-top: 137px;
@@ -1832,7 +1832,7 @@ div.buttons {
 .corso {
   width: 638px;
   height: 209px;
-  background: url('../images/box-corso-categoria.png?1347643269') no-repeat left top;
+  background: url('../images/box-corso-categoria.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
@@ -2077,12 +2077,12 @@ div.buttons {
   margin-right: 20px;
   height: 2px;
   clear: both;
-  background: url('../images/divisore-2.png?1347643269');
+  background: url('../images/divisore-2.png?1347628549');
 }
 
 /* line 1, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio {
-  background: url('../images/box-singolo-esercizio.png?1347643269') no-repeat left top;
+  background: url('../images/box-singolo-esercizio.png?1347628549') no-repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -2285,7 +2285,7 @@ ul.breadcrumb-list a:active {
 }
 /* line 7, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-intro {
-  background: url('../images/breadcrumb-intro.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb-intro.png?1347892130') no-repeat left top;
   width: 114px;
   height: 31px;
   float: left;
@@ -2319,7 +2319,7 @@ ul.breadcrumb-list #breadcrumbs-intro .bread-intro span {
 }
 /* line 45, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs {
-  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -2342,7 +2342,7 @@ ul.breadcrumb-list #breadcrumbs span {
 }
 /* line 73, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-2 {
-  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -2365,7 +2365,7 @@ ul.breadcrumb-list #breadcrumbs-2 span {
 }
 /* line 101, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-3 {
-  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -2397,7 +2397,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 /* line 136, ../sass/partials/_breadcrumb.scss */
 #numbers-likes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background-likes2.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes2.png?1347892130') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -2435,7 +2435,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 /* line 180, ../sass/partials/_breadcrumb.scss */
 #numbers-dislikes-breadcrumbs {
   margin-top: 10px;
-  background: url('../images/background-likes2.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes2.png?1347892130') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -2548,7 +2548,7 @@ ul.commenti-recenti .box_number .number_c {
 }
 /* line 37, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li {
-  background: url('../images/background.png?1347643269') no-repeat left top;
+  background: url('../images/background.png?1347628549') no-repeat left top;
   overflow: hidden;
   *zoom: 1;
   margin: 3px;
@@ -2642,7 +2642,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .container-corsi li a .box-corso {
   width: 312px;
   height: 363px;
-  background: url('../images/corsi-bg.png?1347643269') no-repeat left top;
+  background: url('../images/corsi-bg.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
 }
@@ -2757,11 +2757,11 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 133, ../sass/partials/_container-corsi.scss */
 .container-corsi li a:hover .box-corso, .container-corsi li a:visited .box-corso {
-  background: url('../images/corsi-bg-hover.png?1347643269') no-repeat left top;
+  background: url('../images/corsi-bg-hover.png?1347628549') no-repeat left top;
 }
 /* line 142, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso {
-  background: url('../images/corsi-bg-linguetta.png?1347643269') no-repeat left top;
+  background: url('../images/corsi-bg-linguetta.png?1347628549') no-repeat left top;
   position: relative;
   width: 330px;
 }
@@ -2791,7 +2791,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 168, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a:hover .box-corso, .container-corsi li:first-child a:visited .box-corso {
-  background: url('../images/corsi-bg-linguetta-hover.png?1347643269') no-repeat left top;
+  background: url('../images/corsi-bg-linguetta-hover.png?1347628549') no-repeat left top;
 }
 /* line 174, ../sass/partials/_container-corsi.scss */
 .container-corsi li:last-child {
@@ -2881,7 +2881,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 73, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video, .container-lezioni .box-video-spacer a:visited .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 75, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video h1, .container-lezioni .box-video-spacer a:visited .box-video h1 {
@@ -2905,7 +2905,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .container-lezioni .list-lezioni .categorie {
   width: 231px;
   height: 49px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin-right: 3px;
   margin-left: 0;
 }
@@ -3098,7 +3098,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 267, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 271, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover, .container-lezioni .lezioni a:visited {
@@ -3178,7 +3178,7 @@ ul.commenti-recenti li .text p.data_commento span {
   left: -12px;
   width: 18px;
   height: 18px;
-  background: url('../images/corner-left-big.png?1347643269') no-repeat left top;
+  background: url('../images/corner-left-big.png?1347642999') no-repeat left top;
 }
 /* line 26, ../sass/partials/_contenuto-singolo.scss */
 .lezione h4 {
@@ -3400,7 +3400,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .corsi-creati .box-corso {
   width: 320px;
   height: 290px;
-  background: url('../images/background-profilo-categoria.png?1347643269') no-repeat left top;
+  background: url('../images/background-profilo-categoria.png?1347642999') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
@@ -3573,7 +3573,7 @@ ul.commenti-recenti li .text p.data_commento span {
   margin-right: 10px;
   width: 400px;
   height: 285px;
-  background: url('../images/home-video-linguetta.png?1347643269') no-repeat left top;
+  background: url('../images/home-video-linguetta.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   overflow: visible;
@@ -3753,7 +3753,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 77, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:hover .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 82, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:visited .box-video {
@@ -3779,7 +3779,7 @@ footer#footer {
 /* line 4, ../sass/partials/_footer.scss */
 footer#footer .barra-top {
   position: relative;
-  background: url('../images/diagonal-dark-green.png?1347643269') repeat left top;
+  background: url('../images/diagonal-dark-green.png?1347628549') repeat left top;
   height: 10px;
   border-top: 1px solid #8be5e1;
 }
@@ -3923,7 +3923,7 @@ footer#footer .barra-bottom {
   margin-top: 30px;
   clear: both;
   position: relative;
-  background: url('../images/diagonal-dark-green.png?1347643269') repeat left top;
+  background: url('../images/diagonal-dark-green.png?1347628549') repeat left top;
   overflow: hidden;
   *zoom: 1;
 }
@@ -3943,7 +3943,7 @@ footer#footer .barra-bottom .creative-commons h1 {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/cc.png?1347643269');
+  background-image: url('../images/cc.png?1347628549');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 130px;
@@ -4131,14 +4131,14 @@ footer#footer .barra-bottom .footer-menu a:active {
 }
 /* line 227, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu a:hover .icon {
-  background: url('../images/diagonal-green-scuro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
 }
 /* line 231, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 15px;
   margin-right: 15px;
   height: 8px;
-  background: url('../images/diagonal-green-darker.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-darker.png?1347628549') repeat left top;
   margin: auto;
 }
 
@@ -4274,7 +4274,7 @@ header#main section#menu .contenitore nav ul li a span {
 /* line 73, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a:hover .underline {
   height: 8px;
-  background: url('../images/diagonal-green-scuro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
   margin: 0 18px;
 }
 /* line 78, ../sass/partials/_header.scss */
@@ -4286,7 +4286,7 @@ header#main section#menu .contenitore nav ul li a:hover span {
 /* line 86, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li .underline {
   height: 8px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 18px;
 }
 /* line 96, ../sass/partials/_header.scss */
@@ -4338,7 +4338,7 @@ header#main section#menu .contenitore #search input#search-submit {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/search.png?1347643269');
+  background-image: url('../images/search.png?1347628549');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 28px;
@@ -4379,7 +4379,7 @@ header#main section#dashboard-loggedout #vision {
   float: left;
   width: 870px;
   height: 69px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
 }
 /* line 163, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p {
@@ -4405,7 +4405,7 @@ header#main section#dashboard-loggedout #vision p b, header#main section#dashboa
 }
 /* line 179, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision .icon {
-  background: url('../images/icon-vision.png?1347643269') repeat left top;
+  background: url('../images/icon-vision.png?1347628549') repeat left top;
   width: 62px;
   height: 45px;
   margin-top: 12px;
@@ -4569,7 +4569,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 315, ../sass/partials/_header.scss */
 .notice-list .left-white {
-  background: url('../images/left-white.png?1347872261') no-repeat left top;
+  background: url('../images/left-white.png?1347892130') no-repeat left top;
   width: 2px;
   height: 8px;
   position: absolute;
@@ -4578,7 +4578,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 323, ../sass/partials/_header.scss */
 .notice-list .right-white {
-  background: url('../images/right-white.png?1347872261') no-repeat left top;
+  background: url('../images/right-white.png?1347892130') no-repeat left top;
   width: 2px;
   height: 8px;
   position: absolute;
@@ -4662,7 +4662,7 @@ header#main section#dashboard-loggedin .logout p {
   width: 100%;
   height: 400px;
   margin-top: 10px;
-  background: url('../images/diagonal-green-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-bg.png?1347628549') repeat left top;
   margin-left: 10px;
   padding-left: 10px;
   position: relative;
@@ -4691,7 +4691,7 @@ header#main section#dashboard-loggedin .logout p {
   height: 18px;
   left: -18px;
   position: absolute;
-  background: url('../images/corner-fluo-left-stripes.png?1347966794') no-repeat top left;
+  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
 }
 /* line 15, ../sass/partials/_lesson.scss */
 #lesson .infor {
@@ -4898,7 +4898,7 @@ header#main section#dashboard-loggedin .logout p {
 #prefooter .categoria-container .categoria-title {
   width: 108px;
   height: 31px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 0 10px 0;
 }
 /* line 19, ../sass/partials/_prefooter.scss */
@@ -5002,7 +5002,7 @@ header#main section#dashboard-loggedin .logout p {
 
 /* line 4, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente {
-  background: url('../images/background-profilo.png?1347643269') no-repeat left top;
+  background: url('../images/background-profilo.png?1347628549') no-repeat left top;
   width: 618px;
   height: 371px;
   position: absolute;
@@ -5119,7 +5119,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 111, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #banner {
-  background: url('../images/banner-premi.png?1347643269') no-repeat left top;
+  background: url('../images/banner-premi.png?1347628549') no-repeat left top;
   width: 115px;
   height: 121px;
   margin-left: 511px;
@@ -5157,14 +5157,14 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 145, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .facebook {
-  background: url('../images/icona-facebook.png?1347643269') no-repeat left top;
+  background: url('../images/icona-facebook.png?1347628549') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
 }
 /* line 153, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .twitter {
-  background: url('../images/icona-twitter.png?1347643269') no-repeat left top;
+  background: url('../images/icona-twitter.png?1347628549') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
@@ -5246,7 +5246,7 @@ header#main section#dashboard-loggedin .logout p {
 /* line 232, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-likes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes.png?1347642999') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -5286,7 +5286,7 @@ header#main section#dashboard-loggedin .logout p {
 /* line 267, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-dislikes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes.png?1347642999') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -5325,7 +5325,7 @@ header#main section#dashboard-loggedin .logout p {
 
 /* line 307, ../sass/partials/_profilo-mio-utente.scss */
 .divisore-profilo {
-  background: url('../images/divisore-profilo.png?1347643269') no-repeat left top;
+  background: url('../images/divisore-profilo.png?1347628549') no-repeat left top;
   width: 600px;
   height: 2px;
   margin-top: 164px;
@@ -5374,7 +5374,7 @@ header#main section#dashboard-loggedin .logout p {
 }
 /* line 46, ../sass/partials/_sidebar-help.scss */
 .titolo-sidebar.exclamation {
-  background: url('../images/icona-help.png?1347643269') no-repeat;
+  background: url('../images/icona-help.png?1347628549') no-repeat;
 }
 /* line 52, ../sass/partials/_sidebar-help.scss */
 .titolo-sidebar p {
@@ -5726,7 +5726,7 @@ div.row {
 
 /* line 5, ../sass/partials/_titolo-registrati.scss */
 #titolo-registrati {
-  background: url('../images/diagonal-green-scuro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
   height: 400px;
   height: 400px;
   width: 620px;
@@ -5775,7 +5775,7 @@ div.row {
   margin-right: 10px;
   width: 280px;
   height: 31px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin: 0 0 10px 0;
 }
 /* line 10, ../sass/partials/_sidebar-sottocategorie.scss */
@@ -5851,19 +5851,19 @@ div.row {
   color: #49ada8;
   cursor: pointer;
   width: 200px;
-  background: url('../images/grid-sottocategorie.png?1347643269') no-repeat left center;
+  background: url('../images/grid-sottocategorie.png?1347628549') no-repeat left center;
   display: block;
   padding-left: 51px;
 }
 /* line 69, ../sass/partials/_sidebar-sottocategorie.scss */
 .sottocategorie-container ul li a:hover, .sottocategorie-container ul li a:visited {
   color: #084936;
-  background: url('../images/grid-sottocategorie-dark.png?1347643269') no-repeat left center;
+  background: url('../images/grid-sottocategorie-dark.png?1347628549') no-repeat left center;
 }
 
 /* line 1, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio {
-  background: url('../images/box-singolo-esercizio.png?1347643269') no-repeat left top;
+  background: url('../images/box-singolo-esercizio.png?1347628549') no-repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -6077,7 +6077,7 @@ h4.titoli_sezioni {
 /* line 5, ../sass/partials/_titoli-edit.scss */
 .titoli-edit {
   margin-top: 10px;
-  background: url('../images/diagonal-green-scuro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -6188,7 +6188,7 @@ h4.titoli_sezioni {
 }
 /* line 70, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .box-video-spacer a:hover .box-video, .container-lezioni-flexible .box-video-spacer a:visited .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 72, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .box-video-spacer a:hover .box-video h1, .container-lezioni-flexible .box-video-spacer a:visited .box-video h1 {
@@ -6212,7 +6212,7 @@ h4.titoli_sezioni {
 .container-lezioni-flexible .list-lezioni .categoria {
   width: 207px;
   height: 49px;
-  background: url('../images/diagonal-white-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
   margin-right: 3px;
   margin-left: 0;
 }
@@ -6405,7 +6405,7 @@ h4.titoli_sezioni {
 }
 /* line 264, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .lezioni a:hover .box-lezione {
-  background: url('../images/diagonal-azzurro-bg.png?1347643269') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
 }
 /* line 268, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .lezioni a:hover, .container-lezioni-flexible .lezioni a:visited {
@@ -6538,7 +6538,7 @@ h4.titoli_sezioni {
   margin-left: 10px;
   margin-right: 10px;
   width: 640px;
-  background: url('../images/contenitore-categoria-corso.png?1347892642') no-repeat left top;
+  background: url('../images/contenitore-categoria-corso.png?1347892912') no-repeat left top;
   width: 625px;
   height: 88px;
   font-family: 'Droid Sans';
@@ -6550,7 +6550,7 @@ h4.titoli_sezioni {
 }
 /* line 16, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria.viewed, .categoria:visited {
-  background: url('../images/contenitore-categoria-corso-2.png?1347892642') no-repeat left top;
+  background: url('../images/contenitore-categoria-corso-2.png?1347892912') no-repeat left top;
 }
 /* line 20, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria h4 {
@@ -6709,7 +6709,7 @@ h4.titoli_sezioni {
   float: left;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: url('../images/diagonal-green-bg.png?1347643269') repeat top left;
+  background: url('../images/diagonal-green-bg.png?1347628549') repeat top left;
 }
 /* line 14, ../sass/partials/_box-video-corso.scss */
 .video-corso .corner {
@@ -6717,7 +6717,7 @@ h4.titoli_sezioni {
   height: 18px;
   left: -18px;
   position: absolute;
-  background: url('../images/corner-fluo-left-stripes.png?1347966794') no-repeat top left;
+  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
 }
 /* line 19, ../sass/partials/_box-video-corso.scss */
 .video-corso a.btn.dark.noborder {
@@ -6862,7 +6862,7 @@ h4.titoli_sezioni {
 
 /* line 127, ../sass/partials/_box-video-corso.scss */
 .divisore-corso-video {
-  background: url('../images/divisore-2.png?1347643269');
+  background: url('../images/divisore-2.png?1347628549');
   margin-top: 5px;
   margin-left: 40px;
   clear: both;
@@ -7080,7 +7080,7 @@ h4.titoli_sezioni {
 }
 /* line 48, ../sass/partials/_registrazione.scss */
 .edit-container .asterisco {
-  background: url('../images/asterisco.png?1347643269') no-repeat;
+  background: url('../images/asterisco.png?1347628549') no-repeat;
   width: 28px;
   height: 28px;
   position: absolute;
@@ -7093,7 +7093,7 @@ h4.titoli_sezioni {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: url('../images/freccia-select.png?1347977572') no-repeat right, url('../images/ombra-select.png?1347977572') repeat-x right, #7ddbd2;
+  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 71, ../sass/partials/_registrazione.scss */
@@ -7184,7 +7184,7 @@ h4.titoli_sezioni {
 }
 /* line 7, ../sass/partials/_campi-obbligatori.scss */
 .campi-obbligatori .asterisco {
-  background: url('../images/asterisco.png?1347643269') no-repeat;
+  background: url('../images/asterisco.png?1347628549') no-repeat;
   width: 28px;
   height: 28px;
   margin-top: 5px;
@@ -7223,7 +7223,7 @@ h4.titoli_sezioni {
   width: 640px;
   width: 638px;
   height: 92px;
-  background: url('../images/box-corso-categoria.png?1347643269') no-repeat left top;
+  background: url('../images/box-corso-categoria.png?1347628549') no-repeat left top;
   font-family: 'Droid Sans';
   display: inline;
   float: left;
@@ -7737,7 +7737,7 @@ ul.breadcrumb-list a:active {
 }
 /* line 7, ../sass/partials/_breadcrumb-grande.scss */
 ul.breadcrumb-list #breadcrumbs-intro {
-  background: url('../images/breadcrumb-intro.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb-intro.png?1347892130') no-repeat left top;
   width: 114px;
   height: 31px;
   float: left;
@@ -7766,7 +7766,7 @@ ul.breadcrumb-list #breadcrumbs-intro span {
 }
 /* line 41, ../sass/partials/_breadcrumb-grande.scss */
 ul.breadcrumb-list #breadcrumbs {
-  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -7789,7 +7789,7 @@ ul.breadcrumb-list #breadcrumbs span {
 }
 /* line 69, ../sass/partials/_breadcrumb-grande.scss */
 ul.breadcrumb-list #breadcrumbs-2 {
-  background: url('../images/breadcrumb.png?1347643269') no-repeat left top;
+  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -7812,7 +7812,7 @@ ul.breadcrumb-list #breadcrumbs-2 span {
 }
 /* line 97, ../sass/partials/_breadcrumb-grande.scss */
 ul.breadcrumb-list #breadcrumbs-grande {
-  background: url('../images/bread-crumb.png?1347643269') no-repeat left top;
+  background: url('../images/bread-crumb.png?1347628549') no-repeat left top;
   width: 170px;
   height: 38px;
   float: left;
@@ -8040,7 +8040,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: url('../images/freccia-select.png?1347977572') no-repeat right, url('../images/ombra-select.png?1347977572') repeat-x right, #7ddbd2;
+  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 42, ../sass/partials/_select-categoria.scss */
@@ -8140,7 +8140,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: url('../images/freccia-select.png?1347977572') no-repeat right, url('../images/ombra-select.png?1347977572') repeat-x right, #7ddbd2;
+  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 60, ../sass/partials/_link-riferimento-edit.scss */
@@ -8560,7 +8560,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 
 /* line 4, ../sass/partials/_profilo-altro-utente.scss */
 #profilo-mio-utente {
-  background: url('../images/background-profilo.png?1347643269') no-repeat left top;
+  background: url('../images/background-profilo.png?1347628549') no-repeat left top;
   width: 618px;
   height: 371px;
   position: absolute;
@@ -8677,7 +8677,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 }
 /* line 111, ../sass/partials/_profilo-altro-utente.scss */
 #profilo-mio-utente #banner {
-  background: url('../images/banner-premi.png?1347643269') no-repeat left top;
+  background: url('../images/banner-premi.png?1347628549') no-repeat left top;
   width: 115px;
   height: 121px;
   margin-left: 511px;
@@ -8715,14 +8715,14 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 }
 /* line 145, ../sass/partials/_profilo-altro-utente.scss */
 #profilo-mio-utente #social .facebook {
-  background: url('../images/icona-facebook.png?1347643269') no-repeat left top;
+  background: url('../images/icona-facebook.png?1347628549') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
 }
 /* line 153, ../sass/partials/_profilo-altro-utente.scss */
 #profilo-mio-utente #social .twitter {
-  background: url('../images/icona-twitter.png?1347643269') no-repeat left top;
+  background: url('../images/icona-twitter.png?1347628549') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
@@ -8804,7 +8804,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 /* line 232, ../sass/partials/_profilo-altro-utente.scss */
 #numbers-likes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes.png?1347642999') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -8844,7 +8844,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 /* line 267, ../sass/partials/_profilo-altro-utente.scss */
 #numbers-dislikes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347643269') no-repeat left top;
+  background: url('../images/background-likes.png?1347642999') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -8883,85 +8883,11 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 
 /* line 307, ../sass/partials/_profilo-altro-utente.scss */
 .divisore-profilo {
-  background: url('../images/divisore-profilo.png?1347643269') no-repeat left top;
+  background: url('../images/divisore-profilo.png?1347628549') no-repeat left top;
   width: 600px;
   height: 2px;
   margin-top: 164px;
   margin-left: -22px;
-}
-
-/* line 1, ../sass/partials/_bottone-registrati.scss */
-.paragrafo-video-corso {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 580px;
-  padding-left: 10px;
-  margin-top: 40px;
-}
-/* line 6, ../sass/partials/_bottone-registrati.scss */
-.paragrafo-video-corso p {
-  font-family: 'Droid Sans';
-  font-weight: normal;
-  font-size: 13px;
-  color: #3d635f;
-}
-/* line 15, ../sass/partials/_bottone-registrati.scss */
-.paragrafo-video-corso a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #4cc1b8;
-  cursor: pointer;
-}
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.paragrafo-video-corso a:visited {
-  color: #4cc1b8;
-}
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.paragrafo-video-corso a:hover {
-  color: #00ffb0;
-}
-/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.paragrafo-video-corso a:active {
-  color: #4cc1b8;
-}
-
-/* line 1, ../sass/partials/_bottone-salva.scss */
-.paragrafo-video-corso {
-  display: inline;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 580px;
-  padding-left: 10px;
-  margin-top: 40px;
-}
-/* line 6, ../sass/partials/_bottone-salva.scss */
-.paragrafo-video-corso p {
-  font-family: 'Droid Sans';
-  font-weight: normal;
-  font-size: 13px;
-  color: #3d635f;
-}
-/* line 15, ../sass/partials/_bottone-salva.scss */
-.paragrafo-video-corso a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #4cc1b8;
-  cursor: pointer;
-}
-/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.paragrafo-video-corso a:visited {
-  color: #4cc1b8;
-}
-/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.paragrafo-video-corso a:hover {
-  color: #00ffb0;
-}
-/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-.paragrafo-video-corso a:active {
-  color: #4cc1b8;
 }
 
 /* line 1, ../sass/partials/_form-titolo.scss */
@@ -9028,7 +8954,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: url('../images/freccia-select.png?1347977572') no-repeat right, url('../images/ombra-select.png?1347977572') repeat-x right, #7ddbd2;
+  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 60, ../sass/partials/_form-titolo.scss */
@@ -9099,4 +9025,1328 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 /* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .paragrafo-video-corso a:active {
   color: #4cc1b8;
+}
+
+/* line 2, ../sass/partials/_domanda-esercizio.scss */
+#box-esercizio {
+  background-color: #057c79;
+  width: 599px;
+  height: 95px;
+  margin-left: 30px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+/* line 11, ../sass/partials/_domanda-esercizio.scss */
+#box-esercizio h1 {
+  width: 523px;
+  position: absolute;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  line-height: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+/* line 26, ../sass/partials/_domanda-esercizio.scss */
+#box-esercizio p {
+  position: absolute;
+  font-size: 12px;
+  color: #4cc1b8;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  line-height: 14px;
+  margin-top: 55px;
+  margin-left: 74px;
+}
+/* line 38, ../sass/partials/_domanda-esercizio.scss */
+#box-esercizio h2 {
+  position: absolute;
+  font-size: 17px;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  margin-top: 8px;
+  margin-left: 74px;
+  line-height: 20px;
+}
+
+/* line 51, ../sass/partials/_domanda-esercizio.scss */
+#linea {
+  background-color: #057c79;
+  height: 1px;
+  width: 599px;
+  margin-top: 1px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 1, ../sass/partials/_newsletter.scss */
+#newsletter {
+  background-color: #e1fffd;
+  width: 620px;
+  margin-left: 30px;
+}
+/* line 8, ../sass/partials/_newsletter.scss */
+#newsletter form {
+  width: 401px;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  margin-left: 80px;
+  padding-top: 30px;
+}
+/* line 16, ../sass/partials/_newsletter.scss */
+#newsletter form p {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+/* line 22, ../sass/partials/_newsletter.scss */
+#newsletter form input {
+  float: left;
+  margin-top: 10px;
+}
+/* line 29, ../sass/partials/_newsletter.scss */
+#newsletter h1 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 80px;
+  padding-top: 30px;
+  text-shadow: 0px 2px 1px white;
+}
+
+/* line 52, ../sass/partials/_newsletter.scss */
+#privacy {
+  background-color: #e1fffd;
+  width: 620px;
+  height: 280px;
+  margin-left: 30px;
+}
+/* line 60, ../sass/partials/_newsletter.scss */
+#privacy form {
+  width: 401px;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  margin-left: 80px;
+  padding-top: 30px;
+}
+/* line 68, ../sass/partials/_newsletter.scss */
+#privacy form p {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+/* line 74, ../sass/partials/_newsletter.scss */
+#privacy form input {
+  float: left;
+  margin-top: 10px;
+}
+/* line 81, ../sass/partials/_newsletter.scss */
+#privacy h1 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 80px;
+  padding-top: 30px;
+  text-shadow: 0px 2px 1px white;
+}
+
+/* line 106, ../sass/partials/_newsletter.scss */
+#divisore {
+  background-color: #A1E2DA;
+  height: 1px;
+  width: 460px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+/* line 116, ../sass/partials/_newsletter.scss */
+#divisore2 {
+  background-color: #E9FFFD;
+  height: 1px;
+  width: 460px;
+  margin-left: 80px;
+}
+
+/* line 126, ../sass/partials/_newsletter.scss */
+form fieldset {
+  margin: 0px 0 20px 30px;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+}
+
+/* line 133, ../sass/partials/_newsletter.scss */
+form fieldset label {
+  display: block;
+  margin: 30px 0 5px 0;
+  font-weight: bold;
+  color: #49ada8;
+}
+
+/* line 139, ../sass/partials/_newsletter.scss */
+form fieldset input.form-text {
+  display: block;
+  width: 50%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #65C1B0;
+  background: #B9EFEB;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 154, ../sass/partials/_newsletter.scss */
+form input[type="submit"] {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background: #eee;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 168, ../sass/partials/_newsletter.scss */
+#form_registrazione {
+  background-color: #e1fffd;
+  width: 620px;
+  height: 250px;
+  margin-left: 30px;
+}
+
+/* line 2, ../sass/partials/_form.scss */
+#form-registrazione {
+  background-color: #e1fffd;
+  width: 620px;
+  height: 250px;
+}
+/* line 9, ../sass/partials/_form.scss */
+#form-registrazione form fieldset {
+  margin: 0px 0 20px 30px;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+}
+/* line 16, ../sass/partials/_form.scss */
+#form-registrazione form fieldset label {
+  display: block;
+  margin: 30px 0 5px 0;
+  font-weight: bold;
+  color: #49ada8;
+}
+/* line 22, ../sass/partials/_form.scss */
+#form-registrazione form fieldset input.form-text {
+  display: block;
+  width: 50%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #65C1B0;
+  background: #B9EFEB;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 37, ../sass/partials/_form.scss */
+#form-registrazione form input[type="submit"] {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background: #6cd8c9;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #084936;
+}
+/* line 50, ../sass/partials/_form.scss */
+#form-registrazione .form-actions {
+  margin-top: 18px;
+  padding: 17px 4px 18px;
+  background: none;
+  border-top: none;
+}
+/* line 58, ../sass/partials/_form.scss */
+#form-registrazione form input[type="submit"]:hover,
+#form-registrazione form input[type="submit"]:focus {
+  border: 1px solid #bbb;
+  background: #e5e5e5;
+}
+/* line 63, ../sass/partials/_form.scss */
+#form-registrazione #asterisco {
+  background: url('../images/asterisco.png?1347628549') no-repeat;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 11px;
+}
+
+/* line 1, ../sass/partials/_newsletter-check.scss */
+#form-risposta-multipla {
+  background-color: #e1fffd;
+  width: 620px;
+  height: 200px;
+}
+/* line 8, ../sass/partials/_newsletter-check.scss */
+#form-risposta-multipla h1 {
+  font-family: 'Droid Sans';
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #057c79;
+  padding: 0 0 40px 0;
+}
+/* line 16, ../sass/partials/_newsletter-check.scss */
+#form-risposta-multipla p {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: bold;
+  color: #3d635f;
+  line-height: 14px;
+}
+/* line 23, ../sass/partials/_newsletter-check.scss */
+#form-risposta-multipla p .link1 {
+  color: #24d1c8;
+}
+/* line 28, ../sass/partials/_newsletter-check.scss */
+#form-risposta-multipla .accetto1 {
+  float: left;
+  margin-right: 10px;
+}
+/* line 32, ../sass/partials/_newsletter-check.scss */
+#form-risposta-multipla .accetto2 {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 2, ../sass/partials/_estratto.scss */
+#estratto-carica-testo {
+  background-color: #f7fcfb;
+  border: 1px solid #daede9;
+  width: 620px;
+  height: 330px;
+  -webkit-box-shadow: 0px 2px 1px true #084936;
+  -moz-box-shadow: 0px 2px 1px true #084936;
+  box-shadow: 0px 2px 1px true #084936;
+  /*form fieldset label {
+  	display: block;
+  	font-weight: bold;
+  	color: $azzurro_title;
+  	margin-left: -10px;
+  	}*/
+  /* .sottolineato{
+   	background: image-url("sottolineato-form.png") no-repeat left top;
+   	width: 77px;
+   	height: 6px;
+   	margin-left: 3px;
+   }*/
+}
+/* line 16, ../sass/partials/_estratto.scss */
+#estratto-carica-testo form fieldset {
+  margin: 0px 0 20px 30px;
+  font-family: 'Droid Sans';
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #057c79;
+  margin-top: -23px;
+}
+/* line 34, ../sass/partials/_estratto.scss */
+#estratto-carica-testo label {
+  display: block;
+  margin: 21px 0 5px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7ac3b8;
+}
+/* line 45, ../sass/partials/_estratto.scss */
+#estratto-carica-testo .preview {
+  background-color: #084936;
+  width: 147px;
+  height: 32px;
+  border-radius: 20px;
+  margin-left: 14px;
+  margin-top: 30px;
+}
+/* line 54, ../sass/partials/_estratto.scss */
+#estratto-carica-testo .preview h1 {
+  color: white;
+  font-family: 'Droid Sans';
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 19px;
+}
+/* line 67, ../sass/partials/_estratto.scss */
+#estratto-carica-testo .preview:hover {
+  border: 1px solid #bbb;
+  background: #3d635f;
+}
+/* line 80, ../sass/partials/_estratto.scss */
+#estratto-carica-testo form fieldset textarea {
+  margin-left: -15px;
+  display: block;
+  width: 578px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #65c1b0;
+  background: #b9efeb;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 96, ../sass/partials/_estratto.scss */
+#estratto-carica-testo form fieldset textarea {
+  height: 178px;
+}
+
+/* line 5, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina form fieldset {
+  margin: 0px 0 20px 30px;
+  font-family: 'Droid Sans';
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #057c79;
+  margin-top: -23px;
+}
+/* line 16, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina .sottolineato {
+  background: url('../images/sottolineato-form.png?1347892130') no-repeat left top;
+  width: 212px;
+  height: 6px;
+  margin-left: 3px;
+}
+/* line 24, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina .foto-copertina {
+  background: url('../images/foto-utente.png?1347642999') no-repeat left top;
+  width: 194px;
+  height: 181px;
+}
+/* line 31, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina fieldset {
+  float: left;
+}
+/* line 35, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina .select-submit {
+  float: left;
+  margin-top: 80px;
+}
+/* line 39, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina .select-submit #select {
+  width: 286px;
+}
+/* line 46, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina form input[type="submit"] {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background: #6cd8c9;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #084936;
+  width: 93px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-left: 184px;
+}
+/* line 64, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina form input[type="submit"]:hover,
+#immagine-copertina form input[type="submit"]:focus {
+  border: 1px solid #bbb;
+  background: #e5e5e5;
+}
+/* line 69, ../sass/partials/_immagine-copertina.scss */
+#immagine-copertina .form-actions {
+  margin-top: 10px;
+  padding: 17px 4px 18px;
+  background: none;
+  border-top: none;
+}
+
+/* line 1, ../sass/partials/_search.scss */
+form.search fieldset input[type="text"] {
+  width: 289px;
+  padding: 7px 14px;
+  font-size: 18px;
+  border: 2px solid #25a599;
+  background: white;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+
+/* line 15, ../sass/partials/_search.scss */
+form.search fieldset input[type="submit"] {
+  width: 129px;
+  height: 25px;
+  padding: 2px 14px;
+  font-family: 'Droid Sans';
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
+  border: none;
+  background: #057c79;
+  border-radius: 20px;
+}
+
+/* line 28, ../sass/partials/_search.scss */
+form.search fieldset input[type="submit"]:hover,
+form.search fieldset input[type="submit"]:focus {
+  background: #49ada8;
+}
+
+/* line 33, ../sass/partials/_search.scss */
+.icona-lente {
+  background: url('../images/icona-lente.png?1347965690') no-repeat left top;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 306px;
+}
+
+/* line 42, ../sass/partials/_search.scss */
+.categorie-tag {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+/* line 49, ../sass/partials/_search.scss */
+.categorie-tag li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+/* line 48, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.categorie-tag li:first-child, .categorie-tag li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.categorie-tag li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.categorie-tag li.last {
+  padding-right: 0;
+}
+/* line 53, ../sass/partials/_search.scss */
+.categorie-tag li a {
+  font-family: 'Droid Sans';
+  font-size: 12px;
+  font-weight: normal;
+  color: #057c79;
+  text-decoration: none;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 0 5px black;
+  -moz-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
+  background-color: #00f2a1;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 15px 5px 15px;
+  margin: 3px;
+}
+/* line 68, ../sass/partials/_search.scss */
+.categorie-tag li a:hover, .categorie-tag li a:visited {
+  color: white;
+}
+
+/* line 76, ../sass/partials/_search.scss */
+#ricerca {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+/* line 81, ../sass/partials/_search.scss */
+#ricerca .categoria-ricerca {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 85, ../sass/partials/_search.scss */
+#ricerca .categoria-ricerca .categoria {
+  margin: 0 0 10px 0;
+}
+/* line 89, ../sass/partials/_search.scss */
+#ricerca .categoria-ricerca li:last-child {
+  margin-right: 0;
+}
+/* line 93, ../sass/partials/_search.scss */
+#ricerca .categoria-ricerca .sottocategoria-ricerca {
+  width: auto;
+  height: auto;
+  margin: 0;
+  list-style-type: none;
+}
+/* line 98, ../sass/partials/_search.scss */
+#ricerca .categoria-ricerca .sottocategoria-ricerca li {
+  height: auto;
+  width: 99px;
+  background: none;
+  float: none;
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+/* line 109, ../sass/partials/_search.scss */
+#ricerca .categoria-ricerca .sottocategoria-ricerca li a {
+  text-decoration: none;
+  color: #084936;
+  border-right: 1px solid #084936;
+  padding: 0 20px 0 2px;
+}
+/* line 116, ../sass/partials/_search.scss */
+#ricerca .categoria-ricerca .sottocategoria-ricerca li a:hover, #ricerca .categoria-ricerca .sottocategoria-ricerca li a:visited {
+  color: #00f2a1;
+}
+
+/* line 127, ../sass/partials/_search.scss */
+.separatore-search {
+  background: url('../images/separatore-search.png?1347965690') no-repeat left top;
+  width: 599px;
+  height: 8px;
+  position: absolute;
+  margin-top: 100px;
+}
+
+/* line 1, ../sass/partials/_risposta-multipla.scss */
+#form-risposta-multipla {
+  background-color: #e1fffd;
+  width: 620px;
+  height: 200px;
+}
+/* line 9, ../sass/partials/_risposta-multipla.scss */
+#form-risposta-multipla p {
+  font-family: 'Droid Sans';
+  font-size: 12px;
+  font-weight: normal;
+  color: #3d635f;
+  line-height: 14px;
+}
+/* line 17, ../sass/partials/_risposta-multipla.scss */
+#form-risposta-multipla .risposta1 {
+  float: left;
+  margin-right: 10px;
+}
+/* line 21, ../sass/partials/_risposta-multipla.scss */
+#form-risposta-multipla .risposta2 {
+  float: left;
+  margin-right: 10px;
+}
+/* line 26, ../sass/partials/_risposta-multipla.scss */
+#form-risposta-multipla .risposta3 {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 5, ../sass/partials/_banner-risposte-mancanti.scss */
+#banner-risposte h1 {
+  color: #3d635f;
+  font-size: 18px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 12px;
+}
+/* line 15, ../sass/partials/_banner-risposte-mancanti.scss */
+#banner-risposte .risposte {
+  color: #24d1c8;
+  font-size: 27px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+}
+
+/* line 25, ../sass/partials/_banner-risposte-mancanti.scss */
+hr {
+  width: 600px;
+  height: 2px;
+  background: #00ffb0;
+}
+
+/* line 1, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento {
+  background-color: #e1fffd;
+  width: 620px;
+  height: 200px;
+}
+/* line 8, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento h1 {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: bold;
+  color: #084936;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+/* line 18, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento h2 {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: normal;
+  color: #3d635f;
+  line-height: 14px;
+  padding: 0 0 20px;
+}
+/* line 26, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento h2 span {
+  font-weight: bold;
+}
+/* line 34, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento p {
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  font-weight: bold;
+  color: #3d635f;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+/* line 43, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento .risposta1 {
+  float: right;
+  margin-right: 500px;
+}
+/* line 48, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento .risposta2 {
+  float: right;
+  margin-right: 500px;
+}
+/* line 53, ../sass/partials/_risposta-collegamento.scss */
+#form-risposta-collegamento .risposta3 {
+  float: right;
+  margin-right: 500px;
+}
+
+/* line 1, ../sass/partials/_header-corso-iniziato.scss */
+#nome-corso {
+  background: url('../images/background-titolo-corso.png?1347628549') repeat left top;
+  display: inline;
+  float: left;
+  width: 280px;
+  height: 91px;
+  /*@include grid(5);
+  height: 91px;
+  @include alpha;*/
+}
+/* line 11, ../sass/partials/_header-corso-iniziato.scss */
+#nome-corso h1 {
+  color: #057c79;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  width: 253px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 1px;
+  text-shadow: 0px 2px 1px white;
+}
+
+/* line 34, ../sass/partials/_header-corso-iniziato.scss */
+#caricamento {
+  background-color: #00ffb0;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 520px;
+  height: 31px;
+  margin-left: 4px;
+}
+
+/* line 44, ../sass/partials/_header-corso-iniziato.scss */
+.ultime-lezioni {
+  position: relative;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100px;
+  margin-right: 0;
+  padding: 0;
+  margin: 5px 0 8px 0;
+}
+/* line 51, ../sass/partials/_header-corso-iniziato.scss */
+.ultime-lezioni span {
+  color: #057c79;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 11px;
+  font-size: 10px;
+  margin-left: 5px;
+  float: left;
+}
+/* line 62, ../sass/partials/_header-corso-iniziato.scss */
+.ultime-lezioni .number {
+  width: 19px;
+  height: 19px;
+  background: #057c79;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+  margin-top: 4px;
+}
+
+/* line 82, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-prev {
+  float: left;
+  margin-top: 28px;
+  margin-left: 27px;
+}
+/* line 88, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-prev .prev {
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 11px;
+  font-size: 10px;
+  float: right;
+}
+/* line 100, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-prev .freccia-prev {
+  width: 14px;
+  height: 14px;
+  background: url('../images/prev.png?1347628549');
+  display: inline-block;
+  margin-right: 4px;
+  float: left;
+}
+
+/* line 114, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-next {
+  float: left;
+  margin-top: 28px;
+  margin-left: 400px;
+}
+/* line 120, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-next .next {
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 11px;
+  font-size: 10px;
+  float: left;
+}
+/* line 132, ../sass/partials/_header-corso-iniziato.scss */
+.cambia-lezione-next .freccia-next {
+  width: 14px;
+  height: 14px;
+  background: url('../images/next.png?1347628549');
+  display: inline-block;
+  margin-right: 4px;
+  float: left;
+  margin-left: 4px;
+}
+
+/* line 1, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio {
+  margin-top: 20px;
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #c9f7f5;
+  height: 200px;
+}
+/* line 6, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .risposta {
+  background: url('../images/sfondo-es.png?1348166333') repeat left top;
+  width: 186px;
+  height: 28px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+/* line 13, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .risposta h4 {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  text-shadow: 0px 1px 1px white;
+}
+/* line 29, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio #box {
+  position: absolute;
+  height: 21px;
+  width: 21px;
+  margin-left: 550px;
+  margin-top: -15px;
+  background: #084936;
+  font-family: Arial;
+  border-radius: 30px;
+}
+/* line 38, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio #box .x {
+  color: white;
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+/* line 47, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio #box .x:active {
+  color: #00ffb0;
+}
+/* line 55, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda {
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 102px;
+  width: 523px;
+  border: 1px solid #75efc7;
+}
+/* line 61, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda .frase {
+  margin-top: 10px;
+  height: 32px;
+  width: 450px;
+  margin-left: 20px;
+  background-color: #b9efeb;
+  border: 1px solid  #65c1b0;
+  border-radius: 4px;
+  float: left;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89 !important;
+  font-size: 15px;
+  font-weight: bold;
+  text-indent: 10px;
+}
+/* line 77, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda .giusto {
+  width: 30px;
+  float: left;
+  margin-left: 15px;
+}
+/* line 82, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda p {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 12px;
+  float: left;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+/* line 92, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda a {
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  float: right;
+  background-color: #166059;
+  border-radius: 20px;
+}
+/* line 100, ../sass/partials/_crea-esercizio-1.scss */
+.crea-esercizio .box_domanda a p {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 11px;
+  color: #75efc7;
+  line-height: 20px;
+  float: left;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-top: 0px;
+}
+
+/* line 1, ../sass/partials/_risposta-vero-falso.scss */
+#risposta-vero-falso {
+  background-color: #e1fffd;
+  width: 620px;
+  height: 100px;
+  margin-left: 30px;
+}
+/* line 9, ../sass/partials/_risposta-vero-falso.scss */
+#risposta-vero-falso form {
+  width: 401px;
+  color: #084936;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+  margin-left: 80px;
+  padding-top: 30px;
+}
+/* line 17, ../sass/partials/_risposta-vero-falso.scss */
+#risposta-vero-falso form p {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+/* line 23, ../sass/partials/_risposta-vero-falso.scss */
+#risposta-vero-falso form input {
+  float: left;
+  margin-top: 10px;
+}
+/* line 30, ../sass/partials/_risposta-vero-falso.scss */
+#risposta-vero-falso h1 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 80px;
+  padding-top: 30px;
+  text-shadow: 0px 2px 1px white;
+}
+/* line 49, ../sass/partials/_risposta-vero-falso.scss */
+#risposta-vero-falso h2 {
+  color: #49ada8;
+  font-family: 'Droid Sans';
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 80px;
+  padding-top: 30px;
+  text-shadow: 0px 2px 1px white, 0px 2px 1px true white;
+  text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
+}
+
+/* line 72, ../sass/partials/_risposta-vero-falso.scss */
+#divisore {
+  background-color: #A1E2DA;
+  height: 1px;
+  width: 460px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+/* line 82, ../sass/partials/_risposta-vero-falso.scss */
+#divisore2 {
+  background-color: #E9FFFD;
+  height: 1px;
+  width: 460px;
+  margin-left: 80px;
+}
+
+/* line 92, ../sass/partials/_risposta-vero-falso.scss */
+form fieldset {
+  margin: 0px 0 20px 30px;
+  font-family: 'Droid Sans';
+  font-size: 13px;
+}
+
+/* line 99, ../sass/partials/_risposta-vero-falso.scss */
+form fieldset label {
+  display: block;
+  margin: 30px 0 5px 0;
+  font-weight: bold;
+  color: #49ada8;
+}
+
+/* line 105, ../sass/partials/_risposta-vero-falso.scss */
+form fieldset input.form-text {
+  display: block;
+  width: 50%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #65C1B0;
+  background: #B9EFEB;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 120, ../sass/partials/_risposta-vero-falso.scss */
+form input[type="submit"] {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background: #eee;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 134, ../sass/partials/_risposta-vero-falso.scss */
+#form_registrazione {
+  background-color: #e1fffd;
+  width: 620px;
+  height: 250px;
+  margin-left: 30px;
+}
+
+/* line 1, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio {
+  margin-top: 20px;
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #c9f7f5;
+  height: 200px;
+}
+/* line 6, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio .risposta {
+  background: url('../images/sfondo-es.png?1348166333') repeat left top;
+  width: 186px;
+  height: 28px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+/* line 13, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio .risposta h4 {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  text-shadow: 0px 1px 1px white, 0px 1px 1px true white;
+  text-shadow: 0px 1px 1px true white, 0px 1px 1px true white;
+}
+/* line 29, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio #box {
+  position: absolute;
+  height: 21px;
+  width: 21px;
+  margin-left: 550px;
+  margin-top: -15px;
+  background: #084936;
+  font-family: Arial;
+  border-radius: 30px;
+}
+/* line 38, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio #box .x {
+  color: white;
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+/* line 47, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio #box .x:active {
+  color: #00ffb0;
+}
+/* line 57, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio .box_domanda .frase {
+  margin-top: 10px;
+  height: 68px;
+  width: 450px;
+  margin-left: 20px;
+  background-color: #b9efeb;
+  border: 1px solid  #65c1b0;
+  border-radius: 4px;
+  float: left;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89 !important;
+  font-size: 15px;
+  font-weight: bold;
+  text-indent: 10px;
+}
+/* line 73, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio .box_domanda .giusto {
+  width: 30px;
+  float: left;
+  margin-left: 15px;
+}
+/* line 78, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio .box_domanda p {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 12px;
+  float: left;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+/* line 88, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio .box_domanda a {
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  float: right;
+  background-color: #166059;
+  border-radius: 20px;
+}
+/* line 96, ../sass/partials/_domanda-crea-esercizio.scss */
+.domanda-crea-esercizio .box_domanda a p {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 11px;
+  color: #75efc7;
+  line-height: 20px;
+  float: left;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-top: 0px;
+}
+
+/* line 1, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio {
+  margin-top: 20px;
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #c9f7f5;
+  height: 200px;
+}
+/* line 6, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio .risposta {
+  background: url('../images/sfondo-es.png?1348166333') repeat left top;
+  width: 186px;
+  height: 28px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+/* line 13, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio .risposta h4 {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  text-shadow: 0px 1px 1px white, 0px 1px 1px true white;
+  text-shadow: 0px 1px 1px true white, 0px 1px 1px true white;
+}
+/* line 29, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio #box {
+  position: absolute;
+  height: 21px;
+  width: 21px;
+  margin-left: 550px;
+  margin-top: -15px;
+  background: #084936;
+  font-family: Arial;
+  border-radius: 30px;
+}
+/* line 38, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio #box .x {
+  color: white;
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+/* line 47, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio #box .x:active {
+  color: #00ffb0;
+}
+/* line 55, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio .box_domanda {
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 102px;
+  width: 523px;
+  border: 1px solid #75efc7;
+}
+/* line 61, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio .box_domanda .frase {
+  margin-top: 10px;
+  height: 32px;
+  width: 450px;
+  margin-left: 20px;
+  background-color: #b9efeb;
+  border: 1px solid  #65c1b0;
+  border-radius: 4px;
+  float: left;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89 !important;
+  font-size: 15px;
+  font-weight: bold;
+  text-indent: 10px;
+}
+/* line 77, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio .box_domanda .giusto {
+  width: 30px;
+  float: left;
+  margin-left: 15px;
+}
+/* line 82, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio .box_domanda p {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  color: #418c89;
+  font-size: 12px;
+  float: left;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+/* line 92, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio .box_domanda a {
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  float: right;
+  background-color: #166059;
+  border-radius: 20px;
+}
+/* line 100, ../sass/partials/_risposta-breve-crea-esercizio.scss */
+.crea-esercizio .box_domanda a p {
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 11px;
+  color: #75efc7;
+  line-height: 20px;
+  float: left;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-top: 0px;
 }
