@@ -1,7 +1,6 @@
 #newsletter{
 	background-color: $white_azzurro;
 	width: 620px;
-	height: 418px;
 	margin-left: 30px;
 	
 	
@@ -45,27 +44,61 @@
 	
 	   
 	  }
+
 	
-	 h2{
+}
+
+
+#privacy{
+	background-color: $white_azzurro;
+	width: 620px;
+	margin-left: 30px;
+	
+	
+	  
+	    form{
+	     width: 401px;
+	    	color: $dark-green;
+	    	font-family: 'Droid Sans';
+	    	font-size: 13px;
+	    	margin-left: 80px;
+	    	padding-top: 30px;
+	    	
+	    	p{
+	    	margin-left: 40px;
+	    	margin-top: 10px;
+	    	
+	    	}
+	    	
+	    	  input{
+	    	  float: left;
+	    	  margin-top: 10px;
+	    	  }
+	    	
+	    }
+	
+	h1{
 	
 	 color:$azzurro_title;
 	 font-family: 'Droid Sans';
 	 font-size: 20px;
-	 text-transform: uppercase;
 	 font-weight: bold;
+	 text-transform: uppercase;
 	 margin-left: 80px;
 	 padding-top: 30px;
 	 $default-text-shadow-h-offset: 0px;
 	     $default-text-shadow-v-offset: 2px;
 	     $default-text-shadow-blur: 1px;
-	     $default-text-shadow-spread: true;
+	    
 	     $default-text-shadow-color: $white;	       
 	 @include single-text-shadow();
-	 
 	
-	}
+	   
+	  }
+
 	
 }
+
 
 
 
