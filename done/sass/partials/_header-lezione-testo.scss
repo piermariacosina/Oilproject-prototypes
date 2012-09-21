@@ -86,15 +86,18 @@
 			margin-top:20px;
 		}
 		h2{
-		color: $dark-green;
-		font-weight: bold;
-		font-family: 'Droid Sans';
-		text-transform: uppercase;
-		font-size: 25px;
-			$default-text-shadow-h-offset: 0px;
-			$default-text-shadow-v-offset: 1px;
-			$default-text-shadow-color: $white;	       
-			@include single-text-shadow;
+			
+				color: $dark-green;
+				font-weight: bold;
+				font-family: 'Droid Sans';
+				text-transform: uppercase;
+				font-size: 25px;
+				$default-text-shadow-h-offset: 0px;
+				$default-text-shadow-v-offset: 1px;
+				$default-text-shadow-color: $white;	 
+				$default-text-shadow-spread: false;      
+				@include single-text-shadow;
+			
 		}
 	}
 	.info{
