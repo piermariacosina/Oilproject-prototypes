@@ -303,7 +303,57 @@ p{
 					margin:0px;
 					}
 				}	 
-		}		
+		}	
+		
+		section#dashboard-logout-links{
+				&.hide{
+					display: none;
+				}
+				height: 30px;
+				background-color: $light-green;
+				margin-top:1px;
+			
+				
+				.item{
+					@include grid(3);
+					a:hover{
+						p{
+							color:$fluo-blue;
+						}
+					}
+				}
+				
+				.text{
+					margin-left:8px;
+					@include float-left;
+					width: 80%;
+					p{
+						font-size: 10px;
+						font-weight: bold;
+						line-height:30px;
+						height: 30px;
+						text-transform: uppercase;
+						}
+					}
+				.login{
+					@include float-left;
+					width: 99px;
+					border-left: 1px solid $white;
+					a:hover{
+						p{
+						color: $fluo-blue;
+						}
+					}
+					p{
+						font-size: 10px;
+						font-weight: bold;
+						line-height:30px;
+						height: 30px;
+						text-align: center;
+						margin:0px;
+						}
+					}	 
+			}		
 }
 
 .notice-list{
