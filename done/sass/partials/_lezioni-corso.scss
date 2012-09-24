@@ -2,18 +2,22 @@
 .lezione-corso{
 
 
-
- 	@include grid(11);
- 	width: 638px;
- 	height: 92px;
- 	background: image-url("box-corso-categoria.png") no-repeat left top;
+		@include stripe-fluo-background;
+		position: relative;
+		@include grid(11);
+		height:92px;
+		width: 638px;
+	 	height: 92px;
+	 	font-family: 'Droid Sans';
+	 	margin-top: 30px;
+	 	margin-left: 30px;
+	 	
  	
- 	font-family: 'Droid Sans';
- 	display: inline;
- 	float: left;
- 	margin-top: 30px;
- 	position: relative;
- 	margin-left: 30px;
+ 	   
+ 	     .corner{
+ 	      		@include stripe-fluo-corner;
+ 	     	 	
+ 	      	}
  	
  	   #extras{
  	   	margin-left: 400px;
@@ -199,14 +203,14 @@
 
 #box-plus{
 position:relative;
-float: left;
+@include float-right;
+margin-top: 20px;
 height:34px;
 width:34px;
 background:$fluo-blue;
-font-family:Arial;
+font-family:droid sans;
 border-radius: 30px;
-margin-top: 140px;
-margin-left: -40px;
+margin-right: -27px;
 }
 
 .plus{

@@ -1,13 +1,20 @@
 .corso{
- 	width: 638px;
- 	height: 209px;
- 	background: image-url("box-corso-categoria.png") no-repeat left top;
- 	font-family: 'Droid Sans';
+
+
+	@include stripe-fluo-background;
+	position: relative;
+	@include grid(11);
+	height:209px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    font-family: 'Droid Sans';
  	color: $dark-green;
- 	display: inline;
- 	float: left;
- 	margin-top: 10px;
- 	margin-bottom: 10px;
+ 	
+ 	
+ 	  .corner{
+ 	   		@include stripe-fluo-corner;
+ 	  	 	
+ 	   	}
  	
  	.categorie-lezioni{
  		@include horizontal-list-container;

@@ -1,5 +1,10 @@
 .box-singolo-esercizio{
-	background: image-url("box-singolo-esercizio.png") no-repeat left top;
+	
+
+
+
+    @include stripe-fluo-background;
+    position: relative;
 	@include grid(11);
 	height:183px;
 	margin-top: 10px;
@@ -7,6 +12,12 @@
 	a{
 		@include link-over-fluo;
 	}
+	
+		
+	.corner{
+	 		@include stripe-fluo-corner;
+		 	
+	 	}
 	.title{
 		@include grid(4);
 		margin-left: 40px;
