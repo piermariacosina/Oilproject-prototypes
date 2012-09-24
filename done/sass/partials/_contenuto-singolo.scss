@@ -2,7 +2,12 @@
 #box-pagina-categoria-2{
 }
 
-
+.contenuto-singolo{
+		@include grid(11);
+		margin-top:5px;	
+		
+		margin-bottom:15px;
+}
 .lezione{
  	@include grid(11);
  	
@@ -13,7 +18,7 @@
  	margin-top: 10px;
  	position: relative;
  	margin-left: 0px;
- 	
+ 	clear:both;
  	.corner.left.big{
  		position: absolute;
  		top:0;
