@@ -6,6 +6,12 @@ height: 60px;
         
 			margin-left: 20px;  
         }
+        
+        .page-current a{
+        
+			background: $light-green;
+        }
+        
 
 
 		ul {
@@ -25,7 +31,8 @@ height: 60px;
 			color: $white;
 			border: 1px solid #ddd;
 		    background: #5F7077;
-			border-radius: 6px;
+			@include border-radius(6px);
+			
 			}
 			
 		 ul li a:hover,
