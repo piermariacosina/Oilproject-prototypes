@@ -35,6 +35,16 @@
 
 }
 
+@mixin stripe-fluo-corner-ombra(){
+	width: image-width("ang-ombra.png");
+	height: image-height("ang-ombra.png");
+	left: - (image-width("ang-ombra.png"));
+	position: absolute;
+	background: image-url("ang-ombra.png") no-repeat top left;
+
+}
+
+
 @mixin stripe-fluo-corner(){
 	width: image-width("corner-fluo-left-stripes.png");
 	height: image-height("corner-fluo-left-stripes.png");
