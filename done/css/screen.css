@@ -2295,19 +2295,19 @@ ul.breadcrumb-list #breadcrumbs-intro .bread-intro {
   font-size: 10px;
   line-height: 10px;
   margin-top: 5px;
-  margin-left: 14px;
+  margin-left: 1 px;
   display: inline;
   float: left;
 }
-/* line 23, ../sass/partials/_breadcrumb.scss */
+/* line 24, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-intro .bread-intro i {
-  margin-right: 3px;
   font-size: 24px;
   margin-top: 5px;
+  margin-left: -8px;
   display: inline;
   float: left;
 }
-/* line 30, ../sass/partials/_breadcrumb.scss */
+/* line 31, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-intro .bread-intro span {
   font-weight: bold;
   text-transform: uppercase;
@@ -2315,7 +2315,7 @@ ul.breadcrumb-list #breadcrumbs-intro .bread-intro span {
   display: inline;
   float: left;
 }
-/* line 46, ../sass/partials/_breadcrumb.scss */
+/* line 47, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs {
   background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
@@ -2324,7 +2324,7 @@ ul.breadcrumb-list #breadcrumbs {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-/* line 53, ../sass/partials/_breadcrumb.scss */
+/* line 54, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs .bread {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -2333,14 +2333,14 @@ ul.breadcrumb-list #breadcrumbs .bread {
   margin-top: 5px;
   margin-left: 13px;
 }
-/* line 64, ../sass/partials/_breadcrumb.scss */
+/* line 65, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs span {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
   float: left;
 }
-/* line 75, ../sass/partials/_breadcrumb.scss */
+/* line 76, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-2 {
   background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
@@ -2349,7 +2349,7 @@ ul.breadcrumb-list #breadcrumbs-2 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-/* line 82, ../sass/partials/_breadcrumb.scss */
+/* line 83, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-2 .bread-2 {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -2358,14 +2358,14 @@ ul.breadcrumb-list #breadcrumbs-2 .bread-2 {
   margin-top: 5px;
   margin-left: 13px;
 }
-/* line 93, ../sass/partials/_breadcrumb.scss */
+/* line 94, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-2 span {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
   float: left;
 }
-/* line 104, ../sass/partials/_breadcrumb.scss */
+/* line 105, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-3 {
   background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
   width: 101px;
@@ -2374,7 +2374,7 @@ ul.breadcrumb-list #breadcrumbs-3 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-/* line 111, ../sass/partials/_breadcrumb.scss */
+/* line 112, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-3 .bread-3 {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -2383,7 +2383,7 @@ ul.breadcrumb-list #breadcrumbs-3 .bread-3 {
   margin-top: 5px;
   margin-left: 13px;
 }
-/* line 122, ../sass/partials/_breadcrumb.scss */
+/* line 123, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-3 span {
   font-weight: bold;
   text-transform: uppercase;
@@ -2391,10 +2391,9 @@ ul.breadcrumb-list #breadcrumbs-3 span {
   float: left;
 }
 
-/* line 133, ../sass/partials/_breadcrumb.scss */
+/* line 134, ../sass/partials/_breadcrumb.scss */
 #numero-like-dislike {
   float: left;
-  margin-top: -10px;
   margin-left: 17px;
 }
 
@@ -4749,7 +4748,11 @@ header#main section#dashboard-logout-links .login p {
   width: 100%;
   height: 400px;
   margin-top: 15px;
+<<<<<<< HEAD
   background: url('../images/diagonal-green-bg.png?1347628549') repeat left top;
+=======
+  background: url('../images/diagonal-green-bg.png?1348232597') repeat left top;
+>>>>>>> fix
   margin-left: 10px;
   padding-left: 10px;
   position: relative;
@@ -7092,7 +7095,7 @@ h4.titoli_sezioni {
   margin-right: 10px;
   width: 580px;
   padding-left: 10px;
-  margin-top: 40px;
+  margin-top: 15px;
   font-family: 'Droid Sans';
   font-weight: normal;
   font-size: 13px;
