@@ -5,7 +5,13 @@
 	margin-top:10px;
 	margin-bottom:10px;
 	height:auto;
-}
+	
+	
+	.box-corso-false{
+	clear: both;
+	
+	}
+
 .box-corso-iniziato{
 	position: relative;
 	background: image-url("background-corso-iniziato.png") no-repeat left top;
@@ -100,6 +106,8 @@
 	   	}
 	   }
 }	
+
+}
 
 	//	FINE BOX CORSO INIZIATO
 
