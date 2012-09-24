@@ -9797,10 +9797,16 @@ hr {
   font-size: 16px;
   font-weight: bold;
   line-height: 20px;
-  width: 253px;
+  width: 235px;
   position: absolute;
   margin-left: 40px;
   margin-top: 1px;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
   text-decoration: none;
   color: #084936;
   cursor: pointer;
@@ -9819,7 +9825,7 @@ hr {
   color: #43d1b4;
 }
 
-/* line 35, ../sass/partials/_header-corso-iniziato.scss */
+/* line 36, ../sass/partials/_header-corso-iniziato.scss */
 #caricamento {
   background-color: #00ffb0;
   display: inline;
@@ -9830,28 +9836,31 @@ hr {
   height: 31px;
   margin-left: 4px;
 }
-/* line 42, ../sass/partials/_header-corso-iniziato.scss */
+/* line 43, ../sass/partials/_header-corso-iniziato.scss */
 #caricamento .filler {
   background-color: #CCFFEE;
   margin: 3px;
   height: 25px;
 }
-/* line 46, ../sass/partials/_header-corso-iniziato.scss */
+/* line 47, ../sass/partials/_header-corso-iniziato.scss */
 #caricamento .filler .loader {
   background-color: #00ffb0;
   text-align: center;
+  overflow: visible;
+  height: 25px;
 }
-/* line 49, ../sass/partials/_header-corso-iniziato.scss */
+/* line 52, ../sass/partials/_header-corso-iniziato.scss */
 #caricamento .filler .loader span {
   font-family: 'Droid Sans';
   text-transform: uppercase;
   font-size: 10px;
+  white-space: nowrap;
   font-weight: 700;
   line-height: 25px;
   color: #084936;
 }
 
-/* line 64, ../sass/partials/_header-corso-iniziato.scss */
+/* line 67, ../sass/partials/_header-corso-iniziato.scss */
 .ultime-lezioni {
   position: relative;
   display: inline;
@@ -9863,7 +9872,7 @@ hr {
   padding: 0;
   margin: 5px 0 8px 0;
 }
-/* line 71, ../sass/partials/_header-corso-iniziato.scss */
+/* line 74, ../sass/partials/_header-corso-iniziato.scss */
 .ultime-lezioni span {
   color: #057c79;
   font-family: 'Droid Sans';
@@ -9874,7 +9883,7 @@ hr {
   margin-left: 5px;
   float: left;
 }
-/* line 82, ../sass/partials/_header-corso-iniziato.scss */
+/* line 85, ../sass/partials/_header-corso-iniziato.scss */
 .ultime-lezioni .number {
   width: 19px;
   height: 19px;
@@ -9890,13 +9899,13 @@ hr {
   margin-top: 4px;
 }
 
-/* line 102, ../sass/partials/_header-corso-iniziato.scss */
+/* line 105, ../sass/partials/_header-corso-iniziato.scss */
 .cambia-lezione-prev {
   float: left;
   margin-top: 28px;
   margin-left: 27px;
 }
-/* line 108, ../sass/partials/_header-corso-iniziato.scss */
+/* line 111, ../sass/partials/_header-corso-iniziato.scss */
 .cambia-lezione-prev .prev {
   color: #084936;
   font-family: 'Droid Sans';
@@ -9906,7 +9915,7 @@ hr {
   font-size: 10px;
   float: right;
 }
-/* line 120, ../sass/partials/_header-corso-iniziato.scss */
+/* line 123, ../sass/partials/_header-corso-iniziato.scss */
 .cambia-lezione-prev .freccia-prev {
   width: 14px;
   height: 14px;
@@ -9916,14 +9925,14 @@ hr {
   float: left;
 }
 
-/* line 134, ../sass/partials/_header-corso-iniziato.scss */
+/* line 137, ../sass/partials/_header-corso-iniziato.scss */
 .cambia-lezione-next {
   display: inline;
   float: right;
   margin-top: 28px;
   margin-right: 155px;
 }
-/* line 140, ../sass/partials/_header-corso-iniziato.scss */
+/* line 143, ../sass/partials/_header-corso-iniziato.scss */
 .cambia-lezione-next .next {
   color: #084936;
   font-family: 'Droid Sans';
@@ -9933,12 +9942,12 @@ hr {
   display: inline;
   float: left;
 }
-/* line 145, ../sass/partials/_header-corso-iniziato.scss */
+/* line 148, ../sass/partials/_header-corso-iniziato.scss */
 .cambia-lezione-next .next i {
   font-style: italic;
   font-weight: 400;
 }
-/* line 157, ../sass/partials/_header-corso-iniziato.scss */
+/* line 160, ../sass/partials/_header-corso-iniziato.scss */
 .cambia-lezione-next .freccia-next {
   width: 14px;
   height: 14px;

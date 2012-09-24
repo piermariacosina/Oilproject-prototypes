@@ -17,10 +17,11 @@
 	       	font-size: 16px;
 	       	font-weight: bold;
 	       	line-height: 20px;
-	       	width: 253px;
+	       	width: 235px;
 	       	position: absolute;
 	       	margin-left: 40px;
 	       	margin-top: 1px;
+	       	@include hyphenation;
 	       	@include link-over-fluo;
 	       		$default-text-shadow-h-offset: 0px;
 	       	  		$default-text-shadow-v-offset: 2px;
@@ -46,11 +47,13 @@
 		.loader{
 			background-color: $fluo-blue;
 			text-align: center;
+			overflow: visible;
+			height: 25px;
 			span{
 				font-family: 'Droid Sans';
 				text-transform: uppercase;
 				font-size: 10px;
-				
+				white-space: nowrap;
 				font-weight: 700;
 				line-height: 25px;
 				color: $dark-green;
