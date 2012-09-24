@@ -33,5 +33,6 @@ div.row{
 	}
 	div.sidebar{
 		@include grid(5);
+		@include float-right;
 	}
 }
