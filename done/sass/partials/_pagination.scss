@@ -1,6 +1,13 @@
 .pagination {
 height: 60px;
-	
+
+
+        .page-next a{
+        
+			margin-left: 20px;  
+        }
+
+
 		ul {
 			text-align: center;
 			height: 400px;
@@ -9,6 +16,7 @@ height: 60px;
 		 ul li {
 			display: inline;
 			margin: 0 4px 0 0;
+			
 			}
 		 ul li a {
 			font-size: 13px;
@@ -16,9 +24,10 @@ height: 60px;
 			font-family: 'Droid Sans';
 			color: $white;
 			border: 1px solid #ddd;
-		    background: #54626A;
+		    background: #5F7077;
 			border-radius: 6px;
 			}
+			
 		 ul li a:hover,
 		 ul li a:focus {
 			background: $light-green;
@@ -28,6 +37,10 @@ height: 60px;
 			background: $light-petrolio;
 			border-color: #ddd;
 			}				
+		}
 		
-			
-}
+		
+		
+		
+		
+		
