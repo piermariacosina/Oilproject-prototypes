@@ -6741,7 +6741,7 @@ h4.titoli_sezioni {
   margin-bottom: 10px;
   background: url('../images/diagonal-green-bg.png?1347628549') repeat top left;
 }
-/* line 14, ../sass/partials/_box-video-corso.scss */
+/* line 13, ../sass/partials/_box-video-corso.scss */
 .video-corso .corner {
   width: 18px;
   height: 18px;
@@ -6749,7 +6749,7 @@ h4.titoli_sezioni {
   position: absolute;
   background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
 }
-/* line 19, ../sass/partials/_box-video-corso.scss */
+/* line 18, ../sass/partials/_box-video-corso.scss */
 .video-corso .a.btn.green {
   float: right;
   margin-right: 40px;
@@ -6757,7 +6757,7 @@ h4.titoli_sezioni {
   width: 100px;
   margin-left: 0;
 }
-/* line 28, ../sass/partials/_box-video-corso.scss */
+/* line 27, ../sass/partials/_box-video-corso.scss */
 .video-corso a {
   text-decoration: none;
   color: #084936;
@@ -6775,7 +6775,7 @@ h4.titoli_sezioni {
 .video-corso a:active {
   color: #43d1b4;
 }
-/* line 33, ../sass/partials/_box-video-corso.scss */
+/* line 32, ../sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni {
   margin: 0;
   padding: 0;
@@ -6784,10 +6784,10 @@ h4.titoli_sezioni {
   *zoom: 1;
   overflow: hidden;
   *zoom: 1;
-  margin-top: 37px;
+  clear: left;
   margin-left: 40px;
 }
-/* line 38, ../sass/partials/_box-video-corso.scss */
+/* line 37, ../sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni li {
   list-style-image: none;
   list-style-type: none;
@@ -6814,13 +6814,13 @@ h4.titoli_sezioni {
 .video-corso .categorie-lezioni li.last {
   padding-right: 0;
 }
-/* line 44, ../sass/partials/_box-video-corso.scss */
+/* line 43, ../sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni li .icon {
   position: relative;
   float: left;
   font-size: 25px;
 }
-/* line 49, ../sass/partials/_box-video-corso.scss */
+/* line 48, ../sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni li span {
   position: relative;
   float: left;
@@ -6828,11 +6828,11 @@ h4.titoli_sezioni {
   margin-left: 9px;
   margin-right: 5px;
 }
-/* line 57, ../sass/partials/_box-video-corso.scss */
+/* line 56, ../sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni li:last-child {
   margin-right: 0px;
 }
-/* line 62, ../sass/partials/_box-video-corso.scss */
+/* line 61, ../sass/partials/_box-video-corso.scss */
 .video-corso h4 {
   font-family: 'Droid Sans';
   width: 300px;
@@ -6843,11 +6843,10 @@ h4.titoli_sezioni {
   margin-top: 10px;
   margin-left: 350px;
 }
-/* line 73, ../sass/partials/_box-video-corso.scss */
+/* line 72, ../sass/partials/_box-video-corso.scss */
 .video-corso h3 {
   font-family: 'Droid Sans';
-  max-width: 242px;
-  height: 113px;
+  max-width: 270px;
   font-weight: bold;
   font-size: 25px;
   line-height: 30px;
@@ -6856,7 +6855,7 @@ h4.titoli_sezioni {
   margin-left: 350px;
   text-shadow: 0px 2px 1px white;
 }
-/* line 92, ../sass/partials/_box-video-corso.scss */
+/* line 91, ../sass/partials/_box-video-corso.scss */
 .video-corso .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -6866,7 +6865,7 @@ h4.titoli_sezioni {
   position: relative;
   color: #057c79;
 }
-/* line 103, ../sass/partials/_box-video-corso.scss */
+/* line 102, ../sass/partials/_box-video-corso.scss */
 .video-corso p {
   width: 334px;
   height: 80px;
@@ -6878,13 +6877,13 @@ h4.titoli_sezioni {
   margin-right: 20px;
   margin-top: 10px;
 }
-/* line 115, ../sass/partials/_box-video-corso.scss */
+/* line 114, ../sass/partials/_box-video-corso.scss */
 .video-corso .img-corso-categoria {
-  margin-left: 27px;
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  float: right;
+  margin-left: 37px;
+  position: relative;
+  display: inline;
+  float: left;
+  margin-top: 20px;
   width: 290px;
   height: 150px;
   -webkit-box-shadow: 0px 0px 5px #333333;
@@ -10666,4 +10665,45 @@ form input[type="submit"] {
   margin-left: 4px;
   margin-right: 4px;
   margin-top: 4px;
+}
+
+/* line 1, ../sass/partials/_pagination.scss */
+.pagination {
+  height: 60px;
+}
+/* line 5, ../sass/partials/_pagination.scss */
+.pagination .page-next a {
+  margin-left: 20px;
+}
+/* line 11, ../sass/partials/_pagination.scss */
+.pagination ul {
+  text-align: center;
+  height: 400px;
+  padding-top: 40px;
+}
+/* line 16, ../sass/partials/_pagination.scss */
+.pagination ul li {
+  display: inline;
+  margin: 0 4px 0 0;
+}
+/* line 21, ../sass/partials/_pagination.scss */
+.pagination ul li a {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Droid Sans';
+  color: white;
+  border: 1px solid #ddd;
+  background: #5F7077;
+  border-radius: 6px;
+}
+/* line 32, ../sass/partials/_pagination.scss */
+.pagination ul li a:hover,
+.pagination ul li a:focus {
+  background: #057c79;
+  border-color: #ccc;
+}
+/* line 36, ../sass/partials/_pagination.scss */
+.pagination ul li a:active {
+  background: #4cc1b8;
+  border-color: #ddd;
 }
