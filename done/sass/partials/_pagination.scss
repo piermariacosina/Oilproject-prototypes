@@ -1,0 +1,32 @@
+.pagination {
+height: 200px;
+margin: 0 auto;
+	
+		ul {
+			text-align: center;
+			height: 400px;
+			padding-top: 40px;
+			}
+		 ul li {
+			display: inline;
+			margin: 0 4px 0 0;
+			}
+		 ul li a {
+			font-size: 14px;
+			font-weight: bold;
+			color: $white;
+			border: 1px solid #ddd;
+		    background: #54626A;
+			border-radius: 4px;
+			}
+		 ul li a:hover,
+		 ul li a:focus {
+			background: $light-green;
+			border-color: #ccc;
+			}
+		 ul li a:active {
+			background: #fff;
+			border-color: #ddd;
+			}				
+			
+}
