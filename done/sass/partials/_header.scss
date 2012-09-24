@@ -306,13 +306,17 @@ p{
 		}	
 		
 		section#dashboard-logout-links{
-				&.hide{
-					display: none;
-				}
+				
+				
 				height: 30px;
 				background-color: $light-green;
 				margin-top:1px;
+				margin-bottom: 15px;
 			
+			
+			&.hide{
+				display: none;
+			}
 				
 				.item{
 					@include grid(3);
