@@ -1,6 +1,5 @@
 .pagination {
-height: 200px;
-margin: 0 auto;
+height: 60px;
 	
 		ul {
 			text-align: center;
@@ -12,12 +11,13 @@ margin: 0 auto;
 			margin: 0 4px 0 0;
 			}
 		 ul li a {
-			font-size: 14px;
+			font-size: 13px;
 			font-weight: bold;
+			font-family: 'Droid Sans';
 			color: $white;
 			border: 1px solid #ddd;
 		    background: #54626A;
-			border-radius: 4px;
+			border-radius: 6px;
 			}
 		 ul li a:hover,
 		 ul li a:focus {
@@ -25,8 +25,9 @@ margin: 0 auto;
 			border-color: #ccc;
 			}
 		 ul li a:active {
-			background: #fff;
+			background: $light-petrolio;
 			border-color: #ddd;
 			}				
+		
 			
 }
