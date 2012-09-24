@@ -1,14 +1,18 @@
 
 //	BOX CORSO INIZIATO
 
-
+.corsi-iniziati{
+	margin-top:10px;
+	margin-bottom:10px;
+	height:auto;
+}
 .box-corso-iniziato{
 	position: relative;
 	background: image-url("background-corso-iniziato.png") no-repeat left top;
 	width: 330px;
 	height: 247px;
 	@include float-left;
-	margin: 10px 0 20px -10px;
+	margin: 5px 0 5px -10px;
 	
 	
 	a{

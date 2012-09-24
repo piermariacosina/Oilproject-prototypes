@@ -2,6 +2,8 @@
 	position: relative;
 	height: 282px;
 	clear: both;
+	margin-top:15px;
+  	margin-bottom:15px;
 	.crea-il-tuo-corso{
 		@include grid(13);
 		@include alpha;
