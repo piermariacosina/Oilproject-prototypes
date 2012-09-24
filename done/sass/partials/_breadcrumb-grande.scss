@@ -1,4 +1,5 @@
 ul.breadcrumb-list{
+	
 	list-style: none;
 a{
 	@include link-over-stripe;
@@ -9,13 +10,14 @@ a{
 	width: 114px;
 	height: 31px;
 	float: left;
-	
+	margin-top:15px;
+	margin-bottom:15px;
 	 .bread-intro{
 	   color:$azzurro-title;
 	   font-family: 'Droid Sans';
 	   font-size: 10px;
 	   line-height: 10px;
-	   margin-top: 5px;
+	   //margin-top: 5px;
 	   margin-left: 14px;
 	   float: left;
 	   
@@ -43,7 +45,8 @@ a{
 	width: 101px;
 	height: 31px;
 	float: left;
-	
+	margin-top:15px;
+	margin-bottom:15px;
 	 .bread{
 	   color:$azzurro-title;
 	   font-family: 'Droid Sans';
@@ -71,7 +74,8 @@ a{
 	width: 101px;
 	height: 31px;
 	float: left;
-	
+	margin-top:15px;
+	margin-bottom:15px;
 	.bread-2{
 	   color:$azzurro-title;
 	   font-family: 'Droid Sans';
@@ -99,7 +103,8 @@ a{
 	width: 170px;
 	height: 38px;
 	float: left;
-	
+	margin-top:10x;
+	margin-bottom:15px;
 	.bread-grande{
 	   color:$dark-green;
 	   font-family: 'Droid Sans';

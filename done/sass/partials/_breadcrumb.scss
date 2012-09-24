@@ -9,7 +9,8 @@ a{
 	width: 114px;
 	height: 31px;
 	float: left;
-	
+	margin-top:15px;
+	margin-bottom:15px;
 	 .bread-intro{
 	   color: $azzurro-title;
 	   font-family: 'Droid Sans';
@@ -47,7 +48,8 @@ a{
 	width: 101px;
 	height: 31px;
 	float: left;
-	
+	margin-top:15px;
+	margin-bottom:15px;
 	 .bread{
 	   color:$azzurro-title;
 	   font-family: 'Droid Sans';
@@ -75,7 +77,8 @@ a{
 	width: 101px;
 	height: 31px;
 	float: left;
-	
+	margin-top:15px;
+	margin-bottom:15px;
 	.bread-2{
 	   color:$azzurro-title;
 	   font-family: 'Droid Sans';
@@ -103,7 +106,8 @@ a{
 	width: 101px;
 	height: 31px;
 	float: left;
-	
+	margin-top:15px;
+	margin-bottom:15px;
 	.bread-3{
 	   color:$azzurro-title;
 	   font-family: 'Droid Sans';
@@ -134,7 +138,9 @@ a{
 
 
 #numbers-likes-breadcrumbs{
-	margin-top: 10px;
+margin-top:15px;
+	margin-bottom:15px;
+
 	background: image-url("background-likes2.png") no-repeat left top;
 	width: 67px;
 	height: 32px;
@@ -178,7 +184,9 @@ a{
 
 	
 #numbers-dislikes-breadcrumbs{
-	margin-top: 10px;
+margin-top:15px;
+	margin-bottom:15px;
+
 	background: image-url("background-likes2.png") no-repeat left top;
 	width: 67px;
 	height: 32px;
@@ -218,7 +226,9 @@ a{
 
  .lezione-seguita{
    	float: right;
-   	 margin-right: 170px;   	
+   	 margin-right: 170px; 
+	 margin-top:15px;
+	margin-bottom:15px;  	
    	  span{
    	  	color: $light-green;
    	  	font-family: 'Droid Sans';

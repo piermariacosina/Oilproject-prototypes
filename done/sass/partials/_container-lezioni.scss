@@ -1,8 +1,9 @@
 .container-lezioni{
 	@include clearfix;
-	
-	padding: 10px 4px 0 4px;
-	margin: 10px 7px 10px 7px;
+
+		
+		padding: 10px 4px 0 4px;
+	margin: 15px 7px 15px 7px;
 	background: $light-grey;
 	border: 1px solid $grey;
 	h3{

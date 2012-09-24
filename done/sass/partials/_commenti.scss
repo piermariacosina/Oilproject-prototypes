@@ -8,7 +8,8 @@ background: url("../images/vota-commenti.png") no-repeat left top;
 padding-bottom: 30px;
 margin-left: 40px;
 width: 24px;
-height: 15px;	
+height: 15px;
+margin-top:15px;	
 float: left;
 
 		  p{
@@ -21,11 +22,8 @@ float: left;
 #commenti-box{
 
         @include grid(11);
+        margin-bottom:32px;
         
-                     
-           
-           
-           
            .rispondi{
            background: url("../images/vota-commenti.png") no-repeat left top;
            width: 24px;
