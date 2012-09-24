@@ -5,8 +5,7 @@
  	
  	font-family: 'Droid Sans';
  	color: $dark-green;
- 	display: inline;
- 	float: left;
+ 	@include float-left;
  	margin-top: 10px;
  	margin-bottom: 10px;
  	@include stripe-fluo-background;
@@ -33,7 +32,7 @@
  	.categorie-lezioni{
  		@include horizontal-list-container;
  		@include clearfix;
- 		margin-top: 37px;
+ 		clear: left;
  		margin-left: 40px;
  		li{
  			@include horizontal-list-item;
@@ -72,8 +71,8 @@
 
  	   h3{
  	     font-family: 'Droid Sans';
- 		 max-width: 242px;
- 		 height: 113px;
+ 		 max-width: 270px;
+ 		
  		 font-weight: bold;
  		 font-size: 25px;
  		 line-height: 30px;
@@ -113,11 +112,12 @@
 			}
 
 		.img-corso-categoria{
-			 margin-left: 27px;
-			 position: absolute;
-			 top:20px;
-			 left: 10px;
-			 float: right;
+			 margin-left: 37px;
+			 position: relative;
+			 @include float-left;
+			 margin-top:20px;
+			
+			
 			 width: 290px;
 			 height: 150px;
 			 @include single-box-shadow;
