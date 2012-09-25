@@ -6,7 +6,8 @@
     @include stripe-fluo-background;
     position: relative;
 	@include grid(11);
-	height: auto; //183px;
+	width: 620px;
+	height: auto;
 	min-height: 183px;
 	margin-top: 10px;
 	margin-bottom: 10px;

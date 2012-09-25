@@ -4,6 +4,7 @@
 	@include stripe-fluo-background;
 	position: relative;
 	@include grid(11);
+	width: 620px;
 	height: 216px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -50,7 +51,7 @@
  	}
  	
  	#extras{
- 		margin-left: 400px;
+ 		margin-left: 390px;
  		margin-top: -90px;
  		position: absolute;
  		
@@ -182,7 +183,7 @@
  		  line-height: 15px;
  		  text-transform: uppercase;
  		  margin-top: 10px;
- 		  margin-left: 40px;
+ 		  margin-left: 20px;
  	   						}
 
  	   h3{
@@ -195,14 +196,14 @@
  		 overflow: hidden;
  		 font-weight: normal;
  		 text-transform: lowercase;
- 		 margin-left: 40px;
+ 		 margin-left: 20px;
  							}
 		.relatore{
 			 font-weight: bold;
 			 font-size: 10px;
 			 display: block;
 			 top:-3px;
-			 margin-left: 40px;
+			 margin-left: 20px;
 			 position: relative;
 			 color: $light-green;
 
@@ -221,7 +222,7 @@
 			}
 
 		.img-corso-categoria{
-			 margin-left: 27px;
+			 margin-left: 20px;
 			 position: absolute;
 			 float: right;
 			}
@@ -230,7 +231,7 @@
 
 
 .divisore-2{
-		margin-left: 40px;
+		margin-left: 20px;
 		margin-right: 20px;
 		height: 2px;
 		clear: both;

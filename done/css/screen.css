@@ -1885,13 +1885,14 @@ div.buttons {
   margin-left: 10px;
   margin-right: 10px;
   width: 640px;
+  width: 620px;
   height: 216px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: 'Droid Sans';
   color: #084936;
 }
-/* line 14, ../sass/partials/_box-corso.scss */
+/* line 15, ../sass/partials/_box-corso.scss */
 .corso .corner {
   width: 18px;
   height: 18px;
@@ -1899,7 +1900,7 @@ div.buttons {
   position: absolute;
   background: url('../images/corner-fluo-left-stripes.png?1348565097') no-repeat top left;
 }
-/* line 19, ../sass/partials/_box-corso.scss */
+/* line 20, ../sass/partials/_box-corso.scss */
 .corso .categorie-lezioni {
   margin: 0;
   padding: 0;
@@ -1913,7 +1914,7 @@ div.buttons {
   float: right;
   margin-right: 20px;
 }
-/* line 25, ../sass/partials/_box-corso.scss */
+/* line 26, ../sass/partials/_box-corso.scss */
 .corso .categorie-lezioni li {
   list-style-image: none;
   list-style-type: none;
@@ -1940,24 +1941,24 @@ div.buttons {
 .corso .categorie-lezioni li.last {
   padding-right: 0;
 }
-/* line 31, ../sass/partials/_box-corso.scss */
+/* line 32, ../sass/partials/_box-corso.scss */
 .corso .categorie-lezioni li .icon {
   position: relative;
   float: left;
   font-size: 18px;
 }
-/* line 36, ../sass/partials/_box-corso.scss */
+/* line 37, ../sass/partials/_box-corso.scss */
 .corso .categorie-lezioni li span {
   position: relative;
   float: left;
   margin-top: 5px;
   margin-left: 5px;
 }
-/* line 43, ../sass/partials/_box-corso.scss */
+/* line 44, ../sass/partials/_box-corso.scss */
 .corso .categorie-lezioni li:last-child {
   margin-right: 0px;
 }
-/* line 48, ../sass/partials/_box-corso.scss */
+/* line 49, ../sass/partials/_box-corso.scss */
 .corso a {
   text-decoration: none;
   color: #084936;
@@ -1975,25 +1976,25 @@ div.buttons {
 .corso a:active {
   color: #43d1b4;
 }
-/* line 52, ../sass/partials/_box-corso.scss */
+/* line 53, ../sass/partials/_box-corso.scss */
 .corso #extras {
-  margin-left: 400px;
+  margin-left: 390px;
   margin-top: -90px;
   position: absolute;
 }
-/* line 58, ../sass/partials/_box-corso.scss */
+/* line 59, ../sass/partials/_box-corso.scss */
 .corso #extras #likes {
   float: left;
 }
-/* line 62, ../sass/partials/_box-corso.scss */
+/* line 63, ../sass/partials/_box-corso.scss */
 .corso #extras #dislikes {
   float: left;
 }
-/* line 65, ../sass/partials/_box-corso.scss */
+/* line 66, ../sass/partials/_box-corso.scss */
 .corso #extras #view {
   float: left;
 }
-/* line 71, ../sass/partials/_box-corso.scss */
+/* line 72, ../sass/partials/_box-corso.scss */
 .corso .box-number-views {
   float: left;
   margin-bottom: 12px;
@@ -2002,7 +2003,7 @@ div.buttons {
   border-right: 1px solid #086661;
   border-top: 1px solid #086661;
 }
-/* line 79, ../sass/partials/_box-corso.scss */
+/* line 80, ../sass/partials/_box-corso.scss */
 .corso .box-number-views .number-views {
   font-weight: normal;
   font-size: 10px;
@@ -2015,7 +2016,7 @@ div.buttons {
   border-right: 1px solid #7dfed5;
   padding: 2px;
 }
-/* line 92, ../sass/partials/_box-corso.scss */
+/* line 93, ../sass/partials/_box-corso.scss */
 .corso .views {
   font-weight: normal;
   font-size: 10px;
@@ -2026,13 +2027,13 @@ div.buttons {
   margin-top: 4px;
   margin-right: 15px;
 }
-/* line 101, ../sass/partials/_box-corso.scss */
+/* line 102, ../sass/partials/_box-corso.scss */
 .corso .views i {
   font-size: 13px;
   position: relative;
   top: 1px;
 }
-/* line 108, ../sass/partials/_box-corso.scss */
+/* line 109, ../sass/partials/_box-corso.scss */
 .corso .box-likes {
   float: left;
   margin-bottom: 12px;
@@ -2041,18 +2042,18 @@ div.buttons {
   border-right: 1px solid white;
   border-top: 1px solid white;
 }
-/* line 115, ../sass/partials/_box-corso.scss */
+/* line 116, ../sass/partials/_box-corso.scss */
 .corso .box-likes .icona-likes {
   margin: 0;
   padding: 1px 4px;
 }
-/* line 118, ../sass/partials/_box-corso.scss */
+/* line 119, ../sass/partials/_box-corso.scss */
 .corso .box-likes .icona-likes i {
   color: #49ada8;
   font-size: 19px;
   line-height: 7px;
 }
-/* line 127, ../sass/partials/_box-corso.scss */
+/* line 128, ../sass/partials/_box-corso.scss */
 .corso .number-likes {
   font-weight: normal;
   font-size: 10px;
@@ -2064,7 +2065,7 @@ div.buttons {
   margin-right: 15px;
   text-transform: uppercase;
 }
-/* line 140, ../sass/partials/_box-corso.scss */
+/* line 141, ../sass/partials/_box-corso.scss */
 .corso .box-dislikes {
   float: left;
   margin-bottom: 12px;
@@ -2073,11 +2074,11 @@ div.buttons {
   border-right: 1px solid white;
   border-top: 1px solid white;
 }
-/* line 147, ../sass/partials/_box-corso.scss */
+/* line 148, ../sass/partials/_box-corso.scss */
 .corso .box-dislikes .icona-dislikes {
   padding: 1px 4px;
 }
-/* line 149, ../sass/partials/_box-corso.scss */
+/* line 150, ../sass/partials/_box-corso.scss */
 .corso .box-dislikes .icona-dislikes i {
   color: #49ada8;
   font-size: 19px;
@@ -2085,7 +2086,7 @@ div.buttons {
   position: relative;
   top: -3px;
 }
-/* line 160, ../sass/partials/_box-corso.scss */
+/* line 161, ../sass/partials/_box-corso.scss */
 .corso .number-dislikes {
   font-weight: normal;
   font-size: 10px;
@@ -2097,7 +2098,7 @@ div.buttons {
   margin-right: 15px;
   text-transform: uppercase;
 }
-/* line 178, ../sass/partials/_box-corso.scss */
+/* line 179, ../sass/partials/_box-corso.scss */
 .corso h4 {
   width: 300px;
   font-weight: bold;
@@ -2105,9 +2106,9 @@ div.buttons {
   line-height: 15px;
   text-transform: uppercase;
   margin-top: 10px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
-/* line 188, ../sass/partials/_box-corso.scss */
+/* line 189, ../sass/partials/_box-corso.scss */
 .corso h3 {
   max-width: 200px;
   height: 60px;
@@ -2118,19 +2119,19 @@ div.buttons {
   overflow: hidden;
   font-weight: normal;
   text-transform: lowercase;
-  margin-left: 40px;
+  margin-left: 20px;
 }
-/* line 200, ../sass/partials/_box-corso.scss */
+/* line 201, ../sass/partials/_box-corso.scss */
 .corso .relatore {
   font-weight: bold;
   font-size: 10px;
   display: block;
   top: -3px;
-  margin-left: 40px;
+  margin-left: 20px;
   position: relative;
   color: #057c79;
 }
-/* line 211, ../sass/partials/_box-corso.scss */
+/* line 212, ../sass/partials/_box-corso.scss */
 .corso p {
   width: 334px;
   height: 80px;
@@ -2142,16 +2143,16 @@ div.buttons {
   margin-right: 20px;
   margin-top: 15px;
 }
-/* line 223, ../sass/partials/_box-corso.scss */
+/* line 224, ../sass/partials/_box-corso.scss */
 .corso .img-corso-categoria {
-  margin-left: 27px;
+  margin-left: 20px;
   position: absolute;
   float: right;
 }
 
-/* line 232, ../sass/partials/_box-corso.scss */
+/* line 233, ../sass/partials/_box-corso.scss */
 .divisore-2 {
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 20px;
   height: 2px;
   clear: both;
@@ -2167,12 +2168,13 @@ div.buttons {
   margin-left: 10px;
   margin-right: 10px;
   width: 640px;
+  width: 620px;
   height: auto;
   min-height: 183px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 13, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 14, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio a {
   text-decoration: none;
   color: #084936;
@@ -2190,7 +2192,7 @@ div.buttons {
 .box-singolo-esercizio a:active {
   color: #43d1b4;
 }
-/* line 18, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 19, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .corner {
   width: 18px;
   height: 18px;
@@ -2198,7 +2200,7 @@ div.buttons {
   position: absolute;
   background: url('../images/corner-fluo-left-stripes.png?1348565097') no-repeat top left;
 }
-/* line 22, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 23, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title {
   display: inline;
   float: left;
@@ -2207,7 +2209,7 @@ div.buttons {
   width: 220px;
   margin-left: 23px;
 }
-/* line 25, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 26, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title h4 {
   color: #084936;
   font-weight: 700;
@@ -2216,7 +2218,7 @@ div.buttons {
   font-size: 15px;
   margin-top: 16px;
 }
-/* line 33, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 34, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title h2 {
   width: 280px;
   color: #084936;
@@ -2229,7 +2231,7 @@ div.buttons {
   text-shadow: 0px 1px 1px white, 0px 1px 1px true white;
   text-shadow: 0px 1px 1px true white, 0px 1px 1px true white;
 }
-/* line 48, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 49, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info {
   position: relative;
   left: 60px;
@@ -2239,7 +2241,7 @@ div.buttons {
   margin-right: 10px;
   width: 280px;
 }
-/* line 51, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 52, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info p {
   color: #084936;
   font-weight: 400;
@@ -2247,7 +2249,7 @@ div.buttons {
   font-size: 13px;
   float: left;
 }
-/* line 60, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 61, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info .number {
   background-color: #084936;
   width: 19px;
@@ -2262,7 +2264,7 @@ div.buttons {
   padding: 1px 0 0 1px;
   margin-top: -2px;
 }
-/* line 75, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 76, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info p.data-commento {
   margin-left: 15px;
   text-transform: uppercase;
@@ -2270,14 +2272,14 @@ div.buttons {
   font-size: 10px;
   color: #084936;
 }
-/* line 83, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 84, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info p.data-commento span {
   text-transform: capitalize;
   margin-left: 3px;
   margin-right: 3px;
   font-weight: 400;
 }
-/* line 92, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 93, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio p.description {
   width: 280px;
   margin-top: 10px;
@@ -2286,7 +2288,7 @@ div.buttons {
   padding-bottom: 20px;
 }
 
-/* line 101, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 102, ../sass/partials/_box-singolo-esercizio.scss */
 .comm {
   display: inline;
   float: left;
@@ -2296,7 +2298,7 @@ div.buttons {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 105, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 106, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments {
   height: auto;
   overflow: hidden;
@@ -2306,22 +2308,22 @@ div.buttons {
   border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 113, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 114, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments.first {
   padding-right: 10px;
 }
-/* line 117, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 118, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments.center {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 122, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 123, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments.last {
   border-right: none;
   float: right;
 }
-/* line 126, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 127, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -2329,7 +2331,7 @@ div.buttons {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 132, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 133, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -2343,7 +2345,7 @@ div.buttons {
   padding: 2px;
   text-align: center;
 }
-/* line 146, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 147, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -6117,12 +6119,13 @@ div.row {
   margin-left: 10px;
   margin-right: 10px;
   width: 640px;
+  width: 620px;
   height: auto;
   min-height: 183px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 13, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 14, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio a {
   text-decoration: none;
   color: #084936;
@@ -6140,7 +6143,7 @@ div.row {
 .box-singolo-esercizio a:active {
   color: #43d1b4;
 }
-/* line 18, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 19, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .corner {
   width: 18px;
   height: 18px;
@@ -6148,7 +6151,7 @@ div.row {
   position: absolute;
   background: url('../images/corner-fluo-left-stripes.png?1348565097') no-repeat top left;
 }
-/* line 22, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 23, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title {
   display: inline;
   float: left;
@@ -6157,7 +6160,7 @@ div.row {
   width: 220px;
   margin-left: 23px;
 }
-/* line 25, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 26, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title h4 {
   color: #084936;
   font-weight: 700;
@@ -6166,7 +6169,7 @@ div.row {
   font-size: 15px;
   margin-top: 16px;
 }
-/* line 33, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 34, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title h2 {
   width: 280px;
   color: #084936;
@@ -6178,7 +6181,7 @@ div.row {
   padding-bottom: 20px;
   text-shadow: 0px 1px 1px white;
 }
-/* line 48, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 49, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info {
   position: relative;
   left: 60px;
@@ -6188,7 +6191,7 @@ div.row {
   margin-right: 10px;
   width: 280px;
 }
-/* line 51, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 52, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info p {
   color: #084936;
   font-weight: 400;
@@ -6196,7 +6199,7 @@ div.row {
   font-size: 13px;
   float: left;
 }
-/* line 60, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 61, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info .number {
   background-color: #084936;
   width: 19px;
@@ -6211,7 +6214,7 @@ div.row {
   padding: 1px 0 0 1px;
   margin-top: -2px;
 }
-/* line 75, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 76, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info p.data-commento {
   margin-left: 15px;
   text-transform: uppercase;
@@ -6219,14 +6222,14 @@ div.row {
   font-size: 10px;
   color: #084936;
 }
-/* line 83, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 84, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .info p.data-commento span {
   text-transform: capitalize;
   margin-left: 3px;
   margin-right: 3px;
   font-weight: 400;
 }
-/* line 92, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 93, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio p.description {
   width: 280px;
   margin-top: 10px;
@@ -6235,7 +6238,7 @@ div.row {
   padding-bottom: 20px;
 }
 
-/* line 101, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 102, ../sass/partials/_box-singolo-esercizio.scss */
 .comm {
   display: inline;
   float: left;
@@ -6245,7 +6248,7 @@ div.row {
   margin-right: 0;
   margin-left: 0;
 }
-/* line 105, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 106, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments {
   height: auto;
   overflow: hidden;
@@ -6255,22 +6258,22 @@ div.row {
   border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 113, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 114, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments.first {
   padding-right: 10px;
 }
-/* line 117, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 118, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments.center {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 122, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 123, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments.last {
   border-right: none;
   float: right;
 }
-/* line 126, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 127, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -6278,7 +6281,7 @@ div.row {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 132, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 133, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -6292,7 +6295,7 @@ div.row {
   padding: 2px;
   text-align: center;
 }
-/* line 146, ../sass/partials/_box-singolo-esercizio.scss */
+/* line 147, ../sass/partials/_box-singolo-esercizio.scss */
 .comm .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
