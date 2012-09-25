@@ -1,4 +1,4 @@
-.crea-esercizio{
+#risposta-breve{
 	margin-top: 20px;
 	@include clearfix;
 	background-color: $soft-blue;
@@ -52,12 +52,16 @@
 	 
 		 
 	 
-	.box_risposta{
+	.form-item{
 		margin-left: 20px;
 		margin-top: 10px;
 		height: 102px;
 		width: 523px;
-		.frase{
+		
+		.description{
+			
+		}
+		.form-text{
 			margin-top: 10px;
 			height: 32px;
 			width: 450px;
