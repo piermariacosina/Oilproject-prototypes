@@ -1,0 +1,60 @@
+.risposta-esercizio-select{
+	@include grid (11);
+	@include clearfix;		
+	fieldset {			
+			font-family: 'Droid Sans';
+			font-size: 13px;
+			position: relative;
+		
+		label {
+			@include float-left;
+			display: block;
+			margin: 30px 0 5px 0;
+			
+			color: $dark-green;
+		}
+			
+	}
+	
+	select{
+		@include float-left;
+		border: 2px solid $dark-green;
+		font-size:16px;
+		font-family: 'Droid Sans';
+		color:$dark-green;
+		$default-text-shadow-h-offset: 0px;
+		$default-text-shadow-v-offset: 2px;
+		$default-text-shadow-blur: 1px;
+		$default-text-shadow-spread: false;
+		$default-text-shadow-color: $white;
+		@include background( image-url("freccia-select-scuro.png") no-repeat right);       
+		-webkit-appearance: none;
+		&.standard{
+			@include grid(3);
+			height: 40px;
+			width: 286px;
+			@include alpha;
+			margin-left: 10px;
+			display: inline-block;
+			margin-top: 20px;
+		}
+	
+		&.last{
+			@include grid(3);
+			height: 20px;
+			@include alpha;
+			display: inline-block;
+		}
+		
+	}
+
+	label.horizontal{
+		@include grid(3);
+		@include alpha;
+		
+	}
+
+
+		
+	
+}
