@@ -1,6 +1,7 @@
 .risposta-esercizio-select{
 	@include grid (11);
-	@include clearfix;		
+	@include clearfix;
+	background-color: $soft-blue;		
 	fieldset {			
 			font-family: 'Droid Sans';
 			font-size: 13px;
@@ -18,7 +19,7 @@
 	
 	select{
 		@include float-left;
-		border: 2px solid $dark-green;
+		border: 1px solid #65C1B0;
 		font-size:16px;
 		font-family: 'Droid Sans';
 		color:$dark-green;
@@ -27,7 +28,7 @@
 		$default-text-shadow-blur: 1px;
 		$default-text-shadow-spread: false;
 		$default-text-shadow-color: $white;
-		@include background( image-url("freccia-select-scuro.png") no-repeat right);       
+		@include background( image-url("freccia-select.png") no-repeat right,image-url("ombra-select.png") repeat-x right , #7ddbd2);       
 		-webkit-appearance: none;
 		&.standard{
 			@include grid(3);
