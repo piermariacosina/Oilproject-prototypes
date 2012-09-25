@@ -6,14 +6,20 @@
 	margin-bottom:10px;
 	height:auto;
 	  
+	  a{
+	  	@include link-over-fluo;
+	  }
+	  
+	  
 	  .img-corso-iniziato{
 	  			 margin-left: 37px;
-	  			 position: relative;
+	  			 position: absolute;
 	  			 @include float-left;
 	  			 width: 279px;
 	  			 height: 101px;
 	  			 @include single-box-shadow;
 	  			 margin-top: 29px;
+	  			 margin-left: 33px;
 	  			}
 	  
 	  
@@ -23,6 +29,8 @@
 	clear: both;
 	
 	}
+	
+	
 
 .box-corso-iniziato{
 	position: relative;
@@ -103,7 +111,7 @@
 	   	width: 223px;
 	   	height: 32px;
 	   	margin-top: 137px;
-	   	margin-left: 40px;
+	   	margin-left: 36px;
 	   	position: relative;
 	   	.barra{
 		   	position: absolute;
