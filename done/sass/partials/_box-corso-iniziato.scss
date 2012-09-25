@@ -5,9 +5,19 @@
 	margin-top:10px;
 	margin-bottom:10px;
 	height:auto;
-	
+	  
+	  .img-corso-iniziato{
+	  			 margin-left: 37px;
+	  			 position: relative;
+	  			 @include float-left;
+	  			 width: 279px;
+	  			 height: 101px;
+	  			 @include single-box-shadow;
+	  			 margin-top: 29px;
+	  			}
+	  
+	  
 	}
-	
 	
 	.box-corso-false{
 	clear: both;
@@ -26,6 +36,9 @@
 	a{
 		@include link-over-fluo;
 	}
+	
+	
+		
 	
 	.number{
 		width: 19px;
@@ -90,7 +103,7 @@
 	   	width: 223px;
 	   	height: 32px;
 	   	margin-top: 137px;
-	   	margin-left: 36px;
+	   	margin-left: 40px;
 	   	position: relative;
 	   	.barra{
 		   	position: absolute;
