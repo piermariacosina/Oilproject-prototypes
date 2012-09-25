@@ -1,4 +1,8 @@
 #risposta-vero-falso{
+<<<<<<< HEAD
+=======
+	background: none;
+>>>>>>> fix risposta-vero-falso
 	width: 620px;
 	height: 100px;
 	margin-left: 30px;
@@ -6,29 +10,39 @@
 	
 	  
 	    form{
-	     width: 401px;
+			width: 401px;
 	    	color: $dark-green;
 	    	font-family: 'Droid Sans';
 	    	font-size: 13px;
+	    	line-height: 15px;
 	    	margin-left: 80px;
 	    	padding-top: 30px;
-	    	
-	    	p{
-	    	margin-left: 40px;
-	    	margin-top: 10px;
-	    	
-	    	}
-	    	
-	    	  input{
-	    	  float: left;
-	    	  margin-top: 10px;
-	    	  }
+	    	.container-form{
+	    		clear: both;
+	    		width: auto;
+	    		height: auto;
+	    		@include clearfix;
+	    		margin: 15px 0 0 0;	    		
+		    	p{
+			    	margin-left: 40px;
+			    	margin-top: 0;
+			    	float: left;
+			    	position: relative;
+			    	text-transform: uppercase;
+		    	}
+				input{
+					position: relative;
+					float: left;
+					margin: 1px 0 0 2px;
+					
+				}
+			}
 	    	
 	    }
 	
 	h1{
 	
-	 color:$azzurro_title;
+	 color: $azzurro_title;
 	 font-family: 'Droid Sans';
 	 font-size: 20px;
 	 font-weight: bold;
@@ -47,7 +61,7 @@
 	
 	 h2{
 	
-	 color:$azzurro_title;
+	 color: $azzurro_title;
 	 font-family: 'Droid Sans';
 	 font-size: 20px;
 	 text-transform: uppercase;
