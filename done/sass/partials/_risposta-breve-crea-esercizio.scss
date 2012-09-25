@@ -1,23 +1,23 @@
 .crea-esercizio{
-	margin-top:20px;
+	margin-top: 20px;
 	@include clearfix;
 	background-color: $soft-blue;
 	height: 200px;
 	.risposta{
 		background: image-url("sfondo-es.png") repeat left top;
-		width:186px;
-		height:28px;
-		margin-left:5px;
-		margin-top:5px;
+		width: 186px;
+		height: 28px;
+		margin-left: 5px;
+		margin-top: 5px;
 		 
 		h4{
 			font-family: 'Droid Sans';
-			text-transform:uppercase;
+			text-transform: uppercase;
 			color: #418c89;
-			font-size:15px;
-			line-height:30px;
-			font-weight:bold;
-			margin-left:20px;
+			font-size: 15px;
+			line-height: 30px;
+			font-weight: bold;
+			margin-left: 20px;
 			 $default-text-shadow-h-offset: 0px;
 			 $default-text-shadow-v-offset: 1px;
 			 $default-text-shadow-color: $white;	       
@@ -27,9 +27,9 @@
 	
 	 
 	 #box{
-	 position:absolute;
-	 height:21px;
-	 width:21px;
+	 position: absolute;
+	 height: 21px;
+	 width: 21px;
 	 margin-left: 550px;
 	 margin-top: -15px;
 	 background: $dark-green;
