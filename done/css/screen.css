@@ -5140,6 +5140,7 @@ header#main .registrati p {
   color: #49ada8;
   padding: 0 5px;
   font-size: 22px;
+  line-height: 33px;
 }
 /* line 29, ../sass/partials/_prefooter.scss */
 #prefooter .categoria-container .categoria-title h1 {
