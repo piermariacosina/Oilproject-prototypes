@@ -6,7 +6,7 @@
 		position: relative;
 		@include grid(11);
 		height:92px;
-		width: 638px;
+		width: 620px;
 	 	height: 92px;
 	 	font-family: 'Droid Sans';
 	 	margin-top: 30px;
@@ -39,7 +39,7 @@
  	   position:absolute;
  	   height:21px;
  	   width:21px;
- 	   margin-left: 190px;
+ 	   margin-left: 185px;
  	   background: $dark-green;
  	   font-family:Arial;
  	   border-radius: 30px;
@@ -210,7 +210,6 @@ width:34px;
 background:$fluo-blue;
 font-family:droid sans;
 border-radius: 30px;
-margin-right: -27px;
 }
 
 .plus{
