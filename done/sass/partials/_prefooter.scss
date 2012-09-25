@@ -1,14 +1,17 @@
 #prefooter{
+	width: auto;
+	height: auto;
+	@include clearfix;
 	hr{
 		width: 948px;
 		height: 1px;
 		border: 0;
 		background: #B1F2E6;
-		margin: 17px 0 9px 0;
+		margin: 17px 0 0 0;
 		}
 	.categoria-container{
 		float: left;
-		margin: 0 12px 0 0;		
+		margin: 9px 12px 0 0;		
 		.categoria-title{
 				width: 108px;
 				height: 31px;
