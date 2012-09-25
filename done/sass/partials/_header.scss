@@ -205,7 +205,35 @@ p{
 				margin:0px;
 				}
 			}	
+			
+			
+			.registrati{
+				@include float-left;
+				width: 109px;
+				margin-top: 6px;
+				background-color: $light-green;
+				a:hover{
+					p{
+						color: $fluo-blue;
+						}
+				}
+				p{
+					font-size: 10px;
+					font-weight: bold;
+					line-height:30px;
+					height: 30px;
+					text-align: center;
+					margin:0px;
+					}
+				}
+				
+				.faseregistrati{
+					margin-top: 6px;
+				}
+					
 	}	
+	
+	
 
 	section#dashboard-loggedin{
 			&.hide{
@@ -358,7 +386,28 @@ p{
 						}
 					}	 
 			}		
-}
+			
+			.registrati{
+					@include float-left;
+					width: 99px;
+					border-left: 1px solid $white;
+					a:hover{
+						p{
+						color: $fluo-blue;
+						}
+					}
+					p{
+						font-size: 10px;
+						font-weight: bold;
+						line-height:30px;
+						height: 30px;
+						text-align: center;
+						margin:0px;
+						}
+					}	 
+			}		
+			
+
 
 .notice-list{
 	@include float-left;
