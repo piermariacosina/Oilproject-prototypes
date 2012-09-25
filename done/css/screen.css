@@ -14,7 +14,7 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 
 /* line 86, ../sass/screen.scss */
 div.corner.left {
-  background: url('../images/corner-left.png?1347628549') no-repeat left top;
+  background: url('../images/corner-left.png?1348232597') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-left: -6px;
@@ -23,7 +23,7 @@ div.corner.left {
 }
 /* line 93, ../sass/screen.scss */
 div.corner.right {
-  background: url('../images/corner-right.png?1347628549') no-repeat left top;
+  background: url('../images/corner-right.png?1348232597') no-repeat left top;
   height: 6px;
   width: 6px;
   margin-right: -6px;
@@ -32,7 +32,7 @@ div.corner.right {
 }
 /* line 100, ../sass/screen.scss */
 div.corner.left.striped {
-  background: url('../images/corner-left-striped.png?1347628549') no-repeat left top;
+  background: url('../images/corner-left-striped.png?1348232597') no-repeat left top;
   height: 21px;
   width: 20px;
   margin-left: -20px;
@@ -144,17 +144,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 4, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 6, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 8, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -163,52 +163,52 @@ hr {
   height: 0;
 }
 
-/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 14, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 16, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 20, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 26, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 28, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 30, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 32, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 p,
 dl,
 hr,
@@ -1613,7 +1613,48 @@ ul.icons li .icon-large:before {
   color: #057c79;
 }
 
-/* line 259, ../sass/partials/_buttons.scss */
+/* line 255, ../sass/partials/_buttons.scss */
+.btn.green-big-2 {
+  display: inline-block;
+  width: 159px;
+  height: 31px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  margin-left: 0;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #084936;
+  cursor: pointer;
+  line-height: 14px;
+  margin-left: 380px;
+  margin-top: 18px;
+}
+/* line 279, ../sass/partials/_buttons.scss */
+.btn.green-big-2:hover {
+  background: #43d1b4;
+  color: #094934;
+}
+/* line 283, ../sass/partials/_buttons.scss */
+.btn.green-big-2:visited {
+  background: #43d1b4;
+  color: #057c79;
+}
+
+/* line 290, ../sass/partials/_buttons.scss */
 div.buttons {
   display: inline;
   float: left;
@@ -1643,7 +1684,7 @@ div.buttons {
   margin-left: 0;
   margin-right: 0;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso.png?1347628549') no-repeat left top;
+  background: url('../images/crea-il-tuo-corso.png?1348232597') no-repeat left top;
   position: relative;
   position: relative;
   left: -120px;
@@ -1666,7 +1707,7 @@ div.buttons {
   top: 20px;
   width: 50%;
   height: 282px;
-  background: url('../images/crea-il-tuo-corso-bg.png?1347628549') repeat-x left top;
+  background: url('../images/crea-il-tuo-corso-bg.png?1348232597') repeat-x left top;
 }
 
 /* line 4, ../sass/partials/_bottone-segui-utente.scss */
@@ -1695,23 +1736,55 @@ div.buttons {
   margin-bottom: 10px;
   height: auto;
 }
+/* line 9, ../sass/partials/_box-corso-iniziato.scss */
+.corsi-iniziati a {
+  text-decoration: none;
+  color: #084936;
+  cursor: pointer;
+}
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.corsi-iniziati a:visited {
+  color: #084936;
+}
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.corsi-iniziati a:hover {
+  color: #3d635f;
+}
+/* line 27, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.corsi-iniziati a:active {
+  color: #43d1b4;
+}
+/* line 14, ../sass/partials/_box-corso-iniziato.scss */
+.corsi-iniziati .img-corso-iniziato {
+  margin-left: 37px;
+  position: absolute;
+  display: inline;
+  float: left;
+  width: 279px;
+  height: 101px;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  margin-top: 29px;
+  margin-left: 33px;
+}
 
-/* line 12, ../sass/partials/_box-corso-iniziato.scss */
+/* line 28, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-false {
   clear: both;
 }
 
-/* line 17, ../sass/partials/_box-corso-iniziato.scss */
+/* line 35, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato {
   position: relative;
-  background: url('../images/background-corso-iniziato.png?1347642999') no-repeat left top;
+  background: url('../images/background-corso-iniziato.png?1348232597') no-repeat left top;
   width: 330px;
   height: 247px;
   display: inline;
   float: left;
   margin: 5px 0 5px -10px;
 }
-/* line 26, ../sass/partials/_box-corso-iniziato.scss */
+/* line 44, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato a {
   text-decoration: none;
   color: #084936;
@@ -1729,7 +1802,7 @@ div.buttons {
 .box-corso-iniziato a:active {
   color: #43d1b4;
 }
-/* line 30, ../sass/partials/_box-corso-iniziato.scss */
+/* line 51, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .number {
   width: 19px;
   height: 19px;
@@ -1744,7 +1817,7 @@ div.buttons {
   padding: 1px 0 0 1px;
   margin-top: -2px;
 }
-/* line 46, ../sass/partials/_box-corso-iniziato.scss */
+/* line 67, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato h1 {
   font-size: 17px;
   color: #084936;
@@ -1757,7 +1830,7 @@ div.buttons {
   margin-top: 21px;
   margin-left: 39px;
 }
-/* line 65, ../sass/partials/_box-corso-iniziato.scss */
+/* line 86, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato span {
   color: #084936;
   font-family: 'Droid Sans';
@@ -1765,7 +1838,7 @@ div.buttons {
   font-size: 10px;
   margin-left: 5px;
 }
-/* line 73, ../sass/partials/_box-corso-iniziato.scss */
+/* line 94, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .numero-lezioni {
   position: relative;
   float: right;
@@ -1773,21 +1846,21 @@ div.buttons {
   margin: 5px 0 8px 0;
   margin-right: 135px;
 }
-/* line 83, ../sass/partials/_box-corso-iniziato.scss */
+/* line 104, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .cover-corso {
   position: absolute;
   margin-left: 6px;
 }
-/* line 88, ../sass/partials/_box-corso-iniziato.scss */
+/* line 109, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .caricamento {
-  background: url('../images/box-caricamento.png?1347628549') no-repeat left top;
+  background: url('../images/box-caricamento.png?1348232597') no-repeat left top;
   width: 223px;
   height: 32px;
   margin-top: 137px;
   margin-left: 36px;
   position: relative;
 }
-/* line 95, ../sass/partials/_box-corso-iniziato.scss */
+/* line 116, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .caricamento .barra {
   position: absolute;
   top: 4px;
@@ -1796,7 +1869,7 @@ div.buttons {
   width: 97%;
   background-color: #084936;
 }
-/* line 102, ../sass/partials/_box-corso-iniziato.scss */
+/* line 123, ../sass/partials/_box-corso-iniziato.scss */
 .box-corso-iniziato .caricamento .barra .percent {
   color: white;
   font-family: 'Droid Sans';
@@ -1806,7 +1879,7 @@ div.buttons {
 
 /* line 1, ../sass/partials/_box-corso.scss */
 .corso {
-  background: url('../images/diagonal-green-bg.png?1347628549') repeat top left;
+  background: url('../images/diagonal-green-bg.png?1348232597') repeat top left;
   position: relative;
   display: inline;
   float: left;
@@ -1825,7 +1898,7 @@ div.buttons {
   height: 18px;
   left: -18px;
   position: absolute;
-  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
+  background: url('../images/corner-fluo-left-stripes.png?1348232597') no-repeat top left;
 }
 /* line 19, ../sass/partials/_box-corso.scss */
 .corso .categorie-lezioni {
@@ -2064,12 +2137,12 @@ div.buttons {
   margin-right: 20px;
   height: 2px;
   clear: both;
-  background: url('../images/divisore-2.png?1347628549');
+  background: url('../images/divisore-2.png?1348232597');
 }
 
 /* line 1, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio {
-  background: url('../images/diagonal-green-bg.png?1347628549') repeat top left;
+  background: url('../images/diagonal-green-bg.png?1348232597') repeat top left;
   position: relative;
   display: inline;
   float: left;
@@ -2104,7 +2177,7 @@ div.buttons {
   height: 18px;
   left: -18px;
   position: absolute;
-  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
+  background: url('../images/corner-fluo-left-stripes.png?1348232597') no-repeat top left;
 }
 /* line 21, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title {
@@ -2281,7 +2354,7 @@ ul.breadcrumb-list a:active {
 }
 /* line 7, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-intro {
-  background: url('../images/breadcrumb-intro.png?1347892130') no-repeat left top;
+  background: url('../images/breadcrumb-intro.png?1348232597') no-repeat left top;
   width: 114px;
   height: 31px;
   float: left;
@@ -2317,7 +2390,7 @@ ul.breadcrumb-list #breadcrumbs-intro .bread-intro span {
 }
 /* line 47, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs {
-  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
+  background: url('../images/breadcrumb.png?1348232597') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -2342,7 +2415,7 @@ ul.breadcrumb-list #breadcrumbs span {
 }
 /* line 76, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-2 {
-  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
+  background: url('../images/breadcrumb.png?1348232597') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -2367,7 +2440,7 @@ ul.breadcrumb-list #breadcrumbs-2 span {
 }
 /* line 105, ../sass/partials/_breadcrumb.scss */
 ul.breadcrumb-list #breadcrumbs-3 {
-  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
+  background: url('../images/breadcrumb.png?1348232597') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -2401,7 +2474,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 #numbers-likes-breadcrumbs {
   margin-top: 15px;
   margin-bottom: 15px;
-  background: url('../images/background-likes2.png?1347892130') no-repeat left top;
+  background: url('../images/background-likes2.png?1348232597') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -2440,7 +2513,7 @@ ul.breadcrumb-list #breadcrumbs-3 span {
 #numbers-dislikes-breadcrumbs {
   margin-top: 15px;
   margin-bottom: 15px;
-  background: url('../images/background-likes2.png?1347892130') no-repeat left top;
+  background: url('../images/background-likes2.png?1348232597') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -2556,7 +2629,7 @@ ul.commenti-recenti .box_number .number_c {
 }
 /* line 39, ../sass/partials/_commenti-recenti.scss */
 ul.commenti-recenti li {
-  background: url('../images/background.png?1347628549') no-repeat left top;
+  background: url('../images/background.png?1348232597') no-repeat left top;
   overflow: hidden;
   *zoom: 1;
   margin: 3px;
@@ -2650,7 +2723,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .container-corsi li a .box-corso {
   width: 312px;
   height: 363px;
-  background: url('../images/corsi-bg.png?1347628549') no-repeat left top;
+  background: url('../images/corsi-bg.png?1348232597') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
 }
@@ -2766,11 +2839,11 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 134, ../sass/partials/_container-corsi.scss */
 .container-corsi li a:hover .box-corso, .container-corsi li a:visited .box-corso {
-  background: url('../images/corsi-bg-hover.png?1347628549') no-repeat left top;
+  background: url('../images/corsi-bg-hover.png?1348232597') no-repeat left top;
 }
 /* line 143, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a .box-corso {
-  background: url('../images/corsi-bg-linguetta.png?1347628549') no-repeat left top;
+  background: url('../images/corsi-bg-linguetta.png?1348232597') no-repeat left top;
   position: relative;
   width: 330px;
 }
@@ -2800,7 +2873,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 169, ../sass/partials/_container-corsi.scss */
 .container-corsi li:first-child a:hover .box-corso, .container-corsi li:first-child a:visited .box-corso {
-  background: url('../images/corsi-bg-linguetta-hover.png?1347628549') no-repeat left top;
+  background: url('../images/corsi-bg-linguetta-hover.png?1348232597') no-repeat left top;
 }
 /* line 175, ../sass/partials/_container-corsi.scss */
 .container-corsi li:last-child {
@@ -2890,7 +2963,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 74, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video, .container-lezioni .box-video-spacer a:visited .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1348232597') repeat left top;
 }
 /* line 76, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .box-video-spacer a:hover .box-video h1, .container-lezioni .box-video-spacer a:visited .box-video h1 {
@@ -2914,7 +2987,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .container-lezioni .list-lezioni .categorie {
   width: 231px;
   height: 49px;
-  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1348232597') repeat left top;
   margin-right: 3px;
   margin-left: 0;
 }
@@ -3107,7 +3180,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 268, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover .box-lezione {
-  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1348232597') repeat left top;
 }
 /* line 272, ../sass/partials/_container-lezioni.scss */
 .container-lezioni .lezioni a:hover, .container-lezioni .lezioni a:visited {
@@ -3199,7 +3272,7 @@ ul.commenti-recenti li .text p.data_commento span {
   left: -12px;
   width: 18px;
   height: 18px;
-  background: url('../images/corner-left-big.png?1347642999') no-repeat left top;
+  background: url('../images/corner-left-big.png?1348232597') no-repeat left top;
 }
 /* line 31, ../sass/partials/_contenuto-singolo.scss */
 .lezione h4 {
@@ -3421,7 +3494,7 @@ ul.commenti-recenti li .text p.data_commento span {
 .corsi-creati .box-corso {
   width: 320px;
   height: 290px;
-  background: url('../images/background-profilo-categoria.png?1347642999') no-repeat left top;
+  background: url('../images/background-profilo-categoria.png?1348232597') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
@@ -3600,7 +3673,7 @@ ul.commenti-recenti li .text p.data_commento span {
   margin-right: 10px;
   width: 400px;
   height: 285px;
-  background: url('../images/home-video-linguetta.png?1347628549') no-repeat left top;
+  background: url('../images/home-video-linguetta.png?1348232597') no-repeat left top;
   font-family: 'Droid Sans';
   color: #084936;
   overflow: visible;
@@ -3781,7 +3854,7 @@ ul.commenti-recenti li .text p.data_commento span {
 }
 /* line 79, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:hover .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1348232597') repeat left top;
 }
 /* line 84, ../sass/partials/_featured-videolezioni.scss */
 .featured-videolezioni .box-video-spacer a:visited .box-video {
@@ -3807,7 +3880,7 @@ footer#footer {
 /* line 4, ../sass/partials/_footer.scss */
 footer#footer .barra-top {
   position: relative;
-  background: url('../images/diagonal-dark-green.png?1347628549') repeat left top;
+  background: url('../images/diagonal-dark-green.png?1348232597') repeat left top;
   height: 10px;
   border-top: 1px solid #8be5e1;
 }
@@ -3951,7 +4024,7 @@ footer#footer .barra-bottom {
   margin-top: 30px;
   clear: both;
   position: relative;
-  background: url('../images/diagonal-dark-green.png?1347628549') repeat left top;
+  background: url('../images/diagonal-dark-green.png?1348232597') repeat left top;
   overflow: hidden;
   *zoom: 1;
 }
@@ -3971,7 +4044,7 @@ footer#footer .barra-bottom .creative-commons h1 {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/cc.png?1347628549');
+  background-image: url('../images/cc.png?1348232597');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 130px;
@@ -4159,14 +4232,14 @@ footer#footer .barra-bottom .footer-menu a:active {
 }
 /* line 227, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu a:hover .icon {
-  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1348232597') repeat left top;
 }
 /* line 231, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 15px;
   margin-right: 15px;
   height: 8px;
-  background: url('../images/diagonal-green-darker.png?1347628549') repeat left top;
+  background: url('../images/diagonal-green-darker.png?1348232597') repeat left top;
   margin: auto;
 }
 
@@ -4302,7 +4375,7 @@ header#main section#menu .contenitore nav ul li a span {
 /* line 73, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a:hover .underline {
   height: 8px;
-  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1348232597') repeat left top;
   margin: 0 18px;
 }
 /* line 78, ../sass/partials/_header.scss */
@@ -4314,7 +4387,7 @@ header#main section#menu .contenitore nav ul li a:hover span {
 /* line 86, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li .underline {
   height: 8px;
-  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1348232597') repeat left top;
   margin: 0 18px;
 }
 /* line 96, ../sass/partials/_header.scss */
@@ -4366,7 +4439,7 @@ header#main section#menu .contenitore #search input#search-submit {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/search.png?1347628549');
+  background-image: url('../images/search.png?1348232597');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 28px;
@@ -4407,7 +4480,7 @@ header#main section#dashboard-loggedout #vision {
   float: left;
   width: 870px;
   height: 69px;
-  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1348232597') repeat left top;
 }
 /* line 163, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p {
@@ -4433,7 +4506,7 @@ header#main section#dashboard-loggedout #vision p b, header#main section#dashboa
 }
 /* line 179, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision .icon {
-  background: url('../images/icon-vision.png?1347628549') repeat left top;
+  background: url('../images/icon-vision.png?1348232597') repeat left top;
   width: 62px;
   height: 45px;
   margin-top: 12px;
@@ -4655,7 +4728,7 @@ header#main section#dashboard-logout-links .login p {
 }
 /* line 369, ../sass/partials/_header.scss */
 .notice-list .left-white {
-  background: url('../images/left-white.png?1347892130') no-repeat left top;
+  background: url('../images/left-white.png?1348232597') no-repeat left top;
   width: 2px;
   height: 8px;
   position: absolute;
@@ -4664,7 +4737,7 @@ header#main section#dashboard-logout-links .login p {
 }
 /* line 377, ../sass/partials/_header.scss */
 .notice-list .right-white {
-  background: url('../images/right-white.png?1347892130') no-repeat left top;
+  background: url('../images/right-white.png?1348232597') no-repeat left top;
   width: 2px;
   height: 8px;
   position: absolute;
@@ -4748,11 +4821,7 @@ header#main section#dashboard-logout-links .login p {
   width: 100%;
   height: 400px;
   margin-top: 15px;
-<<<<<<< HEAD
-  background: url('../images/diagonal-green-bg.png?1347628549') repeat left top;
-=======
   background: url('../images/diagonal-green-bg.png?1348232597') repeat left top;
->>>>>>> fix
   margin-left: 10px;
   padding-left: 10px;
   position: relative;
@@ -4781,7 +4850,7 @@ header#main section#dashboard-logout-links .login p {
   height: 18px;
   left: -18px;
   position: absolute;
-  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
+  background: url('../images/corner-fluo-left-stripes.png?1348232597') no-repeat top left;
 }
 /* line 15, ../sass/partials/_lesson.scss */
 #lesson .infor {
@@ -4988,7 +5057,7 @@ header#main section#dashboard-logout-links .login p {
 #prefooter .categoria-container .categoria-title {
   width: 108px;
   height: 31px;
-  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1348232597') repeat left top;
   margin: 0 0 10px 0;
 }
 /* line 19, ../sass/partials/_prefooter.scss */
@@ -5095,7 +5164,7 @@ header#main section#dashboard-logout-links .login p {
 
 /* line 4, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente {
-  background: url('../images/background-profilo.png?1347628549') no-repeat left top;
+  background: url('../images/background-profilo.png?1348232597') no-repeat left top;
   width: 618px;
   height: 371px;
   position: absolute;
@@ -5212,7 +5281,7 @@ header#main section#dashboard-logout-links .login p {
 }
 /* line 111, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #banner {
-  background: url('../images/banner-premi.png?1347628549') no-repeat left top;
+  background: url('../images/banner-premi.png?1348232597') no-repeat left top;
   width: 115px;
   height: 121px;
   margin-left: 511px;
@@ -5250,14 +5319,14 @@ header#main section#dashboard-logout-links .login p {
 }
 /* line 145, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .facebook {
-  background: url('../images/icona-facebook.png?1347628549') no-repeat left top;
+  background: url('../images/icona-facebook.png?1348232597') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
 }
 /* line 153, ../sass/partials/_profilo-mio-utente.scss */
 #profilo-mio-utente #social .twitter {
-  background: url('../images/icona-twitter.png?1347628549') no-repeat left top;
+  background: url('../images/icona-twitter.png?1348232597') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
@@ -5339,7 +5408,7 @@ header#main section#dashboard-logout-links .login p {
 /* line 232, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-likes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347642999') no-repeat left top;
+  background: url('../images/background-likes.png?1348232597') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -5379,7 +5448,7 @@ header#main section#dashboard-logout-links .login p {
 /* line 267, ../sass/partials/_profilo-mio-utente.scss */
 #numbers-dislikes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347642999') no-repeat left top;
+  background: url('../images/background-likes.png?1348232597') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -5418,7 +5487,7 @@ header#main section#dashboard-logout-links .login p {
 
 /* line 307, ../sass/partials/_profilo-mio-utente.scss */
 .divisore-profilo {
-  background: url('../images/divisore-profilo.png?1347628549') no-repeat left top;
+  background: url('../images/divisore-profilo.png?1348232597') no-repeat left top;
   width: 600px;
   height: 2px;
   margin-top: 164px;
@@ -5467,7 +5536,7 @@ header#main section#dashboard-logout-links .login p {
 }
 /* line 46, ../sass/partials/_sidebar-help.scss */
 .titolo-sidebar.exclamation {
-  background: url('../images/icona-help.png?1347628549') no-repeat;
+  background: url('../images/icona-help.png?1348232597') no-repeat;
 }
 /* line 52, ../sass/partials/_sidebar-help.scss */
 .titolo-sidebar p {
@@ -5684,17 +5753,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 4, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 6, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 8, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -5703,52 +5772,52 @@ hr {
   height: 0;
 }
 
-/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 14, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 16, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 18, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 20, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 22, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 24, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 26, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 28, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 30, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-960-plugin-0.10.4/stylesheets/960/_text.sass */
+/* line 32, ../../../../../../Applications/compass.app/Contents/Resources/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets/960/_text.sass */
 p,
 dl,
 hr,
@@ -5821,7 +5890,7 @@ div.row {
 
 /* line 5, ../sass/partials/_titolo-registrati.scss */
 #titolo-registrati {
-  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1348232597') repeat left top;
   height: 400px;
   height: 400px;
   width: 620px;
@@ -5871,7 +5940,7 @@ div.row {
   margin-right: 10px;
   width: 280px;
   height: 31px;
-  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1348232597') repeat left top;
   margin: 0 0 10px 0;
 }
 /* line 11, ../sass/partials/_sidebar-sottocategorie.scss */
@@ -5947,19 +6016,19 @@ div.row {
   color: #49ada8;
   cursor: pointer;
   width: 200px;
-  background: url('../images/grid-sottocategorie.png?1347628549') no-repeat left center;
+  background: url('../images/grid-sottocategorie.png?1348232597') no-repeat left center;
   display: block;
   padding-left: 51px;
 }
 /* line 70, ../sass/partials/_sidebar-sottocategorie.scss */
 .sottocategorie-container ul li a:hover, .sottocategorie-container ul li a:visited {
   color: #084936;
-  background: url('../images/grid-sottocategorie-dark.png?1347628549') no-repeat left center;
+  background: url('../images/grid-sottocategorie-dark.png?1348232597') no-repeat left center;
 }
 
 /* line 1, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio {
-  background: url('../images/diagonal-green-bg.png?1347628549') repeat top left;
+  background: url('../images/diagonal-green-bg.png?1348232597') repeat top left;
   position: relative;
   display: inline;
   float: left;
@@ -5994,7 +6063,7 @@ div.row {
   height: 18px;
   left: -18px;
   position: absolute;
-  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
+  background: url('../images/corner-fluo-left-stripes.png?1348232597') no-repeat top left;
 }
 /* line 21, ../sass/partials/_box-singolo-esercizio.scss */
 .box-singolo-esercizio .title {
@@ -6182,7 +6251,7 @@ h4.titoli_sezioni {
 /* line 5, ../sass/partials/_titoli-edit.scss */
 .titoli-edit {
   margin-top: 10px;
-  background: url('../images/diagonal-green-scuro-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-green-scuro-bg.png?1348232597') repeat left top;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -6293,7 +6362,7 @@ h4.titoli_sezioni {
 }
 /* line 70, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .box-video-spacer a:hover .box-video, .container-lezioni-flexible .box-video-spacer a:visited .box-video {
-  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1348232597') repeat left top;
 }
 /* line 72, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .box-video-spacer a:hover .box-video h1, .container-lezioni-flexible .box-video-spacer a:visited .box-video h1 {
@@ -6317,7 +6386,7 @@ h4.titoli_sezioni {
 .container-lezioni-flexible .list-lezioni .categoria {
   width: 207px;
   height: 49px;
-  background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-white-bg.png?1348232597') repeat left top;
   margin-right: 3px;
   margin-left: 0;
 }
@@ -6510,7 +6579,7 @@ h4.titoli_sezioni {
 }
 /* line 264, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .lezioni a:hover .box-lezione {
-  background: url('../images/diagonal-azzurro-bg.png?1347628549') repeat left top;
+  background: url('../images/diagonal-azzurro-bg.png?1348232597') repeat left top;
 }
 /* line 268, ../sass/partials/_read-it-later.scss */
 .container-lezioni-flexible .lezioni a:hover, .container-lezioni-flexible .lezioni a:visited {
@@ -6643,7 +6712,7 @@ h4.titoli_sezioni {
   margin-left: 10px;
   margin-right: 10px;
   width: 640px;
-  background: url('../images/contenitore-categoria-corso.png?1347892912') no-repeat left top;
+  background: url('../images/contenitore-categoria-corso.png?1348232597') no-repeat left top;
   width: 625px;
   height: 88px;
   font-family: 'Droid Sans';
@@ -6655,7 +6724,7 @@ h4.titoli_sezioni {
 }
 /* line 16, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria.viewed, .categoria:visited {
-  background: url('../images/contenitore-categoria-corso-2.png?1347892912') no-repeat left top;
+  background: url('../images/contenitore-categoria-corso-2.png?1348232597') no-repeat left top;
 }
 /* line 20, ../sass/partials/_categoria-pagina-corso.scss */
 .categoria h4 {
@@ -6814,7 +6883,7 @@ h4.titoli_sezioni {
   float: left;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: url('../images/diagonal-green-bg.png?1347628549') repeat top left;
+  background: url('../images/diagonal-green-bg.png?1348232597') repeat top left;
 }
 /* line 13, ../sass/partials/_box-video-corso.scss */
 .video-corso .corner {
@@ -6822,7 +6891,7 @@ h4.titoli_sezioni {
   height: 18px;
   left: -18px;
   position: absolute;
-  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat top left;
+  background: url('../images/corner-fluo-left-stripes.png?1348232597') no-repeat top left;
 }
 /* line 18, ../sass/partials/_box-video-corso.scss */
 .video-corso .a.btn.green {
@@ -6968,7 +7037,7 @@ h4.titoli_sezioni {
 
 /* line 129, ../sass/partials/_box-video-corso.scss */
 .divisore-corso-video {
-  background: url('../images/divisore-2.png?1347628549');
+  background: url('../images/divisore-2.png?1348232597');
   margin-top: 5px;
   margin-left: 40px;
   clear: both;
@@ -7212,7 +7281,7 @@ h4.titoli_sezioni {
 }
 /* line 48, ../sass/partials/_registrazione.scss */
 .edit-container .asterisco {
-  background: url('../images/asterisco.png?1347628549') no-repeat;
+  background: url('../images/asterisco.png?1348232597') no-repeat;
   width: 28px;
   height: 28px;
   position: absolute;
@@ -7225,7 +7294,7 @@ h4.titoli_sezioni {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
+  background: url('../images/freccia-select.png?1348232597') no-repeat right, url('../images/ombra-select.png?1348232597') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 71, ../sass/partials/_registrazione.scss */
@@ -7316,7 +7385,7 @@ h4.titoli_sezioni {
 }
 /* line 7, ../sass/partials/_campi-obbligatori.scss */
 .campi-obbligatori .asterisco {
-  background: url('../images/asterisco.png?1347628549') no-repeat;
+  background: url('../images/asterisco.png?1348232597') no-repeat;
   width: 28px;
   height: 28px;
   margin-top: 5px;
@@ -7348,7 +7417,7 @@ h4.titoli_sezioni {
 
 /* line 2, ../sass/partials/_lezioni-corso.scss */
 .lezione-corso {
-  background: url('../images/diagonal-green-bg.png?1347628549') repeat top left;
+  background: url('../images/diagonal-green-bg.png?1348232597') repeat top left;
   position: relative;
   display: inline;
   float: left;
@@ -7368,7 +7437,7 @@ h4.titoli_sezioni {
   height: 92px;
   left: -20px;
   position: absolute;
-  background: url('../images/ang-ombra.png?1348509222') no-repeat top left;
+  background: url('../images/ang-ombra.png?1348496630') no-repeat top left;
 }
 /* line 22, ../sass/partials/_lezioni-corso.scss */
 .lezione-corso #extras {
@@ -7884,7 +7953,7 @@ ul.breadcrumb-list a:active {
 }
 /* line 8, ../sass/partials/_breadcrumb-grande.scss */
 ul.breadcrumb-list #breadcrumbs-intro {
-  background: url('../images/breadcrumb-intro.png?1347892130') no-repeat left top;
+  background: url('../images/breadcrumb-intro.png?1348232597') no-repeat left top;
   width: 114px;
   height: 31px;
   float: left;
@@ -7914,7 +7983,7 @@ ul.breadcrumb-list #breadcrumbs-intro span {
 }
 /* line 43, ../sass/partials/_breadcrumb-grande.scss */
 ul.breadcrumb-list #breadcrumbs {
-  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
+  background: url('../images/breadcrumb.png?1348232597') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -7939,7 +8008,7 @@ ul.breadcrumb-list #breadcrumbs span {
 }
 /* line 72, ../sass/partials/_breadcrumb-grande.scss */
 ul.breadcrumb-list #breadcrumbs-2 {
-  background: url('../images/breadcrumb.png?1347278447') no-repeat left top;
+  background: url('../images/breadcrumb.png?1348232597') no-repeat left top;
   width: 101px;
   height: 31px;
   float: left;
@@ -7964,7 +8033,7 @@ ul.breadcrumb-list #breadcrumbs-2 span {
 }
 /* line 101, ../sass/partials/_breadcrumb-grande.scss */
 ul.breadcrumb-list #breadcrumbs-grande {
-  background: url('../images/bread-crumb.png?1347628549') no-repeat left top;
+  background: url('../images/bread-crumb.png?1348232597') no-repeat left top;
   width: 170px;
   height: 38px;
   float: left;
@@ -8194,7 +8263,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
+  background: url('../images/freccia-select.png?1348232597') no-repeat right, url('../images/ombra-select.png?1348232597') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 42, ../sass/partials/_select-categoria.scss */
@@ -8294,7 +8363,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
+  background: url('../images/freccia-select.png?1348232597') no-repeat right, url('../images/ombra-select.png?1348232597') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 60, ../sass/partials/_link-riferimento-edit.scss */
@@ -8710,7 +8779,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 
 /* line 4, ../sass/partials/_profilo-altro-utente.scss */
 #profilo-mio-utente {
-  background: url('../images/background-profilo.png?1347628549') no-repeat left top;
+  background: url('../images/background-profilo.png?1348232597') no-repeat left top;
   width: 618px;
   height: 371px;
   position: absolute;
@@ -8827,7 +8896,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 }
 /* line 111, ../sass/partials/_profilo-altro-utente.scss */
 #profilo-mio-utente #banner {
-  background: url('../images/banner-premi.png?1347628549') no-repeat left top;
+  background: url('../images/banner-premi.png?1348232597') no-repeat left top;
   width: 115px;
   height: 121px;
   margin-left: 511px;
@@ -8865,14 +8934,14 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 }
 /* line 145, ../sass/partials/_profilo-altro-utente.scss */
 #profilo-mio-utente #social .facebook {
-  background: url('../images/icona-facebook.png?1347628549') no-repeat left top;
+  background: url('../images/icona-facebook.png?1348232597') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
 }
 /* line 153, ../sass/partials/_profilo-altro-utente.scss */
 #profilo-mio-utente #social .twitter {
-  background: url('../images/icona-twitter.png?1347628549') no-repeat left top;
+  background: url('../images/icona-twitter.png?1348232597') no-repeat left top;
   width: 41px;
   height: 41px;
   position: absolute;
@@ -8954,7 +9023,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 /* line 232, ../sass/partials/_profilo-altro-utente.scss */
 #numbers-likes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347642999') no-repeat left top;
+  background: url('../images/background-likes.png?1348232597') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -8994,7 +9063,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 /* line 267, ../sass/partials/_profilo-altro-utente.scss */
 #numbers-dislikes {
   margin-top: 14px;
-  background: url('../images/background-likes.png?1347642999') no-repeat left top;
+  background: url('../images/background-likes.png?1348232597') no-repeat left top;
   width: 67px;
   height: 32px;
   position: absolute;
@@ -9033,7 +9102,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 
 /* line 307, ../sass/partials/_profilo-altro-utente.scss */
 .divisore-profilo {
-  background: url('../images/divisore-profilo.png?1347628549') no-repeat left top;
+  background: url('../images/divisore-profilo.png?1348232597') no-repeat left top;
   width: 600px;
   height: 2px;
   margin-top: 164px;
@@ -9104,7 +9173,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   font-size: 18px;
   font-family: 'Droid Sans';
   color: #2f6f5e;
-  background: url('../images/freccia-select.png?1347975906') no-repeat right, url('../images/ombra-select.png?1347977130') repeat-x right, #7ddbd2;
+  background: url('../images/freccia-select.png?1348232597') no-repeat right, url('../images/ombra-select.png?1348232597') repeat-x right, #7ddbd2;
   -webkit-appearance: none;
 }
 /* line 60, ../sass/partials/_form-titolo.scss */
@@ -9150,8 +9219,7 @@ ul.breadcrumb-list #breadcrumbs-grande span {
 }
 /* line 11, ../sass/partials/_domanda-esercizio.scss */
 #box-esercizio h1 {
-  width: 523px;
-  position: absolute;
+  width: 20px;
   font-size: 17px;
   text-transform: uppercase;
   color: white;
@@ -9159,29 +9227,30 @@ ul.breadcrumb-list #breadcrumbs-grande span {
   font-weight: bold;
   line-height: 20px;
   margin-left: 50px;
-  margin-top: 10px;
+  float: left;
+  padding-top: 5px;
 }
-/* line 26, ../sass/partials/_domanda-esercizio.scss */
+/* line 25, ../sass/partials/_domanda-esercizio.scss */
+#box-esercizio h2 {
+  width: 497px;
+  font-size: 17px;
+  color: white;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  margin-left: 74px;
+  line-height: 20px;
+  padding-top: 5px;
+}
+/* line 37, ../sass/partials/_domanda-esercizio.scss */
 #box-esercizio p {
-  position: absolute;
+  width: 504px;
   font-size: 12px;
   color: #4cc1b8;
   font-family: 'Droid Sans';
   font-weight: normal;
   line-height: 14px;
-  margin-top: 55px;
+  margin-top: 10px;
   margin-left: 74px;
-}
-/* line 38, ../sass/partials/_domanda-esercizio.scss */
-#box-esercizio h2 {
-  position: absolute;
-  font-size: 17px;
-  color: white;
-  font-family: 'Droid Sans';
-  font-weight: bold;
-  margin-top: 8px;
-  margin-left: 74px;
-  line-height: 20px;
 }
 
 /* line 51, ../sass/partials/_domanda-esercizio.scss */
@@ -9400,7 +9469,7 @@ form input[type="submit"] {
 }
 /* line 63, ../sass/partials/_form.scss */
 #form-registrazione #asterisco {
-  background: url('../images/asterisco.png?1347628549') no-repeat;
+  background: url('../images/asterisco.png?1348232597') no-repeat;
   width: 28px;
   height: 28px;
   position: absolute;
@@ -9544,14 +9613,14 @@ form input[type="submit"] {
 }
 /* line 16, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina .sottolineato {
-  background: url('../images/sottolineato-form.png?1347892130') no-repeat left top;
+  background: url('../images/sottolineato-form.png?1348232597') no-repeat left top;
   width: 212px;
   height: 6px;
   margin-left: 3px;
 }
 /* line 24, ../sass/partials/_immagine-copertina.scss */
 #immagine-copertina .foto-copertina {
-  background: url('../images/foto-utente.png?1347642999') no-repeat left top;
+  background: url('../images/foto-utente.png?1348232597') no-repeat left top;
   width: 194px;
   height: 181px;
 }
@@ -9638,7 +9707,7 @@ form.search fieldset input[type="submit"]:focus {
 
 /* line 33, ../sass/partials/_search.scss */
 .icona-lente {
-  background: url('../images/icona-lente.png?1347965690') no-repeat left top;
+  background: url('../images/icona-lente.png?1348232597') no-repeat left top;
   width: 29px;
   height: 29px;
   position: absolute;
@@ -9758,7 +9827,7 @@ form.search fieldset input[type="submit"]:focus {
 
 /* line 127, ../sass/partials/_search.scss */
 .separatore-search {
-  background: url('../images/separatore-search.png?1347965690') no-repeat left top;
+  background: url('../images/separatore-search.png?1348232597') no-repeat left top;
   width: 599px;
   height: 8px;
   position: absolute;
@@ -9767,11 +9836,11 @@ form.search fieldset input[type="submit"]:focus {
 
 /* line 1, ../sass/partials/_risposta-multipla.scss */
 #form-risposta-multipla {
-  background-color: #e1fffd;
+  background: none;
   width: 620px;
   height: 200px;
 }
-/* line 9, ../sass/partials/_risposta-multipla.scss */
+/* line 8, ../sass/partials/_risposta-multipla.scss */
 #form-risposta-multipla p {
   font-family: 'Droid Sans';
   font-size: 12px;
@@ -9779,17 +9848,17 @@ form.search fieldset input[type="submit"]:focus {
   color: #3d635f;
   line-height: 14px;
 }
-/* line 17, ../sass/partials/_risposta-multipla.scss */
+/* line 16, ../sass/partials/_risposta-multipla.scss */
 #form-risposta-multipla .risposta1 {
   float: left;
   margin-right: 10px;
 }
-/* line 21, ../sass/partials/_risposta-multipla.scss */
+/* line 20, ../sass/partials/_risposta-multipla.scss */
 #form-risposta-multipla .risposta2 {
   float: left;
   margin-right: 10px;
 }
-/* line 26, ../sass/partials/_risposta-multipla.scss */
+/* line 25, ../sass/partials/_risposta-multipla.scss */
 #form-risposta-multipla .risposta3 {
   float: left;
   margin-right: 10px;
@@ -9821,11 +9890,10 @@ hr {
 
 /* line 1, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento {
-  background-color: #e1fffd;
   width: 620px;
   height: 200px;
 }
-/* line 8, ../sass/partials/_risposta-collegamento.scss */
+/* line 7, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento h1 {
   font-family: 'Droid Sans';
   font-size: 13px;
@@ -9834,7 +9902,7 @@ hr {
   line-height: 14px;
   text-transform: uppercase;
 }
-/* line 18, ../sass/partials/_risposta-collegamento.scss */
+/* line 17, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento h2 {
   font-family: 'Droid Sans';
   font-size: 13px;
@@ -9843,11 +9911,11 @@ hr {
   line-height: 14px;
   padding: 0 0 20px;
 }
-/* line 26, ../sass/partials/_risposta-collegamento.scss */
+/* line 25, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento h2 span {
   font-weight: bold;
 }
-/* line 34, ../sass/partials/_risposta-collegamento.scss */
+/* line 33, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento p {
   font-family: 'Droid Sans';
   font-size: 13px;
@@ -9856,17 +9924,17 @@ hr {
   line-height: 14px;
   text-transform: uppercase;
 }
-/* line 43, ../sass/partials/_risposta-collegamento.scss */
+/* line 42, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento .risposta1 {
   float: right;
   margin-right: 500px;
 }
-/* line 48, ../sass/partials/_risposta-collegamento.scss */
+/* line 47, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento .risposta2 {
   float: right;
   margin-right: 500px;
 }
-/* line 53, ../sass/partials/_risposta-collegamento.scss */
+/* line 52, ../sass/partials/_risposta-collegamento.scss */
 #form-risposta-collegamento .risposta3 {
   float: right;
   margin-right: 500px;
@@ -9874,7 +9942,7 @@ hr {
 
 /* line 1, ../sass/partials/_header-corso-iniziato.scss */
 #nome-corso {
-  background: url('../images/background-titolo-corso.png?1347628549') repeat left top;
+  background: url('../images/background-titolo-corso.png?1348232597') repeat left top;
   display: inline;
   float: left;
   width: 280px;
@@ -10016,7 +10084,7 @@ hr {
 .cambia-lezione-prev .freccia-prev {
   width: 14px;
   height: 14px;
-  background: url('../images/prev.png?1347628549');
+  background: url('../images/prev.png?1348232597');
   display: inline-block;
   margin-right: 4px;
   float: left;
@@ -10048,7 +10116,7 @@ hr {
 .cambia-lezione-next .freccia-next {
   width: 14px;
   height: 14px;
-  background: url('../images/next.png?1347628549');
+  background: url('../images/next.png?1348232597');
   display: inline-block;
   margin-right: 4px;
   display: inline;
@@ -10066,7 +10134,7 @@ hr {
 }
 /* line 6, ../sass/partials/_crea-esercizio-1.scss */
 .crea-esercizio .risposta {
-  background: url('../images/sfondo-es.png?1348166333') repeat left top;
+  background: url('../images/sfondo-es.png?1348232597') repeat left top;
   width: 186px;
   height: 28px;
   margin-left: 5px;
@@ -10174,12 +10242,11 @@ hr {
 
 /* line 1, ../sass/partials/_risposta-vero-falso.scss */
 #risposta-vero-falso {
-  background-color: #e1fffd;
   width: 620px;
   height: 100px;
   margin-left: 30px;
 }
-/* line 9, ../sass/partials/_risposta-vero-falso.scss */
+/* line 8, ../sass/partials/_risposta-vero-falso.scss */
 #risposta-vero-falso form {
   width: 401px;
   color: #084936;
@@ -10188,17 +10255,17 @@ hr {
   margin-left: 80px;
   padding-top: 30px;
 }
-/* line 17, ../sass/partials/_risposta-vero-falso.scss */
+/* line 16, ../sass/partials/_risposta-vero-falso.scss */
 #risposta-vero-falso form p {
   margin-left: 40px;
   margin-top: 10px;
 }
-/* line 23, ../sass/partials/_risposta-vero-falso.scss */
+/* line 22, ../sass/partials/_risposta-vero-falso.scss */
 #risposta-vero-falso form input {
   float: left;
   margin-top: 10px;
 }
-/* line 30, ../sass/partials/_risposta-vero-falso.scss */
+/* line 29, ../sass/partials/_risposta-vero-falso.scss */
 #risposta-vero-falso h1 {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -10209,7 +10276,7 @@ hr {
   padding-top: 30px;
   text-shadow: 0px 2px 1px white;
 }
-/* line 49, ../sass/partials/_risposta-vero-falso.scss */
+/* line 48, ../sass/partials/_risposta-vero-falso.scss */
 #risposta-vero-falso h2 {
   color: #49ada8;
   font-family: 'Droid Sans';
@@ -10222,7 +10289,7 @@ hr {
   text-shadow: 0px 2px 1px true white, 0px 2px 1px true white;
 }
 
-/* line 72, ../sass/partials/_risposta-vero-falso.scss */
+/* line 71, ../sass/partials/_risposta-vero-falso.scss */
 #divisore {
   background-color: #A1E2DA;
   height: 1px;
@@ -10231,7 +10298,7 @@ hr {
   margin-top: 30px;
 }
 
-/* line 82, ../sass/partials/_risposta-vero-falso.scss */
+/* line 81, ../sass/partials/_risposta-vero-falso.scss */
 #divisore2 {
   background-color: #E9FFFD;
   height: 1px;
@@ -10239,14 +10306,14 @@ hr {
   margin-left: 80px;
 }
 
-/* line 92, ../sass/partials/_risposta-vero-falso.scss */
+/* line 91, ../sass/partials/_risposta-vero-falso.scss */
 form fieldset {
   margin: 0px 0 20px 30px;
   font-family: 'Droid Sans';
   font-size: 13px;
 }
 
-/* line 99, ../sass/partials/_risposta-vero-falso.scss */
+/* line 98, ../sass/partials/_risposta-vero-falso.scss */
 form fieldset label {
   display: block;
   margin: 30px 0 5px 0;
@@ -10254,7 +10321,7 @@ form fieldset label {
   color: #49ada8;
 }
 
-/* line 105, ../sass/partials/_risposta-vero-falso.scss */
+/* line 104, ../sass/partials/_risposta-vero-falso.scss */
 form fieldset input.form-text {
   display: block;
   width: 50%;
@@ -10270,7 +10337,7 @@ form fieldset input.form-text {
   border-radius: 4px;
 }
 
-/* line 120, ../sass/partials/_risposta-vero-falso.scss */
+/* line 119, ../sass/partials/_risposta-vero-falso.scss */
 form input[type="submit"] {
   margin: 0;
   padding: 5px 10px;
@@ -10283,7 +10350,7 @@ form input[type="submit"] {
   border-radius: 4px;
 }
 
-/* line 134, ../sass/partials/_risposta-vero-falso.scss */
+/* line 133, ../sass/partials/_risposta-vero-falso.scss */
 #form_registrazione {
   background-color: #e1fffd;
   width: 620px;
@@ -10301,7 +10368,7 @@ form input[type="submit"] {
 }
 /* line 6, ../sass/partials/_domanda-crea-esercizio.scss */
 .domanda-crea-esercizio .risposta {
-  background: url('../images/sfondo-es.png?1348166333') repeat left top;
+  background: url('../images/sfondo-es.png?1348232597') repeat left top;
   width: 186px;
   height: 28px;
   margin-left: 5px;
@@ -10410,7 +10477,7 @@ form input[type="submit"] {
 }
 /* line 6, ../sass/partials/_risposta-breve-crea-esercizio.scss */
 .crea-esercizio .risposta {
-  background: url('../images/sfondo-es.png?1348166333') repeat left top;
+  background: url('../images/sfondo-es.png?1348232597') repeat left top;
   width: 186px;
   height: 28px;
   margin-left: 5px;
@@ -10536,7 +10603,7 @@ form input[type="submit"] {
   left: -352px;
   width: 18px;
   height: 18px;
-  background: url('../images/corner-fluo-left-stripes.png?1347965691') no-repeat left top;
+  background: url('../images/corner-fluo-left-stripes.png?1348232597') no-repeat left top;
 }
 /* line 18, ../sass/partials/_header-lezione-testo.scss */
 .header-lezione-testo .divisore-testo {
