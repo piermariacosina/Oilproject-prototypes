@@ -225,6 +225,9 @@
 			 margin-left: 20px;
 			 position: absolute;
 			 float: right;
+			 margin-top: 9px;
+			  @include single-box-shadow;
+			  height: 93px;
 			}
 
 	  }
