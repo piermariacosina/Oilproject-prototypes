@@ -2,7 +2,7 @@
 	margin-top: 20px;
 	@include clearfix;
 	background-color: $soft-blue;
-	height: 200px;
+	height: auto;
 	.risposta{
 		background: image-url("sfondo-es.png") repeat left top;
 		width: 186px;
@@ -52,12 +52,11 @@
 	 
 		 
 	 
-	.box_domanda{
+	.box_risposta{
 		margin-left: 20px;
 		margin-top: 10px;
 		height: 102px;
 		width: 523px;
-		border: 1px solid #75efc7;
 		.frase{
 			margin-top: 10px;
 			height: 32px;
@@ -68,10 +67,8 @@
 			border-radius: 4px;
 			float: left;
 			font-family: 'Droid Sans';
-			text-transform: uppercase;
 			color: #418c89 !important;
 			font-size: 15px;
-			font-weight: bold;
 			text-indent: 10px;
 		}
 		.giusto{
