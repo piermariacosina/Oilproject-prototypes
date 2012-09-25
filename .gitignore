@@ -5,7 +5,6 @@ compass_app_log.txt
 *.scssc
 
 /doing/compass_app_log.txt
-/doing/css/screen.css
 /doing/.sass-cache/1720d6573ee25f9e85d03701f27da10e83757fff/_link-colors.scssc
 /doing/.sass-cache/1d7cb79419a79c84b62139bdd44ac992ac8b0006/_stretching.scssc
 /doing/.sass-cache/4d2a0c3364074a45f92741a043bae4a699200c39/_reset.scssc
@@ -31,7 +30,3 @@ compass_app_log.txt
 /doing/.sass-cache/eca7c03073c6e186def15c381a64acfe7bbfedea/_shared.scssc
 /doing/.sass-cache/fab4bca58f59fb269414fe333cdc2e1aa6afd0fd/_sprite-img.scssc
 done/images/ang.png
-
-done/css/screen.css
-
-done/css/screen.css
