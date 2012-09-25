@@ -1,7 +1,6 @@
 
 #box-esercizio{
 background: url('../images/diagonal-green-scuro-bg.png?1348145515') repeat top left;
-
    width: 599px;
    @include clearfix;
    margin-left: 30px;
@@ -12,7 +11,7 @@ background: url('../images/diagonal-green-scuro-bg.png?1348145515') repeat top l
          width: 20px;
          font-size: 17px;
          text-transform: uppercase;
-         color: $white;
+         color: $white-azzurro;
          font-family: 'Droid Sans';
          font-weight: bold;
          line-height: 20px;
@@ -25,7 +24,7 @@ background: url('../images/diagonal-green-scuro-bg.png?1348145515') repeat top l
          h2{
          	width: 497px;
          	font-size: 17px;
-         	color: $white;
+         	color: $white-azzurro;
          	font-family: 'Droid Sans';
          	font-weight: bold;
          	margin-left: 74px;
