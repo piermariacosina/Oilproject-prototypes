@@ -73,7 +73,13 @@ p{
 								.underline{	
 								height: 8px;
 								background: image-url("diagonal-green-scuro-bg.png") repeat left top;
-								margin:0 18px;
+								margin: 0 18px;
+								}
+								.impara{
+									margin: 0 22px;
+								}
+								.insegna{
+									margin: 0 19px;
 								}
 								span{
 								display: block;
@@ -86,8 +92,14 @@ p{
 						.underline{	
 							height: 8px;
 							background: image-url("diagonal-white-bg.png") repeat left top;
-							margin:0 18px;
+							//margin: 0 18px;
 							}
+						.impara{
+							margin: 0 22px;
+						}
+						.insegna{
+							margin: 0 19px;
+						}
 						}
 					}
 				}

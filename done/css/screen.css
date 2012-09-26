@@ -4432,18 +4432,33 @@ header#main section#menu .contenitore nav ul li a:hover .underline {
   margin: 0 18px;
 }
 /* line 78, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li a:hover .impara {
+  margin: 0 22px;
+}
+/* line 81, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li a:hover .insegna {
+  margin: 0 19px;
+}
+/* line 84, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li a:hover span {
   display: block;
   margin-top: 16px;
   color: #00ffb0;
 }
-/* line 86, ../sass/partials/_header.scss */
+/* line 92, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li .underline {
   height: 8px;
   background: url('../images/diagonal-white-bg.png?1348565097') repeat left top;
-  margin: 0 18px;
 }
-/* line 96, ../sass/partials/_header.scss */
+/* line 97, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li .impara {
+  margin: 0 22px;
+}
+/* line 100, ../sass/partials/_header.scss */
+header#main section#menu .contenitore nav ul li .insegna {
+  margin: 0 19px;
+}
+/* line 108, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search {
   width: 355px;
   height: 65px;
@@ -4451,17 +4466,17 @@ header#main section#menu .contenitore #search {
   float: left;
   border-right: 1px solid white;
 }
-/* line 102, ../sass/partials/_header.scss */
+/* line 114, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search form {
   display: inline;
   float: right;
   margin-right: 10px;
 }
-/* line 107, ../sass/partials/_header.scss */
+/* line 119, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search form label {
   display: none;
 }
-/* line 111, ../sass/partials/_header.scss */
+/* line 123, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search input#search-field {
   background-color: #027771;
   border: 1px #166059 solid;
@@ -4484,7 +4499,7 @@ header#main section#menu .contenitore #search input#search-field {
   margin-bottom: 0;
   padding: 0 0 0 10px;
 }
-/* line 126, ../sass/partials/_header.scss */
+/* line 138, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search input#search-submit {
   position: absolute;
   display: inline;
@@ -4502,14 +4517,14 @@ header#main section#menu .contenitore #search input#search-submit {
   margin-left: -33px;
   margin-top: 21px;
 }
-/* line 135, ../sass/partials/_header.scss */
+/* line 147, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #search input#search-field:focus {
   outline: none;
   -webkit-box-shadow: inset 0 1px 1px #48ada8;
   -moz-box-shadow: inset 0 1px 1px #48ada8;
   box-shadow: inset 0 1px 1px #48ada8;
 }
-/* line 140, ../sass/partials/_header.scss */
+/* line 152, ../sass/partials/_header.scss */
 header#main section#menu .contenitore #social {
   width: 89px;
   height: 65px;
@@ -4517,17 +4532,17 @@ header#main section#menu .contenitore #social {
   display: inline;
   float: left;
 }
-/* line 149, ../sass/partials/_header.scss */
+/* line 161, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout {
   height: 69px;
   margin-top: 1px;
   width: 980px !important;
 }
-/* line 150, ../sass/partials/_header.scss */
+/* line 162, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout.hide {
   display: none;
 }
-/* line 157, ../sass/partials/_header.scss */
+/* line 169, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision {
   display: inline;
   float: left;
@@ -4535,7 +4550,7 @@ header#main section#dashboard-loggedout #vision {
   height: 69px;
   background: url('../images/diagonal-white-bg.png?1348565097') repeat left top;
 }
-/* line 163, ../sass/partials/_header.scss */
+/* line 175, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p {
   color: #49ada8;
   display: inline;
@@ -4553,11 +4568,11 @@ header#main section#dashboard-loggedout #vision p {
   -moz-hyphens: auto;
   hyphens: auto;
 }
-/* line 173, ../sass/partials/_header.scss */
+/* line 185, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision p b, header#main section#dashboard-loggedout #vision p i {
   color: #29776e;
 }
-/* line 179, ../sass/partials/_header.scss */
+/* line 191, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout #vision .icon {
   background: url('../images/icon-vision.png?1348565097') repeat left top;
   width: 62px;
@@ -4567,7 +4582,7 @@ header#main section#dashboard-loggedout #vision .icon {
   display: inline;
   float: left;
 }
-/* line 189, ../sass/partials/_header.scss */
+/* line 201, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .login {
   display: inline;
   float: left;
@@ -4575,11 +4590,11 @@ header#main section#dashboard-loggedout .login {
   margin-left: 1px;
   background-color: #057c79;
 }
-/* line 195, ../sass/partials/_header.scss */
+/* line 207, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .login a:hover p {
   color: #00ffb0;
 }
-/* line 199, ../sass/partials/_header.scss */
+/* line 211, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .login p {
   font-size: 10px;
   font-weight: bold;
@@ -4588,7 +4603,7 @@ header#main section#dashboard-loggedout .login p {
   text-align: center;
   margin: 0px;
 }
-/* line 210, ../sass/partials/_header.scss */
+/* line 222, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .registrati {
   display: inline;
   float: left;
@@ -4596,11 +4611,11 @@ header#main section#dashboard-loggedout .registrati {
   margin-top: 6px;
   background-color: #057c79;
 }
-/* line 216, ../sass/partials/_header.scss */
+/* line 228, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .registrati a:hover p {
   color: #00ffb0;
 }
-/* line 220, ../sass/partials/_header.scss */
+/* line 232, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .registrati p {
   font-size: 10px;
   font-weight: bold;
@@ -4609,21 +4624,21 @@ header#main section#dashboard-loggedout .registrati p {
   text-align: center;
   margin: 0px;
 }
-/* line 230, ../sass/partials/_header.scss */
+/* line 242, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedout .faseregistrati {
   margin-top: 6px;
 }
-/* line 238, ../sass/partials/_header.scss */
+/* line 250, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin {
   height: 30px;
   background-color: #057c79;
   margin-top: 1px;
 }
-/* line 239, ../sass/partials/_header.scss */
+/* line 251, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin.hide {
   display: none;
 }
-/* line 246, ../sass/partials/_header.scss */
+/* line 258, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user {
   display: inline;
   float: left;
@@ -4632,7 +4647,7 @@ header#main section#dashboard-loggedin .user {
   width: 280px;
   padding-left: 10px;
 }
-/* line 249, ../sass/partials/_header.scss */
+/* line 261, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .avatar.small {
   width: 24px;
   height: 24px;
@@ -4642,18 +4657,18 @@ header#main section#dashboard-loggedin .user .avatar.small {
   float: left;
   margin-top: 2px;
 }
-/* line 257, ../sass/partials/_header.scss */
+/* line 269, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .avatar.small img {
   width: 24px;
   height: 24px;
 }
-/* line 263, ../sass/partials/_header.scss */
+/* line 275, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .name {
   float: left;
   margin-left: 8px;
   width: 80%;
 }
-/* line 267, ../sass/partials/_header.scss */
+/* line 279, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .user .name p {
   color: white;
   font-size: 15px;
@@ -4661,7 +4676,7 @@ header#main section#dashboard-loggedin .user .name p {
   line-height: 30px;
   height: 30px;
 }
-/* line 279, ../sass/partials/_header.scss */
+/* line 291, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .corsi {
   display: inline;
   float: left;
@@ -4670,7 +4685,7 @@ header#main section#dashboard-loggedin .corsi {
   width: 280px;
   margin-left: 0;
 }
-/* line 283, ../sass/partials/_header.scss */
+/* line 295, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .read-it-later {
   display: inline;
   float: left;
@@ -4680,7 +4695,7 @@ header#main section#dashboard-loggedin .read-it-later {
   margin-right: 0;
   width: 250px;
 }
-/* line 288, ../sass/partials/_header.scss */
+/* line 300, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .num {
   display: inline;
   float: left;
@@ -4694,7 +4709,7 @@ header#main section#dashboard-loggedin .num {
   border-radius: 17px;
   margin-top: 5px;
 }
-/* line 295, ../sass/partials/_header.scss */
+/* line 307, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .num p {
   padding-top: 2px;
   text-align: center;
@@ -4702,14 +4717,14 @@ header#main section#dashboard-loggedin .num p {
   font-size: 12px;
   font-weight: bold;
 }
-/* line 304, ../sass/partials/_header.scss */
+/* line 316, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .text {
   margin-left: 8px;
   display: inline;
   float: left;
   width: 80%;
 }
-/* line 308, ../sass/partials/_header.scss */
+/* line 320, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .text p {
   font-size: 10px;
   font-weight: bold;
@@ -4717,18 +4732,18 @@ header#main section#dashboard-loggedin .text p {
   height: 30px;
   text-transform: uppercase;
 }
-/* line 316, ../sass/partials/_header.scss */
+/* line 328, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .logout {
   display: inline;
   float: left;
   width: 99px;
   border-left: 1px solid white;
 }
-/* line 321, ../sass/partials/_header.scss */
+/* line 333, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .logout a:hover p {
   color: #00ffb0;
 }
-/* line 325, ../sass/partials/_header.scss */
+/* line 337, ../sass/partials/_header.scss */
 header#main section#dashboard-loggedin .logout p {
   font-size: 10px;
   font-weight: bold;
@@ -4737,18 +4752,18 @@ header#main section#dashboard-loggedin .logout p {
   text-align: center;
   margin: 0px;
 }
-/* line 336, ../sass/partials/_header.scss */
+/* line 348, ../sass/partials/_header.scss */
 header#main section#dashboard-logout-links {
   height: 30px;
   background-color: #057c79;
   margin-top: 1px;
   margin-bottom: 15px;
 }
-/* line 345, ../sass/partials/_header.scss */
+/* line 357, ../sass/partials/_header.scss */
 header#main section#dashboard-logout-links.hide {
   display: none;
 }
-/* line 349, ../sass/partials/_header.scss */
+/* line 361, ../sass/partials/_header.scss */
 header#main section#dashboard-logout-links .item {
   display: inline;
   float: left;
@@ -4756,18 +4771,18 @@ header#main section#dashboard-logout-links .item {
   margin-right: 10px;
   width: 160px;
 }
-/* line 352, ../sass/partials/_header.scss */
+/* line 364, ../sass/partials/_header.scss */
 header#main section#dashboard-logout-links .item a:hover p {
   color: #00ffb0;
 }
-/* line 358, ../sass/partials/_header.scss */
+/* line 370, ../sass/partials/_header.scss */
 header#main section#dashboard-logout-links .text {
   margin-left: 8px;
   display: inline;
   float: left;
   width: 80%;
 }
-/* line 362, ../sass/partials/_header.scss */
+/* line 374, ../sass/partials/_header.scss */
 header#main section#dashboard-logout-links .text p {
   font-size: 10px;
   font-weight: bold;
@@ -4775,18 +4790,18 @@ header#main section#dashboard-logout-links .text p {
   height: 30px;
   text-transform: uppercase;
 }
-/* line 370, ../sass/partials/_header.scss */
+/* line 382, ../sass/partials/_header.scss */
 header#main section#dashboard-logout-links .login {
   display: inline;
   float: left;
   width: 99px;
   border-left: 1px solid white;
 }
-/* line 375, ../sass/partials/_header.scss */
+/* line 387, ../sass/partials/_header.scss */
 header#main section#dashboard-logout-links .login a:hover p {
   color: #00ffb0;
 }
-/* line 379, ../sass/partials/_header.scss */
+/* line 391, ../sass/partials/_header.scss */
 header#main section#dashboard-logout-links .login p {
   font-size: 10px;
   font-weight: bold;
@@ -4795,18 +4810,18 @@ header#main section#dashboard-logout-links .login p {
   text-align: center;
   margin: 0px;
 }
-/* line 390, ../sass/partials/_header.scss */
+/* line 402, ../sass/partials/_header.scss */
 header#main .registrati {
   display: inline;
   float: left;
   width: 99px;
   border-left: 1px solid white;
 }
-/* line 395, ../sass/partials/_header.scss */
+/* line 407, ../sass/partials/_header.scss */
 header#main .registrati a:hover p {
   color: #00ffb0;
 }
-/* line 399, ../sass/partials/_header.scss */
+/* line 411, ../sass/partials/_header.scss */
 header#main .registrati p {
   font-size: 10px;
   font-weight: bold;
@@ -4816,7 +4831,7 @@ header#main .registrati p {
   margin: 0px;
 }
 
-/* line 412, ../sass/partials/_header.scss */
+/* line 424, ../sass/partials/_header.scss */
 .notice-list {
   display: inline;
   float: left;
@@ -4824,7 +4839,7 @@ header#main .registrati p {
   position: relative;
   margin-right: 0;
 }
-/* line 418, ../sass/partials/_header.scss */
+/* line 430, ../sass/partials/_header.scss */
 .notice-list .left-white {
   background: url('../images/left-white.png?1348565097') no-repeat left top;
   width: 2px;
@@ -4833,7 +4848,7 @@ header#main .registrati p {
   left: 1px;
   top: -8px;
 }
-/* line 426, ../sass/partials/_header.scss */
+/* line 438, ../sass/partials/_header.scss */
 .notice-list .right-white {
   background: url('../images/right-white.png?1348565097') no-repeat left top;
   width: 2px;
@@ -4842,49 +4857,49 @@ header#main .registrati p {
   right: 8px;
   top: -8px;
 }
-/* line 435, ../sass/partials/_header.scss */
+/* line 447, ../sass/partials/_header.scss */
 .notice-list.hide {
   display: none;
 }
-/* line 438, ../sass/partials/_header.scss */
+/* line 450, ../sass/partials/_header.scss */
 .notice-list ul {
   list-style: none;
 }
-/* line 442, ../sass/partials/_header.scss */
+/* line 454, ../sass/partials/_header.scss */
 .notice-list ul li {
   margin: 0 10px 1px 3px;
 }
-/* line 445, ../sass/partials/_header.scss */
+/* line 457, ../sass/partials/_header.scss */
 .notice-list ul li a {
   text-decoration: none;
 }
-/* line 451, ../sass/partials/_header.scss */
+/* line 463, ../sass/partials/_header.scss */
 .notice-list ul li a:hover .box-sidebar .icon {
   color: #00ffb0;
 }
-/* line 454, ../sass/partials/_header.scss */
+/* line 466, ../sass/partials/_header.scss */
 .notice-list ul li a:hover .box-sidebar .posted-by {
   color: #00ffb0;
 }
-/* line 460, ../sass/partials/_header.scss */
+/* line 472, ../sass/partials/_header.scss */
 .notice-list ul li a:visited .box-sidebar {
   background-color: #43d1b4;
 }
-/* line 462, ../sass/partials/_header.scss */
+/* line 474, ../sass/partials/_header.scss */
 .notice-list ul li a:visited .box-sidebar .icon {
   color: white;
 }
-/* line 465, ../sass/partials/_header.scss */
+/* line 477, ../sass/partials/_header.scss */
 .notice-list ul li a:visited .box-sidebar .posted-by {
   color: white;
 }
-/* line 471, ../sass/partials/_header.scss */
+/* line 483, ../sass/partials/_header.scss */
 .notice-list ul li a .box-sidebar {
   font-family: 'Droid Sans';
   padding-left: 48px;
   background-color: #057c79;
 }
-/* line 475, ../sass/partials/_header.scss */
+/* line 487, ../sass/partials/_header.scss */
 .notice-list ul li a .box-sidebar .icon {
   width: 25px;
   height: 25px;
@@ -4895,7 +4910,7 @@ header#main .registrati p {
   font-size: 24px;
   color: white;
 }
-/* line 485, ../sass/partials/_header.scss */
+/* line 497, ../sass/partials/_header.scss */
 .notice-list ul li a .box-sidebar h2 {
   font-weight: normal;
   font-size: 12px;
@@ -4904,7 +4919,7 @@ header#main .registrati p {
   padding: 12px 0 0 0;
   margin: 0;
 }
-/* line 494, ../sass/partials/_header.scss */
+/* line 506, ../sass/partials/_header.scss */
 .notice-list ul li a .box-sidebar .posted-by {
   font-weight: bold;
   font-size: 10px;
