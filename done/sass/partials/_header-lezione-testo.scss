@@ -1,6 +1,7 @@
 .header-lezione-testo{
 	 background: url("../images/diagonal-green-bg.png") repeat left top;
 	@include grid(11);
+	width: 620px;
 	height:270px;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -8,7 +9,7 @@
 	  .corner.left.big{
 	  	position: absolute;
 	  	top:0;
-	  	left: - 352px;
+	  	left: - 330px;
 	  	width: image-width("corner-fluo-left-stripes.png");
 	  	height: image-height("corner-fluo-left-stripes.png");
 	  	background: image-url("corner-fluo-left-stripes.png") no-repeat left top;
@@ -76,7 +77,7 @@
 	}
 	.title{
 		@include grid(4);
-		margin-left: 40px;
+		margin-left: 18px;
 		h4{
 			color: $dark-green;
 			font-weight: 700;

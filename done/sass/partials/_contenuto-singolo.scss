@@ -10,6 +10,7 @@
 }
 .lezione{
  	@include grid(11);
+ 	width: 620px;
  	
  	background: $light-green;
  	font-family: 'Droid Sans';
@@ -82,7 +83,7 @@
  								    font-size: 24px;
  									
  									top:20px;
- 									left: 30px;
+ 									left: 20px;
  									position: absolute;
  									a{
  										@include link-white;

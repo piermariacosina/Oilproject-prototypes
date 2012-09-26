@@ -1,18 +1,23 @@
-#form-risposta-multipla{
+.form-checkboxes{
 background: $soft-blue;
 width: auto;
 height: auto;
 
 
-
-   p{
-   font-family: 'Droid Sans';
-   font-size: 12px;
-   font-weight: normal;
-   color: $text-green;
-   line-height: 14px;
-     }
-   
+	
+	
+	p{
+	font-family: 'Droid Sans';
+	font-size: 12px;
+	font-weight: normal;
+	color: $text-green;
+	line-height: 14px;
+	  }
+	  
+	
+	
+	}
+ /*     
    .risposta1{
    	float: left;
    	margin-right: 10px;
@@ -27,5 +32,5 @@ height: auto;
    	margin-right: 10px;
    	
    }
-   
-	  }
+   */
+	  
