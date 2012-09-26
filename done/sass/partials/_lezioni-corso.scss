@@ -5,7 +5,7 @@
 		@include stripe-fluo-background;
 		position: relative;
 		@include grid(11);
-		height:92px;
+		height: 92px;
 		width: 620px;
 	 	height: 92px;
 	 	font-family: 'Droid Sans';
@@ -36,12 +36,12 @@
  	   
  	   
  	   #box{
- 	   position:absolute;
- 	   height:21px;
- 	   width:21px;
+ 	   position: absolute;
+ 	   height: 21px;
+ 	   width: 21px;
  	   margin-left: 185px;
  	   background: $dark-green;
- 	   font-family:Arial;
+ 	   font-family: Arial;
  	   border-radius: 30px;
  	   }
  	   
