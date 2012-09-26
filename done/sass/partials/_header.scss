@@ -50,7 +50,7 @@ p{
 					li{
 						@include horizontal-list-item;
 						position: relative;
-						width:92px;
+						width: 92px;
 						height: $header-height;
 						border-right: 1px solid $white;
 						text-align: center;
@@ -76,10 +76,10 @@ p{
 								margin: 0 18px;
 								}
 								.impara{
-									margin: 0 22px;
+									margin: 0 22px !important;
 								}
 								.insegna{
-									margin: 0 19px;
+									margin: 0 19px !important;
 								}
 								span{
 								display: block;
@@ -95,10 +95,10 @@ p{
 							//margin: 0 18px;
 							}
 						.impara{
-							margin: 0 22px;
+							margin: 0 22px !important;
 						}
 						.insegna{
-							margin: 0 19px;
+							margin: 0 19px !important;
 						}
 						}
 					}
