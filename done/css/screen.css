@@ -2163,11 +2163,7 @@ i.icon-eye-open {
   height: 93px;
 }
 
-<<<<<<< HEAD
 /* line 237, ../sass/partials/_box-corso.scss */
-=======
-/* line 236, ../sass/partials/_box-corso.scss */
->>>>>>> fix
 .divisore-2 {
   margin-left: 20px;
   margin-right: 20px;
@@ -4455,12 +4451,7 @@ header#main section#menu .contenitore nav ul li a:hover span {
 /* line 92, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li .underline {
   height: 8px;
-<<<<<<< HEAD
-  background: url('../images/diagonal-white-bg.png?1348565097') repeat left top;
-=======
   background: url('../images/diagonal-white-bg.png?1347628549') repeat left top;
-  margin: 0 18px;
->>>>>>> fix
 }
 /* line 97, ../sass/partials/_header.scss */
 header#main section#menu .contenitore nav ul li .impara {
@@ -10004,11 +9995,7 @@ form.search fieldset input[type="submit"]:focus {
   height: auto;
   padding-left: 20px;
 }
-<<<<<<< HEAD
 /* line 10, ../sass/partials/_risposta-multipla.scss */
-=======
-/* line 9, ../sass/partials/_risposta-multipla.scss */
->>>>>>> fix
 .form-checkboxes p {
   font-family: 'Droid Sans';
   font-size: 12px;
