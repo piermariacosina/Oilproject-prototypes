@@ -11172,3 +11172,21 @@ hr {
   margin-left: 6px;
   margin-top: 0px;
 }
+
+/* line 5, ../sass/partials/_banner-devi-loggarti.scss */
+#banner-devi-loggarti h1 {
+  color: #49ada8;
+  font-size: 18px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+/* line 17, ../sass/partials/_banner-devi-loggarti.scss */
+hr {
+  width: 600px;
+  height: 2px;
+  background: #084936;
+  margin-top: 10px;
+}
