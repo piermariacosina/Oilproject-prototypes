@@ -242,7 +242,7 @@ p{
 			height: 30px;
 			background-color: $light-green;
 			margin-top:1px;
-
+			width:978px;
 			.user{
 				@include grid(5);
 				padding-left: 10px;
@@ -283,7 +283,7 @@ p{
 			.read-it-later{
 				@include grid(4);
 				@include omega;
-				width: 250px;
+				width: 259px;
 			}
 			.num{
 					@include float-left;
@@ -340,6 +340,7 @@ p{
 				background-color: $light-green;
 				margin-top:1px;
 				margin-bottom: 15px;
+				width:978px;
 			
 			
 			&.hide{
