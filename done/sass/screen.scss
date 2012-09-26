@@ -147,6 +147,11 @@ i.collegamento{
 	@extend [class*=" icon-"]:before;
 	@extend .collegamento;
 }
+i.icon-eye-open{
+	font-size: 13px;
+	position: relative;
+	top: 1px;
+}
 
 
 @import "partials/banner";

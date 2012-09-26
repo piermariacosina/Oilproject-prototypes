@@ -2,6 +2,7 @@
 	width: auto;
 	height: auto;
 	@include clearfix;
+	margin-left: 20px;
 	hr{
 		width: 948px;
 		height: 1px;
@@ -9,9 +10,12 @@
 		background: #B1F2E6;
 		margin: 17px 0 9px 0;
 		}
+	.categoria-container:last-child{
+		margin: 9px 0 0 0;
+	}
 	.categoria-container{
 		float: left;
-		margin: 9px 12px 0 0;		
+		margin: 9px 10px 0 0;		
 		.categoria-title{
 				width: 108px;
 				height: 31px;

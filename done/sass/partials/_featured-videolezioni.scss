@@ -53,6 +53,13 @@
 					height: 25px;
 					float: left;
 					margin: 8px 0 0 4px;
+//					background: red;
+					i{
+						text-decoration: none;
+						font-size: 22px;
+						line-height: 20px;
+						color: #FFFFFF;
+					}
 				}
 				h1{
 					width: 130px;
@@ -69,6 +76,7 @@
 					font-size: 10px;
 					color: $light-petrolio;
 					padding-left: 40px;
+					position: absolute;
 					
 				}
 			}
