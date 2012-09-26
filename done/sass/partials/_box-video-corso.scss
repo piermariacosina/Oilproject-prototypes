@@ -1,5 +1,5 @@
 .video-corso{
- 	width: 638px;
+ 	width: 620px;
  	height: 301px;
  	position: relative;
  	
@@ -18,7 +18,7 @@
  	  .a.btn.green{
  	  
  	  float: right;
- 	  margin-right: 40px;
+ 	  margin-right: 20px;
  	  margin-top: 20px;
  	  width: 100px;
  	  margin-left: 0;
@@ -33,7 +33,7 @@
  		@include horizontal-list-container;
  		@include clearfix;
  		clear: left;
- 		margin-left: 40px;
+ 		margin-left: 20px;
  		li{
  			@include horizontal-list-item;
  			font-weight: bold;
@@ -66,19 +66,19 @@
  		  line-height: 15px;
  		  text-transform: uppercase;
  		  margin-top: 10px;
- 		  margin-left: 350px;
+ 		  margin-left: 320px;
  	   						}
 
  	   h3{
  	     font-family: 'Droid Sans';
  		 max-width: 270px;
- 		
  		 font-weight: bold;
  		 font-size: 25px;
  		 line-height: 30px;
  		 text-transform: uppercase;
  		 overflow: hidden;
- 		 margin-left: 350px;
+ 		 float: right;
+ 		 margin-right: 30px;
  		   $default-text-shadow-h-offset: 0px;
  		       $default-text-shadow-v-offset: 2px;
  		       $default-text-shadow-blur: 1px;
@@ -112,7 +112,7 @@
 			}
 
 		.img-corso-categoria{
-			 margin-left: 37px;
+			 margin-left: 20px;
 			 position: relative;
 			 @include float-left;
 			 margin-top:20px;
@@ -130,7 +130,7 @@
 
         background: image-url("divisore-2.png") ; 
 		margin-top: 5px;
-		margin-left: 40px;
+		margin-left: 20px;
 		clear: both;
 		width: 569px;
 		height: 2px;
@@ -138,7 +138,7 @@
 		}
 
 .ashtag{
-margin-left: 40px;
+margin-left: 20px;
 margin-top: 5px;
 
 a{
@@ -157,7 +157,7 @@ a{
 
 
 .pubblicato{
-margin-left: 40px;
+margin-left: 20px;
 
 
 a{
@@ -183,7 +183,7 @@ a{
 	@include omega;
 	@include alpha;
 	float: right;
-	margin-right: 10px;
+	margin-right: 20px;
 	@include clearfix;
 	.container-comments{	
 			height: auto;
