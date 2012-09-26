@@ -123,7 +123,7 @@ i.audio{
 i.video{
 	@extend [class^="icon-"]:before;
 	@extend [class*=" icon-"]:before;
-	@extend .icon-eye-open;
+	@extend .icon-facetime-video;
 }
 
 i.note{
