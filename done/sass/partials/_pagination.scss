@@ -1,36 +1,45 @@
-.pagination {
+.pager.clear-block {
 height: 60px;
-
-
-        .page-next a{
+overflow: visible;
+@include grid(11);
+width: 620px;
+        .pager-current{
         
-			margin-left: 20px;  
-        }
-        
-        .page-current a{
-        
-			background: $light-green;
+			
+			height: 40px;
+			span{
+				display: inline-block;
+				padding: 5px 14px;
+				border: 1px solid #ddd;
+				background-color: $light-green;
+				@include border-radius(6px);
+				color: $white;
+			}
         }
         
 
 
 		ul {
-			text-align: center;
-			height: 400px;
+			height: 40px;
 			padding-top: 40px;
+			@include float-left;
 			}
 		 ul li {
 			display: inline;
 			margin: 0 4px 0 0;
-			
-			}
-		 ul li a {
-			font-size: 13px;
+			ont-size: 13px;
 			font-weight: bold;
 			font-family: 'Droid Sans';
-			color: $white;
+			
+			
+			a{
+				color: $white;
+			}
+			}
+		 ul li a {
+			
 			border: 1px solid #ddd;
-		    background: #5F7077;
+		    background-color: #5F7077;
 			@include border-radius(6px);
 			
 			}
@@ -44,10 +53,18 @@ height: 60px;
 			background: $light-petrolio;
 			border-color: #ddd;
 			}				
+		
+		
+		
+	.links.pager.pager-links{
+		height: 60px;
+		margin-left: 15px;
+		
+		
 		}
+			
 		
-		
-		
+	}	
 		
 		
 		
