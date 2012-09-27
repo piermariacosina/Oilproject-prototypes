@@ -1672,6 +1672,11 @@ i.icon-eye-open {
   top: 1px;
 }
 
+/* line 157, ../sass/screen.scss */
+img {
+  background: white;
+}
+
 /* line 1, ../sass/partials/_banner.scss */
 .banner {
   position: relative;
@@ -3517,8 +3522,10 @@ ul.commenti-recenti li .text p.data_commento span {
 .lezione .box-dislikes .icona-dislikes i {
   font-size: 16px;
   color: #49ada8;
+  position: relative;
+  top: -2px;
 }
-/* line 175, ../sass/partials/_contenuto-singolo.scss */
+/* line 177, ../sass/partials/_contenuto-singolo.scss */
 .lezione .number-dislikes {
   font-weight: normal;
   font-size: 10px;
@@ -3530,7 +3537,7 @@ ul.commenti-recenti li .text p.data_commento span {
   margin-right: 15px;
 }
 
-/* line 188, ../sass/partials/_contenuto-singolo.scss */
+/* line 190, ../sass/partials/_contenuto-singolo.scss */
 #extras {
   margin-left: 400px;
   margin-top: -90px;
@@ -6094,10 +6101,12 @@ div.row {
   font-size: 10px;
   line-height: 9px;
   text-transform: uppercase;
+  max-width: 70px;
+  color: #49ada8;
   float: left;
   margin-top: 6px;
 }
-/* line 30, ../sass/partials/_sidebar-sottocategorie.scss */
+/* line 32, ../sass/partials/_sidebar-sottocategorie.scss */
 .sottocategorie-container .sottocategoria h1 a {
   text-decoration: none;
   color: #49ada8;
@@ -6115,11 +6124,11 @@ div.row {
 .sottocategorie-container .sottocategoria h1 a:active {
   color: #49ada8;
 }
-/* line 37, ../sass/partials/_sidebar-sottocategorie.scss */
+/* line 39, ../sass/partials/_sidebar-sottocategorie.scss */
 .sottocategorie-container li:last-child {
   margin-right: 0;
 }
-/* line 41, ../sass/partials/_sidebar-sottocategorie.scss */
+/* line 43, ../sass/partials/_sidebar-sottocategorie.scss */
 .sottocategorie-container ul {
   width: auto;
   height: auto;
@@ -6133,7 +6142,7 @@ div.row {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 50, ../sass/partials/_sidebar-sottocategorie.scss */
+/* line 52, ../sass/partials/_sidebar-sottocategorie.scss */
 .sottocategorie-container ul li {
   height: auto;
   background: none;
@@ -6145,7 +6154,7 @@ div.row {
   margin: 0 0 12px 0;
   padding: 0;
 }
-/* line 61, ../sass/partials/_sidebar-sottocategorie.scss */
+/* line 63, ../sass/partials/_sidebar-sottocategorie.scss */
 .sottocategorie-container ul li a {
   text-decoration: none;
   color: #49ada8;
@@ -6155,7 +6164,7 @@ div.row {
   display: block;
   padding-left: 51px;
 }
-/* line 72, ../sass/partials/_sidebar-sottocategorie.scss */
+/* line 74, ../sass/partials/_sidebar-sottocategorie.scss */
 .sottocategorie-container ul li a:hover, .sottocategorie-container ul li a:visited {
   color: #084936;
   background: url('../images/grid-sottocategorie-dark.png?1348565097') no-repeat left center;
