@@ -74,17 +74,7 @@
  										 	@include link-over-dark;
  									 	}	
  								}
- 								
- 								.divisore-3{
- 									width: 536px;
- 									height: 2px;
- 									@include background(image-url('divisore-3.png') repeat-x top left);
-									margin-left: 70px;
-									margin-top: -20px;
-									margin-bottom: 10px;
- 								}
- 								
- 								.icon{
+ 							 	.icon{
  								    font-size: 24px;
  									
  									top: 20px;
