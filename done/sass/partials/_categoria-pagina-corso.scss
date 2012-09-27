@@ -2,7 +2,7 @@
 
 .categoria{
  	@include grid(11);
- 	
+ 	margin-left:0px;
  	background: image-url("contenitore-categoria-corso.png") no-repeat left top;
  	width: 625px;
  	height: 88px;
@@ -11,7 +11,7 @@
  	float: left;
  	margin-top: 10px;
  	position: relative;
- 	margin-left: 10px;
+ 	
  	 	
  	&.viewed, &:visited{
 	 	background: image-url("contenitore-categoria-corso-2.png") no-repeat left top;
