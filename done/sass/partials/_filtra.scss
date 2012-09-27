@@ -1,6 +1,7 @@
 #filtra-ordina{
 	margin-top: 15px;
 	margin-bottom: 15px;
+	margin-left: 18px;
 }
 
 
@@ -11,6 +12,7 @@ clear: both;
 width: auto;
 height: auto;
 //background: cyan;
+
 @include clearfix;
 	 h1{
 		  font-family: 'Droid Sans';
