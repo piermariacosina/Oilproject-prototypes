@@ -109,18 +109,18 @@
 			}
 				
 			
-			hr{
-				@include grid(5);
-				border: 0;
-				height: 1px;
-			}
-			.top{
-				margin: 8px 0 0 0;
-				background: $acid-green;
-			}
-			.bottom{
-				margin: 0 0 12px 0;
-				background: $pale-water-green;
+			.divisore{
+				margin-top: 10px;
+				margin-bottom: 10px;
+				clear: both;
+					.top{
+						height: 1px;
+						background-color: #0AEA9C;
+					}
+					.bottom{
+						height: 1px;
+						background-color: #ACFFE3;
+					}
 			}
 		}
 	}

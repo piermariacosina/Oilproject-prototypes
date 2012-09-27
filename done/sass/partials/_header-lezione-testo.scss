@@ -2,13 +2,14 @@
 	 background: url("../images/diagonal-green-bg.png") repeat left top;
 	@include grid(11);
 	width: 620px;
-	height:270px;
+	height: auto;
+//	height: 270px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	
 	  .corner.left.big{
 	  	position: absolute;
-	  	top:0;
+	  	top: 0;
 	  	left: - 330px;
 	  	width: image-width("corner-fluo-left-stripes.png");
 	  	height: image-height("corner-fluo-left-stripes.png");
@@ -16,16 +17,25 @@
 	  }
 	  
 	  
-	  .divisore-testo{
-	  	background-color: $light-fluo-green;
-	  	width: 280px;
-	  	height: 2px;
-	  	float: left;
-	  	margin-top: 12px;
+	  .divisore{
+//	  	margin-top: 10px;
+	  	margin-bottom: 10px;
+	  	clear: both;
+	  		.top{
+	  			height: 1px;
+	  			background-color: #0AEA9C;
+	  		}
+	  		.bottom{
+	  			height: 1px;
+	  			background-color: #ACFFE3;
+	  		}
 	  }
+	  
+	  
 	   .aut-date{
-	   	position: absolute;    
-	   	margin-top: 191px;
+//	   	position: absolute;    
+//	   	margin-top: 191px;
+		margin-bottom: 20px;
 	   	.number{                          
 	   		background-color: $dark-green;
 	   		width: 19px;
@@ -39,19 +49,19 @@
 	   		border-radius: 10px;
 	   		padding: 1px 0 0 1px;
 	   		margin-top: -2px;
-	   		margin-right:5px;
+	   		margin-right: 5px;
 	   	}
 	   	p.data-commento{
-	   		margin-left:15px;
+	   		margin-left: 15px;
 	   		text-transform: uppercase;
-	   		font-weight:bold;
-	   		font-size:10px;
+	   		font-weight: bold;
+	   		font-size: 10px;
 	   		color: $dark-green;
 	   	
 	   		span{
 	   			text-transform: capitalize;
-	   			margin-left:3px;
-	   			margin-right:3px;
+	   			margin-left: 3px;
+	   			margin-right: 3px;
 	   			font-weight: 400; 
 	   			@include float-left;             
 	   			}
@@ -84,7 +94,7 @@
 			font-family: 'Droid Sans';
 			text-transform: uppercase;
 			font-size: 15px;
-			margin-top:20px;
+			margin-top: 20px;
 		}
 		h2{
 			
@@ -93,6 +103,8 @@
 				font-family: 'Droid Sans';
 				text-transform: uppercase;
 				font-size: 25px;
+				line-height: 30px;
+				margin-bottom: 20px !important;
 				$default-text-shadow-h-offset: 0px;
 				$default-text-shadow-v-offset: 1px;
 				$default-text-shadow-color: $white;	 
@@ -110,7 +122,7 @@
 			font-weight: 400;
 			font-family: 'Droid Sans';
 			font-size: 13px;
-			float:left;
+			float: left;
 			
 		}
 	.number{                          
@@ -130,16 +142,16 @@
 	
 	p.data-commento{
 	
-		margin-left:15px;
+		margin-left: 15px;
 		text-transform: uppercase;
-		font-weight:bold;
-		font-size:10px;
+		font-weight: bold;
+		font-size: 10px;
 		color: $dark-green;
 	
 		span{
 			text-transform: capitalize;
-			margin-left:3px;
-			margin-right:3px;
+			margin-left: 3px;
+			margin-right: 3px;
 			font-weight: 400;              
 			}
 	
@@ -147,6 +159,7 @@
 	}
 	p.description{
 		margin-top: 10px;
+		margin-bottom: 10px !important;
 	}
 
 	
@@ -158,8 +171,8 @@
 			height: auto;
 			@include clearfix;
 			
-			margin-top:20px;
-			margin-bottom:20px;
+			margin-top: 20px;
+			margin-bottom: 20px;
 			border-right: 1px solid #C5FFEA;
 			float: left;
 			&.first{
@@ -200,10 +213,10 @@
 			font-size: 10px;
 			line-height: 10px;
 			color: $dark-green;
-			text-transform:lowercase;
+			text-transform: lowercase;
 			float: left;
 			margin-left: 4px;
-			margin-right:4px;
+			margin-right: 4px;
 			margin-top: 4px;
 		}
 	}
