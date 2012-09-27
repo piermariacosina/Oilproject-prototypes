@@ -9,7 +9,7 @@
  	margin-top: 10px;
  	margin-bottom: 10px;
  	@include stripe-fluo-background;
-
+	
   	.corner{
  		@include stripe-fluo-corner;
 	 	
@@ -20,7 +20,7 @@
  	  float: right;
  	  margin-right: 20px;
  	  margin-top: 20px;
- 	  width: 100px;
+ 	  width: auto;
  	  margin-left: 0;
  	  }
  	
