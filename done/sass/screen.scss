@@ -132,6 +132,13 @@ i.note{
 	@extend .note;
 }
 
+i.corso-icona{
+	@extend [class^="icon-"]:before;
+	@extend [class*=" icon-"]:before;
+	@extend .icon-list-ul;
+}
+
+
 i.corso{
 	@extend [class^="icon-"]:before;
 	@extend [class*=" icon-"]:before;
