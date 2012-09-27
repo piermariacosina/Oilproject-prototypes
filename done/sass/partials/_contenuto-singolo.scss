@@ -4,9 +4,9 @@
 
 .contenuto-singolo{
 		@include grid(11);
-		margin-top:5px;	
+		margin-top: 5px;	
 		
-		margin-bottom:15px;
+		margin-bottom: 15px;
 		margin-left: 30px;
 }
 .lezione{
@@ -20,10 +20,10 @@
  	margin-top: 10px;
  	position: relative;
  	margin-left: 0px;
- 	clear:both;
+ 	clear: both;
  	.corner.left.big{
  		position: absolute;
- 		top:0;
+ 		top: 0;
  		left: - 12px;
  		width: image-width("corner-left-big.png");
  		height: image-height("corner-left-big.png");
@@ -74,13 +74,7 @@
  										 	@include link-over-dark;
  									 	}	
  								}
- 								
- 								.divisore-3{
- 									    margin-left: 70px;
- 								        margin-top: -30px;
- 								}
- 								
- 								.icon{
+ 							 	.icon{
  								    font-size: 24px;
  									
  									top: 20px;
