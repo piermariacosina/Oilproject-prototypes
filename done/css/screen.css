@@ -2150,7 +2150,7 @@ img {
   margin-right: 15px;
   text-transform: uppercase;
 }
-/* line 181, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
+/* line 175, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
 .corso h4 {
   width: 300px;
   font-weight: bold;
@@ -2160,7 +2160,7 @@ img {
   margin-top: 10px;
   margin-left: 20px;
 }
-/* line 191, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
+/* line 185, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
 .corso h3 {
   max-width: 220px;
   height: 60px;
@@ -2173,7 +2173,7 @@ img {
   text-transform: uppercase;
   margin-left: 20px;
 }
-/* line 203, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
+/* line 197, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
 .corso .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -2183,7 +2183,7 @@ img {
   position: relative;
   color: #057c79;
 }
-/* line 214, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
+/* line 208, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
 .corso p {
   width: 334px;
   height: 80px;
@@ -2195,7 +2195,7 @@ img {
   margin-right: 20px;
   margin-top: 15px;
 }
-/* line 226, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
+/* line 220, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
 .corso .img-corso-categoria {
   margin-left: 20px;
   position: absolute;
@@ -2207,7 +2207,7 @@ img {
   height: 93px;
 }
 
-/* line 238, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
+/* line 232, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-corso.scss */
 .divisore-2 {
   margin-left: 20px;
   margin-right: 20px;
@@ -7082,6 +7082,7 @@ h4.titoli_sezioni {
   width: 620px;
   height: 310px;
   position: relative;
+  margin-left: 18px;
   font-family: 'Droid Sans';
   color: #084936;
   display: inline;
@@ -7090,7 +7091,7 @@ h4.titoli_sezioni {
   margin-bottom: 10px;
   background: url('../images/diagonal-green-bg.png?1348145515') repeat top left;
 }
-/* line 13, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 14, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso .corner {
   width: 18px;
   height: 18px;
@@ -7098,7 +7099,7 @@ h4.titoli_sezioni {
   position: absolute;
   background: url('../images/corner-fluo-left-stripes.png?1348145512') no-repeat top left;
 }
-/* line 18, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 19, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso .a.btn.green {
   float: right;
   margin-right: 20px;
@@ -7106,7 +7107,7 @@ h4.titoli_sezioni {
   width: auto;
   margin-left: 0;
 }
-/* line 27, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 28, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso a {
   text-decoration: none;
   color: #084936;
@@ -7124,7 +7125,7 @@ h4.titoli_sezioni {
 .video-corso a:active {
   color: #43d1b4;
 }
-/* line 32, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 33, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni {
   margin: 0;
   padding: 0;
@@ -7136,7 +7137,7 @@ h4.titoli_sezioni {
   clear: left;
   margin-left: 20px;
 }
-/* line 37, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 38, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni li {
   list-style-image: none;
   list-style-type: none;
@@ -7163,14 +7164,14 @@ h4.titoli_sezioni {
 .video-corso .categorie-lezioni li.last {
   padding-right: 0;
 }
-/* line 43, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 44, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni li .icon {
   position: relative;
   float: left;
   font-size: 25px;
   line-height: 27px !important;
 }
-/* line 49, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 50, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni li span {
   position: relative;
   float: left;
@@ -7179,11 +7180,11 @@ h4.titoli_sezioni {
   margin-left: 9px;
   margin-right: 5px;
 }
-/* line 58, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 59, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso .categorie-lezioni li:last-child {
   margin-right: 0px;
 }
-/* line 63, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 64, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso h4 {
   font-family: 'Droid Sans';
   width: 300px;
@@ -7194,7 +7195,7 @@ h4.titoli_sezioni {
   margin-top: 20px;
   margin-left: 320px;
 }
-/* line 74, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 75, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso h3 {
   font-family: 'Droid Sans';
   max-width: 270px;
@@ -7207,7 +7208,7 @@ h4.titoli_sezioni {
   margin-left: 10px;
   text-shadow: 0px 2px 1px white;
 }
-/* line 93, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 94, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso .relatore {
   font-weight: bold;
   font-size: 10px;
@@ -7217,7 +7218,7 @@ h4.titoli_sezioni {
   position: relative;
   color: #057c79;
 }
-/* line 104, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 105, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso p {
   width: 334px;
   height: 80px;
@@ -7229,7 +7230,7 @@ h4.titoli_sezioni {
   margin-right: 20px;
   margin-top: 10px;
 }
-/* line 116, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 117, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .video-corso .img-corso-categoria {
   margin-left: 20px;
   position: relative;
@@ -7243,7 +7244,7 @@ h4.titoli_sezioni {
   box-shadow: 0px 0px 5px #333333;
 }
 
-/* line 131, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 132, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .divisore-corso-video {
   background: url('../images/divisore-2.png?1348145515');
   margin-top: 5px;
@@ -7253,44 +7254,44 @@ h4.titoli_sezioni {
   height: 2px;
 }
 
-/* line 142, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 143, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .ashtag {
   margin-left: 20px;
   margin-top: 5px;
 }
-/* line 146, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 147, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .ashtag a {
   font-family: 'Droid Sans';
   font-weight: normal;
   font-size: 13px;
   color: #057c79;
 }
-/* line 152, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 153, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .ashtag span {
   font-weight: bold;
   text-transform: uppercase;
   color: #084936;
 }
 
-/* line 161, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 162, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .pubblicato {
   margin-left: 20px;
 }
-/* line 165, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 166, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .pubblicato a {
   font-family: 'Droid Sans';
   font-weight: normal;
   font-size: 13px;
   color: #057c79;
 }
-/* line 171, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 172, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .pubblicato span {
   font-weight: bold;
   text-transform: uppercase;
   color: #084936;
 }
 
-/* line 183, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 184, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .comm-box-video {
   display: inline;
   float: left;
@@ -7304,7 +7305,7 @@ h4.titoli_sezioni {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 190, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 191, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments {
   height: auto;
   overflow: hidden;
@@ -7314,22 +7315,22 @@ h4.titoli_sezioni {
   border-right: 1px solid #C5FFEA;
   float: left;
 }
-/* line 198, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 199, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments.first {
   padding-right: 10px;
 }
-/* line 202, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 203, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments.center {
   margin-left: 10px;
   margin-right: 10px;
   width: 80px;
 }
-/* line 207, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 208, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments.last {
   border-right: none;
   float: right;
 }
-/* line 211, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 212, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments .box-number-comments {
   float: left;
   border-bottom: 1px solid #02967a;
@@ -7337,7 +7338,7 @@ h4.titoli_sezioni {
   border-right: 1px solid #05d6c6;
   border-top: 1px solid #05d6c6;
 }
-/* line 217, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 218, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments .box-number-comments .number-comments {
   font-weight: normal;
   font-size: 10px;
@@ -7351,7 +7352,7 @@ h4.titoli_sezioni {
   padding: 2px;
   text-align: center;
 }
-/* line 231, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
+/* line 232, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_box-video-corso.scss */
 .comm-box-video .container-comments .comments {
   font-weight: normal;
   font-size: 10px;
@@ -7994,9 +7995,10 @@ h4.titoli_sezioni {
 #filtra-ordina {
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-left: 18px;
 }
 
-/* line 8, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 9, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #filtra {
   position: relative;
   clear: both;
@@ -8005,7 +8007,7 @@ h4.titoli_sezioni {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 15, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 17, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #filtra h1 {
   font-family: 'Droid Sans';
   font-size: 16px;
@@ -8018,18 +8020,18 @@ h4.titoli_sezioni {
   display: inline;
   float: left;
 }
-/* line 27, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 29, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #filtra div.filtra {
   display: inline;
   float: left;
   margin-top: 1px;
 }
-/* line 32, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 34, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #filtra input[type="checkbox"] {
   margin-left: 25px;
   display: inline-block;
 }
-/* line 36, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 38, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #filtra label {
   display: inline-block;
   color: #49ada8;
@@ -8040,7 +8042,7 @@ h4.titoli_sezioni {
   top: 5px;
 }
 
-/* line 49, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 51, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #ordina {
   padding: 0 !important;
   clear: both;
@@ -8050,7 +8052,7 @@ h4.titoli_sezioni {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 57, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 59, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #ordina h1 {
   font-family: 'Droid Sans';
   font-size: 16px;
@@ -8063,19 +8065,19 @@ h4.titoli_sezioni {
   display: inline;
   float: left;
 }
-/* line 69, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 71, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #ordina div.filtra {
   display: inline;
   float: left;
   padding-left: 8px;
   margin-top: 9px;
 }
-/* line 77, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 79, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #ordina input[type="checkbox"] {
   display: inline-block;
   margin-left: 20px;
 }
-/* line 82, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
+/* line 84, C:/Users/Elena/Documents/GitHub/Oilproject-prototypes/done/sass/partials/_filtra.scss */
 #ordina label {
   font-family: 'Droid Sans';
   font-size: 13px;
