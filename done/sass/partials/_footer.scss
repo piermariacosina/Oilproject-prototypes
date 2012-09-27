@@ -153,11 +153,11 @@ footer#footer{
 				}
 			ul{
 				@include horizontal-list-container;
-				float:left;
-				width:auto;
+				float: left;
+				width: auto;
 				li{
 					@include horizontal-list-item;
-					width:auto;
+					width: auto;
 					}
 				}
 
@@ -165,6 +165,8 @@ footer#footer{
 			.legal-menu{
 				@include grid(16);
 				margin-bottom: 20px;
+				float: right;
+				margin-top: -19px;
 				ul{
 					@include horizontal-list-container;
 					@include float-right;
