@@ -1594,21 +1594,22 @@ ul.icons li .icon-large:before {
   background-color: #084936;
   cursor: pointer;
   line-height: 14px;
-  margin-top: -21px;
-  margin-left: 30px;
+  margin-top: 0px;
+  float: left;
+  margin-right: 0;
 }
-/* line 240, ../sass/partials/_buttons.scss */
+/* line 242, ../sass/partials/_buttons.scss */
 .btn.green.start:hover {
   background: #49ada8;
   color: #094934;
 }
-/* line 244, ../sass/partials/_buttons.scss */
+/* line 246, ../sass/partials/_buttons.scss */
 .btn.green.start:visited {
   background: #49ada8;
   color: #057c79;
 }
 
-/* line 255, ../sass/partials/_buttons.scss */
+/* line 257, ../sass/partials/_buttons.scss */
 .btn.green-big {
   display: inline-block;
   width: 203px;
@@ -1638,18 +1639,18 @@ ul.icons li .icon-large:before {
   margin-left: 380px;
   margin-top: 18px;
 }
-/* line 279, ../sass/partials/_buttons.scss */
+/* line 281, ../sass/partials/_buttons.scss */
 .btn.green-big:hover {
   background: #43d1b4;
   color: #094934;
 }
-/* line 283, ../sass/partials/_buttons.scss */
+/* line 285, ../sass/partials/_buttons.scss */
 .btn.green-big:visited {
   background: #43d1b4;
   color: #057c79;
 }
 
-/* line 289, ../sass/partials/_buttons.scss */
+/* line 291, ../sass/partials/_buttons.scss */
 .btn.green-big-2 {
   display: inline-block;
   width: 159px;
@@ -1678,18 +1679,18 @@ ul.icons li .icon-large:before {
   margin-left: 380px;
   margin-top: 18px;
 }
-/* line 312, ../sass/partials/_buttons.scss */
+/* line 314, ../sass/partials/_buttons.scss */
 .btn.green-big-2:hover {
   background: #43d1b4;
   color: #094934;
 }
-/* line 316, ../sass/partials/_buttons.scss */
+/* line 318, ../sass/partials/_buttons.scss */
 .btn.green-big-2:visited {
   background: #43d1b4;
   color: #057c79;
 }
 
-/* line 323, ../sass/partials/_buttons.scss */
+/* line 325, ../sass/partials/_buttons.scss */
 div.buttons {
   display: inline;
   float: left;
@@ -4212,8 +4213,10 @@ footer#footer .barra-bottom .legal-menu {
   margin-right: 10px;
   width: 940px;
   margin-bottom: 20px;
+  float: right;
+  margin-top: -19px;
 }
-/* line 168, ../sass/partials/_footer.scss */
+/* line 170, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .legal-menu ul {
   margin: 0;
   padding: 0;
@@ -4223,7 +4226,7 @@ footer#footer .barra-bottom .legal-menu ul {
   display: inline;
   float: right;
 }
-/* line 171, ../sass/partials/_footer.scss */
+/* line 173, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .legal-menu ul li {
   list-style-image: none;
   list-style-type: none;
@@ -4247,19 +4250,19 @@ footer#footer .barra-bottom .legal-menu ul li:last-child {
 footer#footer .barra-bottom .legal-menu ul li.last {
   padding-right: 0;
 }
-/* line 173, ../sass/partials/_footer.scss */
+/* line 175, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .legal-menu ul li a {
   font-family: 'Droid Sans';
   font-weight: 400;
   font-weight: bold;
   color: #3d635f;
 }
-/* line 180, ../sass/partials/_footer.scss */
+/* line 182, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .legal-menu ul li:last-child {
   border: none;
   margin-right: 10px;
 }
-/* line 189, ../sass/partials/_footer.scss */
+/* line 191, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu {
   display: inline;
   float: left;
@@ -4272,7 +4275,7 @@ footer#footer .barra-bottom .footer-menu {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 199, ../sass/partials/_footer.scss */
+/* line 201, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu ul {
   margin: 0;
   padding: 0;
@@ -4282,7 +4285,7 @@ footer#footer .barra-bottom .footer-menu ul {
   display: inline;
   float: right;
 }
-/* line 203, ../sass/partials/_footer.scss */
+/* line 205, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu li {
   list-style-image: none;
   list-style-type: none;
@@ -4306,7 +4309,7 @@ footer#footer .barra-bottom .footer-menu li:last-child {
 footer#footer .barra-bottom .footer-menu li.last {
   padding-right: 0;
 }
-/* line 209, ../sass/partials/_footer.scss */
+/* line 211, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu a {
   padding-top: 16px;
   display: block;
@@ -4331,11 +4334,11 @@ footer#footer .barra-bottom .footer-menu a:hover {
 footer#footer .barra-bottom .footer-menu a:active {
   color: #036863;
 }
-/* line 227, ../sass/partials/_footer.scss */
+/* line 229, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu a:hover .icon {
   background: url('../images/diagonal-green-scuro-bg.png?1348565097') repeat left top;
 }
-/* line 231, ../sass/partials/_footer.scss */
+/* line 233, ../sass/partials/_footer.scss */
 footer#footer .barra-bottom .footer-menu .icon {
   margin-left: 15px;
   margin-right: 15px;
@@ -7061,7 +7064,7 @@ h4.titoli_sezioni {
 /* line 1, ../sass/partials/_box-video-corso.scss */
 .video-corso {
   width: 620px;
-  height: 301px;
+  height: 310px;
   position: relative;
   font-family: 'Droid Sans';
   color: #084936;
@@ -7981,8 +7984,12 @@ h4.titoli_sezioni {
 #filtra {
   position: relative;
   clear: both;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  *zoom: 1;
 }
-/* line 11, ../sass/partials/_filtra.scss */
+/* line 15, ../sass/partials/_filtra.scss */
 #filtra h1 {
   font-family: 'Droid Sans';
   font-size: 16px;
@@ -7995,18 +8002,18 @@ h4.titoli_sezioni {
   display: inline;
   float: left;
 }
-/* line 23, ../sass/partials/_filtra.scss */
+/* line 27, ../sass/partials/_filtra.scss */
 #filtra div.filtra {
   display: inline;
   float: left;
   margin-top: 1px;
 }
-/* line 28, ../sass/partials/_filtra.scss */
+/* line 32, ../sass/partials/_filtra.scss */
 #filtra input[type="checkbox"] {
   margin-left: 25px;
   display: inline-block;
 }
-/* line 32, ../sass/partials/_filtra.scss */
+/* line 36, ../sass/partials/_filtra.scss */
 #filtra label {
   display: inline-block;
   color: #49ada8;
@@ -8017,35 +8024,42 @@ h4.titoli_sezioni {
   top: 5px;
 }
 
-/* line 45, ../sass/partials/_filtra.scss */
-#ordina {
-  padding-top: 5px;
-  clear: both;
-}
 /* line 49, ../sass/partials/_filtra.scss */
+#ordina {
+  padding: 0 !important;
+  clear: both;
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 57, ../sass/partials/_filtra.scss */
 #ordina h1 {
   font-family: 'Droid Sans';
   font-size: 16px;
+  line-height: 18px;
   font-weight: bold;
   text-transform: uppercase;
   color: #057c79;
   padding: 0 0 10px 0;
+  margin-top: 10px;
   display: inline;
   float: left;
 }
-/* line 59, ../sass/partials/_filtra.scss */
+/* line 69, ../sass/partials/_filtra.scss */
 #ordina div.filtra {
   display: inline;
   float: left;
   padding-left: 8px;
-  margin-top: 1px;
+  margin-top: 9px;
 }
-/* line 67, ../sass/partials/_filtra.scss */
+/* line 77, ../sass/partials/_filtra.scss */
 #ordina input[type="checkbox"] {
   display: inline-block;
   margin-left: 20px;
 }
-/* line 72, ../sass/partials/_filtra.scss */
+/* line 82, ../sass/partials/_filtra.scss */
 #ordina label {
   font-family: 'Droid Sans';
   font-size: 13px;
@@ -10152,7 +10166,7 @@ hr {
 
 /* line 1, ../sass/partials/_header-corso-iniziato.scss */
 #nome-corso {
-  background: url('../images/background-titolo-corso.png?1348565097') repeat left top;
+  background: url('../images/background-corso-iniziato-header.png?1348745863') repeat left top;
   display: inline;
   float: left;
   width: 280px;

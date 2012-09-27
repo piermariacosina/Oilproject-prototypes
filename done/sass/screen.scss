@@ -132,6 +132,13 @@ i.note{
 	@extend .note;
 }
 
+i.corso-icona{
+	@extend [class^="icon-"]:before;
+	@extend [class*=" icon-"]:before;
+	@extend .icon-list-ul;
+}
+
+
 i.corso{
 	@extend [class^="icon-"]:before;
 	@extend [class*=" icon-"]:before;
@@ -227,3 +234,4 @@ img{
 @import "partials/risposta-esercizio-select";
 @import "partials/textarea-risposta-esercizio";
 @import "partials/banner-devi-loggarti";
+@import "partials/banner-devi-essere-loggato";

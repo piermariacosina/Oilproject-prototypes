@@ -198,12 +198,12 @@
 	@include alpha;
 	display: inline-block;
 	text-decoration: none;
-	color:$white;
+	color: $white;
 	font-family: 'Droid Sans';
 	font-weight: bold;
 	font-size: 12px;
 	text-transform: lowercase;
-	background-color:$dark-green;
+	background-color: $dark-green;
 	cursor: pointer;
 	line-height: 14px;
 	margin-left: 380px;
@@ -227,16 +227,18 @@
 	@include alpha;
 	display: inline-block;
 	text-decoration: none;
-	color:$white;
+	color: $white;
 	font-family: 'Droid Sans';
 	font-weight: bold;
 	font-size: 12px;
 	text-transform: Uppercase;
-	background-color:$dark-green;
+	background-color: $dark-green;
 	cursor: pointer;
 	line-height: 14px;
-	margin-top: -21px;
-	margin-left: 30px;
+	margin-top: 0px;
+	float: left;
+//	margin-left: 30px;
+	margin-right: 0;
 	&:hover{
 		background: $azzurro-title;
 		color: $extra-dark-green;
