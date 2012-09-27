@@ -8,6 +8,10 @@
 #filtra{
 position: relative;
 clear: both;
+width: auto;
+height: auto;
+//background: cyan;
+@include clearfix;
 	 h1{
 		  font-family: 'Droid Sans';
 		  font-size: 16px;
@@ -43,23 +47,29 @@ clear: both;
  
  
  #ordina{
- padding-top: 5px;
+ padding: 0 !important;
  clear: both;
- 
+ width: auto;
+ height: auto;
+// background-color: yellow !important;
+ margin-bottom: 10px;
+ @include clearfix;
    h1{
 	   font-family: 'Droid Sans';
 	   font-size: 16px;
+	   line-height: 18px;
 	   font-weight: bold;
 	   text-transform: uppercase;
 	   color: $light-green;
 	   padding: 0 0 10px 0;
+	   margin-top: 10px;
 	   @include float-left;
     }
    
    div.filtra{
      @include float-left;
      padding-left: 8px;
-     margin-top: 1px;
+     margin-top: 9px;
      }
 		      
        
