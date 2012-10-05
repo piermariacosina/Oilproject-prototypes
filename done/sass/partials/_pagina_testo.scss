@@ -1,0 +1,142 @@
+//
+h1#note_legali{
+	@include replace-text-with-dimensions('header_note_legali.png');
+	position: relative;
+	left: -98px;
+}
+h1#il_progetto{
+	@include replace-text-with-dimensions('header_il_progetto.png');
+	position: relative;
+	left: -98px;
+}
+h1#il_team{
+	@include replace-text-with-dimensions('header_il_team.png');
+	position: relative;
+	left: -98px;
+}
+h1#contenuti_e_qualita{
+	@include replace-text-with-dimensions('header_contenuti_e_qualità.png');
+	position: relative;
+	left: -98px;
+}
+.pagina_testo{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	width: auto;
+	height: auto;
+	background: $soft-blue;
+	@include clearfix;
+	h1{
+		@include grid(10);
+		padding-left: 10px;
+		padding-bottom: 15px;
+		font-size: 25px;
+		font-weight: bold;
+		font-family: 'Droid Sans';
+		text-transform: uppercase;
+		margin-top: 40px;
+		color: $dark-green;
+		text-shadow: 0px 2px 1px white;
+	}
+	
+	strong{
+		font-weight: bold;
+	}
+	i{
+		font-style: italic;
+	}
+	p{
+		@include grid(10);
+		padding-left: 10px;
+		margin-top: 15px;
+		font-family: 'Droid Sans';
+		font-weight: normal;
+		font-size: 13px;
+		line-height: 17px;
+		color: $dark-green;
+	}
+	p.more_info{
+		@include grid(10);
+		padding-left: 10px;
+		margin-top: 15px;
+		font-family: 'Droid Sans';
+		font-weight: normal;
+		font-size: 11px;
+		line-height: 15px;
+		color: $dark-green;
+	}
+	.statement{
+		font-size: 18px;
+		line-height: 21px;
+	}
+	
+	.divisore{
+		@include grid(10);
+		clear: both;
+		padding-left: 10px;
+		margin-top: 40px;
+		.top{
+			height: 1px;
+			background-color: #8be5e1;
+		}
+		.bottom{
+			height: 1px;
+			background-color: white;
+		}
+	}
+	h2{
+		@include grid(10);
+		padding-left: 10px;
+		font-size: 20px;
+		font-family: 'Droid Sans';
+		font-weight: bold;	
+		text-transform: uppercase;
+		margin-top: 30px;
+		color: $green-title;
+		text-shadow: 0px 2px 1px white;
+	}
+	h3,h4,h5,h6{
+		@include grid(10);
+		padding-left: 10px;
+		font-size: 15px;
+		font-family: 'Droid Sans';
+		font-weight: bold;	
+		margin-top: 30px;
+		color: $green-title;
+		text-shadow: 0px 2px 1px white;
+		text-transform: none;
+	}
+	ol{
+		@include grid(10);
+		list-style: decimal;
+		li{
+			padding-left: 10px;
+			margin-top: 15px;
+			font-family: 'Droid Sans';
+			font-weight: normal;
+			font-size: 13px;
+			line-height: 17px;
+			color: $dark-green;
+			
+		}
+	}
+	
+	ul{
+		@include grid(10);
+		list-style: circle;
+		li{
+			padding-left: 10px;
+			margin-top: 15px;
+			font-family: 'Droid Sans';
+			font-weight: normal;
+			font-size: 13px;
+			line-height: 17px;
+			color: $dark-green;
+			
+		}
+	}
+}
+ 
+ 

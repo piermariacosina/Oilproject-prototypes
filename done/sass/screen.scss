@@ -40,7 +40,7 @@ $darkest-blue: #03514B;
 $dark-blue: #086661;
 $grey-blue: #94D3CC;
 $white-azzurro: #E1FFFD;
-$stripe-light-blue:#e0faf9;
+$stripe-light-blue: #e0faf9;
 $azzurro-title: #49ADA8;
 $calm-green: #43D1B4;
 $extra-dark-green: #094934;
@@ -235,3 +235,4 @@ img{
 @import "partials/textarea-risposta-esercizio";
 @import "partials/banner-devi-loggarti";
 @import "partials/banner-devi-essere-loggato";
+@import "partials/pagina_testo";

@@ -11333,3 +11333,223 @@ hr {
   padding-bottom: 2px;
   width: 620px;
 }
+
+/* line 2, ../sass/partials/_pagina_testo.scss */
+h1#note_legali {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/header_note_legali.png?1349455101');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 738px;
+  height: 230px;
+  position: relative;
+  left: -98px;
+}
+
+/* line 7, ../sass/partials/_pagina_testo.scss */
+h1#il_progetto {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/header_il_progetto.png?1349455097');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 738px;
+  height: 230px;
+  position: relative;
+  left: -98px;
+}
+
+/* line 12, ../sass/partials/_pagina_testo.scss */
+h1#il_team {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/header_il_team.png?1349455094');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 738px;
+  height: 230px;
+  position: relative;
+  left: -98px;
+}
+
+/* line 17, ../sass/partials/_pagina_testo.scss */
+h1#contenuti_e_qualita {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/header_contenuti_e_qualità.png?1349455099');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 738px;
+  height: 230px;
+  position: relative;
+  left: -98px;
+}
+
+/* line 22, ../sass/partials/_pagina_testo.scss */
+.pagina_testo {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  width: auto;
+  height: auto;
+  background: #c9f7f5;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 31, ../sass/partials/_pagina_testo.scss */
+.pagina_testo h1 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Droid Sans';
+  text-transform: uppercase;
+  margin-top: 40px;
+  color: #084936;
+  text-shadow: 0px 2px 1px white;
+}
+/* line 44, ../sass/partials/_pagina_testo.scss */
+.pagina_testo strong {
+  font-weight: bold;
+}
+/* line 47, ../sass/partials/_pagina_testo.scss */
+.pagina_testo i {
+  font-style: italic;
+}
+/* line 50, ../sass/partials/_pagina_testo.scss */
+.pagina_testo p {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  padding-left: 10px;
+  margin-top: 15px;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #084936;
+}
+/* line 60, ../sass/partials/_pagina_testo.scss */
+.pagina_testo p.more_info {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  padding-left: 10px;
+  margin-top: 15px;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #084936;
+}
+/* line 70, ../sass/partials/_pagina_testo.scss */
+.pagina_testo .statement {
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 75, ../sass/partials/_pagina_testo.scss */
+.pagina_testo .divisore {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  clear: both;
+  padding-left: 10px;
+  margin-top: 40px;
+}
+/* line 80, ../sass/partials/_pagina_testo.scss */
+.pagina_testo .divisore .top {
+  height: 1px;
+  background-color: #8be5e1;
+}
+/* line 84, ../sass/partials/_pagina_testo.scss */
+.pagina_testo .divisore .bottom {
+  height: 1px;
+  background-color: white;
+}
+/* line 89, ../sass/partials/_pagina_testo.scss */
+.pagina_testo h2 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #49ada8;
+  text-shadow: 0px 2px 1px white;
+}
+/* line 100, ../sass/partials/_pagina_testo.scss */
+.pagina_testo h3, .pagina_testo h4, .pagina_testo h5, .pagina_testo h6 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: 'Droid Sans';
+  font-weight: bold;
+  margin-top: 30px;
+  color: #49ada8;
+  text-shadow: 0px 2px 1px white;
+  text-transform: none;
+}
+/* line 111, ../sass/partials/_pagina_testo.scss */
+.pagina_testo ol {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  list-style: decimal;
+}
+/* line 114, ../sass/partials/_pagina_testo.scss */
+.pagina_testo ol li {
+  padding-left: 10px;
+  margin-top: 15px;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #084936;
+}
+/* line 126, ../sass/partials/_pagina_testo.scss */
+.pagina_testo ul {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 580px;
+  list-style: circle;
+}
+/* line 129, ../sass/partials/_pagina_testo.scss */
+.pagina_testo ul li {
+  padding-left: 10px;
+  margin-top: 15px;
+  font-family: 'Droid Sans';
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #084936;
+}
